@@ -332,6 +332,7 @@
             formatLine(" Monsters Total       ", formatInteger(monstersTotal)),                 // 6 spaces
             formatLine(" Mercenaries           ", formatInteger(mercsTotal)),                    // 9 spaces
             formatLine(" Walls/Catapult       ", formatInteger(tierTotals.catapultsWalls)),     // 6 spaces
+            "ADDITIONAL LOSS",
             formatLine(" Gold Total              ", formatInteger(flatTotals.gold)),              // 12 spaces
             formatLine(" Tar Total                ", formatInteger(flatTotals.tar)),              // 14 spaces
             formatLine(" Direct Silver           ", formatInteger(directSilver)),                // 10 spaces
