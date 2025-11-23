@@ -408,7 +408,7 @@
             });
         });
 
-        document.getElementById("direct-silver").value = "0";
+        document.getElementById("direct-silver").value = "";
         document.getElementById("res-food").value = "";
         document.getElementById("res-lumber").value = "";
         document.getElementById("res-stone").value = "";
