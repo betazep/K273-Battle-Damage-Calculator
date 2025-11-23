@@ -101,6 +101,7 @@
 
     const baseCostInputs = new Map();
     const basePills = new Map();
+    let baseCostsCollapsed = true;
 
     const formatInteger = (value) => {
         const num = Number(value);
@@ -326,6 +327,15 @@
         refreshBasePills();
     };
 
+    const setBaseCostsCollapsed = (collapsed) => {
+        baseCostsCollapsed = collapsed;
+        const wrap = document.getElementById("base-costs-wrap");
+        const toggle = document.getElementById("toggle-base-costs");
+        if (!wrap || !toggle) return;
+        wrap.classList.toggle("is-collapsed", collapsed);
+        toggle.textContent = collapsed ? "Show" : "Hide";
+    };
+
     const copySummary = async () => {
         const textarea = document.getElementById("summary-text");
         const text = textarea.value;
@@ -375,6 +385,9 @@
         document.getElementById("calculate-btn").addEventListener("click", calculate);
         document.getElementById("copy-btn").addEventListener("click", copySummary);
         document.getElementById("reset-btn").addEventListener("click", resetInputs);
+        document.getElementById("toggle-base-costs").addEventListener("click", () => {
+            setBaseCostsCollapsed(!baseCostsCollapsed);
+        });
 
         document.addEventListener("input", (event) => {
             const target = event.target;
@@ -389,6 +402,7 @@
         renderFlatLosses();
         renderTierLosses();
         bindEvents();
+        setBaseCostsCollapsed(true);
         calculate();
     });
 })();

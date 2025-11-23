@@ -228,6 +228,11 @@ input:focus, textarea:focus {
     color: var(--text);
 }
 
+.btn-small {
+    padding: 8px 12px;
+    font-size: 14px;
+}
+
 .btn:hover {
     transform: translateY(-1px);
 }
@@ -271,6 +276,19 @@ textarea {
     padding: 18px 12px 26px;
     color: var(--muted);
     font-size: 14px;
+}
+
+.collapsible {
+    transition: max-height 0.2s ease, opacity 0.2s ease;
+    overflow: hidden;
+    max-height: 1200px;
+    opacity: 1;
+}
+
+.collapsible.is-collapsed {
+    max-height: 0;
+    opacity: 0;
+    pointer-events: none;
 }
 
 @media (max-width: 960px) {
