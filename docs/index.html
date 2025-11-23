@@ -3,15 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Total Battle Damage Calculator</title>
+    <title>Total Battle Kingdom 273</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <header class="hero">
         <div class="hero__content">
-            <p class="eyebrow">K273 | Illegal Attack Calculator</p>
-            <h1>Total Battle Damage</h1>
-            <p class="lede">Enter losses, edit base costs, and generate a copy-ready summary for ROE messages.</p>
+            <p class="eyebrow">K273 | Tools & Links</p>
+            <h1>Total Battle Kingdom 273</h1>
+            <p class="lede">Quick access to our calculators and resources.</p>
         </div>
     </header>
 
@@ -19,95 +19,20 @@
         <section class="panel">
             <div class="panel__head">
                 <div>
-                    <p class="eyebrow">Base costs</p>
-                    <h2>Defaults</h2>
-                    <p class="small">Adjust only if rules change. Values are saved for this session only.</p>
-                </div>
-                <button id="toggle-base-costs" class="btn ghost btn-small" type="button">Hide</button>
-            </div>
-            <div id="base-costs-wrap" class="collapsible">
-                <div id="base-costs" class="base-grid"></div>
-            </div>
-        </section>
-
-        <section class="panel">
-            <div class="panel__head">
-                <div>
-                    <p class="eyebrow">Simple losses</p>
-                    <h2>Flat cost entries</h2>
-                    <p class="small">Enter basic counts for flat cost units lost.</p>
+                    <p class="eyebrow">Calculator</p>
+                    <h2>Illegal Attack Damage</h2>
+                    <p class="small">Use the battle damage calculator to generate ROE-ready summaries.</p>
                 </div>
             </div>
-            <div id="flat-losses" class="card-grid"></div>
-        </section>
-
-        <section class="panel">
-            <div class="panel__head">
-                <div>
-                    <p class="eyebrow">Tiered losses</p>
-                    <h2>Level-based entries</h2>
-                    <p class="small">Enter counts for each level of units lost.</p>
-                </div>
-            </div>
-            <div id="tier-losses" class="card-grid"></div>
-        </section>
-
-        <section class="panel">
-            <div class="panel__head">
-                <div>
-                    <p class="eyebrow">Summary</p>
-                    <h2>Totals & copy block</h2>
-                    <p class="small">Direct silver adds to total loss. Resources remain unconverted.</p>
-                </div>
-            </div>
-
-            <div class="summary-grid">
-                <div class="summary-inputs">
-                    <div class="field">
-                        <label for="direct-silver">Direct Silver</label>
-                        <input type="number" id="direct-silver" min="0" value="0" inputmode="numeric">
+            <div class="card-grid">
+                <div class="card">
+                    <div class="card__title">
+                        <h3>Total Battle Damage Calculator</h3>
                     </div>
-                    <div class="resource-grid">
-                        <div class="field">
-                            <label for="res-food">Food</label>
-                            <input type="text" id="res-food" placeholder="0">
-                        </div>
-                        <div class="field">
-                            <label for="res-lumber">Lumber</label>
-                            <input type="text" id="res-lumber" placeholder="0">
-                        </div>
-                        <div class="field">
-                            <label for="res-stone">Stone</label>
-                            <input type="text" id="res-stone" placeholder="0">
-                        </div>
-                        <div class="field">
-                            <label for="res-iron">Iron</label>
-                            <input type="text" id="res-iron" placeholder="0">
-                        </div>
-                    </div>
-
+                    <p class="small">Enter losses, adjust base costs, and copy the formatted message.</p>
                     <div class="actions">
-                        <button id="calculate-btn" class="btn primary" type="button">Calculate</button>
-                        <button id="reset-btn" class="btn ghost" type="button">Reset inputs</button>
+                        <a class="btn primary" href="calculator.html">Open Calculator</a>
                     </div>
-
-                    <div class="totals">
-                        <div>
-                            <p class="label">Silver subtotal</p>
-                            <p class="value" id="silver-subtotal">0</p>
-                        </div>
-                        <div>
-                            <p class="label">Total loss (with Direct Silver)</p>
-                            <p class="value" id="total-loss">0</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="summary-output">
-                    <label for="summary-text">Copy-ready message</label>
-                    <textarea id="summary-text" readonly></textarea>
-                    <button id="copy-btn" class="btn secondary" type="button">Copy summary</button>
-                    <p class="small">One newline is supported by the TB messenger. The block above keeps spacing minimal.</p>
                 </div>
             </div>
         </section>
@@ -116,7 +41,5 @@
     <footer class="footer">
         <p>Built for K273 by Zee</p>
     </footer>
-
-    <script src="js/main.js"></script>
 </body>
 </html>
