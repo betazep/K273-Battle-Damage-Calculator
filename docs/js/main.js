@@ -114,7 +114,7 @@
     };
 
     const formatLine = (label, value, width = 22) => {
-        const padded = label.padEnd(width, " ");
+        const padded = label.padEnd(width, ".");
         return `${padded}: ${value}`;
     };
 
