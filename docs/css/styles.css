@@ -279,14 +279,13 @@ textarea {
 }
 
 .collapsible {
-    transition: max-height 0.2s ease, opacity 0.2s ease;
+    transition: max-height 0.25s ease, opacity 0.2s ease;
     overflow: hidden;
-    max-height: 1200px;
     opacity: 1;
 }
 
 .collapsible.is-collapsed {
-    max-height: 0;
+    max-height: 0 !important;
     opacity: 0;
     pointer-events: none;
 }

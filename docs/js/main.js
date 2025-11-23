@@ -332,8 +332,20 @@
         const wrap = document.getElementById("base-costs-wrap");
         const toggle = document.getElementById("toggle-base-costs");
         if (!wrap || !toggle) return;
-        wrap.classList.toggle("is-collapsed", collapsed);
-        toggle.textContent = collapsed ? "Show" : "Hide";
+
+        if (collapsed) {
+            wrap.classList.add("is-collapsed");
+            wrap.style.maxHeight = "0px";
+            wrap.setAttribute("aria-hidden", "true");
+            toggle.textContent = "Show";
+            toggle.setAttribute("aria-expanded", "false");
+        } else {
+            wrap.classList.remove("is-collapsed");
+            wrap.style.maxHeight = `${wrap.scrollHeight}px`;
+            wrap.setAttribute("aria-hidden", "false");
+            toggle.textContent = "Hide";
+            toggle.setAttribute("aria-expanded", "true");
+        }
     };
 
     const copySummary = async () => {
