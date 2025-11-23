@@ -316,7 +316,7 @@
         document.getElementById("silver-subtotal").textContent = formatInteger(silverSubtotal);
         document.getElementById("total-loss").textContent = formatInteger(totalLoss);
 
-        const barLength = 36;
+        const barLength = 33;
         const bar = "=".repeat(barLength);
         const divider = "-".repeat(barLength);
         const lines = [
