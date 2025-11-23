@@ -113,10 +113,7 @@
         return sign + withCommas;
     };
 
-    const formatLine = (label, value, width = 22) => {
-        const padded = label.padEnd(width, ".");
-        return `${padded}: ${value}`;
-    };
+    const formatLine = (label, value) => `${label}: ${value}`;
 
     const parseNonNegative = (value) => {
         const cleaned = `${value ?? ""}`.replace(/,/g, "");
@@ -319,32 +316,33 @@
         document.getElementById("silver-subtotal").textContent = formatInteger(silverSubtotal);
         document.getElementById("total-loss").textContent = formatInteger(totalLoss);
 
-        const bar = "=".repeat(44);
-        const divider = "-".repeat(44);
+        const barLength = 36;
+        const bar = "=".repeat(barLength);
+        const divider = "-".repeat(barLength);
         const lines = [
             bar,
             "ARMY LOSS",
-            formatLine("Scout Events", formatInteger(flatTotals.scoutingEvents)),
-            formatLine("Attack Events", formatInteger(flatTotals.attackEvents)),
-            formatLine("Hero/Captains", formatInteger(heroCaptainsTotal)),
-            formatLine("Sprmen/Archers", formatInteger(tierTotals.spearmenArchers)),
-            formatLine("Specs/Riders", formatInteger(tierTotals.specialistRiders)),
-            formatLine("Spies Total", formatInteger(tierTotals.spies)),
-            formatLine("Monsters Total", formatInteger(monstersTotal)),
-            formatLine("Mercs Total", formatInteger(mercsTotal)),
-            formatLine("Walls/Catapult", formatInteger(tierTotals.catapultsWalls)),
-            formatLine("Portal Closed", formatInteger(flatTotals.portal)),
-            formatLine("Gold", formatInteger(flatTotals.gold)),
-            formatLine("Tar", formatInteger(flatTotals.tar)),
-            formatLine("Direct Silver", formatInteger(directSilver)),
+            formatLine("Scout Events         ", formatInteger(flatTotals.scoutingEvents)),      // 7 spaces
+            formatLine("Attack Events        ", formatInteger(flatTotals.attackEvents)),      // 6 spaces
+            formatLine("Portal Closed         ", formatInteger(flatTotals.portal)),            // 7 spaces
+            formatLine("Hero/Captains       ", formatInteger(heroCaptainsTotal)),             // 6 spaces
+            formatLine("Spearmen/Archers ", formatInteger(tierTotals.spearmenArchers)),      // 1 space
+            formatLine("Specialists/Riders  ", formatInteger(tierTotals.specialistRiders)),  // 2 spaces
+            formatLine("Spies Total             ", formatInteger(tierTotals.spies)),           // 11 spaces
+            formatLine("Monsters Total       ", formatInteger(monstersTotal)),                 // 6 spaces
+            formatLine("Mercenaries           ", formatInteger(mercsTotal)),                    // 9 spaces
+            formatLine("Walls/Catapult       ", formatInteger(tierTotals.catapultsWalls)),     // 6 spaces
+            formatLine("Gold Total              ", formatInteger(flatTotals.gold)),              // 12 spaces
+            formatLine("Tar Total                ", formatInteger(flatTotals.tar)),              // 14 spaces
+            formatLine("Direct Silver           ", formatInteger(directSilver)),                // 10 spaces
             divider,
-            formatLine("TOTAL LOSS", formatInteger(totalLoss)),
+            formatLine("TOTAL SILVER LOSS       ", formatInteger(totalLoss)),                  // 7 spaces
             bar,
             "RESOURCE LOSS",
-            formatLine("Food", resources.food || "0"),
-            formatLine("Lumber", resources.lumber || "0"),
-            formatLine("Stone", resources.stone || "0"),
-            formatLine("Iron", resources.iron || "0"),
+            formatLine("Food                      ", resources.food || "0"),                       // 19 spaces
+            formatLine("Lumber                  ", resources.lumber || "0"),                      // 16 spaces
+            formatLine("Stone                     ", resources.stone || "0"),                      // 18 spaces
+            formatLine("Iron                        ", resources.iron || "0"),                     // 20 spaces
             bar
         ];
 
