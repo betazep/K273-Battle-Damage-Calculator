@@ -106,7 +106,11 @@
     const formatInteger = (value) => {
         const num = Number(value);
         if (!Number.isFinite(num)) return "0";
-        return Math.round(num).toString();
+        const rounded = Math.round(num);
+        const sign = rounded < 0 ? "-" : "";
+        const digits = Math.abs(rounded).toString();
+        const withCommas = digits.replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+        return sign + withCommas;
     };
 
     const parseNonNegative = (value) => {
@@ -166,11 +170,15 @@
             title.className = "card__title";
             const h3 = document.createElement("h3");
             h3.textContent = label;
-            const hint = document.createElement("span");
-            hint.className = "small";
-            hint.textContent = "Base × Count";
+            title.append(h3);
+
+            const meta = document.createElement("div");
+            meta.className = "card__meta";
             const pill = makeBasePill(id);
-            title.append(h3, hint, pill);
+            const formula = document.createElement("span");
+            formula.className = "formula";
+            formula.textContent = "Base × Count";
+            meta.append(pill, formula);
 
             const field = document.createElement("div");
             field.className = "field";
@@ -185,7 +193,7 @@
             input.inputMode = "numeric";
             field.append(labelEl, input);
 
-            card.append(title, field);
+            card.append(title, meta, field);
             container.appendChild(card);
         });
     };
@@ -200,11 +208,18 @@
             title.className = "card__title";
             const h3 = document.createElement("h3");
             h3.textContent = label;
-            const hint = document.createElement("span");
-            hint.className = "small";
-            hint.textContent = multiplier === "tierMinusTwo" ? "Base × Count × (Lvl − 2)" : "Base × Count × Lvl";
+            title.append(h3);
+
+            const meta = document.createElement("div");
+            meta.className = "card__meta";
             const pill = makeBasePill(id);
-            title.append(h3, hint, pill);
+            const formula = document.createElement("span");
+            formula.className = "formula";
+            formula.textContent =
+                multiplier === "tierMinusTwo"
+                    ? "Base × Count × (Lvl − 2)"
+                    : "Base × Count × Lvl";
+            meta.append(pill, formula);
 
             const levelsWrap = document.createElement("div");
             levelsWrap.className = "level-grid";
@@ -225,7 +240,7 @@
                 levelsWrap.appendChild(field);
             });
 
-            card.append(title, levelsWrap);
+            card.append(title, meta, levelsWrap);
             container.appendChild(card);
         });
     };
