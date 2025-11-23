@@ -113,6 +113,11 @@
         return sign + withCommas;
     };
 
+    const formatLine = (label, value, width = 22) => {
+        const padded = label.padEnd(width, " ");
+        return `${padded}: ${value}`;
+    };
+
     const parseNonNegative = (value) => {
         const cleaned = `${value ?? ""}`.replace(/,/g, "");
         const num = Number(cleaned);
@@ -314,28 +319,33 @@
         document.getElementById("silver-subtotal").textContent = formatInteger(silverSubtotal);
         document.getElementById("total-loss").textContent = formatInteger(totalLoss);
 
+        const bar = "=".repeat(44);
+        const divider = "-".repeat(44);
         const lines = [
+            bar,
             "ARMY LOSS",
-            `- Scout Events: ${formatInteger(flatTotals.scoutingEvents)}`,
-            `- Attack Events: ${formatInteger(flatTotals.attackEvents)}`,
-            `- Hero/Captains: ${formatInteger(heroCaptainsTotal)}`,
-            `- Sprmen/Archers: ${formatInteger(tierTotals.spearmenArchers)}`,
-            `- Specs/Riders: ${formatInteger(tierTotals.specialistRiders)}`,
-            `- Spies Total: ${formatInteger(tierTotals.spies)}`,
-            `- Monsters Total: ${formatInteger(monstersTotal)}`,
-            `- Mercs total: ${formatInteger(mercsTotal)}`,
-            `- Walls/Catapult: ${formatInteger(tierTotals.catapultsWalls)}`,
-            `- Portal Closed: ${formatInteger(flatTotals.portal)}`,
-            `- Gold: ${formatInteger(flatTotals.gold)}`,
-            `- Tar: ${formatInteger(flatTotals.tar)}`,
-            `- Direct Silver: ${formatInteger(directSilver)}`,
-            `TOTAL LOSS = ${formatInteger(totalLoss)}`,
-            "",
+            formatLine("Scout Events", formatInteger(flatTotals.scoutingEvents)),
+            formatLine("Attack Events", formatInteger(flatTotals.attackEvents)),
+            formatLine("Hero/Captains", formatInteger(heroCaptainsTotal)),
+            formatLine("Sprmen/Archers", formatInteger(tierTotals.spearmenArchers)),
+            formatLine("Specs/Riders", formatInteger(tierTotals.specialistRiders)),
+            formatLine("Spies Total", formatInteger(tierTotals.spies)),
+            formatLine("Monsters Total", formatInteger(monstersTotal)),
+            formatLine("Mercs Total", formatInteger(mercsTotal)),
+            formatLine("Walls/Catapult", formatInteger(tierTotals.catapultsWalls)),
+            formatLine("Portal Closed", formatInteger(flatTotals.portal)),
+            formatLine("Gold", formatInteger(flatTotals.gold)),
+            formatLine("Tar", formatInteger(flatTotals.tar)),
+            formatLine("Direct Silver", formatInteger(directSilver)),
+            divider,
+            formatLine("TOTAL LOSS", formatInteger(totalLoss)),
+            bar,
             "RESOURCE LOSS",
-            `Food: ${resources.food}`,
-            `Lumber: ${resources.lumber}`,
-            `Stone: ${resources.stone}`,
-            `Iron: ${resources.iron}`
+            formatLine("Food", resources.food || "0"),
+            formatLine("Lumber", resources.lumber || "0"),
+            formatLine("Stone", resources.stone || "0"),
+            formatLine("Iron", resources.iron || "0"),
+            bar
         ];
 
         document.getElementById("summary-text").value = lines.join("\n");
