@@ -1,0 +1,14 @@
+{
+  "name": "k273bdc",
+  "version": "1.0.0",
+  "description": "Battle Damages Calulator for K273",
+  "main": "docs/index.html",
+  "scripts": {
+    "start": "open docs/index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {}
+}
