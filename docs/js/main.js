@@ -328,21 +328,21 @@
             formatLine(" Hero/Captains       ", formatInteger(heroCaptainsTotal)),             // 6 spaces
             formatLine(" Spearmen/Archers ", formatInteger(tierTotals.spearmenArchers)),      // 1 space
             formatLine(" Specialists/Riders  ", formatInteger(tierTotals.specialistRiders)),  // 2 spaces
-            formatLine(" Spies Total             ", formatInteger(tierTotals.spies)),           // 11 spaces
+            formatLine(" Spies Total              ", formatInteger(tierTotals.spies)),           // 11 spaces
             formatLine(" Monsters Total       ", formatInteger(monstersTotal)),                 // 6 spaces
-            formatLine(" Mercenaries           ", formatInteger(mercsTotal)),                    // 9 spaces
-            formatLine(" Walls/Catapult       ", formatInteger(tierTotals.catapultsWalls)),     // 6 spaces
+            formatLine(" Mercenaries            ", formatInteger(mercsTotal)),                    // 9 spaces
+            formatLine(" Walls/Catapult        ", formatInteger(tierTotals.catapultsWalls)),     // 6 spaces
             "ADDITIONAL LOSS",
-            formatLine(" Gold Total              ", formatInteger(flatTotals.gold)),              // 12 spaces
-            formatLine(" Tar Total                ", formatInteger(flatTotals.tar)),              // 14 spaces
-            formatLine(" Direct Silver           ", formatInteger(directSilver)),                // 10 spaces
+            formatLine(" Gold Total                ", formatInteger(flatTotals.gold)),              // 12 spaces
+            formatLine(" Tar Total                   ", formatInteger(flatTotals.tar)),              // 14 spaces
+            formatLine(" Direct Silver             ", formatInteger(directSilver)),                // 10 spaces
             divider,
             formatLine(" TOTAL SILVER LOSS       ", formatInteger(totalLoss)),                  // 7 spaces
             bar,
             "RESOURCE LOSS",
-            formatLine(" Food                      ", resources.food || "0"),                       // 19 spaces
+            formatLine(" Food                       ", resources.food || "0"),                       // 19 spaces
             formatLine(" Lumber                  ", resources.lumber || "0"),                      // 16 spaces
-            formatLine(" Stone                     ", resources.stone || "0"),                      // 18 spaces
+            formatLine(" Stone                      ", resources.stone || "0"),                      // 18 spaces
             formatLine(" Iron                        ", resources.iron || "0"),                     // 20 spaces
             bar
         ];
