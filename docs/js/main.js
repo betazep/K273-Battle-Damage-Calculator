@@ -306,11 +306,17 @@
 
         const totalLoss = silverSubtotal + directSilver;
 
-        const resources = {
+        const resourcesRaw = {
             food: document.getElementById("res-food")?.value.trim() || "0",
             lumber: document.getElementById("res-lumber")?.value.trim() || "0",
             stone: document.getElementById("res-stone")?.value.trim() || "0",
             iron: document.getElementById("res-iron")?.value.trim() || "0"
+        };
+        const resources = {
+            food: formatInteger(parseNonNegative(resourcesRaw.food)),
+            lumber: formatInteger(parseNonNegative(resourcesRaw.lumber)),
+            stone: formatInteger(parseNonNegative(resourcesRaw.stone)),
+            iron: formatInteger(parseNonNegative(resourcesRaw.iron))
         };
 
         document.getElementById("silver-subtotal").textContent = formatInteger(silverSubtotal);

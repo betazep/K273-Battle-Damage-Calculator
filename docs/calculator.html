@@ -60,48 +60,51 @@
                 <div>
                     <p class="eyebrow">Summary</p>
                     <h2>Totals & copy block</h2>
-                    <p class="small">Direct silver adds to total loss. Resources remain unconverted.</p>
+                    <p class="small">Add in any Direct Silver lost as well as any resources.</p>
                 </div>
             </div>
 
             <div class="summary-grid">
-                <div class="summary-inputs">
-                    <div class="field">
-                        <label for="direct-silver">Direct Silver</label>
-                        <input type="number" id="direct-silver" min="0" placeholder="0" inputmode="numeric">
-                    </div>
+                <div class="summary-left">
+                    <div class="summary-inputs">
+                        <div class="field">
+                            <label for="direct-silver">Direct Silver</label>
+                            <input type="number" id="direct-silver" min="0" placeholder="0" inputmode="numeric">
+                        </div>
                     <div class="resource-grid">
                         <div class="field">
                             <label for="res-food">Food</label>
-                            <input type="text" id="res-food" placeholder="0">
+                            <input type="number" id="res-food" placeholder="0" inputmode="numeric">
                         </div>
                         <div class="field">
                             <label for="res-lumber">Lumber</label>
-                            <input type="text" id="res-lumber" placeholder="0">
+                            <input type="number" id="res-lumber" placeholder="0" inputmode="numeric">
                         </div>
                         <div class="field">
                             <label for="res-stone">Stone</label>
-                            <input type="text" id="res-stone" placeholder="0">
+                            <input type="number" id="res-stone" placeholder="0" inputmode="numeric">
                         </div>
                         <div class="field">
                             <label for="res-iron">Iron</label>
-                            <input type="text" id="res-iron" placeholder="0">
+                            <input type="number" id="res-iron" placeholder="0" inputmode="numeric">
                         </div>
                     </div>
-
-                    <div class="actions">
-                        <button id="calculate-btn" class="btn primary" type="button">Calculate</button>
-                        <button id="reset-btn" class="btn ghost" type="button">Reset inputs</button>
                     </div>
 
-                    <div class="totals">
-                        <div>
-                            <p class="label">Silver subtotal</p>
-                            <p class="value" id="silver-subtotal">0</p>
+                    <div class="summary-totals">
+                        <div class="totals">
+                            <div>
+                                <p class="label">Silver subtotal</p>
+                                <p class="value" id="silver-subtotal">0</p>
+                            </div>
+                            <div>
+                                <p class="label">Total loss (with Direct Silver)</p>
+                                <p class="value" id="total-loss">0</p>
+                            </div>
                         </div>
-                        <div>
-                            <p class="label">Total loss (with Direct Silver)</p>
-                            <p class="value" id="total-loss">0</p>
+                        <div class="actions actions--below">
+                            <button id="calculate-btn" class="btn primary" type="button">Calculate</button>
+                            <button id="reset-btn" class="btn ghost" type="button">Reset inputs</button>
                         </div>
                     </div>
                 </div>
@@ -123,6 +126,6 @@
         <p>Built for K273 by Zee</p>
     </footer>
 
-    <script src="js/main.js"></script>
+    <script src="js/main.js?v=1.0.1"></script>
 </body>
 </html>

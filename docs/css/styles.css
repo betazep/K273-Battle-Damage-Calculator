@@ -210,10 +210,38 @@ input:focus, textarea:focus {
     gap: 12px;
 }
 
+.summary-left {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.summary-totals {
+    background: var(--panel-soft);
+    border: 1px solid var(--stroke);
+    border-radius: var(--radius);
+    padding: 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.summary-right {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
 .resource-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    grid-template-columns: repeat(2, minmax(160px, 1fr));
     gap: 10px;
+}
+
+@media (max-width: 680px) {
+    .resource-grid {
+        grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    }
 }
 
 .actions {
@@ -221,6 +249,10 @@ input:focus, textarea:focus {
     gap: 10px;
     flex-wrap: wrap;
     justify-content: flex-end;
+}
+
+.actions--below {
+    margin-top: 12px;
 }
 
 .btn {
@@ -290,10 +322,12 @@ input:focus, textarea:focus {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    flex: 1;
 }
 
 textarea {
     min-height: 260px;
+    flex: 1;
     resize: vertical;
 }
 
