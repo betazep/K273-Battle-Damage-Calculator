@@ -305,6 +305,7 @@
         const heroCaptainsTotal = flatTotals.hero + flatTotals.captain;
 
         const totalLoss = silverSubtotal + directSilver;
+        const totalWithTax = Math.round(totalLoss / 0.8);
 
         const resourcesRaw = {
             food: document.getElementById("res-food")?.value.trim() || "0",
@@ -343,7 +344,8 @@
             formatLine(" Tar Total                   ", formatInteger(flatTotals.tar)),              // 14 spaces
             formatLine(" Direct Silver             ", formatInteger(directSilver)),                // 10 spaces
             divider,
-            formatLine(" TOTAL SILVER LOSS       ", formatInteger(totalLoss)),                  // 7 spaces
+            formatLine(" TOTAL SILVER LOSS      ", formatInteger(totalLoss)),                  // 7 spaces
+            formatLine(" TOTAL (W/ 20% TAX)    ", formatInteger(totalWithTax)),
             bar,
             "RESOURCE LOSS",
             formatLine(" Food                       ", resources.food || "0"),                       // 19 spaces
