@@ -13,7 +13,7 @@
         griffins: 800,
         catapultsWalls: 200,
         mercGuard: 120,
-        mercMonster: 3,
+        mercMonster: 3000,
         gold: 3000,
         tar: 1000
     };
