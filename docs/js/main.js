@@ -15,7 +15,13 @@
         mercGuard: 120,
         mercMonster: 3000,
         gold: 3000,
-        tar: 1000
+        tar: 1000,
+        fortScout: 5000000,
+        fortAttack: 10000000,
+        fortDestroy: 20000000,
+        capScout: 5000000,
+        capAttack: 10000000,
+        capDestroy: 50000000
     };
 
     const baseCostOrder = [
@@ -34,7 +40,31 @@
         { id: "mercGuard", label: "Mercenary Guard" },
         { id: "mercMonster", label: "Mercenary Monster" },
         { id: "gold", label: "Gold" },
-        { id: "tar", label: "Tar" }
+        { id: "tar", label: "Tar" },
+        { id: "fortScout", label: "Fort Scouting" },
+        { id: "fortAttack", label: "Fort Attack (not destroyed)" },
+        { id: "fortDestroy", label: "Fort Attack (destroyed)" },
+        { id: "capScout", label: "Capital Scouting" },
+        { id: "capAttack", label: "Capital Attack (not destroyed)" },
+        { id: "capDestroy", label: "Capital Attack (destroyed)" }
+    ];
+
+    const clanBaseOrder = [
+        { id: "fortScout", label: "Fort Scouting" },
+        { id: "fortAttack", label: "Fort Attack (no destruction)" },
+        { id: "fortDestroy", label: "Fort Attack (destroyed)" },
+        { id: "capScout", label: "Capital Scouting" },
+        { id: "capAttack", label: "Capital Attack (no destruction)" },
+        { id: "capDestroy", label: "Capital Attack (destroyed)" }
+    ];
+
+    const clanCategories = [
+        { id: "fortScout", label: "Fort Scouting", resources: null },
+        { id: "fortAttack", label: "Fort Attack (hit)", resources: null },
+        { id: "fortDestroy", label: "Fort Attack (destroy)", resources: { lumber: true, stone: true, iron: true } },
+        { id: "capScout", label: "Capital Scouting", resources: null },
+        { id: "capAttack", label: "Capital Attack (hit)", resources: null },
+        { id: "capDestroy", label: "Capital Attack (destroy)", resources: { lumber: true, stone: true, iron: true } }
     ];
 
     const flatCategories = [
@@ -102,6 +132,7 @@
     const baseCostInputs = new Map();
     const basePills = new Map();
     let baseCostsCollapsed = true;
+    let clanCollapsed = true;
 
     const formatInteger = (value) => {
         const num = Number(value);
@@ -136,6 +167,31 @@
             input.type = "number";
             input.min = "0";
             input.id = `base-${id}`;
+            input.value = defaultBaseCosts[id];
+            input.inputMode = "numeric";
+
+            baseCostInputs.set(id, input);
+
+            field.appendChild(labelEl);
+            field.appendChild(input);
+            container.appendChild(field);
+        });
+    };
+
+    const renderClanBaseCosts = () => {
+        const container = document.getElementById("clan-base-costs");
+        clanBaseOrder.forEach(({ id, label }) => {
+            const field = document.createElement("div");
+            field.className = "field";
+
+            const labelEl = document.createElement("label");
+            labelEl.htmlFor = `clan-base-${id}`;
+            labelEl.textContent = label;
+
+            const input = document.createElement("input");
+            input.type = "number";
+            input.min = "0";
+            input.id = `clan-base-${id}`;
             input.value = defaultBaseCosts[id];
             input.inputMode = "numeric";
 
@@ -191,6 +247,44 @@
             input.type = "number";
             input.min = "0";
             input.id = `count-${id}`;
+            input.placeholder = "0";
+            input.inputMode = "numeric";
+            field.append(labelEl, input);
+
+            card.append(title, meta, field);
+            container.appendChild(card);
+        });
+    };
+
+    const renderClanLosses = () => {
+        const container = document.getElementById("clan-losses");
+        clanCategories.forEach(({ id, label }) => {
+            const card = document.createElement("div");
+            card.className = "card";
+
+            const title = document.createElement("div");
+            title.className = "card__title";
+            const h3 = document.createElement("h3");
+            h3.textContent = label;
+            title.append(h3);
+
+            const meta = document.createElement("div");
+            meta.className = "card__meta";
+            const pill = makeBasePill(id);
+            const formula = document.createElement("span");
+            formula.className = "formula";
+            formula.textContent = "Base × Count";
+            meta.append(pill, formula);
+
+            const field = document.createElement("div");
+            field.className = "field";
+            const labelEl = document.createElement("label");
+            labelEl.htmlFor = `clan-count-${id}`;
+            labelEl.textContent = "Count";
+            const input = document.createElement("input");
+            input.type = "number";
+            input.min = "0";
+            input.id = `clan-count-${id}`;
             input.placeholder = "0";
             input.inputMode = "numeric";
             field.append(labelEl, input);
@@ -277,9 +371,35 @@
         return totals;
     };
 
+    const sumClan = () => {
+        const includeClan = document.getElementById("include-clan")?.checked;
+        const totals = {};
+        let silver = 0;
+        const resources = { food: 0, lumber: 0, stone: 0, iron: 0 };
+        if (!includeClan) {
+            clanCategories.forEach(({ id }) => (totals[id] = 0));
+            return { totals, silver, resources };
+        }
+        clanCategories.forEach(({ id, resources: resKeys }) => {
+            const base = getBase(id);
+            const count = parseNonNegative(document.getElementById(`clan-count-${id}`)?.value);
+            const subtotal = Math.round(base * count);
+            totals[id] = subtotal;
+            silver += subtotal;
+            if (resKeys) {
+                if (resKeys.lumber) resources.lumber += base * count;
+                if (resKeys.stone) resources.stone += base * count;
+                if (resKeys.iron) resources.iron += base * count;
+            }
+        });
+        return { totals, silver, resources };
+    };
+
     const calculate = () => {
+        const includeClan = document.getElementById("include-clan")?.checked;
         const flatTotals = sumFlat();
         const tierTotals = sumTiered();
+        const clanTotals = sumClan();
         const directSilver = parseNonNegative(document.getElementById("direct-silver")?.value);
 
         const silverSubtotal =
@@ -298,7 +418,8 @@
             tierTotals.mercGuard +
             tierTotals.mercMonster +
             flatTotals.gold +
-            flatTotals.tar;
+            flatTotals.tar +
+            clanTotals.silver;
 
         const monstersTotal = flatTotals.monsters12 + tierTotals.monsters37 + tierTotals.griffins;
         const mercsTotal = tierTotals.mercGuard + tierTotals.mercMonster;
@@ -314,10 +435,10 @@
             iron: document.getElementById("res-iron")?.value.trim() || "0"
         };
         const resources = {
-            food: formatInteger(parseNonNegative(resourcesRaw.food)),
-            lumber: formatInteger(parseNonNegative(resourcesRaw.lumber)),
-            stone: formatInteger(parseNonNegative(resourcesRaw.stone)),
-            iron: formatInteger(parseNonNegative(resourcesRaw.iron))
+            food: formatInteger(parseNonNegative(resourcesRaw.food) + clanTotals.resources.food),
+            lumber: formatInteger(parseNonNegative(resourcesRaw.lumber) + clanTotals.resources.lumber),
+            stone: formatInteger(parseNonNegative(resourcesRaw.stone) + clanTotals.resources.stone),
+            iron: formatInteger(parseNonNegative(resourcesRaw.iron) + clanTotals.resources.iron)
         };
 
         document.getElementById("silver-subtotal").textContent = formatInteger(silverSubtotal);
@@ -327,7 +448,22 @@
         const bar = "=".repeat(barLength);
         const divider = "-".repeat(barLength);
         const lines = [
-            bar,
+            bar
+        ];
+
+        if (includeClan) {
+            lines.push(
+                "CLAN BUILDINGS",
+                formatLine(" Fort Scouting                 ", formatInteger(clanTotals.totals.fortScout || 0)),
+                formatLine(" Fort Attack (hit)            ", formatInteger(clanTotals.totals.fortAttack || 0)),
+                formatLine(" Fort Attack (destroy)     ", formatInteger(clanTotals.totals.fortDestroy || 0)),
+                formatLine(" Capital Scouting            ", formatInteger(clanTotals.totals.capScout || 0)),
+                formatLine(" Capital Attack (destroy) ", formatInteger(clanTotals.totals.capDestroy || 0)),
+                divider
+            );
+        }
+
+        lines.push(
             "ARMY LOSS",
             formatLine(" Scout Events         ", formatInteger(flatTotals.scoutingEvents)),      // 7 spaces
             formatLine(" Attack Events        ", formatInteger(flatTotals.attackEvents)),      // 6 spaces
@@ -353,7 +489,7 @@
             formatLine(" Stone                      ", resources.stone || "0"),                      // 18 spaces
             formatLine(" Iron                        ", resources.iron || "0"),                     // 20 spaces
             bar
-        ];
+        );
 
         document.getElementById("summary-text").value = lines.join("\n");
         refreshBasePills();
@@ -398,6 +534,27 @@
         document.execCommand("copy");
     };
 
+    const setClanCollapsed = (collapsed) => {
+        clanCollapsed = collapsed;
+        const wrap = document.getElementById("clan-wrap");
+        const toggle = document.getElementById("toggle-clan");
+        if (!wrap || !toggle) return;
+
+        if (collapsed) {
+            wrap.classList.add("is-collapsed");
+            wrap.style.maxHeight = "0px";
+            wrap.setAttribute("aria-hidden", "true");
+            toggle.textContent = "Show";
+            toggle.setAttribute("aria-expanded", "false");
+        } else {
+            wrap.classList.remove("is-collapsed");
+            wrap.style.maxHeight = `${wrap.scrollHeight}px`;
+            wrap.setAttribute("aria-hidden", "false");
+            toggle.textContent = "Hide";
+            toggle.setAttribute("aria-expanded", "true");
+        }
+    };
+
     const resetInputs = () => {
         baseCostOrder.forEach(({ id }) => {
             const input = baseCostInputs.get(id);
@@ -416,6 +573,13 @@
             });
         });
 
+        clanCategories.forEach(({ id }) => {
+            const baseInput = baseCostInputs.get(id);
+            if (baseInput) baseInput.value = defaultBaseCosts[id];
+            const countInput = document.getElementById(`clan-count-${id}`);
+            if (countInput) countInput.value = "";
+        });
+
         document.getElementById("direct-silver").value = "";
         document.getElementById("res-food").value = "";
         document.getElementById("res-lumber").value = "";
@@ -432,6 +596,9 @@
         document.getElementById("toggle-base-costs").addEventListener("click", () => {
             setBaseCostsCollapsed(!baseCostsCollapsed);
         });
+        document.getElementById("toggle-clan").addEventListener("click", () => {
+            setClanCollapsed(!clanCollapsed);
+        });
 
         document.addEventListener("input", (event) => {
             const target = event.target;
@@ -445,8 +612,10 @@
         renderBaseCosts();
         renderFlatLosses();
         renderTierLosses();
+        renderClanLosses();
         bindEvents();
         setBaseCostsCollapsed(true);
+        setClanCollapsed(true);
         calculate();
     });
 })();

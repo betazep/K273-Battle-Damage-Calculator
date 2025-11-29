@@ -36,7 +36,28 @@
         <section class="panel">
             <div class="panel__head">
                 <div>
-                    <p class="eyebrow">Simple losses</p>
+                    <p class="eyebrow">Clan buildings</p>
+                    <h2>Optional losses</h2>
+                    <p class="small">Include only when forts/capitals are hit. Defaults are editable.</p>
+                </div>
+                <div class="toggle-wrap">
+                    <span class="small">Include in Report</span>
+                    <label class="switch">
+                        <input type="checkbox" id="include-clan">
+                        <span class="slider"></span>
+                    </label>
+                    <button id="toggle-clan" class="btn ghost btn-small" type="button">Show</button>
+                </div>
+            </div>
+            <div id="clan-wrap" class="collapsible is-collapsed">
+                <div class="card-grid" id="clan-losses"></div>
+            </div>
+        </section>
+
+        <section class="panel">
+            <div class="panel__head">
+                <div>
+                    <p class="eyebrow">Army losses</p>
                     <h2>Flat cost entries</h2>
                     <p class="small">Enter basic counts for flat cost units lost.</p>
                 </div>
@@ -47,7 +68,7 @@
         <section class="panel">
             <div class="panel__head">
                 <div>
-                    <p class="eyebrow">Tiered losses</p>
+                    <p class="eyebrow">Army tiered losses</p>
                     <h2>Level-based entries</h2>
                     <p class="small">Enter counts for each level of units lost.</p>
                 </div>
@@ -126,6 +147,6 @@
         <p>Built for K273 by Zee</p>
     </footer>
 
-    <script src="js/main.js?v=1.0.2"></script>
+    <script src="js/main.js?v=1.0.4"></script>
 </body>
 </html>
