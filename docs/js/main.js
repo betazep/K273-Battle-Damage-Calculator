@@ -59,12 +59,12 @@
     ];
 
     const clanCategories = [
-        { id: "fortScout", label: "Fort Scouting", resources: null },
-        { id: "fortAttack", label: "Fort Attack (hit)", resources: null },
-        { id: "fortDestroy", label: "Fort Attack (destroy)", resources: { lumber: true, stone: true, iron: true } },
-        { id: "capScout", label: "Capital Scouting", resources: null },
-        { id: "capAttack", label: "Capital Attack (hit)", resources: null },
-        { id: "capDestroy", label: "Capital Attack (destroy)", resources: { lumber: true, stone: true, iron: true } }
+        { id: "fortScout", label: "Fort Scouting" },
+        { id: "fortAttack", label: "Fort Attack (hit)" },
+        { id: "fortDestroy", label: "Fort Attack (destroy)" },
+        { id: "capScout", label: "Capital Scouting" },
+        { id: "capAttack", label: "Capital Attack (hit)" },
+        { id: "capDestroy", label: "Capital Attack (destroy)" }
     ];
 
     const flatCategories = [
@@ -375,24 +375,18 @@
         const includeClan = document.getElementById("include-clan")?.checked;
         const totals = {};
         let silver = 0;
-        const resources = { food: 0, lumber: 0, stone: 0, iron: 0 };
         if (!includeClan) {
             clanCategories.forEach(({ id }) => (totals[id] = 0));
-            return { totals, silver, resources };
+            return { totals, silver };
         }
-        clanCategories.forEach(({ id, resources: resKeys }) => {
+        clanCategories.forEach(({ id }) => {
             const base = getBase(id);
             const count = parseNonNegative(document.getElementById(`clan-count-${id}`)?.value);
             const subtotal = Math.round(base * count);
             totals[id] = subtotal;
             silver += subtotal;
-            if (resKeys) {
-                if (resKeys.lumber) resources.lumber += base * count;
-                if (resKeys.stone) resources.stone += base * count;
-                if (resKeys.iron) resources.iron += base * count;
-            }
         });
-        return { totals, silver, resources };
+        return { totals, silver };
     };
 
     const calculate = () => {
@@ -435,10 +429,10 @@
             iron: document.getElementById("res-iron")?.value.trim() || "0"
         };
         const resources = {
-            food: formatInteger(parseNonNegative(resourcesRaw.food) + clanTotals.resources.food),
-            lumber: formatInteger(parseNonNegative(resourcesRaw.lumber) + clanTotals.resources.lumber),
-            stone: formatInteger(parseNonNegative(resourcesRaw.stone) + clanTotals.resources.stone),
-            iron: formatInteger(parseNonNegative(resourcesRaw.iron) + clanTotals.resources.iron)
+            food: formatInteger(parseNonNegative(resourcesRaw.food)),
+            lumber: formatInteger(parseNonNegative(resourcesRaw.lumber)),
+            stone: formatInteger(parseNonNegative(resourcesRaw.stone)),
+            iron: formatInteger(parseNonNegative(resourcesRaw.iron))
         };
 
         document.getElementById("silver-subtotal").textContent = formatInteger(silverSubtotal);
