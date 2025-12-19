@@ -406,6 +406,14 @@ textarea {
     align-items: stretch;
 }
 
+.palace-shell {
+    background: rgba(21, 38, 63, 0.75);
+    border: 1px solid var(--stroke);
+    border-radius: var(--radius);
+    padding: 16px;
+    box-shadow: var(--shadow);
+}
+
 .palace-image {
     background: var(--panel-soft);
     border: 1px solid var(--stroke);
