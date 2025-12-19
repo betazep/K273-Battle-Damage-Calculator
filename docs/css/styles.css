@@ -468,6 +468,12 @@ textarea {
     font-size: 16px;
 }
 
+.update-note {
+    margin-top: 8px;
+    color: var(--muted);
+    font-size: 13px;
+}
+
 .roe-list {
     list-style: none;
     padding: 0;
