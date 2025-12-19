@@ -454,7 +454,7 @@ textarea {
     border-bottom: none;
 }
 
-.data-table tbody td:last-child {
+.data-table tbody td:first-child {
     font-weight: 700;
     font-size: 16px;
 }
