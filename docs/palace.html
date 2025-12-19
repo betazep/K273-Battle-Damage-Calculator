@@ -27,18 +27,6 @@
                     <p class="small">Who holds each seat right now.</p>
                 </div>
             </div>
-            <div class="countdown-grid">
-                <div class="countdown-card">
-                    <p class="eyebrow">Tournament ends in</p>
-                    <p class="countdown-time" id="timer-tournament">--d --h --m --s</p>
-                    <p class="small">8 days 8 hours remain until the current tournament concludes.</p>
-                </div>
-                <div class="countdown-card">
-                    <p class="eyebrow">New king elected in</p>
-                    <p class="countdown-time" id="timer-king">--d --h --m --s</p>
-                    <p class="small">Election begins 48 hours after tournament end (10 days 8 hours from now).</p>
-                </div>
-            </div>
             <div class="palace-shell">
                 <div class="palace-layout">
                     <div class="palace-image">
@@ -118,66 +106,5 @@
     <footer class="footer">
         <p>Built for K273 by Zee</p>
     </footer>
-
-    <script>
-        (() => {
-            const storageKey = "k273-palace-countdown-v1";
-            const tournamentDurationHours = 8 * 24 + 8; // 8 days 8 hours
-            const kingDurationHours = 10 * 24 + 8; // 10 days 8 hours
-            const hourMs = 60 * 60 * 1000;
-
-            const loadTargets = () => {
-                try {
-                    const raw = localStorage.getItem(storageKey);
-                    if (!raw) return null;
-                    const parsed = JSON.parse(raw);
-                    if (!parsed || !parsed.tournament || !parsed.king) return null;
-                    return parsed;
-                } catch (err) {
-                    return null;
-                }
-            };
-
-            const saveTargets = (targets) => {
-                try {
-                    localStorage.setItem(storageKey, JSON.stringify(targets));
-                } catch (err) {
-                    // Ignore storage issues (private mode, etc.)
-                }
-            };
-
-            const now = Date.now();
-            const saved = loadTargets();
-            const targets = saved || {
-                tournament: now + tournamentDurationHours * hourMs,
-                king: now + kingDurationHours * hourMs
-            };
-
-            if (!saved) {
-                saveTargets(targets);
-            }
-
-            const updateTimer = (elId, target) => {
-                const el = document.getElementById(elId);
-                if (!el) return;
-                const diff = Math.max(0, target - Date.now());
-                const totalSeconds = Math.floor(diff / 1000);
-                const days = Math.floor(totalSeconds / 86400);
-                const hours = Math.floor((totalSeconds % 86400) / 3600);
-                const minutes = Math.floor((totalSeconds % 3600) / 60);
-                const seconds = totalSeconds % 60;
-                const pad = (n) => n.toString().padStart(2, "0");
-                el.textContent = `${pad(days)}d ${pad(hours)}h ${pad(minutes)}m ${pad(seconds)}s`;
-            };
-
-            const tick = () => {
-                updateTimer("timer-tournament", targets.tournament);
-                updateTimer("timer-king", targets.king);
-            };
-
-            tick();
-            setInterval(tick, 1000);
-        })();
-    </script>
 </body>
 </html>
