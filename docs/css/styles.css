@@ -125,6 +125,24 @@ a {
     padding: 6px 10px;
 }
 
+.lang-control label {
+    font-size: 12px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--muted);
+}
+
+.lang-select {
+    background: transparent;
+    border: none;
+    color: var(--text);
+    font-size: 13px;
+}
+
+.lang-select:focus {
+    outline: none;
+}
+
 .lang-select option {
     background: #0f1c2d;
     color: var(--text);
@@ -522,6 +540,10 @@ textarea {
 
 .roe-list ol {
     list-style: decimal;
+}
+
+.roe-lang.is-hidden {
+    display: none;
 }
 
 .footer {

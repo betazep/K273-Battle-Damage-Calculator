@@ -62,159 +62,771 @@
         <section class="panel">
             <div class="panel__head">
                 <div>
-                    <p class="eyebrow">ROE</p>
-                    <h2>Rules of Engagement</h2>
-                    <p class="small">Kingdom guidelines for combat and conduct. <span class="update-note">Last Updated 12/20/2025</span></p>
+                    <p class="eyebrow" id="roe-eyebrow">ROE</p>
+                    <h2 id="roe-title">Rules of Engagement</h2>
+                    <p class="small"><span id="roe-subtitle">Kingdom guidelines for combat and conduct.<br>English version is the official ROE (Translations via AI)<br>Last Updated 12/20/2025</span></p>
+                </div>
+                <div class="lang-control">
+                    <label for="roe-language">Language</label>
+                    <select class="lang-select" id="roe-language">
+                        <option value="en" selected>English</option>
+                        <option value="fr">French</option>
+                        <option value="es">Spanish</option>
+                        <option value="pt">Portuguese</option>
+                        <option value="de">German</option>
+                    </select>
                 </div>
             </div>
-            <p class="roe-intro">By order of King Arihelm, the following ROE is in effect for the kingdom:</p>
-            <ol class="roe-list">
-                <li>
-                    <h3>1. PEACETIME</h3>
-                    <ul class="roe-points">
-                        <li>Attacks on cities are forbidden except during CoT and planned CP exchanges.</li>
-                        <li>Attacks on portals and clan buildings are prohibited. Unless the portal is proven hostile to the clan and or its resources in its territory.</li>
-                        <li>Scouting is a form of aggression.</li>
-                    </ul>
-                </li>
-                <li>
-                    <h3>2. DIPLOMATS</h3>
-                    <ul class="roe-points">
-                        <li>Clans must identify at least one diplomat in their clan description who can assist with dispute resolution. Diplomats must be an active leader or superior.</li>
-                    </ul>
-                </li>
-                <li>
-                    <h3>3. General Rules</h3>
-                    <ul class="roe-points">
-                        <li>All resource buildings within the clan territory belong to that clan.</li>
-                        <li>Including WS and DMs.</li>
-                        <li>Player created resources belong to the individual who created them unless agreed to share between two parties.</li>
-                        <li>Rare crypts belong to the individual who unlocked them.</li>
-                        <li>WS and DMs:
+            <div class="roe-lang" data-lang="en" data-title="Rules of Engagement" data-subtitle-line1="Kingdom guidelines for combat and conduct." data-subtitle-line2="English version is the official ROE (Translations via AI)" data-subtitle-line3="Last Updated 12/20/2025">
+    <p class="roe-intro">By order of King Arihelm, the following ROE is in effect for the kingdom:</p>
+    <ol class="roe-list">
+        <li>
+            <h3>1. PEACETIME</h3>
+            <ul class="roe-points">
+                <li>Attacks on cities are forbidden except during CoT and planned CP exchanges.</li>
+                <li>Attacks on portals and clan buildings are prohibited. Unless the portal is proven hostile to the clan and or its resources in its territory.</li>
+                <li>Scouting is a form of aggression.</li>
+            </ul>
+        </li>
+        <li>
+            <h3>2. DIPLOMATS</h3>
+            <ul class="roe-points">
+                <li>Clans must identify at least one diplomat in their clan description who can assist with dispute resolution. Diplomats must be an active leader or superior.</li>
+            </ul>
+        </li>
+        <li>
+            <h3>3. General Rules</h3>
+            <ul class="roe-points">
+                <li>All resource buildings within the clan territory belong to that clan.</li>
+                <li>Including WS and DMs.</li>
+                <li>Player created resources belong to the individual who created them unless agreed to share between two parties.</li>
+                <li>Rare crypts belong to the individual who unlocked them.</li>
+                <li>WS and DMs:
+                    <ul>
+                        <li>a. There is no longer a registration system.</li>
+                        <li>b. All wild resource buildings (including DM/WS) are first come, first serve (FCFS).</li>
+                        <li>c. Claims cannot be made if you are scouted/attacked in wild resources unless:
                             <ul>
-                                <li>a. There is no longer a registration system.</li>
-                                <li>b. All wild resource buildings (including DM/WS) are first come, first serve (FCFS).</li>
-                                <li>c. Claims cannot be made if you are scouted/attacked in wild resources unless:
-                                    <ul>
-                                        <li>You lose the building.</li>
-                                        <li>You are scouted/attacked and then attacked again. (2x rule)</li>
-                                    </ul>
-                                </li>
-                                <li>d. It is your responsibility to message your diplomat, the other player, and their diplomat/clan leader if someone is scouting you or attacking you in a mine.</li>
+                                <li>You lose the building.</li>
+                                <li>You are scouted/attacked and then attacked again. (2x rule)</li>
                             </ul>
                         </li>
+                        <li>d. It is your responsibility to message your diplomat, the other player, and their diplomat/clan leader if someone is scouting you or attacking you in a mine.</li>
                     </ul>
                 </li>
-                <li>
-                    <h3>4. PALACE COMPENSATION GUIDE --</h3>
-                    <ul class="roe-points">
-                        <li>Every attack or scouting carries a base cost of 1 million silver. Any additional losses, damages, or stolen resources are added on top of this base cost.</li>
-                        <li>RSS: amount equal to the amount stolen</li>
-                        <li>Gold: 1 Gold = 3,000 Silver or gold mines equal to stolen + 10% (by decision of the victim)</li>
-                        <li>Tar: 1 Tar = 1,000 Silver</li>
-                        <li>Gold Bars = no compensation</li>
-                        <li>Illegally closed portal: 1M silver (+1M for illegal attack itself)</li>
-                        <li>Damage is calculated according to the following formula: Damage of lost troops are calculated according to the following formula:
+            </ul>
+        </li>
+        <li>
+            <h3>4. PALACE COMPENSATION GUIDE --</h3>
+            <ul class="roe-points">
+                <li>Every attack or scouting carries a base cost of 1 million silver. Any additional losses, damages, or stolen resources are added on top of this base cost.</li>
+                <li>RSS: amount equal to the amount stolen</li>
+                <li>Gold: 1 Gold = 3,000 Silver or gold mines equal to stolen + 10% (by decision of the victim)</li>
+                <li>Tar: 1 Tar = 1,000 Silver</li>
+                <li>Gold Bars = no compensation</li>
+                <li>Illegally closed portal: 1M silver (+1M for illegal attack itself)</li>
+                <li>Damage is calculated according to the following formula: Damage of lost troops are calculated according to the following formula:
+                    <ul>
+                        <li>Hero= 1.5k</li>
+                        <li>Captain= 1k</li>
+                        <li>Spearmen, Archers = Troops Level x 40</li>
+                        <li>Specialists, Riders = Troops Level x 80</li>
+                        <li>Spies= Troops Level x 100</li>
+                        <li>Griffins= Troops Level x 800</li>
+                        <li>Catapults, Walls Walls Level x 200</li>
+                        <li>Monsters III-VII (Monster Level ⁃ 2) x1.3k</li>
+                        <li>Monsters I & ll=x 8.64k</li>
+                        <li>Mercenary Guard Troops Level x120</li>
+                        <li>Mercenary Monster = Monster Level x 3k</li>
+                    </ul>
+                </li>
+                <li>-FORTS -
+                    <ul>
+                        <li>Scouting = 5 million silver</li>
+                        <li>Attacking without destroying = 10 million silver</li>
+                        <li>Attacking and destroying = 20 million of each Silver, Iron, Wood, Stone</li>
+                    </ul>
+                </li>
+                <li>- CAPITALS -
+                    <ul>
+                        <li>Scouting = 5 million silver</li>
+                        <li>Attacking without destroying = 10 million silver</li>
+                        <li>Attacking and destroying = 50 million of each Silver, Iron, Wood, Stone</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <h3>5. TAXES</h3>
+            <ul class="roe-points">
+                <li>Cities with over 3 days of accrued ingots may be attacked by a member of the Royal Guard after being given 24 hours warning. Gold ingots have zero value to you personally, but the King can use them to turn on bonuses for the whole kingdom. If we have the gold bars, they will be used for the benefit of K273.</li>
+                <li>Maximum gold ingots per city:
+                    <ul>
+                        <li>City 1-9: 2000 Ingots</li>
+                        <li>City 10-19: 3000 Ingots</li>
+                        <li>City 20-24: 10000 Ingots</li>
+                        <li>City 25-29: 35000 Ingots</li>
+                        <li>City 30-34: 60000 Ingots</li>
+                        <li>City 35-39: 70000 Ingots</li>
+                        <li>City 40+: 90000 Ingots</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <h3>6. Members of the Esteemed Kingdom</h3>
+            <ul class="roe-points">
+                <li>Every player must abide by these rules to be protected by ROE. Players not protected are:
+                    <ul>
+                        <li>OUTLAWS</li>
+                        <li>CLANLESS PLAYERS</li>
+                        <li>NON-ROE MEMBERS</li>
+                    </ul>
+                </li>
+                <li>Outlaws – If individuals or clans are unwilling to comply with ROE, who attack clan buildings, or refuse to pay compensation for ROE violations will receive outlaw status. Current Outlaws can be found at #K273/OUTLAWS. The current list of outlaws will be struck clean and start new. This means there are currently no outlaws in the kingdom. The new Royal Guard will share responsibilities in kingdom assistance.</li>
+                <li>Royal Guard: The new Royal Guard is comprised of many clans and has very strong players as members. The RG duties will continue its normal duties like tax collection and enforcement for the Palace. Additional duties will now include assistance in helping clans with outlaws and the kingdom with precision. They will also act as an elite army and kingdom/territorial patrol and defense unit.</li>
+                <li>In addition to activating relationships with the greater clans of the kingdom to assist as needed.</li>
+                <li>Clanless players at or below 250k might are protected and not to be freely attacked.</li>
+                <li>Clanless players less than 250k might attacked are allowed 2x the compensation amount in claims.</li>
+                <li>Interactions with these players should first be to learn about them and their goals in the game. Followed by encouragement to join a clan. Foster growth in the game and play for the kingdom versus personal reward.</li>
+            </ul>
+        </li>
+        <li>
+            <h3>7. Clash of Thrones  CoT</h3>
+            <ul class="roe-points">
+                <li>During, you can scout and attack cities under the following conditions:</li>
+                <li>No Clan Fort Attacks: Attacking another clan's forts or buildings is strictly forbidden.</li>
+                <li>Portal Management: No might restriction applies. Any portal proven to be hostile to clan territories may be attacked with swift justice by the clan being attacked. Clan marches are fully allowed to close hostile portals. During normal peacetime, portals may not be attacked at any time unless proven hostile.</li>
+                <li>Resource Management: Keep resources low during the event to avoid theft; send troops to forts if needed. Practice No Value City (NVC)</li>
+                <li>"Fair Play": Attacking someone significantly weaker (e.g., under half your might) is often considered poor sportsmanship and not allowed. The only instance it is allowed is for a hostile portal. Portals left open by players that have other members attack through them are still at fault for leaving the portal open and may be attacked regardless of their might. An attack report must be provided in all claims made. Under half your might is not allowed. The 50% rule applies.</li>
+            </ul>
+        </li>
+        <li>
+            <h3>8. Conflict Resolution Process</h3>
+            <ul class="roe-points">
+                <li>When the ROE is violated, the following steps should be taken:
+                    <ol>
+                        <li>Contact the other player to attempt to resolve. If no resolution within 24 hours, elevate to your clan diplomat.</li>
+                        <li>If no resolution is reached between clan Diplomats, they may bring the issue before the Court by posting it in #K273/CLAIMS. Only Clan leaders or diplomats are allowed to post claims in this chat.</li>
+                        <li>The judges will adjudicate to define the guilty party (if any) and an acceptable amount of compensation.</li>
+                        <li>If the guilty party (or their clan) refuses to compensate, the Royal Court will determine whether the player or clan should be declared an Outlaw and the Royal Guard will be activated on stand-by.</li>
+                    </ol>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <h3>9. Kingdom Chats to Join</h3>
+            <ul class="roe-points">
+                <li>#K273/ROE</li>
+                <li>#K273/CLAIMS</li>
+                <li>#K273/OUTLAWS</li>
+                <li>~#K273/CPTHUNDERDOME</li>
+                <li>~#K273tbxyz</li>
+                <li>~#K273/ACADEMY</li>
+            </ul>
+        </li>
+    </ol>
+</div>
+<div class="roe-lang" data-lang="fr" data-title="Règles d'engagement" data-subtitle-line1="Directives du royaume pour le combat et la conduite." data-subtitle-line2="La version anglaise est le ROE officiel (Traductions via IA)" data-subtitle-line3="Dernière mise à jour 12/20/2025">
+    <p class="roe-intro">Par ordre du roi Arihelm, le ROE suivant est en vigueur pour le royaume:</p>
+    <ol class="roe-list">
+        <li>
+            <h3>1. TEMPS DE PAIX</h3>
+            <ul class="roe-points">
+                <li>Les attaques contre les villes sont interdites sauf pendant le CoT et les échanges de CP planifiés.</li>
+                <li>Les attaques contre les portails et les bâtiments de clan sont interdites. Sauf si le portail est prouvé hostile au clan et ou à ses ressources sur son territoire.</li>
+                <li>Le scouting est une forme d'agression.</li>
+            </ul>
+        </li>
+        <li>
+            <h3>2. DIPLOMATES</h3>
+            <ul class="roe-points">
+                <li>Les clans doivent identifier au moins un diplomate dans la description de leur clan qui peut aider à la résolution des conflits. Les diplomates doivent être un leader ou un supérieur actif.</li>
+            </ul>
+        </li>
+        <li>
+            <h3>3. Règles générales</h3>
+            <ul class="roe-points">
+                <li>Tous les bâtiments de ressources dans le territoire du clan appartiennent à ce clan.</li>
+                <li>Y compris WS et DMs.</li>
+                <li>Les ressources créées par les joueurs appartiennent à l'individu qui les a créées sauf accord de partage entre deux parties.</li>
+                <li>Les cryptes rares appartiennent à l'individu qui les a débloquées.</li>
+                <li>WS et DMs:
+                    <ul>
+                        <li>a. Il n'y a plus de système d'enregistrement.</li>
+                        <li>b. Tous les bâtiments de ressources sauvages (y compris DM/WS) sont premier arrivé, premier servi (FCFS).</li>
+                        <li>c. Les réclamations ne peuvent pas être faites si vous êtes scouté/attaqué dans des ressources sauvages sauf:
                             <ul>
-                                <li>Hero= 1.5k</li>
-                                <li>Captain= 1k</li>
-                                <li>Spearmen, Archers = Troops Level x 40</li>
-                                <li>Specialists, Riders = Troops Level x 80</li>
-                                <li>Spies= Troops Level x 100</li>
-                                <li>Griffins= Troops Level x 800</li>
-                                <li>Catapults, Walls Walls Level x 200</li>
-                                <li>Monsters III-VII (Monster Level ⁃ 2) x1.3k</li>
-                                <li>Monsters I & ll=x 8.64k</li>
-                                <li>Mercenary Guard Troops Level x120</li>
-                                <li>Mercenary Monster = Monster Level x 3k</li>
+                                <li>Vous perdez le bâtiment.</li>
+                                <li>Vous êtes scouté/attaqué puis attaqué à nouveau. (règle 2x)</li>
                             </ul>
                         </li>
-                        <li>-FORTS -
+                        <li>d. Il est de votre responsabilité de contacter votre diplomate, l'autre joueur et leur diplomate/chef de clan si quelqu'un vous scoute ou vous attaque dans une mine.</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <h3>4. GUIDE DE COMPENSATION DU PALAIS --</h3>
+            <ul class="roe-points">
+                <li>Chaque attaque ou scouting entraîne un coût de base de 1 million de silver. Toute perte supplémentaire, dommage ou ressource volée s'ajoute à ce coût de base.</li>
+                <li>RSS: montant égal au montant volé</li>
+                <li>Gold: 1 Gold = 3,000 Silver ou mines d'or égales au vol + 10% (par décision de la victime)</li>
+                <li>Tar: 1 Tar = 1,000 Silver</li>
+                <li>Gold Bars = aucune compensation</li>
+                <li>Portail fermé illégalement: 1M silver (+1M pour l'attaque illégale elle-même)</li>
+                <li>Les dégâts sont calculés selon la formule suivante: Les pertes de troupes sont calculées selon la formule suivante:
+                    <ul>
+                        <li>Héros= 1.5k</li>
+                        <li>Capitaine= 1k</li>
+                        <li>Lanciers, Archers = Niveau des troupes x 40</li>
+                        <li>Spécialistes, Cavaliers = Niveau des troupes x 80</li>
+                        <li>Espions= Niveau des troupes x 100</li>
+                        <li>Griffons= Niveau des troupes x 800</li>
+                        <li>Catapultes, Murs Niveau des murs x 200</li>
+                        <li>Monstres III-VII (Niveau du monstre ⁃ 2) x1.3k</li>
+                        <li>Monstres I & II = x 8.64k</li>
+                        <li>Garde mercenaire Niveau des troupes x120</li>
+                        <li>Monstre mercenaire = Niveau du monstre x 3k</li>
+                    </ul>
+                </li>
+                <li>-FORTS -
+                    <ul>
+                        <li>Scouting = 5 millions de silver</li>
+                        <li>Attaquer sans détruire = 10 millions de silver</li>
+                        <li>Attaquer et détruire = 20 millions de chaque Silver, Iron, Wood, Stone</li>
+                    </ul>
+                </li>
+                <li>- CAPITALS -
+                    <ul>
+                        <li>Scouting = 5 millions de silver</li>
+                        <li>Attaquer sans détruire = 10 millions de silver</li>
+                        <li>Attaquer et détruire = 50 millions de chaque Silver, Iron, Wood, Stone</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <h3>5. TAXES</h3>
+            <ul class="roe-points">
+                <li>Les villes avec plus de 3 jours d'ingots accumulés peuvent être attaquées par un membre de la Garde royale après un avertissement de 24 heures. Les ingots d'or n'ont aucune valeur pour vous personnellement, mais le Roi peut les utiliser pour activer des bonus pour tout le royaume. Si nous avons les lingots d'or, ils seront utilisés au profit de K273.</li>
+                <li>Maximum d'ingots d'or par ville:
+                    <ul>
+                        <li>Ville 1-9: 2000 Ingots</li>
+                        <li>Ville 10-19: 3000 Ingots</li>
+                        <li>Ville 20-24: 10000 Ingots</li>
+                        <li>Ville 25-29: 35000 Ingots</li>
+                        <li>Ville 30-34: 60000 Ingots</li>
+                        <li>Ville 35-39: 70000 Ingots</li>
+                        <li>Ville 40+: 90000 Ingots</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <h3>6. Membres du Royaume Estimé</h3>
+            <ul class="roe-points">
+                <li>Chaque joueur doit respecter ces règles pour être protégé par le ROE. Les joueurs non protégés sont:
+                    <ul>
+                        <li>HORS-LA-LOI</li>
+                        <li>JOUEURS SANS CLAN</li>
+                        <li>MEMBRES NON-ROE</li>
+                    </ul>
+                </li>
+                <li>Hors-la-loi – Si des individus ou des clans ne veulent pas se conformer au ROE, qui attaquent des bâtiments de clan, ou refusent de payer une compensation pour des violations du ROE recevront le statut de hors-la-loi. Les Hors-la-loi actuels peuvent être trouvés à #K273/OUTLAWS. La liste actuelle des hors-la-loi sera effacée et recommencera à zéro. Cela signifie qu'il n'y a actuellement aucun hors-la-loi dans le royaume. La nouvelle Garde royale partagera les responsabilités de l'assistance au royaume.</li>
+                <li>Garde royale: La nouvelle Garde royale est composée de nombreux clans et a des joueurs très forts comme membres. Les devoirs de la RG continueront ses devoirs normaux comme la collecte des taxes et l'application pour le Palais. Des devoirs supplémentaires incluront désormais l'aide aux clans avec des hors-la-loi et au royaume avec précision. Ils agiront également comme une armée d'élite et une unité de patrouille et de défense du royaume/territoire.</li>
+                <li>En plus d'activer des relations avec les grands clans du royaume pour aider au besoin.</li>
+                <li>Les joueurs sans clan à ou en dessous de 250k de puissance sont protégés et ne doivent pas être attaqués librement.</li>
+                <li>Les joueurs sans clan de moins de 250k de puissance attaqués sont autorisés à réclamer 2x le montant de compensation.</li>
+                <li>Les interactions avec ces joueurs doivent d'abord être pour apprendre à leur sujet et leurs objectifs dans le jeu. Suivi d'encouragement à rejoindre un clan. Favoriser la croissance dans le jeu et jouer pour le royaume plutôt que pour une récompense personnelle.</li>
+            </ul>
+        </li>
+        <li>
+            <h3>7. Clash of Thrones  CoT</h3>
+            <ul class="roe-points">
+                <li>Pendant, vous pouvez scouter et attaquer des villes dans les conditions suivantes:</li>
+                <li>Aucune attaque de fort de clan: Attaquer les forts ou bâtiments d'un autre clan est strictement interdit.</li>
+                <li>Gestion des portails: Aucune restriction de puissance ne s'applique. Tout portail prouvé hostile aux territoires du clan peut être attaqué avec justice rapide par le clan étant attaqué. Les marches de clan sont entièrement autorisées pour fermer les portails hostiles. Pendant la paix normale, les portails ne peuvent pas être attaqués à aucun moment sauf s'ils sont prouvés hostiles.</li>
+                <li>Gestion des ressources: Gardez les ressources basses pendant l'événement pour éviter le vol; envoyez des troupes aux forts si nécessaire. Pratiquez No Value City (NVC)</li>
+                <li>"Fair Play": Attaquer quelqu'un significativement plus faible (par exemple, sous la moitié de votre puissance) est souvent considéré comme une mauvaise sportivité et n'est pas autorisé. La seule instance où c'est autorisé est pour un portail hostile. Les portails laissés ouverts par des joueurs qui ont d'autres membres attaquant à travers eux sont toujours en faute pour avoir laissé le portail ouvert et peuvent être attaqués indépendamment de leur puissance. Un rapport d'attaque doit être fourni dans toutes les réclamations faites. Sous la moitié de votre puissance n'est pas autorisé. La règle des 50% s'applique.</li>
+            </ul>
+        </li>
+        <li>
+            <h3>8. Processus de résolution des conflits</h3>
+            <ul class="roe-points">
+                <li>Lorsque le ROE est violé, les étapes suivantes doivent être suivies:
+                    <ol>
+                        <li>Contactez l'autre joueur pour tenter de résoudre. Si aucune résolution dans les 24 heures, élevez à votre diplomate de clan.</li>
+                        <li>Si aucune résolution n'est atteinte entre les diplomates de clan, ils peuvent porter la question devant la Cour en la publiant dans #K273/CLAIMS. Seuls les chefs de clan ou les diplomates sont autorisés à publier des réclamations dans ce chat.</li>
+                        <li>Les juges trancheront pour définir la partie coupable (le cas échéant) et un montant de compensation acceptable.</li>
+                        <li>Si la partie coupable (ou son clan) refuse de compenser, la Cour royale déterminera si le joueur ou le clan doit être déclaré hors-la-loi et la Garde royale sera activée en attente.</li>
+                    </ol>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <h3>9. Chats du royaume à rejoindre</h3>
+            <ul class="roe-points">
+                <li>#K273/ROE</li>
+                <li>#K273/CLAIMS</li>
+                <li>#K273/OUTLAWS</li>
+                <li>~#K273/CPTHUNDERDOME</li>
+                <li>~#K273tbxyz</li>
+                <li>~#K273/ACADEMY</li>
+            </ul>
+        </li>
+    </ol>
+</div>
+<div class="roe-lang" data-lang="es" data-title="Reglas de enfrentamiento" data-subtitle-line1="Directrices del reino para el combate y la conducta." data-subtitle-line2="La versión en inglés es el ROE oficial (Traducciones vía IA)" data-subtitle-line3="Última actualización 12/20/2025">
+    <p class="roe-intro">Por orden del Rey Arihelm, el siguiente ROE está en vigor para el reino:</p>
+    <ol class="roe-list">
+        <li>
+            <h3>1. TIEMPO DE PAZ</h3>
+            <ul class="roe-points">
+                <li>Los ataques a ciudades están prohibidos excepto durante CoT y los intercambios de CP planificados.</li>
+                <li>Los ataques a portales y edificios de clan están prohibidos. A menos que el portal esté probado como hostil al clan y o sus recursos en su territorio.</li>
+                <li>El scouting es una forma de agresión.</li>
+            </ul>
+        </li>
+        <li>
+            <h3>2. DIPLOMÁTICOS</h3>
+            <ul class="roe-points">
+                <li>Los clanes deben identificar al menos un diplomático en la descripción de su clan que pueda ayudar con la resolución de disputas. Los diplomáticos deben ser un líder o superior activo.</li>
+            </ul>
+        </li>
+        <li>
+            <h3>3. Reglas Generales</h3>
+            <ul class="roe-points">
+                <li>Todos los edificios de recursos dentro del territorio del clan pertenecen a ese clan.</li>
+                <li>Incluyendo WS y DMs.</li>
+                <li>Los recursos creados por jugadores pertenecen al individuo que los creó a menos que se acuerde compartir entre dos partes.</li>
+                <li>Las criptas raras pertenecen al individuo que las desbloqueó.</li>
+                <li>WS y DMs:
+                    <ul>
+                        <li>a. Ya no hay un sistema de registro.</li>
+                        <li>b. Todos los edificios de recursos salvajes (incluyendo DM/WS) son por orden de llegada (FCFS).</li>
+                        <li>c. No se pueden hacer reclamos si eres scoutado/atacado en recursos salvajes a menos que:
                             <ul>
-                                <li>Scouting = 5 million silver</li>
-                                <li>Attacking without destroying = 10 million silver</li>
-                                <li>Attacking and destroying = 20 million of each Silver, Iron, Wood, Stone</li>
+                                <li>Pierdas el edificio.</li>
+                                <li>Seas scoutado/atacado y luego atacado de nuevo. (regla 2x)</li>
                             </ul>
                         </li>
-                        <li>- CAPITALS -
+                        <li>d. Es tu responsabilidad enviar un mensaje a tu diplomático, al otro jugador y a su diplomático/líder de clan si alguien te scoutea o te ataca en una mina.</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <h3>4. GUÍA DE COMPENSACIÓN DEL PALACIO --</h3>
+            <ul class="roe-points">
+                <li>Cada ataque o scouting conlleva un costo base de 1 millón de silver. Cualquier pérdida adicional, daño o recurso robado se agrega encima de este costo base.</li>
+                <li>RSS: cantidad igual a la cantidad robada</li>
+                <li>Gold: 1 Gold = 3,000 Silver o minas de oro iguales a lo robado + 10% (por decisión de la víctima)</li>
+                <li>Tar: 1 Tar = 1,000 Silver</li>
+                <li>Gold Bars = sin compensación</li>
+                <li>Portal cerrado ilegalmente: 1M silver (+1M por el ataque ilegal en sí)</li>
+                <li>El daño se calcula de acuerdo con la siguiente fórmula: Las pérdidas de tropas se calculan de acuerdo con la siguiente fórmula:
+                    <ul>
+                        <li>Héroe= 1.5k</li>
+                        <li>Capitán= 1k</li>
+                        <li>Lanceros, Arqueros = Nivel de tropas x 40</li>
+                        <li>Especialistas, Jinetes = Nivel de tropas x 80</li>
+                        <li>Espías= Nivel de tropas x 100</li>
+                        <li>Grifos= Nivel de tropas x 800</li>
+                        <li>Catapultas, Murallas Nivel de murallas x 200</li>
+                        <li>Monstruos III-VII (Nivel de monstruo ⁃ 2) x1.3k</li>
+                        <li>Monstruos I & II = x 8.64k</li>
+                        <li>Guardia mercenaria Nivel de tropas x120</li>
+                        <li>Monstruo mercenario = Nivel de monstruo x 3k</li>
+                    </ul>
+                </li>
+                <li>- FUERTES -
+                    <ul>
+                        <li>Scouting = 5 millones de silver</li>
+                        <li>Atacar sin destruir = 10 millones de silver</li>
+                        <li>Atacar y destruir = 20 millones de cada Silver, Iron, Wood, Stone</li>
+                    </ul>
+                </li>
+                <li>- CAPITALES -
+                    <ul>
+                        <li>Scouting = 5 millones de silver</li>
+                        <li>Atacar sin destruir = 10 millones de silver</li>
+                        <li>Atacar y destruir = 50 millones de cada Silver, Iron, Wood, Stone</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <h3>5. IMPUESTOS</h3>
+            <ul class="roe-points">
+                <li>Las ciudades con más de 3 días de lingotes acumulados pueden ser atacadas por un miembro de la Guardia Real después de recibir 24 horas de aviso. Los lingotes de oro no tienen valor para ti personalmente, pero el Rey puede usarlos para activar bonificaciones para todo el reino. Si tenemos las barras de oro, se usarán en beneficio de K273.</li>
+                <li>Máximo de lingotes de oro por ciudad:
+                    <ul>
+                        <li>Ciudad 1-9: 2000 Lingotes</li>
+                        <li>Ciudad 10-19: 3000 Lingotes</li>
+                        <li>Ciudad 20-24: 10000 Lingotes</li>
+                        <li>Ciudad 25-29: 35000 Lingotes</li>
+                        <li>Ciudad 30-34: 60000 Lingotes</li>
+                        <li>Ciudad 35-39: 70000 Lingotes</li>
+                        <li>Ciudad 40+: 90000 Lingotes</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <h3>6. Miembros del Reino Estimado</h3>
+            <ul class="roe-points">
+                <li>Cada jugador debe cumplir estas reglas para estar protegido por el ROE. Los jugadores no protegidos son:
+                    <ul>
+                        <li>FORAJIDOS</li>
+                        <li>JUGADORES SIN CLAN</li>
+                        <li>MIEMBROS NO-ROE</li>
+                    </ul>
+                </li>
+                <li>Forajidos – Si individuos o clanes no están dispuestos a cumplir con el ROE, que atacan edificios de clan, o se niegan a pagar compensación por violaciones del ROE recibirán el estatus de forajido. Los Forajidos actuales se pueden encontrar en #K273/OUTLAWS. La lista actual de forajidos se eliminará y comenzará de nuevo. Esto significa que actualmente no hay forajidos en el reino. La nueva Guardia Real compartirá responsabilidades en la asistencia del reino.</li>
+                <li>Guardia Real: La nueva Guardia Real está compuesta por muchos clanes y tiene jugadores muy fuertes como miembros. Los deberes de la RG continuarán sus deberes normales como la recolección de impuestos y la aplicación para el Palacio. Los deberes adicionales ahora incluirán asistencia para ayudar a los clanes con forajidos y al reino con precisión. También actuarán como un ejército de élite y una unidad de patrulla y defensa del reino/territorio.</li>
+                <li>Además de activar relaciones con los grandes clanes del reino para ayudar según sea necesario.</li>
+                <li>Los jugadores sin clan en o por debajo de 250k de poder están protegidos y no deben ser atacados libremente.</li>
+                <li>Los jugadores sin clan de menos de 250k de poder atacados tienen permitido reclamar 2x el monto de compensación.</li>
+                <li>Las interacciones con estos jugadores primero deben ser para conocerlos y sus objetivos en el juego. Seguido de aliento para unirse a un clan. Fomentar el crecimiento en el juego y jugar por el reino versus recompensa personal.</li>
+            </ul>
+        </li>
+        <li>
+            <h3>7. Clash of Thrones  CoT</h3>
+            <ul class="roe-points">
+                <li>Durante, puedes scoutear y atacar ciudades bajo las siguientes condiciones:</li>
+                <li>Sin ataques a fuertes de clan: Atacar los fuertes o edificios de otro clan está estrictamente prohibido.</li>
+                <li>Gestión de Portales: No aplica restricción de poder. Cualquier portal probado como hostil a los territorios del clan puede ser atacado con justicia rápida por el clan que está siendo atacado. Las marchas de clan están totalmente permitidas para cerrar portales hostiles. Durante la paz normal, los portales no pueden ser atacados en ningún momento a menos que se demuestre hostiles.</li>
+                <li>Gestión de Recursos: Mantén los recursos bajos durante el evento para evitar robo; envía tropas a fuertes si es necesario. Practica No Value City (NVC)</li>
+                <li>"Fair Play": Atacar a alguien significativamente más débil (p. ej., por debajo de la mitad de tu poder) a menudo se considera mala deportividad y no está permitido. La única instancia en que se permite es para un portal hostil. Los portales dejados abiertos por jugadores que tienen otros miembros atacando a través de ellos siguen siendo culpables por dejar el portal abierto y pueden ser atacados independientemente de su poder. Se debe proporcionar un informe de ataque en todas las reclamaciones realizadas. Por debajo de la mitad de tu poder no está permitido. Se aplica la regla del 50%.</li>
+            </ul>
+        </li>
+        <li>
+            <h3>8. Proceso de resolución de conflictos</h3>
+            <ul class="roe-points">
+                <li>Cuando el ROE es violado, se deben seguir los siguientes pasos:
+                    <ol>
+                        <li>Contacta al otro jugador para intentar resolver. Si no hay resolución dentro de 24 horas, eleva a tu diplomático de clan.</li>
+                        <li>Si no se llega a una resolución entre diplomáticos de clan, pueden llevar el asunto ante la Corte publicándolo en #K273/CLAIMS. Solo líderes de clan o diplomáticos pueden publicar reclamaciones en este chat.</li>
+                        <li>Los jueces adjudicarán para definir la parte culpable (si la hay) y una cantidad aceptable de compensación.</li>
+                        <li>Si la parte culpable (o su clan) se niega a compensar, la Corte Real determinará si el jugador o clan debe ser declarado forajido y la Guardia Real será activada en espera.</li>
+                    </ol>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <h3>9. Chats del Reino para Unirse</h3>
+            <ul class="roe-points">
+                <li>#K273/ROE</li>
+                <li>#K273/CLAIMS</li>
+                <li>#K273/OUTLAWS</li>
+                <li>~#K273/CPTHUNDERDOME</li>
+                <li>~#K273tbxyz</li>
+                <li>~#K273/ACADEMY</li>
+            </ul>
+        </li>
+    </ol>
+</div>
+<div class="roe-lang" data-lang="pt" data-title="Regras de engajamento" data-subtitle-line1="Diretrizes do reino para combate e conduta." data-subtitle-line2="A versão em inglês é o ROE oficial (Traduções via IA)" data-subtitle-line3="Última atualização 12/20/2025">
+    <p class="roe-intro">Por ordem do Rei Arihelm, o seguinte ROE está em vigor para o reino:</p>
+    <ol class="roe-list">
+        <li>
+            <h3>1. TEMPO DE PAZ</h3>
+            <ul class="roe-points">
+                <li>Ataques a cidades são proibidos, exceto durante o CoT e trocas de CP planejadas.</li>
+                <li>Ataques a portais e edifícios de clã são proibidos. A menos que o portal seja comprovadamente hostil ao clã e ou seus recursos em seu território.</li>
+                <li>O scouting é uma forma de agressão.</li>
+            </ul>
+        </li>
+        <li>
+            <h3>2. DIPLOMATAS</h3>
+            <ul class="roe-points">
+                <li>Os clãs devem identificar pelo menos um diplomata na descrição do clã que possa ajudar na resolução de disputas. Os diplomatas devem ser um líder ou superior ativo.</li>
+            </ul>
+        </li>
+        <li>
+            <h3>3. Regras Gerais</h3>
+            <ul class="roe-points">
+                <li>Todos os edifícios de recursos dentro do território do clã pertencem a esse clã.</li>
+                <li>Incluindo WS e DMs.</li>
+                <li>Recursos criados por jogadores pertencem ao indivíduo que os criou, a menos que acordado compartilhar entre duas partes.</li>
+                <li>Criptas raras pertencem ao indivíduo que as desbloqueou.</li>
+                <li>WS e DMs:
+                    <ul>
+                        <li>a. Não existe mais um sistema de registro.</li>
+                        <li>b. Todos os edifícios de recursos selvagens (incluindo DM/WS) são por ordem de chegada (FCFS).</li>
+                        <li>c. Reivindicações não podem ser feitas se você for scoutado/atacado em recursos selvagens a menos que:
                             <ul>
-                                <li>Scouting = 5 million silver</li>
-                                <li>Attacking without destroying = 10 million silver</li>
-                                <li>Attacking and destroying = 50 million of each Silver, Iron, Wood, Stone</li>
+                                <li>Você perca o edifício.</li>
+                                <li>Você seja scoutado/atacado e então atacado novamente. (regra 2x)</li>
                             </ul>
                         </li>
+                        <li>d. É sua responsabilidade enviar mensagem ao seu diplomata, ao outro jogador e ao diplomata/líder de clã deles se alguém estiver scoutando você ou atacando você em uma mina.</li>
                     </ul>
                 </li>
-                <li>
-                    <h3>5. TAXES</h3>
-                    <ul class="roe-points">
-                        <li>Cities with over 3 days of accrued ingots may be attacked by a member of the Royal Guard after being given 24 hours warning. Gold ingots have zero value to you personally, but the King can use them to turn on bonuses for the whole kingdom. If we have the gold bars, they will be used for the benefit of K273.</li>
-                        <li>Maximum gold ingots per city:
+            </ul>
+        </li>
+        <li>
+            <h3>4. GUIA DE COMPENSAÇÃO DO PALÁCIO --</h3>
+            <ul class="roe-points">
+                <li>Cada ataque ou scouting tem um custo base de 1 milhão de silver. Quaisquer perdas adicionais, danos ou recursos roubados são adicionados a esse custo base.</li>
+                <li>RSS: valor igual ao valor roubado</li>
+                <li>Gold: 1 Gold = 3,000 Silver ou minas de ouro iguais ao roubado + 10% (por decisão da vítima)</li>
+                <li>Tar: 1 Tar = 1,000 Silver</li>
+                <li>Gold Bars = sem compensação</li>
+                <li>Portal fechado ilegalmente: 1M silver (+1M pelo ataque ilegal em si)</li>
+                <li>O dano é calculado de acordo com a seguinte fórmula: As perdas de tropas são calculadas de acordo com a seguinte fórmula:
+                    <ul>
+                        <li>Herói= 1.5k</li>
+                        <li>Capitão= 1k</li>
+                        <li>Lanceiros, Arqueiros = Nível das tropas x 40</li>
+                        <li>Especialistas, Cavaleiros = Nível das tropas x 80</li>
+                        <li>Espiões= Nível das tropas x 100</li>
+                        <li>Grifos= Nível das tropas x 800</li>
+                        <li>Catapultas, Muros Nível dos muros x 200</li>
+                        <li>Monstros III-VII (Nível do monstro ⁃ 2) x1.3k</li>
+                        <li>Monstros I & II = x 8.64k</li>
+                        <li>Guarda mercenária Nível das tropas x120</li>
+                        <li>Monstro mercenário = Nível do monstro x 3k</li>
+                    </ul>
+                </li>
+                <li>- FORTES -
+                    <ul>
+                        <li>Scouting = 5 milhões de silver</li>
+                        <li>Atacar sem destruir = 10 milhões de silver</li>
+                        <li>Atacar e destruir = 20 milhões de cada Silver, Iron, Wood, Stone</li>
+                    </ul>
+                </li>
+                <li>- CAPITAIS -
+                    <ul>
+                        <li>Scouting = 5 milhões de silver</li>
+                        <li>Atacar sem destruir = 10 milhões de silver</li>
+                        <li>Atacar e destruir = 50 milhões de cada Silver, Iron, Wood, Stone</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <h3>5. IMPOSTOS</h3>
+            <ul class="roe-points">
+                <li>Cidades com mais de 3 dias de lingotes acumulados podem ser atacadas por um membro da Guarda Real após receberem aviso de 24 horas. Lingotes de ouro não têm valor pessoal para você, mas o Rei pode usá-los para ativar bônus para todo o reino. Se tivermos as barras de ouro, elas serão usadas para o benefício de K273.</li>
+                <li>Máximo de lingotes de ouro por cidade:
+                    <ul>
+                        <li>Cidade 1-9: 2000 Lingotes</li>
+                        <li>Cidade 10-19: 3000 Lingotes</li>
+                        <li>Cidade 20-24: 10000 Lingotes</li>
+                        <li>Cidade 25-29: 35000 Lingotes</li>
+                        <li>Cidade 30-34: 60000 Lingotes</li>
+                        <li>Cidade 35-39: 70000 Lingotes</li>
+                        <li>Cidade 40+: 90000 Lingotes</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <h3>6. Membros do Reino Estimado</h3>
+            <ul class="roe-points">
+                <li>Todo jogador deve seguir estas regras para ser protegido pelo ROE. Jogadores não protegidos são:
+                    <ul>
+                        <li>FORAS-DA-LEI</li>
+                        <li>JOGADORES SEM CLÃ</li>
+                        <li>MEMBROS NÃO-ROE</li>
+                    </ul>
+                </li>
+                <li>Foras-da-lei – Se indivíduos ou clãs não estiverem dispostos a cumprir o ROE, que atacam edifícios de clã, ou se recusam a pagar compensação por violações do ROE receberão status de fora-da-lei. Os Foras-da-lei atuais podem ser encontrados em #K273/OUTLAWS. A lista atual de foras-da-lei será apagada e começará nova. Isso significa que atualmente não há foras-da-lei no reino. A nova Guarda Real compartilhará responsabilidades na assistência do reino.</li>
+                <li>Guarda Real: A nova Guarda Real é composta por muitos clãs e possui jogadores muito fortes como membros. As funções da RG continuarão suas funções normais como cobrança de impostos e aplicação para o Palácio. Funções adicionais agora incluirão assistência para ajudar clãs com foras-da-lei e o reino com precisão. Eles também agirão como um exército de elite e uma unidade de patrulha e defesa do reino/território.</li>
+                <li>Além de ativar relações com os grandes clãs do reino para ajudar conforme necessário.</li>
+                <li>Jogadores sem clã com ou abaixo de 250k de poder são protegidos e não devem ser atacados livremente.</li>
+                <li>Jogadores sem clã com menos de 250k de poder atacados têm direito a 2x o valor de compensação nas reivindicações.</li>
+                <li>Interações com esses jogadores devem primeiro ser para conhecer sobre eles e seus objetivos no jogo. Seguido de incentivo para entrar em um clã. Promover crescimento no jogo e jogar pelo reino versus recompensa pessoal.</li>
+            </ul>
+        </li>
+        <li>
+            <h3>7. Clash of Thrones  CoT</h3>
+            <ul class="roe-points">
+                <li>Durante, você pode scoutar e atacar cidades sob as seguintes condições:</li>
+                <li>Sem Ataques a Fortes de Clã: Atacar os fortes ou edifícios de outro clã é estritamente proibido.</li>
+                <li>Gestão de Portais: Nenhuma restrição de poder se aplica. Qualquer portal comprovadamente hostil aos territórios do clã pode ser atacado com justiça rápida pelo clã que está sendo atacado. Marchas de clã são totalmente permitidas para fechar portais hostis. Durante a paz normal, portais não podem ser atacados em nenhum momento a menos que sejam comprovadamente hostis.</li>
+                <li>Gestão de Recursos: Mantenha recursos baixos durante o evento para evitar roubo; envie tropas para fortes se necessário. Pratique No Value City (NVC)</li>
+                <li>"Fair Play": Atacar alguém significativamente mais fraco (por exemplo, abaixo da metade do seu poder) é frequentemente considerado falta de esportividade e não é permitido. A única instância em que é permitido é para um portal hostil. Portais deixados abertos por jogadores que têm outros membros atacando através deles ainda estão em falta por deixar o portal aberto e podem ser atacados independentemente do poder. Um relatório de ataque deve ser fornecido em todas as reivindicações feitas. Abaixo da metade do seu poder não é permitido. A regra de 50% se aplica.</li>
+            </ul>
+        </li>
+        <li>
+            <h3>8. Processo de resolução de conflitos</h3>
+            <ul class="roe-points">
+                <li>Quando o ROE é violado, as seguintes etapas devem ser tomadas:
+                    <ol>
+                        <li>Contate o outro jogador para tentar resolver. Se não houver resolução dentro de 24 horas, eleve para seu diplomata de clã.</li>
+                        <li>Se nenhuma resolução for alcançada entre diplomatas de clã, eles podem levar o assunto ao Tribunal postando-o em #K273/CLAIMS. Apenas líderes de clã ou diplomatas podem postar reivindicações neste chat.</li>
+                        <li>Os juízes irão adjudicar para definir a parte culpada (se houver) e um valor aceitável de compensação.</li>
+                        <li>Se a parte culpada (ou seu clã) se recusar a compensar, a Corte Real determinará se o jogador ou clã deve ser declarado fora-da-lei e a Guarda Real será ativada em espera.</li>
+                    </ol>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <h3>9. Chats do Reino para Entrar</h3>
+            <ul class="roe-points">
+                <li>#K273/ROE</li>
+                <li>#K273/CLAIMS</li>
+                <li>#K273/OUTLAWS</li>
+                <li>~#K273/CPTHUNDERDOME</li>
+                <li>~#K273tbxyz</li>
+                <li>~#K273/ACADEMY</li>
+            </ul>
+        </li>
+    </ol>
+</div>
+<div class="roe-lang" data-lang="de" data-title="Einsatzregeln" data-subtitle-line1="Richtlinien des Königreichs für Kampf und Verhalten." data-subtitle-line2="Die englische Version ist das offizielle ROE (Übersetzungen via KI)" data-subtitle-line3="Zuletzt aktualisiert 12/20/2025">
+    <p class="roe-intro">Im Auftrag von König Arihelm ist das folgende ROE für das Königreich in Kraft:</p>
+    <ol class="roe-list">
+        <li>
+            <h3>1. FRIEDENSZEIT</h3>
+            <ul class="roe-points">
+                <li>Angriffe auf Städte sind verboten, außer während CoT und geplanten CP-Austauschen.</li>
+                <li>Angriffe auf Portale und Clan-Gebäude sind verboten. Es sei denn, das Portal ist nachweislich feindlich gegenüber dem Clan und oder seinen Ressourcen in seinem Gebiet.</li>
+                <li>Scouting ist eine Form der Aggression.</li>
+            </ul>
+        </li>
+        <li>
+            <h3>2. DIPLOMATEN</h3>
+            <ul class="roe-points">
+                <li>Clans müssen mindestens einen Diplomaten in ihrer Clanbeschreibung benennen, der bei der Streitbeilegung helfen kann. Diplomaten müssen ein aktiver Anführer oder Vorgesetzter sein.</li>
+            </ul>
+        </li>
+        <li>
+            <h3>3. Allgemeine Regeln</h3>
+            <ul class="roe-points">
+                <li>Alle Ressourcen-Gebäude innerhalb des Clan-Territoriums gehören diesem Clan.</li>
+                <li>Einschließlich WS und DMs.</li>
+                <li>Von Spielern erstellte Ressourcen gehören der Person, die sie erstellt hat, sofern nicht vereinbart, zwischen zwei Parteien zu teilen.</li>
+                <li>Seltene Krypten gehören der Person, die sie freigeschaltet hat.</li>
+                <li>WS und DMs:
+                    <ul>
+                        <li>a. Es gibt kein Registrierungssystem mehr.</li>
+                        <li>b. Alle wilden Ressourcen-Gebäude (einschließlich DM/WS) sind first come, first serve (FCFS).</li>
+                        <li>c. Ansprüche können nicht geltend gemacht werden, wenn du in wilden Ressourcen gescoutet/angegriffen wirst, es sei denn:
                             <ul>
-                                <li>City 1-9: 2000 Ingots</li>
-                                <li>City 10-19: 3000 Ingots</li>
-                                <li>City 20-24: 10000 Ingots</li>
-                                <li>City 25-29: 35000 Ingots</li>
-                                <li>City 30-34: 60000 Ingots</li>
-                                <li>City 35-39: 70000 Ingots</li>
-                                <li>City 40+: 90000 Ingots</li>
+                                <li>Du verlierst das Gebäude.</li>
+                                <li>Du wirst gescoutet/angegriffen und dann erneut angegriffen. (2x-Regel)</li>
                             </ul>
                         </li>
+                        <li>d. Es liegt in deiner Verantwortung, deinem Diplomaten, dem anderen Spieler und ihrem Diplomaten/Clanführer eine Nachricht zu senden, wenn dich jemand in einer Mine scoutet oder angreift.</li>
                     </ul>
                 </li>
-                <li>
-                    <h3>6. Members of the Esteemed Kingdom</h3>
-                    <ul class="roe-points">
-                        <li>Every player must abide by these rules to be protected by ROE. Players not protected are:
-                            <ul>
-                                <li>OUTLAWS</li>
-                                <li>CLANLESS PLAYERS</li>
-                                <li>NON-ROE MEMBERS</li>
-                            </ul>
-                        </li>
-                        <li>Outlaws – If individuals or clans are unwilling to comply with ROE, who attack clan buildings, or refuse to pay compensation for ROE violations will receive outlaw status. Current Outlaws can be found at #K273/OUTLAWS. The current list of outlaws will be struck clean and start new. This means there are currently no outlaws in the kingdom. The new Royal Guard will share responsibilities in kingdom assistance.</li>
-                        <li>Royal Guard: The new Royal Guard is comprised of many clans and has very strong players as members. The RG duties will continue its normal duties like tax collection and enforcement for the Palace. Additional duties will now include assistance in helping clans with outlaws and the kingdom with precision. They will also act as an elite army and kingdom/territorial patrol and defense unit.</li>
-                        <li>In addition to activating relationships with the greater clans of the kingdom to assist as needed.</li>
-                        <li>Clanless players at or below 250k might are protected and not to be freely attacked.</li>
-                        <li>Clanless players less than 250k might attacked are allowed 2x the compensation amount in claims.</li>
-                        <li>Interactions with these players should first be to learn about them and their goals in the game. Followed by encouragement to join a clan. Foster growth in the game and play for the kingdom versus personal reward.</li>
+            </ul>
+        </li>
+        <li>
+            <h3>4. PALAST-ENTSCHÄDIGUNGSLEITFADEN --</h3>
+            <ul class="roe-points">
+                <li>Jeder Angriff oder jedes Scouting hat einen Grundpreis von 1 Million Silber. Zusätzliche Verluste, Schäden oder gestohlene Ressourcen werden zu diesem Grundpreis hinzugefügt.</li>
+                <li>RSS: Betrag in Höhe des gestohlenen Betrags</li>
+                <li>Gold: 1 Gold = 3,000 Silver oder Goldminen entsprechend dem gestohlenen Betrag + 10% (nach Entscheidung des Opfers)</li>
+                <li>Tar: 1 Tar = 1,000 Silver</li>
+                <li>Gold Bars = keine Entschädigung</li>
+                <li>Illegal geschlossenes Portal: 1M silver (+1M für den illegalen Angriff selbst)</li>
+                <li>Schaden wird nach folgender Formel berechnet: Verluste an Truppen werden nach folgender Formel berechnet:
+                    <ul>
+                        <li>Held= 1.5k</li>
+                        <li>Kapitän= 1k</li>
+                        <li>Speerträger, Bogenschützen = Truppenstufe x 40</li>
+                        <li>Spezialisten, Reiter = Truppenstufe x 80</li>
+                        <li>Spione= Truppenstufe x 100</li>
+                        <li>Greifen= Truppenstufe x 800</li>
+                        <li>Katapulte, Mauern Mauerstufe x 200</li>
+                        <li>Monster III-VII (Monsterstufe ⁃ 2) x1.3k</li>
+                        <li>Monster I & II = x 8.64k</li>
+                        <li>Söldnergarde Truppenstufe x120</li>
+                        <li>Söldnermonster = Monsterstufe x 3k</li>
                     </ul>
                 </li>
-                <li>
-                    <h3>7. Clash of Thrones  CoT</h3>
-                    <ul class="roe-points">
-                        <li>During, you can scout and attack cities under the following conditions:</li>
-                        <li>No Clan Fort Attacks: Attacking another clan's forts or buildings is strictly forbidden.</li>
-                        <li>Portal Management: No might restriction applies. Any portal proven to be hostile to clan territories may be attacked with swift justice by the clan being attacked. Clan marches are fully allowed to close hostile portals. During normal peacetime, portals may not be attacked at any time unless proven hostile.</li>
-                        <li>Resource Management: Keep resources low during the event to avoid theft; send troops to forts if needed. Practice No Value City (NVC)</li>
-                        <li>"Fair Play": Attacking someone significantly weaker (e.g., under half your might) is often considered poor sportsmanship and not allowed. The only instance it is allowed is for a hostile portal. Portals left open by players that have other members attack through them are still at fault for leaving the portal open and may be attacked regardless of their might. An attack report must be provided in all claims made. Under half your might is not allowed. The 50% rule applies.</li>
+                <li>-FORTS -
+                    <ul>
+                        <li>Scouting = 5 Millionen silver</li>
+                        <li>Angriff ohne Zerstörung = 10 Millionen silver</li>
+                        <li>Angriff und Zerstörung = 20 Millionen von jedem Silver, Iron, Wood, Stone</li>
                     </ul>
                 </li>
-                <li>
-                    <h3>8. Conflict Resolution Process</h3>
-                    <ul class="roe-points">
-                        <li>When the ROE is violated, the following steps should be taken:
-                            <ol>
-                                <li>Contact the other player to attempt to resolve. If no resolution within 24 hours, elevate to your clan diplomat.</li>
-                                <li>If no resolution is reached between clan Diplomats, they may bring the issue before the Court by posting it in #K273/CLAIMS. Only Clan leaders or diplomats are allowed to post claims in this chat.</li>
-                                <li>The judges will adjudicate to define the guilty party (if any) and an acceptable amount of compensation.</li>
-                                <li>If the guilty party (or their clan) refuses to compensate, the Royal Court will determine whether the player or clan should be declared an Outlaw and the Royal Guard will be activated on stand-by.</li>
-                            </ol>
-                        </li>
+                <li>- HAUPTSTÄDTE -
+                    <ul>
+                        <li>Scouting = 5 Millionen silver</li>
+                        <li>Angriff ohne Zerstörung = 10 Millionen silver</li>
+                        <li>Angriff und Zerstörung = 50 Millionen von jedem Silver, Iron, Wood, Stone</li>
                     </ul>
                 </li>
-                <li>
-                    <h3>9. Kingdom Chats to Join</h3>
-                    <ul class="roe-points">
-                        <li>#K273/ROE</li>
-                        <li>#K273/CLAIMS</li>
-                        <li>#K273/OUTLAWS</li>
-                        <li>~#K273/CPTHUNDERDOME</li>
-                        <li>~#K273tbxyz</li>
-                        <li>~#K273/ACADEMY</li>
+            </ul>
+        </li>
+        <li>
+            <h3>5. STEUERN</h3>
+            <ul class="roe-points">
+                <li>Städte mit mehr als 3 Tagen angesammelter Barren können von einem Mitglied der Königlichen Garde nach 24 Stunden Warnung angegriffen werden. Goldbarren haben für dich persönlich keinen Wert, aber der König kann sie verwenden, um Boni für das gesamte Königreich zu aktivieren. Wenn wir die Goldbarren haben, werden sie zum Nutzen von K273 verwendet.</li>
+                <li>Maximale Goldbarren pro Stadt:
+                    <ul>
+                        <li>Stadt 1-9: 2000 Barren</li>
+                        <li>Stadt 10-19: 3000 Barren</li>
+                        <li>Stadt 20-24: 10000 Barren</li>
+                        <li>Stadt 25-29: 35000 Barren</li>
+                        <li>Stadt 30-34: 60000 Barren</li>
+                        <li>Stadt 35-39: 70000 Barren</li>
+                        <li>Stadt 40+: 90000 Barren</li>
                     </ul>
                 </li>
-            </ol>
+            </ul>
+        </li>
+        <li>
+            <h3>6. Mitglieder des Geschätzten Königreichs</h3>
+            <ul class="roe-points">
+                <li>Jeder Spieler muss diese Regeln befolgen, um durch das ROE geschützt zu sein. Spieler, die nicht geschützt sind, sind:
+                    <ul>
+                        <li>GEÄCHTETE</li>
+                        <li>CLANLOSE SPIELER</li>
+                        <li>NICHT-ROE-MITGLIEDER</li>
+                    </ul>
+                </li>
+                <li>Geächtete – Wenn Einzelpersonen oder Clans nicht bereit sind, das ROE einzuhalten, die Clan-Gebäude angreifen oder sich weigern, Entschädigung für ROE-Verstöße zu zahlen, erhalten sie den Status Geächteter. Aktuelle Geächtete sind unter #K273/OUTLAWS zu finden. Die aktuelle Liste der Geächteten wird gelöscht und neu begonnen. Das bedeutet, dass es derzeit keine Geächteten im Königreich gibt. Die neue Königliche Garde wird die Verantwortlichkeiten in der Unterstützung des Königreichs teilen.</li>
+                <li>Königliche Garde: Die neue Königliche Garde besteht aus vielen Clans und hat sehr starke Spieler als Mitglieder. Die Aufgaben der RG werden ihre normalen Aufgaben wie Steuereintreibung und Durchsetzung für den Palast fortsetzen. Zusätzliche Aufgaben werden nun die Unterstützung von Clans mit Geächteten und dem Königreich mit Präzision einschließen. Sie werden auch als Elitearmee und Patrouillen- und Verteidigungseinheit des Königreichs/der Territorien agieren.</li>
+                <li>Zusätzlich zur Aktivierung von Beziehungen zu den großen Clans des Königreichs, um bei Bedarf zu helfen.</li>
+                <li>Clanlose Spieler mit oder unter 250k Macht sind geschützt und dürfen nicht frei angegriffen werden.</li>
+                <li>Clanlose Spieler unter 250k Macht, die angegriffen werden, dürfen 2x den Entschädigungsbetrag in Ansprüchen geltend machen.</li>
+                <li>Interaktionen mit diesen Spielern sollten zuerst dazu dienen, sie und ihre Ziele im Spiel kennenzulernen. Danach Ermutigung, einem Clan beizutreten. Wachstum im Spiel fördern und für das Königreich spielen statt für persönlichen Gewinn.</li>
+            </ul>
+        </li>
+        <li>
+            <h3>7. Clash of Thrones  CoT</h3>
+            <ul class="roe-points">
+                <li>Währenddessen kannst du Städte unter folgenden Bedingungen scouten und angreifen:</li>
+                <li>Keine Clan-Fort-Angriffe: Angriffe auf die Forts oder Gebäude eines anderen Clans sind strikt verboten.</li>
+                <li>Portalverwaltung: Keine Machtbeschränkung gilt. Jedes Portal, das nachweislich feindlich gegenüber Clan-Gebieten ist, kann vom angegriffenen Clan mit schneller Gerechtigkeit angegriffen werden. Clan-Märsche sind vollständig erlaubt, um feindliche Portale zu schließen. Während der normalen Friedenszeit dürfen Portale zu keiner Zeit angegriffen werden, es sei denn, sie sind nachweislich feindlich.</li>
+                <li>Ressourcenverwaltung: Halte Ressourcen während des Events niedrig, um Diebstahl zu vermeiden; schicke bei Bedarf Truppen zu Forts. Praktiziere No Value City (NVC)</li>
+                <li>"Fair Play": Jemanden deutlich Schwächeren anzugreifen (z. B. unter der Hälfte deiner Macht) wird oft als unsportlich angesehen und ist nicht erlaubt. Die einzige Ausnahme ist ein feindliches Portal. Portale, die von Spielern offen gelassen werden, die andere Mitglieder durch sie angreifen lassen, sind weiterhin schuld daran, das Portal offen gelassen zu haben, und können unabhängig von ihrer Macht angegriffen werden. Ein Angriffsbericht muss bei allen geltend gemachten Ansprüchen vorgelegt werden. Unter der Hälfte deiner Macht ist nicht erlaubt. Die 50%-Regel gilt.</li>
+            </ul>
+        </li>
+        <li>
+            <h3>8. Konfliktlösungsprozess</h3>
+            <ul class="roe-points">
+                <li>Wenn das ROE verletzt wird, sollten die folgenden Schritte unternommen werden:
+                    <ol>
+                        <li>Kontaktiere den anderen Spieler, um zu versuchen, eine Lösung zu finden. Wenn innerhalb von 24 Stunden keine Lösung erfolgt, eskaliere zu deinem Clan-Diplomaten.</li>
+                        <li>Wenn zwischen Clan-Diplomaten keine Lösung erreicht wird, können sie das Thema vor den Hof bringen, indem sie es in #K273/CLAIMS posten. Nur Clanführer oder Diplomaten dürfen in diesem Chat Ansprüche posten.</li>
+                        <li>Die Richter werden entscheiden, um die schuldige Partei (falls vorhanden) und eine akzeptable Entschädigungssumme zu bestimmen.</li>
+                        <li>Wenn die schuldige Partei (oder ihr Clan) sich weigert zu entschädigen, entscheidet der Königliche Hof, ob der Spieler oder Clan als Geächteter erklärt werden soll und die Königliche Garde wird in Bereitschaft aktiviert.</li>
+                    </ol>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <h3>9. Königreichs-Chats zum Beitreten</h3>
+            <ul class="roe-points">
+                <li>#K273/ROE</li>
+                <li>#K273/CLAIMS</li>
+                <li>#K273/OUTLAWS</li>
+                <li>~#K273/CPTHUNDERDOME</li>
+                <li>~#K273tbxyz</li>
+                <li>~#K273/ACADEMY</li>
+            </ul>
+        </li>
+    </ol>
+</div>
         </section>
     </main>
 
@@ -225,5 +837,38 @@
     <footer class="footer">
         <p>Built for K273 by Zee</p>
     </footer>
+    <script>
+        (() => {
+            const select = document.getElementById("roe-language");
+            if (!select) return;
+
+            const blocks = Array.from(document.querySelectorAll(".roe-lang"));
+            const title = document.getElementById("roe-title");
+            const subtitle = document.getElementById("roe-subtitle");
+            const applyLanguage = (lang) => {
+                blocks.forEach((block) => {
+                    const match = block.dataset.lang === lang;
+                    block.classList.toggle("is-hidden", !match);
+                    if (match) {
+                        if (title) title.textContent = block.dataset.title || "";
+                        if (subtitle) {
+                            const lines = [
+                                block.dataset.subtitleLine1 || "",
+                                block.dataset.subtitleLine2 || "",
+                                block.dataset.subtitleLine3 || ""
+                            ].filter(Boolean);
+                            subtitle.innerHTML = lines.join("<br>");
+                        }
+                    }
+                });
+            };
+
+            select.addEventListener("change", (event) => {
+                applyLanguage(event.target.value);
+            });
+
+            applyLanguage(select.value);
+        })();
+    </script>
 </body>
 </html>
