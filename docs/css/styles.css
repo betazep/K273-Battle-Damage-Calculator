@@ -480,15 +480,48 @@ textarea {
     margin: 0;
     display: grid;
     gap: 14px;
+    color: var(--muted);
 }
 
 .roe-list h3 {
     margin: 0 0 6px;
+    color: var(--text);
 }
 
-.roe-list p {
+.roe-intro {
+    margin: 0 0 8px;
     color: var(--muted);
     line-height: 1.45;
+}
+
+.roe-points {
+    margin: 0;
+    padding-left: 20px;
+    list-style: disc;
+}
+
+.roe-points > li {
+    margin: 4px 0;
+    line-height: 1.45;
+}
+
+.roe-list ul,
+.roe-list ol {
+    color: var(--muted);
+    margin: 6px 0 0;
+    padding-left: 20px;
+}
+
+.roe-list ul {
+    list-style: disc;
+}
+
+.roe-list ul ul {
+    list-style: circle;
+}
+
+.roe-list ol {
+    list-style: decimal;
 }
 
 .footer {
