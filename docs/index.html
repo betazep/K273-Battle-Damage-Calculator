@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Total Battle Kingdom 273</title>
+    <title data-i18n="index.title">TotalBattle Kingdom 273</title>
     <link rel="icon" href="favicon.ico" sizes="any">
     <link rel="icon" href="favicon-32.png" type="image/png" sizes="32x32">
     <link rel="icon" href="favicon-16.png" type="image/png" sizes="16x16">
@@ -12,10 +12,27 @@
 </head>
 <body>
     <header class="hero">
+        <div class="page-lang">
+            <div class="lang-control">
+                <label for="site-language" data-i18n="site.languageLabel">Language</label>
+                <select class="lang-select" id="site-language">
+                    <option value="en" selected>English</option>
+                    <option value="de">Deutsch</option>
+                    <option value="es">Español</option>
+                    <option value="fr">Français</option>
+                    <option value="no">Norsk</option>
+                    <option value="pl">Polski</option>
+                    <option value="pt">Português</option>
+                    <option value="ru">Русский</option>
+                    <option value="fi">Suomi</option>
+                    <option value="sv">Svenska</option>
+                </select>
+            </div>
+        </div>
         <div class="hero__content">
-            <p class="eyebrow">K273 | Tools & Links</p>
-            <h1>Total Battle Kingdom 273</h1>
-            <p class="lede">Quick access to our calculators and resources.</p>
+            <p class="eyebrow" data-i18n="index.hero.eyebrow">K273 | Tools & Links</p>
+            <h1 data-i18n="index.hero.title">TotalBattle Kingdom 273</h1>
+            <p class="lede" data-i18n="index.hero.lede">Quick access to our calculators and resources.</p>
         </div>
     </header>
 
@@ -23,17 +40,17 @@
         <section class="panel">
             <div class="panel__head">
                 <div>
-                    <p class="eyebrow">Palace</p>
+                    <p class="eyebrow" data-i18n="index.palace.eyebrow">Palace</p>
                 </div>
             </div>
             <div class="card-grid">
                 <div class="card">
                     <div class="card__title">
-                        <h3>Palace Roles & ROE</h3>
+                        <h3 data-i18n="index.palace.card.title">Palace Roles & ROE</h3>
                     </div>
-                    <p class="small">Check the latest palace assignments and the rules of engagement agreed by the kingdom.</p>
+                    <p class="small" data-i18n="index.palace.card.body">Check the latest palace assignments and the rules of engagement agreed by the kingdom.</p>
                     <div class="actions">
-                        <a class="btn primary" href="palace.html">Open Palace Page</a>
+                        <a class="btn primary" href="palace.html" data-i18n="index.palace.card.button">Open Palace Page</a>
                     </div>
                 </div>
             </div>
@@ -42,17 +59,17 @@
         <section class="panel">
             <div class="panel__head">
                 <div>
-                    <p class="eyebrow">TOOLS</p>
+                    <p class="eyebrow" data-i18n="index.tools.eyebrow">TOOLS</p>
                 </div>
             </div>
             <div class="card-grid">
                 <div class="card">
                     <div class="card__title">
-                        <h3>Illegal Attack Damage Cost Calculator</h3>
+                        <h3 data-i18n="index.calc.card.title">Illegal Attack Damage Cost Calculator</h3>
                     </div>
-                    <p class="small">Enter losses and copy the formatted message back to Total Battle chat.</p>
+                    <p class="small" data-i18n="index.calc.card.body">Enter losses and copy the formatted message back to TotalBattle chat.</p>
                     <div class="actions">
-                        <a class="btn primary" href="calculator.html">Open Calculator</a>
+                        <a class="btn primary" href="calculator.html" data-i18n="index.calc.card.button">Open Calculator</a>
                     </div>
                 </div>
             </div>
@@ -60,7 +77,9 @@
     </main>
 
     <footer class="footer">
-        <p>Built for K273 by Zee</p>
+        <p data-i18n="site.footer">Built for K273 by Zee</p>
     </footer>
+    <script src="js/i18n.js"></script>
+    <script src="js/lang.js"></script>
 </body>
 </html>

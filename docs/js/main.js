@@ -25,105 +25,105 @@
     };
 
     const baseCostOrder = [
-        { id: "scoutingEvents", label: "Scouting Events" },
-        { id: "attackEvents", label: "Attack Events" },
-        { id: "portal", label: "Portal" },
-        { id: "hero", label: "Hero" },
-        { id: "captain", label: "Captain" },
-        { id: "monsters12", label: "Monsters 1-2" },
-        { id: "monsters37", label: "Monsters 3-7" },
-        { id: "spearmenArchers", label: "Spearmen / Archers" },
-        { id: "specialistRiders", label: "Specialist / Riders" },
-        { id: "spies", label: "Spies" },
-        { id: "griffins", label: "Griffins" },
-        { id: "catapultsWalls", label: "Catapults / Walls" },
-        { id: "mercGuard", label: "Mercenary Guard" },
-        { id: "mercMonster", label: "Mercenary Monster" },
-        { id: "gold", label: "Gold" },
-        { id: "tar", label: "Tar" },
-        { id: "fortScout", label: "Fort Scouting" },
-        { id: "fortAttack", label: "Fort Attack (not destroyed)" },
-        { id: "fortDestroy", label: "Fort Attack (destroyed)" },
-        { id: "capScout", label: "Capital Scouting" },
-        { id: "capAttack", label: "Capital Attack (not destroyed)" },
-        { id: "capDestroy", label: "Capital Attack (destroyed)" }
+        { id: "scoutingEvents", labelKey: "calc.base.scoutingEvents" },
+        { id: "attackEvents", labelKey: "calc.base.attackEvents" },
+        { id: "portal", labelKey: "calc.base.portal" },
+        { id: "hero", labelKey: "calc.base.hero" },
+        { id: "captain", labelKey: "calc.base.captain" },
+        { id: "monsters12", labelKey: "calc.base.monsters12" },
+        { id: "monsters37", labelKey: "calc.base.monsters37" },
+        { id: "spearmenArchers", labelKey: "calc.base.spearmenArchers" },
+        { id: "specialistRiders", labelKey: "calc.base.specialistRiders" },
+        { id: "spies", labelKey: "calc.base.spies" },
+        { id: "griffins", labelKey: "calc.base.griffins" },
+        { id: "catapultsWalls", labelKey: "calc.base.catapultsWalls" },
+        { id: "mercGuard", labelKey: "calc.base.mercGuard" },
+        { id: "mercMonster", labelKey: "calc.base.mercMonster" },
+        { id: "gold", labelKey: "calc.base.gold" },
+        { id: "tar", labelKey: "calc.base.tar" },
+        { id: "fortScout", labelKey: "calc.base.fortScout" },
+        { id: "fortAttack", labelKey: "calc.base.fortAttack" },
+        { id: "fortDestroy", labelKey: "calc.base.fortDestroy" },
+        { id: "capScout", labelKey: "calc.base.capScout" },
+        { id: "capAttack", labelKey: "calc.base.capAttack" },
+        { id: "capDestroy", labelKey: "calc.base.capDestroy" }
     ];
 
     const clanBaseOrder = [
-        { id: "fortScout", label: "Fort Scouting" },
-        { id: "fortAttack", label: "Fort Attack (no destruction)" },
-        { id: "fortDestroy", label: "Fort Attack (destroyed)" },
-        { id: "capScout", label: "Capital Scouting" },
-        { id: "capAttack", label: "Capital Attack (no destruction)" },
-        { id: "capDestroy", label: "Capital Attack (destroyed)" }
+        { id: "fortScout", labelKey: "calc.base.fortScout" },
+        { id: "fortAttack", labelKey: "calc.base.fortAttack" },
+        { id: "fortDestroy", labelKey: "calc.base.fortDestroy" },
+        { id: "capScout", labelKey: "calc.base.capScout" },
+        { id: "capAttack", labelKey: "calc.base.capAttack" },
+        { id: "capDestroy", labelKey: "calc.base.capDestroy" }
     ];
 
     const clanCategories = [
-        { id: "fortScout", label: "Fort Scouting" },
-        { id: "fortAttack", label: "Fort Attack (hit)" },
-        { id: "fortDestroy", label: "Fort Attack (destroy)" },
-        { id: "capScout", label: "Capital Scouting" },
-        { id: "capAttack", label: "Capital Attack (hit)" },
-        { id: "capDestroy", label: "Capital Attack (destroy)" }
+        { id: "fortScout", labelKey: "calc.output.fortScout" },
+        { id: "fortAttack", labelKey: "calc.output.fortAttackHit" },
+        { id: "fortDestroy", labelKey: "calc.output.fortAttackDestroy" },
+        { id: "capScout", labelKey: "calc.output.capScout" },
+        { id: "capAttack", labelKey: "calc.output.capAttackHit" },
+        { id: "capDestroy", labelKey: "calc.output.capAttackDestroy" }
     ];
 
     const flatCategories = [
-        { id: "scoutingEvents", label: "Scouting Events" },
-        { id: "attackEvents", label: "Attack Events" },
-        { id: "portal", label: "Portal" },
-        { id: "hero", label: "Hero" },
-        { id: "captain", label: "Captain" },
-        { id: "monsters12", label: "Monsters 1-2" },
-        { id: "gold", label: "Gold" },
-        { id: "tar", label: "Tar" }
+        { id: "scoutingEvents", labelKey: "calc.base.scoutingEvents" },
+        { id: "attackEvents", labelKey: "calc.base.attackEvents" },
+        { id: "portal", labelKey: "calc.base.portal" },
+        { id: "hero", labelKey: "calc.base.hero" },
+        { id: "captain", labelKey: "calc.base.captain" },
+        { id: "monsters12", labelKey: "calc.base.monsters12" },
+        { id: "gold", labelKey: "calc.base.gold" },
+        { id: "tar", labelKey: "calc.base.tar" }
     ];
 
     const tierCategories = [
         {
             id: "spearmenArchers",
-            label: "Spearmen / Archers",
+            labelKey: "calc.base.spearmenArchers",
             levels: [1, 2, 3, 4, 5, 6, 7],
             multiplier: "tier"
         },
         {
             id: "specialistRiders",
-            label: "Specialist / Riders",
+            labelKey: "calc.base.specialistRiders",
             levels: [1, 2, 3, 4, 5, 6, 7],
             multiplier: "tier"
         },
         {
             id: "spies",
-            label: "Spies",
+            labelKey: "calc.base.spies",
             levels: [1, 2, 3, 4, 5, 6, 7],
             multiplier: "tier"
         },
         {
             id: "griffins",
-            label: "Griffins",
+            labelKey: "calc.base.griffins",
             levels: [1, 2, 3, 4, 5, 6, 7],
             multiplier: "tier"
         },
         {
             id: "catapultsWalls",
-            label: "Catapults / Walls",
+            labelKey: "calc.base.catapultsWalls",
             levels: [1, 2, 3, 4, 5, 6, 7],
             multiplier: "tier"
         },
         {
             id: "mercGuard",
-            label: "Mercenary Guard",
+            labelKey: "calc.base.mercGuard",
             levels: [1, 2, 3, 4, 5, 6, 7],
             multiplier: "tier"
         },
         {
             id: "mercMonster",
-            label: "Mercenary Monster",
+            labelKey: "calc.base.mercMonster",
             levels: [1, 2, 3, 4, 5, 6, 7],
             multiplier: "tier"
         },
         {
             id: "monsters37",
-            label: "Monsters 3-7",
+            labelKey: "calc.base.monsters37",
             levels: [3, 4, 5, 6, 7],
             multiplier: "tierMinusTwo"
         }
@@ -131,8 +131,43 @@
 
     const baseCostInputs = new Map();
     const basePills = new Map();
+    const dynamicLabels = [];
+    const dynamicFormulas = [];
     let baseCostsCollapsed = true;
     let clanCollapsed = true;
+
+    const getLabel = (key) => (window.I18N ? I18N.t(key) : key);
+
+    const registerLabel = (el, key, level = null) => {
+        el.dataset.i18nKey = key;
+        if (level !== null) {
+            el.dataset.level = level;
+        }
+        dynamicLabels.push(el);
+    };
+
+    const registerFormula = (el, key) => {
+        el.dataset.i18nKey = key;
+        dynamicFormulas.push(el);
+    };
+
+    const updateDynamicLabels = () => {
+        dynamicLabels.forEach((el) => {
+            const key = el.dataset.i18nKey;
+            if (!key) return;
+            if (el.dataset.level) {
+                el.textContent = `L${el.dataset.level} ${getLabel(key)}`;
+                return;
+            }
+            el.textContent = getLabel(key);
+        });
+        dynamicFormulas.forEach((el) => {
+            const key = el.dataset.i18nKey;
+            if (!key) return;
+            el.textContent = getLabel(key);
+        });
+        refreshBasePills();
+    };
 
     const formatInteger = (value) => {
         const num = Number(value);
@@ -155,13 +190,14 @@
 
     const renderBaseCosts = () => {
         const container = document.getElementById("base-costs");
-        baseCostOrder.forEach(({ id, label }) => {
+        baseCostOrder.forEach(({ id, labelKey }) => {
             const field = document.createElement("div");
             field.className = "field";
 
             const labelEl = document.createElement("label");
             labelEl.htmlFor = `base-${id}`;
-            labelEl.textContent = label;
+            labelEl.textContent = getLabel(labelKey);
+            registerLabel(labelEl, labelKey);
 
             const input = document.createElement("input");
             input.type = "number";
@@ -180,13 +216,14 @@
 
     const renderClanBaseCosts = () => {
         const container = document.getElementById("clan-base-costs");
-        clanBaseOrder.forEach(({ id, label }) => {
+        clanBaseOrder.forEach(({ id, labelKey }) => {
             const field = document.createElement("div");
             field.className = "field";
 
             const labelEl = document.createElement("label");
             labelEl.htmlFor = `clan-base-${id}`;
-            labelEl.textContent = label;
+            labelEl.textContent = getLabel(labelKey);
+            registerLabel(labelEl, labelKey);
 
             const input = document.createElement("input");
             input.type = "number";
@@ -207,27 +244,28 @@
         const pill = document.createElement("span");
         pill.className = "pill";
         pill.dataset.baseId = id;
-        pill.textContent = `Base: ${defaultBaseCosts[id]}`;
+        pill.textContent = `${getLabel("calculator.base.pill")}: ${defaultBaseCosts[id]}`;
         basePills.set(id, pill);
         return pill;
     };
 
     const refreshBasePills = () => {
         basePills.forEach((pill, id) => {
-            pill.textContent = `Base: ${formatInteger(getBase(id))}`;
+            pill.textContent = `${getLabel("calculator.base.pill")}: ${formatInteger(getBase(id))}`;
         });
     };
 
     const renderFlatLosses = () => {
         const container = document.getElementById("flat-losses");
-        flatCategories.forEach(({ id, label }) => {
+        flatCategories.forEach(({ id, labelKey }) => {
             const card = document.createElement("div");
             card.className = "card";
 
             const title = document.createElement("div");
             title.className = "card__title";
             const h3 = document.createElement("h3");
-            h3.textContent = label;
+            h3.textContent = getLabel(labelKey);
+            registerLabel(h3, labelKey);
             title.append(h3);
 
             const meta = document.createElement("div");
@@ -235,14 +273,16 @@
             const pill = makeBasePill(id);
             const formula = document.createElement("span");
             formula.className = "formula";
-            formula.textContent = "Base × Count";
+            formula.textContent = getLabel("calculator.formula.baseCount");
+            registerFormula(formula, "calculator.formula.baseCount");
             meta.append(pill, formula);
 
             const field = document.createElement("div");
             field.className = "field";
             const labelEl = document.createElement("label");
             labelEl.htmlFor = `count-${id}`;
-            labelEl.textContent = "Count";
+            labelEl.textContent = getLabel("calculator.label.count");
+            registerLabel(labelEl, "calculator.label.count");
             const input = document.createElement("input");
             input.type = "number";
             input.min = "0";
@@ -258,14 +298,15 @@
 
     const renderClanLosses = () => {
         const container = document.getElementById("clan-losses");
-        clanCategories.forEach(({ id, label }) => {
+        clanCategories.forEach(({ id, labelKey }) => {
             const card = document.createElement("div");
             card.className = "card";
 
             const title = document.createElement("div");
             title.className = "card__title";
             const h3 = document.createElement("h3");
-            h3.textContent = label;
+            h3.textContent = getLabel(labelKey);
+            registerLabel(h3, labelKey);
             title.append(h3);
 
             const meta = document.createElement("div");
@@ -273,14 +314,16 @@
             const pill = makeBasePill(id);
             const formula = document.createElement("span");
             formula.className = "formula";
-            formula.textContent = "Base × Count";
+            formula.textContent = getLabel("calculator.formula.baseCount");
+            registerFormula(formula, "calculator.formula.baseCount");
             meta.append(pill, formula);
 
             const field = document.createElement("div");
             field.className = "field";
             const labelEl = document.createElement("label");
             labelEl.htmlFor = `clan-count-${id}`;
-            labelEl.textContent = "Count";
+            labelEl.textContent = getLabel("calculator.label.count");
+            registerLabel(labelEl, "calculator.label.count");
             const input = document.createElement("input");
             input.type = "number";
             input.min = "0";
@@ -296,14 +339,15 @@
 
     const renderTierLosses = () => {
         const container = document.getElementById("tier-losses");
-        tierCategories.forEach(({ id, label, levels, multiplier }) => {
+        tierCategories.forEach(({ id, labelKey, levels, multiplier }) => {
             const card = document.createElement("div");
             card.className = "card";
 
             const title = document.createElement("div");
             title.className = "card__title";
             const h3 = document.createElement("h3");
-            h3.textContent = label;
+            h3.textContent = getLabel(labelKey);
+            registerLabel(h3, labelKey);
             title.append(h3);
 
             const meta = document.createElement("div");
@@ -311,10 +355,12 @@
             const pill = makeBasePill(id);
             const formula = document.createElement("span");
             formula.className = "formula";
-            formula.textContent =
+            const formulaKey =
                 multiplier === "tierMinusTwo"
-                    ? "Base × Count × (Lvl − 2)"
-                    : "Base × Count × Lvl";
+                    ? "calculator.formula.baseCountLevelMinusTwo"
+                    : "calculator.formula.baseCountLevel";
+            formula.textContent = getLabel(formulaKey);
+            registerFormula(formula, formulaKey);
             meta.append(pill, formula);
 
             const levelsWrap = document.createElement("div");
@@ -325,7 +371,8 @@
                 field.className = "field";
                 const labelEl = document.createElement("label");
                 labelEl.htmlFor = `count-${id}-lvl${lvl}`;
-                labelEl.textContent = `L${lvl} Count`;
+                labelEl.textContent = `L${lvl} ${getLabel("calculator.label.count")}`;
+                registerLabel(labelEl, "calculator.label.count", lvl);
                 const input = document.createElement("input");
                 input.type = "number";
                 input.min = "0";
@@ -441,47 +488,45 @@
         const barLength = 33;
         const bar = "=".repeat(barLength);
         const divider = "-".repeat(barLength);
-        const lines = [
-            bar
-        ];
+        const lines = [bar];
 
         if (includeClan) {
             lines.push(
-                "CLAN BUILDINGS",
-                formatLine(" Fort Scouting                 ", formatInteger(clanTotals.totals.fortScout || 0)),
-                formatLine(" Fort Attack (hit)            ", formatInteger(clanTotals.totals.fortAttack || 0)),
-                formatLine(" Fort Attack (destroy)     ", formatInteger(clanTotals.totals.fortDestroy || 0)),
-                formatLine(" Capital Scouting            ", formatInteger(clanTotals.totals.capScout || 0)),
-                formatLine(" Capital Attack (destroy) ", formatInteger(clanTotals.totals.capDestroy || 0)),
+                getLabel("calc.output.clanBuildings"),
+                formatLine(getLabel("calc.output.fortScout"), formatInteger(clanTotals.totals.fortScout || 0)),
+                formatLine(getLabel("calc.output.fortAttackHit"), formatInteger(clanTotals.totals.fortAttack || 0)),
+                formatLine(getLabel("calc.output.fortAttackDestroy"), formatInteger(clanTotals.totals.fortDestroy || 0)),
+                formatLine(getLabel("calc.output.capScout"), formatInteger(clanTotals.totals.capScout || 0)),
+                formatLine(getLabel("calc.output.capAttackDestroy"), formatInteger(clanTotals.totals.capDestroy || 0)),
                 divider
             );
         }
 
         lines.push(
-            "ARMY LOSS",
-            formatLine(" Scout Events         ", formatInteger(flatTotals.scoutingEvents)),      // 7 spaces
-            formatLine(" Attack Events        ", formatInteger(flatTotals.attackEvents)),      // 6 spaces
-            formatLine(" Portal Closed         ", formatInteger(flatTotals.portal)),            // 7 spaces
-            formatLine(" Hero/Captains       ", formatInteger(heroCaptainsTotal)),             // 6 spaces
-            formatLine(" Spearmen/Archers ", formatInteger(tierTotals.spearmenArchers)),      // 1 space
-            formatLine(" Specialists/Riders  ", formatInteger(tierTotals.specialistRiders)),  // 2 spaces
-            formatLine(" Spies Total              ", formatInteger(tierTotals.spies)),           // 11 spaces
-            formatLine(" Monsters Total       ", formatInteger(monstersTotal)),                 // 6 spaces
-            formatLine(" Mercenaries            ", formatInteger(mercsTotal)),                    // 9 spaces
-            formatLine(" Walls/Catapult        ", formatInteger(tierTotals.catapultsWalls)),     // 6 spaces
-            "ADDITIONAL LOSS",
-            formatLine(" Gold Total                ", formatInteger(flatTotals.gold)),              // 12 spaces
-            formatLine(" Tar Total                   ", formatInteger(flatTotals.tar)),              // 14 spaces
-            formatLine(" Direct Silver             ", formatInteger(directSilver)),                // 10 spaces
+            getLabel("calc.output.armyLoss"),
+            formatLine(getLabel("calc.output.scoutEvents"), formatInteger(flatTotals.scoutingEvents)),
+            formatLine(getLabel("calc.output.attackEvents"), formatInteger(flatTotals.attackEvents)),
+            formatLine(getLabel("calc.output.portalClosed"), formatInteger(flatTotals.portal)),
+            formatLine(getLabel("calc.output.heroCaptains"), formatInteger(heroCaptainsTotal)),
+            formatLine(getLabel("calc.output.spearmenArchers"), formatInteger(tierTotals.spearmenArchers)),
+            formatLine(getLabel("calc.output.specialistsRiders"), formatInteger(tierTotals.specialistRiders)),
+            formatLine(getLabel("calc.output.spiesTotal"), formatInteger(tierTotals.spies)),
+            formatLine(getLabel("calc.output.monstersTotal"), formatInteger(monstersTotal)),
+            formatLine(getLabel("calc.output.mercenaries"), formatInteger(mercsTotal)),
+            formatLine(getLabel("calc.output.wallsCatapult"), formatInteger(tierTotals.catapultsWalls)),
+            getLabel("calc.output.additionalLoss"),
+            formatLine(getLabel("calc.output.goldTotal"), formatInteger(flatTotals.gold)),
+            formatLine(getLabel("calc.output.tarTotal"), formatInteger(flatTotals.tar)),
+            formatLine(getLabel("calc.output.directSilver"), formatInteger(directSilver)),
             divider,
-            formatLine(" TOTAL SILVER LOSS      ", formatInteger(totalLoss)),                  // 7 spaces
-            formatLine(" TOTAL (W/ 20% TAX)    ", formatInteger(totalWithTax)),
+            formatLine(getLabel("calc.output.totalSilverLoss"), formatInteger(totalLoss)),
+            formatLine(getLabel("calc.output.totalWithTax"), formatInteger(totalWithTax)),
             bar,
-            "RESOURCE LOSS",
-            formatLine(" Food                       ", resources.food || "0"),                       // 19 spaces
-            formatLine(" Lumber                  ", resources.lumber || "0"),                      // 16 spaces
-            formatLine(" Stone                      ", resources.stone || "0"),                      // 18 spaces
-            formatLine(" Iron                        ", resources.iron || "0"),                     // 20 spaces
+            getLabel("calc.output.resourceLoss"),
+            formatLine(getLabel("calc.output.food"), resources.food || "0"),
+            formatLine(getLabel("calc.output.lumber"), resources.lumber || "0"),
+            formatLine(getLabel("calc.output.stone"), resources.stone || "0"),
+            formatLine(getLabel("calc.output.iron"), resources.iron || "0"),
             bar
         );
 
@@ -499,13 +544,13 @@
             wrap.classList.add("is-collapsed");
             wrap.style.maxHeight = "0px";
             wrap.setAttribute("aria-hidden", "true");
-            toggle.textContent = "Show";
+            toggle.textContent = getLabel("common.show");
             toggle.setAttribute("aria-expanded", "false");
         } else {
             wrap.classList.remove("is-collapsed");
             wrap.style.maxHeight = `${wrap.scrollHeight}px`;
             wrap.setAttribute("aria-hidden", "false");
-            toggle.textContent = "Hide";
+            toggle.textContent = getLabel("common.hide");
             toggle.setAttribute("aria-expanded", "true");
         }
     };
@@ -538,13 +583,13 @@
             wrap.classList.add("is-collapsed");
             wrap.style.maxHeight = "0px";
             wrap.setAttribute("aria-hidden", "true");
-            toggle.textContent = "Show";
+            toggle.textContent = getLabel("common.show");
             toggle.setAttribute("aria-expanded", "false");
         } else {
             wrap.classList.remove("is-collapsed");
             wrap.style.maxHeight = `${wrap.scrollHeight}px`;
             wrap.setAttribute("aria-hidden", "false");
-            toggle.textContent = "Hide";
+            toggle.textContent = getLabel("common.hide");
             toggle.setAttribute("aria-expanded", "true");
         }
     };
@@ -610,6 +655,14 @@
         bindEvents();
         setBaseCostsCollapsed(true);
         setClanCollapsed(true);
+        updateDynamicLabels();
         calculate();
+
+        document.addEventListener("tb-language-change", () => {
+            updateDynamicLabels();
+            setBaseCostsCollapsed(baseCostsCollapsed);
+            setClanCollapsed(clanCollapsed);
+            calculate();
+        });
     });
 })();

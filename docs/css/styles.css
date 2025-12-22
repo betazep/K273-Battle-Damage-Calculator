@@ -43,6 +43,7 @@ a {
 }
 
 .hero {
+    position: relative;
     padding: 48px 20px 32px;
     text-align: center;
     background: linear-gradient(135deg, rgba(91, 233, 200, 0.15), rgba(13, 24, 39, 0.7));
@@ -125,6 +126,16 @@ a {
     padding: 6px 10px;
 }
 
+.page-lang {
+    position: absolute;
+    top: 16px;
+    right: 20px;
+}
+
+.page-lang .lang-control {
+    background: rgba(12, 23, 36, 0.7);
+}
+
 .lang-control label {
     font-size: 12px;
     letter-spacing: 0.08em;
@@ -146,6 +157,15 @@ a {
 .lang-select option {
     background: #0f1c2d;
     color: var(--text);
+}
+
+@media (max-width: 720px) {
+    .page-lang {
+        position: static;
+        margin: 0 auto 12px;
+        display: flex;
+        justify-content: center;
+    }
 }
 
 .eyebrow {

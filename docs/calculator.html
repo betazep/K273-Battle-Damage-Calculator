@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Total Battle Damage Calculator</title>
+    <title data-i18n="calculator.title">TotalBattle Damage Calculator</title>
     <link rel="icon" href="favicon.ico" sizes="any">
     <link rel="icon" href="favicon-32.png" type="image/png" sizes="32x32">
     <link rel="icon" href="favicon-16.png" type="image/png" sizes="16x16">
@@ -12,12 +12,29 @@
 </head>
 <body>
     <header class="hero">
+        <div class="page-lang">
+            <div class="lang-control">
+                <label for="site-language" data-i18n="site.languageLabel">Language</label>
+                <select class="lang-select" id="site-language">
+                    <option value="en" selected>English</option>
+                    <option value="de">Deutsch</option>
+                    <option value="es">Español</option>
+                    <option value="fr">Français</option>
+                    <option value="no">Norsk</option>
+                    <option value="pl">Polski</option>
+                    <option value="pt">Português</option>
+                    <option value="ru">Русский</option>
+                    <option value="fi">Suomi</option>
+                    <option value="sv">Svenska</option>
+                </select>
+            </div>
+        </div>
         <div class="hero__content">
-            <p class="eyebrow">K273 | Illegal Attack Calculator</p>
-            <h1>Total Battle Damage</h1>
-            <p class="lede">Enter losses and generate a copy-ready summary for ROE messages.</p>
+            <p class="eyebrow" data-i18n="calculator.hero.eyebrow">K273 | Illegal Attack Calculator</p>
+            <h1 data-i18n="calculator.hero.title">TotalBattle Damage</h1>
+            <p class="lede" data-i18n="calculator.hero.lede">Enter losses and generate a copy-ready summary for ROE messages.</p>
             <div class="hero__actions">
-                <a class="btn ghost btn-small" href="index.html">← Back to tools</a>
+                <a class="btn ghost btn-small" href="index.html" data-i18n="calculator.hero.back">← Back to tools</a>
             </div>
         </div>
     </header>
@@ -26,11 +43,11 @@
         <section class="panel">
             <div class="panel__head">
                 <div>
-                    <p class="eyebrow">Base costs</p>
-                    <h2>Defaults</h2>
-                    <p class="small">Adjust only if rules change. Values are saved for this session only. (Contact Zee for permanent changes to defaults)</p>
+                    <p class="eyebrow" data-i18n="calculator.base.eyebrow">Base costs</p>
+                    <h2 data-i18n="calculator.base.title">Defaults</h2>
+                    <p class="small" data-i18n="calculator.base.sub">Adjust only if rules change. Values are saved for this session only. (Contact Zee for permanent changes to defaults)</p>
                 </div>
-                <button id="toggle-base-costs" class="btn ghost btn-small" type="button">Hide</button>
+                <button id="toggle-base-costs" class="btn ghost btn-small" type="button" data-i18n="common.hide">Hide</button>
             </div>
             <div id="base-costs-wrap" class="collapsible">
                 <div id="base-costs" class="base-grid"></div>
@@ -40,17 +57,17 @@
         <section class="panel">
             <div class="panel__head">
                 <div>
-                    <p class="eyebrow">Clan buildings</p>
-                    <h2>Optional losses</h2>
-                    <p class="small">Include only when forts/capitals are hit. Defaults are editable.</p>
+                    <p class="eyebrow" data-i18n="calculator.clan.eyebrow">Clan buildings</p>
+                    <h2 data-i18n="calculator.clan.title">Optional losses</h2>
+                    <p class="small" data-i18n="calculator.clan.sub">Include only when forts/capitals are hit. Defaults are editable.</p>
                 </div>
                 <div class="toggle-wrap">
-                    <span class="small">Include in Report</span>
+                    <span class="small" data-i18n="calculator.clan.include">Include in Report</span>
                     <label class="switch">
                         <input type="checkbox" id="include-clan">
                         <span class="slider"></span>
                     </label>
-                    <button id="toggle-clan" class="btn ghost btn-small" type="button">Show</button>
+                    <button id="toggle-clan" class="btn ghost btn-small" type="button" data-i18n="common.show">Show</button>
                 </div>
             </div>
             <div id="clan-wrap" class="collapsible is-collapsed">
@@ -61,9 +78,9 @@
         <section class="panel">
             <div class="panel__head">
                 <div>
-                    <p class="eyebrow">Army losses</p>
-                    <h2>Flat cost entries</h2>
-                    <p class="small">Enter basic counts for flat cost units lost.</p>
+                    <p class="eyebrow" data-i18n="calculator.armyFlat.eyebrow">Army losses</p>
+                    <h2 data-i18n="calculator.armyFlat.title">Flat cost entries</h2>
+                    <p class="small" data-i18n="calculator.armyFlat.sub">Enter basic counts for flat cost units lost.</p>
                 </div>
             </div>
             <div id="flat-losses" class="card-grid"></div>
@@ -72,9 +89,9 @@
         <section class="panel">
             <div class="panel__head">
                 <div>
-                    <p class="eyebrow">Army tiered losses</p>
-                    <h2>Level-based entries</h2>
-                    <p class="small">Enter counts for each level of units lost.</p>
+                    <p class="eyebrow" data-i18n="calculator.armyTier.eyebrow">Army tiered losses</p>
+                    <h2 data-i18n="calculator.armyTier.title">Level-based entries</h2>
+                    <p class="small" data-i18n="calculator.armyTier.sub">Enter counts for each level of units lost.</p>
                 </div>
             </div>
             <div id="tier-losses" class="card-grid"></div>
@@ -83,9 +100,9 @@
         <section class="panel">
             <div class="panel__head">
                 <div>
-                    <p class="eyebrow">Summary</p>
-                    <h2>Totals & copy block</h2>
-                    <p class="small">Add in any Direct Silver lost as well as any resources.</p>
+                    <p class="eyebrow" data-i18n="calculator.summary.eyebrow">Summary</p>
+                    <h2 data-i18n="calculator.summary.title">Totals & copy block</h2>
+                    <p class="small" data-i18n="calculator.summary.sub">Add in any Direct Silver lost as well as any resources.</p>
                 </div>
             </div>
 
@@ -93,24 +110,24 @@
                 <div class="summary-left">
                     <div class="summary-inputs">
                         <div class="field">
-                            <label for="direct-silver">Direct Silver</label>
+                            <label for="direct-silver" data-i18n="calculator.directSilver">Direct Silver</label>
                             <input type="number" id="direct-silver" min="0" placeholder="0" inputmode="numeric">
                         </div>
                     <div class="resource-grid">
                         <div class="field">
-                            <label for="res-food">Food</label>
+                            <label for="res-food" data-i18n="calculator.food">Food</label>
                             <input type="number" id="res-food" placeholder="0" inputmode="numeric">
                         </div>
                         <div class="field">
-                            <label for="res-lumber">Lumber</label>
+                            <label for="res-lumber" data-i18n="calculator.lumber">Lumber</label>
                             <input type="number" id="res-lumber" placeholder="0" inputmode="numeric">
                         </div>
                         <div class="field">
-                            <label for="res-stone">Stone</label>
+                            <label for="res-stone" data-i18n="calculator.stone">Stone</label>
                             <input type="number" id="res-stone" placeholder="0" inputmode="numeric">
                         </div>
                         <div class="field">
-                            <label for="res-iron">Iron</label>
+                            <label for="res-iron" data-i18n="calculator.iron">Iron</label>
                             <input type="number" id="res-iron" placeholder="0" inputmode="numeric">
                         </div>
                     </div>
@@ -119,38 +136,40 @@
                     <div class="summary-totals">
                         <div class="totals">
                             <div>
-                                <p class="label">Silver subtotal</p>
+                                <p class="label" data-i18n="calculator.silverSubtotal">Silver subtotal</p>
                                 <p class="value" id="silver-subtotal">0</p>
                             </div>
                             <div>
-                                <p class="label">Total loss (with Direct Silver)</p>
+                                <p class="label" data-i18n="calculator.totalLoss">Total loss (with Direct Silver)</p>
                                 <p class="value" id="total-loss">0</p>
                             </div>
                         </div>
                         <div class="actions actions--below">
-                            <button id="calculate-btn" class="btn primary" type="button">Calculate</button>
-                            <button id="reset-btn" class="btn ghost" type="button">Reset inputs</button>
+                            <button id="calculate-btn" class="btn primary" type="button" data-i18n="calculator.calculate">Calculate</button>
+                            <button id="reset-btn" class="btn ghost" type="button" data-i18n="calculator.reset">Reset inputs</button>
                         </div>
                     </div>
                 </div>
 
                 <div class="summary-output">
-                    <label for="summary-text">Copy-ready message</label>
+                    <label for="summary-text" data-i18n="calculator.copyLabel">Copy-ready message</label>
                     <textarea id="summary-text" readonly></textarea>
-                    <button id="copy-btn" class="btn secondary" type="button">Copy summary</button>
+                    <button id="copy-btn" class="btn secondary" type="button" data-i18n="calculator.copyButton">Copy summary</button>
                 </div>
             </div>
         </section>
     </main>
 
     <div class="footer-actions">
-        <a class="btn ghost btn-small" href="index.html">← Back to tools</a>
+        <a class="btn ghost btn-small" href="index.html" data-i18n="calculator.back">← Back to tools</a>
     </div>
 
     <footer class="footer">
-        <p>Built for K273 by Zee</p>
+        <p data-i18n="site.footer">Built for K273 by Zee</p>
     </footer>
 
+    <script src="js/i18n.js"></script>
+    <script src="js/lang.js"></script>
     <script src="js/main.js?v=1.0.6"></script>
 </body>
 </html>
