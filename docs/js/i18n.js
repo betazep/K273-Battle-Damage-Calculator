@@ -63,14 +63,14 @@
                 "calculator.armyTier.sub": "Enter counts for each level of units lost.",
                 "calculator.summary.eyebrow": "Summary",
                 "calculator.summary.title": "Totals & copy block",
-                "calculator.summary.sub": "Add in any Direct Silver lost as well as any resources.",
-                "calculator.directSilver": "Direct Silver",
+                "calculator.summary.sub": "Add in any Silver Taken as well as any resources.",
+                "calculator.directSilver": "Silver Taken",
                 "calculator.food": "Food",
                 "calculator.lumber": "Lumber",
                 "calculator.stone": "Stone",
                 "calculator.iron": "Iron",
                 "calculator.silverSubtotal": "Silver subtotal",
-                "calculator.totalLoss": "Total loss (with Direct Silver)",
+                "calculator.totalLoss": "Total loss (with Silver Taken)",
                 "calculator.calculate": "Calculate",
                 "calculator.reset": "Reset inputs",
                 "calculator.copyLabel": "Copy-ready message",
@@ -126,7 +126,7 @@
                 "calc.output.wallsCatapult": "Walls/Catapult",
                 "calc.output.goldTotal": "Gold Total",
                 "calc.output.tarTotal": "Tar Total",
-                "calc.output.directSilver": "Direct Silver",
+                "calc.output.directSilver": "Silver Taken",
                 "calc.output.totalSilverLoss": "TOTAL SILVER LOSS",
                 "calc.output.totalWithTax": "TOTAL (W/ 20% TAX)",
                 "calc.output.food": "Food",
@@ -348,14 +348,14 @@
                 "calculator.armyTier.sub": "Syötä määrät jokaiselle tasolle.",
                 "calculator.summary.eyebrow": "Yhteenveto",
                 "calculator.summary.title": "Summat & kopio",
-                "calculator.summary.sub": "Lisää mahdollinen Direct Silver sekä resurssit.",
-                "calculator.directSilver": "Direct Silver",
+                "calculator.summary.sub": "Lisää mahdollinen otettu hopea sekä resurssit.",
+                "calculator.directSilver": "Otettu hopea",
                 "calculator.food": "Ruoka",
                 "calculator.lumber": "Puutavara",
                 "calculator.stone": "Kivi",
                 "calculator.iron": "Rauta",
-                "calculator.silverSubtotal": "Silver-välisummaa",
-                "calculator.totalLoss": "Kokonaismenetys (sis. Direct Silver)",
+                "calculator.silverSubtotal": "Hopea-välisummaa",
+                "calculator.totalLoss": "Kokonaistappio (sis. otettu hopea)",
                 "calculator.calculate": "Laske",
                 "calculator.reset": "Tyhjennä",
                 "calculator.copyLabel": "Kopioitava viesti",
@@ -411,8 +411,8 @@
                 "calc.output.wallsCatapult": "Muurit/Katapultit",
                 "calc.output.goldTotal": "Kulta yhteensä",
                 "calc.output.tarTotal": "Terva yhteensä",
-                "calc.output.directSilver": "Direct Silver",
-                "calc.output.totalSilverLoss": "SILVER KOKONAISTAPPIO",
+                "calc.output.directSilver": "Otettu hopea",
+                "calc.output.totalSilverLoss": "HOPEA KOKONAISTAPPIO",
                 "calc.output.totalWithTax": "YHTEENSÄ (SIS. 20% VERO)",
                 "calc.output.food": "Ruoka",
                 "calc.output.lumber": "Puutavara",
@@ -461,12 +461,12 @@
     <li>
         <h3>4. PALATSIN KORVAUSOPAS --</h3>
         <ul class="roe-points">
-            <li>Jokaisesta hyökkäyksestä tai scoutingista aiheutuu 1 miljoonan silverin perusmaksu. Kaikki lisätappiot, vahingot tai varastetut resurssit lisätään tämän perusmaksun päälle.</li>
+            <li>Jokaisesta hyökkäyksestä tai scoutingista aiheutuu 1 miljoonan hopeain perusmaksu. Kaikki lisätappiot, vahingot tai varastetut resurssit lisätään tämän perusmaksun päälle.</li>
             <li>RSS: määrä yhtä suuri kuin varastettu määrä</li>
-            <li>Gold: 1 Gold = 3,000 Silver tai kultakaivokset yhtä suuret kuin varastettu + 10% (uhrin päätöksellä)</li>
-            <li>Tar: 1 Tar = 1,000 Silver</li>
-            <li>Gold Bars = ei korvausta</li>
-            <li>Laittomasti suljettu portaali: 1M silver (+1M laittomasta hyökkäyksestä itsestään)</li>
+            <li>Kulta: 1 Kulta = 3,000 Hopea tai kultakaivokset yhtä suuret kuin varastettu + 10% (uhrin päätöksellä)</li>
+            <li>Tar: 1 Tar = 1,000 Hopea</li>
+            <li>Kultaharkot = ei korvausta</li>
+            <li>Laittomasti suljettu portaali: 1M hopea (+1M laittomasta hyökkäyksestä itsestään)</li>
             <li>Vahinko lasketaan seuraavan kaavan mukaan: Menetettyjen joukkojen vahinko lasketaan seuraavan kaavan mukaan:
                 <ul>
                     <li>Hero= 1.5k</li>
@@ -484,16 +484,16 @@
             </li>
             <li>-LINNAKKEET -
                 <ul>
-                    <li>Scouting = 5 million silver</li>
-                    <li>Attacking without destroying = 10 million silver</li>
-                    <li>Attacking and destroying = 20 million of each Silver, Iron, Wood, Stone</li>
+                    <li>Scouting = 5 million hopea</li>
+                    <li>Attacking without destroying = 10 million hopea</li>
+                    <li>Attacking and destroying = 20 million of each Hopea, Iron, Wood, Stone</li>
                 </ul>
             </li>
             <li>- PÄÄKAUPUNGIT -
                 <ul>
-                    <li>Scouting = 5 million silver</li>
-                    <li>Attacking without destroying = 10 million silver</li>
-                    <li>Attacking and destroying = 50 million of each Silver, Iron, Wood, Stone</li>
+                    <li>Scouting = 5 million hopea</li>
+                    <li>Attacking without destroying = 10 million hopea</li>
+                    <li>Attacking and destroying = 50 million of each Hopea, Iron, Wood, Stone</li>
                 </ul>
             </li>
         </ul>
@@ -633,14 +633,14 @@
                 "calculator.armyTier.sub": "Skriv inn antall for hvert nivå av tapte enheter.",
                 "calculator.summary.eyebrow": "Sammendrag",
                 "calculator.summary.title": "Summer & kopitekst",
-                "calculator.summary.sub": "Legg til eventuell Direct Silver som er tapt, samt ressurser.",
-                "calculator.directSilver": "Direct Silver",
+                "calculator.summary.sub": "Legg til eventuell tatt sølv samt ressurser.",
+                "calculator.directSilver": "Tatt sølv",
                 "calculator.food": "Mat",
                 "calculator.lumber": "Tømmer",
                 "calculator.stone": "Stein",
                 "calculator.iron": "Jern",
-                "calculator.silverSubtotal": "Silver delsum",
-                "calculator.totalLoss": "Totalt tap (med Direct Silver)",
+                "calculator.silverSubtotal": "Sølv delsum",
+                "calculator.totalLoss": "Totalt tap (med tatt sølv)",
                 "calculator.calculate": "Beregn",
                 "calculator.reset": "Nullstill",
                 "calculator.copyLabel": "Klar-til-kopi melding",
@@ -696,8 +696,8 @@
                 "calc.output.wallsCatapult": "Murer/Katapulter",
                 "calc.output.goldTotal": "Gull totalt",
                 "calc.output.tarTotal": "Tjære totalt",
-                "calc.output.directSilver": "Direct Silver",
-                "calc.output.totalSilverLoss": "TOTALT SILVER TAP",
+                "calc.output.directSilver": "Tatt sølv",
+                "calc.output.totalSilverLoss": "TOTALT SØLV TAP",
                 "calc.output.totalWithTax": "TOTALT (MED 20% SKATT)",
                 "calc.output.food": "Mat",
                 "calc.output.lumber": "Tømmer",
@@ -746,12 +746,12 @@
     <li>
         <h3>4. KOMPENSASJONSGUIDE FOR PALASSET --</h3>
         <ul class="roe-points">
-            <li>Hvert angrep eller scouting har en grunnkostnad på 1 million silver. Eventuelle ekstra tap, skader eller stjålne ressurser legges til på toppen av denne grunnkostnaden.</li>
+            <li>Hvert angrep eller scouting har en grunnkostnad på 1 million sølv. Eventuelle ekstra tap, skader eller stjålne ressurser legges til på toppen av denne grunnkostnaden.</li>
             <li>RSS: beløp lik mengden som er stjålet</li>
-            <li>Gold: 1 Gold = 3,000 Silver eller gullgruver likt stjålet + 10% (etter offerets beslutning)</li>
-            <li>Tar: 1 Tar = 1,000 Silver</li>
-            <li>Gold Bars = ingen kompensasjon</li>
-            <li>Ulovlig lukket portal: 1M silver (+1M for det ulovlige angrepet i seg selv)</li>
+            <li>Gull: 1 Gull = 3,000 Sølv eller gullgruver likt stjålet + 10% (etter offerets beslutning)</li>
+            <li>Tar: 1 Tar = 1,000 Sølv</li>
+            <li>Gullbarrer = ingen kompensasjon</li>
+            <li>Ulovlig lukket portal: 1M sølv (+1M for det ulovlige angrepet i seg selv)</li>
             <li>Skade beregnes etter følgende formel: Tap av tropper beregnes etter følgende formel:
                 <ul>
                     <li>Hero= 1.5k</li>
@@ -769,16 +769,16 @@
             </li>
             <li>-FORTER -
                 <ul>
-                    <li>Scouting = 5 million silver</li>
-                    <li>Attacking without destroying = 10 million silver</li>
-                    <li>Attacking and destroying = 20 million of each Silver, Iron, Wood, Stone</li>
+                    <li>Scouting = 5 million sølv</li>
+                    <li>Attacking without destroying = 10 million sølv</li>
+                    <li>Attacking and destroying = 20 million of each Sølv, Iron, Wood, Stone</li>
                 </ul>
             </li>
             <li>- HOVEDSTADER -
                 <ul>
-                    <li>Scouting = 5 million silver</li>
-                    <li>Attacking without destroying = 10 million silver</li>
-                    <li>Attacking and destroying = 50 million of each Silver, Iron, Wood, Stone</li>
+                    <li>Scouting = 5 million sølv</li>
+                    <li>Attacking without destroying = 10 million sølv</li>
+                    <li>Attacking and destroying = 50 million of each Sølv, Iron, Wood, Stone</li>
                 </ul>
             </li>
         </ul>
@@ -918,14 +918,14 @@
                 "calculator.armyTier.sub": "Gib Zahlen für jede Stufe der verlorenen Einheiten ein.",
                 "calculator.summary.eyebrow": "Zusammenfassung",
                 "calculator.summary.title": "Summen & Kopierblock",
-                "calculator.summary.sub": "Füge Direct Silver und Ressourcenverluste hinzu.",
-                "calculator.directSilver": "Direct Silver",
+                "calculator.summary.sub": "Füge entnommenes Silber sowie Ressourcen hinzu.",
+                "calculator.directSilver": "Entnommenes Silber",
                 "calculator.food": "Nahrung",
                 "calculator.lumber": "Holz",
                 "calculator.stone": "Stein",
                 "calculator.iron": "Eisen",
-                "calculator.silverSubtotal": "Silver Zwischensumme",
-                "calculator.totalLoss": "Gesamtverlust (mit Direct Silver)",
+                "calculator.silverSubtotal": "Silber Zwischensumme",
+                "calculator.totalLoss": "Gesamtverlust (mit entnommenem Silber)",
                 "calculator.calculate": "Berechnen",
                 "calculator.reset": "Zurücksetzen",
                 "calculator.copyLabel": "Kopierfertige Nachricht",
@@ -981,8 +981,8 @@
                 "calc.output.wallsCatapult": "Mauern/Katapulte",
                 "calc.output.goldTotal": "Gold gesamt",
                 "calc.output.tarTotal": "Teer gesamt",
-                "calc.output.directSilver": "Direct Silver",
-                "calc.output.totalSilverLoss": "GESAMT SILVER VERLUST",
+                "calc.output.directSilver": "Entnommenes Silber",
+                "calc.output.totalSilverLoss": "GESAMT SILBER VERLUST",
                 "calc.output.totalWithTax": "GESAMT (MIT 20% STEUER)",
                 "calc.output.food": "Nahrung",
                 "calc.output.lumber": "Holz",
@@ -1033,10 +1033,10 @@
         <ul class="roe-points">
             <li>Jeder Angriff oder jedes Scouting hat einen Grundpreis von 1 Million Silber. Zusätzliche Verluste, Schäden oder gestohlene Ressourcen werden zu diesem Grundpreis hinzugefügt.</li>
             <li>RSS: Betrag in Höhe des gestohlenen Betrags</li>
-            <li>Gold: 1 Gold = 3,000 Silver oder Goldminen entsprechend dem gestohlenen Betrag + 10% (nach Entscheidung des Opfers)</li>
-            <li>Tar: 1 Tar = 1,000 Silver</li>
-            <li>Gold Bars = keine Entschädigung</li>
-            <li>Illegal geschlossenes Portal: 1M silver (+1M für den illegalen Angriff selbst)</li>
+            <li>Gold: 1 Gold = 3,000 Silber oder Goldminen entsprechend dem gestohlenen Betrag + 10% (nach Entscheidung des Opfers)</li>
+            <li>Tar: 1 Tar = 1,000 Silber</li>
+            <li>Goldbarren = keine Entschädigung</li>
+            <li>Illegal geschlossenes Portal: 1M Silber (+1M für den illegalen Angriff selbst)</li>
             <li>Schaden wird nach folgender Formel berechnet: Verluste an Truppen werden nach folgender Formel berechnet:
                 <ul>
                     <li>Held= 1.5k</li>
@@ -1054,16 +1054,16 @@
             </li>
             <li>-FORTS -
                 <ul>
-                    <li>Scouting = 5 Millionen silver</li>
-                    <li>Angriff ohne Zerstörung = 10 Millionen silver</li>
-                    <li>Angriff und Zerstörung = 20 Millionen von jedem Silver, Iron, Wood, Stone</li>
+                    <li>Scouting = 5 Millionen Silber</li>
+                    <li>Angriff ohne Zerstörung = 10 Millionen Silber</li>
+                    <li>Angriff und Zerstörung = 20 Millionen von jedem Silber, Iron, Wood, Stone</li>
                 </ul>
             </li>
             <li>- HAUPTSTÄDTE -
                 <ul>
-                    <li>Scouting = 5 Millionen silver</li>
-                    <li>Angriff ohne Zerstörung = 10 Millionen silver</li>
-                    <li>Angriff und Zerstörung = 50 Millionen von jedem Silver, Iron, Wood, Stone</li>
+                    <li>Scouting = 5 Millionen Silber</li>
+                    <li>Angriff ohne Zerstörung = 10 Millionen Silber</li>
+                    <li>Angriff und Zerstörung = 50 Millionen von jedem Silber, Iron, Wood, Stone</li>
                 </ul>
             </li>
         </ul>
@@ -1203,14 +1203,14 @@
                 "calculator.armyTier.sub": "Ingresa recuentos para cada nivel de unidades perdidas.",
                 "calculator.summary.eyebrow": "Resumen",
                 "calculator.summary.title": "Totales y bloque de copia",
-                "calculator.summary.sub": "Agrega cualquier Direct Silver perdido así como recursos.",
-                "calculator.directSilver": "Direct Silver",
+                "calculator.summary.sub": "Agrega cualquier plata tomada así como recursos.",
+                "calculator.directSilver": "Plata tomada",
                 "calculator.food": "Comida",
                 "calculator.lumber": "Madera",
                 "calculator.stone": "Piedra",
                 "calculator.iron": "Hierro",
-                "calculator.silverSubtotal": "Subtotal de silver",
-                "calculator.totalLoss": "Pérdida total (con Direct Silver)",
+                "calculator.silverSubtotal": "Subtotal de plata",
+                "calculator.totalLoss": "Pérdida total (con plata tomada)",
                 "calculator.calculate": "Calcular",
                 "calculator.reset": "Restablecer",
                 "calculator.copyLabel": "Mensaje listo para copiar",
@@ -1266,8 +1266,8 @@
                 "calc.output.wallsCatapult": "Murallas/Catapultas",
                 "calc.output.goldTotal": "Oro total",
                 "calc.output.tarTotal": "Alquitrán total",
-                "calc.output.directSilver": "Direct Silver",
-                "calc.output.totalSilverLoss": "PÉRDIDA TOTAL DE SILVER",
+                "calc.output.directSilver": "Plata tomada",
+                "calc.output.totalSilverLoss": "PÉRDIDA TOTAL DE PLATA",
                 "calc.output.totalWithTax": "TOTAL (CON 20% IMPUESTO)",
                 "calc.output.food": "Comida",
                 "calc.output.lumber": "Madera",
@@ -1316,12 +1316,12 @@
     <li>
         <h3>4. GUÍA DE COMPENSACIÓN DEL PALACIO --</h3>
         <ul class="roe-points">
-            <li>Cada ataque o scouting conlleva un costo base de 1 millón de silver. Cualquier pérdida adicional, daño o recurso robado se agrega encima de este costo base.</li>
+            <li>Cada ataque o scouting conlleva un costo base de 1 millón de plata. Cualquier pérdida adicional, daño o recurso robado se agrega encima de este costo base.</li>
             <li>RSS: cantidad igual a la cantidad robada</li>
-            <li>Gold: 1 Gold = 3,000 Silver o minas de oro iguales a lo robado + 10% (por decisión de la víctima)</li>
-            <li>Tar: 1 Tar = 1,000 Silver</li>
-            <li>Gold Bars = sin compensación</li>
-            <li>Portal cerrado ilegalmente: 1M silver (+1M por el ataque ilegal en sí)</li>
+            <li>Oro: 1 Oro = 3,000 Plata o minas de oro iguales a lo robado + 10% (por decisión de la víctima)</li>
+            <li>Tar: 1 Tar = 1,000 Plata</li>
+            <li>Barras de oro = sin compensación</li>
+            <li>Portal cerrado ilegalmente: 1M plata (+1M por el ataque ilegal en sí)</li>
             <li>El daño se calcula de acuerdo con la siguiente fórmula: Las pérdidas de tropas se calculan de acuerdo con la siguiente fórmula:
                 <ul>
                     <li>Héroe= 1.5k</li>
@@ -1339,16 +1339,16 @@
             </li>
             <li>- FUERTES -
                 <ul>
-                    <li>Scouting = 5 millones de silver</li>
-                    <li>Atacar sin destruir = 10 millones de silver</li>
-                    <li>Atacar y destruir = 20 millones de cada Silver, Iron, Wood, Stone</li>
+                    <li>Scouting = 5 millones de plata</li>
+                    <li>Atacar sin destruir = 10 millones de plata</li>
+                    <li>Atacar y destruir = 20 millones de cada Plata, Iron, Wood, Stone</li>
                 </ul>
             </li>
             <li>- CAPITALES -
                 <ul>
-                    <li>Scouting = 5 millones de silver</li>
-                    <li>Atacar sin destruir = 10 millones de silver</li>
-                    <li>Atacar y destruir = 50 millones de cada Silver, Iron, Wood, Stone</li>
+                    <li>Scouting = 5 millones de plata</li>
+                    <li>Atacar sin destruir = 10 millones de plata</li>
+                    <li>Atacar y destruir = 50 millones de cada Plata, Iron, Wood, Stone</li>
                 </ul>
             </li>
         </ul>
@@ -1488,14 +1488,14 @@
                 "calculator.armyTier.sub": "Saisissez les comptes pour chaque niveau d'unités perdues.",
                 "calculator.summary.eyebrow": "Résumé",
                 "calculator.summary.title": "Totaux & bloc à copier",
-                "calculator.summary.sub": "Ajoutez tout Direct Silver perdu ainsi que les ressources.",
-                "calculator.directSilver": "Direct Silver",
+                "calculator.summary.sub": "Ajoutez tout argent pris ainsi que les ressources.",
+                "calculator.directSilver": "Argent pris",
                 "calculator.food": "Nourriture",
                 "calculator.lumber": "Bois",
                 "calculator.stone": "Pierre",
                 "calculator.iron": "Fer",
-                "calculator.silverSubtotal": "Sous-total silver",
-                "calculator.totalLoss": "Perte totale (avec Direct Silver)",
+                "calculator.silverSubtotal": "Sous-total argent",
+                "calculator.totalLoss": "Perte totale (avec argent pris)",
                 "calculator.calculate": "Calculer",
                 "calculator.reset": "Réinitialiser",
                 "calculator.copyLabel": "Message prêt à copier",
@@ -1551,8 +1551,8 @@
                 "calc.output.wallsCatapult": "Murs/Catapultes",
                 "calc.output.goldTotal": "Or total",
                 "calc.output.tarTotal": "Goudron total",
-                "calc.output.directSilver": "Direct Silver",
-                "calc.output.totalSilverLoss": "PERTE TOTALE DE SILVER",
+                "calc.output.directSilver": "Argent pris",
+                "calc.output.totalSilverLoss": "PERTE TOTALE DE ARGENT",
                 "calc.output.totalWithTax": "TOTAL (AVEC 20% TAXE)",
                 "calc.output.food": "Nourriture",
                 "calc.output.lumber": "Bois",
@@ -1601,12 +1601,12 @@
     <li>
         <h3>4. GUIDE DE COMPENSATION DU PALAIS --</h3>
         <ul class="roe-points">
-            <li>Chaque attaque ou scouting entraîne un coût de base de 1 million de silver. Toute perte supplémentaire, dommage ou ressource volée s'ajoute à ce coût de base.</li>
+            <li>Chaque attaque ou scouting entraîne un coût de base de 1 million de argent. Toute perte supplémentaire, dommage ou ressource volée s'ajoute à ce coût de base.</li>
             <li>RSS: montant égal au montant volé</li>
-            <li>Gold: 1 Gold = 3,000 Silver ou mines d'or égales au volé + 10% (décision de la victime)</li>
-            <li>Tar: 1 Tar = 1,000 Silver</li>
-            <li>Gold Bars = aucune compensation</li>
-            <li>Portail fermé illégalement: 1M silver (+1M pour l'attaque illégale elle-même)</li>
+            <li>Or: 1 Or = 3,000 Argent ou mines d'or égales au volé + 10% (décision de la victime)</li>
+            <li>Tar: 1 Tar = 1,000 Argent</li>
+            <li>Barres d'or = aucune compensation</li>
+            <li>Portail fermé illégalement: 1M argent (+1M pour l'attaque illégale elle-même)</li>
             <li>Les dégâts sont calculés selon la formule suivante: Les pertes de troupes sont calculées selon la formule suivante:
                 <ul>
                     <li>Héros= 1.5k</li>
@@ -1624,16 +1624,16 @@
             </li>
             <li>-FORTS -
                 <ul>
-                    <li>Scouting = 5 million silver</li>
-                    <li>Attaque sans détruire = 10 million silver</li>
-                    <li>Attaque et destruction = 20 million de chaque Silver, Iron, Wood, Stone</li>
+                    <li>Scouting = 5 million argent</li>
+                    <li>Attaque sans détruire = 10 million argent</li>
+                    <li>Attaque et destruction = 20 million de chaque Argent, Iron, Wood, Stone</li>
                 </ul>
             </li>
             <li>- CAPITALES -
                 <ul>
-                    <li>Scouting = 5 million silver</li>
-                    <li>Attaque sans détruire = 10 million silver</li>
-                    <li>Attaque et destruction = 50 million de chaque Silver, Iron, Wood, Stone</li>
+                    <li>Scouting = 5 million argent</li>
+                    <li>Attaque sans détruire = 10 million argent</li>
+                    <li>Attaque et destruction = 50 million de chaque Argent, Iron, Wood, Stone</li>
                 </ul>
             </li>
         </ul>
@@ -1773,14 +1773,14 @@
                 "calculator.armyTier.sub": "Informe contagens para cada nível de unidades perdidas.",
                 "calculator.summary.eyebrow": "Resumo",
                 "calculator.summary.title": "Totais e bloco de cópia",
-                "calculator.summary.sub": "Adicione qualquer Direct Silver perdido e também recursos.",
-                "calculator.directSilver": "Direct Silver",
+                "calculator.summary.sub": "Adicione qualquer prata tomada e também recursos.",
+                "calculator.directSilver": "Prata tomada",
                 "calculator.food": "Comida",
                 "calculator.lumber": "Madeira",
                 "calculator.stone": "Pedra",
                 "calculator.iron": "Ferro",
-                "calculator.silverSubtotal": "Subtotal de silver",
-                "calculator.totalLoss": "Perda total (com Direct Silver)",
+                "calculator.silverSubtotal": "Subtotal de prata",
+                "calculator.totalLoss": "Perda total (com prata tomada)",
                 "calculator.calculate": "Calcular",
                 "calculator.reset": "Redefinir",
                 "calculator.copyLabel": "Mensagem pronta para copiar",
@@ -1836,8 +1836,8 @@
                 "calc.output.wallsCatapult": "Muralhas/Catapultas",
                 "calc.output.goldTotal": "Ouro total",
                 "calc.output.tarTotal": "Alcatrão total",
-                "calc.output.directSilver": "Direct Silver",
-                "calc.output.totalSilverLoss": "PERDA TOTAL DE SILVER",
+                "calc.output.directSilver": "Prata tomada",
+                "calc.output.totalSilverLoss": "PERDA TOTAL DE PRATA",
                 "calc.output.totalWithTax": "TOTAL (COM 20% IMPOSTO)",
                 "calc.output.food": "Comida",
                 "calc.output.lumber": "Madeira",
@@ -1886,12 +1886,12 @@
     <li>
         <h3>4. GUIA DE COMPENSAÇÃO DO PALÁCIO --</h3>
         <ul class="roe-points">
-            <li>Cada ataque ou scouting tem um custo base de 1 milhão de silver. Quaisquer perdas adicionais, danos ou recursos roubados são adicionados a esse custo base.</li>
+            <li>Cada ataque ou scouting tem um custo base de 1 milhão de prata. Quaisquer perdas adicionais, danos ou recursos roubados são adicionados a esse custo base.</li>
             <li>RSS: valor igual ao valor roubado</li>
-            <li>Gold: 1 Gold = 3,000 Silver ou minas de ouro iguais ao roubado + 10% (por decisão da vítima)</li>
-            <li>Tar: 1 Tar = 1,000 Silver</li>
-            <li>Gold Bars = sem compensação</li>
-            <li>Portal fechado ilegalmente: 1M silver (+1M pelo ataque ilegal em si)</li>
+            <li>Ouro: 1 Ouro = 3,000 Prata ou minas de ouro iguais ao roubado + 10% (por decisão da vítima)</li>
+            <li>Tar: 1 Tar = 1,000 Prata</li>
+            <li>Barras de ouro = sem compensação</li>
+            <li>Portal fechado ilegalmente: 1M prata (+1M pelo ataque ilegal em si)</li>
             <li>O dano é calculado de acordo com a seguinte fórmula: As perdas de tropas são calculadas de acordo com a seguinte fórmula:
                 <ul>
                     <li>Herói= 1.5k</li>
@@ -1909,16 +1909,16 @@
             </li>
             <li>-FORTES -
                 <ul>
-                    <li>Scouting = 5 milhões de silver</li>
-                    <li>Atacar sem destruir = 10 milhões de silver</li>
-                    <li>Atacar e destruir = 20 milhões de cada Silver, Iron, Wood, Stone</li>
+                    <li>Scouting = 5 milhões de prata</li>
+                    <li>Atacar sem destruir = 10 milhões de prata</li>
+                    <li>Atacar e destruir = 20 milhões de cada Prata, Iron, Wood, Stone</li>
                 </ul>
             </li>
             <li>- CAPITAIS -
                 <ul>
-                    <li>Scouting = 5 milhões de silver</li>
-                    <li>Atacar sem destruir = 10 milhões de silver</li>
-                    <li>Atacar e destruir = 50 milhões de cada Silver, Iron, Wood, Stone</li>
+                    <li>Scouting = 5 milhões de prata</li>
+                    <li>Atacar sem destruir = 10 milhões de prata</li>
+                    <li>Atacar e destruir = 50 milhões de cada Prata, Iron, Wood, Stone</li>
                 </ul>
             </li>
         </ul>
@@ -1926,8 +1926,8 @@
     <li>
         <h3>5. TAXAS</h3>
         <ul class="roe-points">
-            <li>Cidades com mais de 3 dias de ingots acumulados podem ser atacadas por um membro da Guarda Real após receber 24 horas de aviso. Gold ingots não têm valor para você pessoalmente, mas o Rei pode usá-los para ativar bônus para todo o reino. Se tivermos gold bars, eles serão usados para o benefício de K273.</li>
-            <li>Máximo de gold ingots por cidade:
+            <li>Cidades com mais de 3 dias de ingots acumulados podem ser atacadas por um membro da Guarda Real após receber 24 horas de aviso. Lingotes de ouro não têm valor para você pessoalmente, mas o Rei pode usá-los para ativar bônus para todo o reino. Se tivermos barras de ouro, eles serão usados para o benefício de K273.</li>
+            <li>Máximo de lingotes de ouro por cidade:
                 <ul>
                     <li>Cidade 1-9: 2000 Ingots</li>
                     <li>Cidade 10-19: 3000 Ingots</li>
@@ -2058,14 +2058,14 @@
                 "calculator.armyTier.sub": "Wpisz liczby dla każdego poziomu utraconych jednostek.",
                 "calculator.summary.eyebrow": "Podsumowanie",
                 "calculator.summary.title": "Sumy i blok do kopiowania",
-                "calculator.summary.sub": "Dodaj utracone Direct Silver oraz zasoby.",
-                "calculator.directSilver": "Direct Silver",
+                "calculator.summary.sub": "Dodaj utracone srebro oraz zasoby.",
+                "calculator.directSilver": "Srebro zabrane",
                 "calculator.food": "Żywność",
                 "calculator.lumber": "Drewno",
                 "calculator.stone": "Kamień",
                 "calculator.iron": "Żelazo",
-                "calculator.silverSubtotal": "Suma częściowa silver",
-                "calculator.totalLoss": "Łączna strata (z Direct Silver)",
+                "calculator.silverSubtotal": "Suma częściowa srebro",
+                "calculator.totalLoss": "Łączna strata (z srebrem zabranym)",
                 "calculator.calculate": "Oblicz",
                 "calculator.reset": "Resetuj",
                 "calculator.copyLabel": "Wiadomość gotowa do skopiowania",
@@ -2121,8 +2121,8 @@
                 "calc.output.wallsCatapult": "Mury/Katapulty",
                 "calc.output.goldTotal": "Złoto łącznie",
                 "calc.output.tarTotal": "Smoła łącznie",
-                "calc.output.directSilver": "Direct Silver",
-                "calc.output.totalSilverLoss": "ŁĄCZNA STRATA SILVER",
+                "calc.output.directSilver": "Srebro zabrane",
+                "calc.output.totalSilverLoss": "ŁĄCZNA STRATA SREBRO",
                 "calc.output.totalWithTax": "RAZEM (Z 20% PODATKIEM)",
                 "calc.output.food": "Żywność",
                 "calc.output.lumber": "Drewno",
@@ -2171,12 +2171,12 @@
     <li>
         <h3>4. PRZEWODNIK KOMPENSACJI PAŁACU --</h3>
         <ul class="roe-points">
-            <li>Każdy atak lub scouting wiąże się z bazowym kosztem 1 miliona silver. Wszelkie dodatkowe straty, szkody lub skradzione zasoby są dodawane do tego kosztu bazowego.</li>
+            <li>Każdy atak lub scouting wiąże się z bazowym kosztem 1 miliona srebro. Wszelkie dodatkowe straty, szkody lub skradzione zasoby są dodawane do tego kosztu bazowego.</li>
             <li>RSS: kwota równa skradzionej ilości</li>
-            <li>Gold: 1 Gold = 3,000 Silver lub kopalnie złota równe skradzionemu + 10% (decyzją ofiary)</li>
-            <li>Tar: 1 Tar = 1,000 Silver</li>
-            <li>Gold Bars = brak rekompensaty</li>
-            <li>Nielegalnie zamknięty portal: 1M silver (+1M za sam nielegalny atak)</li>
+            <li>Złoto: 1 Złoto = 3,000 Srebro lub kopalnie złota równe skradzionemu + 10% (decyzją ofiary)</li>
+            <li>Tar: 1 Tar = 1,000 Srebro</li>
+            <li>Sztabki złota = brak rekompensaty</li>
+            <li>Nielegalnie zamknięty portal: 1M srebro (+1M za sam nielegalny atak)</li>
             <li>Obrażenia są obliczane według następującej formuły: Straty wojsk są obliczane według następującej formuły:
                 <ul>
                     <li>Bohater= 1.5k</li>
@@ -2194,16 +2194,16 @@
             </li>
             <li>-FORTY -
                 <ul>
-                    <li>Scouting = 5 milionów silver</li>
-                    <li>Atak bez zniszczenia = 10 milionów silver</li>
-                    <li>Atak i zniszczenie = 20 milionów każdego Silver, Iron, Wood, Stone</li>
+                    <li>Scouting = 5 milionów srebro</li>
+                    <li>Atak bez zniszczenia = 10 milionów srebro</li>
+                    <li>Atak i zniszczenie = 20 milionów każdego Srebro, Iron, Wood, Stone</li>
                 </ul>
             </li>
             <li>- STOLICE -
                 <ul>
-                    <li>Scouting = 5 milionów silver</li>
-                    <li>Atak bez zniszczenia = 10 milionów silver</li>
-                    <li>Atak i zniszczenie = 50 milionów każdego Silver, Iron, Wood, Stone</li>
+                    <li>Scouting = 5 milionów srebro</li>
+                    <li>Atak bez zniszczenia = 10 milionów srebro</li>
+                    <li>Atak i zniszczenie = 50 milionów każdego Srebro, Iron, Wood, Stone</li>
                 </ul>
             </li>
         </ul>
@@ -2211,8 +2211,8 @@
     <li>
         <h3>5. PODATKI</h3>
         <ul class="roe-points">
-            <li>Miasta z ponad 3 dniami zgromadzonych ingotów mogą zostać zaatakowane przez członka Gwardii Królewskiej po 24 godzinach ostrzeżenia. Gold ingots nie mają dla ciebie osobistej wartości, ale Król może ich użyć do włączenia bonusów dla całego królestwa. Jeśli mamy gold bars, zostaną użyte dla dobra K273.</li>
-            <li>Maksymalna liczba gold ingots na miasto:
+            <li>Miasta z ponad 3 dniami zgromadzonych ingotów mogą zostać zaatakowane przez członka Gwardii Królewskiej po 24 godzinach ostrzeżenia. Sztabki złota nie mają dla ciebie osobistej wartości, ale Król może ich użyć do włączenia bonusów dla całego królestwa. Jeśli mamy sztabki złota, zostaną użyte dla dobra K273.</li>
+            <li>Maksymalna liczba sztabki złota na miasto:
                 <ul>
                     <li>Miasto 1-9: 2000 Ingots</li>
                     <li>Miasto 10-19: 3000 Ingots</li>
@@ -2343,14 +2343,14 @@
                 "calculator.armyTier.sub": "Введите количества для каждого уровня потерянных юнитов.",
                 "calculator.summary.eyebrow": "Сводка",
                 "calculator.summary.title": "Итоги и блок для копирования",
-                "calculator.summary.sub": "Добавьте любые потери Direct Silver и ресурсов.",
-                "calculator.directSilver": "Direct Silver",
+                "calculator.summary.sub": "Добавьте взятое серебро, а также ресурсы.",
+                "calculator.directSilver": "Серебро взято",
                 "calculator.food": "Еда",
                 "calculator.lumber": "Древесина",
                 "calculator.stone": "Камень",
                 "calculator.iron": "Железо",
-                "calculator.silverSubtotal": "Промежуточный итог silver",
-                "calculator.totalLoss": "Общая потеря (с Direct Silver)",
+                "calculator.silverSubtotal": "Промежуточный итог серебро",
+                "calculator.totalLoss": "Общая потеря (с взятым серебром)",
                 "calculator.calculate": "Рассчитать",
                 "calculator.reset": "Сбросить",
                 "calculator.copyLabel": "Сообщение для копирования",
@@ -2406,8 +2406,8 @@
                 "calc.output.wallsCatapult": "Стены/Катапульты",
                 "calc.output.goldTotal": "Золото всего",
                 "calc.output.tarTotal": "Смола всего",
-                "calc.output.directSilver": "Direct Silver",
-                "calc.output.totalSilverLoss": "ОБЩАЯ ПОТЕРЯ SILVER",
+                "calc.output.directSilver": "Серебро взято",
+                "calc.output.totalSilverLoss": "ОБЩАЯ ПОТЕРЯ СЕРЕБРО",
                 "calc.output.totalWithTax": "ИТОГО (С 20% НАЛОГОМ)",
                 "calc.output.food": "Еда",
                 "calc.output.lumber": "Древесина",
@@ -2456,12 +2456,12 @@
     <li>
         <h3>4. РУКОВОДСТВО ПО КОМПЕНСАЦИИ ДВОРЦА --</h3>
         <ul class="roe-points">
-            <li>Каждая атака или разведка имеет базовую стоимость 1 миллион silver. Любые дополнительные потери, повреждения или украденные ресурсы добавляются к этой базовой стоимости.</li>
+            <li>Каждая атака или разведка имеет базовую стоимость 1 миллион серебро. Любые дополнительные потери, повреждения или украденные ресурсы добавляются к этой базовой стоимости.</li>
             <li>RSS: сумма равная украденной сумме</li>
-            <li>Gold: 1 Gold = 3,000 Silver или золотые шахты равные украденному + 10% (по решению жертвы)</li>
-            <li>Tar: 1 Tar = 1,000 Silver</li>
-            <li>Gold Bars = без компенсации</li>
-            <li>Незаконно закрытый портал: 1M silver (+1M за сам незаконный атаку)</li>
+            <li>Золото: 1 Золото = 3,000 Серебро или золотые шахты равные украденному + 10% (по решению жертвы)</li>
+            <li>Tar: 1 Tar = 1,000 Серебро</li>
+            <li>Золотые слитки = без компенсации</li>
+            <li>Незаконно закрытый портал: 1M серебро (+1M за сам незаконный атаку)</li>
             <li>Урон рассчитывается по следующей формуле: Потери войск рассчитываются по следующей формуле:
                 <ul>
                     <li>Герой= 1.5k</li>
@@ -2479,16 +2479,16 @@
             </li>
             <li>-ФОРТЫ -
                 <ul>
-                    <li>Разведка = 5 миллионов silver</li>
-                    <li>Атака без уничтожения = 10 миллионов silver</li>
-                    <li>Атака и уничтожение = 20 миллионов каждого Silver, Iron, Wood, Stone</li>
+                    <li>Разведка = 5 миллионов серебро</li>
+                    <li>Атака без уничтожения = 10 миллионов серебро</li>
+                    <li>Атака и уничтожение = 20 миллионов каждого Серебро, Iron, Wood, Stone</li>
                 </ul>
             </li>
             <li>- СТОЛИЦЫ -
                 <ul>
-                    <li>Разведка = 5 миллионов silver</li>
-                    <li>Атака без уничтожения = 10 миллионов silver</li>
-                    <li>Атака и уничтожение = 50 миллионов каждого Silver, Iron, Wood, Stone</li>
+                    <li>Разведка = 5 миллионов серебро</li>
+                    <li>Атака без уничтожения = 10 миллионов серебро</li>
+                    <li>Атака и уничтожение = 50 миллионов каждого Серебро, Iron, Wood, Stone</li>
                 </ul>
             </li>
         </ul>
@@ -2496,8 +2496,8 @@
     <li>
         <h3>5. НАЛОГИ</h3>
         <ul class="roe-points">
-            <li>Города с более чем 3 днями накопленных ingots могут быть атакованы членом Королевской Гвардии после предупреждения за 24 часа. Gold ingots не имеют личной ценности для вас, но Король может использовать их, чтобы включать бонусы для всего королевства. Если у нас есть gold bars, они будут использованы на благо K273.</li>
-            <li>Максимум gold ingots на город:
+            <li>Города с более чем 3 днями накопленных ingots могут быть атакованы членом Королевской Гвардии после предупреждения за 24 часа. Золотые слитки не имеют личной ценности для вас, но Король может использовать их, чтобы включать бонусы для всего королевства. Если у нас есть золотые слитки, они будут использованы на благо K273.</li>
+            <li>Максимум золотые слитки на город:
                 <ul>
                     <li>Город 1-9: 2000 Ingots</li>
                     <li>Город 10-19: 3000 Ingots</li>
@@ -2628,14 +2628,14 @@
                 "calculator.armyTier.sub": "Ange antal för varje nivå av förlorade enheter.",
                 "calculator.summary.eyebrow": "Sammanfattning",
                 "calculator.summary.title": "Totaler och kopieringsblock",
-                "calculator.summary.sub": "Lägg till förlorat Direct Silver samt resurser.",
-                "calculator.directSilver": "Direct Silver",
+                "calculator.summary.sub": "Lägg till eventuellt silver taget samt resurser.",
+                "calculator.directSilver": "Silver taget",
                 "calculator.food": "Mat",
                 "calculator.lumber": "Trä",
                 "calculator.stone": "Sten",
                 "calculator.iron": "Järn",
                 "calculator.silverSubtotal": "Silver delsumma",
-                "calculator.totalLoss": "Total förlust (med Direct Silver)",
+                "calculator.totalLoss": "Total förlust (med silver taget)",
                 "calculator.calculate": "Beräkna",
                 "calculator.reset": "Återställ",
                 "calculator.copyLabel": "Kopieringsklart meddelande",
@@ -2691,7 +2691,7 @@
                 "calc.output.wallsCatapult": "Murar/Katapulter",
                 "calc.output.goldTotal": "Guld totalt",
                 "calc.output.tarTotal": "Tjära totalt",
-                "calc.output.directSilver": "Direct Silver",
+                "calc.output.directSilver": "Silver taget",
                 "calc.output.totalSilverLoss": "TOTAL SILVERFÖRLUST",
                 "calc.output.totalWithTax": "TOTAL (MED 20% SKATT)",
                 "calc.output.food": "Mat",
@@ -2743,9 +2743,9 @@
         <ul class="roe-points">
             <li>Varje attack eller scouting har en baskostnad på 1 miljon silver. Eventuella ytterligare förluster, skador eller stulna resurser läggs ovanpå denna baskostnad.</li>
             <li>RSS: belopp lika med det stulna beloppet</li>
-            <li>Gold: 1 Gold = 3,000 Silver eller guldgruvor lika med stulen + 10% (enligt offrets beslut)</li>
+            <li>Guld: 1 Guld = 3,000 Silver eller guldgruvor lika med stulen + 10% (enligt offrets beslut)</li>
             <li>Tar: 1 Tar = 1,000 Silver</li>
-            <li>Gold Bars = ingen kompensation</li>
+            <li>Guldtackor = ingen kompensation</li>
             <li>Olagligt stängd portal: 1M silver (+1M för själva olagliga attacken)</li>
             <li>Skador beräknas enligt följande formel: Förluster av trupper beräknas enligt följande formel:
                 <ul>
@@ -2781,8 +2781,8 @@
     <li>
         <h3>5. SKATTER</h3>
         <ul class="roe-points">
-            <li>Städer med mer än 3 dagars ackumulerade ingots kan attackeras av en medlem av den Kungliga Gardet efter 24 timmars varning. Gold ingots har inget personligt värde för dig, men Kungen kan använda dem för att aktivera bonusar för hela riket. Om vi har gold bars kommer de att användas till fördel för K273.</li>
-            <li>Maximalt antal gold ingots per stad:
+            <li>Städer med mer än 3 dagars ackumulerade ingots kan attackeras av en medlem av den Kungliga Gardet efter 24 timmars varning. Guldtackor har inget personligt värde för dig, men Kungen kan använda dem för att aktivera bonusar för hela riket. Om vi har guldtackor kommer de att användas till fördel för K273.</li>
+            <li>Maximalt antal guldtackor per stad:
                 <ul>
                     <li>Stad 1-9: 2000 Ingots</li>
                     <li>Stad 10-19: 3000 Ingots</li>
