@@ -1710,6 +1710,292 @@
 </ol>
 `
         },
+        it: {
+            strings: {
+                "site.languageLabel": "Lingua",
+                "site.footer": "Creato per K273 da Zee",
+                "index.title": "TotalBattle Regno 273",
+                "index.hero.eyebrow": "K273 | Strumenti & Link",
+                "index.hero.title": "TotalBattle Regno 273",
+                "index.hero.lede": "Accesso rapido ai nostri calcolatori e risorse.",
+                "index.palace.eyebrow": "Palazzo",
+                "index.palace.card.title": "Ruoli del palazzo e ROE",
+                "index.palace.card.body": "Consulta gli incarichi attuali del palazzo e le regole di ingaggio del regno.",
+                "index.palace.card.button": "Apri pagina del palazzo",
+                "index.tools.eyebrow": "STRUMENTI",
+                "index.calc.card.title": "Calcolatore del costo dei danni da attacco illegale",
+                "index.calc.card.body": "Inserisci le perdite e copia il messaggio formattato nella chat di TotalBattle.",
+                "index.calc.card.button": "Apri calcolatore",
+                "palace.title": "K273 Ruoli del palazzo e ROE",
+                "palace.hero.eyebrow": "K273 | Panoramica palazzo",
+                "palace.hero.title": "Ruoli del palazzo e ROE",
+                "palace.hero.lede": "Posti di leadership attuali e regole di ingaggio del regno.",
+                "palace.hero.back": "← Torna alla home",
+                "palace.roles.eyebrow": "Palazzo",
+                "palace.roles.title": "Ruoli attuali",
+                "palace.roles.sub": "Chi occupa ogni posto in questo momento.",
+                "palace.roles.updated": "Ultimo aggiornamento 12/20/2025",
+                "palace.roles.table.role": "Ruolo",
+                "palace.roles.table.player": "Giocatore",
+                "palace.roles.king": "RE",
+                "palace.roles.hand": "Mano del Re",
+                "palace.roles.queen": "Regina",
+                "palace.roles.centurion": "Centurione",
+                "palace.roles.chancellor": "Cancelliere",
+                "palace.roles.treasurer": "Tesoriere",
+                "palace.roles.archon": "Arconte",
+                "palace.roles.quaestor": "Questore",
+                "palace.roles.tribute": "Tributo",
+                "palace.roles.legate": "Legato",
+                "palace.image.alt": "Palazzo TotalBattle",
+                "palace.roe.eyebrow": "ROE",
+                "palace.roe.title": "Regole di ingaggio",
+                "palace.roe.subtitle": "Linee guida del regno per combattimento e condotta.<br>La versione inglese è il ROE ufficiale (Traduzioni via IA)<br>Ultimo aggiornamento 12/20/2025",
+                "palace.back": "← Torna alla home",
+                "calculator.title": "TotalBattle Calcolatore danni",
+                "calculator.hero.eyebrow": "K273 | Calcolatore attacco illegale",
+                "calculator.hero.title": "TotalBattle Danni",
+                "calculator.hero.lede": "Inserisci le perdite e genera un riepilogo pronto da copiare per i messaggi ROE.",
+                "calculator.hero.back": "← Torna agli strumenti",
+                "calculator.base.eyebrow": "Costi base",
+                "calculator.base.title": "Predefiniti",
+                "calculator.base.sub": "Modifica solo se le regole cambiano. I valori sono salvati solo per questa sessione. (Contatta Zee per modifiche permanenti)",
+                "calculator.base.pill": "Base",
+                "calculator.clan.eyebrow": "Edifici del clan",
+                "calculator.clan.title": "Perdite opzionali",
+                "calculator.clan.sub": "Includi solo quando forti/capitali vengono colpiti. I valori predefiniti sono modificabili.",
+                "calculator.clan.include": "Includi nel report",
+                "calculator.armyFlat.eyebrow": "Perdite esercito",
+                "calculator.armyFlat.title": "Voci a costo fisso",
+                "calculator.armyFlat.sub": "Inserisci conteggi base per unità perse a costo fisso.",
+                "calculator.armyTier.eyebrow": "Perdite esercito per livello",
+                "calculator.armyTier.title": "Voci per livello",
+                "calculator.armyTier.sub": "Inserisci conteggi per ogni livello di unità perse.",
+                "calculator.summary.eyebrow": "Riepilogo",
+                "calculator.summary.title": "Totali e blocco copia",
+                "calculator.summary.sub": "Aggiungi eventuale argento preso e anche le risorse.",
+                "calculator.directSilver": "Argento preso",
+                "calculator.food": "Cibo",
+                "calculator.lumber": "Legname",
+                "calculator.stone": "Pietra",
+                "calculator.iron": "Ferro",
+                "calculator.silverSubtotal": "Subtotale argento",
+                "calculator.totalLoss": "Perdita totale (con argento preso)",
+                "calculator.calculate": "Calcola",
+                "calculator.reset": "Reimposta",
+                "calculator.copyLabel": "Messaggio pronto da copiare",
+                "calculator.copyButton": "Copia riepilogo",
+                "calculator.back": "← Torna agli strumenti",
+                "calculator.formula.baseCount": "Base × Quantità",
+                "calculator.formula.baseCountLevel": "Base × Quantità × Liv.",
+                "calculator.formula.baseCountLevelMinusTwo": "Base × Quantità × (Liv. − 2)",
+                "calculator.label.count": "Quantità",
+                "common.show": "Mostra",
+                "common.hide": "Nascondi",
+                "calc.base.scoutingEvents": "Eventi di esplorazione",
+                "calc.base.attackEvents": "Eventi di attacco",
+                "calc.base.portal": "Portale",
+                "calc.base.hero": "Eroe",
+                "calc.base.captain": "Capitano",
+                "calc.base.monsters12": "Mostri 1-2",
+                "calc.base.monsters37": "Mostri 3-7",
+                "calc.base.spearmenArchers": "Lancieri / Arcieri",
+                "calc.base.specialistRiders": "Specialisti / Cavalieri",
+                "calc.base.spies": "Spie",
+                "calc.base.griffins": "Grifoni",
+                "calc.base.catapultsWalls": "Catapulte / Mura",
+                "calc.base.mercGuard": "Guardia mercenaria",
+                "calc.base.mercMonster": "Mostro mercenario",
+                "calc.base.gold": "Oro",
+                "calc.base.tar": "Catrame",
+                "calc.base.fortScout": "Esplorazione forte",
+                "calc.base.fortAttack": "Attacco forte (non distrutto)",
+                "calc.base.fortDestroy": "Attacco forte (distrutto)",
+                "calc.base.capScout": "Esplorazione capitale",
+                "calc.base.capAttack": "Attacco capitale (non distrutta)",
+                "calc.base.capDestroy": "Attacco capitale (distrutta)",
+                "calc.output.clanBuildings": "EDIFICI DEL CLAN",
+                "calc.output.armyLoss": "PERDITE ESERCITO",
+                "calc.output.additionalLoss": "PERDITE AGGIUNTIVE",
+                "calc.output.resourceLoss": "PERDITA RISORSE",
+                "calc.output.fortScout": "Esplorazione forte",
+                "calc.output.fortAttackHit": "Attacco forte (colpito)",
+                "calc.output.fortAttackDestroy": "Attacco forte (distrutto)",
+                "calc.output.capScout": "Esplorazione capitale",
+                "calc.output.capAttackHit": "Attacco capitale (colpito)",
+                "calc.output.capAttackDestroy": "Attacco capitale (distrutta)",
+                "calc.output.scoutEvents": "Eventi di esplorazione",
+                "calc.output.attackEvents": "Eventi di attacco",
+                "calc.output.portalClosed": "Portale chiuso",
+                "calc.output.heroCaptains": "Eroe/Capitani",
+                "calc.output.spearmenArchers": "Lancieri/Arcieri",
+                "calc.output.specialistsRiders": "Specialisti/Cavalieri",
+                "calc.output.spiesTotal": "Spie totali",
+                "calc.output.monstersTotal": "Mostri totali",
+                "calc.output.mercenaries": "Mercenari",
+                "calc.output.wallsCatapult": "Mura/Catapulte",
+                "calc.output.goldTotal": "Oro totale",
+                "calc.output.tarTotal": "Catrame totale",
+                "calc.output.directSilver": "Argento preso",
+                "calc.output.totalSilverLoss": "PERDITA TOTALE ARGENTO",
+                "calc.output.totalWithTax": "TOTALE (CON 20% TASSA)",
+                "calc.output.food": "Cibo",
+                "calc.output.lumber": "Legname",
+                "calc.output.stone": "Pietra",
+                "calc.output.iron": "Ferro"
+            },
+            roeHtml: `
+<p class="roe-intro">Per ordine del Re Arihelm, il seguente ROE è in vigore per il regno:</p>
+<ol class="roe-list">
+    <li>
+        <h3>1. TEMPO DI PACE</h3>
+        <ul class="roe-points">
+            <li>Gli attacchi alle città sono vietati tranne durante CoT e gli scambi CP pianificati.</li>
+            <li>Gli attacchi ai portali e agli edifici del clan sono proibiti. A meno che il portale non sia dimostrato ostile al clan e o alle sue risorse nel suo territorio.</li>
+            <li>Lo scouting è una forma di aggressione.</li>
+        </ul>
+    </li>
+    <li>
+        <h3>2. DIPLOMATICI</h3>
+        <ul class="roe-points">
+            <li>I clan devono identificare almeno un diplomatico nella descrizione del clan che possa aiutare nella risoluzione delle dispute. I diplomatici devono essere un leader attivo o superiore.</li>
+        </ul>
+    </li>
+    <li>
+        <h3>3. Regole generali</h3>
+        <ul class="roe-points">
+            <li>Tutti gli edifici di risorse all'interno del territorio del clan appartengono a quel clan.</li>
+            <li>Inclusi WS e DMs.</li>
+            <li>Le risorse create dai giocatori appartengono all'individuo che le ha create, a meno che non si concordi di condividere tra due parti.</li>
+            <li>Le cripte rare appartengono all'individuo che le ha sbloccate.</li>
+            <li>WS e DMs:
+                <ul>
+                    <li>a. Non esiste più un sistema di registrazione.</li>
+                    <li>b. Tutti gli edifici di risorse selvatiche (inclusi DM/WS) sono first come, first serve (FCFS).</li>
+                    <li>c. Le rivendicazioni non possono essere fatte se vieni scoutato/attaccato in risorse selvatiche a meno che:
+                        <ul>
+                            <li>Perdi l'edificio.</li>
+                            <li>Vieni scoutato/attaccato e poi attaccato di nuovo. (regola 2x)</li>
+                        </ul>
+                    </li>
+                    <li>d. È tua responsabilità inviare un messaggio al tuo diplomatico, all'altro giocatore e al loro diplomatico/capo clan se qualcuno ti scouta o ti attacca in una miniera.</li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+    <li>
+        <h3>4. GUIDA ALLA COMPENSAZIONE DEL PALAZZO --</h3>
+        <ul class="roe-points">
+            <li>Ogni attacco o scouting comporta un costo base di 1 milione di argento. Eventuali perdite aggiuntive, danni o risorse rubate si aggiungono a questo costo base.</li>
+            <li>RSS: importo pari alla quantità rubata</li>
+            <li>Oro: 1 Oro = 3,000 Argento o miniere d'oro pari al rubato + 10% (a decisione della vittima)</li>
+            <li>Catrame: 1 Catrame = 1,000 Argento</li>
+            <li>Lingotti d'oro = nessuna compensazione</li>
+            <li>Portale chiuso illegalmente: 1M argento (+1M per l'attacco illegale stesso)</li>
+            <li>Il danno è calcolato secondo la seguente formula: Le perdite di truppe sono calcolate secondo la seguente formula:
+                <ul>
+                    <li>Eroe= 1.5k</li>
+                    <li>Capitano= 1k</li>
+                    <li>Lancieri, Arcieri = Livello truppe x 40</li>
+                    <li>Specialisti, Cavalieri = Livello truppe x 80</li>
+                    <li>Spie= Livello truppe x 100</li>
+                    <li>Grifoni= Livello truppe x 800</li>
+                    <li>Catapulte, Mura Livello mura x 200</li>
+                    <li>Mostri III-VII (Livello mostro ⁃ 2) x1.3k</li>
+                    <li>Mostri I & II=x 8.64k</li>
+                    <li>Guardia mercenaria Livello truppe x120</li>
+                    <li>Mostro mercenario = Livello mostro x 3k</li>
+                </ul>
+            </li>
+            <li>-FORTI -
+                <ul>
+                    <li>Scouting = 5 milioni argento</li>
+                    <li>Attaccare senza distruggere = 10 milioni argento</li>
+                    <li>Attaccare e distruggere = 20 milioni di ciascuno Argento, Ferro, Legno, Pietra</li>
+                </ul>
+            </li>
+            <li>- CAPITALI -
+                <ul>
+                    <li>Scouting = 5 milioni argento</li>
+                    <li>Attaccare senza distruggere = 10 milioni argento</li>
+                    <li>Attaccare e distruggere = 50 milioni di ciascuno Argento, Ferro, Legno, Pietra</li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+    <li>
+        <h3>5. TASSE</h3>
+        <ul class="roe-points">
+            <li>Le città con oltre 3 giorni di lingotti accumulati possono essere attaccate da un membro della Guardia Reale dopo un preavviso di 24 ore. I lingotti d'oro non hanno alcun valore personale per te, ma il Re può usarli per attivare bonus per tutto il regno. Se abbiamo i lingotti d'oro, saranno usati a beneficio di K273.</li>
+            <li>Numero massimo di lingotti d'oro per città:
+                <ul>
+                    <li>Città 1-9: 2000 Ingots</li>
+                    <li>Città 10-19: 3000 Ingots</li>
+                    <li>Città 20-24: 10000 Ingots</li>
+                    <li>Città 25-29: 35000 Ingots</li>
+                    <li>Città 30-34: 60000 Ingots</li>
+                    <li>Città 35-39: 70000 Ingots</li>
+                    <li>Città 40+: 90000 Ingots</li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+    <li>
+        <h3>6. Membri del Regno Stimato</h3>
+        <ul class="roe-points">
+            <li>Ogni giocatore deve rispettare queste regole per essere protetto dal ROE. I giocatori non protetti sono:
+                <ul>
+                    <li>FUORILEGGE</li>
+                    <li>GIOCATORI SENZA CLAN</li>
+                    <li>NON-MEMBRI ROE</li>
+                </ul>
+            </li>
+            <li>Fuorilegge – Se individui o clan non sono disposti a rispettare il ROE, attaccano edifici del clan o rifiutano di pagare compensazioni per violazioni del ROE riceveranno lo status di fuorilegge. I fuorilegge attuali si trovano in #K273/OUTLAWS. L'elenco attuale dei fuorilegge verrà cancellato e ricomincerà. Questo significa che attualmente non ci sono fuorilegge nel regno. La nuova Guardia Reale condividerà le responsabilità nell'assistenza del regno.</li>
+            <li>Guardia Reale: La nuova Guardia Reale è composta da molti clan e ha giocatori molto forti come membri. I doveri della RG continueranno i suoi doveri normali come la riscossione delle tasse e l'applicazione per il Palazzo. I compiti aggiuntivi ora includeranno assistenza ai clan con i fuorilegge e al regno con precisione. Agiranno anche come un esercito d'élite e unità di pattuglia e difesa del regno/territorio.</li>
+            <li>In aggiunta attivando relazioni con i grandi clan del regno per assistere quando necessario.</li>
+            <li>I giocatori senza clan a 250k di might o meno sono protetti e non devono essere attaccati liberamente.</li>
+            <li>I giocatori senza clan con meno di 250k di might attaccati hanno diritto a 2x l'importo della compensazione nelle richieste.</li>
+            <li>Le interazioni con questi giocatori dovrebbero prima servire a conoscerli e i loro obiettivi nel gioco. Seguite dall'incoraggiamento a unirsi a un clan. Favorire la crescita nel gioco e giocare per il regno versus ricompensa personale.</li>
+        </ul>
+    </li>
+    <li>
+        <h3>7. Clash of Thrones  CoT</h3>
+        <ul class="roe-points">
+            <li>Durante, puoi scouteare e attaccare città alle seguenti condizioni:</li>
+            <li>Nessun attacco ai forti del clan: Attaccare i forti o gli edifici di un altro clan è severamente proibito.</li>
+            <li>Gestione dei portali: Non si applica alcuna restrizione di might. Qualsiasi portale dimostrato ostile ai territori del clan può essere attaccato con rapida giustizia dal clan attaccato. Le marce di clan sono pienamente consentite per chiudere portali ostili. Durante il normale tempo di pace, i portali non possono essere attaccati in alcun momento a meno che non siano dimostrati ostili.</li>
+            <li>Gestione delle risorse: Mantieni le risorse basse durante l'evento per evitare furti; invia truppe ai forti se necessario. Pratica No Value City (NVC)</li>
+            <li>"Fair Play": Attaccare qualcuno significativamente più debole (ad esempio, sotto la metà del tuo might) è spesso considerato cattivo sport e non è consentito. L'unica istanza in cui è consentito è per un portale ostile. I portali lasciati aperti da giocatori che hanno altri membri che attaccano attraverso di essi sono ancora responsabili per aver lasciato il portale aperto e possono essere attaccati indipendentemente dal loro might. Un rapporto di attacco deve essere fornito in tutte le richieste fatte. Sotto la metà del tuo might non è consentito. La regola del 50% si applica.</li>
+        </ul>
+    </li>
+    <li>
+        <h3>8. Processo di risoluzione dei conflitti</h3>
+        <ul class="roe-points">
+            <li>Quando il ROE viene violato, devono essere seguiti i seguenti passaggi:
+                <ol>
+                    <li>Contatta l'altro giocatore per tentare di risolvere. Se non c'è risoluzione entro 24 ore, eleva al tuo diplomatico di clan.</li>
+                    <li>Se non si raggiunge una risoluzione tra diplomatici di clan, possono portare la questione davanti alla Corte pubblicandola in #K273/CLAIMS. Solo i leader di clan o i diplomatici possono pubblicare richieste in questa chat.</li>
+                    <li>I giudici giudicheranno per definire la parte colpevole (se presente) e un importo di compensazione accettabile.</li>
+                    <li>Se la parte colpevole (o il suo clan) rifiuta di compensare, la Corte Reale determinerà se il giocatore o il clan deve essere dichiarato fuorilegge e la Guardia Reale sarà attivata in stand-by.</li>
+                </ol>
+            </li>
+        </ul>
+    </li>
+    <li>
+        <h3>9. Chat del Regno a cui unirsi</h3>
+        <ul class="roe-points">
+            <li>#K273/ROE</li>
+            <li>#K273/CLAIMS</li>
+            <li>#K273/OUTLAWS</li>
+            <li>~#K273/CPTHUNDERDOME</li>
+            <li>~#K273tbxyz</li>
+            <li>~#K273/ACADEMY</li>
+        </ul>
+    </li>
+</ol>
+`
+        },
+
         pt: {
             strings: {
                 "site.languageLabel": "Idioma",
