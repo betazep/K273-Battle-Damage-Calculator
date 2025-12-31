@@ -203,14 +203,46 @@
         return sign + withCommas;
     };
 
-    const TAB_WIDTH = 8;
+    const getTextMeasureContext = (referenceEl) => {
+        if (!referenceEl) return null;
+        if (!getTextMeasureContext.ctx) {
+            const canvas = document.createElement("canvas");
+            getTextMeasureContext.ctx = canvas.getContext("2d");
+        }
+        const ctx = getTextMeasureContext.ctx;
+        const style = window.getComputedStyle(referenceEl);
+        if (style && style.font) {
+            ctx.font = style.font;
+        }
+        return { ctx, style };
+    };
 
-    const getMaxValueLength = (values) =>
-        values.reduce((max, value) => Math.max(max, value.length), 0);
+    const getTabMetrics = (referenceEl, values) => {
+        const context = getTextMeasureContext(referenceEl);
+        if (!context || !context.ctx) {
+            return { ctx: null, tabWidth: 1, targetStop: 1 };
+        }
+        const { ctx, style } = context;
+        const tabSizeRaw = style?.tabSize;
+        const tabSize = Number.isFinite(Number(tabSizeRaw)) ? Number(tabSizeRaw) : 8;
+        const spaceWidth = ctx.measureText(" ").width || 1;
+        const tabWidth = spaceWidth * tabSize;
+        const maxWidth = values.reduce((max, value) => {
+            const width = ctx.measureText(value).width;
+            return Math.max(max, width);
+        }, 0);
+        const targetStop = Math.ceil((maxWidth + 1) / tabWidth) * tabWidth;
+        return { ctx, tabWidth, targetStop };
+    };
 
-    const formatValueLine = (value, label, maxValueLength) => {
-        const paddedValue = value.padStart(maxValueLength, " ");
-        return `${paddedValue}\t${label}`;
+    const formatValueLine = (value, label, metrics) => {
+        const { ctx, tabWidth, targetStop } = metrics;
+        if (!ctx || !tabWidth || !targetStop) {
+            return `${value}\t${label}`;
+        }
+        const valueWidth = ctx.measureText(value).width;
+        const tabs = Math.max(1, Math.ceil((targetStop - valueWidth) / tabWidth));
+        return `${value}${"\t".repeat(tabs)}${label}`;
     };
 
     const parseNonNegative = (value) => {
@@ -573,64 +605,65 @@
             resources.iron || "0"
         );
 
-        const maxValueLength = getMaxValueLength(valuesForAlignment);
+        const summaryField = document.getElementById("summary-text");
+        const tabMetrics = getTabMetrics(summaryField, valuesForAlignment);
 
         if (includeClan) {
             lines.push(
                 getLabel("calc.output.clanBuildings"),
-                formatValueLine(formatInteger(clanTotals.totals.fortScout || 0), getLabel("calc.output.fortScout"), maxValueLength),
-                formatValueLine(formatInteger(clanTotals.totals.fortAttack || 0), getLabel("calc.output.fortAttackHit"), maxValueLength),
-                formatValueLine(formatInteger(clanTotals.totals.fortDestroy || 0), getLabel("calc.output.fortAttackDestroy"), maxValueLength),
-                formatValueLine(formatInteger(clanTotals.totals.capScout || 0), getLabel("calc.output.capScout"), maxValueLength),
-                formatValueLine(formatInteger(clanTotals.totals.capDestroy || 0), getLabel("calc.output.capAttackDestroy"), maxValueLength),
+                formatValueLine(formatInteger(clanTotals.totals.fortScout || 0), getLabel("calc.output.fortScout"), tabMetrics),
+                formatValueLine(formatInteger(clanTotals.totals.fortAttack || 0), getLabel("calc.output.fortAttackHit"), tabMetrics),
+                formatValueLine(formatInteger(clanTotals.totals.fortDestroy || 0), getLabel("calc.output.fortAttackDestroy"), tabMetrics),
+                formatValueLine(formatInteger(clanTotals.totals.capScout || 0), getLabel("calc.output.capScout"), tabMetrics),
+                formatValueLine(formatInteger(clanTotals.totals.capDestroy || 0), getLabel("calc.output.capAttackDestroy"), tabMetrics),
                 divider
             );
         }
 
         lines.push(
             getLabel("calc.output.armyLoss"),
-            formatValueLine(formatInteger(flatTotals.scoutingEvents), getLabel("calc.output.scoutEvents"), maxValueLength),
-            formatValueLine(formatInteger(flatTotals.attackEvents), getLabel("calc.output.attackEvents"), maxValueLength),
-            formatValueLine(formatInteger(flatTotals.portal), getLabel("calc.output.portalClosed"), maxValueLength),
-            formatValueLine(formatInteger(heroCaptainsTotal), getLabel("calc.output.heroCaptains"), maxValueLength),
-            formatValueLine(formatInteger(tierTotals.spearmen), getLabel("calc.output.spearmen"), maxValueLength),
-            formatValueLine(formatInteger(tierTotals.archers), getLabel("calc.output.archers"), maxValueLength),
-            formatValueLine(formatInteger(tierTotals.riders), getLabel("calc.output.riders"), maxValueLength),
-            formatValueLine(formatInteger(tierTotals.specialists), getLabel("calc.output.specialists"), maxValueLength),
-            formatValueLine(formatInteger(tierTotals.spies), getLabel("calc.output.spiesTotal"), maxValueLength),
-            formatValueLine(formatInteger(monstersTotal), getLabel("calc.output.monstersTotal"), maxValueLength),
-            formatValueLine(formatInteger(mercsTotal), getLabel("calc.output.mercenaries"), maxValueLength),
-            formatValueLine(formatInteger(tierTotals.walls), getLabel("calc.output.walls"), maxValueLength),
-            formatValueLine(formatInteger(tierTotals.catapults), getLabel("calc.output.catapults"), maxValueLength),
+            formatValueLine(formatInteger(flatTotals.scoutingEvents), getLabel("calc.output.scoutEvents"), tabMetrics),
+            formatValueLine(formatInteger(flatTotals.attackEvents), getLabel("calc.output.attackEvents"), tabMetrics),
+            formatValueLine(formatInteger(flatTotals.portal), getLabel("calc.output.portalClosed"), tabMetrics),
+            formatValueLine(formatInteger(heroCaptainsTotal), getLabel("calc.output.heroCaptains"), tabMetrics),
+            formatValueLine(formatInteger(tierTotals.spearmen), getLabel("calc.output.spearmen"), tabMetrics),
+            formatValueLine(formatInteger(tierTotals.archers), getLabel("calc.output.archers"), tabMetrics),
+            formatValueLine(formatInteger(tierTotals.riders), getLabel("calc.output.riders"), tabMetrics),
+            formatValueLine(formatInteger(tierTotals.specialists), getLabel("calc.output.specialists"), tabMetrics),
+            formatValueLine(formatInteger(tierTotals.spies), getLabel("calc.output.spiesTotal"), tabMetrics),
+            formatValueLine(formatInteger(monstersTotal), getLabel("calc.output.monstersTotal"), tabMetrics),
+            formatValueLine(formatInteger(mercsTotal), getLabel("calc.output.mercenaries"), tabMetrics),
+            formatValueLine(formatInteger(tierTotals.walls), getLabel("calc.output.walls"), tabMetrics),
+            formatValueLine(formatInteger(tierTotals.catapults), getLabel("calc.output.catapults"), tabMetrics),
             divider,
             getLabel("calc.output.additionalLoss"),
-            formatValueLine(formatInteger(flatTotals.gold), getLabel("calc.output.goldTotal"), maxValueLength),
-            formatValueLine(formatInteger(flatTotals.tar), getLabel("calc.output.tarTotal"), maxValueLength),
-            formatValueLine(formatInteger(directSilver), getLabel("calc.output.directSilver"), maxValueLength),
+            formatValueLine(formatInteger(flatTotals.gold), getLabel("calc.output.goldTotal"), tabMetrics),
+            formatValueLine(formatInteger(flatTotals.tar), getLabel("calc.output.tarTotal"), tabMetrics),
+            formatValueLine(formatInteger(directSilver), getLabel("calc.output.directSilver"), tabMetrics),
             divider,
-            formatValueLine(formatInteger(totalLoss), getLabel("calc.output.totalSilverLoss"), maxValueLength),
+            formatValueLine(formatInteger(totalLoss), getLabel("calc.output.totalSilverLoss"), tabMetrics),
             bar,
             getLabel("calc.output.resourceLoss"),
-            formatValueLine(formatInteger(totalWithTax), getLabel("calc.output.totalWithTax"), maxValueLength),
+            formatValueLine(formatInteger(totalWithTax), getLabel("calc.output.totalWithTax"), tabMetrics),
             formatValueLine(
                 resourcesWithTax.food || "0",
                 `${getLabel("calc.output.food")} ${getLabel("calc.output.withTaxSuffix")}`,
-                maxValueLength
+                tabMetrics
             ),
             formatValueLine(
                 resourcesWithTax.lumber || "0",
                 `${getLabel("calc.output.lumber")} ${getLabel("calc.output.withTaxSuffix")}`,
-                maxValueLength
+                tabMetrics
             ),
             formatValueLine(
                 resourcesWithTax.stone || "0",
                 `${getLabel("calc.output.stone")} ${getLabel("calc.output.withTaxSuffix")}`,
-                maxValueLength
+                tabMetrics
             ),
             formatValueLine(
                 resourcesWithTax.iron || "0",
                 `${getLabel("calc.output.iron")} ${getLabel("calc.output.withTaxSuffix")}`,
-                maxValueLength
+                tabMetrics
             ),
             bar,
             getLabel("calc.output.taxNote")
