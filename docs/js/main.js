@@ -7,11 +7,14 @@
         captain: 1000,
         monsters12: 8640,
         monsters37: 1300,
-        spearmenArchers: 40,
-        specialistRiders: 80,
+        spearmen: 40,
+        archers: 40,
+        riders: 80,
+        specialists: 80,
         spies: 100,
         griffins: 800,
-        catapultsWalls: 200,
+        walls: 200,
+        catapults: 200,
         mercGuard: 120,
         mercMonster: 3000,
         gold: 3000,
@@ -32,11 +35,14 @@
         { id: "captain", labelKey: "calc.base.captain" },
         { id: "monsters12", labelKey: "calc.base.monsters12" },
         { id: "monsters37", labelKey: "calc.base.monsters37" },
-        { id: "spearmenArchers", labelKey: "calc.base.spearmenArchers" },
-        { id: "specialistRiders", labelKey: "calc.base.specialistRiders" },
+        { id: "spearmen", labelKey: "calc.base.spearmen" },
+        { id: "archers", labelKey: "calc.base.archers" },
+        { id: "riders", labelKey: "calc.base.riders" },
+        { id: "specialists", labelKey: "calc.base.specialists" },
         { id: "spies", labelKey: "calc.base.spies" },
         { id: "griffins", labelKey: "calc.base.griffins" },
-        { id: "catapultsWalls", labelKey: "calc.base.catapultsWalls" },
+        { id: "walls", labelKey: "calc.base.walls" },
+        { id: "catapults", labelKey: "calc.base.catapults" },
         { id: "mercGuard", labelKey: "calc.base.mercGuard" },
         { id: "mercMonster", labelKey: "calc.base.mercMonster" },
         { id: "gold", labelKey: "calc.base.gold" },
@@ -80,14 +86,26 @@
 
     const tierCategories = [
         {
-            id: "spearmenArchers",
-            labelKey: "calc.base.spearmenArchers",
+            id: "spearmen",
+            labelKey: "calc.base.spearmen",
             levels: [1, 2, 3, 4, 5, 6, 7],
             multiplier: "tier"
         },
         {
-            id: "specialistRiders",
-            labelKey: "calc.base.specialistRiders",
+            id: "archers",
+            labelKey: "calc.base.archers",
+            levels: [1, 2, 3, 4, 5, 6, 7],
+            multiplier: "tier"
+        },
+        {
+            id: "riders",
+            labelKey: "calc.base.riders",
+            levels: [1, 2, 3, 4, 5, 6, 7],
+            multiplier: "tier"
+        },
+        {
+            id: "specialists",
+            labelKey: "calc.base.specialists",
             levels: [1, 2, 3, 4, 5, 6, 7],
             multiplier: "tier"
         },
@@ -104,8 +122,14 @@
             multiplier: "tier"
         },
         {
-            id: "catapultsWalls",
-            labelKey: "calc.base.catapultsWalls",
+            id: "walls",
+            labelKey: "calc.base.walls",
+            levels: [1, 2, 3, 4, 5, 6, 7],
+            multiplier: "tier"
+        },
+        {
+            id: "catapults",
+            labelKey: "calc.base.catapults",
             levels: [1, 2, 3, 4, 5, 6, 7],
             multiplier: "tier"
         },
@@ -451,11 +475,14 @@
             flatTotals.captain +
             flatTotals.monsters12 +
             tierTotals.monsters37 +
-            tierTotals.spearmenArchers +
-            tierTotals.specialistRiders +
+            tierTotals.spearmen +
+            tierTotals.archers +
+            tierTotals.riders +
+            tierTotals.specialists +
             tierTotals.spies +
             tierTotals.griffins +
-            tierTotals.catapultsWalls +
+            tierTotals.walls +
+            tierTotals.catapults +
             tierTotals.mercGuard +
             tierTotals.mercMonster +
             flatTotals.gold +
@@ -508,12 +535,15 @@
             formatLine(getLabel("calc.output.attackEvents"), formatInteger(flatTotals.attackEvents)),
             formatLine(getLabel("calc.output.portalClosed"), formatInteger(flatTotals.portal)),
             formatLine(getLabel("calc.output.heroCaptains"), formatInteger(heroCaptainsTotal)),
-            formatLine(getLabel("calc.output.spearmenArchers"), formatInteger(tierTotals.spearmenArchers)),
-            formatLine(getLabel("calc.output.specialistsRiders"), formatInteger(tierTotals.specialistRiders)),
+            formatLine(getLabel("calc.output.spearmen"), formatInteger(tierTotals.spearmen)),
+            formatLine(getLabel("calc.output.archers"), formatInteger(tierTotals.archers)),
+            formatLine(getLabel("calc.output.riders"), formatInteger(tierTotals.riders)),
+            formatLine(getLabel("calc.output.specialists"), formatInteger(tierTotals.specialists)),
             formatLine(getLabel("calc.output.spiesTotal"), formatInteger(tierTotals.spies)),
             formatLine(getLabel("calc.output.monstersTotal"), formatInteger(monstersTotal)),
             formatLine(getLabel("calc.output.mercenaries"), formatInteger(mercsTotal)),
-            formatLine(getLabel("calc.output.wallsCatapult"), formatInteger(tierTotals.catapultsWalls)),
+            formatLine(getLabel("calc.output.walls"), formatInteger(tierTotals.walls)),
+            formatLine(getLabel("calc.output.catapults"), formatInteger(tierTotals.catapults)),
             getLabel("calc.output.additionalLoss"),
             formatLine(getLabel("calc.output.goldTotal"), formatInteger(flatTotals.gold)),
             formatLine(getLabel("calc.output.tarTotal"), formatInteger(flatTotals.tar)),
