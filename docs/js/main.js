@@ -203,44 +203,14 @@
         return sign + withCommas;
     };
 
-    const TAB_SIZE = 8;
-    const TAB_BOOST_KEYS = new Set([
-        "calc.output.spearmen",
-        "calc.output.archers",
-        "calc.output.specialists",
-        "calc.output.spiesTotal",
-        "calc.output.monstersTotal",
-        "calc.output.catapults",
-        "calc.output.goldTotal",
-        "calc.output.tarTotal",
-        "calc.output.food",
-        "calc.output.iron"
-    ]);
+    const TAB_WIDTH = 8;
 
-    const getTabTarget = (labels) => {
-        const maxLen = labels.reduce((max, label) => Math.max(max, label.length), 0);
-        return Math.ceil((maxLen + 1) / TAB_SIZE) * TAB_SIZE;
-    };
+    const getMaxValueLength = (values) =>
+        values.reduce((max, value) => Math.max(max, value.length), 0);
 
-    const getTabCount = (labelLength, targetStop) => {
-        let col = labelLength;
-        let tabs = 0;
-        while (col < targetStop) {
-            const remainder = col % TAB_SIZE;
-            const delta = remainder === 0 ? TAB_SIZE : TAB_SIZE - remainder;
-            col += delta;
-            tabs += 1;
-        }
-        return tabs;
-    };
-
-    const formatTabbedLine = (key, value, targetStop) => {
-        const labelText = `${getLabel(key)}:`;
-        let tabs = getTabCount(labelText.length, targetStop);
-        if (TAB_BOOST_KEYS.has(key)) {
-            tabs += 1;
-        }
-        return `${labelText}${"\t".repeat(tabs)}${value}`;
+    const formatValueLine = (value, label, maxValueLength) => {
+        const paddedValue = value.padStart(maxValueLength, " ");
+        return `${paddedValue}\t${label}`;
     };
 
     const parseNonNegative = (value) => {
@@ -540,100 +510,130 @@
             stone: document.getElementById("res-stone")?.value.trim() || "0",
             iron: document.getElementById("res-iron")?.value.trim() || "0"
         };
+        const resourcesNumeric = {
+            food: parseNonNegative(resourcesRaw.food),
+            lumber: parseNonNegative(resourcesRaw.lumber),
+            stone: parseNonNegative(resourcesRaw.stone),
+            iron: parseNonNegative(resourcesRaw.iron)
+        };
         const resources = {
-            food: formatInteger(parseNonNegative(resourcesRaw.food)),
-            lumber: formatInteger(parseNonNegative(resourcesRaw.lumber)),
-            stone: formatInteger(parseNonNegative(resourcesRaw.stone)),
-            iron: formatInteger(parseNonNegative(resourcesRaw.iron))
+            food: formatInteger(resourcesNumeric.food),
+            lumber: formatInteger(resourcesNumeric.lumber),
+            stone: formatInteger(resourcesNumeric.stone),
+            iron: formatInteger(resourcesNumeric.iron)
+        };
+        const resourcesWithTax = {
+            food: formatInteger(Math.round(resourcesNumeric.food / 0.8)),
+            lumber: formatInteger(Math.round(resourcesNumeric.lumber / 0.8)),
+            stone: formatInteger(Math.round(resourcesNumeric.stone / 0.8)),
+            iron: formatInteger(Math.round(resourcesNumeric.iron / 0.8))
         };
 
         document.getElementById("silver-subtotal").textContent = formatInteger(silverSubtotal);
         document.getElementById("total-loss").textContent = formatInteger(totalLoss);
 
-        const barLength = 33;
+        const dividerLength = 33;
+        const barLength = dividerLength - 10;
         const bar = "=".repeat(barLength);
-        const divider = "-".repeat(barLength);
+        const divider = "-".repeat(dividerLength);
         const lines = [bar];
 
-        const labelKeys = [];
+        const valuesForAlignment = [];
         if (includeClan) {
-            labelKeys.push(
-                "calc.output.fortScout",
-                "calc.output.fortAttackHit",
-                "calc.output.fortAttackDestroy",
-                "calc.output.capScout",
-                "calc.output.capAttackDestroy"
+            valuesForAlignment.push(
+                formatInteger(clanTotals.totals.fortScout || 0),
+                formatInteger(clanTotals.totals.fortAttack || 0),
+                formatInteger(clanTotals.totals.fortDestroy || 0),
+                formatInteger(clanTotals.totals.capScout || 0),
+                formatInteger(clanTotals.totals.capDestroy || 0)
             );
         }
-        labelKeys.push(
-            "calc.output.scoutEvents",
-            "calc.output.attackEvents",
-            "calc.output.portalClosed",
-            "calc.output.heroCaptains",
-            "calc.output.spearmen",
-            "calc.output.archers",
-            "calc.output.riders",
-            "calc.output.specialists",
-            "calc.output.spiesTotal",
-            "calc.output.monstersTotal",
-            "calc.output.mercenaries",
-            "calc.output.walls",
-            "calc.output.catapults",
-            "calc.output.goldTotal",
-            "calc.output.tarTotal",
-            "calc.output.directSilver",
-            "calc.output.totalSilverLoss",
-            "calc.output.totalWithTax",
-            "calc.output.food",
-            "calc.output.lumber",
-            "calc.output.stone",
-            "calc.output.iron"
+        valuesForAlignment.push(
+            formatInteger(flatTotals.scoutingEvents),
+            formatInteger(flatTotals.attackEvents),
+            formatInteger(flatTotals.portal),
+            formatInteger(heroCaptainsTotal),
+            formatInteger(tierTotals.spearmen),
+            formatInteger(tierTotals.archers),
+            formatInteger(tierTotals.riders),
+            formatInteger(tierTotals.specialists),
+            formatInteger(tierTotals.spies),
+            formatInteger(monstersTotal),
+            formatInteger(mercsTotal),
+            formatInteger(tierTotals.walls),
+            formatInteger(tierTotals.catapults),
+            formatInteger(flatTotals.gold),
+            formatInteger(flatTotals.tar),
+            formatInteger(directSilver),
+            formatInteger(totalLoss),
+            formatInteger(totalWithTax),
+            resources.food || "0",
+            resources.lumber || "0",
+            resources.stone || "0",
+            resources.iron || "0"
         );
 
-        const labels = labelKeys.map((key) => `${getLabel(key)}:`);
-        const targetStop = getTabTarget(labels);
+        const maxValueLength = getMaxValueLength(valuesForAlignment);
 
         if (includeClan) {
             lines.push(
                 getLabel("calc.output.clanBuildings"),
-                formatTabbedLine("calc.output.fortScout", formatInteger(clanTotals.totals.fortScout || 0), targetStop),
-                formatTabbedLine("calc.output.fortAttackHit", formatInteger(clanTotals.totals.fortAttack || 0), targetStop),
-                formatTabbedLine("calc.output.fortAttackDestroy", formatInteger(clanTotals.totals.fortDestroy || 0), targetStop),
-                formatTabbedLine("calc.output.capScout", formatInteger(clanTotals.totals.capScout || 0), targetStop),
-                formatTabbedLine("calc.output.capAttackDestroy", formatInteger(clanTotals.totals.capDestroy || 0), targetStop),
+                formatValueLine(formatInteger(clanTotals.totals.fortScout || 0), getLabel("calc.output.fortScout"), maxValueLength),
+                formatValueLine(formatInteger(clanTotals.totals.fortAttack || 0), getLabel("calc.output.fortAttackHit"), maxValueLength),
+                formatValueLine(formatInteger(clanTotals.totals.fortDestroy || 0), getLabel("calc.output.fortAttackDestroy"), maxValueLength),
+                formatValueLine(formatInteger(clanTotals.totals.capScout || 0), getLabel("calc.output.capScout"), maxValueLength),
+                formatValueLine(formatInteger(clanTotals.totals.capDestroy || 0), getLabel("calc.output.capAttackDestroy"), maxValueLength),
                 divider
             );
         }
 
         lines.push(
             getLabel("calc.output.armyLoss"),
-            formatTabbedLine("calc.output.scoutEvents", formatInteger(flatTotals.scoutingEvents), targetStop),
-            formatTabbedLine("calc.output.attackEvents", formatInteger(flatTotals.attackEvents), targetStop),
-            formatTabbedLine("calc.output.portalClosed", formatInteger(flatTotals.portal), targetStop),
-            formatTabbedLine("calc.output.heroCaptains", formatInteger(heroCaptainsTotal), targetStop),
-            formatTabbedLine("calc.output.spearmen", formatInteger(tierTotals.spearmen), targetStop),
-            formatTabbedLine("calc.output.archers", formatInteger(tierTotals.archers), targetStop),
-            formatTabbedLine("calc.output.riders", formatInteger(tierTotals.riders), targetStop),
-            formatTabbedLine("calc.output.specialists", formatInteger(tierTotals.specialists), targetStop),
-            formatTabbedLine("calc.output.spiesTotal", formatInteger(tierTotals.spies), targetStop),
-            formatTabbedLine("calc.output.monstersTotal", formatInteger(monstersTotal), targetStop),
-            formatTabbedLine("calc.output.mercenaries", formatInteger(mercsTotal), targetStop),
-            formatTabbedLine("calc.output.walls", formatInteger(tierTotals.walls), targetStop),
-            formatTabbedLine("calc.output.catapults", formatInteger(tierTotals.catapults), targetStop),
-            getLabel("calc.output.additionalLoss"),
-            formatTabbedLine("calc.output.goldTotal", formatInteger(flatTotals.gold), targetStop),
-            formatTabbedLine("calc.output.tarTotal", formatInteger(flatTotals.tar), targetStop),
-            formatTabbedLine("calc.output.directSilver", formatInteger(directSilver), targetStop),
+            formatValueLine(formatInteger(flatTotals.scoutingEvents), getLabel("calc.output.scoutEvents"), maxValueLength),
+            formatValueLine(formatInteger(flatTotals.attackEvents), getLabel("calc.output.attackEvents"), maxValueLength),
+            formatValueLine(formatInteger(flatTotals.portal), getLabel("calc.output.portalClosed"), maxValueLength),
+            formatValueLine(formatInteger(heroCaptainsTotal), getLabel("calc.output.heroCaptains"), maxValueLength),
+            formatValueLine(formatInteger(tierTotals.spearmen), getLabel("calc.output.spearmen"), maxValueLength),
+            formatValueLine(formatInteger(tierTotals.archers), getLabel("calc.output.archers"), maxValueLength),
+            formatValueLine(formatInteger(tierTotals.riders), getLabel("calc.output.riders"), maxValueLength),
+            formatValueLine(formatInteger(tierTotals.specialists), getLabel("calc.output.specialists"), maxValueLength),
+            formatValueLine(formatInteger(tierTotals.spies), getLabel("calc.output.spiesTotal"), maxValueLength),
+            formatValueLine(formatInteger(monstersTotal), getLabel("calc.output.monstersTotal"), maxValueLength),
+            formatValueLine(formatInteger(mercsTotal), getLabel("calc.output.mercenaries"), maxValueLength),
+            formatValueLine(formatInteger(tierTotals.walls), getLabel("calc.output.walls"), maxValueLength),
+            formatValueLine(formatInteger(tierTotals.catapults), getLabel("calc.output.catapults"), maxValueLength),
             divider,
-            formatTabbedLine("calc.output.totalSilverLoss", formatInteger(totalLoss), targetStop),
-            formatTabbedLine("calc.output.totalWithTax", formatInteger(totalWithTax), targetStop),
+            getLabel("calc.output.additionalLoss"),
+            formatValueLine(formatInteger(flatTotals.gold), getLabel("calc.output.goldTotal"), maxValueLength),
+            formatValueLine(formatInteger(flatTotals.tar), getLabel("calc.output.tarTotal"), maxValueLength),
+            formatValueLine(formatInteger(directSilver), getLabel("calc.output.directSilver"), maxValueLength),
+            divider,
+            formatValueLine(formatInteger(totalLoss), getLabel("calc.output.totalSilverLoss"), maxValueLength),
             bar,
             getLabel("calc.output.resourceLoss"),
-            formatTabbedLine("calc.output.food", resources.food || "0", targetStop),
-            formatTabbedLine("calc.output.lumber", resources.lumber || "0", targetStop),
-            formatTabbedLine("calc.output.stone", resources.stone || "0", targetStop),
-            formatTabbedLine("calc.output.iron", resources.iron || "0", targetStop),
-            bar
+            formatValueLine(formatInteger(totalWithTax), getLabel("calc.output.totalWithTax"), maxValueLength),
+            formatValueLine(
+                resourcesWithTax.food || "0",
+                `${getLabel("calc.output.food")} ${getLabel("calc.output.withTaxSuffix")}`,
+                maxValueLength
+            ),
+            formatValueLine(
+                resourcesWithTax.lumber || "0",
+                `${getLabel("calc.output.lumber")} ${getLabel("calc.output.withTaxSuffix")}`,
+                maxValueLength
+            ),
+            formatValueLine(
+                resourcesWithTax.stone || "0",
+                `${getLabel("calc.output.stone")} ${getLabel("calc.output.withTaxSuffix")}`,
+                maxValueLength
+            ),
+            formatValueLine(
+                resourcesWithTax.iron || "0",
+                `${getLabel("calc.output.iron")} ${getLabel("calc.output.withTaxSuffix")}`,
+                maxValueLength
+            ),
+            bar,
+            getLabel("calc.output.taxNote")
         );
 
         document.getElementById("summary-text").value = lines.join("\n");
