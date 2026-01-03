@@ -91,7 +91,7 @@
         <p data-i18n="site.footer">Built for K273 by Zee</p>
     </footer>
 
-    <script src="js/i18n.js?v=1.0.13"></script>
+    <script src="js/i18n.js?v=1.0.14"></script>
     <script src="js/lang.js"></script>
     <script>
         (() => {
@@ -169,6 +169,22 @@
                     </ul>
                 </div>
                 <p>Attack as much as you can in order to earn as many clan chests as possible. The Event tab will show you how many points you need for each chest.</p>
+            `;
+
+            const doomsdayContent = `
+                <p><strong>Courtesy of [BBD] Heisenberg</strong></p>
+                <div class="book-section">
+                    <h4>Doomsday</h4>
+                    <p><strong>Suicide your army to earn XP and Valor (your troops will die).</strong></p>
+                    <ul>
+                        <li>Activate bonuses beforehand.</li>
+                        <li>If you can't send large armies, use strongest troops only.</li>
+                        <li>If you can build large armies, stack troops.</li>
+                        <li>Level Carter as a priority.</li>
+                        <li>Use Valor to research Archeology and Guardsmen.</li>
+                    </ul>
+                    <p><strong>Save your mercenaries (epic monster hunters) for these events.</strong></p>
+                </div>
             `;
 
             const citadelContent = `
@@ -249,7 +265,13 @@
                     author: "[BBD] Heisenberg",
                     content: tinmanContent
                 },
-                { id: "book6", category: "Events & Epic Monsters", title: "Book6", content: lorem },
+                {
+                    id: "book6",
+                    category: "Events & Epic Monsters",
+                    title: "DOOMSDAY",
+                    author: "[BBD] Heisenberg",
+                    content: doomsdayContent
+                },
                 { id: "book7", category: "Player Versus Player", title: "Book7", content: lorem },
                 { id: "book8", category: "Player Versus Player", title: "Book8", content: lorem },
                 { id: "book9", category: "Player Versus Player", title: "Book9", content: lorem },
