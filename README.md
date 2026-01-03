@@ -13,6 +13,7 @@ docs/
   index.html
   calculator.html
   palace.html
+  library.html
   images/
   css/styles.css
   js/main.js
