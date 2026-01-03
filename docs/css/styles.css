@@ -632,7 +632,7 @@ textarea {
     background: rgba(255, 255, 255, 0.02);
 }
 
-.subject-result {
+.book-result {
     border: 1px solid var(--stroke);
     background: rgba(21, 38, 63, 0.65);
     color: var(--text);
@@ -647,12 +647,12 @@ textarea {
     transition: border-color 0.15s ease, transform 0.15s ease;
 }
 
-.subject-result:hover {
+.book-result:hover {
     border-color: var(--accent);
     transform: translateY(-1px);
 }
 
-.subject-result__theme {
+.book-result__category {
     font-size: 12px;
     color: var(--muted);
     padding: 4px 8px;
@@ -667,14 +667,14 @@ textarea {
     gap: 12px;
 }
 
-.theme-block {
+.category-block {
     background: rgba(21, 38, 63, 0.7);
     border: 1px solid var(--stroke);
     border-radius: var(--radius);
     overflow: hidden;
 }
 
-.theme-block summary {
+.category-block summary {
     list-style: none;
     cursor: pointer;
     padding: 12px 14px;
@@ -685,21 +685,21 @@ textarea {
     gap: 10px;
 }
 
-.theme-block summary::-webkit-details-marker {
+.category-block summary::-webkit-details-marker {
     display: none;
 }
 
-.theme-block summary::after {
+.category-block summary::after {
     content: "+";
     color: var(--muted);
     transition: color 0.2s ease;
 }
 
-.theme-block[open] summary::after {
+.category-block[open] summary::after {
     content: "-";
 }
 
-.theme-subjects {
+.category-books {
     display: grid;
     gap: 8px;
     padding: 12px 14px 16px;
@@ -707,7 +707,7 @@ textarea {
     background: rgba(13, 24, 39, 0.35);
 }
 
-.subject-link {
+.book-link {
     border: 1px solid var(--stroke);
     background: rgba(255, 255, 255, 0.03);
     color: var(--text);
@@ -720,12 +720,12 @@ textarea {
     transition: border-color 0.15s ease, transform 0.15s ease;
 }
 
-.subject-link:hover {
+.book-link:hover {
     border-color: var(--accent);
     transform: translateY(-1px);
 }
 
-.subject-label {
+.book-label {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -734,11 +734,11 @@ textarea {
     width: 100%;
 }
 
-.subject-title {
+.book-title {
     font-weight: 600;
 }
 
-.subject-author {
+.book-author {
     align-self: flex-start;
     font-size: 11px;
     padding: 2px 8px;
@@ -747,7 +747,7 @@ textarea {
     border-color: rgba(91, 233, 200, 0.35);
 }
 
-.subject-modal {
+.book-modal {
     position: fixed;
     inset: 0;
     display: flex;
@@ -761,17 +761,17 @@ textarea {
     z-index: 40;
 }
 
-.subject-modal.is-open {
+.book-modal.is-open {
     opacity: 1;
     pointer-events: auto;
 }
 
-.subject-modal__overlay {
+.book-modal__overlay {
     position: absolute;
     inset: 0;
 }
 
-.subject-modal__panel {
+.book-modal__panel {
     position: relative;
     width: min(720px, 92vw);
     max-height: 80vh;
@@ -786,7 +786,7 @@ textarea {
     z-index: 1;
 }
 
-.subject-modal__close {
+.book-modal__close {
     position: absolute;
     top: 12px;
     right: 12px;
@@ -801,16 +801,16 @@ textarea {
     cursor: pointer;
 }
 
-.subject-modal__content {
+.book-modal__content {
     color: var(--muted);
     line-height: 1.5;
 }
 
-.subject-modal__content p {
+.book-modal__content p {
     margin: 0 0 10px;
 }
 
-.subject-modal__content h4 {
+.book-modal__content h4 {
     margin: 8px 0 6px;
     font-size: 13px;
     text-transform: uppercase;
@@ -818,32 +818,32 @@ textarea {
     color: var(--text);
 }
 
-.subject-modal__content a {
+.book-modal__content a {
     color: var(--accent);
 }
 
-.subject-modal__content ul {
+.book-modal__content ul {
     margin: 0 0 12px;
     padding-left: 18px;
 }
 
-.subject-modal__content li {
+.book-modal__content li {
     margin: 4px 0;
 }
 
-.subject-section {
+.book-section {
     display: grid;
     gap: 4px;
 }
 
-.subject-media-grid {
+.book-media-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 10px;
     margin: 6px 0 12px;
 }
 
-.subject-media-grid img {
+.book-media-grid img {
     width: 100%;
     height: auto;
     display: block;
@@ -852,7 +852,7 @@ textarea {
     box-shadow: var(--shadow);
 }
 
-.subject-modal__media img {
+.book-modal__media img {
     width: 100%;
     height: auto;
     display: block;

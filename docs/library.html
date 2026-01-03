@@ -8,7 +8,7 @@
     <link rel="icon" href="images/favicon-32.png" type="image/png" sizes="32x32">
     <link rel="icon" href="images/favicon-16.png" type="image/png" sizes="16x16">
     <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-    <link rel="stylesheet" href="css/styles.css?v=1.0.14">
+    <link rel="stylesheet" href="css/styles.css?v=1.0.15">
 </head>
 <body>
     <header class="hero">
@@ -67,17 +67,17 @@
         </section>
     </main>
 
-    <div class="subject-modal" id="book-modal" aria-hidden="true">
-        <div class="subject-modal__overlay" data-book-close></div>
-        <div class="subject-modal__panel" role="dialog" aria-modal="true" aria-labelledby="book-title">
-            <button class="subject-modal__close" type="button" data-book-close data-i18n-attr="aria-label:library.modal.close">×</button>
+    <div class="book-modal" id="book-modal" aria-hidden="true">
+        <div class="book-modal__overlay" data-book-close></div>
+        <div class="book-modal__panel" role="dialog" aria-modal="true" aria-labelledby="book-title">
+            <button class="book-modal__close" type="button" data-book-close data-i18n-attr="aria-label:library.modal.close">×</button>
             <p class="eyebrow" id="book-category" data-i18n="library.modal.category">Category</p>
             <h3 id="book-title">Book</h3>
-            <div class="subject-modal__media is-hidden" id="book-media">
+            <div class="book-modal__media is-hidden" id="book-media">
                 <img src="" alt="" id="book-image">
             </div>
-            <div class="subject-modal__content" id="book-content"></div>
-            <div class="subject-modal__actions">
+            <div class="book-modal__content" id="book-content"></div>
+            <div class="book-modal__actions">
                 <button class="btn ghost btn-small" type="button" data-book-close data-i18n="library.modal.back">Back to Library</button>
             </div>
         </div>
@@ -91,7 +91,7 @@
         <p data-i18n="site.footer">Built for K273 by Zee</p>
     </footer>
 
-    <script src="js/i18n.js?v=1.0.10"></script>
+    <script src="js/i18n.js?v=1.0.11"></script>
     <script src="js/lang.js"></script>
     <script>
         (() => {
@@ -108,7 +108,7 @@
 
             const ancientVaultsContent = `
                 <p><strong>Courtesy of [BBD] Heisenberg</strong></p>
-                <div class="subject-section">
+                <div class="book-section">
                     <h4>How to build your vault</h4>
                     <ul>
                         <li>Complete daily quests.</li>
@@ -118,7 +118,7 @@
                         <li>Full raids of 5 players only or cancel them.</li>
                     </ul>
                 </div>
-                <div class="subject-section">
+                <div class="book-section">
                     <h4>Raid strategy and vault colors</h4>
                     <ul>
                         <li>Green: G2 minimum.</li>
@@ -130,7 +130,7 @@
                     </ul>
                 </div>
                 <p>Don't join a raid if you are below the minimum Guardsmen level. If others join your raid below the minimum level please remove them from the raid.</p>
-                <div class="subject-section">
+                <div class="book-section">
                     <h4>Troop strategy</h4>
                     <ul>
                         <li>Fighting Captains only.</li>
@@ -144,7 +144,7 @@
             const tinmanContent = `
                 <p><strong>Courtesy of [BBD] Heisenberg</strong></p>
                 <p>Rise of the Ancients troop strategy (Tinman).</p>
-                <div class="subject-section">
+                <div class="book-section">
                     <h4>Minimum ratio</h4>
                     <ul>
                         <li>1: Rider</li>
@@ -152,7 +152,7 @@
                         <li>2: Spearmen</li>
                     </ul>
                 </div>
-                <div class="subject-section">
+                <div class="book-section">
                     <h4>Example</h4>
                     <ul>
                         <li>G1 — Riders: 500, Archers: 1000, Spearmen: 1000</li>
@@ -160,7 +160,7 @@
                     </ul>
                 </div>
                 <p>Adjust these numbers to the capacity of your Captain. Add mercenaries and monsters.</p>
-                <div class="subject-section">
+                <div class="book-section">
                     <h4>Don't take</h4>
                     <ul>
                         <li>Catapults</li>
@@ -174,7 +174,7 @@
             const citadelContent = `
                 <p><strong>Courtesy of [LTZ] Badder</strong></p>
                 <p>If you use higher tier catapults than what is listed, only half the amount needs to be sent.</p>
-                <div class="subject-section">
+                <div class="book-section">
                     <h4>Elven citadels</h4>
                     <ul>
                         <li><strong>Level 10</strong>: 100 tier 2 catapults. Only ranged + Gargoyles.</li>
@@ -184,7 +184,7 @@
                         <li><strong>Level 30</strong>: Boop &amp; pray, tier 6 catapults. Only Melee + Griffins.</li>
                     </ul>
                 </div>
-                <div class="subject-section">
+                <div class="book-section">
                     <h4>Cursed citadels</h4>
                     <ul>
                         <li><strong>Level 20</strong>: 2000 tier 4 catapults. Only Melee + Griffins.</li>
@@ -197,10 +197,10 @@
             const hallOfFameContent = `
                 <p><strong>Courtesy of [LTZ] Badder</strong></p>
                 <p>The Hall of Fame can be found using the small lion icon on the left of where you see your hero's armor. It is composed of three factions: Tenacity, Courage, and Resolve. Your captains are evenly divided into these three factions.</p>
-                <div class="subject-media-grid">
+                <div class="book-media-grid">
                     <img src="library-images/library-000.png" alt="Hall of Fame factions">
                 </div>
-                <div class="subject-section">
+                <div class="book-section">
                     <h4>Faction bonuses</h4>
                     <ul>
                         <li>Tenacity (blue wolf): Improve your army's resilience and defensive strength.</li>
@@ -210,7 +210,7 @@
                 </div>
                 <p>This video provides a brief overview of each faction:</p>
                 <p><a href="https://www.youtube.com/watch?v=ijGgrd4uaew">https://www.youtube.com/watch?v=ijGgrd4uaew</a></p>
-                <div class="subject-section">
+                <div class="book-section">
                     <h4>Captain rarities</h4>
                     <ul>
                         <li>Rare (blue background)</li>
@@ -219,7 +219,7 @@
                     </ul>
                 </div>
                 <p>Faction upgrades require captains of a specific rarity to meet certain level conditions, shown in red at the bottom of the faction.</p>
-                <div class="subject-media-grid">
+                <div class="book-media-grid">
                     <img src="library-images/library-001.png" alt="Hall of Fame faction upgrade details">
                 </div>
                 <p>Upgrade each faction to unlock stronger permanent bonuses for your entire army. Click the round table beneath the three stained glass windows to see the requirements for upgrading your Hall of Fame level.</p>
@@ -290,16 +290,16 @@
 
                 const buildBookLabel = (book) => {
                     const wrapper = document.createElement("span");
-                    wrapper.className = "subject-label";
+                    wrapper.className = "book-label";
 
                     const title = document.createElement("span");
-                    title.className = "subject-title";
+                    title.className = "book-title";
                     title.textContent = book.title;
                     wrapper.appendChild(title);
 
                     if (book.author) {
                         const author = document.createElement("span");
-                        author.className = "pill subject-author";
+                        author.className = "pill book-author";
                         author.textContent = book.author;
                         wrapper.appendChild(author);
                     }
@@ -312,23 +312,23 @@
                     outline.innerHTML = "";
                     Object.entries(grouped).forEach(([category, list]) => {
                         const details = document.createElement("details");
-                        details.className = "theme-block";
+                        details.className = "category-block";
 
                         const summary = document.createElement("summary");
                         summary.textContent = `${category} (${list.length})`;
 
-                        const subjectsWrap = document.createElement("div");
-                        subjectsWrap.className = "theme-subjects";
+                        const booksWrap = document.createElement("div");
+                        booksWrap.className = "category-books";
                         list.forEach((book) => {
                             const btn = document.createElement("button");
                             btn.type = "button";
-                            btn.className = "subject-link";
+                            btn.className = "book-link";
                             btn.dataset.book = book.id;
                             btn.appendChild(buildBookLabel(book));
-                            subjectsWrap.appendChild(btn);
+                            booksWrap.appendChild(btn);
                         });
 
-                        details.append(summary, subjectsWrap);
+                        details.append(summary, booksWrap);
                         outline.appendChild(details);
                     });
                 };
@@ -352,14 +352,14 @@
                     items.forEach((book) => {
                         const row = document.createElement("button");
                         row.type = "button";
-                        row.className = "subject-result";
+                        row.className = "book-result";
                         row.dataset.book = book.id;
                         row.appendChild(buildBookLabel(book));
 
-                        const theme = document.createElement("span");
-                        theme.className = "subject-result__theme";
-                        theme.textContent = book.category;
-                        row.appendChild(theme);
+                        const category = document.createElement("span");
+                        category.className = "book-result__category";
+                        category.textContent = book.category;
+                        row.appendChild(category);
 
                         results.appendChild(row);
                     });
@@ -371,7 +371,7 @@
                         count.textContent = `${value} ${label}`;
                         return;
                     }
-                    count.textContent = `${value} ${t("library.count.subjects")}`;
+                    count.textContent = `${value} ${t("library.count.books")}`;
                 };
 
                 const openBook = (id) => {
