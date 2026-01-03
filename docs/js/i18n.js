@@ -1,6 +1,6 @@
 (() => {
     const translations = {
-        en: {
+en: {
             strings: {
                 "site.languageLabel": "Language",
                 "site.footer": "Built for K273 by Zee",
@@ -82,6 +82,9 @@
                 "calculator.label.count": "Count",
                 "common.show": "Show",
                 "common.hide": "Hide",
+                "calc.input.addAria": "Add to value",
+                "calc.input.addPlaceholder": "Add amount",
+                "calc.input.addLabel": "Add",
                 "calc.base.scoutingEvents": "Scouting Events",
                 "calc.base.attackEvents": "Attack Events",
                 "calc.base.portal": "Portal",
@@ -349,7 +352,7 @@
 </ol>
 `
         },
-        fi: {
+fi: {
             strings: {
                 "site.languageLabel": "Kieli",
                 "site.footer": "Rakennettu K273:lle, tekijä Zee",
@@ -431,6 +434,9 @@
                 "calculator.label.count": "Määrä",
                 "common.show": "Näytä",
                 "common.hide": "Piilota",
+                "calc.input.addAria": "Lisää arvoon",
+                "calc.input.addPlaceholder": "Lisää määrä",
+                "calc.input.addLabel": "Lisää",
                 "calc.base.scoutingEvents": "Tiedustelut",
                 "calc.base.attackEvents": "Hyökkäykset",
                 "calc.base.portal": "Portaali",
@@ -642,7 +648,7 @@
 </ol>
 `
         },
-        no: {
+no: {
             strings: {
                 "site.languageLabel": "Språk",
                 "site.footer": "Bygget for K273 av Zee",
@@ -724,6 +730,9 @@
                 "calculator.label.count": "Antall",
                 "common.show": "Vis",
                 "common.hide": "Skjul",
+                "calc.input.addAria": "Legg til verdi",
+                "calc.input.addPlaceholder": "Legg til beløp",
+                "calc.input.addLabel": "Legg til",
                 "calc.base.scoutingEvents": "Speidinger",
                 "calc.base.attackEvents": "Angrep",
                 "calc.base.portal": "Portal",
@@ -935,7 +944,7 @@
 </ol>
 `
         },
-        de: {
+de: {
             strings: {
                 "site.languageLabel": "Sprache",
                 "site.footer": "Erstellt für K273 von Zee",
@@ -1017,6 +1026,9 @@
                 "calculator.label.count": "Anzahl",
                 "common.show": "Anzeigen",
                 "common.hide": "Ausblenden",
+                "calc.input.addAria": "Zum Wert hinzufügen",
+                "calc.input.addPlaceholder": "Betrag hinzufügen",
+                "calc.input.addLabel": "Hinzufügen",
                 "calc.base.scoutingEvents": "Spähereignisse",
                 "calc.base.attackEvents": "Angriffsereignisse",
                 "calc.base.portal": "Portal",
@@ -1228,7 +1240,7 @@
 </ol>
 `
         },
-        es: {
+es: {
             strings: {
                 "site.languageLabel": "Idioma",
                 "site.footer": "Creado para K273 por Zee",
@@ -1310,6 +1322,9 @@
                 "calculator.label.count": "Cantidad",
                 "common.show": "Mostrar",
                 "common.hide": "Ocultar",
+                "calc.input.addAria": "Agregar al valor",
+                "calc.input.addPlaceholder": "Agregar cantidad",
+                "calc.input.addLabel": "Agregar",
                 "calc.base.scoutingEvents": "Eventos de scouting",
                 "calc.base.attackEvents": "Eventos de ataque",
                 "calc.base.portal": "Portal",
@@ -1521,7 +1536,7 @@
 </ol>
 `
         },
-        fr: {
+fr: {
             strings: {
                 "site.languageLabel": "Langue",
                 "site.footer": "Créé pour K273 par Zee",
@@ -1603,6 +1618,9 @@
                 "calculator.label.count": "Quantité",
                 "common.show": "Afficher",
                 "common.hide": "Masquer",
+                "calc.input.addAria": "Ajouter à la valeur",
+                "calc.input.addPlaceholder": "Ajouter un montant",
+                "calc.input.addLabel": "Ajouter",
                 "calc.base.scoutingEvents": "Événements d'éclaireur",
                 "calc.base.attackEvents": "Événements d'attaque",
                 "calc.base.portal": "Portail",
@@ -1814,7 +1832,7 @@
 </ol>
 `
         },
-        it: {
+it: {
             strings: {
                 "site.languageLabel": "Lingua",
                 "site.footer": "Creato per K273 da Zee",
@@ -1896,6 +1914,9 @@
                 "calculator.label.count": "Quantità",
                 "common.show": "Mostra",
                 "common.hide": "Nascondi",
+                "calc.input.addAria": "Aggiungi al valore",
+                "calc.input.addPlaceholder": "Aggiungi importo",
+                "calc.input.addLabel": "Aggiungi",
                 "calc.base.scoutingEvents": "Eventi di esplorazione",
                 "calc.base.attackEvents": "Eventi di attacco",
                 "calc.base.portal": "Portale",
@@ -2107,8 +2128,7 @@
 </ol>
 `
         },
-
-        pt: {
+pt: {
             strings: {
                 "site.languageLabel": "Idioma",
                 "site.footer": "Criado para K273 por Zee",
@@ -2190,6 +2210,9 @@
                 "calculator.label.count": "Quantidade",
                 "common.show": "Mostrar",
                 "common.hide": "Ocultar",
+                "calc.input.addAria": "Adicionar ao valor",
+                "calc.input.addPlaceholder": "Adicionar valor",
+                "calc.input.addLabel": "Adicionar",
                 "calc.base.scoutingEvents": "Eventos de scouting",
                 "calc.base.attackEvents": "Eventos de ataque",
                 "calc.base.portal": "Portal",
@@ -2401,7 +2424,7 @@
 </ol>
 `
         },
-        pl: {
+pl: {
             strings: {
                 "site.languageLabel": "Język",
                 "site.footer": "Stworzone dla K273 przez Zee",
@@ -2483,6 +2506,9 @@
                 "calculator.label.count": "Ilość",
                 "common.show": "Pokaż",
                 "common.hide": "Ukryj",
+                "calc.input.addAria": "Dodaj do wartości",
+                "calc.input.addPlaceholder": "Dodaj kwotę",
+                "calc.input.addLabel": "Dodaj",
                 "calc.base.scoutingEvents": "Wydarzenia zwiadu",
                 "calc.base.attackEvents": "Wydarzenia ataku",
                 "calc.base.portal": "Portal",
@@ -2694,7 +2720,7 @@
 </ol>
 `
         },
-        ru: {
+ru: {
             strings: {
                 "site.languageLabel": "Язык",
                 "site.footer": "Сделано для K273 от Zee",
@@ -2776,6 +2802,9 @@
                 "calculator.label.count": "Количество",
                 "common.show": "Показать",
                 "common.hide": "Скрыть",
+                "calc.input.addAria": "Добавить к значению",
+                "calc.input.addPlaceholder": "Добавить сумму",
+                "calc.input.addLabel": "Добавить",
                 "calc.base.scoutingEvents": "События разведки",
                 "calc.base.attackEvents": "События атаки",
                 "calc.base.portal": "Портал",
@@ -2987,7 +3016,7 @@
 </ol>
 `
         },
-        sv: {
+sv: {
             strings: {
                 "site.languageLabel": "Språk",
                 "site.footer": "Skapad för K273 av Zee",
@@ -3069,6 +3098,9 @@
                 "calculator.label.count": "Antal",
                 "common.show": "Visa",
                 "common.hide": "Dölj",
+                "calc.input.addAria": "Lägg till till värde",
+                "calc.input.addPlaceholder": "Lägg till belopp",
+                "calc.input.addLabel": "Lägg till",
                 "calc.base.scoutingEvents": "Spaningshändelser",
                 "calc.base.attackEvents": "Attackhändelser",
                 "calc.base.portal": "Portal",

@@ -268,7 +268,7 @@
             const button = document.createElement("button");
             button.type = "button";
             button.className = "input-plus__btn";
-            button.setAttribute("aria-label", "Add to value");
+            button.setAttribute("aria-label", getLabel("calc.input.addAria"));
             button.textContent = "+";
 
             const popover = document.createElement("div");
@@ -279,7 +279,7 @@
             addField.type = "number";
             addField.min = "0";
             addField.inputMode = "numeric";
-            addField.placeholder = "Add amount";
+            addField.placeholder = getLabel("calc.input.addPlaceholder");
             addField.className = "input-plus__field";
 
             const actions = document.createElement("div");
@@ -288,7 +288,7 @@
             const addButton = document.createElement("button");
             addButton.type = "button";
             addButton.className = "btn ghost btn-small";
-            addButton.textContent = "Add";
+            addButton.textContent = getLabel("calc.input.addLabel");
 
             actions.appendChild(addButton);
             popover.append(addField, actions);
