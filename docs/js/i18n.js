@@ -13,7 +13,7 @@ en: {
                 "index.palace.card.body": "Check the latest palace assignments and the rules of engagement agreed by the kingdom.",
                 "index.palace.card.button": "Open Palace Page",
                 "library.image.alt": "Library of Knowledge",
-                "library.section.sub": "COMING SOON",
+                "library.section.sub": "Within the stones of K273, the Library of Knowledge guards ancient tomes etched with battlecraft, honor, and the memory of every siege. Each page is said to whisper its lessons to those who seek the kingdom's wisdom.",
                 "library.section.title": "Library of Knowledge",
                 "library.section.eyebrow": "Library",
                 "library.hero.back": "← Back to Home",
