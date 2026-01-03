@@ -5,14 +5,19 @@ Static GitHub Pages site for Total Battle Kingdom 273 with a damage calculator.
 ## Pages
 - `docs/index.html`: Landing page (links to the calculator).
 - `docs/calculator.html`: Damage calculator (base costs, flat/tiered losses, summary).
+- `docs/palace.html`: Palace roles and ROE.
 
 ## Structure
 ```
 docs/
   index.html
   calculator.html
+  palace.html
+  images/
   css/styles.css
   js/main.js
+  js/i18n.js
+  js/lang.js
 ```
 
 ## Usage
