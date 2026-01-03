@@ -252,6 +252,117 @@
         return num;
     };
 
+    let activePopover = null;
+
+    const enhanceNumberInputs = () => {
+        const inputs = document.querySelectorAll("input[type='number']");
+        inputs.forEach((input) => {
+            if (input.closest(".input-plus")) {
+                return;
+            }
+            const wrapper = document.createElement("div");
+            wrapper.className = "input-plus";
+            input.parentNode.insertBefore(wrapper, input);
+            wrapper.appendChild(input);
+
+            const button = document.createElement("button");
+            button.type = "button";
+            button.className = "input-plus__btn";
+            button.setAttribute("aria-label", "Add to value");
+            button.textContent = "+";
+
+            const popover = document.createElement("div");
+            popover.className = "input-plus__popover";
+            popover.setAttribute("aria-hidden", "true");
+
+            const addField = document.createElement("input");
+            addField.type = "number";
+            addField.min = "0";
+            addField.inputMode = "numeric";
+            addField.placeholder = "Add amount";
+            addField.className = "input-plus__field";
+
+            const actions = document.createElement("div");
+            actions.className = "input-plus__actions";
+
+            const addButton = document.createElement("button");
+            addButton.type = "button";
+            addButton.className = "btn ghost btn-small";
+            addButton.textContent = "Add";
+
+            actions.appendChild(addButton);
+            popover.append(addField, actions);
+            wrapper.append(button, popover);
+
+            const closePopover = () => {
+                popover.classList.remove("is-open");
+                popover.setAttribute("aria-hidden", "true");
+                addField.value = "";
+                if (activePopover && activePopover.popover === popover) {
+                    activePopover = null;
+                }
+            };
+
+            const openPopover = () => {
+                if (activePopover && activePopover.popover !== popover) {
+                    activePopover.close();
+                }
+                popover.classList.add("is-open");
+                popover.setAttribute("aria-hidden", "false");
+                addField.focus();
+                addField.select();
+                activePopover = { popover, close: closePopover };
+            };
+
+            const submitAddition = () => {
+                const addValue = parseNonNegative(addField.value);
+                if (addValue <= 0) {
+                    closePopover();
+                    return;
+                }
+                const currentValue = parseNonNegative(input.value);
+                input.value = currentValue + addValue;
+                input.dispatchEvent(new Event("input", { bubbles: true }));
+                closePopover();
+            };
+
+            button.addEventListener("click", (event) => {
+                event.stopPropagation();
+                if (popover.classList.contains("is-open")) {
+                    closePopover();
+                } else {
+                    openPopover();
+                }
+            });
+
+            addButton.addEventListener("click", (event) => {
+                event.preventDefault();
+                submitAddition();
+            });
+
+            addField.addEventListener("keydown", (event) => {
+                if (event.key === "Enter") {
+                    event.preventDefault();
+                    submitAddition();
+                } else if (event.key === "Escape") {
+                    event.preventDefault();
+                    closePopover();
+                }
+            });
+
+        });
+
+        if (!enhanceNumberInputs.bound) {
+            document.addEventListener("click", (event) => {
+                if (!activePopover) return;
+                if (!activePopover.popover.parentElement.contains(event.target)) {
+                    activePopover.close();
+                }
+            });
+            enhanceNumberInputs.bound = true;
+        }
+    };
+
     const renderBaseCosts = () => {
         const container = document.getElementById("base-costs");
         baseCostOrder.forEach(({ id, labelKey }) => {
@@ -791,6 +902,7 @@
         renderFlatLosses();
         renderTierLosses();
         renderClanLosses();
+        enhanceNumberInputs();
         bindEvents();
         setBaseCostsCollapsed(true);
         setClanCollapsed(true);

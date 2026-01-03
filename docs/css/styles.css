@@ -294,6 +294,78 @@ input, textarea {
     transition: border-color 0.15s ease, background 0.15s ease;
 }
 
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+    appearance: textfield;
+}
+
+.input-plus {
+    position: relative;
+    display: flex;
+}
+
+.input-plus input {
+    width: 100%;
+    padding-right: 36px;
+}
+
+.input-plus__btn {
+    position: absolute;
+    right: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 24px;
+    height: 24px;
+    border-radius: 6px;
+    border: 1px solid var(--stroke);
+    background: rgba(255, 255, 255, 0.06);
+    color: var(--text);
+    font-size: 16px;
+    line-height: 1;
+    padding: 0;
+    cursor: pointer;
+}
+
+.input-plus__btn:hover {
+    border-color: var(--accent);
+}
+
+.input-plus__popover {
+    position: absolute;
+    right: 0;
+    top: calc(100% + 6px);
+    background: var(--panel);
+    border: 1px solid var(--stroke);
+    border-radius: 10px;
+    padding: 10px;
+    display: none;
+    gap: 8px;
+    z-index: 20;
+    min-width: 160px;
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.24);
+}
+
+.input-plus__popover.is-open {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-plus__field {
+    width: 100%;
+}
+
+.input-plus__actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 6px;
+}
+
 input:focus, textarea:focus {
     border-color: var(--accent);
     background: rgba(255, 255, 255, 0.06);
