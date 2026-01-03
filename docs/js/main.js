@@ -897,6 +897,17 @@
         });
     };
 
+    const refreshInputPlusLabels = () => {
+        document.querySelectorAll(".input-plus").forEach((wrapper) => {
+            const button = wrapper.querySelector(".input-plus__btn");
+            const field = wrapper.querySelector(".input-plus__field");
+            const addButton = wrapper.querySelector(".input-plus__actions .btn");
+            if (button) button.setAttribute("aria-label", getLabel("calc.input.addAria"));
+            if (field) field.placeholder = getLabel("calc.input.addPlaceholder");
+            if (addButton) addButton.textContent = getLabel("calc.input.addLabel");
+        });
+    };
+
     document.addEventListener("DOMContentLoaded", () => {
         renderBaseCosts();
         renderFlatLosses();
@@ -907,10 +918,12 @@
         setBaseCostsCollapsed(true);
         setClanCollapsed(true);
         updateDynamicLabels();
+        refreshInputPlusLabels();
         calculate();
 
         document.addEventListener("tb-language-change", () => {
             updateDynamicLabels();
+            refreshInputPlusLabels();
             setBaseCostsCollapsed(baseCostsCollapsed);
             setClanCollapsed(clanCollapsed);
             calculate();
