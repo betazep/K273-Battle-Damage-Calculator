@@ -640,7 +640,7 @@ textarea {
     padding: 10px 12px;
     text-align: left;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
     gap: 10px;
     cursor: pointer;
@@ -714,6 +714,8 @@ textarea {
     border-radius: 10px;
     padding: 8px 10px;
     text-align: left;
+    display: flex;
+    align-items: flex-start;
     cursor: pointer;
     transition: border-color 0.15s ease, transform 0.15s ease;
 }
@@ -721,6 +723,28 @@ textarea {
 .subject-link:hover {
     border-color: var(--accent);
     transform: translateY(-1px);
+}
+
+.subject-label {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+    flex: 1;
+    width: 100%;
+}
+
+.subject-title {
+    font-weight: 600;
+}
+
+.subject-author {
+    align-self: flex-start;
+    font-size: 11px;
+    padding: 2px 8px;
+    color: var(--text);
+    background: rgba(91, 233, 200, 0.12);
+    border-color: rgba(91, 233, 200, 0.35);
 }
 
 .subject-modal {
@@ -780,6 +804,52 @@ textarea {
 .subject-modal__content {
     color: var(--muted);
     line-height: 1.5;
+}
+
+.subject-modal__content p {
+    margin: 0 0 10px;
+}
+
+.subject-modal__content h4 {
+    margin: 8px 0 6px;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.16em;
+    color: var(--text);
+}
+
+.subject-modal__content a {
+    color: var(--accent);
+}
+
+.subject-modal__content ul {
+    margin: 0 0 12px;
+    padding-left: 18px;
+}
+
+.subject-modal__content li {
+    margin: 4px 0;
+}
+
+.subject-section {
+    display: grid;
+    gap: 4px;
+}
+
+.subject-media-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+    margin: 6px 0 12px;
+}
+
+.subject-media-grid img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 12px;
+    border: 1px solid var(--stroke);
+    box-shadow: var(--shadow);
 }
 
 .subject-modal__media img {

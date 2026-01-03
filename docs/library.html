@@ -8,7 +8,7 @@
     <link rel="icon" href="images/favicon-32.png" type="image/png" sizes="32x32">
     <link rel="icon" href="images/favicon-16.png" type="image/png" sizes="16x16">
     <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-    <link rel="stylesheet" href="css/styles.css?v=1.0.10">
+    <link rel="stylesheet" href="css/styles.css?v=1.0.14">
 </head>
 <body>
     <header class="hero">
@@ -60,7 +60,7 @@
                     <label for="library-search" data-i18n="library.search.label">Search subjects</label>
                     <input id="library-search" type="search" autocomplete="off" data-i18n-attr="placeholder:library.search.placeholder">
                 </div>
-                <div class="library-count" id="library-result-count">9 subjects</div>
+                <div class="library-count" id="library-result-count">12 subjects</div>
             </div>
             <div class="library-results is-hidden" id="library-results" aria-live="polite"></div>
             <div class="library-outline" id="library-outline"></div>
@@ -76,7 +76,7 @@
             <div class="subject-modal__media is-hidden" id="subject-media">
                 <img src="" alt="" id="subject-image">
             </div>
-            <p class="subject-modal__content" id="subject-content"></p>
+            <div class="subject-modal__content" id="subject-content"></div>
             <div class="subject-modal__actions">
                 <button class="btn ghost btn-small" type="button" data-subject-close data-i18n="library.modal.back">Back to Library</button>
             </div>
@@ -106,16 +106,162 @@
                 "tristique senectus et netus et malesuada fames ac turpis egestas. Cras in dignissim erat, non " +
                 "vehicula risus. Suspendisse potenti. Mauris ac ex nec lorem cursus tincidunt.";
 
+            const ancientVaultsContent = `
+                <p><strong>Courtesy of [BBD] Heisenberg</strong></p>
+                <div class="subject-section">
+                    <h4>How to build your vault</h4>
+                    <ul>
+                        <li>Complete daily quests.</li>
+                        <li>Summon your vault in the Events tab.</li>
+                        <li>Call your raid.</li>
+                        <li>Kick players who don't follow the information below.</li>
+                        <li>Full raids of 5 players only or cancel them.</li>
+                    </ul>
+                </div>
+                <div class="subject-section">
+                    <h4>Raid strategy and vault colors</h4>
+                    <ul>
+                        <li>Green: G2 minimum.</li>
+                        <li>Blue: G3 minimum.</li>
+                        <li>Purple: G4 minimum.</li>
+                        <li>Gold: G5 minimum.</li>
+                        <li>Red: G6 minimum.</li>
+                        <li>Silver: G7 minimum.</li>
+                    </ul>
+                </div>
+                <p>Don't join a raid if you are below the minimum Guardsmen level. If others join your raid below the minimum level please remove them from the raid.</p>
+                <div class="subject-section">
+                    <h4>Troop strategy</h4>
+                    <ul>
+                        <li>Fighting Captains only.</li>
+                        <li>Vault Level 1-19: Use Mounted &amp; Range.</li>
+                        <li>Vault Level 20-29: Use Mounted.</li>
+                        <li>Vault Level 30-39: Use Spearmen &amp; Archers.</li>
+                    </ul>
+                </div>
+            `;
+
+            const tinmanContent = `
+                <p><strong>Courtesy of [BBD] Heisenberg</strong></p>
+                <p>Rise of the Ancients troop strategy (Tinman).</p>
+                <div class="subject-section">
+                    <h4>Minimum ratio</h4>
+                    <ul>
+                        <li>1: Rider</li>
+                        <li>2: Archers</li>
+                        <li>2: Spearmen</li>
+                    </ul>
+                </div>
+                <div class="subject-section">
+                    <h4>Example</h4>
+                    <ul>
+                        <li>G1 — Riders: 500, Archers: 1000, Spearmen: 1000</li>
+                        <li>G2 — Riders: 250, Archers: 500, Spearmen: 500</li>
+                    </ul>
+                </div>
+                <p>Adjust these numbers to the capacity of your Captain. Add mercenaries and monsters.</p>
+                <div class="subject-section">
+                    <h4>Don't take</h4>
+                    <ul>
+                        <li>Catapults</li>
+                        <li>Spies</li>
+                        <li>Swordsmen</li>
+                    </ul>
+                </div>
+                <p>Attack as much as you can in order to earn as many clan chests as possible. The Event tab will show you how many points you need for each chest.</p>
+            `;
+
+            const citadelContent = `
+                <p><strong>Courtesy of [LTZ] Badder</strong></p>
+                <p>If you use higher tier catapults than what is listed, only half the amount needs to be sent.</p>
+                <div class="subject-section">
+                    <h4>Elven citadels</h4>
+                    <ul>
+                        <li><strong>Level 10</strong>: 100 tier 2 catapults. Only ranged + Gargoyles.</li>
+                        <li><strong>Level 15</strong>: 320 tier 3 catapults. Only Mounted + Gargoyles, Boars and Phoenix.</li>
+                        <li><strong>Level 20</strong>: 800 tier 4 catapults. Only Melee + Griffins.</li>
+                        <li><strong>Level 25</strong>: 3200 tier 5 catapults. Only Melee + Griffins.</li>
+                        <li><strong>Level 30</strong>: Boop &amp; pray, tier 6 catapults. Only Melee + Griffins.</li>
+                    </ul>
+                </div>
+                <div class="subject-section">
+                    <h4>Cursed citadels</h4>
+                    <ul>
+                        <li><strong>Level 20</strong>: 2000 tier 4 catapults. Only Melee + Griffins.</li>
+                        <li><strong>Level 25</strong>: 7800 tier 5 catapults. Only Melee + Griffins.</li>
+                    </ul>
+                </div>
+                <p><em>Units listed in brackets () are optional.</em></p>
+            `;
+
+            const hallOfFameContent = `
+                <p><strong>Courtesy of [LTZ] Badder</strong></p>
+                <p>The Hall of Fame can be found using the small lion icon on the left of where you see your hero's armor. It is composed of three factions: Tenacity, Courage, and Resolve. Your captains are evenly divided into these three factions.</p>
+                <div class="subject-media-grid">
+                    <img src="library-images/library-000.png" alt="Hall of Fame factions">
+                </div>
+                <div class="subject-section">
+                    <h4>Faction bonuses</h4>
+                    <ul>
+                        <li>Tenacity (blue wolf): Improve your army's resilience and defensive strength.</li>
+                        <li>Courage (red lion): Enhance your offensive power and increase damage output.</li>
+                        <li>Resolve (green hawk): Boost your army's stability and efficiency.</li>
+                    </ul>
+                </div>
+                <p>This video provides a brief overview of each faction:</p>
+                <p><a href="https://www.youtube.com/watch?v=ijGgrd4uaew">https://www.youtube.com/watch?v=ijGgrd4uaew</a></p>
+                <div class="subject-section">
+                    <h4>Captain rarities</h4>
+                    <ul>
+                        <li>Rare (blue background)</li>
+                        <li>Epic (purple background)</li>
+                        <li>Legendary (orange/gold background)</li>
+                    </ul>
+                </div>
+                <p>Faction upgrades require captains of a specific rarity to meet certain level conditions, shown in red at the bottom of the faction.</p>
+                <div class="subject-media-grid">
+                    <img src="library-images/library-001.png" alt="Hall of Fame faction upgrade details">
+                </div>
+                <p>Upgrade each faction to unlock stronger permanent bonuses for your entire army. Click the round table beneath the three stained glass windows to see the requirements for upgrading your Hall of Fame level.</p>
+            `;
+
             const subjects = [
-                { id: "subject1", theme: "Theme1", title: "Subject1", content: lorem },
-                { id: "subject2", theme: "Theme1", title: "Subject2", content: lorem },
-                { id: "subject3", theme: "Theme1", title: "Subject3", content: lorem },
-                { id: "subject4", theme: "Theme2", title: "Subject4", content: lorem },
-                { id: "subject5", theme: "Theme2", title: "Subject5", content: lorem },
-                { id: "subject6", theme: "Theme2", title: "Subject6", content: lorem },
-                { id: "subject7", theme: "Theme3", title: "Subject7", content: lorem },
-                { id: "subject8", theme: "Theme3", title: "Subject8", content: lorem },
-                { id: "subject9", theme: "Theme3", title: "Subject9", content: lorem }
+                {
+                    id: "subject1",
+                    theme: "Crypting & Clan Chests",
+                    title: "CITADEL STRATEGY",
+                    author: "[LTZ] Badder",
+                    content: citadelContent
+                },
+                { id: "subject2", theme: "Crypting & Clan Chests", title: "Subject2", content: lorem },
+                { id: "subject3", theme: "Crypting & Clan Chests", title: "Subject3", content: lorem },
+                {
+                    id: "subject4",
+                    theme: "Events & Epic Monsters",
+                    title: "ANCIENT VAULTS",
+                    author: "[BBD] Heisenberg",
+                    content: ancientVaultsContent
+                },
+                {
+                    id: "subject5",
+                    theme: "Events & Epic Monsters",
+                    title: "TINMAN STRATEGY",
+                    author: "[BBD] Heisenberg",
+                    content: tinmanContent
+                },
+                { id: "subject6", theme: "Events & Epic Monsters", title: "Subject6", content: lorem },
+                { id: "subject7", theme: "Player Versus Player", title: "Subject7", content: lorem },
+                { id: "subject8", theme: "Player Versus Player", title: "Subject8", content: lorem },
+                { id: "subject9", theme: "Player Versus Player", title: "Subject9", content: lorem },
+                {
+                    id: "subject10",
+                    theme: "Miscellaneous",
+                    title: "HALL OF FAME",
+                    author: "[LTZ] Badder",
+                    content: hallOfFameContent
+                },
+                { id: "subject11", theme: "Miscellaneous", title: "Subject11", content: lorem },
+                { id: "subject12", theme: "Miscellaneous", title: "Subject12", content: lorem }
             ];
 
             const t = (key) => (window.I18N && typeof I18N.t === "function" ? I18N.t(key) : key);
@@ -142,13 +288,31 @@
                     return grouped;
                 };
 
+                const buildSubjectLabel = (subject) => {
+                    const wrapper = document.createElement("span");
+                    wrapper.className = "subject-label";
+
+                    const title = document.createElement("span");
+                    title.className = "subject-title";
+                    title.textContent = subject.title;
+                    wrapper.appendChild(title);
+
+                    if (subject.author) {
+                        const author = document.createElement("span");
+                        author.className = "pill subject-author";
+                        author.textContent = subject.author;
+                        wrapper.appendChild(author);
+                    }
+
+                    return wrapper;
+                };
+
                 const renderOutline = () => {
                     const grouped = groupByTheme();
                     outline.innerHTML = "";
                     Object.entries(grouped).forEach(([theme, list], index) => {
                         const details = document.createElement("details");
                         details.className = "theme-block";
-                        if (index === 0) details.open = true;
 
                         const summary = document.createElement("summary");
                         summary.textContent = `${theme} (${list.length})`;
@@ -160,7 +324,7 @@
                             btn.type = "button";
                             btn.className = "subject-link";
                             btn.dataset.subject = subject.id;
-                            btn.textContent = subject.title;
+                            btn.appendChild(buildSubjectLabel(subject));
                             subjectsWrap.appendChild(btn);
                         });
 
@@ -190,7 +354,13 @@
                         row.type = "button";
                         row.className = "subject-result";
                         row.dataset.subject = subject.id;
-                        row.innerHTML = `<span>${subject.title}</span><span class=\"subject-result__theme\">${subject.theme}</span>`;
+                        row.appendChild(buildSubjectLabel(subject));
+
+                        const theme = document.createElement("span");
+                        theme.className = "subject-result__theme";
+                        theme.textContent = subject.theme;
+                        row.appendChild(theme);
+
                         results.appendChild(row);
                     });
                 };
@@ -209,7 +379,7 @@
                     if (!subject) return;
                     modalTheme.textContent = subject.theme;
                     modalTitle.textContent = subject.title;
-                    modalContent.textContent = subject.content;
+                    modalContent.innerHTML = subject.content || "";
                     if (subject.image) {
                         modalImage.src = subject.image;
                         modalImage.alt = subject.title;
