@@ -57,28 +57,28 @@
         <section class="panel library-panel">
             <div class="library-controls">
                 <div class="library-search">
-                    <label for="library-search" data-i18n="library.search.label">Search subjects</label>
+                    <label for="library-search" data-i18n="library.search.label">Search books</label>
                     <input id="library-search" type="search" autocomplete="off" data-i18n-attr="placeholder:library.search.placeholder">
                 </div>
-                <div class="library-count" id="library-result-count">12 subjects</div>
+                <div class="library-count" id="library-result-count">12 books</div>
             </div>
             <div class="library-results is-hidden" id="library-results" aria-live="polite"></div>
             <div class="library-outline" id="library-outline"></div>
         </section>
     </main>
 
-    <div class="subject-modal" id="subject-modal" aria-hidden="true">
-        <div class="subject-modal__overlay" data-subject-close></div>
-        <div class="subject-modal__panel" role="dialog" aria-modal="true" aria-labelledby="subject-title">
-            <button class="subject-modal__close" type="button" data-subject-close data-i18n-attr="aria-label:library.modal.close">×</button>
-            <p class="eyebrow" id="subject-theme">Theme</p>
-            <h3 id="subject-title">Subject</h3>
-            <div class="subject-modal__media is-hidden" id="subject-media">
-                <img src="" alt="" id="subject-image">
+    <div class="subject-modal" id="book-modal" aria-hidden="true">
+        <div class="subject-modal__overlay" data-book-close></div>
+        <div class="subject-modal__panel" role="dialog" aria-modal="true" aria-labelledby="book-title">
+            <button class="subject-modal__close" type="button" data-book-close data-i18n-attr="aria-label:library.modal.close">×</button>
+            <p class="eyebrow" id="book-category" data-i18n="library.modal.category">Category</p>
+            <h3 id="book-title">Book</h3>
+            <div class="subject-modal__media is-hidden" id="book-media">
+                <img src="" alt="" id="book-image">
             </div>
-            <div class="subject-modal__content" id="subject-content"></div>
+            <div class="subject-modal__content" id="book-content"></div>
             <div class="subject-modal__actions">
-                <button class="btn ghost btn-small" type="button" data-subject-close data-i18n="library.modal.back">Back to Library</button>
+                <button class="btn ghost btn-small" type="button" data-book-close data-i18n="library.modal.back">Back to Library</button>
             </div>
         </div>
     </div>
@@ -91,7 +91,7 @@
         <p data-i18n="site.footer">Built for K273 by Zee</p>
     </footer>
 
-    <script src="js/i18n.js?v=1.0.9"></script>
+    <script src="js/i18n.js?v=1.0.10"></script>
     <script src="js/lang.js"></script>
     <script>
         (() => {
@@ -225,43 +225,43 @@
                 <p>Upgrade each faction to unlock stronger permanent bonuses for your entire army. Click the round table beneath the three stained glass windows to see the requirements for upgrading your Hall of Fame level.</p>
             `;
 
-            const subjects = [
+            const books = [
                 {
-                    id: "subject1",
-                    theme: "Crypting & Clan Chests",
+                    id: "book1",
+                    category: "Crypting & Clan Chests",
                     title: "CITADEL STRATEGY",
                     author: "[LTZ] Badder",
                     content: citadelContent
                 },
-                { id: "subject2", theme: "Crypting & Clan Chests", title: "Subject2", content: lorem },
-                { id: "subject3", theme: "Crypting & Clan Chests", title: "Subject3", content: lorem },
+                { id: "book2", category: "Crypting & Clan Chests", title: "Book2", content: lorem },
+                { id: "book3", category: "Crypting & Clan Chests", title: "Book3", content: lorem },
                 {
-                    id: "subject4",
-                    theme: "Events & Epic Monsters",
+                    id: "book4",
+                    category: "Events & Epic Monsters",
                     title: "ANCIENT VAULTS",
                     author: "[BBD] Heisenberg",
                     content: ancientVaultsContent
                 },
                 {
-                    id: "subject5",
-                    theme: "Events & Epic Monsters",
+                    id: "book5",
+                    category: "Events & Epic Monsters",
                     title: "TINMAN STRATEGY",
                     author: "[BBD] Heisenberg",
                     content: tinmanContent
                 },
-                { id: "subject6", theme: "Events & Epic Monsters", title: "Subject6", content: lorem },
-                { id: "subject7", theme: "Player Versus Player", title: "Subject7", content: lorem },
-                { id: "subject8", theme: "Player Versus Player", title: "Subject8", content: lorem },
-                { id: "subject9", theme: "Player Versus Player", title: "Subject9", content: lorem },
+                { id: "book6", category: "Events & Epic Monsters", title: "Book6", content: lorem },
+                { id: "book7", category: "Player Versus Player", title: "Book7", content: lorem },
+                { id: "book8", category: "Player Versus Player", title: "Book8", content: lorem },
+                { id: "book9", category: "Player Versus Player", title: "Book9", content: lorem },
                 {
-                    id: "subject10",
-                    theme: "Miscellaneous",
+                    id: "book10",
+                    category: "Miscellaneous",
                     title: "HALL OF FAME",
                     author: "[LTZ] Badder",
                     content: hallOfFameContent
                 },
-                { id: "subject11", theme: "Miscellaneous", title: "Subject11", content: lorem },
-                { id: "subject12", theme: "Miscellaneous", title: "Subject12", content: lorem }
+                { id: "book11", category: "Miscellaneous", title: "Book11", content: lorem },
+                { id: "book12", category: "Miscellaneous", title: "Book12", content: lorem }
             ];
 
             const t = (key) => (window.I18N && typeof I18N.t === "function" ? I18N.t(key) : key);
@@ -272,35 +272,35 @@
                 const count = document.getElementById("library-result-count");
                 const searchInput = document.getElementById("library-search");
 
-                const modal = document.getElementById("subject-modal");
-                const modalTheme = document.getElementById("subject-theme");
-                const modalTitle = document.getElementById("subject-title");
-                const modalContent = document.getElementById("subject-content");
-                const modalMedia = document.getElementById("subject-media");
-                const modalImage = document.getElementById("subject-image");
+                const modal = document.getElementById("book-modal");
+                const modalCategory = document.getElementById("book-category");
+                const modalTitle = document.getElementById("book-title");
+                const modalContent = document.getElementById("book-content");
+                const modalMedia = document.getElementById("book-media");
+                const modalImage = document.getElementById("book-image");
 
-                const groupByTheme = () => {
+                const groupByCategory = () => {
                     const grouped = {};
-                    subjects.forEach((subject) => {
-                        if (!grouped[subject.theme]) grouped[subject.theme] = [];
-                        grouped[subject.theme].push(subject);
+                    books.forEach((book) => {
+                        if (!grouped[book.category]) grouped[book.category] = [];
+                        grouped[book.category].push(book);
                     });
                     return grouped;
                 };
 
-                const buildSubjectLabel = (subject) => {
+                const buildBookLabel = (book) => {
                     const wrapper = document.createElement("span");
                     wrapper.className = "subject-label";
 
                     const title = document.createElement("span");
                     title.className = "subject-title";
-                    title.textContent = subject.title;
+                    title.textContent = book.title;
                     wrapper.appendChild(title);
 
-                    if (subject.author) {
+                    if (book.author) {
                         const author = document.createElement("span");
                         author.className = "pill subject-author";
-                        author.textContent = subject.author;
+                        author.textContent = book.author;
                         wrapper.appendChild(author);
                     }
 
@@ -308,23 +308,23 @@
                 };
 
                 const renderOutline = () => {
-                    const grouped = groupByTheme();
+                    const grouped = groupByCategory();
                     outline.innerHTML = "";
-                    Object.entries(grouped).forEach(([theme, list], index) => {
+                    Object.entries(grouped).forEach(([category, list]) => {
                         const details = document.createElement("details");
                         details.className = "theme-block";
 
                         const summary = document.createElement("summary");
-                        summary.textContent = `${theme} (${list.length})`;
+                        summary.textContent = `${category} (${list.length})`;
 
                         const subjectsWrap = document.createElement("div");
                         subjectsWrap.className = "theme-subjects";
-                        list.forEach((subject) => {
+                        list.forEach((book) => {
                             const btn = document.createElement("button");
                             btn.type = "button";
                             btn.className = "subject-link";
-                            btn.dataset.subject = subject.id;
-                            btn.appendChild(buildSubjectLabel(subject));
+                            btn.dataset.book = book.id;
+                            btn.appendChild(buildBookLabel(book));
                             subjectsWrap.appendChild(btn);
                         });
 
@@ -349,16 +349,16 @@
                         return;
                     }
 
-                    items.forEach((subject) => {
+                    items.forEach((book) => {
                         const row = document.createElement("button");
                         row.type = "button";
                         row.className = "subject-result";
-                        row.dataset.subject = subject.id;
-                        row.appendChild(buildSubjectLabel(subject));
+                        row.dataset.book = book.id;
+                        row.appendChild(buildBookLabel(book));
 
                         const theme = document.createElement("span");
                         theme.className = "subject-result__theme";
-                        theme.textContent = subject.theme;
+                        theme.textContent = book.category;
                         row.appendChild(theme);
 
                         results.appendChild(row);
@@ -374,15 +374,15 @@
                     count.textContent = `${value} ${t("library.count.subjects")}`;
                 };
 
-                const openSubject = (id) => {
-                    const subject = subjects.find((item) => item.id === id);
-                    if (!subject) return;
-                    modalTheme.textContent = subject.theme;
-                    modalTitle.textContent = subject.title;
-                    modalContent.innerHTML = subject.content || "";
-                    if (subject.image) {
-                        modalImage.src = subject.image;
-                        modalImage.alt = subject.title;
+                const openBook = (id) => {
+                    const book = books.find((item) => item.id === id);
+                    if (!book) return;
+                    modalCategory.textContent = book.category;
+                    modalTitle.textContent = book.title;
+                    modalContent.innerHTML = book.content || "";
+                    if (book.image) {
+                        modalImage.src = book.image;
+                        modalImage.alt = book.title;
                         modalMedia.classList.remove("is-hidden");
                     } else {
                         modalImage.src = "";
@@ -394,26 +394,26 @@
                     document.body.classList.add("modal-open");
 
                     const params = new URLSearchParams(window.location.search);
-                    params.set("subject", subject.id);
+                    params.set("book", book.id);
                     history.replaceState({}, "", `${window.location.pathname}?${params}`);
                 };
 
-                const closeSubject = () => {
+                const closeBook = () => {
                     modal.classList.remove("is-open");
                     modal.setAttribute("aria-hidden", "true");
                     document.body.classList.remove("modal-open");
                     const params = new URLSearchParams(window.location.search);
-                    params.delete("subject");
+                    params.delete("book");
                     history.replaceState({}, "", `${window.location.pathname}?${params}`);
                 };
 
                 const handleSearch = () => {
                     const query = searchInput.value.trim().toLowerCase();
-                    const matches = subjects.filter((subject) =>
-                        subject.title.toLowerCase().includes(query) || subject.theme.toLowerCase().includes(query)
+                    const matches = books.filter((book) =>
+                        book.title.toLowerCase().includes(query) || book.category.toLowerCase().includes(query)
                     );
                     renderResults(matches, query);
-                    updateCount(query ? matches.length : subjects.length, Boolean(query));
+                    updateCount(query ? matches.length : books.length, Boolean(query));
 
                     const params = new URLSearchParams(window.location.search);
                     if (query) {
@@ -425,28 +425,28 @@
                 };
 
                 outline.addEventListener("click", (event) => {
-                    const target = event.target.closest("[data-subject]");
+                    const target = event.target.closest("[data-book]");
                     if (target) {
-                        openSubject(target.dataset.subject);
+                        openBook(target.dataset.book);
                     }
                 });
 
                 results.addEventListener("click", (event) => {
-                    const target = event.target.closest("[data-subject]");
+                    const target = event.target.closest("[data-book]");
                     if (target) {
-                        openSubject(target.dataset.subject);
+                        openBook(target.dataset.book);
                     }
                 });
 
                 modal.addEventListener("click", (event) => {
-                    if (event.target.closest("[data-subject-close]")) {
-                        closeSubject();
+                    if (event.target.closest("[data-book-close]")) {
+                        closeBook();
                     }
                 });
 
                 document.addEventListener("keydown", (event) => {
                     if (event.key === "Escape" && modal.classList.contains("is-open")) {
-                        closeSubject();
+                        closeBook();
                     }
                 });
 
@@ -461,9 +461,9 @@
                     searchInput.value = query;
                 }
                 handleSearch();
-                const subjectParam = params.get("subject");
-                if (subjectParam) {
-                    openSubject(subjectParam);
+                const bookParam = params.get("book");
+                if (bookParam) {
+                    openBook(bookParam);
                 }
             });
         })();
