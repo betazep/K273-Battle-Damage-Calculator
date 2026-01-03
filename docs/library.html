@@ -42,18 +42,46 @@
 
     <main class="page">
         <section class="panel panel--plain">
-            <div class="library-card">
-                <div class="library-card__head">
+            <div class="library-intro">
+                <div class="library-intro__media">
+                    <img src="images/tome-of-knowledge.png" alt="Library of Knowledge" loading="lazy" data-i18n-attr="alt:library.image.alt">
+                </div>
+                <div class="library-intro__text">
                     <p class="eyebrow" data-i18n="library.section.eyebrow">Library</p>
                     <h2 data-i18n="library.section.title">Library of Knowledge</h2>
                     <p class="small" data-i18n="library.section.sub">COMING SOON</p>
                 </div>
-                <div class="library-card__image">
-                    <img src="images/tome-of-knowledge.png" alt="Library of Knowledge" loading="lazy" data-i18n-attr="alt:library.image.alt">
-                </div>
             </div>
         </section>
+
+        <section class="panel library-panel">
+            <div class="library-controls">
+                <div class="library-search">
+                    <label for="library-search" data-i18n="library.search.label">Search subjects</label>
+                    <input id="library-search" type="search" autocomplete="off" data-i18n-attr="placeholder:library.search.placeholder">
+                </div>
+                <div class="library-count" id="library-result-count">9 subjects</div>
+            </div>
+            <div class="library-results is-hidden" id="library-results" aria-live="polite"></div>
+            <div class="library-outline" id="library-outline"></div>
+        </section>
     </main>
+
+    <div class="subject-modal" id="subject-modal" aria-hidden="true">
+        <div class="subject-modal__overlay" data-subject-close></div>
+        <div class="subject-modal__panel" role="dialog" aria-modal="true" aria-labelledby="subject-title">
+            <button class="subject-modal__close" type="button" data-subject-close data-i18n-attr="aria-label:library.modal.close">×</button>
+            <p class="eyebrow" id="subject-theme">Theme</p>
+            <h3 id="subject-title">Subject</h3>
+            <div class="subject-modal__media is-hidden" id="subject-media">
+                <img src="" alt="" id="subject-image">
+            </div>
+            <p class="subject-modal__content" id="subject-content"></p>
+            <div class="subject-modal__actions">
+                <button class="btn ghost btn-small" type="button" data-subject-close data-i18n="library.modal.back">Back to Library</button>
+            </div>
+        </div>
+    </div>
 
     <div class="footer-actions">
         <a class="btn ghost btn-small" href="index.html" data-i18n="library.back">← Back to Home</a>
@@ -63,7 +91,212 @@
         <p data-i18n="site.footer">Built for K273 by Zee</p>
     </footer>
 
-    <script src="js/i18n.js?v=1.0.8"></script>
+    <script src="js/i18n.js?v=1.0.9"></script>
     <script src="js/lang.js"></script>
+    <script>
+        (() => {
+            const lorem =
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer suscipit, augue et finibus gravida, " +
+                "nisi nisl eleifend mi, vitae sagittis ipsum lacus et velit. Curabitur sit amet lorem ac elit varius " +
+                "interdum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; " +
+                "praesent nec odio vel sapien posuere mattis. Morbi facilisis, neque at viverra ultricies, nulla orci " +
+                "tincidunt metus, sed feugiat lectus ipsum sit amet purus. Proin tincidunt, urna a luctus commodo, " +
+                "elit augue fermentum risus, at consequat arcu magna non nunc. Aliquam erat volutpat. Sed et purus " +
+                "eget orci efficitur venenatis. Vivamus ac quam id nisl porttitor volutpat. Pellentesque habitant morbi " +
+                "tristique senectus et netus et malesuada fames ac turpis egestas. Cras in dignissim erat, non " +
+                "vehicula risus. Suspendisse potenti. Mauris ac ex nec lorem cursus tincidunt.";
+
+            const subjects = [
+                { id: "subject1", theme: "Theme1", title: "Subject1", content: lorem },
+                { id: "subject2", theme: "Theme1", title: "Subject2", content: lorem },
+                { id: "subject3", theme: "Theme1", title: "Subject3", content: lorem },
+                { id: "subject4", theme: "Theme2", title: "Subject4", content: lorem },
+                { id: "subject5", theme: "Theme2", title: "Subject5", content: lorem },
+                { id: "subject6", theme: "Theme2", title: "Subject6", content: lorem },
+                { id: "subject7", theme: "Theme3", title: "Subject7", content: lorem },
+                { id: "subject8", theme: "Theme3", title: "Subject8", content: lorem },
+                { id: "subject9", theme: "Theme3", title: "Subject9", content: lorem }
+            ];
+
+            const t = (key) => (window.I18N && typeof I18N.t === "function" ? I18N.t(key) : key);
+
+            document.addEventListener("DOMContentLoaded", () => {
+                const outline = document.getElementById("library-outline");
+                const results = document.getElementById("library-results");
+                const count = document.getElementById("library-result-count");
+                const searchInput = document.getElementById("library-search");
+
+                const modal = document.getElementById("subject-modal");
+                const modalTheme = document.getElementById("subject-theme");
+                const modalTitle = document.getElementById("subject-title");
+                const modalContent = document.getElementById("subject-content");
+                const modalMedia = document.getElementById("subject-media");
+                const modalImage = document.getElementById("subject-image");
+
+                const groupByTheme = () => {
+                    const grouped = {};
+                    subjects.forEach((subject) => {
+                        if (!grouped[subject.theme]) grouped[subject.theme] = [];
+                        grouped[subject.theme].push(subject);
+                    });
+                    return grouped;
+                };
+
+                const renderOutline = () => {
+                    const grouped = groupByTheme();
+                    outline.innerHTML = "";
+                    Object.entries(grouped).forEach(([theme, list], index) => {
+                        const details = document.createElement("details");
+                        details.className = "theme-block";
+                        if (index === 0) details.open = true;
+
+                        const summary = document.createElement("summary");
+                        summary.textContent = `${theme} (${list.length})`;
+
+                        const subjectsWrap = document.createElement("div");
+                        subjectsWrap.className = "theme-subjects";
+                        list.forEach((subject) => {
+                            const btn = document.createElement("button");
+                            btn.type = "button";
+                            btn.className = "subject-link";
+                            btn.dataset.subject = subject.id;
+                            btn.textContent = subject.title;
+                            subjectsWrap.appendChild(btn);
+                        });
+
+                        details.append(summary, subjectsWrap);
+                        outline.appendChild(details);
+                    });
+                };
+
+                const renderResults = (items, query) => {
+                    results.innerHTML = "";
+                    if (!query) {
+                        results.classList.add("is-hidden");
+                        return;
+                    }
+                    results.classList.remove("is-hidden");
+
+                    if (!items.length) {
+                        const empty = document.createElement("div");
+                        empty.className = "result-empty";
+                        empty.textContent = t("library.search.empty");
+                        results.appendChild(empty);
+                        return;
+                    }
+
+                    items.forEach((subject) => {
+                        const row = document.createElement("button");
+                        row.type = "button";
+                        row.className = "subject-result";
+                        row.dataset.subject = subject.id;
+                        row.innerHTML = `<span>${subject.title}</span><span class=\"subject-result__theme\">${subject.theme}</span>`;
+                        results.appendChild(row);
+                    });
+                };
+
+                const updateCount = (value, isSearch) => {
+                    if (isSearch) {
+                        const label = value === 1 ? t("library.count.match") : t("library.count.matches");
+                        count.textContent = `${value} ${label}`;
+                        return;
+                    }
+                    count.textContent = `${value} ${t("library.count.subjects")}`;
+                };
+
+                const openSubject = (id) => {
+                    const subject = subjects.find((item) => item.id === id);
+                    if (!subject) return;
+                    modalTheme.textContent = subject.theme;
+                    modalTitle.textContent = subject.title;
+                    modalContent.textContent = subject.content;
+                    if (subject.image) {
+                        modalImage.src = subject.image;
+                        modalImage.alt = subject.title;
+                        modalMedia.classList.remove("is-hidden");
+                    } else {
+                        modalImage.src = "";
+                        modalImage.alt = "";
+                        modalMedia.classList.add("is-hidden");
+                    }
+                    modal.classList.add("is-open");
+                    modal.setAttribute("aria-hidden", "false");
+                    document.body.classList.add("modal-open");
+
+                    const params = new URLSearchParams(window.location.search);
+                    params.set("subject", subject.id);
+                    history.replaceState({}, "", `${window.location.pathname}?${params}`);
+                };
+
+                const closeSubject = () => {
+                    modal.classList.remove("is-open");
+                    modal.setAttribute("aria-hidden", "true");
+                    document.body.classList.remove("modal-open");
+                    const params = new URLSearchParams(window.location.search);
+                    params.delete("subject");
+                    history.replaceState({}, "", `${window.location.pathname}?${params}`);
+                };
+
+                const handleSearch = () => {
+                    const query = searchInput.value.trim().toLowerCase();
+                    const matches = subjects.filter((subject) =>
+                        subject.title.toLowerCase().includes(query) || subject.theme.toLowerCase().includes(query)
+                    );
+                    renderResults(matches, query);
+                    updateCount(query ? matches.length : subjects.length, Boolean(query));
+
+                    const params = new URLSearchParams(window.location.search);
+                    if (query) {
+                        params.set("q", query);
+                    } else {
+                        params.delete("q");
+                    }
+                    history.replaceState({}, "", `${window.location.pathname}?${params}`);
+                };
+
+                outline.addEventListener("click", (event) => {
+                    const target = event.target.closest("[data-subject]");
+                    if (target) {
+                        openSubject(target.dataset.subject);
+                    }
+                });
+
+                results.addEventListener("click", (event) => {
+                    const target = event.target.closest("[data-subject]");
+                    if (target) {
+                        openSubject(target.dataset.subject);
+                    }
+                });
+
+                modal.addEventListener("click", (event) => {
+                    if (event.target.closest("[data-subject-close]")) {
+                        closeSubject();
+                    }
+                });
+
+                document.addEventListener("keydown", (event) => {
+                    if (event.key === "Escape" && modal.classList.contains("is-open")) {
+                        closeSubject();
+                    }
+                });
+
+                searchInput.addEventListener("input", handleSearch);
+                document.addEventListener("tb-language-change", handleSearch);
+
+                renderOutline();
+
+                const params = new URLSearchParams(window.location.search);
+                const query = params.get("q");
+                if (query) {
+                    searchInput.value = query;
+                }
+                handleSearch();
+                const subjectParam = params.get("subject");
+                if (subjectParam) {
+                    openSubject(subjectParam);
+                }
+            });
+        })();
+    </script>
 </body>
 </html>
