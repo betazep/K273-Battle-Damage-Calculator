@@ -60,7 +60,7 @@
                     <label for="library-search" data-i18n="library.search.label">Search books</label>
                     <input id="library-search" type="search" autocomplete="off" data-i18n-attr="placeholder:library.search.placeholder">
                 </div>
-                <div class="library-count" id="library-result-count">31 books</div>
+                <div class="library-count" id="library-result-count">30 books</div>
             </div>
             <div class="library-results is-hidden" id="library-results" aria-live="polite"></div>
             <div class="library-outline" id="library-outline"></div>
@@ -92,6 +92,7 @@
     </footer>
 
     <script src="js/i18n.js?v=1.0.14"></script>
+    <script src="js/library-translations.js?v=1.0.1"></script>
     <script src="js/lang.js"></script>
     <script>
         (() => {
@@ -120,6 +121,17 @@
                     label: "[HOB] Birdsfoot"
                 }
             };
+
+            const categories = {
+                crypting: "Crypting & Clan Chests",
+                events: "Events & Epic Monsters",
+                pvp: "Player Versus Player",
+                beginners: "Beginners",
+                leader: "Leader Advice",
+                misc: "Miscellaneous"
+            };
+
+            const libraryTranslations = window.LibraryTranslations || {};
 
             const ancientVaultsContent = `
                                 <div class="book-section">
@@ -915,210 +927,210 @@
             const books = [
                 {
                     id: "book1",
-                    category: "Crypting & Clan Chests",
+                    categoryId: "crypting",
                     title: "CITADEL STRATEGY",
                     authorId: "badder",
                     content: citadelContent
                 },
                 {
                     id: "book2",
-                    category: "Crypting & Clan Chests",
+                    categoryId: "crypting",
                     title: "CLAN WEALTH GIFTS",
                     authorId: "heisenberg",
                     content: clanWealthContent
                 },
                 {
                     id: "book3",
-                    category: "Crypting & Clan Chests",
+                    categoryId: "crypting",
                     title: "CRYPTING BASICS",
                     authorId: "badder",
                     content: cryptingBasicsContent
                 },
                 {
                     id: "book4",
-                    category: "Events & Epic Monsters",
+                    categoryId: "events",
                     title: "ANCIENT VAULTS",
                     authorId: "heisenberg",
                     content: ancientVaultsContent
                 },
                 {
                     id: "book5",
-                    category: "Events & Epic Monsters",
+                    categoryId: "events",
                     title: "TINMAN STRATEGY",
                     authorId: "heisenberg",
                     content: tinmanContent
                 },
                 {
                     id: "book6",
-                    category: "Events & Epic Monsters",
+                    categoryId: "events",
                     title: "DOOMSDAY",
                     authorId: "heisenberg",
                     content: doomsdayContent
                 },
                 {
                     id: "book13",
-                    category: "Events & Epic Monsters",
+                    categoryId: "events",
                     title: "SUMMON MASTERY",
                     authorId: "heisenberg",
                     content: summonMasteryContent
                 },
                 {
                     id: "book24",
-                    category: "Events & Epic Monsters",
+                    categoryId: "events",
                     title: "ARACHNES SWARM",
                     authorId: "heisenberg",
                     content: arachnesSwarmContent
                 },
                 {
                     id: "book30",
-                    category: "Events & Epic Monsters",
+                    categoryId: "events",
                     title: "ARMAGEDDON",
                     authorId: "heisenberg",
                     content: armageddonContent
                 },
                 {
                     id: "book7",
-                    category: "Player Versus Player",
+                    categoryId: "pvp",
                     title: "ZERO VALUE CITY DEFENCE",
                     authorId: "heisenberg",
                     content: zeroValueCityContent
                 },
                 {
                     id: "book8",
-                    category: "Player Versus Player",
+                    categoryId: "pvp",
                     title: "SPIES AND THEIR SECRETS",
                     authorId: "heisenberg",
                     content: spiesContent
                 },
                 {
                     id: "book9",
-                    category: "Player Versus Player",
+                    categoryId: "pvp",
                     title: "POINTERS FOR KINGDOM OPENING",
                     authorId: "heisenberg",
                     content: kingdomOpeningContent
                 },
                 {
                     id: "book29",
-                    category: "Player Versus Player",
+                    categoryId: "pvp",
                     title: "POCKET FORT - PART 1",
                     authorId: "heisenberg",
                     content: pocketFortContent
                 },
                 {
                     id: "book12",
-                    category: "Beginners",
+                    categoryId: "beginners",
                     title: "HOW TO FIND A CHAT",
                     authorId: "heisenberg",
                     content: chatSearchContent
                 },
                 {
                     id: "book14",
-                    category: "Beginners",
+                    categoryId: "beginners",
                     title: "THE WATCHTOWER",
                     authorId: "heisenberg",
                     content: watchtowerContent
                 },
                 {
                     id: "book15",
-                    category: "Beginners",
+                    categoryId: "beginners",
                     title: "CITY TELEPORT",
                     authorId: "heisenberg",
                     content: cityTeleportContent
                 },
                 {
                     id: "book17",
-                    category: "Beginners",
+                    categoryId: "beginners",
                     title: "SIMPLIFIED TROOP STACKING",
                     authorId: "heisenberg",
                     content: troopStackingContent
                 },
                 {
                     id: "book18",
-                    category: "Beginners",
+                    categoryId: "beginners",
                     title: "RSS PROTECTION TIP",
                     authorId: "heisenberg",
                     content: rssProtectionContent
                 },
                 {
                     id: "book20",
-                    category: "Beginners",
+                    categoryId: "beginners",
                     title: "SILVER STRUGGLES",
                     authorId: "heisenberg",
                     content: silverStrugglesContent
                 },
                 {
                     id: "book21",
-                    category: "Beginners",
+                    categoryId: "beginners",
                     title: "HEROIC MONSTERS",
                     authorId: "heisenberg",
                     content: heroicMonstersContent
                 },
                 {
                     id: "book22",
-                    category: "Beginners",
+                    categoryId: "beginners",
                     title: "HERO SKILL POINTS",
                     authorId: "heisenberg",
                     content: heroSkillPointsContent
                 },
                 {
                     id: "book25",
-                    category: "Beginners",
+                    categoryId: "beginners",
                     title: "CRAFTING EQUIPMENT",
                     authorId: "lord_fuzzy",
                     content: craftingEquipmentContent
                 },
                 {
                     id: "book28",
-                    category: "Beginners",
+                    categoryId: "beginners",
                     title: "GOLD TAXES",
                     authorId: "heisenberg",
                     content: goldTaxesContent
                 },
                 {
                     id: "book27",
-                    category: "Leader Advice",
+                    categoryId: "leader",
                     title: "IMPROVING CLAN WEALTH",
                     authorId: "heisenberg",
                     content: clanWealthLeaderContent
                 },
                 {
                     id: "book10",
-                    category: "Miscellaneous",
+                    categoryId: "misc",
                     title: "HALL OF FAME",
                     authorId: "badder",
                     content: hallOfFameContent
                 },
                 {
                     id: "book11",
-                    category: "Miscellaneous",
+                    categoryId: "misc",
                     title: "VIEW AND ACTIVATE BONUSES",
                     authorId: "heisenberg",
                     content: bonusesContent
                 },
                 {
                     id: "book16",
-                    category: "Miscellaneous",
+                    categoryId: "misc",
                     title: "REDUCE TROOP TRAINING TIME",
                     authorId: "heisenberg",
                     content: trainingTimeContent
                 },
                 {
                     id: "book19",
-                    category: "Miscellaneous",
+                    categoryId: "misc",
                     title: "MANSIONS VS FARMS",
                     authorId: "heisenberg",
                     content: mansionsVsFarmsContent
                 },
                 {
                     id: "book23",
-                    category: "Miscellaneous",
+                    categoryId: "misc",
                     title: "ILLEGAL ATTACK PROCESS EXAMPLE",
                     authorId: "heisenberg",
                     content: illegalAttackContent
                 },
                 {
                     id: "book26",
-                    category: "Miscellaneous",
+                    categoryId: "misc",
                     title: "RESOURCE GATHERING TIP",
                     authorId: "birdsfoot",
                     content: resourceGatheringContent
@@ -1126,7 +1138,18 @@
             ];
 
             const t = (key) => (window.I18N && typeof I18N.t === "function" ? I18N.t(key) : key);
+            const getLanguage = () => (window.I18N && typeof I18N.getLanguage === "function" ? I18N.getLanguage() : "en");
             const getAuthor = (authorId) => (authorId ? authors[authorId] || null : null);
+            const getCategoryLabel = (categoryId) => {
+                const lang = getLanguage();
+                return libraryTranslations[lang]?.categories?.[categoryId] || categories[categoryId] || categoryId;
+            };
+            const getBookTranslation = (book) => {
+                const lang = getLanguage();
+                return libraryTranslations[lang]?.books?.[book.id] || null;
+            };
+            const getBookTitle = (book) => getBookTranslation(book)?.title || book.title;
+            const getBookContent = (book) => getBookTranslation(book)?.content || book.content;
 
             document.addEventListener("DOMContentLoaded", () => {
                 const outline = document.getElementById("library-outline");
@@ -1140,12 +1163,13 @@
                 const modalContent = document.getElementById("book-content");
                 const modalMedia = document.getElementById("book-media");
                 const modalImage = document.getElementById("book-image");
+                let activeBookId = null;
 
                 const groupByCategory = () => {
                     const grouped = {};
                     books.forEach((book) => {
-                        if (!grouped[book.category]) grouped[book.category] = [];
-                        grouped[book.category].push(book);
+                        if (!grouped[book.categoryId]) grouped[book.categoryId] = [];
+                        grouped[book.categoryId].push(book);
                     });
                     return grouped;
                 };
@@ -1156,7 +1180,7 @@
 
                     const title = document.createElement("span");
                     title.className = "book-title";
-                    title.textContent = book.title;
+                    title.textContent = getBookTitle(book);
                     wrapper.appendChild(title);
 
                     const author = getAuthor(book.authorId);
@@ -1173,12 +1197,12 @@
                 const renderOutline = () => {
                     const grouped = groupByCategory();
                     outline.innerHTML = "";
-                    Object.entries(grouped).forEach(([category, list]) => {
+                    Object.entries(grouped).forEach(([categoryId, list]) => {
                         const details = document.createElement("details");
                         details.className = "category-block";
 
                         const summary = document.createElement("summary");
-                        summary.textContent = `${category} (${list.length})`;
+                        summary.textContent = `${getCategoryLabel(categoryId)} (${list.length})`;
 
                         const booksWrap = document.createElement("div");
                         booksWrap.className = "category-books";
@@ -1221,7 +1245,7 @@
 
                         const category = document.createElement("span");
                         category.className = "book-result__category";
-                        category.textContent = book.category;
+                        category.textContent = getCategoryLabel(book.categoryId);
                         row.appendChild(category);
 
                         results.appendChild(row);
@@ -1242,13 +1266,12 @@
                     if (!book) return;
                     const author = getAuthor(book.authorId);
                     const attribution = author ? `<p><strong>Courtesy of ${author.label}</strong></p>` : "";
-                    const content = (book.content || "").replace(/{{author}}/g, author ? author.label : "");
-                    modalCategory.textContent = book.category;
-                    modalTitle.textContent = book.title;
-                    modalContent.innerHTML = `${attribution}${content}`;
+                    modalCategory.textContent = getCategoryLabel(book.categoryId);
+                    modalTitle.textContent = getBookTitle(book);
+                    modalContent.innerHTML = `${attribution}${getBookContent(book).replace(/{{author}}/g, author ? author.label : "")}`;
                     if (book.image) {
                         modalImage.src = book.image;
-                        modalImage.alt = book.title;
+                        modalImage.alt = getBookTitle(book);
                         modalMedia.classList.remove("is-hidden");
                     } else {
                         modalImage.src = "";
@@ -1258,6 +1281,7 @@
                     modal.classList.add("is-open");
                     modal.setAttribute("aria-hidden", "false");
                     document.body.classList.add("modal-open");
+                    activeBookId = book.id;
 
                     const params = new URLSearchParams(window.location.search);
                     params.set("book", book.id);
@@ -1268,6 +1292,7 @@
                     modal.classList.remove("is-open");
                     modal.setAttribute("aria-hidden", "true");
                     document.body.classList.remove("modal-open");
+                    activeBookId = null;
                     const params = new URLSearchParams(window.location.search);
                     params.delete("book");
                     history.replaceState({}, "", `${window.location.pathname}?${params}`);
@@ -1275,9 +1300,11 @@
 
                 const handleSearch = () => {
                     const query = searchInput.value.trim().toLowerCase();
-                    const matches = books.filter((book) =>
-                        book.title.toLowerCase().includes(query) || book.category.toLowerCase().includes(query)
-                    );
+                    const matches = books.filter((book) => {
+                        const title = getBookTitle(book).toLowerCase();
+                        const category = getCategoryLabel(book.categoryId).toLowerCase();
+                        return title.includes(query) || category.includes(query);
+                    });
                     renderResults(matches, query);
                     updateCount(query ? matches.length : books.length, Boolean(query));
 
@@ -1307,6 +1334,14 @@
                 modal.addEventListener("click", (event) => {
                     if (event.target.closest("[data-book-close]")) {
                         closeBook();
+                    }
+                });
+
+                document.addEventListener("tb-language-change", () => {
+                    renderOutline();
+                    handleSearch();
+                    if (activeBookId) {
+                        openBook(activeBookId);
                     }
                 });
 
