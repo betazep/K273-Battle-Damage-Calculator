@@ -663,7 +663,7 @@ textarea {
 
 .library-outline {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 12px;
 }
 
@@ -850,6 +850,42 @@ textarea {
     border-radius: 12px;
     border: 1px solid var(--stroke);
     box-shadow: var(--shadow);
+}
+
+.book-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 8px 0 10px;
+    font-size: 14px;
+}
+
+.book-table th,
+.book-table td {
+    padding: 6px 8px;
+    text-align: left;
+    border-bottom: 1px solid var(--stroke);
+}
+
+.book-table th {
+    color: var(--muted);
+    font-weight: 600;
+    letter-spacing: 0.02em;
+}
+
+.book-table td:nth-child(2),
+.book-table td:nth-child(4) {
+    width: 90px;
+    text-align: right;
+}
+
+.book-table--compact td:nth-child(n + 2),
+.book-table--compact th:nth-child(n + 2) {
+    width: 80px;
+    text-align: right;
+}
+
+.book-table--compact td:first-child {
+    width: auto;
 }
 
 .book-modal__media img {
@@ -1060,6 +1096,12 @@ textarea {
 
     .library-outline {
         grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 1100px) {
+    .library-outline {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 }
 

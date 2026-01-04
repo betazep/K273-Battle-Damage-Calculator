@@ -8,7 +8,7 @@
     <link rel="icon" href="images/favicon-32.png" type="image/png" sizes="32x32">
     <link rel="icon" href="images/favicon-16.png" type="image/png" sizes="16x16">
     <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-    <link rel="stylesheet" href="css/styles.css?v=1.0.15">
+    <link rel="stylesheet" href="css/styles.css?v=1.0.17">
 </head>
 <body>
     <header class="hero">
@@ -60,7 +60,7 @@
                     <label for="library-search" data-i18n="library.search.label">Search books</label>
                     <input id="library-search" type="search" autocomplete="off" data-i18n-attr="placeholder:library.search.placeholder">
                 </div>
-                <div class="library-count" id="library-result-count">12 books</div>
+                <div class="library-count" id="library-result-count">31 books</div>
             </div>
             <div class="library-results is-hidden" id="library-results" aria-live="polite"></div>
             <div class="library-outline" id="library-outline"></div>
@@ -187,6 +187,462 @@
                 </div>
             `;
 
+            const summonMasteryContent = `
+                <p><strong>Courtesy of [BBD] Heisenberg</strong></p>
+                <div class="book-section">
+                    <h4>Summon Mastery event</h4>
+                    <p>This event gives you the chance to earn puzzle pieces for a specific captain. Each elite scroll used earns 10 points and each basic scroll earns 1 point.</p>
+                </div>
+                <p>Collect points to climb up the ladder of your personal quests to earn puzzle pieces.</p>
+                <p>The captain alternates each event. Here are some tips:</p>
+                <ul>
+                    <li>Save all the scrolls that you earn.</li>
+                    <li>Wait until the event contains a captain which is of a benefit to you.</li>
+                    <li>Use your scrolls 10 at a time for better chance of receiving high tier pieces.</li>
+                    <li>The summons place is located in your city.</li>
+                </ul>
+                <p>Great event for gaining pieces for captains such as Carter, Strorr, Aydae, etc. Keep your eyes peeled in the events tab!</p>
+            `;
+
+            const arachnesSwarmContent = `
+                <p><strong>Courtesy of [BBD] Heisenberg</strong></p>
+                <p>Another event where you can exchange the life of your army for Valor, XP, Dragon Meat, etc. As well as climbing the ladder in any current side quest.</p>
+                <p>This event is special because you can level 3 captains in one run. Here are a few key points:</p>
+                <ul>
+                    <li>Activate personal bonuses to increase XP and Valor.</li>
+                    <li>Aydae is the captain best used in a group march.</li>
+                    <li>Combine a fighting captain with two other captains you want to level up (Cleo + Carter/Strorr for example).</li>
+                    <li>Stack troops (your highest two level guards). Add a small amount of mercs + monsters for best effect.</li>
+                    <li>Fight, then retrain your army (don't revive with gold).</li>
+                    <li>Use your gold to invest in 30 day bonuses.</li>
+                    <li>Close portals when they are not active (open kingdom advice).</li>
+                    <li>Arrange your troop health in this order to make the damage its highest potential: guardsmen > monsters > mercs.</li>
+                </ul>
+            `;
+
+            const armageddonContent = `
+                <p><strong>Courtesy of [BBD] Heisenberg</strong></p>
+                <p>This is an event that is specifically designed for levelling your hero.</p>
+                <ul>
+                    <li>Earn XP and Valor.</li>
+                    <li>You can level up your hero.</li>
+                    <li>You can unlock more of the skill point tree when your hero is lv65.</li>
+                    <li>Earn skill points for your hero.</li>
+                </ul>
+                <div class="book-section">
+                    <h4>This event comes with a warning</h4>
+                    <p><strong>Hero leveling:</strong> Be careful when it comes to levelling your hero. They say your hero level should be around half the level of your best captain.</p>
+                    <p>Levelling your hero too much too quickly can cause you to struggle with quests, missions and events and make your progress slow down.</p>
+                    <p>So of course level your hero but bare this in mind everyone.</p>
+                </div>
+            `;
+
+            const zeroValueCityContent = `
+                <p><strong>Courtesy of [BBD] Heisenberg</strong></p>
+                <p>Kingdom opening is coming soon and in preparation here is some basic tips to help protect you. Start getting in the habit now.</p>
+                <div class="book-section">
+                    <h4>Shield</h4>
+                    <p>This is the easiest strategy.</p>
+                </div>
+                <p>Or:</p>
+                <ul>
+                    <li>March to clan forts when your army is not in use.</li>
+                    <li>Keep resources on hand below your warehouse protection.</li>
+                    <li>Close inactive portals.</li>
+                    <li>Send your ingots regularly to the palace.</li>
+                </ul>
+                <p>This is the very basic strategy which will make you less of a target. No one smart enough will attack you if they have nothing to gain. This strategy protects you and the clan capital.</p>
+            `;
+
+            const bonusesContent = `
+                <p><strong>Courtesy of [BBD] Heisenberg</strong></p>
+                <div class="book-section">
+                    <h4>Menu</h4>
+                    <p>Bonuses</p>
+                </div>
+                <p>At this page you can view various bonuses and activate them. Spending your gold here for 30 day bonuses is a wise move! You also earn free activations from rewards too!</p>
+                <div class="book-section">
+                    <h4>Personal</h4>
+                    <p>In this section you can activate many bonuses for your own personal use. Activating these before fighting epic monsters is a fantastic strategy.</p>
+                </div>
+                <div class="book-section">
+                    <h4>Clan</h4>
+                    <p>In this section you can view the currently available clan bonuses and which bonuses are active.</p>
+                </div>
+                <div class="book-section">
+                    <h4>Royal</h4>
+                    <p>In this section you can view the bonuses activated by the King.</p>
+                </div>
+                <div class="book-section">
+                    <h4>Premium</h4>
+                    <p>This costs real money but you can switch the benefits every 15 minutes. Great for building and for exploring crypts!</p>
+                </div>
+            `;
+
+            const spiesContent = `
+                <p><strong>Courtesy of [BBD] Heisenberg</strong></p>
+                <div class="book-section">
+                    <h4>Spies</h4>
+                    <p>Did you know that you can send spies on March alone and they can travel crazy fast and unrestricted? It's like a special ability they have.</p>
+                </div>
+                <p>This makes them perfect candidates for farming Wellsprings (WS) and Dragon Mounds (DM).</p>
+                <p>They can also be used to make long distance attacks quickly.</p>
+            `;
+
+            const kingdomOpeningContent = `
+                <p><strong>Courtesy of [BBD] Heisenberg</strong></p>
+                <div class="book-section">
+                    <h4>Kingdom opening - 24th of January</h4>
+                    <p>It's official! We have a month to prepare as much as possible! Don't panic or worry, the game is about to become so much fun! If you are not under a bubble, here is some advice.</p>
+                </div>
+                <ul>
+                    <li>Hero Ayrin, get her if possible.</li>
+                    <li>Upgrade your warehouses as much as possible.</li>
+                    <li>Send your ingots regularly.</li>
+                    <li>Send your armies to forts when not in use.</li>
+                    <li>Report hostile portals to the palace to be closed.</li>
+                    <li>Keep your resources below warehouse protection.</li>
+                    <li>Reserve your resource boxes (ask the clan).</li>
+                    <li>Spread your resources to players.</li>
+                    <li>Send surplus resources to clan buildings.</li>
+                </ul>
+                <p>More updates will come!</p>
+                <p>Do these things and you give them no reason to attack you. No sensible player will attack with nothing to gain!</p>
+            `;
+
+            const chatSearchContent = `
+                <p><strong>Courtesy of [BBD] Heisenberg</strong></p>
+                <div class="book-section">
+                    <h4>How to find a chat by name</h4>
+                    <ul>
+                        <li>Go to the chat menu.</li>
+                        <li>Select "find chat" (bottom right corner).</li>
+                        <li>Spell the name of the chat exactly as it's shown, including upper/lower case and spaces.</li>
+                    </ul>
+                </div>
+                <p>Voila!</p>
+            `;
+
+            const watchtowerContent = `
+                <p><strong>Courtesy of [BBD] Heisenberg</strong></p>
+                <div class="book-section">
+                    <h4>Watchtower</h4>
+                    <p>Watchtower is the most valuable tool in the game and to obtain it is quite simple.</p>
+                    <ul>
+                        <li>Use real life money to buy it.</li>
+                        <li>Save your gold in game from rewards and buy 30 days.</li>
+                        <li>Farm Dragon Mounds.</li>
+                    </ul>
+                </div>
+                <p>To farm Dragon Mounds and reach them fast, send one captain carrying spies only. Trust me!</p>
+                <p>There are ways to obtain the watchtower without money if you apply yourself. In the meantime just ask in clan chat for someone to provide coordinates for what you desire.</p>
+            `;
+
+            const cityTeleportContent = `
+                <p><strong>Courtesy of [BBD] Heisenberg</strong></p>
+                <div class="book-section">
+                    <h4>City teleport</h4>
+                    <p>How to teleport your city:</p>
+                    <ul>
+                        <li>Find a location.</li>
+                        <li>Press on the tile you would like to teleport to.</li>
+                        <li>Select "city teleport".</li>
+                        <li>If you don't own a teleport you will have to buy it with gold coins.</li>
+                    </ul>
+                </div>
+                <div class="book-section">
+                    <h4>Where shall I teleport?</h4>
+                    <ul>
+                        <li>For larger armies you need a tile with a "food production" bonus. Armies require food. The higher your production the larger your army can be.</li>
+                        <li>For silver based cities, the desert is the best place.</li>
+                    </ul>
+                </div>
+                <p><strong>Important:</strong> Keep your city as close to the clan "group" as possible. This will make it easier to reinforce, send caravans, and so on.</p>
+            `;
+
+            const trainingTimeContent = `
+                <p><strong>Courtesy of [BBD] Heisenberg</strong></p>
+                <p>Here are the many ways to reduce the time it takes to build troops.</p>
+                <ul>
+                    <li>Captain Helen increases food production and reduces training speed. One of many reasons to buy the golden pass.</li>
+                    <li>Every spot in your city should have a barrack where possible. Remove the obsolete resource buildings.</li>
+                    <li>Hero skill points can be used to reduce training speed in the guardsmen section.</li>
+                    <li>Upgrading your city barracks.</li>
+                    <li>Attach gems and enchantments to captain and hero equipment.</li>
+                </ul>
+                <p>All these things will reduce how many speed ups you need to use and you will rely less on expensive revives.</p>
+                <p>Any area you are struggling I can guarantee there is a solution to improve it.</p>
+            `;
+
+            const troopStackingContent = `
+                <p><strong>Courtesy of [BBD] Heisenberg</strong></p>
+                <p>Use your two best tiers of troops. Use more if you wish but for this strategy just use your best two tiers of guardsmen.</p>
+                <p>Here is an example of how to arrange troops. Adjust the numbers to suit your leadership amounts.</p>
+                <div class="book-section">
+                    <h4>Example stacking</h4>
+                    <table class="book-table">
+                        <thead>
+                            <tr>
+                                <th>G1</th>
+                                <th>Count</th>
+                                <th>G2</th>
+                                <th>Count</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Rider</td>
+                                <td>500</td>
+                                <td>Rider</td>
+                                <td>250</td>
+                            </tr>
+                            <tr>
+                                <td>Spearmen</td>
+                                <td>1000</td>
+                                <td>Spearmen</td>
+                                <td>500</td>
+                            </tr>
+                            <tr>
+                                <td>Archer</td>
+                                <td>1000</td>
+                                <td>Archer</td>
+                                <td>500</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <p><strong>Ratio:</strong> 1 Rider / 2 Spearmen / 2 Archers.</p>
+                </div>
+                <div class="book-section">
+                    <h4>Event ratios</h4>
+                    <table class="book-table book-table--compact">
+                        <thead>
+                            <tr>
+                                <th>Event</th>
+                                <th>Rider</th>
+                                <th>Spearmen</th>
+                                <th>Archers</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Swarm</td>
+                                <td>2</td>
+                                <td>2</td>
+                                <td>1</td>
+                            </tr>
+                            <tr>
+                                <td>Doomsday</td>
+                                <td>2</td>
+                                <td>2</td>
+                                <td>1</td>
+                            </tr>
+                            <tr>
+                                <td>Ragnarok</td>
+                                <td>2</td>
+                                <td>2</td>
+                                <td>1</td>
+                            </tr>
+                            <tr>
+                                <td>Hellforge</td>
+                                <td>1</td>
+                                <td>2</td>
+                                <td>2</td>
+                            </tr>
+                            <tr>
+                                <td>Shadow</td>
+                                <td>2</td>
+                                <td>1</td>
+                                <td>2</td>
+                            </tr>
+                            <tr>
+                                <td>Tinman</td>
+                                <td>1</td>
+                                <td>2</td>
+                                <td>2</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <p>Add monsters and mercs on top of this.</p>
+                </div>
+            `;
+
+            const rssProtectionContent = `
+                <p><strong>Courtesy of [BBD] Heisenberg</strong></p>
+                <div class="book-section">
+                    <h4>How to check warehouse protection levels</h4>
+                    <ul>
+                        <li>Enter your city.</li>
+                        <li>Press on your capital building.</li>
+                        <li>Select "statistics".</li>
+                        <li>Select "resources".</li>
+                    </ul>
+                </div>
+                <p>From here press each resource and each one will have its own protected quantity. Resources below this amount cannot be stolen.</p>
+            `;
+
+            const mansionsVsFarmsContent = `
+                <p><strong>Courtesy of [BBD] Heisenberg</strong></p>
+                <p>I've just ran a little test in my own city to try and find a simple but safe strategy going forward, and this is what I would advise.</p>
+                <ul>
+                    <li>As a new city and player 12/12 Farms/Mansions is completely fine. But as time goes on you will need to reduce your mansions and have more farms.</li>
+                    <li>The simple strategy to save demolishing your city is to have 6 mansions. You can deviate from this strategy +3 or -3 depending on a few factors.</li>
+                </ul>
+                <div class="book-section">
+                    <h4>Factors to consider</h4>
+                    <ul>
+                        <li>Do/Don't have Captain Helen.</li>
+                        <li>Tile bonus.</li>
+                        <li>Play style.</li>
+                    </ul>
+                </div>
+                <p>In simple terms I would use 6 mansions as the default number and then feel free to deviate +3 or -3 depending on the above factors.</p>
+                <p>It's important you only level one at a time and don't try to level them all equally. The production increase is more substantial at the higher levels.</p>
+                <p>Captain Helen (need the golden pass to get her).</p>
+            `;
+
+            const silverStrugglesContent = `
+                <p><strong>Courtesy of [BBD] Heisenberg</strong></p>
+                <div class="book-section">
+                    <h4>Low on silver?</h4>
+                    <p>If you're struggling for silver, don't make the mistake of filling your city with mansions. Keep your city mainly Farmhouses and try the following.</p>
+                </div>
+                <ul>
+                    <li>Scout cities that are outside the coverage of ROE, and attack when profitable.</li>
+                    <li>Going to sleep? Send all your captains to villages with spearmen.</li>
+                    <li>Have one captain farming when you are online (Strorr).</li>
+                    <li>Research Logistics and level up Strorr. Use hero skill points on resource gathering.</li>
+                    <li>Stacking troops is a great way to save on silver, but also save on speed ups.</li>
+                    <li>Scout across kingdoms and pillage when profitable.</li>
+                </ul>
+                <p>There are many ways to make silver if you put your mind to it, guys! This is a strategy game so be strategic!</p>
+            `;
+
+            const heroicMonstersContent = `
+                <p><strong>Courtesy of [BBD] Heisenberg</strong></p>
+                <ul>
+                    <li>Remove equipment from heroes if you wish to save their durability as these will likely be damaged.</li>
+                    <li>Do send a minimum of two fighting captains. Amanitor is a key captain for heroics.</li>
+                    <li>Don't send more than two tiers of guardsmen.</li>
+                    <li>Don't use G1s where possible.</li>
+                    <li>Do send as many troops as your captains can carry.</li>
+                    <li>Be aware that troop losses are very likely. Highest tier guardsmen or large groups of mercenaries will be the first to suffer losses. This is where two tiers will help you individually.</li>
+                    <li>Don't use your hero to save unnecessary leveling.</li>
+                    <li>Use guardsmen and monsters. Mercenaries can be used in large groups at your own risk.</li>
+                </ul>
+                <p>Heroic monsters are crucial for obtaining clan resources for research and building. This will help improve all areas of your city: improved march speed, construction speed, troop strength, resource production, etc.</p>
+            `;
+
+            const heroSkillPointsContent = `
+                <p><strong>Courtesy of [BBD] Heisenberg</strong></p>
+                <div class="book-section">
+                    <h4>Hero skill points</h4>
+                    <p>Did you know you can assign skill points to your hero every time they receive a level up?</p>
+                </div>
+                <p>Assign these in different categories to gain an edge.</p>
+                <p>You can also reset these and assign them in different areas then reset them back.</p>
+            `;
+
+            const goldTaxesContent = `
+                <p><strong>Courtesy of [BBD] Heisenberg</strong></p>
+                <div class="book-section">
+                    <h4>How and why to send gold tax</h4>
+                    <h5>How do I send gold ingot tax?</h5>
+                    <ul>
+                        <li>Enter your city.</li>
+                        <li>Press on your capital.</li>
+                        <li>Press Tax.</li>
+                        <li>Drag the icon to the right and send all.</li>
+                    </ul>
+                </div>
+                <div class="book-section">
+                    <h5>Why do I send tax?</h5>
+                    <p>Gold ingots are useless to a player. When we send gold ingots as tax they are sent to the kingdom palace. The palace can then use these ingots to purchase bonuses that affect every player kingdom wide.</p>
+                    <p><strong>Hoarding ingots is hurting yourself, and your friends!</strong></p>
+                </div>
+                <div class="book-section">
+                    <h5>How to view active kingdom bonuses</h5>
+                    <ul>
+                        <li>Menu</li>
+                        <li>Bonuses</li>
+                        <li>Royal</li>
+                    </ul>
+                    <p>This shows all purchasable bonuses and all active bonuses that your gold ingots pay for.</p>
+                    <p><strong>Send this announcement to your clan members.</strong></p>
+                </div>
+            `;
+
+            const illegalAttackContent = `
+                <p><strong>Courtesy of [BBD] Heisenberg</strong></p>
+                <div class="book-section">
+                    <h4>Illegal attacks</h4>
+                    <ul>
+                        <li>Approach the attacker yourself.</li>
+                        <li>Use the following link to calculate your compensation: <a href="https://k273tb.xyz">https://k273tb.xyz</a></li>
+                        <li>If no response or resolution in 24 hours, post the journal report in _______ along with your compensation calculation.</li>
+                    </ul>
+                </div>
+            `;
+
+            const pocketFortContent = `
+                <p><strong>Courtesy of [BBD] Heisenberg</strong></p>
+                <div class="book-section">
+                    <h4>Pocket Fort - Part 1</h4>
+                    <p>The clan capital is protected by your forts. Once the forts are destroyed the capital then pops up a 20 hour shield.</p>
+                    <p>Damaged forts cannot be repaired for 40 hours. This leaves us with a 20 hour window where the clan capital can be attacked once the shield falls.</p>
+                </div>
+                <div class="book-section">
+                    <h4>What can you do?</h4>
+                    <p>There is an advanced strategy to protect your capital in this scenario. I will post full instructions in part 2.</p>
+                    <p>This is a brief explanation to help you prepare for kingdom opening.</p>
+                </div>
+                <ul>
+                    <li>Keep one fort unbuilt at all times.</li>
+                    <li>To activate another bonus you can temporarily build then demolish your spare.</li>
+                    <li>In the event your forts get destroyed the unbuilt fort is built in order to recharge your shield and thus protecting the capital.</li>
+                </ul>
+                <p>I will post the full steps in part 2. But now is the time to free up or unlock a spare fort before kingdom opening!</p>
+            `;
+
+            const craftingEquipmentContent = `
+                <p><strong>Courtesy of [DQD] LORD FUZZY</strong></p>
+                <div class="book-section">
+                    <h4>Crafting equipment</h4>
+                    <ol>
+                        <li>Combine materials if possible before crafting. This will ensure you have the strongest final product. All materials including gems and spells can be combined to strengthen their efficiency.</li>
+                        <li>Select craft and look for equipment that boosts certain abilities. Equipment bonuses can be matched to specific captains, or mixed to make your captains more versatile. Also, materials can be swapped to minimize or maximize bonuses.</li>
+                        <li>Add gems and spells in the workshop to enhance or add bonuses.</li>
+                    </ol>
+                </div>
+                <p>Thank you for reading. Please put any questions in the Academy chat.</p>
+            `;
+
+            const resourceGatheringContent = `
+                <p><strong>Courtesy of [HOB] Birdsfoot</strong></p>
+                <div class="book-section">
+                    <h4>Resources gathering tip</h4>
+                    <p>As clan territories become larger, it is sometimes difficult to tell if a resource is "wild", or on another clan territory.</p>
+                </div>
+                <ul>
+                    <li>Beside the resource, try to open a portal. If you are on another clan territory, you will be warned.</li>
+                    <li>If you are not warned, either open a portal if the distance is great, or do not open one and have the troops march to the resource.</li>
+                </ul>
+            `;
+
+            const clanWealthLeaderContent = `
+                <p><strong>Courtesy of [BBD] Heisenberg</strong></p>
+                <p>This guide is based on my experience and knowledge as a growing leader.</p>
+                <ul>
+                    <li>Make sure new players are active and responsive. Active players opening chests drives wealth. Vet them from the beginning.</li>
+                    <li>Educate players as they join on the importance of prioritising Carter with leveling and research.</li>
+                    <li>Set weekly crypt targets for members and review them. We hit 30m wealth with 45 players with a 21 weekly crypt target.</li>
+                    <li>Drive Tin-man participation. This event does wonders for your wealth score. Monitor participation.</li>
+                    <li>Educate members on the benefits of the golden pass. Be encouraging but don't ever force people to use real money. The pass drives Tar gains.</li>
+                    <li>Educate new members upon request of the benefit of Wellsprings.</li>
+                    <li>Educate the clan on the benefits and rewards of crypting.</li>
+                </ul>
+                <p><strong>1 chest x (Amount of members) x Activity = Wealth</strong></p>
+            `;
+
             const citadelContent = `
                 <p><strong>Courtesy of [LTZ] Badder</strong></p>
                 <p>If you use higher tier catapults than what is listed, only half the amount needs to be sent.</p>
@@ -208,6 +664,236 @@
                     </ul>
                 </div>
                 <p><em>Units listed in brackets () are optional.</em></p>
+            `;
+
+            const clanWealthContent = `
+                <p><strong>Courtesy of [BBD] Heisenberg</strong></p>
+                <p>Clan wealth scores are driven by chest rewards which are opened among the clan. Each chest is worth a score which increases with rarity. One chest earned is awarded to all clan members, meaning that a full clan and active members is crucial for growth. This is why Carter really is so crucial!</p>
+                <p>Superiors and leaders can claim these gifts every 6.5hrs here:</p>
+                <ul>
+                    <li>Clan Menu</li>
+                    <li>Wealth</li>
+                </ul>
+                <div class="book-section">
+                    <h4>Crypts points guide</h4>
+                    <table class="book-table book-table--compact">
+                        <thead>
+                            <tr>
+                                <th>Level</th>
+                                <th>Common</th>
+                                <th>Rare</th>
+                                <th>Epic</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Lv5</td>
+                                <td>13</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>Lv10</td>
+                                <td>35</td>
+                                <td>66</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>Lv15</td>
+                                <td>75</td>
+                                <td>130</td>
+                                <td>308</td>
+                            </tr>
+                            <tr>
+                                <td>Lv20</td>
+                                <td>167</td>
+                                <td>319</td>
+                                <td>598</td>
+                            </tr>
+                            <tr>
+                                <td>Lv25</td>
+                                <td>427</td>
+                                <td>628</td>
+                                <td>890</td>
+                            </tr>
+                            <tr>
+                                <td>Lv30</td>
+                                <td></td>
+                                <td>1349</td>
+                                <td>1184</td>
+                            </tr>
+                            <tr>
+                                <td>Lv35</td>
+                                <td></td>
+                                <td></td>
+                                <td>1480</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="book-section">
+                    <h4>Arena</h4>
+                    <p>30 pts</p>
+                </div>
+                <div class="book-section">
+                    <h4>Elven citadel / Cursed citadel points</h4>
+                    <table class="book-table book-table--compact">
+                        <thead>
+                            <tr>
+                                <th>Level</th>
+                                <th>Elven</th>
+                                <th>Cursed</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Lv10</td>
+                                <td>18</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>Lv15</td>
+                                <td>30</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>Lv20</td>
+                                <td>38</td>
+                                <td>38</td>
+                            </tr>
+                            <tr>
+                                <td>Lv25</td>
+                                <td>95</td>
+                                <td>95</td>
+                            </tr>
+                            <tr>
+                                <td>Lv30</td>
+                                <td>130</td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="book-section">
+                    <h4>Heroic monster / Ancients</h4>
+                    <table class="book-table book-table--compact">
+                        <thead>
+                            <tr>
+                                <th>Heroic</th>
+                                <th>Pts</th>
+                                <th>Ancients</th>
+                                <th>Pts</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Lv16</td>
+                                <td>115</td>
+                                <td>Lv10-24</td>
+                                <td>135</td>
+                            </tr>
+                            <tr>
+                                <td>Lv17</td>
+                                <td>115</td>
+                                <td>Lv15-19</td>
+                                <td>155</td>
+                            </tr>
+                            <tr>
+                                <td>Lv18</td>
+                                <td>115</td>
+                                <td>Lv20-24</td>
+                                <td>250</td>
+                            </tr>
+                            <tr>
+                                <td>Lv19</td>
+                                <td>115</td>
+                                <td>Lv25-29</td>
+                                <td>290</td>
+                            </tr>
+                            <tr>
+                                <td>Lv20</td>
+                                <td>205</td>
+                                <td>Lv30-34</td>
+                                <td>425</td>
+                            </tr>
+                            <tr>
+                                <td>Lv21</td>
+                                <td>205</td>
+                                <td>Lv35-39</td>
+                                <td>765</td>
+                            </tr>
+                            <tr>
+                                <td>Lv22</td>
+                                <td>205</td>
+                                <td>Lv40-44</td>
+                                <td>805</td>
+                            </tr>
+                            <tr>
+                                <td>Lv23</td>
+                                <td>205</td>
+                                <td>Lv45</td>
+                                <td>880</td>
+                            </tr>
+                            <tr>
+                                <td>Lv24</td>
+                                <td>205</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>Lv25</td>
+                                <td>455</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>Lv26</td>
+                                <td>640</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>Lv27</td>
+                                <td>640</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>Lv28</td>
+                                <td>640</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>Lv31</td>
+                                <td>640</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>Lv45</td>
+                                <td>640</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <p>This is a points guide for crypts. Check out the continued guide for points earned for other chests such as for citadels, heroic monsters, etc.</p>
+                <p><strong>Push those Carters!</strong></p>
+            `;
+
+            const cryptingBasicsContent = `
+                <p><strong>Courtesy of [LTZ] Badder</strong></p>
+                <p>One of the best ways you can help your clanmates is by providing clan chests. They are the lifeblood of the clan, allowing all of us to keep moving forward.</p>
+                <p>To help each of us be better at it, here are a few tips:</p>
+                <ul>
+                    <li>Only use Carter for crypts, it is his job. Dress him in the best quality Tomb Raider or Omniscience equipment you can, with Amber and the Pioneer enchantment embedded.</li>
+                    <li>Level up Carter every chance you get (Doomsday, Archane's, Tinman, Rag XP, etc). He should always be one of your highest level captains.</li>
+                    <li>It's great to occasionally test your progress by doing higher level crypts, but the priority should always be to do the highest level one march crypt you can. This is the most efficient use of tar.</li>
+                    <li>Attacking citadels provides you with rare crypt keys and a clan chest. If you are nervous about tackling these, ask for tips in clan chat.</li>
+                </ul>
+                <p><strong>- Badder</strong></p>
             `;
 
             const hallOfFameContent = `
@@ -249,8 +935,20 @@
                     author: "[LTZ] Badder",
                     content: citadelContent
                 },
-                { id: "book2", category: "Crypting & Clan Chests", title: "Book2", content: lorem },
-                { id: "book3", category: "Crypting & Clan Chests", title: "Book3", content: lorem },
+                {
+                    id: "book2",
+                    category: "Crypting & Clan Chests",
+                    title: "CLAN WEALTH GIFTS",
+                    author: "[BBD] Heisenberg",
+                    content: clanWealthContent
+                },
+                {
+                    id: "book3",
+                    category: "Crypting & Clan Chests",
+                    title: "CRYPTING BASICS",
+                    author: "[LTZ] Badder",
+                    content: cryptingBasicsContent
+                },
                 {
                     id: "book4",
                     category: "Events & Epic Monsters",
@@ -272,9 +970,132 @@
                     author: "[BBD] Heisenberg",
                     content: doomsdayContent
                 },
-                { id: "book7", category: "Player Versus Player", title: "Book7", content: lorem },
-                { id: "book8", category: "Player Versus Player", title: "Book8", content: lorem },
-                { id: "book9", category: "Player Versus Player", title: "Book9", content: lorem },
+                {
+                    id: "book13",
+                    category: "Events & Epic Monsters",
+                    title: "SUMMON MASTERY",
+                    author: "[BBD] Heisenberg",
+                    content: summonMasteryContent
+                },
+                {
+                    id: "book24",
+                    category: "Events & Epic Monsters",
+                    title: "ARACHNES SWARM",
+                    author: "[BBD] Heisenberg",
+                    content: arachnesSwarmContent
+                },
+                {
+                    id: "book30",
+                    category: "Events & Epic Monsters",
+                    title: "ARMAGEDDON",
+                    author: "[BBD] Heisenberg",
+                    content: armageddonContent
+                },
+                {
+                    id: "book7",
+                    category: "Player Versus Player",
+                    title: "ZERO VALUE CITY DEFENCE",
+                    author: "[BBD] Heisenberg",
+                    content: zeroValueCityContent
+                },
+                {
+                    id: "book8",
+                    category: "Player Versus Player",
+                    title: "SPIES AND THEIR SECRETS",
+                    author: "[BBD] Heisenberg",
+                    content: spiesContent
+                },
+                {
+                    id: "book9",
+                    category: "Player Versus Player",
+                    title: "POINTERS FOR KINGDOM OPENING",
+                    author: "[BBD] Heisenberg",
+                    content: kingdomOpeningContent
+                },
+                {
+                    id: "book29",
+                    category: "Player Versus Player",
+                    title: "POCKET FORT - PART 1",
+                    author: "[BBD] Heisenberg",
+                    content: pocketFortContent
+                },
+                {
+                    id: "book12",
+                    category: "Beginners",
+                    title: "HOW TO FIND A CHAT",
+                    author: "[BBD] Heisenberg",
+                    content: chatSearchContent
+                },
+                {
+                    id: "book14",
+                    category: "Beginners",
+                    title: "THE WATCHTOWER",
+                    author: "[BBD] Heisenberg",
+                    content: watchtowerContent
+                },
+                {
+                    id: "book15",
+                    category: "Beginners",
+                    title: "CITY TELEPORT",
+                    author: "[BBD] Heisenberg",
+                    content: cityTeleportContent
+                },
+                {
+                    id: "book17",
+                    category: "Beginners",
+                    title: "SIMPLIFIED TROOP STACKING",
+                    author: "[BBD] Heisenberg",
+                    content: troopStackingContent
+                },
+                {
+                    id: "book18",
+                    category: "Beginners",
+                    title: "RSS PROTECTION TIP",
+                    author: "[BBD] Heisenberg",
+                    content: rssProtectionContent
+                },
+                {
+                    id: "book20",
+                    category: "Beginners",
+                    title: "SILVER STRUGGLES",
+                    author: "[BBD] Heisenberg",
+                    content: silverStrugglesContent
+                },
+                {
+                    id: "book21",
+                    category: "Beginners",
+                    title: "HEROIC MONSTERS",
+                    author: "[BBD] Heisenberg",
+                    content: heroicMonstersContent
+                },
+                {
+                    id: "book22",
+                    category: "Beginners",
+                    title: "HERO SKILL POINTS",
+                    author: "[BBD] Heisenberg",
+                    content: heroSkillPointsContent
+                },
+                {
+                    id: "book25",
+                    category: "Beginners",
+                    title: "CRAFTING EQUIPMENT",
+                    author: "[DQD] LORD FUZZY",
+                    content: craftingEquipmentContent
+                },
+                {
+                    id: "book28",
+                    category: "Beginners",
+                    title: "GOLD TAXES",
+                    author: "[BBD] Heisenberg",
+                    content: goldTaxesContent
+                },
+                {
+                    id: "book27",
+                    category: "Leader Advice",
+                    title: "IMPROVING CLAN WEALTH",
+                    author: "[BBD] Heisenberg",
+                    content: clanWealthLeaderContent
+                },
                 {
                     id: "book10",
                     category: "Miscellaneous",
@@ -282,8 +1103,41 @@
                     author: "[LTZ] Badder",
                     content: hallOfFameContent
                 },
-                { id: "book11", category: "Miscellaneous", title: "Book11", content: lorem },
-                { id: "book12", category: "Miscellaneous", title: "Book12", content: lorem }
+                {
+                    id: "book11",
+                    category: "Miscellaneous",
+                    title: "VIEW AND ACTIVATE BONUSES",
+                    author: "[BBD] Heisenberg",
+                    content: bonusesContent
+                },
+                {
+                    id: "book16",
+                    category: "Miscellaneous",
+                    title: "REDUCE TROOP TRAINING TIME",
+                    author: "[BBD] Heisenberg",
+                    content: trainingTimeContent
+                },
+                {
+                    id: "book19",
+                    category: "Miscellaneous",
+                    title: "MANSIONS VS FARMS",
+                    author: "[BBD] Heisenberg",
+                    content: mansionsVsFarmsContent
+                },
+                {
+                    id: "book23",
+                    category: "Miscellaneous",
+                    title: "ILLEGAL ATTACK PROCESS EXAMPLE",
+                    author: "[BBD] Heisenberg",
+                    content: illegalAttackContent
+                },
+                {
+                    id: "book26",
+                    category: "Miscellaneous",
+                    title: "RESOURCE GATHERING TIP",
+                    author: "[HOB] Birdsfoot",
+                    content: resourceGatheringContent
+                }
             ];
 
             const t = (key) => (window.I18N && typeof I18N.t === "function" ? I18N.t(key) : key);
