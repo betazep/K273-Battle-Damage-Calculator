@@ -860,6 +860,92 @@
                             <p>Joten levelöi sankaria, mutta pidä tämä mielessä.</p>
                         </div>
                     `
+                },
+                book31: {
+                    title: "KUTSUMUSYMPYRÄ",
+                    content: `
+                        <p>Voit palkata uusia kapteeneja keräämällä heidän sirpaleitaan. Kutsumusympyrä on kaupunkisi rakennus, josta voit saada sirpaleita useimmille (mutta ei kaikille) kapteeneille.</p>
+                        <div class="book-media-grid">
+                            <img src="library-images/library-002.png" alt="Summoning Circle building">
+                        </div>
+                        <p>Saat viisi ilmaista tavallista kutsua ja yhden eliittikutsun 20 tunnin välein. Lisää kääröjä saat suorittamalla päivittäisiä tehtäviä, Triumphal Challenge -kaupasta, turnauspalkinnoista tai tietyistä ostoksista.</p>
+                        <p>Sen sijaan että käyttäisit kutsut yksi kerrallaan, säästä ne ja käytä Summon Mastery -turnauksen aikana saadaksesi sirpaleita haluamallesi kapteenille.</p>
+                        <div class="book-section">
+                            <h4>Summon Mastery -turnaus</h4>
+                            <p>Tämä turnaus antaa lisäkutsukääröjä ja lisäsirpaleita tietylle kapteenille käyttämällä tavallisia ja eliittikutsuja. Mitä enemmän kutsuja teet, sitä enemmän pisteitä kertyy.</p>
+                            <p>Kierrätys noudattaa aina alla olevaa järjestystä. Kapteenit, joilla on kauttaviiva (/), ovat saatavilla vain joka toisella kierroksella.</p>
+                            <ul>
+                                <li>Aydea</li>
+                                <li>Minamoto</li>
+                                <li>Aurora / Brunhild</li>
+                                <li>Carter</li>
+                                <li>Alexander</li>
+                                <li>Farhad / Ye Ho-Sung</li>
+                                <li>Dustan</li>
+                                <li>Leonidas</li>
+                                <li>Ingrid / Bernard</li>
+                                <li>Doria</li>
+                                <li>Wu</li>
+                                <li>Stror / Lucius</li>
+                            </ul>
+                            <div class="book-media-grid">
+                                <img src="library-images/library-003.png" alt="Summon Mastery tournament screen">
+                            </div>
+                        </div>
+                    `
+                },
+                book32: {
+                    title: "SUURI METSÄSTYS",
+                    content: `
+                        <p>Suuri metsästys on klaaniturnaus, jossa jokaisella pelaajalla on Turnaus-sivullaan lista sopimuksia hirviöiden tappamiseksi. Näiden hirviöiden onnistunut surmaaminen tuo klaanille turnauspisteitä.</p>
+                        <div class="book-media-grid">
+                            <img src="library-images/library-004.png" alt="The Great Hunt event contracts">
+                        </div>
+                        <div class="book-section">
+                            <h4>Sopimusten vaikeustasot</h4>
+                            <ul>
+                                <li><strong>Helppo</strong>: Kaksi sopimusta, 100 pistettä kappale, yksi sankarille ja yksi kapteenille.</li>
+                                <li><strong>Keskitaso</strong>: Neljä sopimusta, 200 pistettä kappale, kaksi sankarille ja kaksi kapteenille.</li>
+                                <li><strong>Vaikea</strong>: Neljä sopimusta, 300 pistettä kappale, kaksi sankarille ja kaksi kapteenille.</li>
+                                <li><strong>Ekspertti</strong>: Ei oletussopimuksia.</li>
+                            </ul>
+                            <p>Sopimusten vaikeutta voi kasvattaa. Kun sopimuksen taso nousee, se korvataan seuraavan tason sopimuksella (Helppo -> Keskitaso -> Vaikea -> Ekspertti).</p>
+                            <p>Koko sopimuslista voidaan päivittää kolme kertaa turnauksen aikana. Kaikki keskeneräiset sopimukset korvataan 10 uudella, ja ansaitut pisteet säilyvät.</p>
+                        </div>
+                        <p>Eksperttisopimuksia on vaikea suorittaa yksin, joten tiimityö on välttämätöntä. Klaanitoverit voivat auttaa heikentämällä Eksperttisopimuksia uhraamalla joukkoja.</p>
+                        <p>Harvinaisten hirviöiden sopimukset voivat nostaa sankarisi tasoa. Pidä sankari alempana kuin paras kapteenisi, jotta Triumphal Challenges pysyy saavutettavana, joten harvinaisia Ekspertti-sopimuksia ei suositella.</p>
+                        <div class="book-section">
+                            <h4>Suuren metsästyksen bonukset</h4>
+                            <p>Sopimushirviöitä vastaan käydyistä taisteluista saa henkilökohtaisen bonuksen, joka antaa lisää Valor- ja XP-pisteitä. Bonus vahvistuu, kun sopimuksia suoritetaan enemmän.</p>
+                            <div class="book-media-grid">
+                                <img src="library-images/library-006.png" alt="Great Hunt contract rewards overview">
+                            </div>
+                            <p>Klaanijohtajat voivat aktivoida koko klaanille lisäbonuksen kerran turnauksessa. Tämä bonus tuplaa yksittäisen pelaajan bonuksen vaikutuksen.</p>
+                        </div>
+                    `
+                },
+                book33: {
+                    title: "HELLFORGE",
+                    content: `
+                        <p>Tämä tapahtuma järjestetään 24 päivän välein ja auttaa sinua saamaan parempilaatuista varustusta pienemmällä vaivalla.</p>
+                        <div class="book-section">
+                            <h4>Joukkojen suhde</h4>
+                            <p>Ota mahdollisimman monipuoliset joukot jokaiselle marssille ja pinoa ne tällä suhteella:</p>
+                            <ul>
+                                <li>1: Ratsumies</li>
+                                <li>2: Jousimiehet</li>
+                                <li>2: Keihäsmiehet</li>
+                            </ul>
+                        </div>
+                        <p>Henkilökohtaisten tavoitteiden suorittaminen ansaitsee kolikoita, joilla voit vaihtaa Hellforge-kaupassa varusteita turnauksen aikana. Valitun laadun varusteita voi ostaa suoraan.</p>
+                        <p>Kolikot säilyvät tapahtumien välillä eivätkä häviä.</p>
+                        <p>Hellforge säästää aikaa ja tar-resurssia, jonka muuten käyttäisit kaukaisiin kryptiin.</p>
+                        <div class="book-section">
+                            <h4>Hellforge-varusteiden ostaminen</h4>
+                            <p>Valitse rauhassa, mitä varusteita ostat Hellforge-kolikoilla. Hyvälaatuiseen varusteeseen voi kulua useampi kuin yksi Hellforge-turnaus.</p>
+                            <p>Osta varusteita vain, jos niiden bonukset ylittävät Forge Workshopissa tekemäsi. Esimerkiksi sininen Tomb Raider -varuste tarjoaa saman kryptaustehokkuuden kuin alin Omniscience-taso. Godlike Tomb Raider vastaa purppuran Omnisciencen tehokkuutta.</p>
+                        </div>
+                    `
                 }
             }
         }
@@ -1722,6 +1808,92 @@
                             <p><strong>Hero leveling:</strong> Vær forsiktig med å level opp hero. Det sies at hero-nivået bør være omtrent halvparten av nivået til din beste captain.</p>
                             <p>For rask leveling kan gjøre quests, missions og events vanskeligere og bremse fremgangen.</p>
                             <p>Så level hero, men husk dette.</p>
+                        </div>
+                    `
+                },
+                book31: {
+                    title: "FREMKALLINGSSIRKEL",
+                    content: `
+                        <p>Du kan ansette nye kapteiner ved å samle fragmentene deres. Fremkallingssirkelen er en bygning i byen din der du kan få fragmenter for de fleste (men ikke alle) kapteiner.</p>
+                        <div class="book-media-grid">
+                            <img src="library-images/library-002.png" alt="Summoning Circle building">
+                        </div>
+                        <p>Du får fem gratis vanlige tilkallinger og én elite-tilkalling hver 20. time. Du kan få flere ruller ved å fullføre daglige oppdrag, i Triumphal Challenge-butikken, som belønninger i turneringer eller som del av enkelte kjøp.</p>
+                        <p>I stedet for å bruke disse tilkallingene én etter én, spar dem til Summon Mastery-turneringen for å sikre fragmenter for kapteinen du ønsker.</p>
+                        <div class="book-section">
+                            <h4>Summon Mastery-turneringen</h4>
+                            <p>Denne turneringen gir deg flere tilkallingsruller og ekstra fragmenter for en spesifikk kaptein ved å bruke vanlige og elite-tilkallinger. Jo flere tilkallinger du gjør, jo flere poeng får du.</p>
+                            <p>Rotasjonen følger alltid rekkefølgen nedenfor. Kapteiner med skråstrek (/) er kun tilgjengelige annenhver rotasjon.</p>
+                            <ul>
+                                <li>Aydea</li>
+                                <li>Minamoto</li>
+                                <li>Aurora / Brunhild</li>
+                                <li>Carter</li>
+                                <li>Alexander</li>
+                                <li>Farhad / Ye Ho-Sung</li>
+                                <li>Dustan</li>
+                                <li>Leonidas</li>
+                                <li>Ingrid / Bernard</li>
+                                <li>Doria</li>
+                                <li>Wu</li>
+                                <li>Stror / Lucius</li>
+                            </ul>
+                            <div class="book-media-grid">
+                                <img src="library-images/library-003.png" alt="Summon Mastery tournament screen">
+                            </div>
+                        </div>
+                    `
+                },
+                book32: {
+                    title: "DEN STORE JAKTEN",
+                    content: `
+                        <p>Den store jakten er en klanturnering der hver spiller har en liste med kontrakter for å drepe monstre på Turnering-siden. Å fullføre disse gir turneringspoeng til klanen.</p>
+                        <div class="book-media-grid">
+                            <img src="library-images/library-004.png" alt="The Great Hunt event contracts">
+                        </div>
+                        <div class="book-section">
+                            <h4>Vanskelighetsgrader for kontrakter</h4>
+                            <ul>
+                                <li><strong>Enkel</strong>: To kontrakter, 100 poeng hver, én for Helten din og én for en kaptein.</li>
+                                <li><strong>Middels</strong>: Fire kontrakter, 200 poeng hver, to for Helten din og to for en kaptein.</li>
+                                <li><strong>Vanskelig</strong>: Fire kontrakter, 300 poeng hver, to for Helten din og to for en kaptein.</li>
+                                <li><strong>Ekspert</strong>: Ingen standardkontrakter.</li>
+                            </ul>
+                            <p>Vanskeligheten kan økes. Når nivået øker, erstattes kontrakten med en ny på neste nivå (Enkel -> Middels -> Vanskelig -> Ekspert).</p>
+                            <p>Hele kontraktlisten kan oppdateres tre ganger per turnering. Alle utestående kontrakter blir erstattet med 10 nye, og poengene du har tjent lagres.</p>
+                        </div>
+                        <p>Ekspertkontrakter er vanskelige å fullføre alene, så samarbeid er viktig. Klanmedlemmer kan hjelpe ved å svekke kontraktene dine ved å ofre tropper.</p>
+                        <p>Kontrakter for sjeldne monstre kan øke heltenivået ditt. Hold helten lavere enn den beste kapteinen for å holde Triumphal Challenges mulig, så sjeldne Ekspert-kontrakter anbefales ikke.</p>
+                        <div class="book-section">
+                            <h4>Bonuser i Den store jakten</h4>
+                            <p>Kamper mot kontraktmonstre gir en personlig bonus som gir ekstra Valor og erfaring. Effekten øker etter hvert som flere kontrakter fullføres.</p>
+                            <div class="book-media-grid">
+                                <img src="library-images/library-006.png" alt="Great Hunt contract rewards overview">
+                            </div>
+                            <p>Klanledere kan aktivere en ekstra bonus for hele klanen én gang per turnering. Denne dobler effekten av den personlige bonusen.</p>
+                        </div>
+                    `
+                },
+                book33: {
+                    title: "HELLFORGE",
+                    content: `
+                        <p>Denne hendelsen skjer hver 24. dag og kan hjelpe deg med å få utstyr av bedre kvalitet med mindre innsats.</p>
+                        <div class="book-section">
+                            <h4>Troppeforhold</h4>
+                            <p>Ta med så mange ulike tropper som mulig på hvert marsj og stack dem med dette forholdet:</p>
+                            <ul>
+                                <li>1: Rytter</li>
+                                <li>2: Bueskyttere</li>
+                                <li>2: Spydmenn</li>
+                            </ul>
+                        </div>
+                        <p>Ved å fullføre personlige mål tjener du mynter som du kan bytte inn i Hellforge-butikken under turneringen. Utstyr av valgt kvalitet kan kjøpes direkte.</p>
+                        <p>Mynter lagres mellom hver hendelse og forsvinner ikke.</p>
+                        <p>Hellforge sparer deg for tid og tar som du ellers ville brukt på å utforske fjerne krypter.</p>
+                        <div class="book-section">
+                            <h4>Kjøp av Hellforge-utstyr</h4>
+                            <p>Ta deg tid til å velge hvilket utstyr du vil kjøpe med Hellforge-mynter. Det kan ta mer enn én Hellforge-turnering å samle nok mynter til et godt kvalitetsstykke.</p>
+                            <p>Kjøp bare utstyr hvis bonusene er bedre enn det du kan lage i Forge Workshop. For eksempel gir blått Tomb Raider-utstyr samme krypting-effektivitet som det laveste Omniscience-nivået. Godlike Tomb Raider matcher effektiviteten til lilla Omniscience.</p>
                         </div>
                     `
                 }
@@ -2588,6 +2760,92 @@
                             <p>Also level, aber behalte das im Kopf.</p>
                         </div>
                     `
+                },
+                book31: {
+                    title: "BESCHWÖRUNGSKREIS",
+                    content: `
+                        <p>Du kannst neue Kapitäne anheuern, indem du ihre Fragmente sammelst. Der Beschwörungskreis ist ein Gebäude in deiner Stadt, in dem du Fragmente für die meisten (aber nicht alle) Kapitäne erhalten kannst.</p>
+                        <div class="book-media-grid">
+                            <img src="library-images/library-002.png" alt="Summoning Circle building">
+                        </div>
+                        <p>Du erhältst alle 20 Stunden fünf kostenlose gewöhnliche Beschwörungen und eine Elite-Beschwörung. Weitere Schriftrollen bekommst du durch tägliche Quests, im Triumphal-Challenge-Shop, als Turnierbelohnungen oder als Teil bestimmter Käufe.</p>
+                        <p>Anstatt diese Beschwörungen einzeln zu nutzen, spare sie für das Summon-Mastery-Turnier, um Fragmente für den Kapitän deiner Wahl zu sichern.</p>
+                        <div class="book-section">
+                            <h4>Summon-Mastery-Turnier</h4>
+                            <p>Dieses Turnier ermöglicht dir zusätzliche Beschwörungsrollen und extra Fragmente für einen bestimmten Kapitän, indem du gewöhnliche und Elite-Beschwörungen nutzt. Je mehr Beschwörungen du durchführst, desto mehr Punkte sammelst du.</p>
+                            <p>Die Rotation folgt immer der untenstehenden Reihenfolge. Kapitäne mit Schrägstrich (/) sind nur jede zweite Rotation verfügbar.</p>
+                            <ul>
+                                <li>Aydea</li>
+                                <li>Minamoto</li>
+                                <li>Aurora / Brunhild</li>
+                                <li>Carter</li>
+                                <li>Alexander</li>
+                                <li>Farhad / Ye Ho-Sung</li>
+                                <li>Dustan</li>
+                                <li>Leonidas</li>
+                                <li>Ingrid / Bernard</li>
+                                <li>Doria</li>
+                                <li>Wu</li>
+                                <li>Stror / Lucius</li>
+                            </ul>
+                            <div class="book-media-grid">
+                                <img src="library-images/library-003.png" alt="Summon Mastery tournament screen">
+                            </div>
+                        </div>
+                    `
+                },
+                book32: {
+                    title: "DIE GROSSE JAGD",
+                    content: `
+                        <p>Die große Jagd ist ein Klanturnier, bei dem jeder Spieler auf seiner Turnierseite eine Liste von Verträgen zum Töten von Monstern hat. Das erfolgreiche Erledigen dieser Monster bringt Turnierpunkte für den Clan.</p>
+                        <div class="book-media-grid">
+                            <img src="library-images/library-004.png" alt="The Great Hunt event contracts">
+                        </div>
+                        <div class="book-section">
+                            <h4>Schwierigkeitsstufen der Verträge</h4>
+                            <ul>
+                                <li><strong>Leicht</strong>: Zwei Verträge, je 100 Punkte, einer für deinen Helden und einer für einen Kapitän.</li>
+                                <li><strong>Mittel</strong>: Vier Verträge, je 200 Punkte, zwei für deinen Helden und zwei für einen Kapitän.</li>
+                                <li><strong>Schwer</strong>: Vier Verträge, je 300 Punkte, zwei für deinen Helden und zwei für einen Kapitän.</li>
+                                <li><strong>Experte</strong>: Keine Standardverträge.</li>
+                            </ul>
+                            <p>Die Schwierigkeit der Verträge kann erhöht werden. Wenn ein Vertrag steigt, wird er durch einen neuen der nächsthöheren Stufe ersetzt (Leicht -> Mittel -> Schwer -> Experte).</p>
+                            <p>Die gesamte Vertragsliste kann dreimal pro Turnier aktualisiert werden. Alle offenen Verträge werden durch 10 neue ersetzt, und die verdienten Punkte bleiben erhalten.</p>
+                        </div>
+                        <p>Expertenverträge sind allein schwer zu schaffen, daher ist Teamwork entscheidend. Clanmitglieder können helfen, indem sie deine Expertenverträge schwächen und Truppen opfern.</p>
+                        <p>Verträge für seltene Monster können deinen Helden leveln. Halte deinen Helden unter dem Niveau deines besten Kapitäns, damit Triumphal Challenges machbar bleiben, daher sind seltene Expertenverträge nicht empfehlenswert.</p>
+                        <div class="book-section">
+                            <h4>Boni der Großen Jagd</h4>
+                            <p>Schlachten gegen Vertragsmonster geben einen persönlichen Bonus, der zusätzliches Valor und Erfahrung gewährt. Der Effekt steigt, wenn mehr Verträge abgeschlossen werden.</p>
+                            <div class="book-media-grid">
+                                <img src="library-images/library-006.png" alt="Great Hunt contract rewards overview">
+                            </div>
+                            <p>Clanführer können einmal pro Turnier einen zusätzlichen Bonus für den ganzen Clan aktivieren. Dieser verdoppelt den Effekt des individuellen Bonus.</p>
+                        </div>
+                    `
+                },
+                book33: {
+                    title: "HELLSCHMIEDE",
+                    content: `
+                        <p>Dieses Event findet alle 24 Tage statt und kann dir helfen, Ausrüstung mit besserer Qualität mit weniger Aufwand zu erhalten.</p>
+                        <div class="book-section">
+                            <h4>Truppenverhältnis</h4>
+                            <p>Nimm so viele verschiedene Truppen wie möglich auf jeden Marsch und stapel sie nach folgendem Verhältnis:</p>
+                            <ul>
+                                <li>1: Reiter</li>
+                                <li>2: Bogenschützen</li>
+                                <li>2: Speerkämpfer</li>
+                            </ul>
+                        </div>
+                        <p>Das Erfüllen persönlicher Ziele bringt Münzen, die du im Hellforge-Shop während des Turniers gegen Ausrüstung eintauschen kannst. Ausrüstung einer gewählten Qualität kann direkt gekauft werden.</p>
+                        <p>Münzen werden zwischen den Events gespeichert und verschwinden nicht.</p>
+                        <p>Hellforge spart dir Zeit und Teer, den du sonst für weit entfernte Krypten aufwenden würdest.</p>
+                        <div class="book-section">
+                            <h4>Kauf von Hellforge-Ausrüstung</h4>
+                            <p>Nimm dir Zeit, um auszuwählen, welche Ausrüstung du mit Hellforge-Münzen kaufen möchtest. Es kann mehr als ein Hellforge-Turnier dauern, genug Münzen für ein hochwertiges Teil zu sammeln.</p>
+                            <p>Kaufe Ausrüstung nur, wenn ihre Boni besser sind als das, was du in der Forge Workshop herstellen kannst. Zum Beispiel bietet blaue Tomb-Raider-Ausrüstung die gleiche Krypting-Effizienz wie die niedrigste Omniscience-Stufe. Godlike Tomb Raider entspricht der Effizienz von violettem Omniscience.</p>
+                        </div>
+                    `
                 }
             }
         }
@@ -3450,6 +3708,92 @@
                             <p><strong>Subida de héroe:</strong> Ten cuidado al subir tu héroe. Se dice que el nivel del héroe debería ser aproximadamente la mitad del nivel de tu mejor capitán.</p>
                             <p>Subir demasiado rápido puede dificultar misiones y eventos y ralentizar tu progreso.</p>
                             <p>Así que sube, pero ten esto en cuenta.</p>
+                        </div>
+                    `
+                },
+                book31: {
+                    title: "CÍRCULO DE INVOCACIÓN",
+                    content: `
+                        <p>Puedes contratar nuevos capitanes reuniendo sus fragmentos. El Círculo de Invocación es un edificio en tu ciudad donde puedes obtener fragmentos de la mayoría (pero no de todos) los capitanes.</p>
+                        <div class="book-media-grid">
+                            <img src="library-images/library-002.png" alt="Summoning Circle building">
+                        </div>
+                        <p>Recibes cinco invocaciones comunes gratuitas y una invocación de élite cada 20 horas. Puedes conseguir más pergaminos completando misiones diarias, en la tienda de Triumphal Challenge, como recompensas en torneos o como parte de ciertas compras.</p>
+                        <p>En lugar de usar estas invocaciones una por una, guárdalas para usarlas junto con el torneo Summon Mastery y así asegurar fragmentos para el capitán que quieras.</p>
+                        <div class="book-section">
+                            <h4>Torneo Summon Mastery</h4>
+                            <p>Este torneo te permite obtener pergaminos de invocación adicionales y fragmentos extra para un capitán específico al usar invocaciones comunes y de élite. Cuantas más invocaciones completes, más puntos acumulas.</p>
+                            <p>La rotación siempre sigue el orden de abajo. Los capitanes marcados con una barra (/) solo están disponibles en rotaciones alternas.</p>
+                            <ul>
+                                <li>Aydea</li>
+                                <li>Minamoto</li>
+                                <li>Aurora / Brunhild</li>
+                                <li>Carter</li>
+                                <li>Alexander</li>
+                                <li>Farhad / Ye Ho-Sung</li>
+                                <li>Dustan</li>
+                                <li>Leonidas</li>
+                                <li>Ingrid / Bernard</li>
+                                <li>Doria</li>
+                                <li>Wu</li>
+                                <li>Stror / Lucius</li>
+                            </ul>
+                            <div class="book-media-grid">
+                                <img src="library-images/library-003.png" alt="Summon Mastery tournament screen">
+                            </div>
+                        </div>
+                    `
+                },
+                book32: {
+                    title: "LA GRAN CACERÍA",
+                    content: `
+                        <p>La Gran Cacería es un torneo de clan donde cada jugador tiene una lista de contratos para matar monstruos en su página de Torneo. Matar con éxito estos monstruos otorga puntos de torneo al clan.</p>
+                        <div class="book-media-grid">
+                            <img src="library-images/library-004.png" alt="The Great Hunt event contracts">
+                        </div>
+                        <div class="book-section">
+                            <h4>Dificultades de contrato</h4>
+                            <ul>
+                                <li><strong>Fácil</strong>: Dos contratos, 100 puntos cada uno, uno para tu Héroe y uno para un capitán.</li>
+                                <li><strong>Medio</strong>: Cuatro contratos, 200 puntos cada uno, dos para tu Héroe y dos para un capitán.</li>
+                                <li><strong>Difícil</strong>: Cuatro contratos, 300 puntos cada uno, dos para tu Héroe y dos para un capitán.</li>
+                                <li><strong>Experto</strong>: Sin contratos predeterminados.</li>
+                            </ul>
+                            <p>La dificultad de los contratos puede aumentarse. Cuando el nivel de un contrato sube, se reemplaza por uno del siguiente nivel (Fácil -> Medio -> Difícil -> Experto).</p>
+                            <p>La lista completa de contratos puede actualizarse tres veces por torneo. Todos los contratos pendientes se reemplazarán por 10 nuevos, y los puntos obtenidos se conservan.</p>
+                        </div>
+                        <p>Los contratos Experto son difíciles de completar en solitario, por lo que el trabajo en equipo es esencial. Los miembros del clan pueden ayudar debilitando tus contratos Experto al sacrificar tropas.</p>
+                        <p>Los contratos de monstruos raros pueden subir de nivel a tu héroe. Mantén a tu héroe por debajo del nivel de tu mejor capitán para que los Desafíos Triunfales sean alcanzables, por lo que no se recomiendan los contratos Experto de monstruos raros.</p>
+                        <div class="book-section">
+                            <h4>Bonificaciones de la Gran Cacería</h4>
+                            <p>Las batallas contra monstruos de contrato otorgan una bonificación personal que da Valor y experiencia adicionales. El efecto aumenta a medida que se completan más contratos.</p>
+                            <div class="book-media-grid">
+                                <img src="library-images/library-006.png" alt="Great Hunt contract rewards overview">
+                            </div>
+                            <p>Los líderes del clan pueden activar una bonificación adicional para todo el clan una vez por torneo. Esta bonificación duplica el efecto de la bonificación individual.</p>
+                        </div>
+                    `
+                },
+                book33: {
+                    title: "FORJA INFERNAL",
+                    content: `
+                        <p>Este evento se realiza cada 24 días y puede ayudarte a obtener equipo de mejor calidad con menos esfuerzo.</p>
+                        <div class="book-section">
+                            <h4>Proporción de tropas</h4>
+                            <p>Lleva la mayor variedad de tropas posible en cada marcha y apílalas con esta proporción:</p>
+                            <ul>
+                                <li>1: Jinete</li>
+                                <li>2: Arqueros</li>
+                                <li>2: Lanceros</li>
+                            </ul>
+                        </div>
+                        <p>Completar objetivos personales te da monedas, que puedes canjear por equipo en la tienda de Hellforge durante el torneo. El equipo de la calidad seleccionada se puede comprar directamente.</p>
+                        <p>Las monedas se guardan entre eventos y no desaparecen.</p>
+                        <p>Hellforge te ahorra tiempo y tar que de otro modo gastarías explorando criptas lejanas.</p>
+                        <div class="book-section">
+                            <h4>Compra de equipo Hellforge</h4>
+                            <p>Tómate tu tiempo para elegir qué equipo comprar con monedas Hellforge. Puede llevar más de un torneo Hellforge acumular suficientes monedas para una pieza de buena calidad.</p>
+                            <p>Compra equipo solo si sus bonificaciones superan lo que puedes fabricar en el Forge Workshop. Por ejemplo, el equipo Tomb Raider azul ofrece la misma eficiencia de cripteo que el nivel más bajo de Omniscience. Tomb Raider Godlike iguala la eficiencia del Omniscience morado.</p>
                         </div>
                     `
                 }
@@ -4316,6 +4660,92 @@
                             <p>Donc montez, mais gardez cela en tête.</p>
                         </div>
                     `
+                },
+                book31: {
+                    title: "CERCLE D'INVOCATION",
+                    content: `
+                        <p>Vous pouvez engager de nouveaux capitaines en collectant leurs fragments. Le Cercle d'invocation est un bâtiment dans votre ville où vous pouvez obtenir des fragments pour la plupart (mais pas tous) des capitaines.</p>
+                        <div class="book-media-grid">
+                            <img src="library-images/library-002.png" alt="Summoning Circle building">
+                        </div>
+                        <p>Vous recevez cinq invocations communes gratuites et une invocation d'élite toutes les 20 heures. Vous pouvez obtenir plus de parchemins en accomplissant des quêtes quotidiennes, dans la boutique Triumphal Challenge, en récompenses de tournois ou via certains achats.</p>
+                        <p>Plutôt que d'utiliser ces invocations une par une, économisez-les pour le tournoi Summon Mastery afin d'obtenir des fragments pour le capitaine de votre choix.</p>
+                        <div class="book-section">
+                            <h4>Tournoi Summon Mastery</h4>
+                            <p>Ce tournoi vous permet d'obtenir des parchemins d'invocation supplémentaires et des fragments extra pour un capitaine spécifique en utilisant des invocations communes et d'élite. Plus vous invoquez, plus vous accumulez de points.</p>
+                            <p>La rotation suit toujours l'ordre ci-dessous. Les capitaines marqués d'une barre (/) ne sont disponibles qu'une rotation sur deux.</p>
+                            <ul>
+                                <li>Aydea</li>
+                                <li>Minamoto</li>
+                                <li>Aurora / Brunhild</li>
+                                <li>Carter</li>
+                                <li>Alexander</li>
+                                <li>Farhad / Ye Ho-Sung</li>
+                                <li>Dustan</li>
+                                <li>Leonidas</li>
+                                <li>Ingrid / Bernard</li>
+                                <li>Doria</li>
+                                <li>Wu</li>
+                                <li>Stror / Lucius</li>
+                            </ul>
+                            <div class="book-media-grid">
+                                <img src="library-images/library-003.png" alt="Summon Mastery tournament screen">
+                            </div>
+                        </div>
+                    `
+                },
+                book32: {
+                    title: "LA GRANDE CHASSE",
+                    content: `
+                        <p>La Grande Chasse est un tournoi de clan où chaque joueur a une liste de contrats pour tuer des monstres sur sa page de tournoi. Réussir à tuer ces monstres rapporte des points de tournoi au clan.</p>
+                        <div class="book-media-grid">
+                            <img src="library-images/library-004.png" alt="The Great Hunt event contracts">
+                        </div>
+                        <div class="book-section">
+                            <h4>Difficultés des contrats</h4>
+                            <ul>
+                                <li><strong>Facile</strong>: Deux contrats, 100 points chacun, un pour votre Héros et un pour un capitaine.</li>
+                                <li><strong>Moyen</strong>: Quatre contrats, 200 points chacun, deux pour votre Héros et deux pour un capitaine.</li>
+                                <li><strong>Difficile</strong>: Quatre contrats, 300 points chacun, deux pour votre Héros et deux pour un capitaine.</li>
+                                <li><strong>Expert</strong>: Aucun contrat par défaut.</li>
+                            </ul>
+                            <p>La difficulté des contrats peut être augmentée. Lorsqu'un contrat monte de niveau, il est remplacé par un nouveau de la difficulté suivante (Facile -> Moyen -> Difficile -> Expert).</p>
+                            <p>La liste complète des contrats peut être actualisée trois fois par tournoi. Tous les contrats en cours sont remplacés par 10 nouveaux, et les points gagnés sont conservés.</p>
+                        </div>
+                        <p>Les contrats Expert sont difficiles à accomplir seul, donc le travail d'équipe est essentiel. Les membres du clan peuvent aider en affaiblissant vos contrats Expert en sacrifiant des troupes.</p>
+                        <p>Les contrats sur des monstres rares peuvent faire monter votre héros de niveau. Gardez votre héros en dessous du niveau de votre meilleur capitaine pour que les Triumphal Challenges restent faisables, donc les contrats Expert de monstres rares ne sont pas recommandés.</p>
+                        <div class="book-section">
+                            <h4>Bonus de la Grande Chasse</h4>
+                            <p>Les combats contre les monstres de contrat donnent un bonus personnel qui accorde plus de Valor et d'expérience. L'effet augmente à mesure que davantage de contrats sont réalisés.</p>
+                            <div class="book-media-grid">
+                                <img src="library-images/library-006.png" alt="Great Hunt contract rewards overview">
+                            </div>
+                            <p>Les chefs de clan peuvent activer un bonus supplémentaire pour tout le clan une fois par tournoi. Ce bonus double l'effet du bonus individuel.</p>
+                        </div>
+                    `
+                },
+                book33: {
+                    title: "FORGE INFERNALE",
+                    content: `
+                        <p>Cet événement a lieu tous les 24 jours et peut vous aider à obtenir de l'équipement de meilleure qualité avec moins d'effort.</p>
+                        <div class="book-section">
+                            <h4>Ratio des troupes</h4>
+                            <p>Emmenez autant de troupes différentes que possible sur chaque marche et empilez-les selon ce ratio :</p>
+                            <ul>
+                                <li>1 : Cavaliers</li>
+                                <li>2 : Archers</li>
+                                <li>2 : Lanciers</li>
+                            </ul>
+                        </div>
+                        <p>Atteindre des objectifs personnels vous rapporte des pièces, que vous pouvez échanger contre de l'équipement dans la boutique Hellforge pendant le tournoi. Des objets d'équipement d'une qualité choisie peuvent être achetés directement.</p>
+                        <p>Les pièces sont conservées entre les événements et ne disparaissent pas.</p>
+                        <p>Hellforge vous fait gagner du temps et du tar que vous auriez autrement utilisé pour explorer des cryptes lointaines.</p>
+                        <div class="book-section">
+                            <h4>Achat d'équipement Hellforge</h4>
+                            <p>Prenez le temps de choisir quel équipement acheter avec les pièces Hellforge. Il peut falloir plus d'un tournoi Hellforge pour accumuler assez de pièces pour un objet de bonne qualité.</p>
+                            <p>N'achetez l'équipement que si ses bonus dépassent ce que vous pouvez fabriquer dans la Forge Workshop. Par exemple, l'équipement Tomb Raider bleu offre la même efficacité de cryptage que le niveau Omniscience le plus bas. Tomb Raider Godlike correspond à l'efficacité de l'Omniscience violet.</p>
+                        </div>
+                    `
                 }
             }
         }
@@ -5178,6 +5608,92 @@
                             <p><strong>Leveling eroe:</strong> Fai attenzione. Si dice che il livello dell'eroe dovrebbe essere circa la metà del livello del tuo miglior capitano.</p>
                             <p>Livellare troppo in fretta può rendere missioni ed eventi più difficili e rallentare la progressione.</p>
                             <p>Quindi livella, ma tienilo a mente.</p>
+                        </div>
+                    `
+                },
+                book31: {
+                    title: "CERCHIO DI EVOCAZIONE",
+                    content: `
+                        <p>Puoi ingaggiare nuovi capitani raccogliendo i loro frammenti. Il Cerchio di Evocazione è un edificio della tua città dove puoi ottenere frammenti per la maggior parte (ma non per tutti) i capitani.</p>
+                        <div class="book-media-grid">
+                            <img src="library-images/library-002.png" alt="Summoning Circle building">
+                        </div>
+                        <p>Ricevi cinque evocazioni comuni gratuite e una evocazione élite ogni 20 ore. Puoi ottenere più pergamene completando missioni giornaliere, nel negozio Triumphal Challenge, come ricompense nei tornei o come parte di alcuni acquisti.</p>
+                        <p>Invece di usare queste evocazioni una per una, conservale per il torneo Summon Mastery per assicurarti frammenti del capitano che desideri.</p>
+                        <div class="book-section">
+                            <h4>Torneo Summon Mastery</h4>
+                            <p>Questo torneo ti permette di ottenere pergamene di evocazione aggiuntive e frammenti extra per un capitano specifico usando evocazioni comuni ed élite. Più evocazioni completi, più punti accumuli.</p>
+                            <p>La rotazione segue sempre l'ordine qui sotto. I capitani contrassegnati con una barra (/) sono disponibili solo a rotazioni alterne.</p>
+                            <ul>
+                                <li>Aydea</li>
+                                <li>Minamoto</li>
+                                <li>Aurora / Brunhild</li>
+                                <li>Carter</li>
+                                <li>Alexander</li>
+                                <li>Farhad / Ye Ho-Sung</li>
+                                <li>Dustan</li>
+                                <li>Leonidas</li>
+                                <li>Ingrid / Bernard</li>
+                                <li>Doria</li>
+                                <li>Wu</li>
+                                <li>Stror / Lucius</li>
+                            </ul>
+                            <div class="book-media-grid">
+                                <img src="library-images/library-003.png" alt="Summon Mastery tournament screen">
+                            </div>
+                        </div>
+                    `
+                },
+                book32: {
+                    title: "LA GRANDE CACCIA",
+                    content: `
+                        <p>La Grande Caccia è un torneo di clan in cui ogni giocatore ha una lista di contratti per uccidere mostri nella pagina del Torneo. Uccidere con successo questi mostri fornisce punti torneo al clan.</p>
+                        <div class="book-media-grid">
+                            <img src="library-images/library-004.png" alt="The Great Hunt event contracts">
+                        </div>
+                        <div class="book-section">
+                            <h4>Difficoltà dei contratti</h4>
+                            <ul>
+                                <li><strong>Facile</strong>: Due contratti, 100 punti ciascuno, uno per il tuo Eroe e uno per un capitano.</li>
+                                <li><strong>Medio</strong>: Quattro contratti, 200 punti ciascuno, due per il tuo Eroe e due per un capitano.</li>
+                                <li><strong>Difficile</strong>: Quattro contratti, 300 punti ciascuno, due per il tuo Eroe e due per un capitano.</li>
+                                <li><strong>Esperto</strong>: Nessun contratto predefinito.</li>
+                            </ul>
+                            <p>La difficoltà dei contratti può essere aumentata. Quando il livello di un contratto aumenta, viene sostituito da uno del livello successivo (Facile -> Medio -> Difficile -> Esperto).</p>
+                            <p>L'intera lista dei contratti può essere aggiornata tre volte per torneo. Tutti i contratti in sospeso verranno sostituiti con 10 nuovi e i punti ottenuti vengono salvati.</p>
+                        </div>
+                        <p>I contratti Esperto sono difficili da completare da soli, quindi il lavoro di squadra è essenziale. I membri del clan possono aiutare indebolendo i tuoi contratti Esperto sacrificando truppe.</p>
+                        <p>I contratti per mostri rari possono far salire di livello il tuo eroe. Mantieni l'eroe sotto il livello del tuo miglior capitano per tenere i Triumphal Challenges gestibili, quindi i contratti Esperto su mostri rari non sono consigliati.</p>
+                        <div class="book-section">
+                            <h4>Bonus della Grande Caccia</h4>
+                            <p>Le battaglie contro i mostri dei contratti danno un bonus personale che fornisce Valor ed esperienza extra. L'effetto aumenta man mano che si completano più contratti.</p>
+                            <div class="book-media-grid">
+                                <img src="library-images/library-006.png" alt="Great Hunt contract rewards overview">
+                            </div>
+                            <p>I leader del clan possono attivare un bonus aggiuntivo per l'intero clan una volta per torneo. Questo bonus raddoppia l'effetto del bonus individuale.</p>
+                        </div>
+                    `
+                },
+                book33: {
+                    title: "FORGIA INFERNALE",
+                    content: `
+                        <p>Questo evento si svolge ogni 24 giorni e può aiutarti a ottenere equipaggiamento di qualità migliore con meno sforzo.</p>
+                        <div class="book-section">
+                            <h4>Rapporto truppe</h4>
+                            <p>Porta il maggior numero possibile di truppe diverse in ogni marcia e impilale con questo rapporto:</p>
+                            <ul>
+                                <li>1: Cavaliere</li>
+                                <li>2: Arcieri</li>
+                                <li>2: Lancieri</li>
+                            </ul>
+                        </div>
+                        <p>Completare obiettivi personali ti fa guadagnare monete che puoi scambiare con equipaggiamento nel negozio Hellforge durante il torneo. Gli oggetti di equipaggiamento di una qualità selezionata possono essere acquistati direttamente.</p>
+                        <p>Le monete vengono conservate tra un evento e l'altro e non scompaiono.</p>
+                        <p>Hellforge ti fa risparmiare tempo e tar che altrimenti spenderesti per esplorare cripte lontane.</p>
+                        <div class="book-section">
+                            <h4>Acquisto equipaggiamento Hellforge</h4>
+                            <p>Prenditi il tempo per scegliere quale equipaggiamento acquistare con le monete Hellforge. Potrebbero volerci più di un torneo Hellforge per accumulare abbastanza monete per un pezzo di buona qualità.</p>
+                            <p>Acquista equipaggiamento solo se i suoi bonus superano ciò che puoi creare nel Forge Workshop. Ad esempio, l'equipaggiamento Tomb Raider blu offre la stessa efficienza di cripte del livello più basso di Omniscience. Tomb Raider Godlike eguaglia l'efficienza dell'Omniscience viola.</p>
                         </div>
                     `
                 }
@@ -6044,6 +6560,92 @@
                             <p>Então suba, mas lembre disso.</p>
                         </div>
                     `
+                },
+                book31: {
+                    title: "CÍRCULO DE INVOCAÇÃO",
+                    content: `
+                        <p>Você pode contratar novos capitães coletando seus fragmentos. O Círculo de Invocação é uma construção na sua cidade onde você pode obter fragmentos da maioria (mas não de todos) os capitães.</p>
+                        <div class="book-media-grid">
+                            <img src="library-images/library-002.png" alt="Summoning Circle building">
+                        </div>
+                        <p>Você recebe cinco invocações comuns grátis e uma invocação de elite a cada 20 horas. Você pode conseguir mais pergaminhos ao completar missões diárias, na loja do Triumphal Challenge, como recompensas em torneios ou como parte de algumas compras.</p>
+                        <p>Em vez de usar essas invocações uma a uma, guarde-as para usar junto com o torneio Summon Mastery e garantir fragmentos do capitão desejado.</p>
+                        <div class="book-section">
+                            <h4>Torneio Summon Mastery</h4>
+                            <p>Este torneio permite obter pergaminhos de invocação adicionais e fragmentos extras para um capitão específico ao usar invocações comuns e de elite. Quanto mais invocações você fizer, mais pontos acumula.</p>
+                            <p>A rotação sempre segue a ordem abaixo. Capitães marcados com barra (/) ficam disponíveis apenas a cada outra rotação.</p>
+                            <ul>
+                                <li>Aydea</li>
+                                <li>Minamoto</li>
+                                <li>Aurora / Brunhild</li>
+                                <li>Carter</li>
+                                <li>Alexander</li>
+                                <li>Farhad / Ye Ho-Sung</li>
+                                <li>Dustan</li>
+                                <li>Leonidas</li>
+                                <li>Ingrid / Bernard</li>
+                                <li>Doria</li>
+                                <li>Wu</li>
+                                <li>Stror / Lucius</li>
+                            </ul>
+                            <div class="book-media-grid">
+                                <img src="library-images/library-003.png" alt="Summon Mastery tournament screen">
+                            </div>
+                        </div>
+                    `
+                },
+                book32: {
+                    title: "A GRANDE CAÇADA",
+                    content: `
+                        <p>A Grande Caçada é um torneio de clã em que cada jogador tem uma lista de contratos para matar monstros na página do Torneio. Matar esses monstros com sucesso rende pontos de torneio para o clã.</p>
+                        <div class="book-media-grid">
+                            <img src="library-images/library-004.png" alt="The Great Hunt event contracts">
+                        </div>
+                        <div class="book-section">
+                            <h4>Dificuldades dos contratos</h4>
+                            <ul>
+                                <li><strong>Fácil</strong>: Dois contratos, 100 pontos cada, um para o seu Herói e um para um capitão.</li>
+                                <li><strong>Médio</strong>: Quatro contratos, 200 pontos cada, dois para o seu Herói e dois para um capitão.</li>
+                                <li><strong>Difícil</strong>: Quatro contratos, 300 pontos cada, dois para o seu Herói e dois para um capitão.</li>
+                                <li><strong>Especialista</strong>: Sem contratos padrão.</li>
+                            </ul>
+                            <p>A dificuldade dos contratos pode ser aumentada. Quando o nível do contrato sobe, ele é substituído por um novo do próximo nível (Fácil -> Médio -> Difícil -> Especialista).</p>
+                            <p>A lista completa de contratos pode ser atualizada três vezes por torneio. Todos os contratos pendentes serão substituídos por 10 novos, e os pontos obtidos são mantidos.</p>
+                        </div>
+                        <p>Contratos de Especialista são difíceis de concluir sozinho, então o trabalho em equipe é essencial. Membros do clã podem ajudar enfraquecendo seus contratos de Especialista ao sacrificar tropas.</p>
+                        <p>Contratos de monstros raros podem subir o nível do seu herói. Mantenha seu herói abaixo do nível do seu melhor capitão para manter os Triumphal Challenges viáveis, então contratos de Especialista em monstros raros não são recomendados.</p>
+                        <div class="book-section">
+                            <h4>Bônus da Grande Caçada</h4>
+                            <p>Batalhas contra monstros de contrato concedem um bônus pessoal que oferece Valor e experiência extras. O efeito aumenta conforme mais contratos são concluídos.</p>
+                            <div class="book-media-grid">
+                                <img src="library-images/library-006.png" alt="Great Hunt contract rewards overview">
+                            </div>
+                            <p>Líderes do clã podem ativar um bônus adicional para todo o clã uma vez por torneio. Esse bônus dobra o efeito do bônus individual.</p>
+                        </div>
+                    `
+                },
+                book33: {
+                    title: "FORJA INFERNAL",
+                    content: `
+                        <p>Este evento acontece a cada 24 dias e pode ajudar você a obter equipamentos de melhor qualidade com menos esforço.</p>
+                        <div class="book-section">
+                            <h4>Proporção de tropas</h4>
+                            <p>Leve o máximo de tropas diferentes possível em cada marcha e empilhe com esta proporção:</p>
+                            <ul>
+                                <li>1: Cavaleiro</li>
+                                <li>2: Arqueiros</li>
+                                <li>2: Lanceiros</li>
+                            </ul>
+                        </div>
+                        <p>Completar objetivos pessoais rende moedas, que você pode trocar por equipamentos na loja Hellforge durante o torneio. Itens de equipamento de uma qualidade selecionada podem ser comprados diretamente.</p>
+                        <p>As moedas são guardadas entre eventos e não desaparecem.</p>
+                        <p>Hellforge economiza tempo e tar que você gastaria explorando criptas distantes.</p>
+                        <div class="book-section">
+                            <h4>Compra de equipamentos Hellforge</h4>
+                            <p>Reserve um tempo para escolher quais equipamentos comprar com moedas Hellforge. Pode levar mais de um torneio Hellforge para acumular moedas suficientes para um item de boa qualidade.</p>
+                            <p>Compre equipamentos apenas se seus bônus superarem o que você consegue criar na Forge Workshop. Por exemplo, o equipamento Tomb Raider azul oferece a mesma eficiência de criptas do nível mais baixo de Omniscience. Tomb Raider Godlike iguala a eficiência do Omniscience roxo.</p>
+                        </div>
+                    `
                 }
             }
         }
@@ -6906,6 +7508,92 @@
                             <p><strong>Levelowanie bohatera:</strong> Uważaj. Mówi się, że poziom bohatera powinien być połową poziomu najlepszego kapitana.</p>
                             <p>Zbyt szybkie levelowanie utrudnia questy i eventy i spowalnia postęp.</p>
                             <p>Leveluj, ale miej to na uwadze.</p>
+                        </div>
+                    `
+                },
+                book31: {
+                    title: "KRĄG PRZYWOŁANIA",
+                    content: `
+                        <p>Możesz zatrudniać nowych kapitanów, zbierając ich fragmenty. Krąg Przywołania to budynek w twoim mieście, w którym możesz zdobywać fragmenty większości (ale nie wszystkich) kapitanów.</p>
+                        <div class="book-media-grid">
+                            <img src="library-images/library-002.png" alt="Summoning Circle building">
+                        </div>
+                        <p>Co 20 godzin otrzymujesz pięć darmowych zwykłych przywołań i jedno elitarne przywołanie. Więcej zwojów możesz zdobyć wykonując codzienne zadania, w sklepie Triumphal Challenge, jako nagrody w turniejach lub w ramach niektórych zakupów.</p>
+                        <p>Zamiast używać tych przywołań pojedynczo, zachowaj je na turniej Summon Mastery, aby zdobyć fragmenty wybranego kapitana.</p>
+                        <div class="book-section">
+                            <h4>Turniej Summon Mastery</h4>
+                            <p>Ten turniej pozwala zdobyć dodatkowe zwoje przywołania i dodatkowe fragmenty dla konkretnego kapitana, używając zwykłych i elitarnych przywołań. Im więcej przywołań wykonasz, tym więcej punktów zdobędziesz.</p>
+                            <p>Rotacja zawsze przebiega w poniższej kolejności. Kapitanowie oznaczeni ukośnikiem (/) są dostępni tylko co drugą rotację.</p>
+                            <ul>
+                                <li>Aydea</li>
+                                <li>Minamoto</li>
+                                <li>Aurora / Brunhild</li>
+                                <li>Carter</li>
+                                <li>Alexander</li>
+                                <li>Farhad / Ye Ho-Sung</li>
+                                <li>Dustan</li>
+                                <li>Leonidas</li>
+                                <li>Ingrid / Bernard</li>
+                                <li>Doria</li>
+                                <li>Wu</li>
+                                <li>Stror / Lucius</li>
+                            </ul>
+                            <div class="book-media-grid">
+                                <img src="library-images/library-003.png" alt="Summon Mastery tournament screen">
+                            </div>
+                        </div>
+                    `
+                },
+                book32: {
+                    title: "WIELKIE POLOWANIE",
+                    content: `
+                        <p>Wielkie Polowanie to turniej klanowy, w którym każdy gracz ma na stronie Turnieju listę kontraktów na zabijanie potworów. Udane pokonanie tych potworów daje klanowi punkty turniejowe.</p>
+                        <div class="book-media-grid">
+                            <img src="library-images/library-004.png" alt="The Great Hunt event contracts">
+                        </div>
+                        <div class="book-section">
+                            <h4>Poziomy trudności kontraktów</h4>
+                            <ul>
+                                <li><strong>Łatwy</strong>: Dwa kontrakty, po 100 punktów, jeden dla twojego Bohatera i jeden dla kapitana.</li>
+                                <li><strong>Średni</strong>: Cztery kontrakty, po 200 punktów, dwa dla twojego Bohatera i dwa dla kapitana.</li>
+                                <li><strong>Trudny</strong>: Cztery kontrakty, po 300 punktów, dwa dla twojego Bohatera i dwa dla kapitana.</li>
+                                <li><strong>Ekspert</strong>: Brak domyślnych kontraktów.</li>
+                            </ul>
+                            <p>Trudność kontraktów można zwiększać. Gdy poziom kontraktu rośnie, zostaje zastąpiony nowym na wyższym poziomie (Łatwy -> Średni -> Trudny -> Ekspert).</p>
+                            <p>Cała lista kontraktów może zostać odświeżona trzy razy na turniej. Wszystkie nierozwiązane kontrakty zostaną zastąpione 10 nowymi, a zdobyte punkty zostają zachowane.</p>
+                        </div>
+                        <p>Kontrakty Ekspert są trudne do ukończenia w pojedynkę, więc praca zespołowa jest kluczowa. Członkowie klanu mogą pomóc, osłabiając twoje kontrakty Ekspert, poświęcając oddziały.</p>
+                        <p>Kontrakty na rzadkie potwory mogą podnosić poziom twojego bohatera. Trzymaj bohatera poniżej poziomu najlepszego kapitana, aby Triumphal Challenges były osiągalne, więc kontrakty Ekspert na rzadkie potwory nie są zalecane.</p>
+                        <div class="book-section">
+                            <h4>Bonusy Wielkiego Polowania</h4>
+                            <p>Walki z potworami kontraktowymi dają osobisty bonus zapewniający dodatkowy Valor i doświadczenie. Efekt rośnie wraz z liczbą ukończonych kontraktów.</p>
+                            <div class="book-media-grid">
+                                <img src="library-images/library-006.png" alt="Great Hunt contract rewards overview">
+                            </div>
+                            <p>Liderzy klanu mogą aktywować dodatkowy bonus dla całego klanu raz na turniej. Bonus ten podwaja efekt indywidualnego bonusu.</p>
+                        </div>
+                    `
+                },
+                book33: {
+                    title: "PIEKIELNA KUŹNIA",
+                    content: `
+                        <p>To wydarzenie odbywa się co 24 dni i może pomóc w zdobyciu lepszego ekwipunku przy mniejszym wysiłku.</p>
+                        <div class="book-section">
+                            <h4>Stosunek wojsk</h4>
+                            <p>Zabierz jak najwięcej różnych oddziałów na każdy marsz i układaj je w stosie w tym stosunku:</p>
+                            <ul>
+                                <li>1: Jeździec</li>
+                                <li>2: Łucznicy</li>
+                                <li>2: Włócznicy</li>
+                            </ul>
+                        </div>
+                        <p>Ukończenie celów osobistych daje monety, które możesz wymienić na ekwipunek w sklepie Hellforge podczas turnieju. Przedmioty o wybranej jakości można kupić bezpośrednio.</p>
+                        <p>Monety są zachowywane między wydarzeniami i nie znikają.</p>
+                        <p>Hellforge oszczędza czas i tar, które w przeciwnym razie poświęciłbyś na eksplorację odległych krypt.</p>
+                        <div class="book-section">
+                            <h4>Zakup ekwipunku Hellforge</h4>
+                            <p>Poświęć czas na wybór, jaki ekwipunek kupić za monety Hellforge. Może to zająć więcej niż jeden turniej Hellforge, aby zgromadzić wystarczająco dużo monet na przedmiot dobrej jakości.</p>
+                            <p>Kupuj ekwipunek tylko wtedy, gdy jego bonusy przewyższają to, co możesz wytworzyć w Forge Workshop. Na przykład niebieski ekwipunek Tomb Raider daje taką samą efektywność krypt, jak najniższy poziom Omniscience. Godlike Tomb Raider odpowiada efektywności fioletowego Omniscience.</p>
                         </div>
                     `
                 }
@@ -7772,6 +8460,92 @@
                             <p>Прокачивайтесь, но помните об этом.</p>
                         </div>
                     `
+                },
+                book31: {
+                    title: "КРУГ ПРИЗЫВА",
+                    content: `
+                        <p>Вы можете нанимать новых капитанов, собирая их фрагменты. Круг призыва — это здание в вашем городе, где можно получать фрагменты большинства (но не всех) капитанов.</p>
+                        <div class="book-media-grid">
+                            <img src="library-images/library-002.png" alt="Summoning Circle building">
+                        </div>
+                        <p>Вы получаете пять бесплатных обычных призывов и один элитный призыв каждые 20 часов. Больше свитков можно получить за ежедневные задания, в магазине Triumphal Challenge, в качестве наград в турнирах или в составе некоторых покупок.</p>
+                        <p>Вместо того чтобы использовать эти призывы по одному, сохраните их для турнира Summon Mastery, чтобы получить фрагменты нужного капитана.</p>
+                        <div class="book-section">
+                            <h4>Турнир Summon Mastery</h4>
+                            <p>Этот турнир позволяет получать дополнительные свитки призыва и дополнительные фрагменты для конкретного капитана, используя обычные и элитные призывы. Чем больше призывов вы выполняете, тем больше очков накапливаете.</p>
+                            <p>Ротация всегда следует порядку ниже. Капитаны с косой чертой (/) доступны только через одну ротацию.</p>
+                            <ul>
+                                <li>Aydea</li>
+                                <li>Minamoto</li>
+                                <li>Aurora / Brunhild</li>
+                                <li>Carter</li>
+                                <li>Alexander</li>
+                                <li>Farhad / Ye Ho-Sung</li>
+                                <li>Dustan</li>
+                                <li>Leonidas</li>
+                                <li>Ingrid / Bernard</li>
+                                <li>Doria</li>
+                                <li>Wu</li>
+                                <li>Stror / Lucius</li>
+                            </ul>
+                            <div class="book-media-grid">
+                                <img src="library-images/library-003.png" alt="Summon Mastery tournament screen">
+                            </div>
+                        </div>
+                    `
+                },
+                book32: {
+                    title: "ВЕЛИКАЯ ОХОТА",
+                    content: `
+                        <p>Великая охота — это клановый турнир, где у каждого игрока есть список контрактов на убийство монстров на странице турнира. Успешное уничтожение этих монстров приносит клану турнирные очки.</p>
+                        <div class="book-media-grid">
+                            <img src="library-images/library-004.png" alt="The Great Hunt event contracts">
+                        </div>
+                        <div class="book-section">
+                            <h4>Сложности контрактов</h4>
+                            <ul>
+                                <li><strong>Легкий</strong>: Два контракта, по 100 очков каждый, один для вашего героя и один для капитана.</li>
+                                <li><strong>Средний</strong>: Четыре контракта, по 200 очков каждый, два для вашего героя и два для капитана.</li>
+                                <li><strong>Сложный</strong>: Четыре контракта, по 300 очков каждый, два для вашего героя и два для капитана.</li>
+                                <li><strong>Эксперт</strong>: Нет стандартных контрактов.</li>
+                            </ul>
+                            <p>Сложность контрактов можно повышать. Когда уровень контракта повышается, он заменяется новым следующего уровня (Легкий -> Средний -> Сложный -> Эксперт).</p>
+                            <p>Весь список контрактов можно обновить три раза за турнир. Все незавершенные контракты будут заменены 10 новыми, а заработанные очки сохраняются.</p>
+                        </div>
+                        <p>Контракты Эксперт сложно выполнять в одиночку, поэтому командная работа крайне важна. Члены клана могут помочь, ослабляя ваши контракты Эксперт, жертвуя войсками.</p>
+                        <p>Контракты на редких монстров могут повышать уровень героя. Держите героя ниже уровня вашего лучшего капитана, чтобы Triumphal Challenges оставались достижимыми, поэтому контракты Эксперт на редких монстров не рекомендуются.</p>
+                        <div class="book-section">
+                            <h4>Бонусы Великой охоты</h4>
+                            <p>Бои с монстрами по контрактам дают личный бонус, который приносит дополнительный Valor и опыт. Эффект увеличивается по мере выполнения контрактов.</p>
+                            <div class="book-media-grid">
+                                <img src="library-images/library-006.png" alt="Great Hunt contract rewards overview">
+                            </div>
+                            <p>Лидеры клана могут активировать дополнительный бонус для всего клана один раз за турнир. Этот бонус удваивает эффект личного бонуса.</p>
+                        </div>
+                    `
+                },
+                book33: {
+                    title: "АДСКАЯ КУЗНИЦА",
+                    content: `
+                        <p>Это событие проходит каждые 24 дня и помогает получить экипировку лучшего качества с меньшими усилиями.</p>
+                        <div class="book-section">
+                            <h4>Соотношение войск</h4>
+                            <p>Берите как можно больше разных войск в каждый марш и складывайте их в таком соотношении:</p>
+                            <ul>
+                                <li>1: Всадник</li>
+                                <li>2: Лучники</li>
+                                <li>2: Копейщики</li>
+                            </ul>
+                        </div>
+                        <p>Выполнение личных целей приносит монеты, которые можно обменять на экипировку в магазине Hellforge во время турнира. Предметы выбранного качества можно купить напрямую.</p>
+                        <p>Монеты сохраняются между событиями и не исчезают.</p>
+                        <p>Hellforge экономит время и tar, которое вы бы иначе тратили на исследование дальних крипт.</p>
+                        <div class="book-section">
+                            <h4>Покупка экипировки Hellforge</h4>
+                            <p>Не спешите выбирать, какую экипировку покупать за монеты Hellforge. Может потребоваться более одного турнира Hellforge, чтобы накопить достаточно монет на качественный предмет.</p>
+                            <p>Покупайте экипировку только если ее бонусы лучше того, что вы можете создать в Forge Workshop. Например, синяя экипировка Tomb Raider дает ту же эффективность криптинга, что и самый низкий уровень Omniscience. Godlike Tomb Raider соответствует эффективности фиолетового Omniscience.</p>
+                        </div>
+                    `
                 }
             }
         }
@@ -8594,6 +9368,90 @@
                             <h4>Varning</h4>
                             <p><strong>Hero leveling:</strong> Hero bör vara cirka halva nivån av bästa captain.</p>
                             <p>För snabb leveling kan göra quests och events svårare.</p>
+                        </div>
+                    `
+                },
+                book31: {
+                    title: "FRAMKALLNINGSCIRKEL",
+                    content: `
+                        <p>Du kan anställa nya captains genom att samla deras fragments. Framkallningscirkeln är en byggnad i din stad där du kan få fragments för de flesta (men inte alla) captains.</p>
+                        <div class="book-media-grid">
+                            <img src="library-images/library-002.png" alt="Summoning Circle building">
+                            <img src="library-images/library-003.png" alt="Summon Mastery tournament screen">
+                        </div>
+                        <p>Du får fem gratis vanliga summons och en elite summon var 20:e timme. Du kan få fler scrolls genom dagliga quests, i Triumphal Challenge-shoppen, som turneringsbelöningar eller via vissa köp.</p>
+                        <p>I stället för att använda dessa summons en och en, spara dem till Summon Mastery-turneringen för att säkra fragments för den captain du vill ha.</p>
+                        <div class="book-section">
+                            <h4>Summon Mastery-turnering</h4>
+                            <p>Den här turneringen ger extra summoning scrolls och extra fragments för en specifik captain när du använder vanliga och elite summons. Ju fler summons du gör, desto fler poäng samlar du.</p>
+                            <p>Rotationen följer alltid ordningen nedan. Captains markerade med snedstreck (/) är bara tillgängliga varannan rotation.</p>
+                            <ul>
+                                <li>Aydea</li>
+                                <li>Minamoto</li>
+                                <li>Aurora / Brunhild</li>
+                                <li>Carter</li>
+                                <li>Alexander</li>
+                                <li>Farhad / Ye Ho-Sung</li>
+                                <li>Dustan</li>
+                                <li>Leonidas</li>
+                                <li>Ingrid / Bernard</li>
+                                <li>Doria</li>
+                                <li>Wu</li>
+                                <li>Stror / Lucius</li>
+                            </ul>
+                        </div>
+                    `
+                },
+                book32: {
+                    title: "DEN STORA JAKTEN",
+                    content: `
+                        <p>Den stora jakten är en klanturnering där varje spelare har en lista med kontrakt för att döda monsters på sin turneringssida. Att döda dessa monsters ger turneringspoäng till klanen.</p>
+                        <div class="book-media-grid">
+                            <img src="library-images/library-004.png" alt="The Great Hunt event contracts">
+                        </div>
+                        <div class="book-section">
+                            <h4>Kontraktens svårighet</h4>
+                            <ul>
+                                <li><strong>Lätt</strong>: Två kontrakt, 100 poäng vardera, ett för din hero och ett för en captain.</li>
+                                <li><strong>Medel</strong>: Fyra kontrakt, 200 poäng vardera, två för din hero och två för en captain.</li>
+                                <li><strong>Svår</strong>: Fyra kontrakt, 300 poäng vardera, två för din hero och två för en captain.</li>
+                                <li><strong>Expert</strong>: Inga standardkontrakt.</li>
+                            </ul>
+                            <p>Kontraktens svårighet kan ökas. När ett kontrakt går upp i nivå ersätts det av ett nytt på nästa nivå (Lätt -> Medel -> Svår -> Expert).</p>
+                            <p>Hela listan med kontrakt kan uppdateras tre gånger per turnering. Alla öppna kontrakt ersätts med 10 nya och poängen du tjänat sparas.</p>
+                        </div>
+                        <p>Expert-kontrakt är svåra att klara ensam, så teamwork är viktigt. Klanmedlemmar kan hjälpa till genom att försvaga dina Expert-kontrakt genom att offra trupper.</p>
+                        <p>Kontrakt för sällsynta monsters kan levela din hero. Håll din hero lägre än din bästa captain för att hålla Triumphal Challenges möjliga, så Expert-kontrakt på sällsynta monsters rekommenderas inte.</p>
+                        <div class="book-section">
+                            <h4>Bonusar i Den stora jakten</h4>
+                            <p>Strider mot kontraktsmonsters ger en personlig bonus som ger extra Valor och erfarenhet. Effekten ökar ju fler kontrakt som slutförs.</p>
+                            <div class="book-media-grid">
+                                <img src="library-images/library-006.png" alt="Great Hunt contract rewards overview">
+                            </div>
+                            <p>Klanledare kan aktivera en extra bonus för hela klanen en gång per turnering. Denna bonus fördubblar effekten av den personliga bonusen.</p>
+                        </div>
+                    `
+                },
+                book33: {
+                    title: "HELLESMEDJAN",
+                    content: `
+                        <p>Detta event sker var 24:e dag och kan hjälpa dig att få bättre utrustning med mindre ansträngning.</p>
+                        <div class="book-section">
+                            <h4>Truppförhållande</h4>
+                            <p>Ta med så många olika trupper som möjligt på varje march och stacka dem med detta förhållande:</p>
+                            <ul>
+                                <li>1: Ryttare</li>
+                                <li>2: Bågskyttar</li>
+                                <li>2: Spjutmän</li>
+                            </ul>
+                        </div>
+                        <p>Personliga mål ger mynt som du kan byta mot utrustning i Hellforge-butiken under turneringen. Utrustning av vald kvalitet kan köpas direkt.</p>
+                        <p>Mynt sparas mellan event och försvinner inte.</p>
+                        <p>Hellforge sparar tid och tar som du annars skulle lägga på att utforska avlägsna kryptor.</p>
+                        <div class="book-section">
+                            <h4>Köp av Hellforge-utrustning</h4>
+                            <p>Ta dig tid att välja vilken utrustning du vill köpa med Hellforge-mynt. Det kan ta mer än en Hellforge-turnering att samla ihop tillräckligt med mynt för en utrustning av god kvalitet.</p>
+                            <p>Köp bara utrustning om bonusarna är bättre än det du kan skapa i Forge Workshop. Till exempel ger blå Tomb Raider-utrustning samma krypt-effektivitet som den lägsta Omniscience-nivån. Godlike Tomb Raider motsvarar effektiviteten hos lila Omniscience.</p>
                         </div>
                     `
                 }

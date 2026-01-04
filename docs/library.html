@@ -227,6 +227,86 @@
                 <p>Great event for gaining pieces for captains such as Carter, Strorr, Aydae, etc. Keep your eyes peeled in the events tab!</p>
             `;
 
+            const summoningCircleContent = `
+                <p>You can hire new Captains by collecting their fragments. The Summoning Circle is a structure in your city where you can obtain fragments for most (but not all) Captains.</p>
+                <div class="book-media-grid">
+                    <img src="library-images/library-002.png" alt="Summoning Circle building">
+                </div>
+                <p>You receive five free common summons and one elite summon every 20 hours. You can get more scrolls by completing daily quests, in the Triumphal Challenge shop, as rewards in tournaments, or as part of certain purchases.</p>
+                <p>Instead of using these summons one by one, save them to use in conjunction with the Summon Mastery Tournament to secure fragments for the Captain of your choosing.</p>
+                <div class="book-section">
+                    <h4>Summon Mastery Tournament</h4>
+                    <p>This tournament lets you gain additional summoning scrolls and extra fragments for a specific Captain by using your common and elite summons. The more summons you complete, the more points you accumulate.</p>
+                    <p>The rotation always follows the order below. Captains marked with a slash (/) are only available every other rotation.</p>
+                    <ul>
+                        <li>Aydea</li>
+                        <li>Minamoto</li>
+                        <li>Aurora / Brunhild</li>
+                        <li>Carter</li>
+                        <li>Alexander</li>
+                        <li>Farhad / Ye Ho-Sung</li>
+                        <li>Dustan</li>
+                        <li>Leonidas</li>
+                        <li>Ingrid / Bernard</li>
+                        <li>Doria</li>
+                        <li>Wu</li>
+                        <li>Stror / Lucius</li>
+                    </ul>
+                    <div class="book-media-grid">
+                        <img src="library-images/library-003.png" alt="Summon Mastery tournament screen">
+                    </div>
+                </div>
+            `;
+
+            const greatHuntContent = `
+                <p>The Great Hunt is a clan tournament where each player has a list of contracts to kill monsters on their Tournament page. Successfully killing these monsters earns tournament points for the clan.</p>
+                <div class="book-media-grid">
+                    <img src="library-images/library-004.png" alt="The Great Hunt event contracts">
+                </div>
+                <div class="book-section">
+                    <h4>Contract difficulties</h4>
+                    <ul>
+                        <li><strong>Easy</strong>: Two contracts, 100 points each, one for your Hero and one for a Captain.</li>
+                        <li><strong>Medium</strong>: Four contracts, 200 points each, two for your Hero and two for a Captain.</li>
+                        <li><strong>Hard</strong>: Four contracts, 300 points each, two for your Hero and two for a Captain.</li>
+                        <li><strong>Expert</strong>: No default contracts.</li>
+                    </ul>
+                    <p>The difficulty of contracts can be increased. When a contract's level increases, it is replaced with a new one of the next highest difficulty (Easy -> Medium -> Hard -> Expert).</p>
+                    <p>The entire list of contracts can be refreshed three times per tournament. All outstanding contracts will be replaced with 10 new ones, and the points you earned are saved.</p>
+                </div>
+                <p>Expert contracts are tough to complete alone, so teamwork is essential. Clanmates can help weaken your Expert contracts by sacrificing troops.</p>
+                <p>Contracts for rare monsters can level up your hero. Keep your hero lower than your best Captain to keep Triumphal Challenges achievable, so rare Expert contracts are not recommended.</p>
+                <div class="book-section">
+                    <h4>Great Hunt bonuses</h4>
+                    <p>Battles against contract monsters give a personal bonus that awards extra Valor and Experience. The effect increases as more contracts are completed.</p>
+                    <div class="book-media-grid">
+                        <img src="library-images/library-006.png" alt="Great Hunt contract rewards overview">
+                    </div>
+                    <p>Clan leaders can activate an additional bonus for the entire clan once per tournament. This bonus doubles the effect of the individual player bonus.</p>
+                </div>
+            `;
+
+            const hellforgeContent = `
+                <p>This event takes place every 24 days and can help you obtain better quality equipment with less effort.</p>
+                <div class="book-section">
+                    <h4>Troop ratio</h4>
+                    <p>Take as many different troops as possible on each march and stack using this ratio:</p>
+                    <ul>
+                        <li>1: Rider</li>
+                        <li>2: Archers</li>
+                        <li>2: Spearmen</li>
+                    </ul>
+                </div>
+                <p>Completing personal goals earns coins, which you can exchange for equipment in the Hellforge shop during the tournament. Equipment items of a selected quality can be purchased directly.</p>
+                <p>Coins are saved between each event and do not disappear.</p>
+                <p>Hellforge saves you time and tar that you might otherwise spend exploring faraway crypts.</p>
+                <div class="book-section">
+                    <h4>Purchasing Hellforge equipment</h4>
+                    <p>Take your time selecting gear to buy with Hellforge coins. It may take more than one Hellforge tournament to accumulate enough coins for a good-quality piece.</p>
+                    <p>Only purchase equipment if its bonuses exceed what you can make in the Forge Workshop. For example, blue Tomb Raider gear offers the same crypting efficiency as the lowest-tier Omniscience gear. Godlike Tomb Raider gear matches the efficiency of purple Omniscience.</p>
+                </div>
+            `;
+
             const arachnesSwarmContent = `
                                 <p>Another event where you can exchange the life of your army for Valor, XP, Dragon Meat, etc. As well as climbing the ladder in any current side quest.</p>
                 <p>This event is special because you can level 3 captains in one run. Here are a few key points:</p>
@@ -968,6 +1048,20 @@
                     content: doomsdayContent
                 },
                 {
+                    id: "book32",
+                    categoryId: "events",
+                    title: "THE GREAT HUNT",
+                    authorId: "badder",
+                    content: greatHuntContent
+                },
+                {
+                    id: "book33",
+                    categoryId: "events",
+                    title: "HELLFORGE",
+                    authorId: "badder",
+                    content: hellforgeContent
+                },
+                {
                     id: "book13",
                     categoryId: "events",
                     title: "SUMMON MASTERY",
@@ -1022,6 +1116,13 @@
                     title: "HOW TO FIND A CHAT",
                     authorId: "heisenberg",
                     content: chatSearchContent
+                },
+                {
+                    id: "book31",
+                    categoryId: "beginners",
+                    title: "SUMMONING CIRCLE",
+                    authorId: "badder",
+                    content: summoningCircleContent
                 },
                 {
                     id: "book14",
