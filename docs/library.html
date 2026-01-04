@@ -111,6 +111,9 @@
                 heisenberg: {
                     label: "[BBD] Heisenberg"
                 },
+                sencifouy: {
+                    label: "[NFH] Sencifouy"
+                },
                 badder: {
                     label: "[LTZ] Badder"
                 },
@@ -710,6 +713,38 @@
                 </ul>
             `;
 
+            const captainArtefactsContent = `
+                <div class="book-section">
+                    <h4>Guardsmen level 4 and above</h4>
+                    <p>Artifacts are permanent boosts for your Captains, providing bonuses. Level them up with fragments and experience from events, while books allow quick levels added to the artifact and a might boost.</p>
+                    <p>Use artifacts with the correct equipment for different Captain/Hero roles (fighting, building) to optimize their stats. Think of artifacts as permanent skills.</p>
+                </div>
+                <p>Your keys can be found in your Summoning Circle (left of your city capital). Once you claim them, click a Captain and the small circle to the left to place an artifact on captains.</p>
+                <p>To use your books, click the artifact you would like to level, select Details, and use the top arrow pointing upwards.</p>
+                <p>This gives a huge might boost. Keys and book rewards are given during the Pursuit of Experience event.</p>
+            `;
+
+            const captainArtefactsTwoContent = `
+                <div class="book-section">
+                    <h4>Guardsmen lvl 4 or above</h4>
+                    <p>Artefacts are wearable, permanent items which can give new bonuses to or enhance the existing bonuses of your captains.</p>
+                    <p>However, this comes at a considerable Might boost. As such, I would suggest you carefully select which ones you upgrade.</p>
+                </div>
+                <p><strong>/!\\ DO NOT UPGRADE OR STAR UP USELESS ARTEFACTS /!\\</strong></p>
+                <p><strong>/!\\ TOO BIG A MIGHT LEVEL WILL ACTIVELY HINDER YOUR DEVELOPMENT /!\\</strong></p>
+                <div class="book-section">
+                    <h4>Priority artefacts and usefulness</h4>
+                    <ul>
+                        <li>Mythril's pickaxe: resource gathering speed</li>
+                        <li>Ifrit Lord's belt: army strength</li>
+                        <li>Fan of the five winds: guardsman strength</li>
+                        <li>Technobomb: catapult strength</li>
+                        <li>Thunder drum: march speed</li>
+                        <li>Shadow dagger: scout strength</li>
+                    </ul>
+                </div>
+            `;
+
             const clanWealthLeaderContent = `
                                 <p>This guide is based on my experience and knowledge as a growing leader.</p>
                 <ul>
@@ -1034,11 +1069,18 @@
                     content: ancientVaultsContent
                 },
                 {
-                    id: "book5",
+                    id: "book24",
                     categoryId: "events",
-                    title: "TINMAN STRATEGY",
+                    title: "ARACHNES SWARM",
                     authorId: "heisenberg",
-                    content: tinmanContent
+                    content: arachnesSwarmContent
+                },
+                {
+                    id: "book30",
+                    categoryId: "events",
+                    title: "ARMAGEDDON",
+                    authorId: "heisenberg",
+                    content: armageddonContent
                 },
                 {
                     id: "book6",
@@ -1046,13 +1088,6 @@
                     title: "DOOMSDAY",
                     authorId: "heisenberg",
                     content: doomsdayContent
-                },
-                {
-                    id: "book32",
-                    categoryId: "events",
-                    title: "THE GREAT HUNT",
-                    authorId: "badder",
-                    content: greatHuntContent
                 },
                 {
                     id: "book33",
@@ -1069,32 +1104,18 @@
                     content: summonMasteryContent
                 },
                 {
-                    id: "book24",
+                    id: "book32",
                     categoryId: "events",
-                    title: "ARACHNES SWARM",
-                    authorId: "heisenberg",
-                    content: arachnesSwarmContent
+                    title: "THE GREAT HUNT",
+                    authorId: "badder",
+                    content: greatHuntContent
                 },
                 {
-                    id: "book30",
+                    id: "book5",
                     categoryId: "events",
-                    title: "ARMAGEDDON",
+                    title: "TINMAN STRATEGY",
                     authorId: "heisenberg",
-                    content: armageddonContent
-                },
-                {
-                    id: "book7",
-                    categoryId: "pvp",
-                    title: "ZERO VALUE CITY DEFENCE",
-                    authorId: "heisenberg",
-                    content: zeroValueCityContent
-                },
-                {
-                    id: "book8",
-                    categoryId: "pvp",
-                    title: "SPIES AND THEIR SECRETS",
-                    authorId: "heisenberg",
-                    content: spiesContent
+                    content: tinmanContent
                 },
                 {
                     id: "book9",
@@ -1104,6 +1125,27 @@
                     content: kingdomOpeningContent
                 },
                 {
+                    id: "book8",
+                    categoryId: "pvp",
+                    title: "SPIES AND THEIR SECRETS",
+                    authorId: "heisenberg",
+                    content: spiesContent
+                },
+                {
+                    id: "book7",
+                    categoryId: "pvp",
+                    title: "ZERO VALUE CITY DEFENCE",
+                    authorId: "heisenberg",
+                    content: zeroValueCityContent
+                },
+                {
+                    id: "book27",
+                    categoryId: "leader",
+                    title: "IMPROVING CLAN WEALTH",
+                    authorId: "heisenberg",
+                    content: clanWealthLeaderContent
+                },
+                {
                     id: "book29",
                     categoryId: "leader",
                     title: "POCKET FORT - PART 1",
@@ -1111,67 +1153,11 @@
                     content: pocketFortContent
                 },
                 {
-                    id: "book12",
-                    categoryId: "beginners",
-                    title: "HOW TO FIND A CHAT",
-                    authorId: "heisenberg",
-                    content: chatSearchContent
-                },
-                {
-                    id: "book31",
-                    categoryId: "beginners",
-                    title: "SUMMONING CIRCLE",
-                    authorId: "badder",
-                    content: summoningCircleContent
-                },
-                {
-                    id: "book14",
-                    categoryId: "beginners",
-                    title: "THE WATCHTOWER",
-                    authorId: "heisenberg",
-                    content: watchtowerContent
-                },
-                {
                     id: "book15",
                     categoryId: "beginners",
                     title: "CITY TELEPORT",
                     authorId: "heisenberg",
                     content: cityTeleportContent
-                },
-                {
-                    id: "book17",
-                    categoryId: "beginners",
-                    title: "SIMPLIFIED TROOP STACKING",
-                    authorId: "heisenberg",
-                    content: troopStackingContent
-                },
-                {
-                    id: "book18",
-                    categoryId: "beginners",
-                    title: "RSS PROTECTION TIP",
-                    authorId: "heisenberg",
-                    content: rssProtectionContent
-                },
-                {
-                    id: "book20",
-                    categoryId: "beginners",
-                    title: "SILVER STRUGGLES",
-                    authorId: "heisenberg",
-                    content: silverStrugglesContent
-                },
-                {
-                    id: "book21",
-                    categoryId: "beginners",
-                    title: "HEROIC MONSTERS",
-                    authorId: "heisenberg",
-                    content: heroicMonstersContent
-                },
-                {
-                    id: "book22",
-                    categoryId: "beginners",
-                    title: "HERO SKILL POINTS",
-                    authorId: "heisenberg",
-                    content: heroSkillPointsContent
                 },
                 {
                     id: "book25",
@@ -1188,11 +1174,74 @@
                     content: goldTaxesContent
                 },
                 {
-                    id: "book27",
-                    categoryId: "leader",
-                    title: "IMPROVING CLAN WEALTH",
+                    id: "book22",
+                    categoryId: "beginners",
+                    title: "HERO SKILL POINTS",
                     authorId: "heisenberg",
-                    content: clanWealthLeaderContent
+                    content: heroSkillPointsContent
+                },
+                {
+                    id: "book21",
+                    categoryId: "beginners",
+                    title: "HEROIC MONSTERS",
+                    authorId: "heisenberg",
+                    content: heroicMonstersContent
+                },
+                {
+                    id: "book12",
+                    categoryId: "beginners",
+                    title: "HOW TO FIND A CHAT",
+                    authorId: "heisenberg",
+                    content: chatSearchContent
+                },
+                {
+                    id: "book18",
+                    categoryId: "beginners",
+                    title: "RSS PROTECTION TIP",
+                    authorId: "heisenberg",
+                    content: rssProtectionContent
+                },
+                {
+                    id: "book20",
+                    categoryId: "beginners",
+                    title: "SILVER STRUGGLES",
+                    authorId: "heisenberg",
+                    content: silverStrugglesContent
+                },
+                {
+                    id: "book17",
+                    categoryId: "beginners",
+                    title: "SIMPLIFIED TROOP STACKING",
+                    authorId: "heisenberg",
+                    content: troopStackingContent
+                },
+                {
+                    id: "book31",
+                    categoryId: "beginners",
+                    title: "SUMMONING CIRCLE",
+                    authorId: "badder",
+                    content: summoningCircleContent
+                },
+                {
+                    id: "book14",
+                    categoryId: "beginners",
+                    title: "THE WATCHTOWER",
+                    authorId: "heisenberg",
+                    content: watchtowerContent
+                },
+                {
+                    id: "book34",
+                    categoryId: "misc",
+                    title: "CAPTAIN ARTEFACTS",
+                    authorId: "heisenberg",
+                    content: captainArtefactsContent
+                },
+                {
+                    id: "book35",
+                    categoryId: "misc",
+                    title: "CAPTAIN ARTEFACTS 2",
+                    authorId: "sencifouy",
+                    content: captainArtefactsTwoContent
                 },
                 {
                     id: "book10",
@@ -1202,18 +1251,11 @@
                     content: hallOfFameContent
                 },
                 {
-                    id: "book11",
+                    id: "book23",
                     categoryId: "misc",
-                    title: "VIEW AND ACTIVATE BONUSES",
+                    title: "ILLEGAL ATTACK PROCESS EXAMPLE",
                     authorId: "heisenberg",
-                    content: bonusesContent
-                },
-                {
-                    id: "book16",
-                    categoryId: "misc",
-                    title: "REDUCE TROOP TRAINING TIME",
-                    authorId: "heisenberg",
-                    content: trainingTimeContent
+                    content: illegalAttackContent
                 },
                 {
                     id: "book19",
@@ -1223,11 +1265,11 @@
                     content: mansionsVsFarmsContent
                 },
                 {
-                    id: "book23",
+                    id: "book16",
                     categoryId: "misc",
-                    title: "ILLEGAL ATTACK PROCESS EXAMPLE",
+                    title: "REDUCE TROOP TRAINING TIME",
                     authorId: "heisenberg",
-                    content: illegalAttackContent
+                    content: trainingTimeContent
                 },
                 {
                     id: "book26",
@@ -1235,6 +1277,13 @@
                     title: "RESOURCE GATHERING TIP",
                     authorId: "birdsfoot",
                     content: resourceGatheringContent
+                },
+                {
+                    id: "book11",
+                    categoryId: "misc",
+                    title: "VIEW AND ACTIVATE BONUSES",
+                    authorId: "heisenberg",
+                    content: bonusesContent
                 }
             ];
 

@@ -946,6 +946,42 @@
                             <p>Osta varusteita vain, jos niiden bonukset ylittävät Forge Workshopissa tekemäsi. Esimerkiksi sininen Tomb Raider -varuste tarjoaa saman kryptaustehokkuuden kuin alin Omniscience-taso. Godlike Tomb Raider vastaa purppuran Omnisciencen tehokkuutta.</p>
                         </div>
                     `
+                },
+                book34: {
+                    title: "KAPTEENIN ARTEFAKTIT",
+                    content: `
+                        <div class="book-section">
+                            <h4>Guardsmen-taso 4 tai korkeampi</h4>
+                            <p>Artefaktit ovat pysyviä vahvistuksia kapteeneille ja antavat bonuksia. Nosta niitä tasoilla tapahtumista saatavilla sirpaleilla ja kokemuksella, kun taas kirjat mahdollistavat nopean tasonlisäyksen artefaktille sekä Might-bonuksen.</p>
+                            <p>Käytä artefakteja oikean varustuksen kanssa eri kapteenin/sankarin rooleihin (fighting, building) optimoidaksesi niiden tilastot. Ajattele artefakteja pysyvinä taitoina.</p>
+                        </div>
+                        <p>Avaimet löytyvät Summoning Circlestä (kaupunkisi pääkaupungin vasemmalla puolella). Kun lunastat ne, klikkaa kapteenia ja sitten vasemmalla olevaa pientä ympyrää asettaaksesi artefaktin kapteenille.</p>
+                        <p>Käyttääksesi kirjoja klikkaa artefaktia, jonka haluat levelöidä, valitse Details ja käytä yläreunan ylöspäin osoittavaa nuolta.</p>
+                        <p>Tämä antaa suuren Might-bonuksen. Avaimia ja kirja-palkintoja saa Pursuit of Experience -tapahtuman aikana.</p>
+                    `
+                },
+                book35: {
+                    title: "KAPTEENIN ARTEFAKTIT 2",
+                    content: `
+                        <div class="book-section">
+                            <h4>Guardsmen taso 4 tai korkeampi</h4>
+                            <p>Artefaktit ovat puettavia, pysyviä esineitä, jotka voivat antaa uusia bonuksia tai tehostaa kapteeniesi nykyisiä bonuksia.</p>
+                            <p>Tämä kuitenkin tuo huomattavan Might-lisäyksen. Siksi suosittelen, että valitset huolellisesti, mitkä päivität.</p>
+                        </div>
+                        <p><strong>/!\\ ÄLÄ PÄIVITÄ TAI TÄHDITÄ HYÖDYTTÖMIÄ ARTEFAKTEJA /!\\</strong></p>
+                        <p><strong>/!\\ LIIAN KORKEA MIGHT-TASO HAITTAA AKTIIVISESTI KEHITYSTÄSI /!\\</strong></p>
+                        <div class="book-section">
+                            <h4>Prioriteettiartefaktit ja hyöty</h4>
+                            <ul>
+                                <li>Mythrilin hakku: resurssien keruunopeus</li>
+                                <li>Ifrit-lordin vyö: armeijan voima</li>
+                                <li>Viiden tuulen viuhka: guardsmen-voima</li>
+                                <li>Technobomb: katapulttivoima</li>
+                                <li>Ukkosrumpu: marssinopeus</li>
+                                <li>Varjotikari: tiedusteluvoima</li>
+                            </ul>
+                        </div>
+                    `
                 }
             }
         }
@@ -1894,6 +1930,42 @@
                             <h4>Kjøp av Hellforge-utstyr</h4>
                             <p>Ta deg tid til å velge hvilket utstyr du vil kjøpe med Hellforge-mynter. Det kan ta mer enn én Hellforge-turnering å samle nok mynter til et godt kvalitetsstykke.</p>
                             <p>Kjøp bare utstyr hvis bonusene er bedre enn det du kan lage i Forge Workshop. For eksempel gir blått Tomb Raider-utstyr samme krypting-effektivitet som det laveste Omniscience-nivået. Godlike Tomb Raider matcher effektiviteten til lilla Omniscience.</p>
+                        </div>
+                    `
+                },
+                book34: {
+                    title: "KAPTEINARTEFAKTER",
+                    content: `
+                        <div class="book-section">
+                            <h4>Guardsmen nivå 4 og høyere</h4>
+                            <p>Artefakter er permanente boost for kapteinene dine, og gir bonuser. De kan leveles opp med fragmenter og erfaring fra events, mens bøker gir raske nivåer til artefakten og en Might-boost.</p>
+                            <p>Bruk artefakter med riktig utstyr for ulike kaptein/hero-roller (fighting, building) for å optimalisere stats. Tenk på artefakter som permanente skills.</p>
+                        </div>
+                        <p>Nøkler finnes i Summoning Circle (til venstre for bykapitalen). Når du henter dem, klikk på en captain og den lille sirkelen til venstre for å plassere en artefakt.</p>
+                        <p>For å bruke bøker, klikk på artefakten du vil level opp, velg Details og bruk den øverste pilen som peker oppover.</p>
+                        <p>Dette gir en stor Might-boost. Nøkler og bok-belønninger gis under Pursuit of Experience-eventet.</p>
+                    `
+                },
+                book35: {
+                    title: "KAPTEINARTEFAKTER 2",
+                    content: `
+                        <div class="book-section">
+                            <h4>Guardsmen nivå 4 eller høyere</h4>
+                            <p>Artefakter er brukbare, permanente gjenstander som kan gi nye bonuser eller forbedre eksisterende bonuser for kapteinene dine.</p>
+                            <p>Dette gir imidlertid en betydelig Might-boost. Derfor anbefaler jeg at du velger nøye hvilke du oppgraderer.</p>
+                        </div>
+                        <p><strong>/!\\ IKKE OPPGRADER ELLER STJERNE-OPPGRADER NYTTELØSE ARTEFAKTER /!\\</strong></p>
+                        <p><strong>/!\\ FOR HØY MIGHT-NIVÅ VIL AKTIVT HINDRE UTVIKLINGEN DIN /!\\</strong></p>
+                        <div class="book-section">
+                            <h4>Prioriterte artefakter og nytte</h4>
+                            <ul>
+                                <li>Mythrils hakke: ressursinnsamlingshastighet</li>
+                                <li>Ifrit Lord's belt: hærstyrke</li>
+                                <li>Fan of the five winds: guardsmen-styrke</li>
+                                <li>Technobomb: katapultstyrke</li>
+                                <li>Thunder drum: marsjhastighet</li>
+                                <li>Shadow dagger: speiderstyrke</li>
+                            </ul>
                         </div>
                     `
                 }
@@ -2846,6 +2918,42 @@
                             <p>Kaufe Ausrüstung nur, wenn ihre Boni besser sind als das, was du in der Forge Workshop herstellen kannst. Zum Beispiel bietet blaue Tomb-Raider-Ausrüstung die gleiche Krypting-Effizienz wie die niedrigste Omniscience-Stufe. Godlike Tomb Raider entspricht der Effizienz von violettem Omniscience.</p>
                         </div>
                     `
+                },
+                book34: {
+                    title: "KAPITÄN-ARTEFAKTE",
+                    content: `
+                        <div class="book-section">
+                            <h4>Guardsmen Stufe 4 und höher</h4>
+                            <p>Artefakte sind dauerhafte Verstärkungen für deine Kapitäne und geben Boni. Sie werden mit Fragmenten und Erfahrung aus Events gelevelt, während Bücher schnelle Level für das Artefakt und einen Might-Boost geben.</p>
+                            <p>Nutze Artefakte mit der richtigen Ausrüstung für verschiedene Captain/Hero-Rollen (fighting, building), um ihre Werte zu optimieren. Denk an Artefakte als permanente Skills.</p>
+                        </div>
+                        <p>Deine Schlüssel findest du im Summoning Circle (links von deiner Stadt-Hauptstadt). Sobald du sie beanspruchst, klicke auf einen Captain und den kleinen Kreis links davon, um ein Artefakt auszurüsten.</p>
+                        <p>Um Bücher zu nutzen, klicke auf das Artefakt, das du leveln möchtest, wähle Details und nutze den oberen Pfeil nach oben.</p>
+                        <p>Das gibt einen großen Might-Boost. Schlüssel- und Buchbelohnungen gibt es während des Pursuit of Experience-Events.</p>
+                    `
+                },
+                book35: {
+                    title: "KAPITÄN-ARTEFAKTE 2",
+                    content: `
+                        <div class="book-section">
+                            <h4>Guardsmen Stufe 4 oder höher</h4>
+                            <p>Artefakte sind tragbare, permanente Gegenstände, die neue Boni geben oder bestehende Boni deiner Kapitäne verbessern können.</p>
+                            <p>Das bringt jedoch einen beträchtlichen Might-Boost. Daher solltest du sorgfältig auswählen, welche du aufwertest.</p>
+                        </div>
+                        <p><strong>/!\\ NICHT NÜTZLICHE ARTEFAKTE AUFWERTEN ODER AUFSTERNEN /!\\</strong></p>
+                        <p><strong>/!\\ EIN ZU HOHES MIGHT-LEVEL WIRD DEINE ENTWICKLUNG AKTIV BEHINDERN /!\\</strong></p>
+                        <div class="book-section">
+                            <h4>Priorisierte Artefakte und Nutzen</h4>
+                            <ul>
+                                <li>Mythril-Spitzhacke: Ressourcensammelgeschwindigkeit</li>
+                                <li>Gürtel des Ifrit-Lords: Armeestärke</li>
+                                <li>Fächer der fünf Winde: Guardsmen-Stärke</li>
+                                <li>Technobomb: Katapultstärke</li>
+                                <li>Donner-Trommel: Marschgeschwindigkeit</li>
+                                <li>Schatten-Dolch: Späherstärke</li>
+                            </ul>
+                        </div>
+                    `
                 }
             }
         }
@@ -3794,6 +3902,42 @@
                             <h4>Compra de equipo Hellforge</h4>
                             <p>Tómate tu tiempo para elegir qué equipo comprar con monedas Hellforge. Puede llevar más de un torneo Hellforge acumular suficientes monedas para una pieza de buena calidad.</p>
                             <p>Compra equipo solo si sus bonificaciones superan lo que puedes fabricar en el Forge Workshop. Por ejemplo, el equipo Tomb Raider azul ofrece la misma eficiencia de cripteo que el nivel más bajo de Omniscience. Tomb Raider Godlike iguala la eficiencia del Omniscience morado.</p>
+                        </div>
+                    `
+                },
+                book34: {
+                    title: "ARTEFACTOS DE CAPITÁN",
+                    content: `
+                        <div class="book-section">
+                            <h4>Guardsmen nivel 4 y superior</h4>
+                            <p>Los artefactos son mejoras permanentes para tus capitanes y otorgan bonificaciones. Se suben de nivel con fragmentos y experiencia de eventos, mientras que los libros permiten añadir niveles rápidos al artefacto y un impulso de Might.</p>
+                            <p>Usa artefactos con el equipo correcto para diferentes roles de capitán/héroe (fighting, building) para optimizar sus estadísticas. Piensa en los artefactos como habilidades permanentes.</p>
+                        </div>
+                        <p>Las llaves se encuentran en tu Summoning Circle (a la izquierda de tu capital). Una vez que las reclamas, haz clic en un capitán y en el pequeño círculo a su izquierda para colocar un artefacto.</p>
+                        <p>Para usar tus libros, haz clic en el artefacto que quieres subir de nivel, selecciona Details y usa la flecha superior que apunta hacia arriba.</p>
+                        <p>Esto da un gran aumento de Might. Las llaves y las recompensas de libros se otorgan durante el evento Pursuit of Experience.</p>
+                    `
+                },
+                book35: {
+                    title: "ARTEFACTOS DE CAPITÁN 2",
+                    content: `
+                        <div class="book-section">
+                            <h4>Guardsmen nivel 4 o superior</h4>
+                            <p>Los artefactos son objetos permanentes que se pueden equipar y pueden dar nuevos bonos o mejorar los bonos existentes de tus capitanes.</p>
+                            <p>Sin embargo, esto conlleva un aumento considerable de Might. Por ello, te sugiero seleccionar cuidadosamente cuáles mejoras.</p>
+                        </div>
+                        <p><strong>/!\\ NO MEJORES NI SUBAS ESTRELLAS A ARTEFACTOS INÚTILES /!\\</strong></p>
+                        <p><strong>/!\\ UN NIVEL DE MIGHT DEMASIADO ALTO ENTORPECERÁ ACTIVAMENTE TU DESARROLLO /!\\</strong></p>
+                        <div class="book-section">
+                            <h4>Artefactos prioritarios y utilidad</h4>
+                            <ul>
+                                <li>Pico de mithril: velocidad de recolección de recursos</li>
+                                <li>Cinturón del Señor Ifrit: fuerza del ejército</li>
+                                <li>Abanico de los cinco vientos: fuerza de guardsmen</li>
+                                <li>Technobomb: fuerza de catapultas</li>
+                                <li>Tambor del trueno: velocidad de marcha</li>
+                                <li>Daga de sombra: fuerza de exploración</li>
+                            </ul>
                         </div>
                     `
                 }
@@ -4746,6 +4890,42 @@
                             <p>N'achetez l'équipement que si ses bonus dépassent ce que vous pouvez fabriquer dans la Forge Workshop. Par exemple, l'équipement Tomb Raider bleu offre la même efficacité de cryptage que le niveau Omniscience le plus bas. Tomb Raider Godlike correspond à l'efficacité de l'Omniscience violet.</p>
                         </div>
                     `
+                },
+                book34: {
+                    title: "ARTEFACTS DE CAPITAINE",
+                    content: `
+                        <div class="book-section">
+                            <h4>Guardsmen niveau 4 et plus</h4>
+                            <p>Les artefacts sont des améliorations permanentes pour vos capitaines et fournissent des bonus. Ils se montent en niveau avec des fragments et de l'expérience d'événements, tandis que les livres permettent des niveaux rapides sur l'artefact et un boost de Might.</p>
+                            <p>Utilisez les artefacts avec l'équipement adéquat pour les différents rôles de capitaine/héros (fighting, building) afin d'optimiser leurs stats. Voyez les artefacts comme des compétences permanentes.</p>
+                        </div>
+                        <p>Vos clés se trouvent dans le Summoning Circle (à gauche de votre capitale). Une fois récupérées, cliquez sur un capitaine puis sur le petit cercle à gauche pour placer un artefact.</p>
+                        <p>Pour utiliser vos livres, cliquez sur l'artefact que vous voulez monter, choisissez Details et utilisez la flèche du haut pointant vers le haut.</p>
+                        <p>Cela donne un énorme boost de Might. Des récompenses de clés et de livres sont données pendant l'événement Pursuit of Experience.</p>
+                    `
+                },
+                book35: {
+                    title: "ARTEFACTS DE CAPITAINE 2",
+                    content: `
+                        <div class="book-section">
+                            <h4>Guardsmen niveau 4 ou plus</h4>
+                            <p>Les artefacts sont des objets portables et permanents qui peuvent donner de nouveaux bonus ou renforcer les bonus existants de vos capitaines.</p>
+                            <p>Cependant, cela apporte un boost de Might considérable. Je vous conseille donc de choisir soigneusement ceux que vous améliorez.</p>
+                        </div>
+                        <p><strong>/!\\ N'AMÉLIOREZ PAS OU NE MONTEZ PAS D'ÉTOILES DES ARTEFACTS INUTILES /!\\</strong></p>
+                        <p><strong>/!\\ UN NIVEAU DE MIGHT TROP ÉLEVÉ ENTRAVERA ACTIVEMENT VOTRE DÉVELOPPEMENT /!\\</strong></p>
+                        <div class="book-section">
+                            <h4>Artefacts prioritaires et utilité</h4>
+                            <ul>
+                                <li>Pioche en mythril : vitesse de collecte de ressources</li>
+                                <li>Ceinture du Seigneur Ifrit : force de l'armée</li>
+                                <li>Éventail des cinq vents : force des guardsmen</li>
+                                <li>Technobomb : puissance des catapultes</li>
+                                <li>Tambour du tonnerre : vitesse de marche</li>
+                                <li>Dague de l'ombre : puissance d'éclaireur</li>
+                            </ul>
+                        </div>
+                    `
                 }
             }
         }
@@ -5694,6 +5874,42 @@
                             <h4>Acquisto equipaggiamento Hellforge</h4>
                             <p>Prenditi il tempo per scegliere quale equipaggiamento acquistare con le monete Hellforge. Potrebbero volerci più di un torneo Hellforge per accumulare abbastanza monete per un pezzo di buona qualità.</p>
                             <p>Acquista equipaggiamento solo se i suoi bonus superano ciò che puoi creare nel Forge Workshop. Ad esempio, l'equipaggiamento Tomb Raider blu offre la stessa efficienza di cripte del livello più basso di Omniscience. Tomb Raider Godlike eguaglia l'efficienza dell'Omniscience viola.</p>
+                        </div>
+                    `
+                },
+                book34: {
+                    title: "ARTEFATTI DEL CAPITANO",
+                    content: `
+                        <div class="book-section">
+                            <h4>Guardsmen livello 4 e oltre</h4>
+                            <p>Gli artefatti sono potenziamenti permanenti per i tuoi capitani e forniscono bonus. Si livellano con frammenti ed esperienza dagli eventi, mentre i libri permettono livelli rapidi sull'artefatto e un boost di Might.</p>
+                            <p>Usa gli artefatti con l'equipaggiamento corretto per i diversi ruoli di capitano/eroe (fighting, building) per ottimizzare le statistiche. Considera gli artefatti come abilità permanenti.</p>
+                        </div>
+                        <p>Le chiavi si trovano nel Summoning Circle (a sinistra della capitale). Una volta ottenute, clicca su un capitano e sul piccolo cerchio a sinistra per applicare un artefatto.</p>
+                        <p>Per usare i libri, clicca sull'artefatto che vuoi livellare, seleziona Details e usa la freccia in alto che punta verso l'alto.</p>
+                        <p>Questo dà un grande boost di Might. Le ricompense di chiavi e libri vengono date durante l'evento Pursuit of Experience.</p>
+                    `
+                },
+                book35: {
+                    title: "ARTEFATTI DEL CAPITANO 2",
+                    content: `
+                        <div class="book-section">
+                            <h4>Guardsmen livello 4 o superiore</h4>
+                            <p>Gli artefatti sono oggetti indossabili e permanenti che possono dare nuovi bonus o migliorare i bonus esistenti dei tuoi capitani.</p>
+                            <p>Tuttavia, questo comporta un notevole boost di Might. Per questo ti suggerisco di scegliere con cura quali potenziare.</p>
+                        </div>
+                        <p><strong>/!\\ NON POTENZIARE O FARE STAR UP SU ARTEFATTI INUTILI /!\\</strong></p>
+                        <p><strong>/!\\ UN LIVELLO DI MIGHT TROPPO ALTO OSTACOLERÀ ATTIVAMENTE IL TUO SVILUPPO /!\\</strong></p>
+                        <div class="book-section">
+                            <h4>Artefatti prioritari e utilità</h4>
+                            <ul>
+                                <li>Piccone di mythril: velocità raccolta risorse</li>
+                                <li>Cintura del Signore Ifrit: forza dell'esercito</li>
+                                <li>Ventaglio dei cinque venti: forza guardsmen</li>
+                                <li>Technobomb: forza delle catapulte</li>
+                                <li>Tamburo del tuono: velocità di marcia</li>
+                                <li>Pugnale d'ombra: forza scout</li>
+                            </ul>
                         </div>
                     `
                 }
@@ -6646,6 +6862,42 @@
                             <p>Compre equipamentos apenas se seus bônus superarem o que você consegue criar na Forge Workshop. Por exemplo, o equipamento Tomb Raider azul oferece a mesma eficiência de criptas do nível mais baixo de Omniscience. Tomb Raider Godlike iguala a eficiência do Omniscience roxo.</p>
                         </div>
                     `
+                },
+                book34: {
+                    title: "ARTEFATOS DE CAPITÃO",
+                    content: `
+                        <div class="book-section">
+                            <h4>Guardsmen nível 4 e acima</h4>
+                            <p>Artefatos são boosts permanentes para seus capitães, fornecendo bônus. Eles são evoluídos com fragmentos e experiência de eventos, enquanto livros permitem níveis rápidos no artefato e um boost de Might.</p>
+                            <p>Use artefatos com o equipamento correto para diferentes funções de capitão/herói (fighting, building) para otimizar seus stats. Pense nos artefatos como habilidades permanentes.</p>
+                        </div>
+                        <p>Suas chaves podem ser encontradas no Summoning Circle (à esquerda da capital). Depois de reivindicá-las, clique em um capitão e no pequeno círculo à esquerda para colocar um artefato.</p>
+                        <p>Para usar os livros, clique no artefato que deseja evoluir, escolha Details e use a seta superior apontando para cima.</p>
+                        <p>Isso dá um grande boost de Might. Recompensas de chaves e livros são dadas durante o evento Pursuit of Experience.</p>
+                    `
+                },
+                book35: {
+                    title: "ARTEFATOS DE CAPITÃO 2",
+                    content: `
+                        <div class="book-section">
+                            <h4>Guardsmen nível 4 ou acima</h4>
+                            <p>Artefatos são itens vestíveis e permanentes que podem dar novos bônus ou aprimorar os bônus existentes dos seus capitães.</p>
+                            <p>No entanto, isso traz um aumento considerável de Might. Por isso, sugiro escolher com cuidado quais você melhora.</p>
+                        </div>
+                        <p><strong>/!\\ NÃO MELHORE OU SUBA ESTRELAS DE ARTEFATOS INÚTEIS /!\\</strong></p>
+                        <p><strong>/!\\ UM NÍVEL DE MIGHT ALTO DEMAIS VAI ATRAPALHAR ATIVAMENTE SEU DESENVOLVIMENTO /!\\</strong></p>
+                        <div class="book-section">
+                            <h4>Artefatos prioritários e utilidade</h4>
+                            <ul>
+                                <li>Picareta de mithril: velocidade de coleta de recursos</li>
+                                <li>Cinto do Lorde Ifrit: força do exército</li>
+                                <li>Leque dos cinco ventos: força de guardsmen</li>
+                                <li>Technobomb: força de catapulta</li>
+                                <li>Tambor do trovão: velocidade de marcha</li>
+                                <li>Adaga das sombras: força de batedor</li>
+                            </ul>
+                        </div>
+                    `
                 }
             }
         }
@@ -7594,6 +7846,42 @@
                             <h4>Zakup ekwipunku Hellforge</h4>
                             <p>Poświęć czas na wybór, jaki ekwipunek kupić za monety Hellforge. Może to zająć więcej niż jeden turniej Hellforge, aby zgromadzić wystarczająco dużo monet na przedmiot dobrej jakości.</p>
                             <p>Kupuj ekwipunek tylko wtedy, gdy jego bonusy przewyższają to, co możesz wytworzyć w Forge Workshop. Na przykład niebieski ekwipunek Tomb Raider daje taką samą efektywność krypt, jak najniższy poziom Omniscience. Godlike Tomb Raider odpowiada efektywności fioletowego Omniscience.</p>
+                        </div>
+                    `
+                },
+                book34: {
+                    title: "ARTEFAKTY KAPITANA",
+                    content: `
+                        <div class="book-section">
+                            <h4>Guardsmen poziom 4 i wyżej</h4>
+                            <p>Artefakty to stałe wzmocnienia dla twoich kapitanów i dają bonusy. Ulepsza się je fragmentami i doświadczeniem z eventów, a książki pozwalają szybko podnieść poziom artefaktu i dają boost Might.</p>
+                            <p>Używaj artefaktów z odpowiednim ekwipunkiem dla różnych ról kapitana/bohatera (fighting, building), aby optymalizować statystyki. Traktuj artefakty jak stałe umiejętności.</p>
+                        </div>
+                        <p>Klucze znajdziesz w Summoning Circle (po lewej stronie stolicy). Gdy je odbierzesz, kliknij kapitana i małe kółko po lewej, aby założyć artefakt.</p>
+                        <p>Aby użyć książek, kliknij artefakt, który chcesz levelować, wybierz Details i użyj górnej strzałki skierowanej w górę.</p>
+                        <p>To daje duży boost Might. Nagrody w postaci kluczy i książek są przyznawane podczas eventu Pursuit of Experience.</p>
+                    `
+                },
+                book35: {
+                    title: "ARTEFAKTY KAPITANA 2",
+                    content: `
+                        <div class="book-section">
+                            <h4>Guardsmen poziom 4 lub wyżej</h4>
+                            <p>Artefakty to noszone, stałe przedmioty, które mogą dawać nowe bonusy lub wzmacniać istniejące bonusy twoich kapitanów.</p>
+                            <p>Jednak wiąże się to ze znacznym wzrostem Might. Dlatego sugeruję ostrożnie wybierać, które ulepszasz.</p>
+                        </div>
+                        <p><strong>/!\\ NIE ULEPSZAJ ANI NIE PODNOŚ GWIAZDEK BEZUŻYTECZNYCH ARTEFAKTÓW /!\\</strong></p>
+                        <p><strong>/!\\ ZBYT WYSOKI POZIOM MIGHT BĘDZIE AKTYWNIE UTRUDNIAŁ TWÓJ ROZWÓJ /!\\</strong></p>
+                        <div class="book-section">
+                            <h4>Priorytetowe artefakty i użyteczność</h4>
+                            <ul>
+                                <li>Kilof mithrilowy: szybkość zbierania surowców</li>
+                                <li>Pas Lorda Ifrita: siła armii</li>
+                                <li>Wachlarz pięciu wiatrów: siła guardsmen</li>
+                                <li>Technobomb: siła katapult</li>
+                                <li>Bęben grzmotu: szybkość marszu</li>
+                                <li>Sztylet cienia: siła zwiadu</li>
+                            </ul>
                         </div>
                     `
                 }
@@ -8546,6 +8834,42 @@
                             <p>Покупайте экипировку только если ее бонусы лучше того, что вы можете создать в Forge Workshop. Например, синяя экипировка Tomb Raider дает ту же эффективность криптинга, что и самый низкий уровень Omniscience. Godlike Tomb Raider соответствует эффективности фиолетового Omniscience.</p>
                         </div>
                     `
+                },
+                book34: {
+                    title: "АРТЕФАКТЫ КАПИТАНА",
+                    content: `
+                        <div class="book-section">
+                            <h4>Guardsmen уровень 4 и выше</h4>
+                            <p>Артефакты — постоянные усиления для ваших капитанов и дают бонусы. Они повышаются с помощью фрагментов и опыта из событий, а книги позволяют быстро поднять уровень артефакта и дают бонус Might.</p>
+                            <p>Используйте артефакты с правильным снаряжением для разных ролей капитана/героя (fighting, building), чтобы оптимизировать их характеристики. Считайте артефакты постоянными навыками.</p>
+                        </div>
+                        <p>Ключи можно найти в Summoning Circle (слева от столицы). После получения нажмите на капитана и маленький круг слева, чтобы установить артефакт.</p>
+                        <p>Чтобы использовать книги, нажмите на артефакт, который хотите улучшить, выберите Details и используйте верхнюю стрелку, направленную вверх.</p>
+                        <p>Это дает большой бонус Might. Награды ключами и книгами выдаются во время события Pursuit of Experience.</p>
+                    `
+                },
+                book35: {
+                    title: "АРТЕФАКТЫ КАПИТАНА 2",
+                    content: `
+                        <div class="book-section">
+                            <h4>Guardsmen уровень 4 и выше</h4>
+                            <p>Артефакты — носимые постоянные предметы, которые могут давать новые бонусы или усиливать существующие бонусы ваших капитанов.</p>
+                            <p>Однако это дает значительный прирост Might. Поэтому рекомендую тщательно выбирать, какие улучшать.</p>
+                        </div>
+                        <p><strong>/!\\ НЕ УЛУЧШАЙТЕ И НЕ ПОДНИМАЙТЕ ЗВЕЗДЫ БЕСПОЛЕЗНЫХ АРТЕФАКТОВ /!\\</strong></p>
+                        <p><strong>/!\\ СЛИШКОМ ВЫСОКИЙ УРОВЕНЬ MIGHT БУДЕТ АКТИВНО МЕШАТЬ РАЗВИТИЮ /!\\</strong></p>
+                        <div class="book-section">
+                            <h4>Приоритетные артефакты и польза</h4>
+                            <ul>
+                                <li>Кирка из мифрила: скорость сбора ресурсов</li>
+                                <li>Пояс Лорда Ифрита: сила армии</li>
+                                <li>Веер пяти ветров: сила guardsmen</li>
+                                <li>Технобомба: сила катапульт</li>
+                                <li>Громовой барабан: скорость марша</li>
+                                <li>Теневой кинжал: сила разведки</li>
+                            </ul>
+                        </div>
+                    `
                 }
             }
         }
@@ -9452,6 +9776,42 @@
                             <h4>Köp av Hellforge-utrustning</h4>
                             <p>Ta dig tid att välja vilken utrustning du vill köpa med Hellforge-mynt. Det kan ta mer än en Hellforge-turnering att samla ihop tillräckligt med mynt för en utrustning av god kvalitet.</p>
                             <p>Köp bara utrustning om bonusarna är bättre än det du kan skapa i Forge Workshop. Till exempel ger blå Tomb Raider-utrustning samma krypt-effektivitet som den lägsta Omniscience-nivån. Godlike Tomb Raider motsvarar effektiviteten hos lila Omniscience.</p>
+                        </div>
+                    `
+                },
+                book34: {
+                    title: "KAPTENARTEFAKTER",
+                    content: `
+                        <div class="book-section">
+                            <h4>Guardsmen nivå 4 och uppåt</h4>
+                            <p>Artefakter är permanenta boosts för dina captains och ger bonusar. De levelas med fragments och erfarenhet från events, medan böcker ger snabba nivåer på artefakten och en Might-boost.</p>
+                            <p>Använd artefakter med rätt utrustning för olika captain/hero-roller (fighting, building) för att optimera stats. Se artefakter som permanenta skills.</p>
+                        </div>
+                        <p>Dina nycklar finns i Summoning Circle (till vänster om stadens capital). När du hämtat dem klickar du på en captain och den lilla cirkeln till vänster för att sätta en artefakt.</p>
+                        <p>För att använda böcker, klicka på artefakten du vill levela, välj Details och använd den övre pilen som pekar uppåt.</p>
+                        <p>Detta ger en stor Might-boost. Nycklar och bok-belöningar ges under eventet Pursuit of Experience.</p>
+                    `
+                },
+                book35: {
+                    title: "KAPTENARTEFAKTER 2",
+                    content: `
+                        <div class="book-section">
+                            <h4>Guardsmen nivå 4 eller högre</h4>
+                            <p>Artefakter är bärbara, permanenta föremål som kan ge nya bonusar eller förstärka befintliga bonusar för dina captains.</p>
+                            <p>Detta ger dock en betydande Might-boost. Därför föreslår jag att du väljer noggrant vilka du uppgraderar.</p>
+                        </div>
+                        <p><strong>/!\\ UPPGRADERA ELLER STJÄRNUPPGRADERA INTE ONÖDIGA ARTEFAKTER /!\\</strong></p>
+                        <p><strong>/!\\ FÖR HÖG MIGHT-NIVÅ KOMMER AKTIVT ATT HINDRA DIN UTVECKLING /!\\</strong></p>
+                        <div class="book-section">
+                            <h4>Prioriterade artefakter och nytta</h4>
+                            <ul>
+                                <li>Mythrils hacka: resursinsamlingshastighet</li>
+                                <li>Ifrit Lords bälte: arméstyrka</li>
+                                <li>Fan of the five winds: guardsmen-styrka</li>
+                                <li>Technobomb: katapultstyrka</li>
+                                <li>Thunder drum: marchhastighet</li>
+                                <li>Shadow dagger: spaningsstyrka</li>
+                            </ul>
                         </div>
                     `
                 }
