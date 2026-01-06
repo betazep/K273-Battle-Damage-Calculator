@@ -3180,79 +3180,126 @@ pl: {
 <p class="roe-intro">Z rozkazu Króla Arihelma następujące ROE obowiązuje w królestwie:</p>
 <ol class="roe-list">
     <li>
-        <h3>1. CZAS POKOJU</h3>
+        <h3>Ogólna umowa graczy K273</h3>
+        <ol>
+            <li>Królestwo K273 przestrzega porozumienia IKFPA ustanowionego podczas panowania Króla Arcadii i oczekuje, że każdy członek będzie go przestrzegał, szczególnie po otwarciu królestwa.</li>
+            <li>ROE obowiązuje natychmiast i może być zmieniane.</li>
+            <li>Każda zmiana będzie mieć 24-godzinny okres buforowy, aby inni mogli się dostosować w różnych strefach czasowych.</li>
+            <li>Prosimy szanować wszystkich, z którymi się kontaktujesz.</li>
+            <li>Obowiązuje polityka zerowej tolerancji wobec języka rasistowskiego, nienawistnego, obraźliwego lub groźnego.</li>
+            <li>Naruszenia można zgłaszać Królowi/Królowej lub Ręce Króla.</li>
+            <li>Mogą otrzymać negatywny tytuł i/lub status wyjętego spod prawa.</li>
+            <li>Groźby są traktowane bardzo poważnie, podobnie jak nękanie, ponieważ są sprzeczne z zasadami Kodeksu Postępowania TOTAL BATTLE. Czat królestwa to miejsce, w którym wszyscy mają czuć się mile widziani.</li>
+            <li>Królestwo jest uznawane za pokojowe w każdym czasie.</li>
+        </ol>
+    </li>
+    <li>
+        <h3>Zasady Porozumienia o Uczciwej Grze Między Królestwami (IKFPA)</h3>
+        <p>To ogólne porozumienia między różnymi królestwami na czas otwarcia K273. Nie są to twarde zasady, ale królestwa zachęcają do ich przestrzegania.</p>
+        <ol>
+            <li>Zakaz mowy nienawiści.</li>
+            <li>Zakaz ataków na budynki klanowe, portale pamięci lub graczy poniżej 100K potęgi.</li>
+            <li>Wszystkie pola RSS są chronione przed atakami z wyjątkiem wydarzeń PvP. Wydarzenia PvP to: CoT, KvK, War Tools, Gold / Silver Rush, War Games, Lava Trials (nie obejmuje konkretnie Ruthless Slaughter).</li>
+            <li>Ataki na forty w innych królestwach skutkują natychmiastowym statusem wyjętego spod prawa zgodnie z ROE królestwa.</li>
+            <li>Rekompensata za naruszenia ustalana w ciągu 48 godzin (IKFPA nie jest egzekwowane przez żadną pojedynczą instytucję).</li>
+        </ol>
+    </li>
+    <li>
+        <h3>Urzędnicy królestwa - Pałac</h3>
         <ul class="roe-points">
-            <li>Ataki na miasta są zabronione z wyjątkiem CoT i planowanych wymian CP.</li>
-            <li><del>Ataki na portale i budynki klanowe są zabronione. Chyba że portal jest udowodniony jako wrogi klanowi i lub jego zasobom na jego terytorium.</del></li>
-            <li>Portale w czasie pokoju: Żadnego dotykania ani boop boops poza CoT. Oznacza to brak ataków na portale gdziekolwiek, chyba że są udowodnione jako wrogie. Wrogie portale obejmują ataki na budynki klanu, członków oraz wszystkie zasoby gry (w tym zasoby wydarzeń sezonowych). Atakowanie portali na terytorium klanu w ramach aktywności klanowych jest niedozwolone, chyba że są wrogie.</li>
-            <li>Zasady portali w CoT: Brak ograniczeń.</li>
-            <li>Scouting jest formą agresji.</li>
+            <li>Pałac odpowiada za utrzymanie honoru, integralności i pokoju w K273 oraz z innymi królestwami.</li>
+            <li>Król jest wybierany, aby reprezentować obywateli K273 i przewodniczyć pałacowi.</li>
+            <li>Królowa i Ręka Króla odpowiadają za koordynowanie spraw królestwa i mogą przemawiać w imieniu Króla podczas jego nieobecności.</li>
+            <li>Król, Królowa i Ręka Króla odpowiadają za zarządzanie skarbcem w imieniu graczy królestwa.</li>
+            <li>Królowa i Ręka Króla muszą pochodzić z różnych klanów.</li>
         </ul>
     </li>
     <li>
-        <h3>2. DYPLOMACI</h3>
+        <h3>Obowiązki liderów klanów</h3>
+        <p>Wszyscy liderzy klanów muszą wypełniać swoje obowiązki jako liderzy:</p>
         <ul class="roe-points">
-            <li>Klany muszą wskazać co najmniej jednego dyplomatę w opisie klanu, który może pomóc w rozwiązywaniu sporów. Dyplomaci muszą być aktywnym liderem lub przełożonym.</li>
+            <li>Szanuj ROE (Rules of Engagement).</li>
+            <li>Zapewnij, że ich członkowie respektują i przestrzegają ROE.</li>
+            <li>Edukować swoich członków, aby wspierać rozwój i jedność królestwa.</li>
+            <li>Lider, który nie wywiąże się z tych zobowiązań, zostanie ogłoszony Wyjętym spod prawa. &gt;=D</li>
+            <li>Liderzy są przykładem i standardem królestwa, a ich działania wyznaczają drogę dla wszystkich członków.</li>
+        </ul>
+    </li>
+    <li>
+        <h3>1. CZAS POKOJU</h3>
+        <ul class="roe-points">
+            <li>Ataki na miasta są zabronione, z wyjątkiem CoT i zaplanowanych wymian CP.</li>
+            <li>Ataki na budynki klanowe są zabronione.</li>
+            <li>Portale w czasie pokoju: żadnego dotykania ani boop boops, chyba że CoT. Oznacza to brak ataków na portale gdziekolwiek, chyba że są udowodnione jako wrogie. Wrogie portale obejmują ataki na budynki klanu, członków oraz wszystkie zasoby gry (w tym zasoby wydarzeń sezonowych). Atakowanie portali na terytoriach klanu w ramach aktywności klanowych nie jest dozwolone, chyba że są wrogie.</li>
+            <li>Zasady portali CoT: brak ograniczeń.</li>
+            <li>Zwiad jest formą agresji i jest nielegalny w czasie pokoju.</li>
+            <li>Jeśli zostaniesz zaatakowany, niezależnie od ich potęgi, masz prawo atakować każdego z powrotem w dowolnym momencie. Oznacza to, że jeśli gracz o potędze 1,000,000 atakuje gracza o potędze 50,000,000, gracz o potędze 50,000,000 ma pełne prawo do odwetu, jeśli zechce.</li>
+        </ul>
+    </li>
+    <li>
+        <h3>2. KLANI I DYPLOMACI</h3>
+        <ul class="roe-points">
+            <li>Klany powinny podać "We abide by K273 ROE", aby były obsługiwane przez królestwo i chronione przez ROE.</li>
+            <li>Klany muszą wskazać co najmniej jednego dyplomatę na początku opisu klanu, który może pomóc w rozwiązywaniu sporów. Dyplomaci muszą być aktywnym liderem lub przełożonym.</li>
         </ul>
     </li>
     <li>
         <h3>3. Zasady ogólne</h3>
         <ul class="roe-points">
-            <li>Wszystkie budynki zasobów w terytorium klanu należą do tego klanu.</li>
-            <li>W tym WS i DMs.</li>
-            <li>Zasoby stworzone przez graczy należą do osoby, która je stworzyła, chyba że uzgodniono współdzielenie między dwiema stronami.</li>
+            <li>Wszystkie budynki zasobów na terytorium klanu należą do tego klanu. Obejmuje to zasoby wydarzeń sezonowych.</li>
+            <li>Zasoby stworzone przez graczy należą do osoby, która je stworzyła, chyba że uzgodniono ich współdzielenie między dwiema stronami.</li>
             <li>Rzadkie krypty należą do osoby, która je odblokowała.</li>
             <li>WS i DMs:
                 <ul>
-                    <li>a. Nie ma już systemu rejestracji.</li>
-                    <li>b. Wszystkie dzikie budynki zasobów (w tym DM/WS) są na zasadzie kto pierwszy, ten lepszy (FCFS).</li>
-                    <li>c. Roszczenia nie mogą być składane, jeśli jesteś scoutowany/atakowany w dzikich zasobach, chyba że:
+                    <li>a. Nie ma systemu rejestracji. Wszystkie dzikie budynki zasobów (w tym DM/WS) są na zasadzie kto pierwszy, ten lepszy (FCFS).</li>
+                    <li>c. Roszczenia nie mogą być zgłaszane, jeśli zostaniesz zwiadowany/zaatakowany na dzikich zasobach, chyba że
                         <ul>
-                            <li>Stracisz budynek.</li>
-                            <li>Jesteś scoutowany/atakowany, a potem zaatakowany ponownie. (zasada 2x)</li>
+                            <li>Stracisz zasób.</li>
+                            <li>Zostaniesz zwiadowany/zaatakowany, a następnie zaatakowany ponownie. (zasada 2x)</li>
                         </ul>
                     </li>
-                    <li>d. Twoim obowiązkiem jest wysłanie wiadomości do swojego dyplomaty, drugiego gracza i jego dyplomaty/lidera klanu, jeśli ktoś scouteuje lub atakuje cię w kopalni.</li>
+                    <li>d. Twoim obowiązkiem jest wysłanie wiadomości do swojego dyplomaty, drugiego gracza oraz dyplomaty/lidera klanu przeciwnika, jeśli ktoś zwiaduje lub atakuje cię w kopalni.</li>
                 </ul>
             </li>
         </ul>
     </li>
     <li>
-        <h3>4. PRZEWODNIK KOMPENSACJI PAŁACU --</h3>
+        <h3>4. PRZEWODNIK KOMPENSACJI PAŁACU</h3>
+        <p>Prosimy zobaczyć k273tb.xyz, aby skorzystać z kalkulatora rekompensaty.</p>
         <ul class="roe-points">
-            <li>Każdy atak lub scouting wiąże się z bazowym kosztem 1 miliona srebro. Wszelkie dodatkowe straty, szkody lub skradzione zasoby są dodawane do tego kosztu bazowego.</li>
+            <li>Każdy nielegalny atak lub zwiad wiąże się z bazowym kosztem 1 miliona srebra. Wszelkie dodatkowe straty, szkody lub skradzione zasoby są dodawane do tego kosztu bazowego.</li>
             <li>RSS: kwota równa skradzionej ilości</li>
             <li>Złoto: 1 Złoto = 3,000 Srebro lub kopalnie złota równe skradzionemu + 10% (decyzją ofiary)</li>
-            <li>Tar: 1 Tar = 1,000 Srebro</li>
+            <li>Smoła: 1 Smoła = 1,000 Srebro</li>
             <li>Sztabki złota = brak rekompensaty</li>
-            <li>Nielegalnie zamknięty portal: 1M srebro (+1M za sam nielegalny atak)</li>
+            <li>Nielegalnie zamknięty portal: 1M srebra (+1M za sam nielegalny atak)</li>
             <li>Obrażenia są obliczane według następującej formuły: Straty wojsk są obliczane według następującej formuły:
                 <ul>
-                    <li>Bohater= 1.5k</li>
-                    <li>Kapitan= 1k</li>
+                    <li>Bohater = 1.5k</li>
+                    <li>Kapitan = 1k</li>
                     <li>Włócznicy, Łucznicy = Poziom wojsk x 40</li>
                     <li>Specjaliści, Jeźdźcy = Poziom wojsk x 80</li>
-                    <li>Szpiedzy= Poziom wojsk x 100</li>
-                    <li>Gryfy= Poziom wojsk x 800</li>
+                    <li>Szpiedzy = Poziom wojsk x 100</li>
+                    <li>Gryfy = Poziom wojsk x 800</li>
                     <li>Katapulty, Mury Poziom murów x 200</li>
-                    <li>Potwory III-VII (Poziom potwora ⁃ 2) x1.3k</li>
-                    <li>Potwory I & II=x 8.64k</li>
-                    <li>Straż najemna Poziom wojsk x120</li>
+                    <li>Potwory III-VII (Poziom potwora - 2) x 1.3k</li>
+                    <li>Potwory I &amp; II = x 8.64k</li>
+                    <li>Straż najemna Poziom wojsk x 120</li>
                     <li>Potwór najemny = Poziom potwora x 3k</li>
                 </ul>
             </li>
-            <li>-FORTY -
+            <li>- FORTY -
                 <ul>
-                    <li>Scouting = 5 milionów srebro</li>
-                    <li>Atak bez zniszczenia = 10 milionów srebro</li>
-                    <li>Atak i zniszczenie = 20 milionów każdego Srebro, Iron, Wood, Stone</li>
+                    <li>Zwiad = 5 milionów srebra</li>
+                    <li>Atak bez zniszczenia = 10 milionów srebra</li>
+                    <li>Atak i zniszczenie = 20 milionów każdego: Srebro, Żelazo, Drewno, Kamień</li>
                 </ul>
             </li>
             <li>- STOLICE -
                 <ul>
-                    <li>Scouting = 5 milionów srebro</li>
-                    <li>Atak bez zniszczenia = 10 milionów srebro</li>
-                    <li>Atak i zniszczenie = 50 milionów każdego Srebro, Iron, Wood, Stone</li>
+                    <li>Zwiad = 5 milionów srebra</li>
+                    <li>Atak bez zniszczenia = 10 milionów srebra</li>
+                    <li>Atak i zniszczenie = 50 milionów każdego: Srebro, Żelazo, Drewno, Kamień</li>
                 </ul>
             </li>
         </ul>
@@ -3260,16 +3307,16 @@ pl: {
     <li>
         <h3>5. PODATKI</h3>
         <ul class="roe-points">
-            <li>Miasta z ponad 3 dniami zgromadzonych ingotów mogą zostać zaatakowane przez członka Gwardii Królewskiej po 24 godzinach ostrzeżenia. Sztabki złota nie mają dla ciebie osobistej wartości, ale Król może ich użyć do włączenia bonusów dla całego królestwa. Jeśli mamy sztabki złota, zostaną użyte dla dobra K273.</li>
-            <li>Maksymalna liczba sztabki złota na miasto:
+            <li>Miasta z ponad 3 dniami zgromadzonych sztabek mogą zostać zaatakowane przez członka Gwardii Królewskiej 24 godziny po ostrzeżeniu gracza i lidera klanu. Złote sztabki nie mają dla ciebie osobistej wartości, ale Król i Pałac mogą ich użyć do włączenia bonusów dla całego królestwa. Jeśli mamy sztabki złota, zostaną użyte dla dobra K273.</li>
+            <li>Maksymalna liczba złotych sztabek na miasto:
                 <ul>
-                    <li>Miasto 1-9: 2000 Ingots</li>
-                    <li>Miasto 10-19: 3000 Ingots</li>
-                    <li>Miasto 20-24: 10000 Ingots</li>
-                    <li>Miasto 25-29: 35000 Ingots</li>
-                    <li>Miasto 30-34: 60000 Ingots</li>
-                    <li>Miasto 35-39: 70000 Ingots</li>
-                    <li>Miasto 40+: 90000 Ingots</li>
+                    <li>Miasto 1-9: 2000 sztabek</li>
+                    <li>Miasto 10-19: 3000 sztabek</li>
+                    <li>Miasto 20-24: 10000 sztabek</li>
+                    <li>Miasto 25-29: 35000 sztabek</li>
+                    <li>Miasto 30-34: 60000 sztabek</li>
+                    <li>Miasto 35-39: 70000 sztabek</li>
+                    <li>Miasto 40+: 90000 sztabek</li>
                 </ul>
             </li>
         </ul>
@@ -3280,39 +3327,46 @@ pl: {
             <li>Każdy gracz musi przestrzegać tych zasad, aby być chronionym przez ROE. Gracze niechronieni to:
                 <ul>
                     <li>WYJĘCI SPOD PRAWA</li>
-                    <li>GRACZE BEZ KLANU</li>
-                    <li>NIENALĘŻĄCY DO ROE</li>
+                    <li>GRACZE BEZ KLANU (większość)</li>
+                    <li>NIE-UCZESTNICY ROE</li>
                 </ul>
             </li>
-            <li>Wyjęci spod prawa – Jeśli osoby lub klany nie chcą przestrzegać ROE, atakują budynki klanowe lub odmawiają zapłaty rekompensaty za naruszenia ROE, otrzymają status wyjętego spod prawa. Aktualnych wyjętych spod prawa można znaleźć w #K273/OUTLAWS. Aktualna lista wyjętych spod prawa zostanie wyczyszczona i rozpoczęta od nowa. Oznacza to, że obecnie nie ma wyjętych spod prawa w królestwie. Nowa Gwardia Królewska będzie współdzielić odpowiedzialności za pomoc w królestwie.</li>
-            <li>Gwardia Królewska: Nowa Gwardia Królewska składa się z wielu klanów i ma bardzo silnych graczy jako członków. Obowiązki RG będą kontynuować normalne zadania, takie jak pobór podatków i egzekwowanie dla Pałacu. Dodatkowe obowiązki będą teraz obejmować pomoc klanom z wyjętymi spod prawa i królestwu z precyzją. Będą także działać jako elitarna armia i jednostka patrolowo-obronna królestwa/terytorium.</li>
-            <li>Dodatkowo aktywując relacje z większymi klanami królestwa, aby pomóc w razie potrzeby.</li>
-            <li>Gracze bez klanu z might 250k lub mniej są chronieni i nie mogą być swobodnie atakowani.</li>
-            <li>Gracze bez klanu z mniej niż 250k might zaatakowani mogą dochodzić 2x kwoty rekompensaty w roszczeniach.</li>
-            <li>Interakcje z tymi graczami powinny najpierw służyć poznaniu ich i ich celów w grze. Następnie zachęta do dołączenia do klanu. Wspierać rozwój w grze i grać dla królestwa zamiast dla osobistej nagrody.</li>
+            <li>Chronieni gracze bez klanu: Wszyscy gracze o potędze 100k lub mniejszej są chronieni i nie powinni być swobodnie atakowani. Interakcje z graczami bez klanu powinny najpierw służyć poznaniu ich i ich celów w grze, a następnie zachęceniu do dołączenia do klanu. Wspieraj rozwój w grze i graj dla królestwa zamiast dla osobistej nagrody.</li>
         </ul>
+        <p><strong>Status wyjętego spod prawa</strong></p>
+        <p>Uprawnienie do ogłoszenia obywatela lub klanu wyjętym spod prawa lub cofnięcia istniejącego statusu wyjętego spod prawa spoczywa wyłącznie w rękach następujących władz Królestwa:</p>
+        <ul class="roe-points">
+            <li>Król, najwyższy strażnik porządku i sprawiedliwości.</li>
+            <li>Ręka Króla, działająca jako bezpośredni przedstawiciel władzy królewskiej.</li>
+            <li>Królowa, jako współposiadaczka władzy królewskiej.</li>
+            <li>Naczelny Sędzia Trybunału Królestwa, z tytułu swojej roli strażnika sprawiedliwości.</li>
+        </ul>
+        <p>Żaden inny organ Królestwa nie może, bez wyraźnego mandatu udzielonego przez jedną z tych władz, ogłosić obywatela lub klanu wyjętym spod prawa. Każde oświadczenie wydane przez nieupoważniony podmiot będzie nieważne i bezskuteczne.</p>
+        <p><strong>Gwardia Królewska</strong></p>
+        <p>Gwardia Królewska składa się z wielu klanów i ma członków o różnych poziomach. Obowiązki RG będą kontynuować swoje normalne zadania, takie jak pobór podatków i egzekwowanie zasad dla Pałacu. Będą również działać jako elitarna armia oraz jednostka patrolowa i obronna królestwa/terytorium. Są grotem włóczni królestwa i są tutaj, aby pomagać klanom mającym problemy z graczami i wyjętymi spod prawa.</p>
     </li>
     <li>
-        <h3>7. Clash of Thrones  CoT</h3>
+        <h3>7. Clash of Thrones CoT</h3>
         <ul class="roe-points">
-            <li>Podczas, możesz scoutować i atakować miasta na następujących warunkach:</li>
-            <li>Brak ataków na forty klanowe: Atakowanie fortów lub budynków innego klanu jest surowo zabronione.</li>
-            <li>Zarządzanie portalami: Nie obowiązuje ograniczenie might. Każdy portal udowodniony jako wrogi terytoriom klanu może zostać zaatakowany z szybką sprawiedliwością przez atakowany klan. Marsze klanowe są w pełni dozwolone do zamykania wrogich portali. W normalnym czasie pokoju portale nie mogą być atakowane w żadnym momencie, chyba że są udowodnione jako wrogie.</li>
-            <li>Zarządzanie zasobami: Utrzymuj zasoby niskie podczas wydarzenia, aby uniknąć kradzieży; w razie potrzeby wysyłaj wojska do fortów. Praktykuj No Value City (NVC)</li>
-            <li>"Fair Play": Atakowanie kogoś znacznie słabszego (np. poniżej połowy twojego might) jest często uznawane za złą sportową postawę i nie jest dozwolone. Jedyny przypadek, w którym jest dozwolone, to wrogi portal. Portale pozostawione otwarte przez graczy, którzy mają innych członków atakujących przez nie, nadal są winni pozostawienia portalu otwartego i mogą być atakowani niezależnie od ich might. Raport z ataku musi być dostarczony we wszystkich roszczeniach. Poniżej połowy twojego might nie jest dozwolone. Obowiązuje zasada 50%.</li>
+            <li>Podczas CoT możesz zwiadować i atakować miasta na następujących warunkach:</li>
+            <li>Zakaz ataków na forty klanowe: atakowanie fortów lub budynków innego klanu jest surowo zabronione.</li>
+        </ul>
+        <p><strong>Zarządzanie zasobami</strong></p>
+        <p>Utrzymuj zasoby na niskim poziomie podczas wydarzenia, aby uniknąć kradzieży; w razie potrzeby wysyłaj wojska do fortów. Praktykuj No Value City (NVC).</p>
+        <p><strong>"Fair Play"</strong></p>
+        <ul class="roe-points">
+            <li>Obowiązuje zasada 50%.</li>
+            <li>Jeśli zostaniesz zaatakowany, niezależnie od ich potęgi, masz prawo zaatakować kogokolwiek z powrotem. Oznacza to, że jeśli gracz o potędze 1,000,000 atakuje gracza o potędze 50,000,000, gracz o potędze 50,000,000 ma pełne prawo do odwetu, jeśli zechce.</li>
         </ul>
     </li>
     <li>
         <h3>8. Proces rozwiązywania konfliktów</h3>
+        <p>Gdy ROE zostanie naruszone, należy podjąć następujące kroki:</p>
         <ul class="roe-points">
-            <li>Gdy ROE zostanie naruszone, należy podjąć następujące kroki:
-                <ol>
-                    <li>Skontaktuj się z drugim graczem, aby spróbować rozwiązać. Jeśli brak rozwiązania w ciągu 24 godzin, eskaluj do swojego dyplomaty klanowego.</li>
-                    <li>Jeśli nie osiągnięto rozwiązania między dyplomatami klanowymi, mogą wnieść sprawę przed Sąd publikując ją w #K273/CLAIMS. Tylko liderzy klanu lub dyplomaci mogą publikować roszczenia w tym czacie.</li>
-                    <li>Sędziowie rozstrzygną, aby określić winnego (jeśli taki istnieje) i akceptowalną kwotę rekompensaty.</li>
-                    <li>Jeśli winna strona (lub jej klan) odmówi rekompensaty, Królewski Sąd zdecyduje, czy gracz lub klan powinien zostać uznany za wyjętego spod prawa, a Gwardia Królewska zostanie aktywowana w gotowości.</li>
-                </ol>
-            </li>
+            <li>Skontaktuj się z drugim graczem, aby spróbować rozwiązać sprawę. Jeśli brak rozwiązania w ciągu 24 godzin, przekaż sprawę swojemu dyplomacie klanowemu.</li>
+            <li>Jeśli nie osiągnięto rozwiązania między dyplomatami klanowymi, mogą wnieść sprawę przed Sąd, publikując ją w #K273/CLAIMS. Tylko liderzy klanu lub dyplomaci mogą publikować roszczenia w tym czacie.</li>
+            <li>Sędziowie rozstrzygną, aby określić stronę winną (jeśli taka istnieje) i akceptowalną kwotę rekompensaty.</li>
+            <li>Jeśli strona winna (lub jej klan) odmówi rekompensaty, Archon lub Sędzia Naczelny zdecyduje, czy gracz lub klan powinien zostać uznany za wyjętego spod prawa, a Gwardia Królewska zostanie aktywowana w gotowości.</li>
         </ul>
     </li>
     <li>
@@ -3324,6 +3378,7 @@ pl: {
             <li>~#K273/CPTHUNDERDOME</li>
             <li>~#K273tbxyz</li>
             <li>~#K273/ACADEMY</li>
+            <li>K273 TB Library</li>
         </ul>
     </li>
 </ol>
@@ -3501,79 +3556,126 @@ ru: {
 <p class="roe-intro">По приказу Короля Арихельма следующие ROE действуют в королевстве:</p>
 <ol class="roe-list">
     <li>
-        <h3>1. МИРНОЕ ВРЕМЯ</h3>
+        <h3>Общее соглашение игроков K273</h3>
+        <ol>
+            <li>Королевство K273 следует соглашению IKFPA, установленному во время правления Короля Аркадии, и ожидает, что каждый член будет соблюдать его, особенно после открытия королевства.</li>
+            <li>ROE вступает в силу немедленно и может быть изменен.</li>
+            <li>Каждая поправка будет иметь 24-часовой буфер, чтобы другие могли адаптироваться в разных часовых поясах.</li>
+            <li>Пожалуйста, уважайте всех, с кем вы вступаете в контакт.</li>
+            <li>Действует политика нулевой терпимости к расистским, ненавистническим, уничижительным или угрожающим выражениям.</li>
+            <li>Нарушения могут быть сообщены Королю/Королеве или Руке Короля.</li>
+            <li>Им может быть присвоен негативный титул и/или статус вне закона.</li>
+            <li>Угрозы рассматриваются очень серьезно, как и травля, так как это противоречит правилам Кодекса поведения TOTAL BATTLE. Чат королевства — место, где все должны чувствовать себя желанными.</li>
+            <li>Королевство считается мирным в любое время.</li>
+        </ol>
+    </li>
+    <li>
+        <h3>Правила Межкоролевского соглашения честной игры (IKFPA)</h3>
+        <p>Это общие договоренности между различными королевствами на время открытия K273. Это не жесткие правила, но королевства поощряют их соблюдение.</p>
+        <ol>
+            <li>Запрещена речь ненависти.</li>
+            <li>Запрещены атаки на клановые здания, мемориальные порталы или игроков ниже 100K мощи.</li>
+            <li>Все клетки RSS защищены от атак, кроме событий PvP. PvP события: CoT, KvK, War Tools, Gold / Silver Rush, War Games, Lava Trials (не включает конкретно Ruthless Slaughter).</li>
+            <li>Атаки на форты других королевств приводят к немедленному статусу вне закона согласно ROE королевства.</li>
+            <li>Компенсация за нарушения должна быть согласована в течение 48 часов (IKFPA не обеспечивается какой-либо единой организацией).</li>
+        </ol>
+    </li>
+    <li>
+        <h3>Должностные лица королевства - Дворец</h3>
         <ul class="roe-points">
-            <li>Атаки на города запрещены, кроме CoT и запланированных обменов CP.</li>
-            <li><del>Атаки на порталы и клановые здания запрещены. Если только портал не доказан как враждебный клану и или его ресурсам на его территории.</del></li>
-            <li>Порталы в мирное время: Не трогать и никаких boop boops, кроме CoT. Это означает никаких атак на порталы нигде, если только они не доказаны как враждебные. Враждебные порталы включают атаки на здания клана, членов и все игровые ресурсы (включая ресурсы сезонных событий). Атаковать порталы на территориях клана для клановой активности нельзя, если только они не враждебные.</li>
-            <li>Правила порталов в CoT: Без ограничений.</li>
-            <li>Разведка является формой агрессии.</li>
+            <li>Дворец отвечает за поддержание чести, целостности и мира внутри K273 и с другими королевствами.</li>
+            <li>Король избирается, чтобы представлять граждан K273 и председательствовать во дворце.</li>
+            <li>Королева и Рука Короля отвечают за координацию дел королевства и могут говорить от имени Короля в его отсутствие.</li>
+            <li>Король, Королева и Рука Короля отвечают за управление казной от имени игроков королевства.</li>
+            <li>Королева и Рука Короля должны быть из разных кланов.</li>
         </ul>
     </li>
     <li>
-        <h3>2. ДИПЛОМАТЫ</h3>
+        <h3>Обязанности лидеров кланов</h3>
+        <p>Все лидеры кланов должны выполнять свои обязанности как лидеры:</p>
         <ul class="roe-points">
-            <li>Кланы должны указать хотя бы одного дипломата в описании клана, который может помочь в разрешении споров. Дипломаты должны быть активным лидером или старшим.</li>
+            <li>Соблюдать ROE (Rules of Engagement).</li>
+            <li>Обеспечивать, чтобы их участники уважали и соблюдали ROE.</li>
+            <li>Обучать своих участников, чтобы поддерживать рост и единство королевства.</li>
+            <li>Лидер, который не выполняет эти обязательства, будет объявлен Вне закона. &gt;=D</li>
+            <li>Лидеры являются примером и стандартом королевства, и их действия задают путь для всех участников.</li>
+        </ul>
+    </li>
+    <li>
+        <h3>1. МИРНОЕ ВРЕМЯ</h3>
+        <ul class="roe-points">
+            <li>Атаки на города запрещены, кроме CoT и запланированных обменов CP.</li>
+            <li>Атаки на клановые здания запрещены.</li>
+            <li>Порталы в мирное время: не трогать и никаких boop boops, кроме CoT. Это означает никаких атак на порталы нигде, если только они не доказаны как враждебные. Враждебные порталы включают атаки на здания клана, членов и все игровые ресурсы (включая ресурсы сезонных событий). Атаковать порталы на территориях клана для клановой активности нельзя, если только они не враждебные.</li>
+            <li>Правила порталов CoT: без ограничений.</li>
+            <li>Разведка является формой агрессии и незаконна в мирное время.</li>
+            <li>Если вас атаковали, независимо от их мощи, вам разрешено атаковать любого в ответ в любое время. То есть, если игрок с мощью 1,000,000 атакует игрока с мощью 50,000,000, игрок с мощью 50,000,000 имеет полное право атаковать в ответ, если он этого хочет.</li>
+        </ul>
+    </li>
+    <li>
+        <h3>2. КЛАНЫ И ДИПЛОМАТЫ</h3>
+        <ul class="roe-points">
+            <li>Кланы должны указать "We abide by K273 ROE", чтобы королевство могло их обслуживать и защищать по ROE.</li>
+            <li>Кланы должны указать как минимум одного дипломата в начале описания клана, который может помочь в разрешении споров. Дипломаты должны быть активным лидером или старшим.</li>
         </ul>
     </li>
     <li>
         <h3>3. Общие правила</h3>
         <ul class="roe-points">
-            <li>Все здания ресурсов на территории клана принадлежат этому клану.</li>
-            <li>Включая WS и DMs.</li>
-            <li>Ресурсы, созданные игроками, принадлежат человеку, который их создал, если не согласовано разделение между двумя сторонами.</li>
+            <li>Все здания ресурсов на территории клана принадлежат этому клану. Это включает ресурсы сезонных событий.</li>
+            <li>Ресурсы, созданные игроками, принадлежат человеку, который их создал, если не согласовано совместное использование между двумя сторонами.</li>
             <li>Редкие крипты принадлежат человеку, который их открыл.</li>
             <li>WS и DMs:
                 <ul>
-                    <li>a. Больше нет системы регистрации.</li>
-                    <li>b. Все дикие здания ресурсов (включая DM/WS) работают по принципу первым пришел, первым обслужен (FCFS).</li>
-                    <li>c. Претензии не могут быть заявлены, если вас разведали/атаковали на диких ресурсах, кроме случаев:
+                    <li>a. Системы регистрации нет. Все дикие здания ресурсов (включая DM/WS) работают по принципу первым пришел, первым обслужен (FCFS).</li>
+                    <li>c. Претензии не могут быть заявлены, если вас разведали/атаковали на диких ресурсах, кроме случаев
                         <ul>
-                            <li>Вы теряете здание.</li>
+                            <li>Вы теряете ресурс.</li>
                             <li>Вас разведали/атаковали, а затем атаковали снова. (правило 2x)</li>
                         </ul>
                     </li>
-                    <li>d. Ваша обязанность — написать вашему дипломату, другому игроку и их дипломату/лидеру клана, если кто-то разведует или атакует вас в шахте.</li>
+                    <li>d. Ваша обязанность — написать вашему дипломату, другому игроку и их дипломату/лидеру клана, если кто-то разведует вас или атакует вас в шахте.</li>
                 </ul>
             </li>
         </ul>
     </li>
     <li>
-        <h3>4. РУКОВОДСТВО ПО КОМПЕНСАЦИИ ДВОРЦА --</h3>
+        <h3>4. РУКОВОДСТВО ПО КОМПЕНСАЦИИ ДВОРЦА</h3>
+        <p>Пожалуйста, смотрите k273tb.xyz для калькулятора компенсации.</p>
         <ul class="roe-points">
-            <li>Каждая атака или разведка имеет базовую стоимость 1 миллион серебро. Любые дополнительные потери, повреждения или украденные ресурсы добавляются к этой базовой стоимости.</li>
-            <li>RSS: сумма равная украденной сумме</li>
+            <li>Каждая незаконная атака или разведка несет базовую стоимость 1 миллион серебра. Любые дополнительные потери, повреждения или украденные ресурсы добавляются сверх этой базовой стоимости.</li>
+            <li>RSS: сумма, равная украденной сумме</li>
             <li>Золото: 1 Золото = 3,000 Серебро или золотые шахты равные украденному + 10% (по решению жертвы)</li>
-            <li>Tar: 1 Tar = 1,000 Серебро</li>
+            <li>Смола: 1 Смола = 1,000 Серебро</li>
             <li>Золотые слитки = без компенсации</li>
-            <li>Незаконно закрытый портал: 1M серебро (+1M за сам незаконный атаку)</li>
+            <li>Незаконно закрытый портал: 1M серебра (+1M за саму незаконную атаку)</li>
             <li>Урон рассчитывается по следующей формуле: Потери войск рассчитываются по следующей формуле:
                 <ul>
-                    <li>Герой= 1.5k</li>
-                    <li>Капитан= 1k</li>
+                    <li>Герой = 1.5k</li>
+                    <li>Капитан = 1k</li>
                     <li>Копейщики, Лучники = Уровень войск x 40</li>
                     <li>Специалисты, Всадники = Уровень войск x 80</li>
-                    <li>Шпионы= Уровень войск x 100</li>
-                    <li>Грифоны= Уровень войск x 800</li>
+                    <li>Шпионы = Уровень войск x 100</li>
+                    <li>Грифоны = Уровень войск x 800</li>
                     <li>Катапульты, Стены Уровень стен x 200</li>
-                    <li>Монстры III-VII (Уровень монстра ⁃ 2) x1.3k</li>
-                    <li>Монстры I & II=x 8.64k</li>
-                    <li>Наёмная стража Уровень войск x120</li>
-                    <li>Наёмный монстр = Уровень монстра x 3k</li>
+                    <li>Монстры III-VII (Уровень монстра - 2) x 1.3k</li>
+                    <li>Монстры I &amp; II = x 8.64k</li>
+                    <li>Наемная стража Уровень войск x 120</li>
+                    <li>Наемный монстр = Уровень монстра x 3k</li>
                 </ul>
             </li>
-            <li>-ФОРТЫ -
+            <li>- ФОРТЫ -
                 <ul>
-                    <li>Разведка = 5 миллионов серебро</li>
-                    <li>Атака без уничтожения = 10 миллионов серебро</li>
-                    <li>Атака и уничтожение = 20 миллионов каждого Серебро, Iron, Wood, Stone</li>
+                    <li>Разведка = 5 миллионов серебра</li>
+                    <li>Атака без уничтожения = 10 миллионов серебра</li>
+                    <li>Атака и уничтожение = 20 миллионов каждого: Серебро, Железо, Древесина, Камень</li>
                 </ul>
             </li>
             <li>- СТОЛИЦЫ -
                 <ul>
-                    <li>Разведка = 5 миллионов серебро</li>
-                    <li>Атака без уничтожения = 10 миллионов серебро</li>
-                    <li>Атака и уничтожение = 50 миллионов каждого Серебро, Iron, Wood, Stone</li>
+                    <li>Разведка = 5 миллионов серебра</li>
+                    <li>Атака без уничтожения = 10 миллионов серебра</li>
+                    <li>Атака и уничтожение = 50 миллионов каждого: Серебро, Железо, Древесина, Камень</li>
                 </ul>
             </li>
         </ul>
@@ -3581,16 +3683,16 @@ ru: {
     <li>
         <h3>5. НАЛОГИ</h3>
         <ul class="roe-points">
-            <li>Города с более чем 3 днями накопленных ingots могут быть атакованы членом Королевской Гвардии после предупреждения за 24 часа. Золотые слитки не имеют личной ценности для вас, но Король может использовать их, чтобы включать бонусы для всего королевства. Если у нас есть золотые слитки, они будут использованы на благо K273.</li>
-            <li>Максимум золотые слитки на город:
+            <li>Города с более чем 3 днями накопленных слитков могут быть атакованы членом Королевской Гвардии через 24 часа после предупреждения игрока и лидера клана. Золотые слитки не имеют для вас личной ценности, но Король и Дворец могут использовать их для включения бонусов для всего королевства. Если у нас есть золотые слитки, они будут использованы на благо K273.</li>
+            <li>Максимум золотых слитков на город:
                 <ul>
-                    <li>Город 1-9: 2000 Ingots</li>
-                    <li>Город 10-19: 3000 Ingots</li>
-                    <li>Город 20-24: 10000 Ingots</li>
-                    <li>Город 25-29: 35000 Ingots</li>
-                    <li>Город 30-34: 60000 Ingots</li>
-                    <li>Город 35-39: 70000 Ingots</li>
-                    <li>Город 40+: 90000 Ingots</li>
+                    <li>Город 1-9: 2000 слитков</li>
+                    <li>Город 10-19: 3000 слитков</li>
+                    <li>Город 20-24: 10000 слитков</li>
+                    <li>Город 25-29: 35000 слитков</li>
+                    <li>Город 30-34: 60000 слитков</li>
+                    <li>Город 35-39: 70000 слитков</li>
+                    <li>Город 40+: 90000 слитков</li>
                 </ul>
             </li>
         </ul>
@@ -3598,42 +3700,49 @@ ru: {
     <li>
         <h3>6. Члены Почитаемого Королевства</h3>
         <ul class="roe-points">
-            <li>Каждый игрок должен соблюдать эти правила, чтобы быть защищенным ROE. Игроки, не защищенные:
+            <li>Каждый игрок должен соблюдать эти правила, чтобы быть защищенным ROE. Игроки, не защищенные, это:
                 <ul>
                     <li>ВНЕ ЗАКОНА</li>
-                    <li>ИГРОКИ БЕЗ КЛАНА</li>
+                    <li>ИГРОКИ БЕЗ КЛАНА (большинство)</li>
                     <li>НЕ-УЧАСТНИКИ ROE</li>
                 </ul>
             </li>
-            <li>Вне закона – Если отдельные лица или кланы не готовы соблюдать ROE, атакуют клановые здания или отказываются платить компенсацию за нарушения ROE, они получают статус вне закона. Текущих вне закона можно найти в #K273/OUTLAWS. Текущий список вне закона будет очищен и начат заново. Это означает, что сейчас в королевстве нет вне закона. Новая Королевская Гвардия разделит обязанности по помощи королевству.</li>
-            <li>Королевская Гвардия: Новая Королевская Гвардия состоит из многих кланов и имеет очень сильных игроков в составе. Обязанности RG продолжат свои обычные обязанности, такие как сбор налогов и обеспечение порядка для Дворца. Дополнительные обязанности теперь будут включать помощь кланам с вне законами и королевству с точностью. Они также будут действовать как элитная армия и патрульно-оборонное подразделение королевства/территории.</li>
-            <li>Кроме того, активируя отношения с большими кланами королевства, чтобы помогать при необходимости.</li>
-            <li>Игроки без клана с might 250k или ниже защищены и не должны свободно атаковаться.</li>
-            <li>Игроки без клана с менее чем 250k might, подвергшиеся атаке, могут требовать 2x компенсации в претензиях.</li>
-            <li>Взаимодействия с этими игроками должны сначала быть направлены на знакомство с ними и их целями в игре. Затем — поощрение вступить в клан. Способствовать росту в игре и играть за королевство, а не ради личной выгоды.</li>
+            <li>Защищенные игроки без клана: Все игроки с мощью 100k или ниже защищены и не должны свободно атаковаться. Взаимодействие с игроками без клана должно сначала быть направлено на знакомство с ними и их целями в игре, затем — на поощрение вступления в клан. Содействуйте росту в игре и играйте за королевство, а не ради личной награды.</li>
         </ul>
+        <p><strong>Статус вне закона</strong></p>
+        <p>Полномочия объявлять гражданина или клан вне закона или отзывать существующий статус вне закона принадлежат исключительно следующим властям Королевства:</p>
+        <ul class="roe-points">
+            <li>Король, верховный хранитель порядка и справедливости.</li>
+            <li>Рука Короля, действующая как прямой представитель королевской власти.</li>
+            <li>Королева, как совместный носитель королевской власти.</li>
+            <li>Главный судья Трибунала Королевства, по праву своей роли хранителя правосудия.</li>
+        </ul>
+        <p>Ни один другой орган Королевства не может без явного мандата, предоставленного одной из этих властей, объявить гражданина или клан вне закона. Любое заявление, сделанное неуполномоченным лицом, является недействительным.</p>
+        <p><strong>Королевская Гвардия</strong></p>
+        <p>Королевская Гвардия состоит из многих кланов и включает игроков разных уровней. Обязанности RG будут продолжать свои обычные обязанности, такие как сбор налогов и обеспечение порядка для Дворца. Они также будут действовать как элитная армия и подразделение патруля и обороны королевства/территории. Они являются острием копья королевства и призваны помогать кланам, у которых есть проблемы с игроками и вне закона.</p>
     </li>
     <li>
-        <h3>7. Clash of Thrones  CoT</h3>
+        <h3>7. Clash of Thrones CoT</h3>
         <ul class="roe-points">
-            <li>Во время, вы можете разведывать и атаковать города при следующих условиях:</li>
-            <li>Без атак на клановые форты: Атаки на форты или здания другого клана строго запрещены.</li>
-            <li>Управление порталами: Ограничение might не применяется. Любой портал, доказано враждебный территориям клана, может быть атакован с быстрой справедливостью атакуемым кланом. Клановые марши полностью разрешены для закрытия враждебных порталов. В обычное мирное время порталы не могут быть атакованы в любое время, если не доказано, что они враждебны.</li>
-            <li>Управление ресурсами: Держите ресурсы низкими во время события, чтобы избежать краж; отправляйте войска в форты при необходимости. Практикуйте No Value City (NVC)</li>
-            <li>"Fair Play": Атаковать кого-то значительно слабее (например, меньше половины вашей might) часто считается плохой спортивностью и не допускается. Единственный случай, когда это допускается, — враждебный портал. Порталы, оставленные открытыми игроками, через которые атакуют другие участники, все еще виновны в том, что оставили портал открытым, и могут быть атакованы независимо от их might. Отчет об атаке должен быть предоставлен во всех заявленных претензиях. Ниже половины вашей might не допускается. Применяется правило 50%.</li>
+            <li>Во время CoT вы можете разведывать и атаковать города при следующих условиях:</li>
+            <li>Без атак на клановые форты: атаки на форты или здания другого клана строго запрещены.</li>
+        </ul>
+        <p><strong>Управление ресурсами</strong></p>
+        <p>Держите ресурсы низкими во время события, чтобы избежать краж; отправляйте войска в форты при необходимости. Практикуйте No Value City (NVC).</p>
+        <p><strong>"Fair Play"</strong></p>
+        <ul class="roe-points">
+            <li>Применяется правило 50%.</li>
+            <li>Если вас атаковали, независимо от их мощи, вам разрешено атаковать любого в ответ. То есть, если игрок с мощью 1,000,000 атакует игрока с мощью 50,000,000, игрок с мощью 50,000,000 имеет полное право атаковать в ответ, если он этого хочет.</li>
         </ul>
     </li>
     <li>
         <h3>8. Процесс разрешения конфликтов</h3>
+        <p>Когда ROE нарушен, следует предпринять следующие шаги:</p>
         <ul class="roe-points">
-            <li>Когда ROE нарушен, следует предпринять следующие шаги:
-                <ol>
-                    <li>Свяжитесь с другим игроком, чтобы попытаться решить. Если нет решения в течение 24 часов, эскалируйте к вашему клановому дипломату.</li>
-                    <li>Если решение не достигнуто между клановыми дипломатами, они могут вынести вопрос в Суд, разместив его в #K273/CLAIMS. Только лидеры клана или дипломаты могут публиковать претензии в этом чате.</li>
-                    <li>Судьи вынесут решение, чтобы определить виновную сторону (если есть) и приемлемую сумму компенсации.</li>
-                    <li>Если виновная сторона (или ее клан) отказывается компенсировать, Королевский Суд определит, следует ли объявить игрока или клан вне закона, и Королевская Гвардия будет активирована в ожидании.</li>
-                </ol>
-            </li>
+            <li>Свяжитесь с другим игроком, чтобы попытаться решить. Если нет решения в течение 24 часов, эскалируйте к вашему клановому дипломату.</li>
+            <li>Если решение не достигнуто между клановыми дипломатами, они могут вынести вопрос в Суд, разместив его в #K273/CLAIMS. Только лидеры клана или дипломаты могут публиковать претензии в этом чате.</li>
+            <li>Судьи вынесут решение, чтобы определить виновную сторону (если есть) и приемлемую сумму компенсации.</li>
+            <li>Если виновная сторона (или ее клан) отказывается компенсировать, Архон или Главный судья определит, следует ли объявить игрока или клан вне закона, и Королевская Гвардия будет активирована в ожидании.</li>
         </ul>
     </li>
     <li>
@@ -3645,6 +3754,7 @@ ru: {
             <li>~#K273/CPTHUNDERDOME</li>
             <li>~#K273tbxyz</li>
             <li>~#K273/ACADEMY</li>
+            <li>K273 TB Library</li>
         </ul>
     </li>
 </ol>
