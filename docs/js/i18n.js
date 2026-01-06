@@ -63,7 +63,7 @@ en: {
                 "palace.image.alt": "TotalBattle palace",
                 "palace.roe.eyebrow": "ROE",
                 "palace.roe.title": "Rules of Engagement",
-                "palace.roe.subtitle": "Kingdom guidelines for combat and conduct.<br>English version is the official ROE (Translations via AI)<br>Last Updated 12/31/2025",
+                "palace.roe.subtitle": "Kingdom guidelines for combat and conduct.<br>English version is the official ROE (Translations via AI)<br>Last Updated 1/6/2025",
                 "palace.back": "← Back to Home",
                 "calculator.title": "TotalBattle Damage Calculator",
                 "calculator.hero.eyebrow": "K273 | Illegal Attack Calculator",
@@ -222,7 +222,8 @@ en: {
         <ul class="roe-points">
             <li>Attacks on cities are forbidden except during CoT and planned CP exchanges.</li>
             <li>Attacks on clan buildings are prohibited.</li>
-            <li>Portals may be attacked at any time outside of a clan's territories. No might limit or 50% rule required. Hostile portals may be attacked at any time regardless of location. Hostile portals include attacks on clan buildings, members, and all game resources (including seasonal event resources). Attacking portals in clan territories for clan activities is not allowed unless hostile.</li>
+            <li>Peacetime Portals: No touchy or boop boops unless CoT. This means no attacking any portals anywhere unless proven hostile. Hostile portals include attacks on clan’s buildings, members, and all game resources (including seasonal event resources). Attacking portals in clan territories for clan activities is not allowed unless hostile.</li>
+            <li>CoT Portal Rules: No restrictions.</li>
             <li>Scouting is a form of aggression and is illegal during peacetime.</li>
             <li>If you are attacked, regardless of their might, you are allowed to attack anyone back at any time. Meaning, if a 1,000,000 might player attacks a 50,000,000 might player, the 50,000,000 might player has full rights to attack back if they choose.</li>
         </ul>
@@ -438,7 +439,7 @@ fi: {
                 "palace.image.alt": "TotalBattle palatsi",
                 "palace.roe.eyebrow": "ROE",
                 "palace.roe.title": "Sotatoimien säännöt",
-                "palace.roe.subtitle": "Kuningaskunnan ohjeet taisteluun ja käytökseen.<br>Englanninkielinen versio on virallinen ROE (Käännökset AI:n avulla)<br>Päivitetty 12/31/2025",
+                "palace.roe.subtitle": "Kuningaskunnan ohjeet taisteluun ja käytökseen.<br>Englanninkielinen versio on virallinen ROE (Käännökset AI:n avulla)<br>Päivitetty 1/6/2025",
                 "palace.back": "← Takaisin etusivulle",
                 "calculator.title": "TotalBattle Vahinkolaskuri",
                 "calculator.hero.eyebrow": "K273 | Laittoman hyökkäyksen laskuri",
@@ -547,77 +548,126 @@ fi: {
 <p class="roe-intro">Kuningas Arihelmin määräyksestä seuraava ROE on voimassa kuningaskunnassa:</p>
 <ol class="roe-list">
     <li>
-        <h3>1. RAUHANAIKA</h3>
+        <h3>K273:n yleinen pelaajasopimus</h3>
+        <ol>
+            <li>Kuningaskunta K273 noudattaa IKFPA-sopimusta, joka luotiin kuningas Arcadian valtakaudella, ja odottaa jokaisen jäsenen noudattavan sitä, erityisesti kuningaskunnan avautumisen jälkeen.</li>
+            <li>ROE on voimassa välittömästi ja sitä voidaan muuttaa.</li>
+            <li>Jokaisella muutoksella on 24 tunnin siirtymäaika, jotta muut voivat sopeutua eri aikavyöhykkeiden vuoksi.</li>
+            <li>Kunnioita kaikkia, joiden kanssa olet tekemisissä.</li>
+            <li>Rasistista, vihamielistä, halventavaa tai uhkaavaa kieltä kohtaan on nollatoleranssi.</li>
+            <li>Rikkomuksista voi ilmoittaa kuninkaalle/kuningattarelle tai kuninkaan oikealle kädelle.</li>
+            <li>Heille voidaan antaa negatiivinen titteli ja/tai lainsuojattoman status.</li>
+            <li>Uhkaus ja kiusaaminen otetaan erittäin vakavasti, sillä ne ovat TOTAL BATTLE -käytännesääntöjen vastaisia. Kuningaskunnan chat on paikka, jossa kaikkien tulee tuntea olonsa tervetulleeksi.</li>
+            <li>Kuningaskuntaa pidetään rauhanomaisena kaikkina aikoina.</li>
+        </ol>
+    </li>
+    <li>
+        <h3>Kuningaskuntien välinen reilun pelin sopimus (IKFPA) -säännöt</h3>
+        <p>Nämä ovat yleisiä sopimuksia eri kuningaskuntien välillä K273:n avautuessa. Ne eivät ole tiukkoja sääntöjä, mutta kuningaskunnat rohkaisevat noudattamaan niitä.</p>
+        <ol>
+            <li>Ei vihapuhetta.</li>
+            <li>Ei hyökkäyksiä klaanirakennuksiin, muistoportaaleihin tai alle 100K mightin pelaajiin.</li>
+            <li>Kaikki RSS-ruudut ovat suojattuja hyökkäyksiltä paitsi PvP-tapahtumien aikana. PvP-tapahtumia ovat: CoT, KvK, War Tools, Gold / Silver Rush, War Games, Lava Trials (ei sisällä erityisesti Ruthless Slaughteria).</li>
+            <li>Linnoitushyökkäykset muihin kuningaskuntiin johtavat välittömään lainsuojattomuuteen kuningaskunnan ROE:n mukaisesti.</li>
+            <li>Korvaukset rikkomuksista sovitaan 48 tunnin kuluessa (IKFPA:ta ei valvo mikään yksittäinen taho).</li>
+        </ol>
+    </li>
+    <li>
+        <h3>Kuningaskunnan viranomaiset - Palatsi</h3>
         <ul class="roe-points">
-            <li>Kaupunkien hyökkäykset ovat kiellettyjä paitsi CoT:n aikana ja suunnitelluissa CP-vaihdoissa.</li>
-            <li>Hyökkäykset portaalien ja klaanirakennusten kimppuun ovat kiellettyjä. Ellei portaali ole todistetusti vihamielinen klaanille ja tai sen resursseille sen alueella.</li>
-            <li>Tiedustelu on aggression muoto.</li>
+            <li>Palatsi vastaa kunnian, rehellisyyden ja rauhan ylläpidosta K273:ssa ja muiden kuningaskuntien kanssa.</li>
+            <li>Kuningas valitaan edustamaan K273:n kansalaisia ja johtamaan palatsia.</li>
+            <li>Kuningatar ja kuninkaan oikea käsi vastaavat kuningaskunnan asioiden koordinoinnista ja voivat puhua kuninkaan puolesta hänen poissa ollessaan.</li>
+            <li>Kuningas, kuningatar ja kuninkaan oikea käsi vastaavat rahaston hallinnasta kuningaskunnan pelaajien puolesta.</li>
+            <li>Kuningattaren ja kuninkaan oikean käden on oltava eri klaaneista.</li>
         </ul>
     </li>
     <li>
-        <h3>2. DIPLOMAATIT</h3>
+        <h3>Klaanijohtajien velvollisuudet</h3>
+        <p>Kaikkien klaanijohtajien on täytettävä velvollisuutensa johtajina:</p>
         <ul class="roe-points">
-            <li>Klaanien on nimettävä vähintään yksi diplomaatti klaanikuvaussaan, joka voi auttaa kiistojen ratkaisussa. Diplomaatin on oltava aktiivinen johtaja tai ylempi.</li>
+            <li>Kunnioittaa ROE:ta (Rules of Engagement).</li>
+            <li>Varmistaa, että heidän jäsenensä kunnioittavat ja noudattavat ROE:ta.</li>
+            <li>Kouluttaa jäseniään tukeakseen kuningaskunnan kasvua ja yhtenäisyyttä.</li>
+            <li>Johtaja, joka epäonnistuu näissä sitoumuksissa, julistetaan lainsuojattomaksi. &gt;=D</li>
+            <li>Johtajat ovat kuningaskunnan esimerkki ja standardi, ja heidän tekonsa näyttävät tien kaikille jäsenille.</li>
+        </ul>
+    </li>
+    <li>
+        <h3>1. RAUHANAIKA</h3>
+        <ul class="roe-points">
+            <li>Kaupunkien hyökkäykset ovat kiellettyjä paitsi CoT:n aikana ja suunnitelluissa CP-vaihdoissa.</li>
+            <li>Hyökkäykset klaanirakennuksiin ovat kiellettyjä.</li>
+            <li>Rauhanajan portaalit: Ei kosketa tai boop boop -hyökkäyksiä ilman CoT:ia. Tämä tarkoittaa, ettei portaalien hyökkääminen ole sallittua missään, ellei portaalia ole todistettu vihamieliseksi. Vihamielisiin portaaleihin kuuluvat hyökkäykset klaanien rakennuksiin, jäseniin ja kaikkiin pelin resursseihin (mukaan lukien kausitapahtumien resurssit). Portaaleihin hyökkääminen klaanialueilla klaanitoimintoja varten ei ole sallittua, ellei portaali ole vihamielinen.</li>
+            <li>CoT-portaalisäännöt: Ei rajoituksia.</li>
+            <li>Tiedustelu on aggression muoto ja on laitonta rauhan aikana.</li>
+            <li>Jos sinua hyökätään, riippumatta heidän mightistaan, sinulla on oikeus hyökätä ketä tahansa takaisin milloin tahansa. Toisin sanoen, jos 1,000,000 mightin pelaaja hyökkää 50,000,000 mightin pelaajan kimppuun, 50,000,000 mightin pelaajalla on täysi oikeus hyökätä takaisin, jos hän niin haluaa.</li>
+        </ul>
+    </li>
+    <li>
+        <h3>2. KLAANIT &amp; DIPLOMAATIT</h3>
+        <ul class="roe-points">
+            <li>Klaanien tulisi ilmoittaa "We abide by K273 ROE", jotta kuningaskunta palvelee heitä ja he ovat ROE:n suojaamia.</li>
+            <li>Klaanien on nimettävä vähintään yksi diplomaatti klaanikuvauksen alkuun, joka voi auttaa riitojen ratkaisussa. Diplomaatin on oltava aktiivinen johtaja tai ylempi.</li>
         </ul>
     </li>
     <li>
         <h3>3. Yleiset säännöt</h3>
         <ul class="roe-points">
-            <li>Kaikki klaanin alueella olevat resurssirakennukset kuuluvat kyseiselle klaanille.</li>
-            <li>Mukaan lukien WS ja DMs.</li>
-            <li>Pelaajan luomat resurssit kuuluvat ne luoneelle henkilölle, ellei sovita jakamisesta kahden osapuolen välillä.</li>
-            <li>Harvinaiset kryptat kuuluvat sen avanneelle henkilölle.</li>
+            <li>Kaikki klaanin alueella olevat resurssirakennukset kuuluvat kyseiselle klaanille. Tämä sisältää kausitapahtumien resurssit.</li>
+            <li>Pelaajien luomat resurssit kuuluvat niiden luoneelle henkilölle, ellei kahden osapuolen välillä sovita jakamisesta.</li>
+            <li>Harvinaiset kryptat kuuluvat niiden avaajalle.</li>
             <li>WS ja DMs:
                 <ul>
-                    <li>a. Rekisteröintijärjestelmää ei enää ole.</li>
-                    <li>b. Kaikki villit resurssirakennukset (mukaan lukien DM/WS) ovat saapumisjärjestyksessä (FCFS).</li>
-                    <li>c. Vaateita ei voi esittää, jos sinua scoutataan/hyökätään villiresursseissa, ellei:
+                    <li>a. Rekisteröintijärjestelmää ei ole. Kaikki villit resurssirakennukset (mukaan lukien DM/WS) ovat saapumisjärjestyksessä (FCFS).</li>
+                    <li>c. Vaatimuksia ei voi esittää, jos sinua tiedustellaan/hyökätään villiresursseissa, ellei
                         <ul>
-                            <li>Menetät rakennuksen.</li>
-                            <li>Sinua scoutataan/hyökätään ja sitten hyökätään uudelleen. (2x-sääntö)</li>
+                            <li>Menetät resurssin.</li>
+                            <li>Sinua tiedustellaan/hyökätään ja sitten hyökätään uudelleen. (2x-sääntö)</li>
                         </ul>
                     </li>
-                    <li>d. On sinun vastuullasi viestittää diplomaatillesi, toiselle pelaajalle ja heidän diplomaatti/klaanijohtajalle, jos joku scouttaa sinua tai hyökkää sinuun kaivoksessa.</li>
+                    <li>d. On sinun vastuullasi viestiä diplomaatillesi, toiselle pelaajalle ja vastapuolen diplomaatti/klaanijohtajalle, jos joku tiedustelee sinua tai hyökkää sinuun kaivoksessa.</li>
                 </ul>
             </li>
         </ul>
     </li>
     <li>
-        <h3>4. PALATSIN KORVAUSOPAS --</h3>
+        <h3>4. PALATSIN KORVAUSOPAS</h3>
+        <p>Katso k273tb.xyz korvauslaskuria varten.</p>
         <ul class="roe-points">
-            <li>Jokaisesta hyökkäyksestä tai scoutingista aiheutuu 1 miljoonan hopeain perusmaksu. Kaikki lisätappiot, vahingot tai varastetut resurssit lisätään tämän perusmaksun päälle.</li>
+            <li>Jokaisesta laittomasta hyökkäyksestä tai tiedustelusta peritään 1 miljoonan hopean perushinta. Kaikki lisätappiot, vahingot tai varastetut resurssit lisätään tämän perushinnan päälle.</li>
             <li>RSS: määrä yhtä suuri kuin varastettu määrä</li>
-            <li>Kulta: 1 Kulta = 3,000 Hopea tai kultakaivokset yhtä suuret kuin varastettu + 10% (uhrin päätöksellä)</li>
-            <li>Tar: 1 Tar = 1,000 Hopea</li>
+            <li>Kulta: 1 Kulta = 3,000 Hopeaa tai kultakaivokset yhtä suuri kuin varastettu + 10 % (uhrin päätöksen mukaan)</li>
+            <li>Terva: 1 Terva = 1,000 Hopeaa</li>
             <li>Kultaharkot = ei korvausta</li>
-            <li>Laittomasti suljettu portaali: 1M hopea (+1M laittomasta hyökkäyksestä itsestään)</li>
-            <li>Vahinko lasketaan seuraavan kaavan mukaan: Menetettyjen joukkojen vahinko lasketaan seuraavan kaavan mukaan:
+            <li>Laittomasti suljettu portaali: 1M hopeaa (+1M itse laittomasta hyökkäyksestä)</li>
+            <li>Vahinko lasketaan seuraavan kaavan mukaan: Kadonneiden joukkojen vahinko lasketaan seuraavan kaavan mukaan:
                 <ul>
-                    <li>Hero= 1.5k</li>
-                    <li>Captain= 1k</li>
-                    <li>Spearmen, Archers = Troops Level x 40</li>
-                    <li>Specialists, Riders = Troops Level x 80</li>
-                    <li>Spies= Troops Level x 100</li>
-                    <li>Griffins= Troops Level x 800</li>
-                    <li>Catapults, Walls Walls Level x 200</li>
-                    <li>Monsters III-VII (Monster Level ⁃ 2) x1.3k</li>
-                    <li>Monsters I & ll=x 8.64k</li>
-                    <li>Mercenary Guard Troops Level x120</li>
-                    <li>Mercenary Monster = Monster Level x 3k</li>
+                    <li>Sankari = 1.5k</li>
+                    <li>Kapteeni = 1k</li>
+                    <li>Keihäsmiehet, Jousimiehet = joukkojen taso x 40</li>
+                    <li>Erikoisjoukot, Ratsastajat = joukkojen taso x 80</li>
+                    <li>Vakoilijat = joukkojen taso x 100</li>
+                    <li>Griffinit = joukkojen taso x 800</li>
+                    <li>Katapultit, muurit = muurien taso x 200</li>
+                    <li>Hirviöt III-VII (hirviön taso - 2) x 1.3k</li>
+                    <li>Hirviöt I &amp; II = x 8.64k</li>
+                    <li>Palkkasoturi-guardsmen = joukkojen taso x 120</li>
+                    <li>Palkkasoturihirviö = hirviön taso x 3k</li>
                 </ul>
             </li>
-            <li>-LINNAKKEET -
+            <li>- LINNOITUKSET -
                 <ul>
-                    <li>Scouting = 5 million hopea</li>
-                    <li>Attacking without destroying = 10 million hopea</li>
-                    <li>Attacking and destroying = 20 million of each Hopea, Iron, Wood, Stone</li>
+                    <li>Tiedustelu = 5 miljoonaa hopeaa</li>
+                    <li>Hyökkäys ilman tuhoamista = 10 miljoonaa hopeaa</li>
+                    <li>Hyökkäys ja tuhoaminen = 20 miljoonaa kutakin Hopeaa, Rautaa, Puuta, Kiveä</li>
                 </ul>
             </li>
             <li>- PÄÄKAUPUNGIT -
                 <ul>
-                    <li>Scouting = 5 million hopea</li>
-                    <li>Attacking without destroying = 10 million hopea</li>
-                    <li>Attacking and destroying = 50 million of each Hopea, Iron, Wood, Stone</li>
+                    <li>Tiedustelu = 5 miljoonaa hopeaa</li>
+                    <li>Hyökkäys ilman tuhoamista = 10 miljoonaa hopeaa</li>
+                    <li>Hyökkäys ja tuhoaminen = 50 miljoonaa kutakin Hopeaa, Rautaa, Puuta, Kiveä</li>
                 </ul>
             </li>
         </ul>
@@ -625,16 +675,16 @@ fi: {
     <li>
         <h3>5. VEROT</h3>
         <ul class="roe-points">
-            <li>Kaupungit, joilla on yli 3 päivää kertyneitä harkkoja, voidaan hyökätä kuninkaallisen kaartin jäsenen toimesta 24 tunnin varoituksen jälkeen. Kultaharkoilla ei ole henkilökohtaista arvoa sinulle, mutta Kuningas voi käyttää niitä bonusien aktivoimiseen koko kuningaskunnalle. Jos meillä on kultaharkot, niitä käytetään K273:n hyväksi.</li>
-            <li>Enimmäismäärä kultaharkkoja per kaupunki:
+            <li>Kaupunkeihin, joilla on yli 3 päivän kertymä harkkoja, voidaan hyökätä Kuninkaallisen Kaartin jäsenen toimesta 24 tuntia sen jälkeen, kun pelaajaa ja klaanijohtajaa on varoitettu. Kultaharkot eivät ole sinulle henkilökohtaisesti minkään arvoisia, mutta kuningas ja palatsi voivat käyttää niitä bonusten kytkemiseen koko kuningaskunnalle. Jos meillä on kultaharkot, niitä käytetään K273:n hyödyksi.</li>
+            <li>Enimmäiskultaharkot per kaupunki:
                 <ul>
-                    <li>Kaupunki 1-9: 2000 Ingots</li>
-                    <li>Kaupunki 10-19: 3000 Ingots</li>
-                    <li>Kaupunki 20-24: 10000 Ingots</li>
-                    <li>Kaupunki 25-29: 35000 Ingots</li>
-                    <li>Kaupunki 30-34: 60000 Ingots</li>
-                    <li>Kaupunki 35-39: 70000 Ingots</li>
-                    <li>Kaupunki 40+: 90000 Ingots</li>
+                    <li>Kaupunki 1-9: 2000 harkkoa</li>
+                    <li>Kaupunki 10-19: 3000 harkkoa</li>
+                    <li>Kaupunki 20-24: 10000 harkkoa</li>
+                    <li>Kaupunki 25-29: 35000 harkkoa</li>
+                    <li>Kaupunki 30-34: 60000 harkkoa</li>
+                    <li>Kaupunki 35-39: 70000 harkkoa</li>
+                    <li>Kaupunki 40+: 90000 harkkoa</li>
                 </ul>
             </li>
         </ul>
@@ -644,44 +694,51 @@ fi: {
         <ul class="roe-points">
             <li>Jokaisen pelaajan on noudatettava näitä sääntöjä ollakseen ROE:n suojaama. Pelaajat, joita ei suojata, ovat:
                 <ul>
-                    <li>LAITTOMAT</li>
-                    <li>KLAANITTOMAT PELAAJAT</li>
+                    <li>LAINSUOJATTOMAT</li>
+                    <li>KLAANITTOMAT PELAAJAT (useimmat)</li>
                     <li>EI-ROE-JÄSENET</li>
                 </ul>
             </li>
-            <li>Laittomat – Jos yksilöt tai klaanit eivät ole halukkaita noudattamaan ROE:ta, jotka hyökkäävät klaanirakennuksiin tai kieltäytyvät maksamasta korvausta ROE-rikkomuksista, saavat laittoman statuksen. Nykyiset laittomat löytyvät #K273/OUTLAWS. Nykyinen laittomien lista pyyhitään puhtaaksi ja aloitetaan uusi. Tämä tarkoittaa, että kuningaskunnassa ei tällä hetkellä ole laittomia. Uusi kuninkaallinen kaarti jakaa vastuut kuningaskunnan avustamisessa.</li>
-            <li>Kuninkaallinen kaarti: Uusi kuninkaallinen kaarti koostuu monista klaaneista ja sillä on erittäin vahvoja pelaajia jäseninä. RG:n tehtävät jatkuvat normaalisti kuten verojen keruu ja Palatsin toimeenpano. Lisätehtäviin kuuluu nyt klaanien auttaminen laittomien kanssa ja kuningaskunnan auttaminen tarkasti. He toimivat myös eliittiarmeijana sekä kuningaskunnan/alueen partiointi- ja puolustusyksikkönä.</li>
-            <li>Lisäksi aktivoidaan suhteet kuningaskunnan suuriin klaaneihin avun tarjoamiseksi tarpeen mukaan.</li>
-            <li>Klaanittomat pelaajat, joiden might on 250k tai alle, ovat suojattuja eikä heitä saa vapaasti hyökätä.</li>
-            <li>Klaanittomat pelaajat, joiden might on alle 250k ja joita hyökätään, saavat vaatia 2x korvausmäärän.</li>
-            <li>Vuorovaikutusten näiden pelaajien kanssa tulisi ensiksi olla heidän ja heidän tavoitteidensa oppimista pelissä. Tämän jälkeen rohkaistaan liittymään klaaniin. Edistetään kasvua pelissä ja pelataan kuningaskunnan puolesta henkilökohtaisen palkkion sijaan.</li>
+            <li>Suojatut klaanittomat pelaajat: Kaikki pelaajat, joiden might on 100k tai vähemmän, ovat suojattuja eikä heihin saa hyökätä vapaasti. Vuorovaikutuksen klaanittomien pelaajien kanssa tulee ensin olla heidän taustansa ja tavoitteidensa selvittäminen pelissä, jota seuraa kannustus liittyä klaaniin. Edistä kasvua pelissä ja pelaa kuningaskunnan hyväksi henkilökohtaisen palkkion sijaan.</li>
         </ul>
-    </li>
-    <li>
-        <h3>7. Clash of Thrones  CoT</h3>
+        <p><strong>Lainsuojattoman status</strong></p>
+        <p>Valta julistaa kansalainen tai klaani lainsuojattomaksi tai peruuttaa olemassa oleva lainsuojattoman status kuuluu yksinomaan seuraaville kuningaskunnan valtuuksille:</p>
         <ul class="roe-points">
-            <li>Tänä aikana voit scoutata ja hyökätä kaupunkeihin seuraavin ehdoin:</li>
-            <li>Ei klaanilinnoituksen hyökkäyksiä: Toisen klaanin linnoitusten tai rakennusten hyökkääminen on ehdottomasti kiellettyä.</li>
-            <li>Portaalien hallinta: Might-rajoitusta ei sovelleta. Mikä tahansa portaali, joka on todistetusti vihamielinen klaanialueita kohtaan, voidaan hyökätä nopeasti oikeudella hyökkäyksen kohteena olevan klaanin toimesta. Klaanimarssit ovat täysin sallittuja vihamielisten portaalien sulkemiseksi. Normaalin rauhan aikana portaalien kimppuun ei saa hyökätä missään vaiheessa, ellei niitä todisteta vihamielisiksi.</li>
-            <li>Resurssien hallinta: Pidä resurssit matalina tapahtuman aikana varkauden välttämiseksi; lähetä joukkoja linnoituksiin tarvittaessa. Harjoita No Value City (NVC)</li>
-            <li>"Fair Play": Hyökkääminen huomattavasti heikomman kimppuun (esim. alle puolet omasta mightista) katsotaan usein huonoksi urheiluhengeksi eikä ole sallittua. Ainoa poikkeus on vihamielinen portaali. Portaalit, jotka pelaajat jättävät auki ja joiden kautta muut jäsenet hyökkäävät, ovat edelleen syyllisiä portaalin auki jättämiseen ja niihin voidaan hyökätä riippumatta heidän mightistaan. Hyökkäysraportti on toimitettava kaikissa tehdyissä vaateissa. Alle puolet omasta mightista ei ole sallittua. 50% sääntö pätee.</li>
+            <li>Kuningas, järjestyksen ja oikeuden ylin suojelija.</li>
+            <li>Kuninkaan oikea käsi, joka toimii kuninkaallisen vallan suorana edustajana.</li>
+            <li>Kuningatar, kuninkaallisen vallan yhteishaltijana.</li>
+            <li>Kuningaskunnan tuomioistuimen päätuomari, oikeuden suojelijan roolinsa perusteella.</li>
         </ul>
+        <p>Kukaan muu kuningaskunnan toimija ei voi ilman jonkin näistä valtuuksista myönnettyä nimenomaista valtuutusta julistaa kansalaista tai klaania lainsuojattomaksi. Luvattoman toimijan antama julistus on mitätön.</p>
+        <p><strong>Kuninkaallinen Kaarti</strong></p>
+        <p>Kuninkaallinen Kaarti koostuu monista klaaneista ja sen jäseninä on eri tasoisia pelaajia. RG:n tehtävät jatkuvat normaaleina velvollisuuksina kuten verojen keruu ja palatsin toimeenpano. He toimivat myös eliittiarmeijana sekä kuningaskunnan/alueen partio- ja puolustusyksikkönä. He ovat kuningaskunnan keihäänkärki ja ovat täällä auttamassa klaaneja, joilla on ongelmia pelaajien ja lainsuojattomien kanssa.</p>
     </li>
     <li>
-        <h3>8. Konfliktinratkaisuprosessi</h3>
+        <h3>7. Clash of Thrones (CoT)</h3>
         <ul class="roe-points">
-            <li>Kun ROE:ta rikotaan, seuraavat vaiheet tulisi ottaa:
-                <ol>
-                    <li>Ota yhteyttä toiseen pelaajaan ja yritä ratkaista. Jos ratkaisua ei synny 24 tunnin sisällä, eskaloi klaanidiplomaatillesi.</li>
-                    <li>Jos klaanidiplomaattien välillä ei saavuteta ratkaisua, he voivat viedä asian tuomioistuimen käsiteltäväksi julkaisemalla sen #K273/CLAIMS. Vain klaanijohtajat tai diplomaatit saavat julkaista vaateita tässä chatissa.</li>
-                    <li>Tuomarit ratkaisevat syyllisen osapuolen (jos sellainen on) ja hyväksyttävän korvaussumman.</li>
-                    <li>Jos syyllinen osapuoli (tai heidän klaaninsa) kieltäytyy korvaamasta, kuninkaallinen tuomioistuin päättää, tuleeko pelaaja tai klaani julistaa laittomaksi ja kuninkaallinen kaarti aktivoidaan valmiustilaan.</li>
-                </ol>
-            </li>
+            <li>Tapahtuman aikana voit tiedustella ja hyökätä kaupunkeihin seuraavilla ehdoilla:</li>
+            <li>Ei klaanilinnoitushyökkäyksiä: Toisen klaanin linnoituksiin tai rakennuksiin hyökkääminen on ehdottomasti kielletty.</li>
+        </ul>
+        <p><strong>Resurssien hallinta</strong></p>
+        <p>Pidä resurssit matalina tapahtuman aikana varkauksien välttämiseksi; lähetä joukot linnoituksiin tarvittaessa. Harjoittele No Value Cityä (NVC).</p>
+        <p><strong>"Reilu peli"</strong></p>
+        <ul class="roe-points">
+            <li>50 % sääntö on voimassa.</li>
+            <li>Jos sinua hyökätään, riippumatta heidän mightistaan, sinulla on oikeus hyökätä ketä tahansa takaisin. Toisin sanoen, jos 1,000,000 mightin pelaaja hyökkää 50,000,000 mightin pelaajan kimppuun, 50,000,000 mightin pelaajalla on täysi oikeus hyökätä takaisin, jos hän niin haluaa.</li>
         </ul>
     </li>
     <li>
-        <h3>9. Kuningaskunnan chatit liittymistä varten</h3>
+        <h3>8. Konfliktien ratkaisuprosessi</h3>
+        <p>Kun ROE:ta rikotaan, tulee tehdä seuraavat toimenpiteet:</p>
+        <ul class="roe-points">
+            <li>Ota yhteyttä toiseen pelaajaan ratkaistaksesi asian. Jos ratkaisua ei synny 24 tunnin kuluessa, siirrä asia klaanidiplomaatillesi.</li>
+            <li>Jos klaanidiplomaatit eivät pääse ratkaisuun, he voivat viedä asian oikeuden eteen julkaisemalla sen #K273/CLAIMS-kanavalla. Vain klaanijohtajat tai diplomaatit saavat julkaista vaatimuksia tässä chatissa.</li>
+            <li>Tuomarit ratkaisevat syyllisen osapuolen (jos sellainen on) ja hyväksyttävän korvauksen määrän.</li>
+            <li>Jos syyllinen osapuoli (tai heidän klaaninsa) kieltäytyy korvaamasta, Archon tai päätuomari päättää, pitäisikö pelaaja tai klaani julistaa lainsuojattomaksi, ja Kuninkaallinen Kaarti asetetaan valmiustilaan.</li>
+        </ul>
+    </li>
+    <li>
+        <h3>9. Kuningaskunnan chatit joihin liittyä</h3>
         <ul class="roe-points">
             <li>#K273/ROE</li>
             <li>#K273/CLAIMS</li>
@@ -689,6 +746,7 @@ fi: {
             <li>~#K273/CPTHUNDERDOME</li>
             <li>~#K273tbxyz</li>
             <li>~#K273/ACADEMY</li>
+            <li>K273 TB Library</li>
         </ul>
     </li>
 </ol>
@@ -757,7 +815,7 @@ no: {
                 "palace.image.alt": "TotalBattle palass",
                 "palace.roe.eyebrow": "ROE",
                 "palace.roe.title": "Engasjementsregler",
-                "palace.roe.subtitle": "Kongedømmets retningslinjer for kamp og opptreden.<br>Den engelske versjonen er den offisielle ROE (Oversettelser via AI)<br>Sist oppdatert 12/31/2025",
+                "palace.roe.subtitle": "Kongedømmets retningslinjer for kamp og opptreden.<br>Den engelske versjonen er den offisielle ROE (Oversettelser via AI)<br>Sist oppdatert 1/6/2025",
                 "palace.back": "← Tilbake til Hjem",
                 "calculator.title": "TotalBattle Skadekalkulator",
                 "calculator.hero.eyebrow": "K273 | Ulovlig angrepskalkulator",
@@ -863,80 +921,129 @@ no: {
                 "calc.output.iron": "Jern"
             },
             roeHtml: `
-<p class="roe-intro">På ordre fra Kong Arihelm er følgende ROE gjeldende for kongeriket:</p>
+<p class="roe-intro">På ordre fra Kong Arihelm gjelder følgende ROE for kongeriket:</p>
 <ol class="roe-list">
     <li>
-        <h3>1. FREDSTID</h3>
+        <h3>Generell K273-spilleravtale</h3>
+        <ol>
+            <li>Kongeriket K273 følger IKFPA-avtalen som ble etablert under Kong Arcadias styre og forventer at hvert medlem følger den, spesielt etter at kongeriket åpner.</li>
+            <li>ROE gjelder umiddelbart og kan endres.</li>
+            <li>Hver endring har en 24-timers buffer slik at andre kan tilpasse seg på tvers av tidssoner.</li>
+            <li>Vennligst respekter alle du kommer i kontakt med.</li>
+            <li>Det er nulltoleranse for rasistisk, hatefult, nedsettende eller truende språk.</li>
+            <li>Brudd kan rapporteres til Kongen/Dronningen eller Kongens høyre hånd.</li>
+            <li>De kan få en negativ tittel og/eller bli erklært fredløse.</li>
+            <li>Trusler tas svært alvorlig, og det samme gjelder mobbing, da dette bryter TOTAL BATTLEs Code of Conduct. Kingdom chat er et sted hvor alle skal føle seg velkomne.</li>
+            <li>Kongeriket anses som fredelig til enhver tid.</li>
+        </ol>
+    </li>
+    <li>
+        <h3>Inter-kongerikets avtale om fair play (IKFPA) regler</h3>
+        <p>Dette er generelle avtaler mellom ulike kongeriker når K273 åpner. De er ikke harde regler, men kongeriker oppfordres til å følge dem.</p>
+        <ol>
+            <li>Ingen hatprat.</li>
+            <li>Ingen angrep på klanbygninger, memorial portaler eller spillere under 100K might.</li>
+            <li>Alle RSS-felt er beskyttet mot angrep unntatt under PvP-events. PvP-events er: CoT, KvK, War Tools, Gold / Silver Rush, War Games, Lava Trials (inkluderer IKKE Ruthless Slaughter spesielt).</li>
+            <li>Fort-angrep på andre kongeriker gir umiddelbar fredløs-status per kongerikets ROE.</li>
+            <li>Kompensasjon for brudd avtales innen 48 timer (IKFPA håndheves ikke av en enkelt enhet).</li>
+        </ol>
+    </li>
+    <li>
+        <h3>Kongerikets embetsmenn - Palasset</h3>
         <ul class="roe-points">
-            <li>Angrep på byer er forbudt bortsett fra under CoT og planlagte CP-bytter.</li>
-            <li>Angrep på portaler og klanbygninger er forbudt. Med mindre portalen er bevist fiendtlig mot klanen og eller dens ressurser i territoriet.</li>
-            <li>Speiding er en form for aggresjon.</li>
+            <li>Palasset er ansvarlig for å opprettholde ære, integritet og fred innenfor K273 og med andre kongeriker.</li>
+            <li>Kongen er valgt for å representere innbyggerne i K273 og lede palasset.</li>
+            <li>Dronningen og Kongens høyre hånd er ansvarlige for å koordinere kongerikets saker og kan tale på Kongens vegne i hans fravær.</li>
+            <li>Kongen, Dronningen og Kongens høyre hånd er ansvarlige for forvaltningen av skattkammeret på vegne av kongerikets spillere.</li>
+            <li>Dronningen og Kongens høyre hånd må være fra forskjellige klaner.</li>
         </ul>
     </li>
     <li>
-        <h3>2. DIPLOMATER</h3>
+        <h3>Forpliktelser for klanledere</h3>
+        <p>Alle klanledere må oppfylle sine forpliktelser som ledere:</p>
         <ul class="roe-points">
-            <li>Klaner må identifisere minst én diplomat i klanbeskrivelsen som kan hjelpe med konfliktløsning. Diplomater må være en aktiv leder eller overordnet.</li>
+            <li>Å respektere ROE (Rules of Engagement).</li>
+            <li>Å sørge for at deres medlemmer respekterer og følger ROE.</li>
+            <li>Å utdanne medlemmene for å støtte vekst og enhet i kongeriket.</li>
+            <li>En leder som feiler i disse forpliktelsene skal erklæres fredløs. &gt;=D</li>
+            <li>Ledere er eksempelet og standarden for kongeriket, og deres handlinger setter retningen for alle medlemmer.</li>
+        </ul>
+    </li>
+    <li>
+        <h3>1. FREDSTID</h3>
+        <ul class="roe-points">
+            <li>Angrep på byer er forbudt unntatt under CoT og planlagte CP-utvekslinger.</li>
+            <li>Angrep på klanbygninger er forbudt.</li>
+            <li>Fredstid portaler: Ingen berøring eller boop boops uten CoT. Dette betyr ingen angrep på portaler noe sted med mindre de er bevist fiendtlige. Fiendtlige portaler inkluderer angrep på klanens bygninger, medlemmer og alle spillressurser (inkludert sesongressurser). Å angripe portaler i klanterritorium for klanaktiviteter er ikke tillatt med mindre de er fiendtlige.</li>
+            <li>CoT portalregler: Ingen restriksjoner.</li>
+            <li>Speiding er en form for aggresjon og er ulovlig i fredstid.</li>
+            <li>Hvis du blir angrepet, uansett deres might, har du lov til å angripe hvem som helst tilbake når som helst. Det betyr at hvis en spiller med 1,000,000 might angriper en spiller med 50,000,000 might, har 50,000,000-might-spilleren full rett til å angripe tilbake hvis de ønsker.</li>
+        </ul>
+    </li>
+    <li>
+        <h3>2. KLANER &amp; DIPLOMATER</h3>
+        <ul class="roe-points">
+            <li>Klaner bør skrive "We abide by K273 ROE" for å bli betjent av kongeriket og beskyttet av ROE.</li>
+            <li>Klaner må identifisere minst én diplomat øverst i klanbeskrivelsen som kan hjelpe med tvisteløsning. Diplomater må være aktive ledere eller overordnede.</li>
         </ul>
     </li>
     <li>
         <h3>3. Generelle regler</h3>
         <ul class="roe-points">
-            <li>Alle ressursbygninger innenfor klanens territorium tilhører den klanen.</li>
-            <li>Inkludert WS og DMs.</li>
-            <li>Spillerskapte ressurser tilhører personen som opprettet dem med mindre det er avtalt å dele mellom to parter.</li>
-            <li>Sjeldne kryptene tilhører personen som låste dem opp.</li>
+            <li>Alle ressursbygninger innenfor klanterritoriet tilhører den klanen. Dette inkluderer sesongevent-ressurser.</li>
+            <li>Ressurser laget av spillere tilhører den som laget dem med mindre to parter blir enige om å dele.</li>
+            <li>Sjeldne kryptor tilhører den som åpnet dem.</li>
             <li>WS og DMs:
                 <ul>
-                    <li>a. Det finnes ikke lenger et registreringssystem.</li>
-                    <li>b. Alle ville ressursbygninger (inkludert DM/WS) er førstemann til mølla (FCFS).</li>
-                    <li>c. Krav kan ikke gjøres hvis du blir speidet/angrepet i ville ressurser med mindre:
+                    <li>a. Det finnes ikke noe registreringssystem. Alle ville ressursbygninger (inkludert DM/WS) er førstemann til mølla (FCFS).</li>
+                    <li>c. Krav kan ikke gjøres hvis du blir speidet/angrepet i ville ressurser med mindre
                         <ul>
-                            <li>Du mister bygningen.</li>
+                            <li>Du mister ressursen.</li>
                             <li>Du blir speidet/angrepet og deretter angrepet igjen. (2x-regel)</li>
                         </ul>
                     </li>
-                    <li>d. Det er ditt ansvar å sende melding til diplomaten din, den andre spilleren og deres diplomat/klanleder hvis noen speider deg eller angriper deg i en gruve.</li>
+                    <li>d. Det er ditt ansvar å sende melding til din diplomat, den andre spilleren og den motsatte diplomaten/klanlederen hvis noen speider deg eller angriper deg i en gruve.</li>
                 </ul>
             </li>
         </ul>
     </li>
     <li>
-        <h3>4. KOMPENSASJONSGUIDE FOR PALASSET --</h3>
+        <h3>4. PALASSETS KOMPENSASJONSGUIDE</h3>
+        <p>Se k273tb.xyz for kompensasjonskalkulator.</p>
         <ul class="roe-points">
-            <li>Hvert angrep eller scouting har en grunnkostnad på 1 million sølv. Eventuelle ekstra tap, skader eller stjålne ressurser legges til på toppen av denne grunnkostnaden.</li>
-            <li>RSS: beløp lik mengden som er stjålet</li>
-            <li>Gull: 1 Gull = 3,000 Sølv eller gullgruver likt stjålet + 10% (etter offerets beslutning)</li>
+            <li>Hvert ulovlige angrep eller speiding har en grunnkostnad på 1 million sølv. Eventuelle tilleggstap, skader eller stjålne ressurser legges til denne grunnkostnaden.</li>
+            <li>RSS: beløp likt beløpet som ble stjålet</li>
+            <li>Gull: 1 Gull = 3,000 Sølv eller gullgruver likt stjålet + 10 % (etter offerets beslutning)</li>
             <li>Tar: 1 Tar = 1,000 Sølv</li>
             <li>Gullbarrer = ingen kompensasjon</li>
-            <li>Ulovlig lukket portal: 1M sølv (+1M for det ulovlige angrepet i seg selv)</li>
-            <li>Skade beregnes etter følgende formel: Tap av tropper beregnes etter følgende formel:
+            <li>Ulovlig lukket portal: 1M sølv (+1M for selve det ulovlige angrepet)</li>
+            <li>Skade beregnes etter følgende formel: Skade for tapte tropper beregnes etter følgende formel:
                 <ul>
-                    <li>Hero= 1.5k</li>
-                    <li>Captain= 1k</li>
-                    <li>Spearmen, Archers = Troops Level x 40</li>
-                    <li>Specialists, Riders = Troops Level x 80</li>
-                    <li>Spies= Troops Level x 100</li>
-                    <li>Griffins= Troops Level x 800</li>
+                    <li>Hero = 1.5k</li>
+                    <li>Captain = 1k</li>
+                    <li>Spearmen, Archers = Troppnivå x 40</li>
+                    <li>Specialists, Riders = Troppnivå x 80</li>
+                    <li>Spies = Troppnivå x 100</li>
+                    <li>Griffins = Troppnivå x 800</li>
                     <li>Catapults, Walls Walls Level x 200</li>
-                    <li>Monsters III-VII (Monster Level ⁃ 2) x1.3k</li>
-                    <li>Monsters I & ll=x 8.64k</li>
-                    <li>Mercenary Guard Troops Level x120</li>
+                    <li>Monsters III-VII (Monster Level - 2) x 1.3k</li>
+                    <li>Monsters I &amp; II = x 8.64k</li>
+                    <li>Mercenary Guard Troops Level x 120</li>
                     <li>Mercenary Monster = Monster Level x 3k</li>
                 </ul>
             </li>
-            <li>-FORTER -
+            <li>- FORTER -
                 <ul>
-                    <li>Scouting = 5 million sølv</li>
-                    <li>Attacking without destroying = 10 million sølv</li>
-                    <li>Attacking and destroying = 20 million of each Sølv, Iron, Wood, Stone</li>
+                    <li>Speiding = 5 millioner sølv</li>
+                    <li>Angrep uten å ødelegge = 10 millioner sølv</li>
+                    <li>Angrep og ødeleggelse = 20 millioner av hver Sølv, Jern, Tre, Stein</li>
                 </ul>
             </li>
             <li>- HOVEDSTADER -
                 <ul>
-                    <li>Scouting = 5 million sølv</li>
-                    <li>Attacking without destroying = 10 million sølv</li>
-                    <li>Attacking and destroying = 50 million of each Sølv, Iron, Wood, Stone</li>
+                    <li>Speiding = 5 millioner sølv</li>
+                    <li>Angrep uten å ødelegge = 10 millioner sølv</li>
+                    <li>Angrep og ødeleggelse = 50 millioner av hver Sølv, Jern, Tre, Stein</li>
                 </ul>
             </li>
         </ul>
@@ -944,16 +1051,16 @@ no: {
     <li>
         <h3>5. SKATTER</h3>
         <ul class="roe-points">
-            <li>Byer med over 3 dager med opptjente ingots kan angripes av et medlem av Den Kongelige Gard etter å ha fått 24 timers varsel. Gull-ingots har ingen personlig verdi for deg, men Kongen kan bruke dem til å slå på bonuser for hele kongeriket. Hvis vi har gullbarrene, vil de brukes til fordel for K273.</li>
-            <li>Maksimale gull-ingots per by:
+            <li>Byer med mer enn 3 dagers opptjente barrer kan angripes av et medlem av Den Kongelige Garden 24 timer etter at spilleren og klanlederen er advart. Gullbarrer har null verdi for deg personlig, men Kongen og Palasset kan bruke dem til å aktivere bonuser for hele kongeriket. Hvis vi har gullbarrer, brukes de til fordel for K273.</li>
+            <li>Maksimale gullbarrer per by:
                 <ul>
-                    <li>By 1-9: 2000 Ingots</li>
-                    <li>By 10-19: 3000 Ingots</li>
-                    <li>By 20-24: 10000 Ingots</li>
-                    <li>By 25-29: 35000 Ingots</li>
-                    <li>By 30-34: 60000 Ingots</li>
-                    <li>By 35-39: 70000 Ingots</li>
-                    <li>By 40+: 90000 Ingots</li>
+                    <li>By 1-9: 2000 barrer</li>
+                    <li>By 10-19: 3000 barrer</li>
+                    <li>By 20-24: 10000 barrer</li>
+                    <li>By 25-29: 35000 barrer</li>
+                    <li>By 30-34: 60000 barrer</li>
+                    <li>By 35-39: 70000 barrer</li>
+                    <li>By 40+: 90000 barrer</li>
                 </ul>
             </li>
         </ul>
@@ -963,40 +1070,47 @@ no: {
         <ul class="roe-points">
             <li>Hver spiller må følge disse reglene for å være beskyttet av ROE. Spillere som ikke er beskyttet er:
                 <ul>
-                    <li>UTLAGTE</li>
-                    <li>KLANLØSE SPILLERE</li>
-                    <li>IKKE-ROE-MEDLEMMER</li>
+                    <li>FREDLØSE</li>
+                    <li>KLANLØSE SPILLERE (de fleste)</li>
+                    <li>IKKE-ROE MEDLEMMER</li>
                 </ul>
             </li>
-            <li>Utlagte – Hvis individer eller klaner ikke er villige til å følge ROE, som angriper klanbygninger, eller nekter å betale kompensasjon for ROE-brudd vil få status som utlagt. Nåværende utlagte finnes på #K273/OUTLAWS. Den nåværende listen over utlagte vil bli strøket og starte på nytt. Dette betyr at det for øyeblikket ikke finnes utlagte i kongeriket. Den nye Kongelige Gard vil dele ansvar i hjelp til kongeriket.</li>
-            <li>Kongelig garde: Den nye Kongelige Gard består av mange klaner og har veldig sterke spillere som medlemmer. RGs oppgaver vil fortsette sine normale oppgaver som skatteinnkreving og håndheving for Palasset. Ekstra oppgaver vil nå inkludere assistanse til å hjelpe klaner med utlagte og kongeriket med presisjon. De vil også fungere som en elitehær og en patrulje- og forsvarsenhet for kongeriket/territoriet.</li>
-            <li>I tillegg til å aktivere relasjoner med de større klanene i kongeriket for å assistere ved behov.</li>
-            <li>Klanløse spillere på eller under 250k might er beskyttet og skal ikke angripes fritt.</li>
-            <li>Klanløse spillere under 250k might som blir angrepet er tillatt 2x kompensasjonsbeløpet i krav.</li>
-            <li>Interaksjoner med disse spillerne bør først være å lære om dem og deres mål i spillet. Deretter oppmuntre til å bli med i en klan. Fremme vekst i spillet og spill for kongeriket versus personlig belønning.</li>
+            <li>Beskyttede klanløse spillere: Alle spillere på eller under 100k might er beskyttet og skal ikke angripes fritt. Interaksjoner med klanløse spillere bør først være å lære om dem og deres mål i spillet, etterfulgt av oppfordring til å bli med i en klan. Frem dyrking i spillet og spill for kongeriket fremfor personlig belønning.</li>
         </ul>
+        <p><strong>Fredløs-status</strong></p>
+        <p>Myndigheten til å erklære en borger eller en klan fredløs, eller å oppheve en eksisterende fredløs-status, ligger utelukkende hos følgende myndigheter i Kongeriket:</p>
+        <ul class="roe-points">
+            <li>Kongen, øverste beskytter av orden og rettferdighet.</li>
+            <li>Kongens høyre hånd, som fungerer som den direkte representanten for kongelig myndighet.</li>
+            <li>Dronningen, som medinnehaver av den kongelige myndigheten.</li>
+            <li>Hoveddommeren i Kongerikets tribunal, i kraft av sin rolle som rettferdighetens vokter.</li>
+        </ul>
+        <p>Ingen annen aktør i Kongeriket kan, uten et uttrykkelig mandat gitt av en av disse myndighetene, erklære en borger eller en klan fredløs. Enhver erklæring utstedt av en uautorisert aktør er ugyldig.</p>
+        <p><strong>Den Kongelige Garden</strong></p>
+        <p>Den Kongelige Garden består av mange klaner og har spillere på ulike nivåer som medlemmer. RG-oppgavene vil fortsette sine normale oppgaver som skatteinnkreving og håndheving for Palasset. De vil også fungere som en elitehær og en patrulje- og forsvarsenhet for kongeriket/territoriet. De er spydspissen for kongeriket og er her for å hjelpe klaner som har problemer med spillere og fredløse.</p>
     </li>
     <li>
-        <h3>7. Clash of Thrones  CoT</h3>
+        <h3>7. Clash of Thrones (CoT)</h3>
         <ul class="roe-points">
-            <li>Under kan du speide og angripe byer under følgende betingelser:</li>
-            <li>Ingen klanfort-angrep: Å angripe en annen klans fort eller bygninger er strengt forbudt.</li>
-            <li>Portaladministrasjon: Ingen might-begrensning gjelder. Enhver portal som er bevist fiendtlig mot klanens territorier kan angripes med rask rettferdighet av klanen som blir angrepet. Klanmarsjer er fullt tillatt for å lukke fiendtlige portaler. Under normal fredstid kan portaler ikke angripes på noe tidspunkt med mindre de er bevist fiendtlige.</li>
-            <li>Ressursadministrasjon: Hold ressurser lave under arrangementet for å unngå tyveri; send tropper til fort hvis nødvendig. Praktiser No Value City (NVC)</li>
-            <li>"Fair Play": Å angripe noen som er betydelig svakere (f.eks. under halvparten av din might) anses ofte som dårlig sportsånd og er ikke tillatt. Den eneste instansen det er tillatt er for en fiendtlig portal. Portaler som blir stående åpne av spillere som har andre medlemmer angrep gjennom dem, er fortsatt i feil for å ha latt portalen stå åpen og kan angripes uavhengig av deres might. En angrepsrapport må gis i alle krav som blir gjort. Under halvparten av din might er ikke tillatt. 50%-regelen gjelder.</li>
+            <li>Under eventet kan du speide og angripe byer under følgende betingelser:</li>
+            <li>Ingen klanfort-angrep: Angrep på en annen klans forter eller bygninger er strengt forbudt.</li>
+        </ul>
+        <p><strong>Ressurshåndtering</strong></p>
+        <p>Hold ressursene lave under eventet for å unngå tyveri; send tropper til forter om nødvendig. Praktiser No Value City (NVC).</p>
+        <p><strong>"Fair Play"</strong></p>
+        <ul class="roe-points">
+            <li>50 %-regelen gjelder.</li>
+            <li>Hvis du blir angrepet, uansett deres might, har du lov til å angripe hvem som helst tilbake. Det betyr at hvis en spiller med 1,000,000 might angriper en spiller med 50,000,000 might, har 50,000,000-might-spilleren full rett til å angripe tilbake hvis de ønsker.</li>
         </ul>
     </li>
     <li>
         <h3>8. Konfliktløsningsprosess</h3>
+        <p>Når ROE brytes, bør følgende trinn tas:</p>
         <ul class="roe-points">
-            <li>Når ROE brytes, bør følgende trinn tas:
-                <ol>
-                    <li>Kontakt den andre spilleren for å forsøke å løse. Hvis ingen løsning innen 24 timer, eskaler til klanens diplomat.</li>
-                    <li>Hvis ingen løsning oppnås mellom klan-diplomater, kan de bringe saken inn for retten ved å poste den i #K273/CLAIMS. Kun klanledere eller diplomater har lov til å poste krav i denne chatten.</li>
-                    <li>Dommerne vil avgjøre for å definere den skyldige parten (hvis noen) og et akseptabelt kompensasjonsbeløp.</li>
-                    <li>Hvis den skyldige parten (eller klanen) nekter å kompensere, vil Den Kongelige Domstol avgjøre om spilleren eller klanen skal erklæres som utlagt og Den Kongelige Garde vil bli aktivert i beredskap.</li>
-                </ol>
-            </li>
+            <li>Kontakt den andre spilleren for å forsøke å løse saken. Hvis ingen løsning innen 24 timer, eskaler til din klan-diplomat.</li>
+            <li>Hvis ingen løsning oppnås mellom klan-diplomater, kan de bringe saken inn for domstolen ved å poste den i #K273/CLAIMS. Kun klanledere eller diplomater har lov til å poste krav i denne chatten.</li>
+            <li>Dommerne vil avgjøre skyldig part (om noen) og en akseptabel kompensasjon.</li>
+            <li>Hvis den skyldige parten (eller deres klan) nekter å kompensere, vil Archon eller hoveddommer avgjøre om spilleren eller klanen skal erklæres fredløs, og Den Kongelige Garden settes i beredskap.</li>
         </ul>
     </li>
     <li>
@@ -1008,6 +1122,7 @@ no: {
             <li>~#K273/CPTHUNDERDOME</li>
             <li>~#K273tbxyz</li>
             <li>~#K273/ACADEMY</li>
+            <li>K273 TB Library</li>
         </ul>
     </li>
 </ol>
@@ -1076,7 +1191,7 @@ de: {
                 "palace.image.alt": "TotalBattle Palast",
                 "palace.roe.eyebrow": "ROE",
                 "palace.roe.title": "Einsatzregeln",
-                "palace.roe.subtitle": "Richtlinien des Königreichs für Kampf und Verhalten.<br>Die englische Version ist das offizielle ROE (Übersetzungen via KI)<br>Zuletzt aktualisiert 12/31/2025",
+                "palace.roe.subtitle": "Richtlinien des Königreichs für Kampf und Verhalten.<br>Die englische Version ist das offizielle ROE (Übersetzungen via KI)<br>Zuletzt aktualisiert 1/6/2025",
                 "palace.back": "← Zurück zur Startseite",
                 "calculator.title": "TotalBattle Schadensrechner",
                 "calculator.hero.eyebrow": "K273 | Rechner für illegale Angriffe",
@@ -1182,80 +1297,129 @@ de: {
                 "calc.output.iron": "Eisen"
             },
             roeHtml: `
-<p class="roe-intro">Im Auftrag von König Arihelm ist das folgende ROE für das Königreich in Kraft:</p>
+<p class="roe-intro">Im Auftrag von König Arihelm gilt folgendes ROE für das Königreich:</p>
 <ol class="roe-list">
+    <li>
+        <h3>Allgemeine K273-Spielervereinbarung</h3>
+        <ol>
+            <li>Das Königreich K273 folgt der IKFPA-Vereinbarung, die während der Herrschaft von König Arcadia geschlossen wurde, und erwartet, dass jedes Mitglied entsprechend handelt, insbesondere nach der Öffnung des Königreichs.</li>
+            <li>Das ROE gilt sofort und kann geändert werden.</li>
+            <li>Jede Änderung hat eine 24-Stunden-Pufferzeit, damit sich andere über verschiedene Zeitzonen hinweg anpassen können.</li>
+            <li>Bitte respektiert alle, mit denen ihr in Kontakt kommt.</li>
+            <li>Es gibt eine Nulltoleranzpolitik gegenüber rassistischer, hasserfüllter, herabwürdigender oder bedrohender Sprache.</li>
+            <li>Verstöße können dem König/der Königin oder der Hand des Königs gemeldet werden.</li>
+            <li>Ihnen kann ein negativer Titel und/oder der Status eines Geächteten zugewiesen werden.</li>
+            <li>Drohungen werden sehr ernst genommen, ebenso Mobbing, da beides gegen die Regeln des TOTAL BATTLE Code of Conduct verstößt. Der Kingdom-Chat soll ein Ort sein, an dem sich alle willkommen fühlen.</li>
+            <li>Das Königreich gilt jederzeit als friedlich.</li>
+        </ol>
+    </li>
+    <li>
+        <h3>Regeln des Inter-Kingdom Fair Play Agreement (IKFPA)</h3>
+        <p>Dies sind allgemeine Vereinbarungen zwischen verschiedenen Königreichen für die Öffnung von K273. Sie sind keine harten Regeln, aber die Königreiche werden ermutigt, sie einzuhalten.</p>
+        <ol>
+            <li>Keine Hassrede.</li>
+            <li>Keine Angriffe auf Clan-Gebäude, Gedenkportale oder Spieler unter 100K Might.</li>
+            <li>Alle RSS-Felder sind vor Angriffen geschützt, außer während PvP-Events. PvP-Events sind: CoT, KvK, War Tools, Gold / Silver Rush, War Games, Lava Trials (beinhaltet ausdrücklich NICHT Ruthless Slaughter).</li>
+            <li>Festungsangriffe auf andere Königreiche führen gemäß dem ROE des Königreichs zum sofortigen Geächtetenstatus.</li>
+            <li>Entschädigung für Verstöße wird innerhalb von 48 Stunden vereinbart (IKFPA wird nicht von einer einzelnen Instanz durchgesetzt).</li>
+        </ol>
+    </li>
+    <li>
+        <h3>Amtsträger des Königreichs - Der Palast</h3>
+        <ul class="roe-points">
+            <li>Der Palast ist verantwortlich für die Wahrung von Ehre, Integrität und Frieden innerhalb von K273 und mit anderen Königreichen.</li>
+            <li>Der König wird gewählt, um die Bürger von K273 zu vertreten und den Palast zu leiten.</li>
+            <li>Die Königin und die Hand des Königs sind verantwortlich für die Koordination der Angelegenheiten des Königreichs und können in seiner Abwesenheit in seinem Namen sprechen.</li>
+            <li>Der König, die Königin und die Hand des Königs sind verantwortlich für die Verwaltung der Schatzkammer im Namen der Spieler des Königreichs.</li>
+            <li>Die Königin und die Hand des Königs müssen aus unterschiedlichen Clans stammen.</li>
+        </ul>
+    </li>
+    <li>
+        <h3>Pflichten der Clanführer</h3>
+        <p>Alle Clanführer müssen ihre Pflichten als Anführer erfüllen:</p>
+        <ul class="roe-points">
+            <li>Das ROE (Rules of Engagement) zu respektieren.</li>
+            <li>Sicherzustellen, dass ihre Mitglieder das ROE respektieren und befolgen.</li>
+            <li>Ihre Mitglieder zu schulen, um das Wachstum und die Einheit des Königreichs zu unterstützen.</li>
+            <li>Ein Anführer, der diese Verpflichtungen nicht erfüllt, wird zum Geächteten erklärt. &gt;=D</li>
+            <li>Anführer sind das Beispiel und der Maßstab des Königreichs, und ihre Handlungen weisen allen Mitgliedern den Weg.</li>
+        </ul>
+    </li>
     <li>
         <h3>1. FRIEDENSZEIT</h3>
         <ul class="roe-points">
             <li>Angriffe auf Städte sind verboten, außer während CoT und geplanten CP-Austauschen.</li>
-            <li>Angriffe auf Portale und Clan-Gebäude sind verboten. Es sei denn, das Portal ist nachweislich feindlich gegenüber dem Clan und oder seinen Ressourcen in seinem Gebiet.</li>
-            <li>Scouting ist eine Form der Aggression.</li>
+            <li>Angriffe auf Clan-Gebäude sind verboten.</li>
+            <li>Friedenszeit-Portale: Kein Anfassen oder Boop-Boops außer während CoT. Das bedeutet, keine Angriffe auf Portale irgendwo, es sei denn, sie sind nachweislich feindlich. Feindliche Portale umfassen Angriffe auf Clan-Gebäude, Mitglieder und alle Spielressourcen (einschließlich saisonaler Event-Ressourcen). Angriffe auf Portale in Clan-Gebieten für Clanaktivitäten sind nicht erlaubt, es sei denn, sie sind feindlich.</li>
+            <li>CoT-Portalregeln: Keine Einschränkungen.</li>
+            <li>Spähen ist eine Form der Aggression und ist während der Friedenszeit illegal.</li>
+            <li>Wenn du angegriffen wirst, unabhängig von ihrem Might, darfst du jederzeit zurückangreifen. Das heißt, wenn ein Spieler mit 1.000.000 Might einen Spieler mit 50.000.000 Might angreift, hat der Spieler mit 50.000.000 Might das volle Recht, zurückzugreifen, wenn er möchte.</li>
         </ul>
     </li>
     <li>
-        <h3>2. DIPLOMATEN</h3>
+        <h3>2. CLANS &amp; DIPLOMATEN</h3>
         <ul class="roe-points">
-            <li>Clans müssen mindestens einen Diplomaten in ihrer Clanbeschreibung benennen, der bei der Streitbeilegung helfen kann. Diplomaten müssen ein aktiver Anführer oder Vorgesetzter sein.</li>
+            <li>Clans sollten "We abide by K273 ROE" angeben, um vom Königreich bedient und durch das ROE geschützt zu werden.</li>
+            <li>Clans müssen mindestens einen Diplomaten am Anfang ihrer Clanbeschreibung benennen, der bei der Streitbeilegung helfen kann. Diplomaten müssen ein aktiver Anführer oder Vorgesetzter sein.</li>
         </ul>
     </li>
     <li>
         <h3>3. Allgemeine Regeln</h3>
         <ul class="roe-points">
-            <li>Alle Ressourcen-Gebäude innerhalb des Clan-Territoriums gehören diesem Clan.</li>
-            <li>Einschließlich WS und DMs.</li>
+            <li>Alle Ressourcen-Gebäude innerhalb des Clan-Territoriums gehören diesem Clan. Dies beinhaltet saisonale Event-Ressourcen.</li>
             <li>Von Spielern erstellte Ressourcen gehören der Person, die sie erstellt hat, sofern nicht vereinbart, zwischen zwei Parteien zu teilen.</li>
             <li>Seltene Krypten gehören der Person, die sie freigeschaltet hat.</li>
             <li>WS und DMs:
                 <ul>
-                    <li>a. Es gibt kein Registrierungssystem mehr.</li>
-                    <li>b. Alle wilden Ressourcen-Gebäude (einschließlich DM/WS) sind first come, first serve (FCFS).</li>
-                    <li>c. Ansprüche können nicht geltend gemacht werden, wenn du in wilden Ressourcen gescoutet/angegriffen wirst, es sei denn:
+                    <li>a. Es gibt kein Registrierungssystem. Alle wilden Ressourcen-Gebäude (einschließlich DM/WS) sind first come, first serve (FCFS).</li>
+                    <li>c. Ansprüche können nicht geltend gemacht werden, wenn du in Wildressourcen ausgespäht/angegriffen wirst, es sei denn
                         <ul>
-                            <li>Du verlierst das Gebäude.</li>
-                            <li>Du wirst gescoutet/angegriffen und dann erneut angegriffen. (2x-Regel)</li>
+                            <li>Du verlierst die Ressource.</li>
+                            <li>Du wirst ausgespäht/angegriffen und dann erneut angegriffen. (2x-Regel)</li>
                         </ul>
                     </li>
-                    <li>d. Es liegt in deiner Verantwortung, deinem Diplomaten, dem anderen Spieler und ihrem Diplomaten/Clanführer eine Nachricht zu senden, wenn dich jemand in einer Mine scoutet oder angreift.</li>
+                    <li>d. Es liegt in deiner Verantwortung, deinem Diplomaten, dem anderen Spieler und dem gegnerischen Diplomaten/Clanführer eine Nachricht zu senden, wenn dich jemand in einer Mine ausspäht oder angreift.</li>
                 </ul>
             </li>
         </ul>
     </li>
     <li>
-        <h3>4. PALAST-ENTSCHÄDIGUNGSLEITFADEN --</h3>
+        <h3>4. PALAST-ENTSCHÄDIGUNGSLEITFADEN</h3>
+        <p>Bitte siehe k273tb.xyz für den Entschädigungsrechner.</p>
         <ul class="roe-points">
-            <li>Jeder Angriff oder jedes Scouting hat einen Grundpreis von 1 Million Silber. Zusätzliche Verluste, Schäden oder gestohlene Ressourcen werden zu diesem Grundpreis hinzugefügt.</li>
+            <li>Jeder illegale Angriff oder jedes illegale Spähen hat eine Grundgebühr von 1 Million Silber. Alle zusätzlichen Verluste, Schäden oder gestohlenen Ressourcen werden zu dieser Grundgebühr addiert.</li>
             <li>RSS: Betrag in Höhe des gestohlenen Betrags</li>
-            <li>Gold: 1 Gold = 3,000 Silber oder Goldminen entsprechend dem gestohlenen Betrag + 10% (nach Entscheidung des Opfers)</li>
-            <li>Tar: 1 Tar = 1,000 Silber</li>
+            <li>Gold: 1 Gold = 3.000 Silber oder Goldminen in Höhe des Gestohlenen + 10 % (nach Entscheidung des Opfers)</li>
+            <li>Teer: 1 Teer = 1.000 Silber</li>
             <li>Goldbarren = keine Entschädigung</li>
             <li>Illegal geschlossenes Portal: 1M Silber (+1M für den illegalen Angriff selbst)</li>
-            <li>Schaden wird nach folgender Formel berechnet: Verluste an Truppen werden nach folgender Formel berechnet:
+            <li>Schaden wird nach folgender Formel berechnet: Schaden der verlorenen Truppen wird nach folgender Formel berechnet:
                 <ul>
-                    <li>Held= 1.5k</li>
-                    <li>Kapitän= 1k</li>
+                    <li>Held = 1.5k</li>
+                    <li>Kapitän = 1k</li>
                     <li>Speerträger, Bogenschützen = Truppenstufe x 40</li>
                     <li>Spezialisten, Reiter = Truppenstufe x 80</li>
-                    <li>Spione= Truppenstufe x 100</li>
-                    <li>Greifen= Truppenstufe x 800</li>
-                    <li>Katapulte, Mauern Mauerstufe x 200</li>
-                    <li>Monster III-VII (Monsterstufe ⁃ 2) x1.3k</li>
-                    <li>Monster I & II = x 8.64k</li>
-                    <li>Söldnergarde Truppenstufe x120</li>
+                    <li>Spione = Truppenstufe x 100</li>
+                    <li>Greifen = Truppenstufe x 800</li>
+                    <li>Katapulte, Mauern = Mauerstufe x 200</li>
+                    <li>Monster III-VII (Monsterstufe - 2) x 1.3k</li>
+                    <li>Monster I &amp; II = x 8.64k</li>
+                    <li>Söldnergarde = Truppenstufe x 120</li>
                     <li>Söldnermonster = Monsterstufe x 3k</li>
                 </ul>
             </li>
-            <li>-FORTS -
+            <li>- FESTUNGEN -
                 <ul>
-                    <li>Scouting = 5 Millionen Silber</li>
+                    <li>Spähen = 5 Millionen Silber</li>
                     <li>Angriff ohne Zerstörung = 10 Millionen Silber</li>
-                    <li>Angriff und Zerstörung = 20 Millionen von jedem Silber, Iron, Wood, Stone</li>
+                    <li>Angriff und Zerstörung = 20 Millionen von jeweils Silber, Eisen, Holz, Stein</li>
                 </ul>
             </li>
             <li>- HAUPTSTÄDTE -
                 <ul>
-                    <li>Scouting = 5 Millionen Silber</li>
+                    <li>Spähen = 5 Millionen Silber</li>
                     <li>Angriff ohne Zerstörung = 10 Millionen Silber</li>
-                    <li>Angriff und Zerstörung = 50 Millionen von jedem Silber, Iron, Wood, Stone</li>
+                    <li>Angriff und Zerstörung = 50 Millionen von jeweils Silber, Eisen, Holz, Stein</li>
                 </ul>
             </li>
         </ul>
@@ -1263,7 +1427,7 @@ de: {
     <li>
         <h3>5. STEUERN</h3>
         <ul class="roe-points">
-            <li>Städte mit mehr als 3 Tagen angesammelter Barren können von einem Mitglied der Königlichen Garde nach 24 Stunden Warnung angegriffen werden. Goldbarren haben für dich persönlich keinen Wert, aber der König kann sie verwenden, um Boni für das gesamte Königreich zu aktivieren. Wenn wir die Goldbarren haben, werden sie zum Nutzen von K273 verwendet.</li>
+            <li>Städte mit über 3 Tagen angesammelten Barren können 24 Stunden nach Warnung des Spielers und Clanführers von einem Mitglied der Königlichen Garde angegriffen werden. Goldbarren haben für dich persönlich keinen Wert, aber der König und der Palast können sie verwenden, um Boni für das ganze Königreich zu aktivieren. Wenn wir die Goldbarren haben, werden sie zum Nutzen von K273 verwendet.</li>
             <li>Maximale Goldbarren pro Stadt:
                 <ul>
                     <li>Stadt 1-9: 2000 Barren</li>
@@ -1278,44 +1442,51 @@ de: {
         </ul>
     </li>
     <li>
-        <h3>6. Mitglieder des Geschätzten Königreichs</h3>
+        <h3>6. Mitglieder des geschätzten Königreichs</h3>
         <ul class="roe-points">
-            <li>Jeder Spieler muss diese Regeln befolgen, um durch das ROE geschützt zu sein. Spieler, die nicht geschützt sind, sind:
+            <li>Jeder Spieler muss diese Regeln einhalten, um durch das ROE geschützt zu sein. Spieler, die nicht geschützt sind:
                 <ul>
                     <li>GEÄCHTETE</li>
-                    <li>CLANLOSE SPIELER</li>
+                    <li>CLANLOSE SPIELER (die meisten)</li>
                     <li>NICHT-ROE-MITGLIEDER</li>
                 </ul>
             </li>
-            <li>Geächtete – Wenn Einzelpersonen oder Clans nicht bereit sind, das ROE einzuhalten, die Clan-Gebäude angreifen oder sich weigern, Entschädigung für ROE-Verstöße zu zahlen, erhalten sie den Status Geächteter. Aktuelle Geächtete sind unter #K273/OUTLAWS zu finden. Die aktuelle Liste der Geächteten wird gelöscht und neu begonnen. Das bedeutet, dass es derzeit keine Geächteten im Königreich gibt. Die neue Königliche Garde wird die Verantwortlichkeiten in der Unterstützung des Königreichs teilen.</li>
-            <li>Königliche Garde: Die neue Königliche Garde besteht aus vielen Clans und hat sehr starke Spieler als Mitglieder. Die Aufgaben der RG werden ihre normalen Aufgaben wie Steuereintreibung und Durchsetzung für den Palast fortsetzen. Zusätzliche Aufgaben werden nun die Unterstützung von Clans mit Geächteten und dem Königreich mit Präzision einschließen. Sie werden auch als Elitearmee und Patrouillen- und Verteidigungseinheit des Königreichs/der Territorien agieren.</li>
-            <li>Zusätzlich zur Aktivierung von Beziehungen zu den großen Clans des Königreichs, um bei Bedarf zu helfen.</li>
-            <li>Clanlose Spieler mit oder unter 250k Macht sind geschützt und dürfen nicht frei angegriffen werden.</li>
-            <li>Clanlose Spieler unter 250k Macht, die angegriffen werden, dürfen 2x den Entschädigungsbetrag in Ansprüchen geltend machen.</li>
-            <li>Interaktionen mit diesen Spielern sollten zuerst dazu dienen, sie und ihre Ziele im Spiel kennenzulernen. Danach Ermutigung, einem Clan beizutreten. Wachstum im Spiel fördern und für das Königreich spielen statt für persönlichen Gewinn.</li>
+            <li>Geschützte clanlose Spieler: Alle Spieler mit oder unter 100k Might sind geschützt und dürfen nicht frei angegriffen werden. Interaktionen mit clanlosen Spielern sollten zuerst dazu dienen, sie und ihre Ziele im Spiel kennenzulernen, gefolgt von der Ermutigung, einem Clan beizutreten. Fördert Wachstum im Spiel und spielt für das Königreich statt für persönliche Belohnung.</li>
         </ul>
+        <p><strong>Status als Geächteter</strong></p>
+        <p>Die Befugnis, einen Bürger oder einen Clan zum Geächteten zu erklären oder einen bestehenden Geächtetenstatus zu widerrufen, liegt ausschließlich bei den folgenden Mächten des Königreichs:</p>
+        <ul class="roe-points">
+            <li>Der König, oberster Hüter von Ordnung und Gerechtigkeit.</li>
+            <li>Die Hand des Königs, als direkter Vertreter der königlichen Autorität.</li>
+            <li>Die Königin, als Mitträgerin der königlichen Autorität.</li>
+            <li>Der Oberste Richter des Königreichstribunals, kraft seines Amtes als Hüter der Gerechtigkeit.</li>
+        </ul>
+        <p>Kein anderer Akteur des Königreichs darf ohne ein ausdrückliches Mandat einer dieser Autoritäten einen Bürger oder einen Clan zum Geächteten erklären. Jede von einer nicht autorisierten Stelle ausgesprochene Erklärung ist null und nichtig.</p>
+        <p><strong>Königliche Garde</strong></p>
+        <p>Die Königliche Garde besteht aus vielen Clans und hat Mitglieder verschiedener Spielerlevel. Die Aufgaben der RG werden ihre normalen Aufgaben wie Steuererhebung und Durchsetzung für den Palast fortsetzen. Sie werden außerdem als Elitearmee sowie als Patrouillen- und Verteidigungseinheit des Königreichs/Territoriums dienen. Sie sind die Spitze des Speers für das Königreich und sind hier, um Clans zu unterstützen, die Probleme mit Spielern und Geächteten haben.</p>
     </li>
     <li>
-        <h3>7. Clash of Thrones  CoT</h3>
+        <h3>7. Clash of Thrones CoT</h3>
         <ul class="roe-points">
-            <li>Währenddessen kannst du Städte unter folgenden Bedingungen scouten und angreifen:</li>
-            <li>Keine Clan-Fort-Angriffe: Angriffe auf die Forts oder Gebäude eines anderen Clans sind strikt verboten.</li>
-            <li>Portalverwaltung: Keine Machtbeschränkung gilt. Jedes Portal, das nachweislich feindlich gegenüber Clan-Gebieten ist, kann vom angegriffenen Clan mit schneller Gerechtigkeit angegriffen werden. Clan-Märsche sind vollständig erlaubt, um feindliche Portale zu schließen. Während der normalen Friedenszeit dürfen Portale zu keiner Zeit angegriffen werden, es sei denn, sie sind nachweislich feindlich.</li>
-            <li>Ressourcenverwaltung: Halte Ressourcen während des Events niedrig, um Diebstahl zu vermeiden; schicke bei Bedarf Truppen zu Forts. Praktiziere No Value City (NVC)</li>
-            <li>"Fair Play": Jemanden deutlich Schwächeren anzugreifen (z. B. unter der Hälfte deiner Macht) wird oft als unsportlich angesehen und ist nicht erlaubt. Die einzige Ausnahme ist ein feindliches Portal. Portale, die von Spielern offen gelassen werden, die andere Mitglieder durch sie angreifen lassen, sind weiterhin schuld daran, das Portal offen gelassen zu haben, und können unabhängig von ihrer Macht angegriffen werden. Ein Angriffsbericht muss bei allen geltend gemachten Ansprüchen vorgelegt werden. Unter der Hälfte deiner Macht ist nicht erlaubt. Die 50%-Regel gilt.</li>
+            <li>Währenddessen kannst du Städte unter folgenden Bedingungen ausspähen und angreifen:</li>
+            <li>Keine Clan-Festungsangriffe: Angriffe auf die Festungen oder Gebäude eines anderen Clans sind strikt verboten.</li>
+        </ul>
+        <p><strong>Ressourcenmanagement</strong></p>
+        <p>Halte Ressourcen während des Events niedrig, um Diebstahl zu vermeiden; sende Truppen zu Festungen, wenn nötig. Übe No Value City (NVC).</p>
+        <p><strong>"Fair Play"</strong></p>
+        <ul class="roe-points">
+            <li>Die 50%-Regel gilt.</li>
+            <li>Wenn du angegriffen wirst, unabhängig von deren Might, darfst du jeden zurückangreifen. Das heißt, wenn ein Spieler mit 1.000.000 Might einen Spieler mit 50.000.000 Might angreift, hat der Spieler mit 50.000.000 Might das volle Recht, zurückzugreifen, wenn er möchte.</li>
         </ul>
     </li>
     <li>
         <h3>8. Konfliktlösungsprozess</h3>
+        <p>Wenn das ROE verletzt wird, sollten folgende Schritte unternommen werden:</p>
         <ul class="roe-points">
-            <li>Wenn das ROE verletzt wird, sollten die folgenden Schritte unternommen werden:
-                <ol>
-                    <li>Kontaktiere den anderen Spieler, um zu versuchen, eine Lösung zu finden. Wenn innerhalb von 24 Stunden keine Lösung erfolgt, eskaliere zu deinem Clan-Diplomaten.</li>
-                    <li>Wenn zwischen Clan-Diplomaten keine Lösung erreicht wird, können sie das Thema vor den Hof bringen, indem sie es in #K273/CLAIMS posten. Nur Clanführer oder Diplomaten dürfen in diesem Chat Ansprüche posten.</li>
-                    <li>Die Richter werden entscheiden, um die schuldige Partei (falls vorhanden) und eine akzeptable Entschädigungssumme zu bestimmen.</li>
-                    <li>Wenn die schuldige Partei (oder ihr Clan) sich weigert zu entschädigen, entscheidet der Königliche Hof, ob der Spieler oder Clan als Geächteter erklärt werden soll und die Königliche Garde wird in Bereitschaft aktiviert.</li>
-                </ol>
-            </li>
+            <li>Kontaktiere den anderen Spieler, um eine Lösung zu finden. Wenn innerhalb von 24 Stunden keine Lösung, eskaliere an deinen Clan-Diplomaten.</li>
+            <li>Wenn zwischen Clan-Diplomaten keine Lösung erzielt wird, können sie das Thema vor das Gericht bringen, indem sie es in #K273/CLAIMS posten. Nur Clanführer oder Diplomaten dürfen in diesem Chat Ansprüche posten.</li>
+            <li>Die Richter werden entscheiden, wer (falls vorhanden) schuldig ist und eine akzeptable Entschädigungssumme festlegen.</li>
+            <li>Wenn die schuldige Partei (oder ihr Clan) sich weigert zu entschädigen, bestimmen der Archon oder der Oberste Richter, ob der Spieler oder Clan zum Geächteten erklärt werden soll, und die Königliche Garde wird in Bereitschaft versetzt.</li>
         </ul>
     </li>
     <li>
@@ -1327,6 +1498,7 @@ de: {
             <li>~#K273/CPTHUNDERDOME</li>
             <li>~#K273tbxyz</li>
             <li>~#K273/ACADEMY</li>
+            <li>K273 TB Library</li>
         </ul>
     </li>
 </ol>
@@ -1395,7 +1567,7 @@ es: {
                 "palace.image.alt": "Palacio TotalBattle",
                 "palace.roe.eyebrow": "ROE",
                 "palace.roe.title": "Reglas de enfrentamiento",
-                "palace.roe.subtitle": "Directrices del reino para el combate y la conducta.<br>La versión en inglés es el ROE oficial (Traducciones vía IA)<br>Última actualización 12/31/2025",
+                "palace.roe.subtitle": "Directrices del reino para el combate y la conducta.<br>La versión en inglés es el ROE oficial (Traducciones vía IA)<br>Última actualización 1/6/2025",
                 "palace.back": "← Volver a inicio",
                 "calculator.title": "Calculadora de Daño TotalBattle",
                 "calculator.hero.eyebrow": "K273 | Calculadora de ataque ilegal",
@@ -1507,7 +1679,9 @@ es: {
         <h3>1. TIEMPO DE PAZ</h3>
         <ul class="roe-points">
             <li>Los ataques a ciudades están prohibidos excepto durante CoT y los intercambios de CP planificados.</li>
-            <li>Los ataques a portales y edificios de clan están prohibidos. A menos que el portal esté probado como hostil al clan y o sus recursos en su territorio.</li>
+            <li><del>Los ataques a portales y edificios de clan están prohibidos. A menos que el portal esté probado como hostil al clan y o sus recursos en su territorio.</del></li>
+            <li>Portales en tiempo de paz: Nada de tocar ni boop boops salvo en CoT. Esto significa que no se pueden atacar portales en ningún lugar a menos que se demuestre que son hostiles. Los portales hostiles incluyen ataques a edificios del clan, miembros y todos los recursos del juego (incluidos los recursos de eventos de temporada). Atacar portales en territorios del clan para actividades del clan no está permitido a menos que sean hostiles.</li>
+            <li>Reglas de portales en CoT: Sin restricciones.</li>
             <li>El scouting es una forma de agresión.</li>
         </ul>
     </li>
@@ -1714,7 +1888,7 @@ fr: {
                 "palace.image.alt": "Palais TotalBattle",
                 "palace.roe.eyebrow": "ROE",
                 "palace.roe.title": "Règles d'engagement",
-                "palace.roe.subtitle": "Directives du royaume pour le combat et la conduite.<br>La version anglaise est le ROE officiel (Traductions via IA)<br>Dernière mise à jour 12/31/2025",
+                "palace.roe.subtitle": "Directives du royaume pour le combat et la conduite.<br>La version anglaise est le ROE officiel (Traductions via IA)<br>Dernière mise à jour 1/6/2025",
                 "palace.back": "← Retour à l'accueil",
                 "calculator.title": "TotalBattle Calculateur de dégâts",
                 "calculator.hero.eyebrow": "K273 | Calculateur d'attaque illégale",
@@ -2033,7 +2207,7 @@ it: {
                 "palace.image.alt": "Palazzo TotalBattle",
                 "palace.roe.eyebrow": "ROE",
                 "palace.roe.title": "Regole di ingaggio",
-                "palace.roe.subtitle": "Linee guida del regno per combattimento e condotta.<br>La versione inglese è il ROE ufficiale (Traduzioni via IA)<br>Ultimo aggiornamento 12/31/2025",
+                "palace.roe.subtitle": "Linee guida del regno per combattimento e condotta.<br>La versione inglese è il ROE ufficiale (Traduzioni via IA)<br>Ultimo aggiornamento 1/6/2025",
                 "palace.back": "← Torna alla home",
                 "calculator.title": "TotalBattle Calcolatore danni",
                 "calculator.hero.eyebrow": "K273 | Calcolatore attacco illegale",
@@ -2145,7 +2319,9 @@ it: {
         <h3>1. TEMPO DI PACE</h3>
         <ul class="roe-points">
             <li>Gli attacchi alle città sono vietati tranne durante CoT e gli scambi CP pianificati.</li>
-            <li>Gli attacchi ai portali e agli edifici del clan sono proibiti. A meno che il portale non sia dimostrato ostile al clan e o alle sue risorse nel suo territorio.</li>
+            <li><del>Gli attacchi ai portali e agli edifici del clan sono proibiti. A meno che il portale non sia dimostrato ostile al clan e o alle sue risorse nel suo territorio.</del></li>
+            <li>Portali in tempo di pace: Niente toccate o boop boops salvo durante CoT. Ciò significa nessun attacco ai portali ovunque, a meno che non siano dimostrati ostili. I portali ostili includono attacchi a edifici del clan, membri e tutte le risorse di gioco (incluse le risorse degli eventi stagionali). Attaccare portali nei territori del clan per attività di clan non è consentito a meno che siano ostili.</li>
+            <li>Regole portali CoT: Nessuna restrizione.</li>
             <li>Lo scouting è una forma di aggressione.</li>
         </ul>
     </li>
@@ -2352,7 +2528,7 @@ pt: {
                 "palace.image.alt": "Palácio TotalBattle",
                 "palace.roe.eyebrow": "ROE",
                 "palace.roe.title": "Regras de Engajamento",
-                "palace.roe.subtitle": "Diretrizes do reino para combate e conduta.<br>A versão em inglês é o ROE oficial (Traduções via IA)<br>Última atualização 12/31/2025",
+                "palace.roe.subtitle": "Diretrizes do reino para combate e conduta.<br>A versão em inglês é o ROE oficial (Traduções via IA)<br>Última atualização 1/6/2025",
                 "palace.back": "← Voltar ao início",
                 "calculator.title": "Calculadora de Dano TotalBattle",
                 "calculator.hero.eyebrow": "K273 | Calculadora de ataque ilegal",
@@ -2464,7 +2640,9 @@ pt: {
         <h3>1. TEMPO DE PAZ</h3>
         <ul class="roe-points">
             <li>Ataques a cidades são proibidos exceto durante CoT e trocas de CP planejadas.</li>
-            <li>Ataques a portais e edifícios de clã são proibidos. A menos que o portal seja comprovadamente hostil ao clã e ou aos seus recursos no território.</li>
+            <li><del>Ataques a portais e edifícios de clã são proibidos. A menos que o portal seja comprovadamente hostil ao clã e ou aos seus recursos no território.</del></li>
+            <li>Portais em tempo de paz: Nada de tocar ou boop boops salvo no CoT. Isso significa nenhum ataque a portais em nenhum lugar, a menos que sejam comprovadamente hostis. Portais hostis incluem ataques a edifícios do clã, membros e todos os recursos do jogo (incluindo recursos de eventos sazonais). Atacar portais em territórios de clã para atividades do clã não é permitido, a menos que sejam hostis.</li>
+            <li>Regras de portais no CoT: Sem restrições.</li>
             <li>Scouting é uma forma de agressão.</li>
         </ul>
     </li>
@@ -2671,7 +2849,7 @@ pl: {
                 "palace.image.alt": "Pałac TotalBattle",
                 "palace.roe.eyebrow": "ROE",
                 "palace.roe.title": "Zasady zaangażowania",
-                "palace.roe.subtitle": "Wytyczne królestwa dotyczące walki i zachowania.<br>Wersja angielska jest oficjalnym ROE (Tłumaczenia przez AI)<br>Ostatnia aktualizacja 12/31/2025",
+                "palace.roe.subtitle": "Wytyczne królestwa dotyczące walki i zachowania.<br>Wersja angielska jest oficjalnym ROE (Tłumaczenia przez AI)<br>Ostatnia aktualizacja 1/6/2025",
                 "palace.back": "← Wróć na stronę główną",
                 "calculator.title": "TotalBattle Kalkulator szkód",
                 "calculator.hero.eyebrow": "K273 | Kalkulator nielegalnego ataku",
@@ -2783,7 +2961,9 @@ pl: {
         <h3>1. CZAS POKOJU</h3>
         <ul class="roe-points">
             <li>Ataki na miasta są zabronione z wyjątkiem CoT i planowanych wymian CP.</li>
-            <li>Ataki na portale i budynki klanowe są zabronione. Chyba że portal jest udowodniony jako wrogi klanowi i lub jego zasobom na jego terytorium.</li>
+            <li><del>Ataki na portale i budynki klanowe są zabronione. Chyba że portal jest udowodniony jako wrogi klanowi i lub jego zasobom na jego terytorium.</del></li>
+            <li>Portale w czasie pokoju: Żadnego dotykania ani boop boops poza CoT. Oznacza to brak ataków na portale gdziekolwiek, chyba że są udowodnione jako wrogie. Wrogie portale obejmują ataki na budynki klanu, członków oraz wszystkie zasoby gry (w tym zasoby wydarzeń sezonowych). Atakowanie portali na terytorium klanu w ramach aktywności klanowych jest niedozwolone, chyba że są wrogie.</li>
+            <li>Zasady portali w CoT: Brak ograniczeń.</li>
             <li>Scouting jest formą agresji.</li>
         </ul>
     </li>
@@ -2990,7 +3170,7 @@ ru: {
                 "palace.image.alt": "Дворец TotalBattle",
                 "palace.roe.eyebrow": "ROE",
                 "palace.roe.title": "Правила ведения боя",
-                "palace.roe.subtitle": "Руководство королевства по бою и поведению.<br>Английская версия — официальная ROE (Переводы через ИИ)<br>Последнее обновление 12/31/2025",
+                "palace.roe.subtitle": "Руководство королевства по бою и поведению.<br>Английская версия — официальная ROE (Переводы через ИИ)<br>Последнее обновление 1/6/2025",
                 "palace.back": "← Назад на главную",
                 "calculator.title": "TotalBattle Калькулятор ущерба",
                 "calculator.hero.eyebrow": "K273 | Калькулятор незаконной атаки",
@@ -3102,7 +3282,9 @@ ru: {
         <h3>1. МИРНОЕ ВРЕМЯ</h3>
         <ul class="roe-points">
             <li>Атаки на города запрещены, кроме CoT и запланированных обменов CP.</li>
-            <li>Атаки на порталы и клановые здания запрещены. Если только портал не доказан как враждебный клану и или его ресурсам на его территории.</li>
+            <li><del>Атаки на порталы и клановые здания запрещены. Если только портал не доказан как враждебный клану и или его ресурсам на его территории.</del></li>
+            <li>Порталы в мирное время: Не трогать и никаких boop boops, кроме CoT. Это означает никаких атак на порталы нигде, если только они не доказаны как враждебные. Враждебные порталы включают атаки на здания клана, членов и все игровые ресурсы (включая ресурсы сезонных событий). Атаковать порталы на территориях клана для клановой активности нельзя, если только они не враждебные.</li>
+            <li>Правила порталов в CoT: Без ограничений.</li>
             <li>Разведка является формой агрессии.</li>
         </ul>
     </li>
@@ -3309,7 +3491,7 @@ sv: {
                 "palace.image.alt": "TotalBattle-palats",
                 "palace.roe.eyebrow": "ROE",
                 "palace.roe.title": "Regler för engagemang",
-                "palace.roe.subtitle": "Rikets riktlinjer för strid och uppförande.<br>Engelska versionen är officiell ROE (Översättningar via AI)<br>Senast uppdaterad 12/31/2025",
+                "palace.roe.subtitle": "Rikets riktlinjer för strid och uppförande.<br>Engelska versionen är officiell ROE (Översättningar via AI)<br>Senast uppdaterad 1/6/2025",
                 "palace.back": "← Tillbaka till hem",
                 "calculator.title": "TotalBattle Skadekalkylator",
                 "calculator.hero.eyebrow": "K273 | Kalkylator för olaglig attack",
@@ -3421,7 +3603,9 @@ sv: {
         <h3>1. FREDSTID</h3>
         <ul class="roe-points">
             <li>Attacker på städer är förbjudna förutom under CoT och planerade CP-byten.</li>
-            <li>Attacker på portaler och klanbyggnader är förbjudna. Om inte portalen är bevisat fientlig mot klanen och eller dess resurser i dess territorium.</li>
+            <li><del>Attacker på portaler och klanbyggnader är förbjudna. Om inte portalen är bevisat fientlig mot klanen och eller dess resurser i dess territorium.</del></li>
+            <li>Portaler i fredstid: Inget rörande eller boop boops om inte CoT. Detta betyder inga attacker på portaler någonstans om de inte bevisats fientliga. Fientliga portaler inkluderar attacker mot klanbyggnader, medlemmar och alla spelresurser (inklusive säsongsevent-resurser). Attacker på portaler i klanterritorier för klanaktiviteter är inte tillåtet om de inte är fientliga.</li>
+            <li>CoT-portalregler: Inga restriktioner.</li>
             <li>Spaning är en form av aggression.</li>
         </ul>
     </li>
