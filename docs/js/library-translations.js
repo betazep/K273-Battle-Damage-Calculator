@@ -120,6 +120,12 @@
             },
             "book37": {
                 "title": "INITIATIIVI"
+            },
+            "book38": {
+                "title": "TASKULINNAKE - OSA 2"
+            },
+            "book39": {
+                "title": "SANKARIHIRVIÖT"
             }
         }
     },
@@ -243,6 +249,12 @@
             },
             "book37": {
                 "title": "INITIATIV"
+            },
+            "book38": {
+                "title": "POCKET FORT - DEL 2"
+            },
+            "book39": {
+                "title": "HEROIC MONSTERS"
             }
         }
     },
@@ -366,6 +378,12 @@
             },
             "book37": {
                 "title": "INITIATIVE"
+            },
+            "book38": {
+                "title": "POCKET FORT – TEIL 2"
+            },
+            "book39": {
+                "title": "HEROIC MONSTERS"
             }
         }
     },
@@ -489,6 +507,12 @@
             },
             "book37": {
                 "title": "INICIATIVA"
+            },
+            "book38": {
+                "title": "POCKET FORT - PARTE 2"
+            },
+            "book39": {
+                "title": "MONSTRUOS HEROICOS"
             }
         }
     },
@@ -612,6 +636,12 @@
             },
             "book37": {
                 "title": "INITIATIVE"
+            },
+            "book38": {
+                "title": "POCKET FORT - PARTIE 2"
+            },
+            "book39": {
+                "title": "MONSTRES HÉROÏQUES"
             }
         }
     },
@@ -735,6 +765,12 @@
             },
             "book37": {
                 "title": "INIZIATIVA"
+            },
+            "book38": {
+                "title": "POCKET FORT - PARTE 2"
+            },
+            "book39": {
+                "title": "MOSTRI EROICI"
             }
         }
     },
@@ -858,6 +894,12 @@
             },
             "book37": {
                 "title": "INICIATIVA"
+            },
+            "book38": {
+                "title": "POCKET FORT - PARTE 2"
+            },
+            "book39": {
+                "title": "MONSTROS HEROICOS"
             }
         }
     },
@@ -981,6 +1023,12 @@
             },
             "book37": {
                 "title": "INICJATYWA"
+            },
+            "book38": {
+                "title": "POCKET FORT - CZĘŚĆ 2"
+            },
+            "book39": {
+                "title": "POTWORY HEROICZNE"
             }
         }
     },
@@ -1104,6 +1152,12 @@
             },
             "book37": {
                 "title": "ИНИЦИАТИВА"
+            },
+            "book38": {
+                "title": "POCKET FORT - ЧАСТЬ 2"
+            },
+            "book39": {
+                "title": "ГЕРОИЧЕСКИЕ МОНСТРЫ"
             }
         }
     },
@@ -1227,6 +1281,12 @@
             },
             "book37": {
                 "title": "INITIATIV"
+            },
+            "book38": {
+                "title": "POCKET FORT - DEL 2"
+            },
+            "book39": {
+                "title": "HEROISKA MONSTER"
             }
         }
     }
