@@ -1,0 +1,249 @@
+{
+  "books": [
+    {
+      "id": "book1",
+      "categoryId": "crypting",
+      "title": "CITADEL STRATEGY",
+      "authorId": "badder",
+      "file": "book1.md"
+    },
+    {
+      "id": "book2",
+      "categoryId": "crypting",
+      "title": "CLAN WEALTH GIFTS",
+      "authorId": "heisenberg",
+      "file": "book2.md"
+    },
+    {
+      "id": "book3",
+      "categoryId": "crypting",
+      "title": "CRYPTING BASICS",
+      "authorId": "badder",
+      "file": "book3.md"
+    },
+    {
+      "id": "book4",
+      "categoryId": "events",
+      "title": "ANCIENT VAULTS",
+      "authorId": "heisenberg",
+      "file": "book4.md"
+    },
+    {
+      "id": "book24",
+      "categoryId": "events",
+      "title": "ARACHNES SWARM",
+      "authorId": "heisenberg",
+      "file": "book24.md"
+    },
+    {
+      "id": "book30",
+      "categoryId": "events",
+      "title": "ARMAGEDDON",
+      "authorId": "heisenberg",
+      "file": "book30.md"
+    },
+    {
+      "id": "book6",
+      "categoryId": "events",
+      "title": "DOOMSDAY",
+      "authorId": "heisenberg",
+      "file": "book6.md"
+    },
+    {
+      "id": "book33",
+      "categoryId": "events",
+      "title": "HELLFORGE",
+      "authorId": "badder",
+      "file": "book33.md"
+    },
+    {
+      "id": "book13",
+      "categoryId": "events",
+      "title": "SUMMON MASTERY",
+      "authorId": "heisenberg",
+      "file": "book13.md"
+    },
+    {
+      "id": "book32",
+      "categoryId": "events",
+      "title": "THE GREAT HUNT",
+      "authorId": "badder",
+      "file": "book32.md"
+    },
+    {
+      "id": "book5",
+      "categoryId": "events",
+      "title": "TINMAN STRATEGY",
+      "authorId": "heisenberg",
+      "file": "book5.md"
+    },
+    {
+      "id": "book9",
+      "categoryId": "pvp",
+      "title": "POINTERS FOR KINGDOM OPENING",
+      "authorId": "heisenberg",
+      "file": "book9.md"
+    },
+    {
+      "id": "book8",
+      "categoryId": "pvp",
+      "title": "SPIES AND THEIR SECRETS",
+      "authorId": "heisenberg",
+      "file": "book8.md"
+    },
+    {
+      "id": "book7",
+      "categoryId": "pvp",
+      "title": "ZERO VALUE CITY DEFENCE",
+      "authorId": "heisenberg",
+      "file": "book7.md"
+    },
+    {
+      "id": "book27",
+      "categoryId": "leader",
+      "title": "IMPROVING CLAN WEALTH",
+      "authorId": "heisenberg",
+      "file": "book27.md"
+    },
+    {
+      "id": "book29",
+      "categoryId": "leader",
+      "title": "POCKET FORT - PART 1",
+      "authorId": "heisenberg",
+      "file": "book29.md"
+    },
+    {
+      "id": "book15",
+      "categoryId": "beginners",
+      "title": "CITY TELEPORT",
+      "authorId": "heisenberg",
+      "file": "book15.md"
+    },
+    {
+      "id": "book25",
+      "categoryId": "beginners",
+      "title": "CRAFTING EQUIPMENT",
+      "authorId": "lord_fuzzy",
+      "file": "book25.md"
+    },
+    {
+      "id": "book28",
+      "categoryId": "beginners",
+      "title": "GOLD TAXES",
+      "authorId": "heisenberg",
+      "file": "book28.md"
+    },
+    {
+      "id": "book22",
+      "categoryId": "beginners",
+      "title": "HERO SKILL POINTS",
+      "authorId": "heisenberg",
+      "file": "book22.md"
+    },
+    {
+      "id": "book21",
+      "categoryId": "beginners",
+      "title": "HEROIC MONSTERS",
+      "authorId": "heisenberg",
+      "file": "book21.md"
+    },
+    {
+      "id": "book12",
+      "categoryId": "beginners",
+      "title": "HOW TO FIND A CHAT",
+      "authorId": "heisenberg",
+      "file": "book12.md"
+    },
+    {
+      "id": "book18",
+      "categoryId": "beginners",
+      "title": "RSS PROTECTION TIP",
+      "authorId": "heisenberg",
+      "file": "book18.md"
+    },
+    {
+      "id": "book20",
+      "categoryId": "beginners",
+      "title": "SILVER STRUGGLES",
+      "authorId": "heisenberg",
+      "file": "book20.md"
+    },
+    {
+      "id": "book17",
+      "categoryId": "beginners",
+      "title": "SIMPLIFIED TROOP STACKING",
+      "authorId": "heisenberg",
+      "file": "book17.md"
+    },
+    {
+      "id": "book31",
+      "categoryId": "beginners",
+      "title": "SUMMONING CIRCLE",
+      "authorId": "badder",
+      "file": "book31.md"
+    },
+    {
+      "id": "book14",
+      "categoryId": "beginners",
+      "title": "THE WATCHTOWER",
+      "authorId": "heisenberg",
+      "file": "book14.md"
+    },
+    {
+      "id": "book34",
+      "categoryId": "misc",
+      "title": "CAPTAIN ARTEFACTS",
+      "authorId": "heisenberg",
+      "file": "book34.md"
+    },
+    {
+      "id": "book35",
+      "categoryId": "misc",
+      "title": "CAPTAIN ARTEFACTS 2",
+      "authorId": "sencifouy",
+      "file": "book35.md"
+    },
+    {
+      "id": "book10",
+      "categoryId": "misc",
+      "title": "HALL OF FAME",
+      "authorId": "badder",
+      "file": "book10.md"
+    },
+    {
+      "id": "book23",
+      "categoryId": "misc",
+      "title": "ILLEGAL ATTACK PROCESS EXAMPLE",
+      "authorId": "heisenberg",
+      "file": "book23.md"
+    },
+    {
+      "id": "book19",
+      "categoryId": "misc",
+      "title": "MANSIONS VS FARMS",
+      "authorId": "heisenberg",
+      "file": "book19.md"
+    },
+    {
+      "id": "book16",
+      "categoryId": "misc",
+      "title": "REDUCE TROOP TRAINING TIME",
+      "authorId": "heisenberg",
+      "file": "book16.md"
+    },
+    {
+      "id": "book26",
+      "categoryId": "misc",
+      "title": "RESOURCE GATHERING TIP",
+      "authorId": "birdsfoot",
+      "file": "book26.md"
+    },
+    {
+      "id": "book11",
+      "categoryId": "misc",
+      "title": "VIEW AND ACTIVATE BONUSES",
+      "authorId": "heisenberg",
+      "file": "book11.md"
+    }
+  ]
+}

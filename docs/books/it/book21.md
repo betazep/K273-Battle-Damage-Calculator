@@ -1,0 +1,11 @@
+<ul>
+    <li>Rimuovi l'equip dagli eroi se vuoi risparmiare durabilità.</li>
+    <li>Invia almeno due FIGHTING captains. Amanitor è un capitano chiave per gli heroics.</li>
+    <li>Non inviare più di due livelli di Guardsmen.</li>
+    <li>Non usare G1 dove possibile.</li>
+    <li>Invia quante truppe possono portare i tuoi capitani.</li>
+    <li>Le perdite sono probabili. I Guardsmen di livello più alto o grandi gruppi di mercenaries subiranno le prime perdite. Due livelli aiutano.</li>
+    <li>Non usare l'eroe per risparmiare livelli inutili.</li>
+    <li>Usa guardsmen e monsters. Mercenaries in grandi gruppi a tuo rischio.</li>
+</ul>
+<p>I mostri eroici sono cruciali per ottenere risorse del clan per ricerca e costruzione. Questo migliora tutte le aree della città: march speed, construction speed, troop strength, resource production, ecc.</p>
