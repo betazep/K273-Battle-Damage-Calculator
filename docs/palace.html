@@ -37,6 +37,14 @@
             <div class="hero__actions">
                 <a class="btn ghost btn-small" href="index.html" data-i18n="palace.hero.back">← Back to Home</a>
             </div>
+            <div class="reset-clock" aria-live="polite">
+                <p class="reset-clock__line">
+                    <span class="reset-clock__label" data-i18n="reset.label">Daily Reset</span>
+                    <span class="reset-clock__sep">:</span>
+                    <span id="reset-time">--:--</span>
+                    <span class="reset-clock__suffix" data-i18n="reset.local">(Local time)</span>
+                </p>
+            </div>
         </div>
     </header>
 
@@ -102,5 +110,6 @@
     </footer>
     <script src="js/i18n.js?v=20260107225128372"></script>
     <script src="js/lang.js"></script>
+    <script src="js/reset-clock.js"></script>
 </body>
 </html>
