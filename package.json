@@ -4,7 +4,9 @@
   "description": "Battle Damages Calulator for K273",
   "main": "docs/index.html",
   "scripts": {
-    "start": "open docs/index.html"
+    "start": "open docs/index.html",
+    "cache-bust": "node scripts/cache-bust.js",
+    "build": "npm run cache-bust"
   },
   "keywords": [],
   "author": "",

@@ -236,7 +236,9 @@ document.addEventListener("DOMContentLoaded", () => {
     const modalContent = document.getElementById("book-content");
     const modalMedia = document.getElementById("book-media");
     const modalImage = document.getElementById("book-image");
+    const authorsList = document.getElementById("authors-list");
     let activeBookId = null;
+    let selectedAuthorId = null;
 
     const groupByCategory = () => {
         const grouped = {};
@@ -265,6 +267,41 @@ document.addEventListener("DOMContentLoaded", () => {
         }
 
         return wrapper;
+    };
+
+    const getSelectedAuthorLabel = () => {
+        if (!selectedAuthorId) return "";
+        const author = getAuthor(selectedAuthorId);
+        return author ? author.label : "";
+    };
+
+    const renderAuthors = () => {
+        if (!authorsList) return;
+        authorsList.innerHTML = "";
+        const counts = books.reduce((acc, book) => {
+            if (!book.authorId) return acc;
+            acc[book.authorId] = (acc[book.authorId] || 0) + 1;
+            return acc;
+        }, {});
+        const items = Object.entries(authors)
+            .filter(([, author]) => author && author.label)
+            .map(([id, author]) => ({ id, label: author.label }))
+            .sort((a, b) => (counts[b.id] || 0) - (counts[a.id] || 0));
+        items.forEach((author) => {
+            const pill = document.createElement("button");
+            pill.type = "button";
+            pill.className = "pill author-pill";
+            if (selectedAuthorId === author.id) {
+                pill.classList.add("is-active");
+                pill.setAttribute("aria-pressed", "true");
+            } else {
+                pill.setAttribute("aria-pressed", "false");
+            }
+            pill.dataset.authorId = author.id;
+            const count = counts[author.id] || 0;
+            pill.textContent = `${author.label} (${count})`;
+            authorsList.appendChild(pill);
+        });
     };
 
     const renderOutline = () => {
@@ -383,7 +420,13 @@ document.addEventListener("DOMContentLoaded", () => {
         const matches = books.filter((book) => {
             const title = getBookTitle(book).toLowerCase();
             const category = getCategoryLabel(book.categoryId).toLowerCase();
-            return title.includes(query) || category.includes(query);
+            const author = getAuthor(book.authorId);
+            const authorLabel = author ? author.label.toLowerCase() : "";
+            return (
+                title.includes(query) ||
+                category.includes(query) ||
+                authorLabel.includes(query)
+            );
         });
         renderResults(matches, query);
         updateCount(query ? matches.length : books.length, Boolean(query));
@@ -395,6 +438,18 @@ document.addEventListener("DOMContentLoaded", () => {
             params.delete("q");
         }
         history.replaceState({}, "", `${window.location.pathname}?${params}`);
+    };
+
+    const handleSearchInput = () => {
+        if (
+            selectedAuthorId &&
+            searchInput.value.trim().toLowerCase() !==
+                getSelectedAuthorLabel().trim().toLowerCase()
+        ) {
+            selectedAuthorId = null;
+            renderAuthors();
+        }
+        handleSearch();
     };
 
     outline.addEventListener("click", (event) => {
@@ -419,6 +474,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
     document.addEventListener("tb-language-change", () => {
         renderOutline();
+        renderAuthors();
+        if (selectedAuthorId) {
+            searchInput.value = getSelectedAuthorLabel();
+        }
         handleSearch();
         if (activeBookId) {
             openBook(activeBookId);
@@ -431,12 +490,13 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     });
 
-    searchInput.addEventListener("input", handleSearch);
+    searchInput.addEventListener("input", handleSearchInput);
     document.addEventListener("tb-language-change", handleSearch);
 
     const init = async () => {
         await loadBooksIndex();
         renderOutline();
+        renderAuthors();
 
         const params = new URLSearchParams(window.location.search);
         const query = params.get("q");
@@ -449,6 +509,18 @@ document.addEventListener("DOMContentLoaded", () => {
             await openBook(bookParam);
         }
     };
+
+    if (authorsList) {
+        authorsList.addEventListener("click", (event) => {
+            const target = event.target.closest("[data-author-id]");
+            if (!target) return;
+            selectedAuthorId = target.dataset.authorId;
+            searchInput.value = getSelectedAuthorLabel();
+            renderAuthors();
+            handleSearch();
+            searchInput.focus();
+        });
+    }
 
     init();
 });

@@ -588,6 +588,51 @@ textarea {
     gap: 16px;
 }
 
+.authors-card {
+    background: var(--panel);
+    border-radius: var(--radius);
+    padding: 18px 20px;
+    border: 1px solid var(--stroke);
+    box-shadow: var(--shadow);
+}
+
+.authors-header {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-bottom: 12px;
+}
+
+.authors-header h2 {
+    margin: 0;
+}
+
+.authors-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.author-pill {
+    background: rgba(255, 255, 255, 0.05);
+    border-color: rgba(255, 255, 255, 0.15);
+    color: var(--text);
+    cursor: pointer;
+    font: inherit;
+    line-height: 1;
+}
+
+.author-pill:hover,
+.author-pill:focus-visible {
+    border-color: rgba(255, 255, 255, 0.35);
+}
+
+.author-pill.is-active {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: #0d1a2a;
+}
+
 .library-controls {
     display: flex;
     align-items: flex-end;
