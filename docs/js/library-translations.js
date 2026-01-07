@@ -117,6 +117,9 @@
             },
             "book36": {
                 "title": "PELIN RESET"
+            },
+            "book37": {
+                "title": "INITIATIIVI"
             }
         }
     },
@@ -237,6 +240,9 @@
             },
             "book36": {
                 "title": "SPILL-RESETT"
+            },
+            "book37": {
+                "title": "INITIATIV"
             }
         }
     },
@@ -357,6 +363,9 @@
             },
             "book36": {
                 "title": "SPIEL-RESET"
+            },
+            "book37": {
+                "title": "INITIATIVE"
             }
         }
     },
@@ -477,6 +486,9 @@
             },
             "book36": {
                 "title": "REINICIO DEL JUEGO"
+            },
+            "book37": {
+                "title": "INICIATIVA"
             }
         }
     },
@@ -597,6 +609,9 @@
             },
             "book36": {
                 "title": "RÉINITIALISATION DU JEU"
+            },
+            "book37": {
+                "title": "INITIATIVE"
             }
         }
     },
@@ -717,6 +732,9 @@
             },
             "book36": {
                 "title": "RESET DEL GIOCO"
+            },
+            "book37": {
+                "title": "INIZIATIVA"
             }
         }
     },
@@ -837,6 +855,9 @@
             },
             "book36": {
                 "title": "RESET DO JOGO"
+            },
+            "book37": {
+                "title": "INICIATIVA"
             }
         }
     },
@@ -957,6 +978,9 @@
             },
             "book36": {
                 "title": "RESET GRY"
+            },
+            "book37": {
+                "title": "INICJATYWA"
             }
         }
     },
@@ -1077,6 +1101,9 @@
             },
             "book36": {
                 "title": "СБРОС ИГРЫ"
+            },
+            "book37": {
+                "title": "ИНИЦИАТИВА"
             }
         }
     },
@@ -1197,6 +1224,9 @@
             },
             "book36": {
                 "title": "SPEL-RESET"
+            },
+            "book37": {
+                "title": "INITIATIV"
             }
         }
     }
