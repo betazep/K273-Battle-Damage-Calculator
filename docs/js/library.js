@@ -514,8 +514,13 @@ document.addEventListener("DOMContentLoaded", () => {
         authorsList.addEventListener("click", (event) => {
             const target = event.target.closest("[data-author-id]");
             if (!target) return;
-            selectedAuthorId = target.dataset.authorId;
-            searchInput.value = getSelectedAuthorLabel();
+            if (selectedAuthorId === target.dataset.authorId) {
+                selectedAuthorId = null;
+                searchInput.value = "";
+            } else {
+                selectedAuthorId = target.dataset.authorId;
+                searchInput.value = getSelectedAuthorLabel();
+            }
             renderAuthors();
             handleSearch();
             searchInput.focus();
