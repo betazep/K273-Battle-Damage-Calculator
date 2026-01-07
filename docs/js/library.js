@@ -104,7 +104,7 @@ const renderMarkdown = (content) => {
     const lines = content.replace(/\r\n/g, "\n").split("\n");
     const output = [];
     let paragraph = [];
-    let inList = false;
+    const listStack = [];
     let inTable = false;
 
     const flushParagraph = () => {
@@ -113,10 +113,13 @@ const renderMarkdown = (content) => {
             paragraph = [];
         }
     };
-    const closeList = () => {
-        if (inList) {
-            output.push("</ul>");
-            inList = false;
+    const openList = (type) => {
+        output.push(`<${type}>`);
+        listStack.push({ type });
+    };
+    const closeLists = (targetLevel = 0) => {
+        while (listStack.length > targetLevel) {
+            output.push(`</${listStack.pop().type}>`);
         }
     };
     const closeTable = () => {
@@ -133,12 +136,21 @@ const renderMarkdown = (content) => {
         if (row.endsWith("|")) row = row.slice(0, -1);
         return row.split("|").map((cell) => formatInline(cell.trim()));
     };
+    const parseListItem = (rawLine) => {
+        const match = rawLine.match(/^(\s*)(-|\d+\.)\s+(.+)$/);
+        if (!match) return null;
+        const indent = match[1].length;
+        const type = match[2] === "-" ? "ul" : "ol";
+        const level = Math.floor(indent / 2);
+        return { level, type, text: match[3].trim() };
+    };
 
     for (let i = 0; i < lines.length; i += 1) {
-        const line = lines[i].trim();
+        const rawLine = lines[i];
+        const line = rawLine.trim();
         if (!line) {
             flushParagraph();
-            closeList();
+            closeLists();
             closeTable();
             continue;
         }
@@ -146,7 +158,7 @@ const renderMarkdown = (content) => {
         const nextLine = lines[i + 1] ? lines[i + 1].trim() : "";
         if (!inTable && line.includes("|") && nextLine && isTableSeparator(nextLine)) {
             flushParagraph();
-            closeList();
+            closeLists();
             const headers = parseTableRow(line);
             output.push(
                 `<table class="book-table"><thead><tr>${headers
@@ -167,22 +179,33 @@ const renderMarkdown = (content) => {
             closeTable();
         }
 
-        const headingMatch = line.match(/^(#{1,6})\s+(.+)/);
-        if (headingMatch) {
+        const listItem = parseListItem(rawLine);
+        if (listItem) {
             flushParagraph();
-            closeList();
-            const level = Math.min(6, headingMatch[1].length);
-            output.push(`<h${level}>${formatInline(headingMatch[2].trim())}</h${level}>`);
+            closeTable();
+            const targetLevel = listItem.level + 1;
+            if (listStack.length > targetLevel) {
+                closeLists(targetLevel);
+            }
+            if (listStack.length === targetLevel && listStack[listItem.level].type !== listItem.type) {
+                closeLists(listItem.level);
+            }
+            while (listStack.length < targetLevel) {
+                openList(listItem.type);
+            }
+            output.push(`<li>${formatInline(listItem.text)}</li>`);
             continue;
         }
 
-        if (line.startsWith("- ")) {
+        if (listStack.length) {
+            closeLists();
+        }
+
+        const headingMatch = line.match(/^(#{1,6})\s+(.+)/);
+        if (headingMatch) {
             flushParagraph();
-            if (!inList) {
-                output.push("<ul>");
-                inList = true;
-            }
-            output.push(`<li>${formatInline(line.slice(2).trim())}</li>`);
+            const level = Math.min(6, headingMatch[1].length);
+            output.push(`<h${level}>${formatInline(headingMatch[2].trim())}</h${level}>`);
             continue;
         }
 
@@ -190,7 +213,7 @@ const renderMarkdown = (content) => {
     }
 
     flushParagraph();
-    closeList();
+    closeLists();
     closeTable();
 
     return output.join("\n");

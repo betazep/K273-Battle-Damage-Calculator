@@ -1022,44 +1022,73 @@ textarea {
     color: var(--muted);
 }
 
-.roe-list h3 {
+.roe-list h3,
+.roe-content h3 {
     margin: 0 0 6px;
     color: var(--text);
 }
 
-.roe-intro {
+.roe-intro,
+.roe-content > p:first-of-type {
     margin: 0 0 8px;
     color: var(--muted);
     line-height: 1.45;
 }
 
-.roe-points {
+.roe-content p {
+    margin: 6px 0;
+    color: var(--muted);
+    line-height: 1.45;
+}
+
+.roe-points,
+.roe-content ul {
     margin: 0;
     padding-left: 20px;
     list-style: disc;
 }
 
-.roe-points > li {
+.roe-content ul {
+    margin: 6px 0 0;
+    color: var(--muted);
+}
+
+.roe-content ol {
+    margin: 6px 0 0;
+    padding-left: 20px;
+    color: var(--muted);
+    list-style: decimal;
+}
+
+.roe-points > li,
+.roe-content ul > li,
+.roe-content ol > li {
     margin: 4px 0;
     line-height: 1.45;
 }
 
 .roe-list ul,
-.roe-list ol {
+.roe-list ol,
+.roe-content ol ol,
+.roe-content ol ul {
     color: var(--muted);
     margin: 6px 0 0;
     padding-left: 20px;
 }
 
-.roe-list ul {
+.roe-list ul,
+.roe-content ol ul {
     list-style: disc;
 }
 
-.roe-list ul ul {
+.roe-list ul ul,
+.roe-content ol ul ul,
+.roe-content ul ul {
     list-style: circle;
 }
 
-.roe-list ol {
+.roe-list ol,
+.roe-content ol ol {
     list-style: decimal;
 }
 

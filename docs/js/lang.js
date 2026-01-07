@@ -1,6 +1,140 @@
 (() => {
     const roeCache = new Map();
     let roeRequestId = 0;
+    const htmlBlockPattern = /<\s*(p|div|ul|ol|li|h[1-6]|table|thead|tbody|tr|td|th|img|strong|em|a|br)\b/i;
+    const shouldRenderMarkdown = (content) => !htmlBlockPattern.test(content);
+
+    const formatInline = (text) => {
+        let output = text;
+        output = output.replace(/!\[([^\]]*)\]\(([^)]+)\)/g, '<img src="$2" alt="$1">');
+        output = output.replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2">$1</a>');
+        output = output.replace(/<((https?:\/\/)[^>]+)>/g, '<a href="$1">$1</a>');
+        output = output.replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>");
+        output = output.replace(/\*([^*]+)\*/g, "<em>$1</em>");
+        output = output.replace(/`([^`]+)`/g, "<code>$1</code>");
+        return output;
+    };
+
+    const renderMarkdown = (content) => {
+        const lines = content.replace(/\r\n/g, "\n").split("\n");
+        const output = [];
+        let paragraph = [];
+        const listStack = [];
+        let inTable = false;
+
+        const flushParagraph = () => {
+            if (paragraph.length) {
+                output.push(`<p>${formatInline(paragraph.join(" "))}</p>`);
+                paragraph = [];
+            }
+        };
+        const openList = (type) => {
+            output.push(`<${type}>`);
+            listStack.push({ type });
+        };
+        const closeLists = (targetLevel = 0) => {
+            while (listStack.length > targetLevel) {
+                output.push(`</${listStack.pop().type}>`);
+            }
+        };
+        const closeTable = () => {
+            if (inTable) {
+                output.push("</tbody></table>");
+                inTable = false;
+            }
+        };
+        const isTableSeparator = (line) =>
+            /^\s*\|?\s*:?[-]{3,}:?\s*(\|\s*:?[-]{3,}:?\s*)+\|?\s*$/.test(line);
+        const parseTableRow = (line) => {
+            let row = line.trim();
+            if (row.startsWith("|")) row = row.slice(1);
+            if (row.endsWith("|")) row = row.slice(0, -1);
+            return row.split("|").map((cell) => formatInline(cell.trim()));
+        };
+        const parseListItem = (rawLine) => {
+            const match = rawLine.match(/^(\s*)(-|\d+\.)\s+(.+)$/);
+            if (!match) return null;
+            const indent = match[1].length;
+            const type = match[2] === "-" ? "ul" : "ol";
+            const level = Math.floor(indent / 2);
+            return { level, type, text: match[3].trim() };
+        };
+
+        for (let i = 0; i < lines.length; i += 1) {
+            const rawLine = lines[i];
+            const line = rawLine.trim();
+            if (!line) {
+                flushParagraph();
+                closeLists();
+                closeTable();
+                continue;
+            }
+
+            const nextLine = lines[i + 1] ? lines[i + 1].trim() : "";
+            if (!inTable && line.includes("|") && nextLine && isTableSeparator(nextLine)) {
+                flushParagraph();
+                closeLists();
+                const headers = parseTableRow(line);
+                output.push(
+                    `<table class="book-table"><thead><tr>${headers
+                        .map((header) => `<th>${header}</th>`)
+                        .join("")}</tr></thead><tbody>`
+                );
+                inTable = true;
+                i += 1;
+                continue;
+            }
+
+            if (inTable) {
+                if (line.includes("|")) {
+                    const cells = parseTableRow(line);
+                    output.push(`<tr>${cells.map((cell) => `<td>${cell}</td>`).join("")}</tr>`);
+                    continue;
+                }
+                closeTable();
+            }
+
+            const listItem = parseListItem(rawLine);
+            if (listItem) {
+                flushParagraph();
+                closeTable();
+                const targetLevel = listItem.level + 1;
+                if (listStack.length > targetLevel) {
+                    closeLists(targetLevel);
+                }
+                if (listStack.length === targetLevel && listStack[listItem.level].type !== listItem.type) {
+                    closeLists(listItem.level);
+                }
+                while (listStack.length < targetLevel) {
+                    openList(listItem.type);
+                }
+                output.push(`<li>${formatInline(listItem.text)}</li>`);
+                continue;
+            }
+
+            if (listStack.length) {
+                closeLists();
+            }
+
+            const headingMatch = line.match(/^(#{1,6})\s+(.+)/);
+            if (headingMatch) {
+                flushParagraph();
+                const level = Math.min(6, headingMatch[1].length);
+                output.push(`<h${level}>${formatInline(headingMatch[2].trim())}</h${level}>`);
+                continue;
+            }
+
+            paragraph.push(line);
+        }
+
+        flushParagraph();
+        closeLists();
+        closeTable();
+
+        return output.join("\n");
+    };
+
+    const resolveRoeContent = (content) => (shouldRenderMarkdown(content) ? renderMarkdown(content) : content);
 
     const fetchRoe = async (lang) => {
         const cacheKey = lang;
@@ -59,7 +193,7 @@
             fetchRoe(lang)
                 .then((content) => {
                     if (requestId !== roeRequestId) return;
-                    roeTarget.innerHTML = content;
+                    roeTarget.innerHTML = resolveRoeContent(content);
                 })
                 .catch((error) => {
                     console.error("Failed to load ROE content.", error);
