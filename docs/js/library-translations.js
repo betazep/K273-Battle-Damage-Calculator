@@ -114,6 +114,9 @@
             },
             "book35": {
                 "title": "KAPTEENIN ARTEFAKTIT 2"
+            },
+            "book36": {
+                "title": "PELIN RESET"
             }
         }
     },
@@ -231,6 +234,9 @@
             },
             "book35": {
                 "title": "KAPTEINARTEFAKTER 2"
+            },
+            "book36": {
+                "title": "SPILL-RESETT"
             }
         }
     },
@@ -348,6 +354,9 @@
             },
             "book35": {
                 "title": "KAPITÄN-ARTEFAKTE 2"
+            },
+            "book36": {
+                "title": "SPIEL-RESET"
             }
         }
     },
@@ -465,6 +474,9 @@
             },
             "book35": {
                 "title": "ARTEFACTOS DE CAPITÁN 2"
+            },
+            "book36": {
+                "title": "REINICIO DEL JUEGO"
             }
         }
     },
@@ -582,6 +594,9 @@
             },
             "book35": {
                 "title": "ARTEFACTS DE CAPITAINE 2"
+            },
+            "book36": {
+                "title": "RÉINITIALISATION DU JEU"
             }
         }
     },
@@ -699,6 +714,9 @@
             },
             "book35": {
                 "title": "ARTEFATTI DEL CAPITANO 2"
+            },
+            "book36": {
+                "title": "RESET DEL GIOCO"
             }
         }
     },
@@ -816,6 +834,9 @@
             },
             "book35": {
                 "title": "ARTEFATOS DE CAPITÃO 2"
+            },
+            "book36": {
+                "title": "RESET DO JOGO"
             }
         }
     },
@@ -933,6 +954,9 @@
             },
             "book35": {
                 "title": "ARTEFAKTY KAPITANA 2"
+            },
+            "book36": {
+                "title": "RESET GRY"
             }
         }
     },
@@ -1050,6 +1074,9 @@
             },
             "book35": {
                 "title": "АРТЕФАКТЫ КАПИТАНА 2"
+            },
+            "book36": {
+                "title": "СБРОС ИГРЫ"
             }
         }
     },
@@ -1167,6 +1194,9 @@
             },
             "book35": {
                 "title": "KAPTENARTEFAKTER 2"
+            },
+            "book36": {
+                "title": "SPEL-RESET"
             }
         }
     }

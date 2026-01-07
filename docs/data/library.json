@@ -127,6 +127,13 @@
       "file": "book25.md"
     },
     {
+      "id": "book36",
+      "categoryId": "beginners",
+      "title": "GAME RESET",
+      "authorId": "heisenberg",
+      "file": "book36.md"
+    },
+    {
       "id": "book28",
       "categoryId": "beginners",
       "title": "GOLD TAXES",
