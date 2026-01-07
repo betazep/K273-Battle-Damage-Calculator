@@ -1,4 +1,32 @@
 (() => {
+    const roeCache = new Map();
+    let roeRequestId = 0;
+
+    const fetchRoe = async (lang) => {
+        const cacheKey = lang;
+        if (roeCache.has(cacheKey)) {
+            return roeCache.get(cacheKey);
+        }
+
+        const tryLoad = async (language) => {
+            const response = await fetch(`roe/${language}/roe.md`);
+            if (!response.ok) {
+                return null;
+            }
+            return response.text();
+        };
+
+        let content = await tryLoad(lang);
+        if (!content && lang !== "en") {
+            content = await tryLoad("en");
+        }
+        if (!content) {
+            content = "<p>ROE content is unavailable.</p>";
+        }
+        roeCache.set(cacheKey, content);
+        return content;
+    };
+
     const applyTranslations = () => {
         const elements = document.querySelectorAll("[data-i18n]");
         elements.forEach((el) => {
@@ -26,7 +54,18 @@
 
         const roeTarget = document.getElementById("roe-content");
         if (roeTarget) {
-            roeTarget.innerHTML = I18N.getRoeHtml();
+            const requestId = ++roeRequestId;
+            const lang = I18N.getLanguage();
+            fetchRoe(lang)
+                .then((content) => {
+                    if (requestId !== roeRequestId) return;
+                    roeTarget.innerHTML = content;
+                })
+                .catch((error) => {
+                    console.error("Failed to load ROE content.", error);
+                    if (requestId !== roeRequestId) return;
+                    roeTarget.innerHTML = "<p>ROE content is unavailable.</p>";
+                });
         }
     };
 
