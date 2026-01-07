@@ -1,213 +1,56 @@
-<p>I punti ricchezza del clan dipendono dalle casse aperte nel clan. Ogni cassa ha un punteggio che aumenta con la rarità. Una cassa guadagnata viene assegnata a tutti, quindi un clan pieno e attivo è fondamentale. Ecco perché Carter è così importante!</p>
-<p>Superiori e leader possono riscattare questi doni ogni 6,5 ore qui:</p>
-<ul>
-    <li>Menu del clan</li>
-    <li>Wealth</li>
-</ul>
-<div class="book-section">
-    <h4>Guida punti cripte</h4>
-    <table class="book-table book-table--compact">
-        <thead>
-            <tr>
-                <th>Livello</th>
-                <th>Comune</th>
-                <th>Raro</th>
-                <th>Epico</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Lv5</td>
-                <td>13</td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>Lv10</td>
-                <td>35</td>
-                <td>66</td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>Lv15</td>
-                <td>75</td>
-                <td>130</td>
-                <td>308</td>
-            </tr>
-            <tr>
-                <td>Lv20</td>
-                <td>167</td>
-                <td>319</td>
-                <td>598</td>
-            </tr>
-            <tr>
-                <td>Lv25</td>
-                <td>427</td>
-                <td>628</td>
-                <td>890</td>
-            </tr>
-            <tr>
-                <td>Lv30</td>
-                <td></td>
-                <td>1349</td>
-                <td>1184</td>
-            </tr>
-            <tr>
-                <td>Lv35</td>
-                <td></td>
-                <td></td>
-                <td>1480</td>
-            </tr>
-        </tbody>
-    </table>
-</div>
-<div class="book-section">
-    <h4>Arena</h4>
-    <p>30 pts</p>
-</div>
-<div class="book-section">
-    <h4>Punti cittadella elfica / cittadella maledetta</h4>
-    <table class="book-table book-table--compact">
-        <thead>
-            <tr>
-                <th>Livello</th>
-                <th>Elfica</th>
-                <th>Maledetta</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Lv10</td>
-                <td>18</td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>Lv15</td>
-                <td>30</td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>Lv20</td>
-                <td>38</td>
-                <td>38</td>
-            </tr>
-            <tr>
-                <td>Lv25</td>
-                <td>95</td>
-                <td>95</td>
-            </tr>
-            <tr>
-                <td>Lv30</td>
-                <td>130</td>
-                <td></td>
-            </tr>
-        </tbody>
-    </table>
-</div>
-<div class="book-section">
-    <h4>Mostro eroico / Ancients</h4>
-    <table class="book-table book-table--compact">
-        <thead>
-            <tr>
-                <th>Eroico</th>
-                <th>Pts</th>
-                <th>Ancients</th>
-                <th>Pts</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Lv16</td>
-                <td>115</td>
-                <td>Lv10-24</td>
-                <td>135</td>
-            </tr>
-            <tr>
-                <td>Lv17</td>
-                <td>115</td>
-                <td>Lv15-19</td>
-                <td>155</td>
-            </tr>
-            <tr>
-                <td>Lv18</td>
-                <td>115</td>
-                <td>Lv20-24</td>
-                <td>250</td>
-            </tr>
-            <tr>
-                <td>Lv19</td>
-                <td>115</td>
-                <td>Lv25-29</td>
-                <td>290</td>
-            </tr>
-            <tr>
-                <td>Lv20</td>
-                <td>205</td>
-                <td>Lv30-34</td>
-                <td>425</td>
-            </tr>
-            <tr>
-                <td>Lv21</td>
-                <td>205</td>
-                <td>Lv35-39</td>
-                <td>765</td>
-            </tr>
-            <tr>
-                <td>Lv22</td>
-                <td>205</td>
-                <td>Lv40-44</td>
-                <td>805</td>
-            </tr>
-            <tr>
-                <td>Lv23</td>
-                <td>205</td>
-                <td>Lv45</td>
-                <td>880</td>
-            </tr>
-            <tr>
-                <td>Lv24</td>
-                <td>205</td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>Lv25</td>
-                <td>455</td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>Lv26</td>
-                <td>640</td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>Lv27</td>
-                <td>640</td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>Lv28</td>
-                <td>640</td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>Lv31</td>
-                <td>640</td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>Lv45</td>
-                <td>640</td>
-                <td></td>
-                <td></td>
-            </tr>
-        </tbody>
-    </table>
-</div>
-<p>Questa è una guida punti per le cripte. Consulta la guida continua per i punti di altri forzieri come cittadelle, mostri eroici, ecc.</p>
-<p><strong>Spingi quei Carter!</strong></p>
+I punti ricchezza del clan dipendono dalle casse aperte nel clan. Ogni cassa ha un punteggio che aumenta con la rarità. Una cassa guadagnata viene assegnata a tutti, quindi un clan pieno e attivo è fondamentale. Ecco perché Carter è così importante!
+
+Superiori e leader possono riscattare questi doni ogni 6,5 ore qui:
+
+- Menu del clan
+- Wealth
+
+#### Guida punti cripte
+
+| Livello | Comune | Raro | Epico |
+| --- | --- | --- | --- |
+| Lv5 | 13 |  |  |
+| Lv10 | 35 | 66 |  |
+| Lv15 | 75 | 130 | 308 |
+| Lv20 | 167 | 319 | 598 |
+| Lv25 | 427 | 628 | 890 |
+| Lv30 |  | 1349 | 1184 |
+| Lv35 |  |  | 1480 |
+
+#### Arena
+
+30 pts
+
+#### Punti cittadella elfica / cittadella maledetta
+
+| Livello | Elfica | Maledetta |
+| --- | --- | --- |
+| Lv10 | 18 |  |
+| Lv15 | 30 |  |
+| Lv20 | 38 | 38 |
+| Lv25 | 95 | 95 |
+| Lv30 | 130 |  |
+
+#### Mostro eroico / Ancients
+
+| Eroico | Pts | Ancients | Pts |
+| --- | --- | --- | --- |
+| Lv16 | 115 | Lv10-24 | 135 |
+| Lv17 | 115 | Lv15-19 | 155 |
+| Lv18 | 115 | Lv20-24 | 250 |
+| Lv19 | 115 | Lv25-29 | 290 |
+| Lv20 | 205 | Lv30-34 | 425 |
+| Lv21 | 205 | Lv35-39 | 765 |
+| Lv22 | 205 | Lv40-44 | 805 |
+| Lv23 | 205 | Lv45 | 880 |
+| Lv24 | 205 |  |  |
+| Lv25 | 455 |  |  |
+| Lv26 | 640 |  |  |
+| Lv27 | 640 |  |  |
+| Lv28 | 640 |  |  |
+| Lv31 | 640 |  |  |
+| Lv45 | 640 |  |  |
+
+Questa è una guida punti per le cripte. Consulta la guida continua per i punti di altri forzieri come cittadelle, mostri eroici, ecc.
+
+**Spingi quei Carter!**

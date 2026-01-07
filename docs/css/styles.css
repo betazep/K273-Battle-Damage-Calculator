@@ -827,8 +827,26 @@ textarea {
     padding-left: 18px;
 }
 
+.book-modal__content img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 12px;
+    border: 1px solid var(--stroke);
+    box-shadow: var(--shadow);
+    margin: 6px 0 12px;
+    box-sizing: border-box;
+}
+
 .book-modal__content li {
     margin: 4px 0;
+}
+
+.book-divider {
+    height: 1px;
+    background: var(--stroke);
+    margin: 6px 0 12px;
 }
 
 .book-section {
@@ -866,22 +884,23 @@ textarea {
     border-bottom: 1px solid var(--stroke);
 }
 
+.book-table th:not(:first-child),
+.book-table td:not(:first-child) {
+    text-align: right;
+    font-variant-numeric: tabular-nums;
+}
+
 .book-table th {
     color: var(--muted);
     font-weight: 600;
     letter-spacing: 0.02em;
 }
 
-.book-table td:nth-child(2),
-.book-table td:nth-child(4) {
-    width: 90px;
-    text-align: right;
-}
-
-.book-table--compact td:nth-child(n + 2),
-.book-table--compact th:nth-child(n + 2) {
+.book-table--compact td:not(:first-child),
+.book-table--compact th:not(:first-child) {
     width: 80px;
     text-align: right;
+    font-variant-numeric: tabular-nums;
 }
 
 .book-table--compact td:first-child {

@@ -1,213 +1,56 @@
-<p>Klanvelstandspoeng drives av kister som åpnes i klanen. Hver kiste har en verdi som øker med sjeldenhet. Én opptjent kiste deles med alle, så en full og aktiv klan er avgjørende for vekst. Derfor er Carter så viktig!</p>
-<p>Ledere og superiorer kan hente disse gavene hver 6,5 time her:</p>
-<ul>
-    <li>Klanmeny</li>
-    <li>Wealth</li>
-</ul>
-<div class="book-section">
-    <h4>Krypt-poengguide</h4>
-    <table class="book-table book-table--compact">
-        <thead>
-            <tr>
-                <th>Nivå</th>
-                <th>Vanlig</th>
-                <th>Sjelden</th>
-                <th>Episke</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Lv5</td>
-                <td>13</td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>Lv10</td>
-                <td>35</td>
-                <td>66</td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>Lv15</td>
-                <td>75</td>
-                <td>130</td>
-                <td>308</td>
-            </tr>
-            <tr>
-                <td>Lv20</td>
-                <td>167</td>
-                <td>319</td>
-                <td>598</td>
-            </tr>
-            <tr>
-                <td>Lv25</td>
-                <td>427</td>
-                <td>628</td>
-                <td>890</td>
-            </tr>
-            <tr>
-                <td>Lv30</td>
-                <td></td>
-                <td>1349</td>
-                <td>1184</td>
-            </tr>
-            <tr>
-                <td>Lv35</td>
-                <td></td>
-                <td></td>
-                <td>1480</td>
-            </tr>
-        </tbody>
-    </table>
-</div>
-<div class="book-section">
-    <h4>Arena</h4>
-    <p>30 poeng</p>
-</div>
-<div class="book-section">
-    <h4>Alv / Forbannet citadel-poeng</h4>
-    <table class="book-table book-table--compact">
-        <thead>
-            <tr>
-                <th>Nivå</th>
-                <th>Alv</th>
-                <th>Forbannet</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Lv10</td>
-                <td>18</td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>Lv15</td>
-                <td>30</td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>Lv20</td>
-                <td>38</td>
-                <td>38</td>
-            </tr>
-            <tr>
-                <td>Lv25</td>
-                <td>95</td>
-                <td>95</td>
-            </tr>
-            <tr>
-                <td>Lv30</td>
-                <td>130</td>
-                <td></td>
-            </tr>
-        </tbody>
-    </table>
-</div>
-<div class="book-section">
-    <h4>Heroiske monster / Ancients</h4>
-    <table class="book-table book-table--compact">
-        <thead>
-            <tr>
-                <th>Heroisk</th>
-                <th>Poeng</th>
-                <th>Ancients</th>
-                <th>Poeng</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Lv16</td>
-                <td>115</td>
-                <td>Lv10-24</td>
-                <td>135</td>
-            </tr>
-            <tr>
-                <td>Lv17</td>
-                <td>115</td>
-                <td>Lv15-19</td>
-                <td>155</td>
-            </tr>
-            <tr>
-                <td>Lv18</td>
-                <td>115</td>
-                <td>Lv20-24</td>
-                <td>250</td>
-            </tr>
-            <tr>
-                <td>Lv19</td>
-                <td>115</td>
-                <td>Lv25-29</td>
-                <td>290</td>
-            </tr>
-            <tr>
-                <td>Lv20</td>
-                <td>205</td>
-                <td>Lv30-34</td>
-                <td>425</td>
-            </tr>
-            <tr>
-                <td>Lv21</td>
-                <td>205</td>
-                <td>Lv35-39</td>
-                <td>765</td>
-            </tr>
-            <tr>
-                <td>Lv22</td>
-                <td>205</td>
-                <td>Lv40-44</td>
-                <td>805</td>
-            </tr>
-            <tr>
-                <td>Lv23</td>
-                <td>205</td>
-                <td>Lv45</td>
-                <td>880</td>
-            </tr>
-            <tr>
-                <td>Lv24</td>
-                <td>205</td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>Lv25</td>
-                <td>455</td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>Lv26</td>
-                <td>640</td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>Lv27</td>
-                <td>640</td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>Lv28</td>
-                <td>640</td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>Lv31</td>
-                <td>640</td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>Lv45</td>
-                <td>640</td>
-                <td></td>
-                <td></td>
-            </tr>
-        </tbody>
-    </table>
-</div>
-<p>Dette er en poengguide for krypter. Se den videre guiden for poeng fra andre kister som citadeller, heroiske monstre osv.</p>
-<p><strong>Push de Carterne!</strong></p>
+Klanvelstandspoeng drives av kister som åpnes i klanen. Hver kiste har en verdi som øker med sjeldenhet. Én opptjent kiste deles med alle, så en full og aktiv klan er avgjørende for vekst. Derfor er Carter så viktig!
+
+Ledere og superiorer kan hente disse gavene hver 6,5 time her:
+
+- Klanmeny
+- Wealth
+
+#### Krypt-poengguide
+
+| Nivå | Vanlig | Sjelden | Episke |
+| --- | --- | --- | --- |
+| Lv5 | 13 |  |  |
+| Lv10 | 35 | 66 |  |
+| Lv15 | 75 | 130 | 308 |
+| Lv20 | 167 | 319 | 598 |
+| Lv25 | 427 | 628 | 890 |
+| Lv30 |  | 1349 | 1184 |
+| Lv35 |  |  | 1480 |
+
+#### Arena
+
+30 poeng
+
+#### Alv / Forbannet citadel-poeng
+
+| Nivå | Alv | Forbannet |
+| --- | --- | --- |
+| Lv10 | 18 |  |
+| Lv15 | 30 |  |
+| Lv20 | 38 | 38 |
+| Lv25 | 95 | 95 |
+| Lv30 | 130 |  |
+
+#### Heroiske monster / Ancients
+
+| Heroisk | Poeng | Ancients | Poeng |
+| --- | --- | --- | --- |
+| Lv16 | 115 | Lv10-24 | 135 |
+| Lv17 | 115 | Lv15-19 | 155 |
+| Lv18 | 115 | Lv20-24 | 250 |
+| Lv19 | 115 | Lv25-29 | 290 |
+| Lv20 | 205 | Lv30-34 | 425 |
+| Lv21 | 205 | Lv35-39 | 765 |
+| Lv22 | 205 | Lv40-44 | 805 |
+| Lv23 | 205 | Lv45 | 880 |
+| Lv24 | 205 |  |  |
+| Lv25 | 455 |  |  |
+| Lv26 | 640 |  |  |
+| Lv27 | 640 |  |  |
+| Lv28 | 640 |  |  |
+| Lv31 | 640 |  |  |
+| Lv45 | 640 |  |  |
+
+Dette er en poengguide for krypter. Se den videre guiden for poeng fra andre kister som citadeller, heroiske monstre osv.
+
+**Push de Carterne!**

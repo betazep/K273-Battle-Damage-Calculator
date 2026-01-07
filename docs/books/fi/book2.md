@@ -1,213 +1,56 @@
-<p>Klaanin varallisuuspisteet tulevat klaanissa avattavista arkuista. Jokainen arkku on pistearvoinen ja arvo kasvaa harvinaisuuden myötä. Yksi ansaittu arkku jaetaan kaikille klaanin jäsenille, joten täysi ja aktiivinen klaani on kasvun kannalta ratkaisevaa. Siksi Carter on todella tärkeä!</p>
-<p>Esimiehet ja johtajat voivat lunastaa nämä lahjat 6,5 tunnin välein täältä:</p>
-<ul>
-    <li>Klaanimenu</li>
-    <li>Varallisuus</li>
-</ul>
-<div class="book-section">
-    <h4>Kryptien pisteopas</h4>
-    <table class="book-table book-table--compact">
-        <thead>
-            <tr>
-                <th>Taso</th>
-                <th>Yleinen</th>
-                <th>Harvinainen</th>
-                <th>Eeppinen</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Lv5</td>
-                <td>13</td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>Lv10</td>
-                <td>35</td>
-                <td>66</td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>Lv15</td>
-                <td>75</td>
-                <td>130</td>
-                <td>308</td>
-            </tr>
-            <tr>
-                <td>Lv20</td>
-                <td>167</td>
-                <td>319</td>
-                <td>598</td>
-            </tr>
-            <tr>
-                <td>Lv25</td>
-                <td>427</td>
-                <td>628</td>
-                <td>890</td>
-            </tr>
-            <tr>
-                <td>Lv30</td>
-                <td></td>
-                <td>1349</td>
-                <td>1184</td>
-            </tr>
-            <tr>
-                <td>Lv35</td>
-                <td></td>
-                <td></td>
-                <td>1480</td>
-            </tr>
-        </tbody>
-    </table>
-</div>
-<div class="book-section">
-    <h4>Areena</h4>
-    <p>30 pistettä</p>
-</div>
-<div class="book-section">
-    <h4>Haltijalinnoitus / Kirottu linnoitus pisteet</h4>
-    <table class="book-table book-table--compact">
-        <thead>
-            <tr>
-                <th>Taso</th>
-                <th>Haltija</th>
-                <th>Kirottu</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Lv10</td>
-                <td>18</td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>Lv15</td>
-                <td>30</td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>Lv20</td>
-                <td>38</td>
-                <td>38</td>
-            </tr>
-            <tr>
-                <td>Lv25</td>
-                <td>95</td>
-                <td>95</td>
-            </tr>
-            <tr>
-                <td>Lv30</td>
-                <td>130</td>
-                <td></td>
-            </tr>
-        </tbody>
-    </table>
-</div>
-<div class="book-section">
-    <h4>Sankarihirviö / Muinaiset</h4>
-    <table class="book-table book-table--compact">
-        <thead>
-            <tr>
-                <th>Sankari</th>
-                <th>Pist.</th>
-                <th>Muinaiset</th>
-                <th>Pist.</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Lv16</td>
-                <td>115</td>
-                <td>Lv10-24</td>
-                <td>135</td>
-            </tr>
-            <tr>
-                <td>Lv17</td>
-                <td>115</td>
-                <td>Lv15-19</td>
-                <td>155</td>
-            </tr>
-            <tr>
-                <td>Lv18</td>
-                <td>115</td>
-                <td>Lv20-24</td>
-                <td>250</td>
-            </tr>
-            <tr>
-                <td>Lv19</td>
-                <td>115</td>
-                <td>Lv25-29</td>
-                <td>290</td>
-            </tr>
-            <tr>
-                <td>Lv20</td>
-                <td>205</td>
-                <td>Lv30-34</td>
-                <td>425</td>
-            </tr>
-            <tr>
-                <td>Lv21</td>
-                <td>205</td>
-                <td>Lv35-39</td>
-                <td>765</td>
-            </tr>
-            <tr>
-                <td>Lv22</td>
-                <td>205</td>
-                <td>Lv40-44</td>
-                <td>805</td>
-            </tr>
-            <tr>
-                <td>Lv23</td>
-                <td>205</td>
-                <td>Lv45</td>
-                <td>880</td>
-            </tr>
-            <tr>
-                <td>Lv24</td>
-                <td>205</td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>Lv25</td>
-                <td>455</td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>Lv26</td>
-                <td>640</td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>Lv27</td>
-                <td>640</td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>Lv28</td>
-                <td>640</td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>Lv31</td>
-                <td>640</td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>Lv45</td>
-                <td>640</td>
-                <td></td>
-                <td></td>
-            </tr>
-        </tbody>
-    </table>
-</div>
-<p>Tämä on kryptien pisteopas. Katso jatko-opas muiden arkkujen pisteille, kuten linnoitukset, sankarihirviöt jne.</p>
-<p><strong>Pusketaan Cartereita!</strong></p>
+Klaanin varallisuuspisteet tulevat klaanissa avattavista arkuista. Jokainen arkku on pistearvoinen ja arvo kasvaa harvinaisuuden myötä. Yksi ansaittu arkku jaetaan kaikille klaanin jäsenille, joten täysi ja aktiivinen klaani on kasvun kannalta ratkaisevaa. Siksi Carter on todella tärkeä!
+
+Esimiehet ja johtajat voivat lunastaa nämä lahjat 6,5 tunnin välein täältä:
+
+- Klaanimenu
+- Varallisuus
+
+#### Kryptien pisteopas
+
+| Taso | Yleinen | Harvinainen | Eeppinen |
+| --- | --- | --- | --- |
+| Lv5 | 13 |  |  |
+| Lv10 | 35 | 66 |  |
+| Lv15 | 75 | 130 | 308 |
+| Lv20 | 167 | 319 | 598 |
+| Lv25 | 427 | 628 | 890 |
+| Lv30 |  | 1349 | 1184 |
+| Lv35 |  |  | 1480 |
+
+#### Areena
+
+30 pistettä
+
+#### Haltijalinnoitus / Kirottu linnoitus pisteet
+
+| Taso | Haltija | Kirottu |
+| --- | --- | --- |
+| Lv10 | 18 |  |
+| Lv15 | 30 |  |
+| Lv20 | 38 | 38 |
+| Lv25 | 95 | 95 |
+| Lv30 | 130 |  |
+
+#### Sankarihirviö / Muinaiset
+
+| Sankari | Pist. | Muinaiset | Pist. |
+| --- | --- | --- | --- |
+| Lv16 | 115 | Lv10-24 | 135 |
+| Lv17 | 115 | Lv15-19 | 155 |
+| Lv18 | 115 | Lv20-24 | 250 |
+| Lv19 | 115 | Lv25-29 | 290 |
+| Lv20 | 205 | Lv30-34 | 425 |
+| Lv21 | 205 | Lv35-39 | 765 |
+| Lv22 | 205 | Lv40-44 | 805 |
+| Lv23 | 205 | Lv45 | 880 |
+| Lv24 | 205 |  |  |
+| Lv25 | 455 |  |  |
+| Lv26 | 640 |  |  |
+| Lv27 | 640 |  |  |
+| Lv28 | 640 |  |  |
+| Lv31 | 640 |  |  |
+| Lv45 | 640 |  |  |
+
+Tämä on kryptien pisteopas. Katso jatko-opas muiden arkkujen pisteille, kuten linnoitukset, sankarihirviöt jne.
+
+**Pusketaan Cartereita!**

@@ -86,6 +86,120 @@ const getBookTranslation = (book) => {
     return libraryTranslations[lang]?.books?.[book.id] || null;
 };
 const getBookTitle = (book) => getBookTranslation(book)?.title || book.title;
+const htmlBlockPattern = /<\s*(p|div|ul|ol|li|h[1-6]|table|thead|tbody|tr|td|th|img|strong|em|a|br)\b/i;
+const shouldRenderMarkdown = (content) => !htmlBlockPattern.test(content);
+
+const formatInline = (text) => {
+    let output = text;
+    output = output.replace(/!\[([^\]]*)\]\(([^)]+)\)/g, '<img src="$2" alt="$1">');
+    output = output.replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2">$1</a>');
+    output = output.replace(/<((https?:\/\/)[^>]+)>/g, '<a href="$1">$1</a>');
+    output = output.replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>");
+    output = output.replace(/\*([^*]+)\*/g, "<em>$1</em>");
+    output = output.replace(/`([^`]+)`/g, "<code>$1</code>");
+    return output;
+};
+
+const renderMarkdown = (content) => {
+    const lines = content.replace(/\r\n/g, "\n").split("\n");
+    const output = [];
+    let paragraph = [];
+    let inList = false;
+    let inTable = false;
+
+    const flushParagraph = () => {
+        if (paragraph.length) {
+            output.push(`<p>${formatInline(paragraph.join(" "))}</p>`);
+            paragraph = [];
+        }
+    };
+    const closeList = () => {
+        if (inList) {
+            output.push("</ul>");
+            inList = false;
+        }
+    };
+    const closeTable = () => {
+        if (inTable) {
+            output.push("</tbody></table>");
+            inTable = false;
+        }
+    };
+    const isTableSeparator = (line) =>
+        /^\s*\|?\s*:?[-]{3,}:?\s*(\|\s*:?[-]{3,}:?\s*)+\|?\s*$/.test(line);
+    const parseTableRow = (line) => {
+        let row = line.trim();
+        if (row.startsWith("|")) row = row.slice(1);
+        if (row.endsWith("|")) row = row.slice(0, -1);
+        return row.split("|").map((cell) => formatInline(cell.trim()));
+    };
+
+    for (let i = 0; i < lines.length; i += 1) {
+        const line = lines[i].trim();
+        if (!line) {
+            flushParagraph();
+            closeList();
+            closeTable();
+            continue;
+        }
+
+        const nextLine = lines[i + 1] ? lines[i + 1].trim() : "";
+        if (!inTable && line.includes("|") && nextLine && isTableSeparator(nextLine)) {
+            flushParagraph();
+            closeList();
+            const headers = parseTableRow(line);
+            output.push(
+                `<table class="book-table"><thead><tr>${headers
+                    .map((header) => `<th>${header}</th>`)
+                    .join("")}</tr></thead><tbody>`
+            );
+            inTable = true;
+            i += 1;
+            continue;
+        }
+
+        if (inTable) {
+            if (line.includes("|")) {
+                const cells = parseTableRow(line);
+                output.push(`<tr>${cells.map((cell) => `<td>${cell}</td>`).join("")}</tr>`);
+                continue;
+            }
+            closeTable();
+        }
+
+        const headingMatch = line.match(/^(#{1,6})\s+(.+)/);
+        if (headingMatch) {
+            flushParagraph();
+            closeList();
+            const level = Math.min(6, headingMatch[1].length);
+            output.push(`<h${level}>${formatInline(headingMatch[2].trim())}</h${level}>`);
+            continue;
+        }
+
+        if (line.startsWith("- ")) {
+            flushParagraph();
+            if (!inList) {
+                output.push("<ul>");
+                inList = true;
+            }
+            output.push(`<li>${formatInline(line.slice(2).trim())}</li>`);
+            continue;
+        }
+
+        paragraph.push(line);
+    }
+
+    flushParagraph();
+    closeList();
+    closeTable();
+
+    return output.join("\n");
+};
+
+const resolveBookContent = (content, authorLabel) => {
+    const replaced = content.replace(/{{author}}/g, authorLabel || "");
+    return shouldRenderMarkdown(replaced) ? renderMarkdown(replaced) : replaced;
+};
 
 document.addEventListener("DOMContentLoaded", () => {
     const outline = document.getElementById("library-outline");
@@ -201,7 +315,9 @@ document.addEventListener("DOMContentLoaded", () => {
         const book = books.find((item) => item.id === id);
         if (!book) return;
         const author = getAuthor(book.authorId);
-        const attribution = author ? `<p><strong>Courtesy of ${author.label}</strong></p>` : "";
+        const attribution = author
+            ? `<p><strong>Courtesy of ${author.label}</strong></p><div class="book-divider"></div>`
+            : "";
         modalCategory.textContent = getCategoryLabel(book.categoryId);
         modalTitle.textContent = getBookTitle(book);
         modalContent.innerHTML = `${attribution}<p>Loading...</p>`;
@@ -225,7 +341,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         const content = await fetchBookContent(book, getLanguage());
         if (activeBookId !== book.id) return;
-        const resolved = content.replace(/{{author}}/g, author ? author.label : "");
+        const resolved = resolveBookContent(content, author ? author.label : "");
         modalContent.innerHTML = `${attribution}${resolved}`;
     };
 
