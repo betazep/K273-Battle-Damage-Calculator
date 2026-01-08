@@ -34,9 +34,6 @@
             <p class="eyebrow" data-i18n="calculator.hero.eyebrow">K273 | Illegal Attack Calculator</p>
             <h1 data-i18n="calculator.hero.title">TotalBattle Damage</h1>
             <p class="lede" data-i18n="calculator.hero.lede">Enter losses and generate a copy-ready summary for ROE messages.</p>
-            <div class="hero__actions">
-                <a class="btn ghost btn-small" href="index.html" data-i18n="calculator.hero.back">← Back to Home</a>
-            </div>
             <div class="reset-clock" aria-live="polite">
                 <p class="reset-clock__line">
                     <span class="reset-clock__label" data-i18n="reset.label">Daily Reset</span>
@@ -49,6 +46,12 @@
     </header>
 
     <main class="page">
+        <nav class="page-nav" aria-label="Primary">
+            <a class="btn ghost btn-nav" href="index.html" data-i18n="nav.home">Home</a>
+            <a class="btn ghost btn-nav" href="palace.html" data-i18n="nav.palace">Palace</a>
+            <a class="btn ghost btn-nav" href="library.html" data-i18n="nav.library">Library</a>
+            <a class="btn ghost btn-nav is-active" href="calculator.html" aria-current="page" data-i18n="nav.calculator">Calculator</a>
+        </nav>
         <section class="panel">
             <div class="panel__head">
                 <div>
@@ -169,9 +172,12 @@
         </section>
     </main>
 
-    <div class="footer-actions">
-        <a class="btn ghost btn-small" href="index.html" data-i18n="calculator.back">← Back to Home</a>
-    </div>
+    <nav class="page-nav page-nav--bottom" aria-label="Primary">
+        <a class="btn ghost btn-nav" href="index.html" data-i18n="nav.home">Home</a>
+        <a class="btn ghost btn-nav" href="palace.html" data-i18n="nav.palace">Palace</a>
+        <a class="btn ghost btn-nav" href="library.html" data-i18n="nav.library">Library</a>
+        <a class="btn ghost btn-nav is-active" href="calculator.html" aria-current="page" data-i18n="nav.calculator">Calculator</a>
+    </nav>
 
     <footer class="footer">
         <p data-i18n="site.footer">Built for K273 by Zee</p>

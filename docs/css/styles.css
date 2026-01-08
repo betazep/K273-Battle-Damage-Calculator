@@ -233,6 +233,19 @@ a {
     padding: 0;
 }
 
+.page-nav {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 18px;
+}
+
+.page-nav--bottom {
+    margin-top: 26px;
+    margin-bottom: 0;
+}
+
 .panel__head {
     display: flex;
     align-items: flex-start;
@@ -507,6 +520,19 @@ input:focus, textarea:focus {
 .btn-small {
     padding: 8px 12px;
     font-size: 14px;
+}
+
+.btn-nav {
+    padding: 6px 12px;
+    font-size: 12px;
+    min-width: 130px;
+}
+
+.btn-nav.is-active {
+    background: var(--accent);
+    color: #052122;
+    border-color: transparent;
+    box-shadow: 0 10px 22px rgba(91, 233, 200, 0.25);
 }
 
 .btn:hover {
