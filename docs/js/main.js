@@ -257,7 +257,7 @@
     const enhanceNumberInputs = () => {
         const inputs = document.querySelectorAll("input[type='number']");
         inputs.forEach((input) => {
-            if (input.closest(".input-plus")) {
+            if (input.disabled || input.closest(".input-plus")) {
                 return;
             }
             const wrapper = document.createElement("div");
@@ -554,6 +554,10 @@
                 input.id = `count-${id}-lvl${lvl}`;
                 input.placeholder = "0";
                 input.inputMode = "numeric";
+                if (id === "griffins" && lvl < 5) {
+                    input.disabled = true;
+                    input.placeholder = "N/A";
+                }
                 field.append(labelEl, input);
                 levelsWrap.appendChild(field);
             });
