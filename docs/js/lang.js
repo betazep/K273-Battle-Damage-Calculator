@@ -1,6 +1,8 @@
 (() => {
     const roeCache = new Map();
+    const senateCache = new Map();
     let roeRequestId = 0;
+    let senateRequestId = 0;
     const htmlBlockPattern = /<\s*(p|div|ul|ol|li|h[1-6]|table|thead|tbody|tr|td|th|img|strong|em|a|br)\b/i;
     const shouldRenderMarkdown = (content) => !htmlBlockPattern.test(content);
 
@@ -161,6 +163,31 @@
         return content;
     };
 
+    const fetchSenate = async (lang) => {
+        const cacheKey = lang;
+        if (senateCache.has(cacheKey)) {
+            return senateCache.get(cacheKey);
+        }
+
+        const tryLoad = async (language) => {
+            const response = await fetch(`senate/${language}/senate.md`);
+            if (!response.ok) {
+                return null;
+            }
+            return response.text();
+        };
+
+        let content = await tryLoad(lang);
+        if (!content && lang !== "en") {
+            content = await tryLoad("en");
+        }
+        if (!content) {
+            content = "<p>Senate rules are unavailable.</p>";
+        }
+        senateCache.set(cacheKey, content);
+        return content;
+    };
+
     const applyTranslations = () => {
         const elements = document.querySelectorAll("[data-i18n]");
         elements.forEach((el) => {
@@ -201,6 +228,40 @@
                     roeTarget.innerHTML = "<p>ROE content is unavailable.</p>";
                 });
         }
+
+        const senateTarget = document.getElementById("senate-content");
+        if (senateTarget) {
+            const requestId = ++senateRequestId;
+            const lang = I18N.getLanguage();
+            fetchSenate(lang)
+                .then((content) => {
+                    if (requestId !== senateRequestId) return;
+                    senateTarget.innerHTML = resolveRoeContent(content);
+                })
+                .catch((error) => {
+                    console.error("Failed to load Senate content.", error);
+                    if (requestId !== senateRequestId) return;
+                    senateTarget.innerHTML = "<p>Senate rules are unavailable.</p>";
+                });
+        }
+    };
+
+    const setupPalaceTabs = () => {
+        const tabButtons = document.querySelectorAll("[data-tab-target]");
+        if (!tabButtons.length) return;
+        tabButtons.forEach((button) => {
+            button.addEventListener("click", () => {
+                const targetId = button.dataset.tabTarget;
+                document.querySelectorAll(".tab-button").forEach((btn) => {
+                    const isActive = btn === button;
+                    btn.classList.toggle("is-active", isActive);
+                    btn.setAttribute("aria-selected", isActive ? "true" : "false");
+                });
+                document.querySelectorAll(".tab-panel").forEach((panel) => {
+                    panel.classList.toggle("is-active", panel.id === targetId);
+                });
+            });
+        });
     };
 
     const syncSelectors = (lang) => {
@@ -254,6 +315,7 @@
         syncSelectors(current);
         applyTranslations();
         updateLinks(current);
+        setupPalaceTabs();
 
         document.querySelectorAll(".lang-select").forEach((select) => {
             select.addEventListener("change", (event) => {

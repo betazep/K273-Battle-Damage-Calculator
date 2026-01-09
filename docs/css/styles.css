@@ -254,6 +254,40 @@ a {
     margin-bottom: 12px;
 }
 
+.tab-bar {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 18px;
+    flex-wrap: wrap;
+}
+
+.tab-button {
+    background: transparent;
+    border: 1px solid var(--stroke);
+    color: var(--text);
+    border-radius: 999px;
+    padding: 6px 14px;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    min-width: 108px;
+}
+
+.tab-button.is-active {
+    background: var(--accent);
+    color: #052122;
+    border-color: transparent;
+    box-shadow: 0 10px 22px rgba(91, 233, 200, 0.25);
+}
+
+.tab-panel {
+    display: none;
+}
+
+.tab-panel.is-active {
+    display: block;
+}
+
 .small {
     font-size: 14px;
     color: var(--muted);
