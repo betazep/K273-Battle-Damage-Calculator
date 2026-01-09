@@ -4,6 +4,8 @@ en: {
             strings: {
                 "site.languageLabel": "Language",
                 "site.footer": "Built for K273 by Zee",
+                "support.button.line1": "☕ Buy me a coffee!",
+                "support.button.line2": "(or a beer - heh)",
                 "index.title": "TotalBattle Kingdom 273",
                 "index.hero.eyebrow": "K273 | Tools & Links",
                 "index.hero.title": "TotalBattle Kingdom 273",
@@ -184,6 +186,8 @@ fi: {
             strings: {
                 "site.languageLabel": "Kieli",
                 "site.footer": "Rakennettu K273:lle, tekijä Zee",
+                "support.button.line1": "☕ Osta minulle kahvi!",
+                "support.button.line2": "(tai olut - heh)",
                 "index.title": "TotalBattle Kuningaskunta 273",
                 "index.hero.eyebrow": "K273 | Työkalut ja linkit",
                 "index.hero.title": "TotalBattle Kuningaskunta 273",
@@ -364,6 +368,8 @@ no: {
             strings: {
                 "site.languageLabel": "Språk",
                 "site.footer": "Bygget for K273 av Zee",
+                "support.button.line1": "☕ Kjøp meg en kaffe!",
+                "support.button.line2": "(eller en øl - heh)",
                 "index.title": "TotalBattle Kongerike 273",
                 "index.hero.eyebrow": "K273 | Verktøy og lenker",
                 "index.hero.title": "TotalBattle Kongerike 273",
@@ -544,6 +550,8 @@ de: {
             strings: {
                 "site.languageLabel": "Sprache",
                 "site.footer": "Erstellt für K273 von Zee",
+                "support.button.line1": "☕ Kauf mir einen Kaffee!",
+                "support.button.line2": "(oder ein Bier - heh)",
                 "index.title": "TotalBattle Königreich 273",
                 "index.hero.eyebrow": "K273 | Tools & Links",
                 "index.hero.title": "TotalBattle Königreich 273",
@@ -724,6 +732,8 @@ es: {
             strings: {
                 "site.languageLabel": "Idioma",
                 "site.footer": "Creado para K273 por Zee",
+                "support.button.line1": "☕ ¡Cómprame un café!",
+                "support.button.line2": "(o una cerveza - jeje)",
                 "index.title": "TotalBattle Reino 273",
                 "index.hero.eyebrow": "K273 | Herramientas y enlaces",
                 "index.hero.title": "TotalBattle Reino 273",
@@ -904,6 +914,8 @@ fr: {
             strings: {
                 "site.languageLabel": "Langue",
                 "site.footer": "Créé pour K273 par Zee",
+                "support.button.line1": "☕ Offre-moi un café !",
+                "support.button.line2": "(ou une bière - héhé)",
                 "index.title": "TotalBattle Royaume 273",
                 "index.hero.eyebrow": "K273 | Outils & Liens",
                 "index.hero.title": "TotalBattle Royaume 273",
@@ -1084,6 +1096,8 @@ it: {
             strings: {
                 "site.languageLabel": "Lingua",
                 "site.footer": "Creato per K273 da Zee",
+                "support.button.line1": "☕ Offrimi un caffè!",
+                "support.button.line2": "(o una birra - eheh)",
                 "index.title": "TotalBattle Regno 273",
                 "index.hero.eyebrow": "K273 | Strumenti & Link",
                 "index.hero.title": "TotalBattle Regno 273",
@@ -1264,6 +1278,8 @@ pt: {
             strings: {
                 "site.languageLabel": "Idioma",
                 "site.footer": "Criado para K273 por Zee",
+                "support.button.line1": "☕ Me pague um café!",
+                "support.button.line2": "(ou uma cerveja - hehe)",
                 "index.title": "TotalBattle Reino 273",
                 "index.hero.eyebrow": "K273 | Ferramentas e Links",
                 "index.hero.title": "TotalBattle Reino 273",
@@ -1444,6 +1460,8 @@ pl: {
             strings: {
                 "site.languageLabel": "Język",
                 "site.footer": "Stworzone dla K273 przez Zee",
+                "support.button.line1": "☕ Postaw mi kawę!",
+                "support.button.line2": "(albo piwo - hehe)",
                 "index.title": "TotalBattle Królestwo 273",
                 "index.hero.eyebrow": "K273 | Narzędzia i linki",
                 "index.hero.title": "TotalBattle Królestwo 273",
@@ -1624,6 +1642,8 @@ ru: {
             strings: {
                 "site.languageLabel": "Язык",
                 "site.footer": "Сделано для K273 от Zee",
+                "support.button.line1": "☕ Купи мне кофе!",
+                "support.button.line2": "(или пиво - хех)",
                 "index.title": "TotalBattle Королевство 273",
                 "index.hero.eyebrow": "K273 | Инструменты и ссылки",
                 "index.hero.title": "TotalBattle Королевство 273",
@@ -1804,6 +1824,8 @@ sv: {
             strings: {
                 "site.languageLabel": "Språk",
                 "site.footer": "Skapad för K273 av Zee",
+                "support.button.line1": "☕ Bjud mig på en kaffe!",
+                "support.button.line2": "(eller en öl - hehe)",
                 "index.title": "TotalBattle Kungarike 273",
                 "index.hero.eyebrow": "K273 | Verktyg & Länkar",
                 "index.hero.title": "TotalBattle Kungarike 273",
@@ -1984,6 +2006,8 @@ bg: {
             strings: {
                 "site.languageLabel": "Език",
                 "site.footer": "Създадено за K273 от Zee",
+                "support.button.line1": "☕ Купи ми кафе!",
+                "support.button.line2": "(или бира - хех)",
                 "index.title": "TotalBattle Кралство 273",
                 "index.hero.eyebrow": "K273 | Инструменти и връзки",
                 "index.hero.title": "TotalBattle Кралство 273",
@@ -2164,6 +2188,8 @@ tr: {
             strings: {
                 "site.languageLabel": "Dil",
                 "site.footer": "K273 için Zee tarafından yapıldı",
+                "support.button.line1": "☕ Bana bir kahve ısmarla!",
+                "support.button.line2": "(ya da bir bira - hehe)",
                 "index.title": "TotalBattle Krallık 273",
                 "index.hero.eyebrow": "K273 | Araçlar ve Bağlantılar",
                 "index.hero.title": "TotalBattle Krallık 273",
