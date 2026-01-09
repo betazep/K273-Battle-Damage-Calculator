@@ -375,8 +375,11 @@ document.addEventListener("DOMContentLoaded", () => {
         const book = books.find((item) => item.id === id);
         if (!book) return;
         const author = getAuthor(book.authorId);
+        const courtesy = author
+            ? t("library.courtesy").replace("{author}", author.label)
+            : "";
         const attribution = author
-            ? `<p><strong>Courtesy of ${author.label}</strong></p><div class="book-divider"></div>`
+            ? `<p><strong>${courtesy}</strong></p><div class="book-divider"></div>`
             : "";
         modalCategory.textContent = getCategoryLabel(book.categoryId);
         modalTitle.textContent = getBookTitle(book);
