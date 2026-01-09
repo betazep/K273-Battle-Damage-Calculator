@@ -1676,6 +1676,135 @@
                 "title": "HEROJSKA ČUDOVIŠTA"
             }
         }
+    },
+    "cs": {
+        "categories": {
+            "crypting": "Kryptování a klanové truhly",
+            "events": "Události a epická monstra",
+            "pvp": "Hráč proti hráči",
+            "beginners": "Začátečníci",
+            "leader": "Rady pro vůdce",
+            "misc": "Různé"
+        },
+        "books": {
+            "book1": {
+                "title": "STRATEGIE CITADELY"
+            },
+            "book2": {
+                "title": "DARY KLANOVÉHO BOHATSTVÍ"
+            },
+            "book3": {
+                "title": "ZÁKLADY KRYPTŮ"
+            },
+            "book4": {
+                "title": "STAROVĚKÉ TRESORY"
+            },
+            "book5": {
+                "title": "STRATEGIE TINMAN"
+            },
+            "book6": {
+                "title": "SOUDNÝ DEN"
+            },
+            "book7": {
+                "title": "OBRANA MĚSTA S NULOVOU HODNOTOU"
+            },
+            "book8": {
+                "title": "ŠPIONI A JEJICH TAJEMSTVÍ"
+            },
+            "book9": {
+                "title": "TIPY PRO OTEVŘENÍ KRÁLOVSTVÍ"
+            },
+            "book10": {
+                "title": "SÍŇ SLÁVY"
+            },
+            "book11": {
+                "title": "ZOBRAZIT A AKTIVOVAT BONUSY"
+            },
+            "book12": {
+                "title": "JAK NAJÍT CHAT"
+            },
+            "book13": {
+                "title": "MISTROVSTVÍ PŘIVOLÁNÍ"
+            },
+            "book14": {
+                "title": "STRÁŽNÍ VĚŽ"
+            },
+            "book15": {
+                "title": "TELEPORT MĚSTA"
+            },
+            "book16": {
+                "title": "ZKRÁCENÍ DOBY VÝCVIKU JEDNOTEK"
+            },
+            "book17": {
+                "title": "ZJEDNODUŠENÉ SKLÁDÁNÍ JEDNOTEK"
+            },
+            "book18": {
+                "title": "TIP NA OCHRANU RSS"
+            },
+            "book19": {
+                "title": "PANSKÁ SÍDLA VS FARMY"
+            },
+            "book20": {
+                "title": "PROBLÉMY SE STŘÍBREM"
+            },
+            "book21": {
+                "title": "HEROICKÁ MONSTRA"
+            },
+            "book22": {
+                "title": "BODY DOVEDNOSTÍ HRDINY"
+            },
+            "book23": {
+                "title": "PŘÍKLAD POSTUPU NEZÁKONNÉHO ÚTOKU"
+            },
+            "book24": {
+                "title": "ROJ ARACHNE"
+            },
+            "book25": {
+                "title": "VÝROBA VÝBAVY"
+            },
+            "book26": {
+                "title": "TIP NA SBĚR ZDROJŮ"
+            },
+            "book27": {
+                "title": "ZLEPŠENÍ KLANOVÉHO BOHATSTVÍ"
+            },
+            "book28": {
+                "title": "ZLATÉ DANĚ"
+            },
+            "book29": {
+                "title": "KAPESNÍ PEVNOST - ČÁST 1"
+            },
+            "book30": {
+                "title": "ARMAGEDDON"
+            },
+            "book31": {
+                "title": "KRUH PŘIVOLÁNÍ"
+            },
+            "book32": {
+                "title": "VELKÝ LOV"
+            },
+            "book33": {
+                "title": "HELLFORGE"
+            },
+            "book34": {
+                "title": "KAPITÁNOVY ARTEFAKTY"
+            },
+            "book35": {
+                "title": "KAPITÁNOVY ARTEFAKTY 2"
+            },
+            "book36": {
+                "title": "RESET HRY"
+            },
+            "book37": {
+                "title": "INICIATIVA"
+            },
+            "book38": {
+                "title": "KAPESNÍ PEVNOST - ČÁST 2"
+            },
+            "book39": {
+                "title": "HEROICKÁ MONSTRA"
+            }
+        }
     }
 };
 })();
