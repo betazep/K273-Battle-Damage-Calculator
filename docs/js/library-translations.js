@@ -1547,6 +1547,135 @@
                 "title": "KAHRAMANİK CANAVARLAR"
             }
         }
+    },
+    "hr": {
+        "categories": {
+            "crypting": "Kriptanje i klanske škrinje",
+            "events": "Događaji i epska čudovišta",
+            "pvp": "Igrač protiv igrača",
+            "beginners": "Početnici",
+            "leader": "Savjeti vođa",
+            "misc": "Razno"
+        },
+        "books": {
+            "book1": {
+                "title": "STRATEGIJA CITADELE"
+            },
+            "book2": {
+                "title": "DAROVI KLANOVSKOG BOGATSTVA"
+            },
+            "book3": {
+                "title": "OSNOVE KRIPTANJA"
+            },
+            "book4": {
+                "title": "DREVNE RIZNICE"
+            },
+            "book5": {
+                "title": "TINMAN STRATEGIJA"
+            },
+            "book6": {
+                "title": "SUDNJI DAN"
+            },
+            "book7": {
+                "title": "OBRANA GRADA NULTE VRIJEDNOSTI"
+            },
+            "book8": {
+                "title": "ŠPIJUNI I NJIHOVE TAJNE"
+            },
+            "book9": {
+                "title": "SAVJETI ZA OTVARANJE KRALJEVSTVA"
+            },
+            "book10": {
+                "title": "DVORANA SLAVNIH"
+            },
+            "book11": {
+                "title": "PREGLED I AKTIVACIJA BONUSA"
+            },
+            "book12": {
+                "title": "KAKO PRONAĆI CHAT"
+            },
+            "book13": {
+                "title": "MAJSTORSTVO PRIZIVA"
+            },
+            "book14": {
+                "title": "STRAŽARNICA"
+            },
+            "book15": {
+                "title": "GRADSKI TELEPORT"
+            },
+            "book16": {
+                "title": "SKRATI VRIJEME OBUKE TRUPA"
+            },
+            "book17": {
+                "title": "POJEDNOSTAVLJENO SLAGANJE TRUPA"
+            },
+            "book18": {
+                "title": "SAVJET ZA ZAŠTITU RSS-A"
+            },
+            "book19": {
+                "title": "VILE NASPRAM FARMI"
+            },
+            "book20": {
+                "title": "PROBLEMI SA SREBROM"
+            },
+            "book21": {
+                "title": "HEROJSKA ČUDOVIŠTA"
+            },
+            "book22": {
+                "title": "BODOVI VJEŠTINA HEROJA"
+            },
+            "book23": {
+                "title": "PRIMJER POSTUPKA NEZAKONITOG NAPADA"
+            },
+            "book24": {
+                "title": "ARAHNIN ROJ"
+            },
+            "book25": {
+                "title": "IZRADA OPREME"
+            },
+            "book26": {
+                "title": "SAVJET ZA PRIKUPLJANJE RESURSA"
+            },
+            "book27": {
+                "title": "POBOLJŠANJE KLANOVSKOG BOGATSTVA"
+            },
+            "book28": {
+                "title": "POREZI NA ZLATO"
+            },
+            "book29": {
+                "title": "DŽEPNI FORT - DIO 1"
+            },
+            "book30": {
+                "title": "ARMAGEDON"
+            },
+            "book31": {
+                "title": "KRUG PRIZIVA"
+            },
+            "book32": {
+                "title": "VELIKI LOV"
+            },
+            "book33": {
+                "title": "PAKLENA KOVAČNICA"
+            },
+            "book34": {
+                "title": "KAPETANOVI ARTEFAKTI"
+            },
+            "book35": {
+                "title": "KAPETANOVI ARTEFAKTI 2"
+            },
+            "book36": {
+                "title": "RESET IGRE"
+            },
+            "book37": {
+                "title": "INICIJATIVA"
+            },
+            "book38": {
+                "title": "DŽEPNI FORT - DIO 2"
+            },
+            "book39": {
+                "title": "HEROJSKA ČUDOVIŠTA"
+            }
+        }
     }
 };
 })();
