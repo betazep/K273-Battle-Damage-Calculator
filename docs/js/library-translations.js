@@ -1418,6 +1418,135 @@
                 "title": "ГЕРОИЧНИ ЧУДОВИЩА"
             }
         }
+    },
+    "tr": {
+        "categories": {
+            "crypting": "KRİPT VE KLAN SANDIKLARI",
+            "events": "ETKİNLİKLER VE EPİK CANAVARLAR",
+            "pvp": "OYUNCU VS OYUNCU",
+            "beginners": "YENİ BAŞLAYANLAR",
+            "leader": "LİDER TAVSİYELERİ",
+            "misc": "ÇEŞİTLİ"
+        },
+        "books": {
+            "book1": {
+                "title": "CITADEL STRATEJİSİ"
+            },
+            "book2": {
+                "title": "KLAN ZENGİNLİK HEDİYELERİ"
+            },
+            "book3": {
+                "title": "KRİPT TEMELLERİ"
+            },
+            "book4": {
+                "title": "ANTİK KASALAR"
+            },
+            "book5": {
+                "title": "TINMAN STRATEJİSİ"
+            },
+            "book6": {
+                "title": "KIYAMET GÜNÜ"
+            },
+            "book7": {
+                "title": "SIFIR DEĞERLİ ŞEHİR SAVUNMASI"
+            },
+            "book8": {
+                "title": "CASUSLAR VE SIRLARI"
+            },
+            "book9": {
+                "title": "KRALLIK AÇILIŞI İÇİN İPUÇLARI"
+            },
+            "book10": {
+                "title": "ŞAN SALONU"
+            },
+            "book11": {
+                "title": "BONUSLARI GÖRÜNTÜLE VE ETKİNLEŞTİR"
+            },
+            "book12": {
+                "title": "SOHBET NASIL BULUNUR"
+            },
+            "book13": {
+                "title": "ÇAĞIRMA USTALIĞI"
+            },
+            "book14": {
+                "title": "GÖZETLEME KULESİ"
+            },
+            "book15": {
+                "title": "ŞEHİR IŞINLANMASI"
+            },
+            "book16": {
+                "title": "BİRLİK EĞİTİM SÜRESİNİ AZALTMA"
+            },
+            "book17": {
+                "title": "BASİTLEŞTİRİLMİŞ BİRLİK YIĞMA"
+            },
+            "book18": {
+                "title": "KAYNAK KORUMA İPUCU"
+            },
+            "book19": {
+                "title": "KONAKLAR VE ÇİFTLİKLER"
+            },
+            "book20": {
+                "title": "GÜMÜŞ SIKINTISI"
+            },
+            "book21": {
+                "title": "KAHRAMANİK CANAVARLAR"
+            },
+            "book22": {
+                "title": "KAHRAMAN YETENEK PUANLARI"
+            },
+            "book23": {
+                "title": "YASADIŞI SALDIRI SÜRECİ ÖRNEĞİ"
+            },
+            "book24": {
+                "title": "ARACHNE SÜRÜSÜ"
+            },
+            "book25": {
+                "title": "EKİPMAN ÜRETİMİ"
+            },
+            "book26": {
+                "title": "KAYNAK TOPLAMA İPUCU"
+            },
+            "book27": {
+                "title": "KLAN ZENGİNLİĞİNİ ARTIRMA"
+            },
+            "book28": {
+                "title": "ALTIN VERGİLERİ"
+            },
+            "book29": {
+                "title": "CEP KALE - BÖLÜM 1"
+            },
+            "book30": {
+                "title": "ARMAGEDDON"
+            },
+            "book31": {
+                "title": "ÇAĞIRMA ÇEMBERİ"
+            },
+            "book32": {
+                "title": "BÜYÜK AVLAMA"
+            },
+            "book33": {
+                "title": "CEHENNEM OCAĞI"
+            },
+            "book34": {
+                "title": "KAPTAN ARTEFAKTLARI"
+            },
+            "book35": {
+                "title": "KAPTAN ARTEFAKTLARI 2"
+            },
+            "book36": {
+                "title": "OYUN SIFIRLAMASI"
+            },
+            "book37": {
+                "title": "İNİSİYATİF"
+            },
+            "book38": {
+                "title": "CEP KALE - BÖLÜM 2"
+            },
+            "book39": {
+                "title": "KAHRAMANİK CANAVARLAR"
+            }
+        }
     }
 };
 })();
