@@ -259,18 +259,36 @@ a {
     gap: 10px;
     margin-bottom: 18px;
     flex-wrap: wrap;
+    align-items: center;
+}
+
+.tab-label {
+    background: var(--panel);
+    border: 1px solid var(--stroke);
+    border-radius: 999px;
+    padding: 6px 14px;
+    font-size: 12px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--muted);
+}
+
+.tab-buttons {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
 }
 
 .tab-button {
-    background: transparent;
+    background: var(--panel-soft);
     border: 1px solid var(--stroke);
     color: var(--text);
     border-radius: 999px;
-    padding: 6px 14px;
-    font-size: 13px;
+    padding: 8px 18px;
+    font-size: 14px;
     font-weight: 600;
     cursor: pointer;
-    min-width: 108px;
+    min-width: 124px;
 }
 
 .tab-button.is-active {
@@ -278,6 +296,10 @@ a {
     color: #052122;
     border-color: transparent;
     box-shadow: 0 10px 22px rgba(91, 233, 200, 0.25);
+}
+
+#senate-tab {
+    text-transform: uppercase;
 }
 
 .tab-panel {
@@ -654,6 +676,14 @@ textarea {
     border: 1px solid var(--stroke);
     box-shadow: var(--shadow);
     object-fit: contain;
+}
+
+.document-shell {
+    background: rgba(21, 38, 63, 0.75);
+    border: 1px solid var(--stroke);
+    border-radius: var(--radius);
+    padding: 18px;
+    box-shadow: var(--shadow);
 }
 
 .library-intro {

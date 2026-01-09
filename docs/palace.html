@@ -8,7 +8,7 @@
     <link rel="icon" href="images/favicon-32.png" type="image/png" sizes="32x32">
     <link rel="icon" href="images/favicon-16.png" type="image/png" sizes="16x16">
     <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-    <link rel="stylesheet" href="css/styles.css?v=20260109160154845">
+    <link rel="stylesheet" href="css/styles.css?v=20260109164205938">
 </head>
 <body>
     <header class="hero">
@@ -97,8 +97,11 @@
 
         <section class="panel">
             <div class="tab-bar" role="tablist" aria-label="Palace rules">
-                <button class="tab-button is-active" type="button" role="tab" aria-selected="true" aria-controls="roe-panel" id="roe-tab" data-tab-target="roe-panel" data-i18n="palace.tabs.roe">ROE</button>
-                <button class="tab-button" type="button" role="tab" aria-selected="false" aria-controls="senate-panel" id="senate-tab" data-tab-target="senate-panel" data-i18n="palace.tabs.senate">Senate Rules</button>
+                <div class="tab-label" data-i18n="palace.tabs.label">Select document:</div>
+                <div class="tab-buttons">
+                    <button class="tab-button is-active" type="button" role="tab" aria-selected="true" aria-controls="roe-panel" id="roe-tab" data-tab-target="roe-panel" data-i18n="palace.tabs.roe">ROE</button>
+                    <button class="tab-button" type="button" role="tab" aria-selected="false" aria-controls="senate-panel" id="senate-tab" data-tab-target="senate-panel" data-i18n="palace.tabs.senate">Senate Rules</button>
+                </div>
             </div>
             <div class="tab-panel is-active" id="roe-panel" role="tabpanel" aria-labelledby="roe-tab">
                 <div class="panel__head">
@@ -108,16 +111,21 @@
                         <p class="small"><span data-i18n-html="palace.roe.subtitle">Kingdom guidelines for combat and conduct.<br>English version is the official ROE (Translations via AI)<br>Last Updated 1/6/2025</span></p>
                     </div>
                 </div>
-                <div id="roe-content" class="roe-content"></div>
+                <div class="document-shell">
+                    <div id="roe-content" class="roe-content"></div>
+                </div>
             </div>
             <div class="tab-panel" id="senate-panel" role="tabpanel" aria-labelledby="senate-tab">
                 <div class="panel__head">
                     <div>
                         <p class="eyebrow" data-i18n="palace.senate.eyebrow">Senate</p>
                         <h2 data-i18n="palace.senate.title">Senate Rules</h2>
+                        <p class="small"><span data-i18n-html="palace.senate.subtitle">Kingdom guidelines for Senate conduct.<br>English version is the official Senate Rules (Translations via AI)<br>Last Updated 1/9/2025</span></p>
                     </div>
                 </div>
-                <div id="senate-content" class="roe-content"></div>
+                <div class="document-shell">
+                    <div id="senate-content" class="roe-content"></div>
+                </div>
             </div>
         </section>
     </main>
@@ -136,7 +144,7 @@
             <span class="btn-coffee__line" data-i18n="support.button.line2">(or a beer - heh)</span>
         </a>
     </footer>
-    <script src="js/i18n.js?v=20260109160154845"></script>
+    <script src="js/i18n.js?v=20260109164205938"></script>
     <script src="js/lang.js"></script>
     <script src="js/reset-clock.js"></script>
 </body>
