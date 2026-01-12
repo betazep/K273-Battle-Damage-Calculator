@@ -9,7 +9,9 @@ const version =
 const htmlFiles = ["index.html", "library.html", "calculator.html", "palace.html"];
 
 const replaceVersion = (content) =>
-    content.replace(/(\.(?:css|js))\?v=[^"']+/g, `$1?v=${version}`);
+    content
+        .replace(/(\.(?:css|js))\?v=[^"']+/g, `$1?v=${version}`)
+        .replace(/__CACHE_BUST__/g, version);
 
 htmlFiles.forEach((file) => {
     const filePath = path.join(docsDir, file);

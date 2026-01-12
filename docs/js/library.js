@@ -31,9 +31,17 @@ const booksIndexUrl = "data/library.json";
 const bookContentCache = new Map();
 let books = [];
 
+const getCacheBustValue = () => (window.APP_VERSION ? String(window.APP_VERSION) : "");
+const appendCacheBust = (url) => {
+    const value = getCacheBustValue();
+    if (!value) return url;
+    const separator = url.includes("?") ? "&" : "?";
+    return `${url}${separator}v=${encodeURIComponent(value)}`;
+};
+
 const loadBooksIndex = async () => {
     try {
-        const response = await fetch(booksIndexUrl);
+        const response = await fetch(appendCacheBust(booksIndexUrl));
         if (!response.ok) {
             throw new Error(`Failed to load ${booksIndexUrl}: ${response.status}`);
         }
@@ -56,7 +64,7 @@ const fetchBookContent = async (book, lang) => {
         return bookContentCache.get(cacheKey);
     }
     const tryLoad = async (language) => {
-        const response = await fetch(getBookContentPath(book, language));
+        const response = await fetch(appendCacheBust(getBookContentPath(book, language)));
         if (!response.ok) {
             return null;
         }

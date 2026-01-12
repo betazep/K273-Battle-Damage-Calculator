@@ -3,6 +3,13 @@
     const senateCache = new Map();
     let roeRequestId = 0;
     let senateRequestId = 0;
+    const getCacheBustValue = () => (window.APP_VERSION ? String(window.APP_VERSION) : "");
+    const appendCacheBust = (url) => {
+        const value = getCacheBustValue();
+        if (!value) return url;
+        const separator = url.includes("?") ? "&" : "?";
+        return `${url}${separator}v=${encodeURIComponent(value)}`;
+    };
     const htmlBlockPattern = /<\s*(p|div|ul|ol|li|h[1-6]|table|thead|tbody|tr|td|th|img|strong|em|a|br)\b/i;
     const shouldRenderMarkdown = (content) => !htmlBlockPattern.test(content);
 
@@ -145,7 +152,7 @@
         }
 
         const tryLoad = async (language) => {
-            const response = await fetch(`roe/${language}/roe.md`);
+            const response = await fetch(appendCacheBust(`roe/${language}/roe.md`));
             if (!response.ok) {
                 return null;
             }
@@ -170,7 +177,7 @@
         }
 
         const tryLoad = async (language) => {
-            const response = await fetch(`senate/${language}/senate.md`);
+            const response = await fetch(appendCacheBust(`senate/${language}/senate.md`));
             if (!response.ok) {
                 return null;
             }

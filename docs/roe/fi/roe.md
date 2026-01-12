@@ -1,176 +1,158 @@
-Kuningas Arihelmin määräyksestä seuraava ROE on voimassa kuningaskunnassa:
+Kuningas Spunkyn määräyksestä seuraava ROE tulee voimaan välittömästi koko Kuningaskunta 273:ssa ja KAIKKIEN pelaajien on noudatettava sääntöjä, paitsi:
 
-### K273:n yleinen pelaajasopimus
+- LAINULKOPUOLISET
+- KLAANITTOMAT PELAAJAT
+- KLAANIT, JOTKA EIVÄT NOUDATA ROE:TA
 
-1. Kuningaskunta K273 noudattaa IKFPA-sopimusta, joka luotiin kuningas Arcadian valtakaudella, ja odottaa jokaisen jäsenen noudattavan sitä, erityisesti kuningaskunnan avautumisen jälkeen.
-1. ROE on voimassa välittömästi ja sitä voidaan muuttaa.
-1. Jokaisella muutoksella on 24 tunnin siirtymäaika, jotta muut voivat sopeutua eri aikavyöhykkeiden vuoksi.
-1. Kunnioita kaikkia, joiden kanssa olet tekemisissä.
-1. Rasistista, vihamielistä, halventavaa tai uhkaavaa kieltä kohtaan on nollatoleranssi.
-1. Rikkomuksista voi ilmoittaa kuninkaalle/kuningattarelle tai kuninkaan oikealle kädelle.
-1. Heille voidaan antaa negatiivinen titteli ja/tai lainsuojattoman status.
-1. Uhkaus ja kiusaaminen otetaan erittäin vakavasti, sillä ne ovat TOTAL BATTLE -käytännesääntöjen vastaisia. Kuningaskunnan chat on paikka, jossa kaikkien tulee tuntea olonsa tervetulleeksi.
-1. Kuningaskuntaa pidetään rauhanomaisena kaikkina aikoina.
+Jotta klaanisi osoittaa noudattavansa ROE:ta, klaanikuvauksessa on oltava ”We follow K273 ROE”.
 
-### Kuningaskuntien välinen reilun pelin sopimus (IKFPA) -säännöt
+### 1. Yleinen lausunto K273 pelaajasopimus
 
-Nämä ovat yleisiä sopimuksia eri kuningaskuntien välillä K273:n avautuessa. Ne eivät ole tiukkoja sääntöjä, mutta kuningaskunnat rohkaisevat noudattamaan niitä.
+- Kuningaskunta K273 noudattaa IKFPA‑sopimusta, joka on perustettu kuningas Arcadian hallituskaudella, ja odottaa jokaisen jäsenen noudattavan sitä, erityisesti kuningaskunnan avauduttua.
+- ROE on voimassa välittömästi ja sitä voidaan muuttaa.
+- Jokaisella muutoksella on 24 tunnin puskuri, jotta muut voivat sopeutua eri aikavyöhykkeissä.
+- Kunnioita kaikkia, joiden kanssa olet tekemisissä.
+- Nollatoleranssi rasistiselle, vihamieliselle, halventavalle tai uhkaavalle kielelle.
+- Rikkomuksista voidaan ilmoittaa kuninkaalle/kuningattarelle tai Kuninkaan oikealle kädelle.
+- Heille voidaan määrätä negatiivinen titteli ja/tai lainulkopuolisen status.
+- Uhkat otetaan erittäin vakavasti, samoin kiusaaminen, sillä ne ovat TOTAL BATTLE ‑käytössääntöjen vastaisia ja kuningaskunnan chat on paikka, jossa kaikkien tulee tuntea olonsa tervetulleeksi.
+
+### Inter-Kingdom Fair Play Agreement (IKFPA) -säännöt
+
+Nämä ovat yleisiä sopimuksia eri kuningaskuntien välillä K273:n avautuessa. Ne eivät ole tiukkoja sääntöjä, mutta kuningaskuntia kannustetaan noudattamaan niitä.
 
 1. Ei vihapuhetta.
-1. Ei hyökkäyksiä klaanirakennuksiin, muistoportaaleihin tai alle 100K mightin pelaajiin.
-1. Kaikki RSS-ruudut ovat suojattuja hyökkäyksiltä paitsi PvP-tapahtumien aikana. PvP-tapahtumia ovat: CoT, KvK, War Tools, Gold / Silver Rush, War Games, Lava Trials (ei sisällä erityisesti Ruthless Slaughteria).
-1. Linnoitushyökkäykset muihin kuningaskuntiin johtavat välittömään lainsuojattomuuteen kuningaskunnan ROE:n mukaisesti.
-1. Korvaukset rikkomuksista sovitaan 48 tunnin kuluessa (IKFPA:ta ei valvo mikään yksittäinen taho).
+1. Ei hyökkäyksiä klaanirakennuksiin, muistutportteihin tai alle 100K mightin pelaajiin.
+1. KAIKKI RSS-ruudut ovat suojattuja hyökkäyksiltä paitsi PvP-tapahtumien aikana. PvP‑tapahtumat: CoT, KvK, War Tools, Gold / Silver Rush, War Games, Lava Trials (EI sisällä erityisesti Ruthless Slaughteria).
+1. Hyökkäykset muiden kuningaskuntien fortteihin julistavat välittömästi lainulkopuolisen statuksen kuningaskunnan ROE:n mukaisesti.
+1. Rikkomusten korvaukset sovitaan <48 tunnissa (IKFPA:ta ei valvo mikään yksittäinen taho).
 
-### Kuningaskunnan viranomaiset - Palatsi
+### 2. RAUHANAIKA
 
-- Palatsi vastaa kunnian, rehellisyyden ja rauhan ylläpidosta K273:ssa ja muiden kuningaskuntien kanssa.
-- Kuningas valitaan edustamaan K273:n kansalaisia ja johtamaan palatsia.
-- Kuningatar ja kuninkaan oikea käsi vastaavat kuningaskunnan asioiden koordinoinnista ja voivat puhua kuninkaan puolesta hänen poissa ollessaan.
-- Kuningas, kuningatar ja kuninkaan oikea käsi vastaavat rahaston hallinnasta kuningaskunnan pelaajien puolesta.
-- Kuningattaren ja kuninkaan oikean käden on oltava eri klaaneista.
+- Hyökkäykset ROE‑kaupunkeihin ja portteihin ovat kiellettyjä paitsi CoT:n aikana ja suunnitelluissa CP‑vaihdoissa.
+- Alle 100k pelaajat ovat ROE‑suojattuja (noudattavat ROE:ta tai eivät).
+- Pelaajat ja klaanit, jotka eivät noudata ROE:ta ja ovat yli 100k mightia, voidaan hyökätä milloin tahansa.
+- Lainulkopuolisia voidaan hyökätä milloin tahansa, ilman might‑rajaa.
+- Tiedustelu on aggressio ja on laiton rauhan aikana.
 
-### Klaanijohtajien velvollisuudet
+### 3. DIPLOMAATIT
 
-Kaikkien klaanijohtajien on täytettävä velvollisuutensa johtajina:
+Klaanien on nimettävä vähintään yksi diplomaatti klaanikuvaukseensa. Diplomaatin on oltava aktiivinen klaanijohtaja tai ylempi. Diplomaatit puhuvat klaanin puolesta kuningaskunnalle, auttavat ratkaisemaan ongelmia ja heidän tulisi olla ensisijainen yhteyshenkilö.
 
-- Kunnioittaa ROE:ta (Rules of Engagement).
-- Varmistaa, että heidän jäsenensä kunnioittavat ja noudattavat ROE:ta.
-- Kouluttaa jäseniään tukeakseen kuningaskunnan kasvua ja yhtenäisyyttä.
-- Johtaja, joka epäonnistuu näissä sitoumuksissa, julistetaan lainsuojattomaksi. >=D
-- Johtajat ovat kuningaskunnan esimerkki ja standardi, ja heidän tekonsa näyttävät tien kaikille jäsenille.
+### 4. KLAANIJOHTAJIEN VELVOLLISUUDET
 
-### 1. RAUHANAIKA
+Asettakaa sävy ja suojelkaa klaanin mainetta, luokaa positiivinen ympäristö. Opettakaa, mentoratkaa ja viestikää tavoitteista ja päivityksistä jäsenille tai delegoikaa tämä Ylemmille.
 
-- Kaupunkien hyökkäykset ovat kiellettyjä paitsi CoT:n aikana ja suunnitelluissa CP-vaihdoissa.
-- Hyökkäykset klaanirakennuksiin ovat kiellettyjä.
-- Rauhanajan portaalit: Ei kosketa tai boop boop -hyökkäyksiä ilman CoT:ia. Tämä tarkoittaa, ettei portaalien hyökkääminen ole sallittua missään, ellei portaalia ole todistettu vihamieliseksi. Vihamielisiin portaaleihin kuuluvat hyökkäykset klaanien rakennuksiin, jäseniin ja kaikkiin pelin resursseihin (mukaan lukien kausitapahtumien resurssit). Portaaleihin hyökkääminen klaanialueilla klaanitoimintoja varten ei ole sallittua, ellei portaali ole vihamielinen.
-- CoT-portaalisäännöt: Ei rajoituksia.
-- Tiedustelu on aggression muoto ja on laitonta rauhan aikana.
-- Jos sinua hyökätään, riippumatta heidän mightistaan, sinulla on oikeus hyökätä ketä tahansa takaisin milloin tahansa. Toisin sanoen, jos 1,000,000 mightin pelaaja hyökkää 50,000,000 mightin pelaajan kimppuun, 50,000,000 mightin pelaajalla on täysi oikeus hyökätä takaisin, jos hän niin haluaa.
+### 5. CLASH FOR THE THRONE (COT)
 
-### 2. KLAANIT & DIPLOMAATIT
+CoT:n aikana voit tiedustella ja hyökätä kaupunkeihin seuraavin ehdoin:
 
-- Klaanien tulisi ilmoittaa "We abide by K273 ROE", jotta kuningaskunta palvelee heitä ja he ovat ROE:n suojaamia.
-- Klaanien on nimettävä vähintään yksi diplomaatti klaanikuvauksen alkuun, joka voi auttaa riitojen ratkaisussa. Diplomaatin on oltava aktiivinen johtaja tai ylempi.
+#### KAUPUNGIT
 
-### 3. Yleiset säännöt
+Et voi hyökätä tai tiedustella pelaajan kaupunkia, jolla on alle PUOLET omasta voimastasi/mightistasi, ellei olet top 50 CoT‑sijoituksissa. Jos olet top 50:ssä, ei ole might‑rajaa ja voitte hyökätä vapaasti toistenne kimppuun.
 
-- Kaikki klaanin alueella olevat resurssirakennukset kuuluvat kyseiselle klaanille. Tämä sisältää kausitapahtumien resurssit.
-- Pelaajien luomat resurssit kuuluvat niiden luoneelle henkilölle, ellei kahden osapuolen välillä sovita jakamisesta.
-- Harvinaiset kryptat kuuluvat niiden avaajalle.
-- WS ja DMs:
+#### KLAANIMARSSIT
 
-  - a. Rekisteröintijärjestelmää ei ole. Kaikki villit resurssirakennukset (mukaan lukien DM/WS) ovat saapumisjärjestyksessä (FCFS).
-  - c. Vaatimuksia ei voi esittää, jos sinua tiedustellaan/hyökätään villiresursseissa, ellei
+Et voi käyttää vahvistuksia kaupunkien hyökkäykseen. Voit käyttää vahvistuksia vihamielisten porttien hyökkäykseen. Taisteluraportti vaaditaan hyökkäyksen todisteeksi.
 
-    - Menetät resurssin.
-    - Sinua tiedustellaan/hyökätään ja sitten hyökätään uudelleen. (2x-sääntö)
+#### PORTAALIT
 
-  - d. On sinun vastuullasi viestiä diplomaatillesi, toiselle pelaajalle ja vastapuolen diplomaatti/klaanijohtajalle, jos joku tiedustelee sinua tai hyökkää sinuun kaivoksessa.
+Tapahtumaportteihin ei saa osua missään vaiheessa edes CoT:n aikana. Kaikkia muita villejä portteja ja klaanirajan sisällä olevia portteja voi hyökätä ilman might‑rajaa.
 
-### 4. PALATSIN KORVAUSOPAS
+#### KLAANIFORTIT
 
-Katso k273tb.xyz korvauslaskuria varten.
+Klaanin forttien/rakennusten hyökkääminen on kielletty. Tämä johtaa rangaistuksiin ja voi aiheuttaa lainulkopuolisen statuksen.
 
-- Jokaisesta laittomasta hyökkäyksestä tai tiedustelusta peritään 1 miljoonan hopean perushinta. Kaikki lisätappiot, vahingot tai varastetut resurssit lisätään tämän perushinnan päälle.
+### 6. HIRVIÖT JA KRYPTAT
+
+- Kaikki hirviöt, areenat, citadelit ja kryptat ovat “ensin tullut, ensin palvellaan” sijainnista riippumatta, paitsi Harvinaiset kryptat, jotka vaativat avaimen. Jos et avannut sitä, älä ota.
+- KAIVOKSET/RESURSSIT (RSS) - Pelaajien luomat resurssit kuuluvat henkilölle, joka loi ruudun arkkitehtipiirustuksilla. Kaivoksen omistajalla, hänen klaaninsa jäsenellä tai RG:llä on oikeus hyökätä ja ottaa takaisin ilman varoitusta.
+
+- Kaikki villit ja pelin luomat resurssit ovat “ensin tullut, ensin palvellaan”.
+- Ei louhintaa muiden klaanien alueella tai sinut poistetaan.
+
+#### WS ja DM
+
+- Ei rekisteröintijärjestelmää, ensin tullut, ensin palvellaan.
+- Vaateita ei voi esittää, jos sinua tiedustellaan/hyökätään villeillä resursseilla, ellei:
+
+  - Menetät resurssin.
+  - Sinua tiedustellaan/hyökätään ja sitten hyökätään uudelleen. (2x-sääntö)
+
+- On sinun vastuullasi viestiä diplomaatillesi, toiselle pelaajalle ja vastapuolen diplomaatille/klaanijohtajalle, jos joku tiedustelee tai hyökkää sinua kaivoksessa.
+
+### 7. KORVAUSOHJE
+
+Katso k273tb.xyz korvauslaskuria varten. Jokaisesta laittomasta hyökkäyksestä tai tiedustelusta peritään 1 miljoonan hopean peruskustannus. Kaikki lisätappiot, vahingot tai varastetut resurssit lisätään tähän peruskustannukseen.
+
 - RSS: määrä yhtä suuri kuin varastettu määrä
-- Kulta: 1 Kulta = 3,000 Hopeaa tai kultakaivokset yhtä suuri kuin varastettu + 10 % (uhrin päätöksen mukaan)
-- Terva: 1 Terva = 1,000 Hopeaa
+- Kulta: 1 Kulta = 3 000 Hopeaa tai kultakaivokset yhtä paljon kuin varastettu + 10 % (uhrin päätöksellä)
+- Terva: 1 Tar = 1 000 Hopeaa
 - Kultaharkot = ei korvausta
-- Laittomasti suljettu portaali: 1M hopeaa (+1M itse laittomasta hyökkäyksestä)
-- Vahinko lasketaan seuraavan kaavan mukaan: Kadonneiden joukkojen vahinko lasketaan seuraavan kaavan mukaan:
+- Laittomasti suljettu portti: 1M hopeaa (+1M itse laittomasta hyökkäyksestä)
+- Vahinko lasketaan seuraavan kaavan mukaan: menetettyjen joukkojen vahinko lasketaan seuraavan kaavan mukaan:
 
   - Sankari = 1.5k
   - Kapteeni = 1k
-  - Keihäsmiehet, Jousimiehet = joukkojen taso x 40
-  - Erikoisjoukot, Ratsastajat = joukkojen taso x 80
-  - Vakoilijat = joukkojen taso x 100
-  - Griffinit = joukkojen taso x 800
-  - Katapultit, muurit = muurien taso x 200
-  - Hirviöt III-VII (hirviön taso - 2) x 1.3k
+  - Keihäsmiehet, Jousimiehet = Joukkojen taso x 40
+  - Erikoisjoukot, Ratsastajat = Joukkojen taso x 80
+  - Vakoilijat = Joukkojen taso x 100
+  - Grifit = Joukkojen taso x 800
+  - Katapultit, Muurit Muuri‑taso x 200
+  - Hirviöt III-VII (Hirviön taso 2) x 1.3k
   - Hirviöt I & II = x 8.64k
-  - Palkkasoturi-guardsmen = joukkojen taso x 120
-  - Palkkasoturihirviö = hirviön taso x 3k
+  - Palkkasoturivartijat Joukkojen taso x 120
+  - Palkkasoturihirviö = Hirviön taso x 3k
 
-- - LINNOITUKSET -
+#### FORTIT
 
-  - Tiedustelu = 5 miljoonaa hopeaa
-  - Hyökkäys ilman tuhoamista = 10 miljoonaa hopeaa
-  - Hyökkäys ja tuhoaminen = 20 miljoonaa kutakin Hopeaa, Rautaa, Puuta, Kiveä
+- Tiedustelu = 5 miljoonaa hopeaa
+- Hyökkäys ilman tuhoa = 10 miljoonaa hopeaa
+- Hyökkäys ja tuho = 50 miljoonaa kutakin: Hopea, Rauta, Puu, Kivi
 
-- - PÄÄKAUPUNGIT -
+### 8. LAINULKOPUOLISET
 
-  - Tiedustelu = 5 miljoonaa hopeaa
-  - Hyökkäys ilman tuhoamista = 10 miljoonaa hopeaa
-  - Hyökkäys ja tuhoaminen = 50 miljoonaa kutakin Hopeaa, Rautaa, Puuta, Kiveä
+Jos yksilöt tai klaanit eivät ole halukkaita noudattamaan ROE:ta, hyökkäävät klaanirakennuksiin tai kieltäytyvät maksamasta korvauksia ROE‑rikkomuksista, he saavat lainulkopuolisen statuksen. Nykyiset lainulkopuoliset löytyvät chatista: K273#OUTLAWS.
 
-### 5. VEROT
+### 9. ROOLIT PALATSISSA
 
-- Kaupunkeihin, joilla on yli 3 päivän kertymä harkkoja, voidaan hyökätä Kuninkaallisen Kaartin jäsenen toimesta 24 tuntia sen jälkeen, kun pelaajaa ja klaanijohtajaa on varoitettu. Kultaharkot eivät ole sinulle henkilökohtaisesti minkään arvoisia, mutta kuningas ja palatsi voivat käyttää niitä bonusten kytkemiseen koko kuningaskunnalle. Jos meillä on kultaharkot, niitä käytetään K273:n hyödyksi.
-- Enimmäiskultaharkot per kaupunki:
+- Kuningas on vastuussa kuningaskunnan hallinnasta, mutta koko Palatsi‑järjestelmä on yhteinen ponnistus.
+- Kuningas, Kuningatar ja Kuninkaan oikea käsi pääsevät käsiksi kuningaskunnan aarrekammioon aktivoidakseen kuningaskunnan bonuksia.
+- CENTURION - Kuninkaallisen kaartin päällikkö.
+- ARCHON - Oikeuden päällikkö/ylituomari.
+- CHANCELLOR - Klaanikokouksen johtaja.
+- TREASURER - Verokertymien hallinta.
+- QUESTOR - Hallinnoi viestintää ja kaivoksia.
+- LEGATE - Diplomatiasta vastaava.
+- TRIBUNE - Edustaa kaikkien pelaajien ja klaanien ääntä.
 
-  - Kaupunki 1-9: 2000 harkkoa
-  - Kaupunki 10-19: 3000 harkkoa
-  - Kaupunki 20-24: 10000 harkkoa
-  - Kaupunki 25-29: 35000 harkkoa
-  - Kaupunki 30-34: 60000 harkkoa
-  - Kaupunki 35-39: 70000 harkkoa
-  - Kaupunki 40+: 90000 harkkoa
+### 10. RIKKOMUKSET
 
-### 6. Arvostetun kuningaskunnan jäsenet
+Kaikki kiistanalaiset asiat tulisi ensin yrittää ratkaista pelaajien kesken. Jos he eivät pysty ratkaisemaan, seuraava askel on ottaa mukaan klaanin diplomaatti. Jos diplomaatit eivät löydä yhteistä ratkaisua, asia viedään oikeuteen. Tuomioistuinten ja tuomareiden päätökset eivät ole neuvoteltavissa.
 
-- Jokaisen pelaajan on noudatettava näitä sääntöjä ollakseen ROE:n suojaama. Pelaajat, joita ei suojata, ovat:
+K273#CLAIMS.
 
-  - LAINSUOJATTOMAT
-  - KLAANITTOMAT PELAAJAT (useimmat)
-  - EI-ROE-JÄSENET
+### 11. VEROT
 
-- Suojatut klaanittomat pelaajat: Kaikki pelaajat, joiden might on 100k tai vähemmän, ovat suojattuja eikä heihin saa hyökätä vapaasti. Vuorovaikutuksen klaanittomien pelaajien kanssa tulee ensin olla heidän taustansa ja tavoitteidensa selvittäminen pelissä, jota seuraa kannustus liittyä klaaniin. Edistä kasvua pelissä ja pelaa kuningaskunnan hyväksi henkilökohtaisen palkkion sijaan.
+Tästä lähtien ei enää ennakkovaroitusta ennen harkkojen keräysraideja. Jos harkkoja on liikaa, RG tiedustelee ja sitten kerää.
 
-Lainsuojattoman status
+- Jokaisen klaanin tulisi nimetä verovastaava tarkistamaan kaikkien harkot päivittäin ja muistuttamaan niitä, joilla on liikaa.
+- RG:llä on paljon tehtävää ennen avaamista, joten toivon, ettei keräysraideja enää tarvita.
 
-Valta julistaa kansalainen tai klaani lainsuojattomaksi tai peruuttaa olemassa oleva lainsuojattoman status kuuluu yksinomaan seuraaville kuningaskunnan valtuuksille:
+Maksimimäärä kultaharkkoja per kaupunki
 
-- Kuningas, järjestyksen ja oikeuden ylin suojelija.
-- Kuninkaan oikea käsi, joka toimii kuninkaallisen vallan suorana edustajana.
-- Kuningatar, kuninkaallisen vallan yhteishaltijana.
-- Kuningaskunnan tuomioistuimen päätuomari, oikeuden suojelijan roolinsa perusteella.
+- Kaupunki 1-9 2000 harkkoa
+- Kaupunki 10-19 3000 harkkoa
+- Kaupunki 20-24 10000 harkkoa
+- Kaupunki 25-29 35000 harkkoa
+- Kaupunki 30-34 60000 harkkoa
+- Kaupunki 35-39 70000 harkkoa
+- Kaupunki 40+ 90000 harkkoa
 
-Kukaan muu kuningaskunnan toimija ei voi ilman jonkin näistä valtuuksista myönnettyä nimenomaista valtuutusta julistaa kansalaista tai klaania lainsuojattomaksi. Luvattoman toimijan antama julistus on mitätön.
+### TÄRKEITÄ CHATTEJA LIITTYÄ
 
-**Kuninkaallinen Kaarti**
-
-Kuninkaallinen Kaarti koostuu monista klaaneista ja sen jäseninä on eri tasoisia pelaajia. RG:n tehtävät jatkuvat normaaleina velvollisuuksina kuten verojen keruu ja palatsin toimeenpano. He toimivat myös eliittiarmeijana sekä kuningaskunnan/alueen partio- ja puolustusyksikkönä. He ovat kuningaskunnan keihäänkärki ja ovat täällä auttamassa klaaneja, joilla on ongelmia pelaajien ja lainsuojattomien kanssa.
-
-### 7. Clash of Thrones (CoT)
-
-- Tapahtuman aikana voit tiedustella ja hyökätä kaupunkeihin seuraavilla ehdoilla:
-- Ei klaanilinnoitushyökkäyksiä: Toisen klaanin linnoituksiin tai rakennuksiin hyökkääminen on ehdottomasti kielletty.
-
-Resurssien hallinta
-
-Pidä resurssit matalina tapahtuman aikana varkauksien välttämiseksi; lähetä joukot linnoituksiin tarvittaessa. Harjoittele No Value Cityä (NVC).
-
-"Reilu peli"
-- 50 % sääntö on voimassa.
-- Jos sinua hyökätään, riippumatta heidän mightistaan, sinulla on oikeus hyökätä ketä tahansa takaisin. Toisin sanoen, jos 1,000,000 mightin pelaaja hyökkää 50,000,000 mightin pelaajan kimppuun, 50,000,000 mightin pelaajalla on täysi oikeus hyökätä takaisin, jos hän niin haluaa.
-
-### 8. Konfliktien ratkaisuprosessi
-
-Kun ROE:ta rikotaan, tulee tehdä seuraavat toimenpiteet:
-
-- Ota yhteyttä toiseen pelaajaan ratkaistaksesi asian. Jos ratkaisua ei synny 24 tunnin kuluessa, siirrä asia klaanidiplomaatillesi.
-- Jos klaanidiplomaatit eivät pääse ratkaisuun, he voivat viedä asian oikeuden eteen julkaisemalla sen #K273/CLAIMS-kanavalla. Vain klaanijohtajat tai diplomaatit saavat julkaista vaatimuksia tässä chatissa.
-- Tuomarit ratkaisevat syyllisen osapuolen (jos sellainen on) ja hyväksyttävän korvauksen määrän.
-- Jos syyllinen osapuoli (tai heidän klaaninsa) kieltäytyy korvaamasta, Archon tai päätuomari päättää, pitäisikö pelaaja tai klaani julistaa lainsuojattomaksi, ja Kuninkaallinen Kaarti asetetaan valmiustilaan.
-
-### 9. Kuningaskunnan chatit joihin liittyä
-
-- #K273/ROE
-- #K273/CLAIMS
-- #K273/OUTLAWS
-- ~#K273/CPTHUNDERDOME
-- ~#K273tbxyz
-- ~#K273/ACADEMY
+- K273#ROE
+- K273#OUTLAWS
+- K273#CLAIMS
 - K273 TB Library
+- k273tb

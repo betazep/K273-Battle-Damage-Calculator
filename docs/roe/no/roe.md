@@ -1,176 +1,158 @@
-På ordre fra Kong Arihelm gjelder følgende ROE for kongeriket:
+Etter ordre fra Kong Spunky trer følgende ROE i kraft umiddelbart i hele Kongerike 273, og ALLE spillere må følge reglene, unntatt:
 
-### Generell K273-spilleravtale
+- UTLAGTE
+- SPILLERE UTEN KLAN
+- KLANER SOM IKKE FØLGER ROE
 
-1. Kongeriket K273 følger IKFPA-avtalen som ble etablert under Kong Arcadias styre og forventer at hvert medlem følger den, spesielt etter at kongeriket åpner.
-1. ROE gjelder umiddelbart og kan endres.
-1. Hver endring har en 24-timers buffer slik at andre kan tilpasse seg på tvers av tidssoner.
-1. Vennligst respekter alle du kommer i kontakt med.
-1. Det er nulltoleranse for rasistisk, hatefult, nedsettende eller truende språk.
-1. Brudd kan rapporteres til Kongen/Dronningen eller Kongens høyre hånd.
-1. De kan få en negativ tittel og/eller bli erklært fredløse.
-1. Trusler tas svært alvorlig, og det samme gjelder mobbing, da dette bryter TOTAL BATTLEs Code of Conduct. Kingdom chat er et sted hvor alle skal føle seg velkomne.
-1. Kongeriket anses som fredelig til enhver tid.
+For å vise at klanen din følger ROE må klanbeskrivelsen inneholde «We follow K273 ROE».
 
-### Inter-kongerikets avtale om fair play (IKFPA) regler
+### 1. Generell erklæring K273 spilleravtale
 
-Dette er generelle avtaler mellom ulike kongeriker når K273 åpner. De er ikke harde regler, men kongeriker oppfordres til å følge dem.
+- Kongerike K273 følger IKFPA-avtalen etablert under Kong Arcadias regjeringstid og forventer at hvert medlem overholder den, spesielt etter rikeåpning.
+- ROE gjelder umiddelbart og kan endres.
+- Hver endring har en 24-timers buffer slik at andre kan tilpasse seg på tvers av tidssoner.
+- Vennligst respekter alle du kommer i kontakt med.
+- Det er nulltoleranse for rasistisk, hatefull, nedsettende eller truende språk.
+- Brudd kan rapporteres til Kongen/Dronningen eller Kongens høyre hånd.
+- De kan få negativ tittel og/eller utestengt status.
+- Trusler tas svært alvorlig, det samme gjelder mobbing, da de er i strid med TOTAL BATTLEs atferdsregler og kongerikets chat skal være et sted der alle føler seg velkomne.
+
+### Inter-Kingdom Fair Play Agreement (IKFPA) regler
+
+Dette er generelle avtaler mellom ulike kongeriker for når K273 åpner. De er ikke harde regler, men oppfordres til å etterleves.
 
 1. Ingen hatprat.
-1. Ingen angrep på klanbygninger, memorial portaler eller spillere under 100K might.
-1. Alle RSS-felt er beskyttet mot angrep unntatt under PvP-events. PvP-events er: CoT, KvK, War Tools, Gold / Silver Rush, War Games, Lava Trials (inkluderer IKKE Ruthless Slaughter spesielt).
-1. Fort-angrep på andre kongeriker gir umiddelbar fredløs-status per kongerikets ROE.
-1. Kompensasjon for brudd avtales innen 48 timer (IKFPA håndheves ikke av en enkelt enhet).
+1. Ingen angrep på klanbygninger, minneportaler eller spillere under 100K might.
+1. ALLE RSS-felt er beskyttet mot angrep unntatt under PvP-hendelser. PvP-hendelser er: CoT, KvK, War Tools, Gold / Silver Rush, War Games, Lava Trials (inkluderer IKKE spesifikt Ruthless Slaughter).
+1. Fortangrep på andre kongeriker gir umiddelbar utlagt status i henhold til kongerikets ROE.
+1. Kompensasjon for brudd avtales innen <48 timer (IKFPA håndheves ikke av én enkelt enhet).
 
-### Kongerikets embetsmenn - Palasset
+### 2. FREDSTID
 
-- Palasset er ansvarlig for å opprettholde ære, integritet og fred innenfor K273 og med andre kongeriker.
-- Kongen er valgt for å representere innbyggerne i K273 og lede palasset.
-- Dronningen og Kongens høyre hånd er ansvarlige for å koordinere kongerikets saker og kan tale på Kongens vegne i hans fravær.
-- Kongen, Dronningen og Kongens høyre hånd er ansvarlige for forvaltningen av skattkammeret på vegne av kongerikets spillere.
-- Dronningen og Kongens høyre hånd må være fra forskjellige klaner.
-
-### Forpliktelser for klanledere
-
-Alle klanledere må oppfylle sine forpliktelser som ledere:
-
-- Å respektere ROE (Rules of Engagement).
-- Å sørge for at deres medlemmer respekterer og følger ROE.
-- Å utdanne medlemmene for å støtte vekst og enhet i kongeriket.
-- En leder som feiler i disse forpliktelsene skal erklæres fredløs. >=D
-- Ledere er eksempelet og standarden for kongeriket, og deres handlinger setter retningen for alle medlemmer.
-
-### 1. FREDSTID
-
-- Angrep på byer er forbudt unntatt under CoT og planlagte CP-utvekslinger.
-- Angrep på klanbygninger er forbudt.
-- Fredstid portaler: Ingen berøring eller boop boops uten CoT. Dette betyr ingen angrep på portaler noe sted med mindre de er bevist fiendtlige. Fiendtlige portaler inkluderer angrep på klanens bygninger, medlemmer og alle spillressurser (inkludert sesongressurser). Å angripe portaler i klanterritorium for klanaktiviteter er ikke tillatt med mindre de er fiendtlige.
-- CoT portalregler: Ingen restriksjoner.
+- Angrep på ROE-byer og portaler er forbudt unntatt under CoT og planlagte CP-utvekslinger.
+- Spillere under 100k er beskyttet under ROE (uansett om de følger ROE eller ikke).
+- Spillere og klaner som ikke følger ROE og over 100k might kan angripes når som helst.
+- Utlagte kan angripes når som helst, ingen might-grense.
 - Speiding er en form for aggresjon og er ulovlig i fredstid.
-- Hvis du blir angrepet, uansett deres might, har du lov til å angripe hvem som helst tilbake når som helst. Det betyr at hvis en spiller med 1,000,000 might angriper en spiller med 50,000,000 might, har 50,000,000-might-spilleren full rett til å angripe tilbake hvis de ønsker.
 
-### 2. KLANER & DIPLOMATER
+### 3. DIPLOMATER
 
-- Klaner bør skrive "We abide by K273 ROE" for å bli betjent av kongeriket og beskyttet av ROE.
-- Klaner må identifisere minst én diplomat øverst i klanbeskrivelsen som kan hjelpe med tvisteløsning. Diplomater må være aktive ledere eller overordnede.
+Klaner må identifisere minst én diplomat i klanbeskrivelsen. Diplomater må være en aktiv klanleder eller overordnet. Diplomater taler for klanen til kongeriket, hjelper med å løse problemer og bør være ditt første kontaktpunkt.
 
-### 3. Generelle regler
+### 4. FORPLIKTELSER FOR KLANLEDERE
 
-- Alle ressursbygninger innenfor klanterritoriet tilhører den klanen. Dette inkluderer sesongevent-ressurser.
-- Ressurser laget av spillere tilhører den som laget dem med mindre to parter blir enige om å dele.
-- Sjeldne kryptor tilhører den som åpnet dem.
-- WS og DMs:
+Sett tonen og beskytt klanens omdømme, skap et positivt miljø. Lær opp og veiled og kommuniser mål og oppdateringer til medlemmer, eller deleger dette til Overordnede.
 
-  - a. Det finnes ikke noe registreringssystem. Alle ville ressursbygninger (inkludert DM/WS) er førstemann til mølla (FCFS).
-  - c. Krav kan ikke gjøres hvis du blir speidet/angrepet i ville ressurser med mindre
+### 5. CLASH FOR THE THRONE (COT)
 
-    - Du mister ressursen.
-    - Du blir speidet/angrepet og deretter angrepet igjen. (2x-regel)
+Under CoT kan du speide og angripe byer under følgende betingelser:
 
-  - d. Det er ditt ansvar å sende melding til din diplomat, den andre spilleren og den motsatte diplomaten/klanlederen hvis noen speider deg eller angriper deg i en gruve.
+#### BYER
 
-### 4. PALASSETS KOMPENSASJONSGUIDE
+Du kan ikke angripe eller speide en spillers by som har mindre enn HALVPARTEN av din makt/might, med mindre du er i topp 50 i CoT-rangeringen. Er du i topp 50 er det ingen might-grense og dere kan angripe hverandre fritt.
 
-Se k273tb.xyz for kompensasjonskalkulator.
+#### KLANMARSJER
 
-- Hvert ulovlige angrep eller speiding har en grunnkostnad på 1 million sølv. Eventuelle tilleggstap, skader eller stjålne ressurser legges til denne grunnkostnaden.
-- RSS: beløp likt beløpet som ble stjålet
-- Gull: 1 Gull = 3,000 Sølv eller gullgruver likt stjålet + 10 % (etter offerets beslutning)
-- Tar: 1 Tar = 1,000 Sølv
-- Gullbarrer = ingen kompensasjon
-- Ulovlig lukket portal: 1M sølv (+1M for selve det ulovlige angrepet)
-- Skade beregnes etter følgende formel: Skade for tapte tropper beregnes etter følgende formel:
+Du kan ikke bruke forsterkninger til å angripe byer. Du kan bruke forsterkninger til å angripe fiendtlige portaler. Kamp-rapport kreves som bevis på angrep.
 
-  - Hero = 1.5k
-  - Captain = 1k
-  - Spearmen, Archers = Troppnivå x 40
-  - Specialists, Riders = Troppnivå x 80
-  - Spies = Troppnivå x 100
-  - Griffins = Troppnivå x 800
-  - Catapults, Walls Walls Level x 200
-  - Monsters III-VII (Monster Level - 2) x 1.3k
-  - Monsters I & II = x 8.64k
-  - Mercenary Guard Troops Level x 120
-  - Mercenary Monster = Monster Level x 3k
+#### PORTALER
 
-- - FORTER -
+Eventportaler kan ikke angripes på noe tidspunkt, selv under CoT. Alle andre ville portaler og portaler innenfor klanens grense kan angripes uten might-grense.
 
-  - Speiding = 5 millioner sølv
-  - Angrep uten å ødelegge = 10 millioner sølv
-  - Angrep og ødeleggelse = 20 millioner av hver Sølv, Jern, Tre, Stein
+#### KLANFORT
 
-- - HOVEDSTADER -
+Det er forbudt å angripe klanfort/bygninger. Dette medfører straff og kan resultere i utlagt status.
 
-  - Speiding = 5 millioner sølv
-  - Angrep uten å ødelegge = 10 millioner sølv
-  - Angrep og ødeleggelse = 50 millioner av hver Sølv, Jern, Tre, Stein
+### 6. MONSTRE OG KRYPTER
 
-### 5. SKATTER
+- Alle monstre, arenaer, citadeller og krypter er førstemann til mølla uavhengig av plassering, unntatt Sjeldne krypter som krever nøkkel for å åpnes. Hvis du ikke låste opp den, ikke ta den.
+- GRUVER/RESSURSER (RSS) - Spillerskapte ressurser eies av personen som opprettet feltet ved bruk av arkitekt-tegninger. Eieren av gruven, et medlem av deres klan eller RG har rett til å angripe og ta tilbake uten varsel.
 
-- Byer med mer enn 3 dagers opptjente barrer kan angripes av et medlem av Den Kongelige Garden 24 timer etter at spilleren og klanlederen er advart. Gullbarrer har null verdi for deg personlig, men Kongen og Palasset kan bruke dem til å aktivere bonuser for hele kongeriket. Hvis vi har gullbarrer, brukes de til fordel for K273.
-- Maksimale gullbarrer per by:
+- Alle ville ressurser og spillgenererte ressurser er førstemann til mølla.
+- Ingen mining i andre klaners territorium, ellers blir du fjernet.
 
-  - By 1-9: 2000 barrer
-  - By 10-19: 3000 barrer
-  - By 20-24: 10000 barrer
-  - By 25-29: 35000 barrer
-  - By 30-34: 60000 barrer
-  - By 35-39: 70000 barrer
-  - By 40+: 90000 barrer
+#### WS og DMs
 
-### 6. Medlemmer av det aktede kongeriket
+- Ingen registreringssystem, førstemann til mølla.
+- Krav kan ikke gjøres dersom du blir speidet/angrepet i ville ressurser med mindre:
 
-- Hver spiller må følge disse reglene for å være beskyttet av ROE. Spillere som ikke er beskyttet er:
+  - Du mister ressursen.
+  - Du blir speidet/angrepet og deretter angrepet igjen. (2x-regel)
 
-  - FREDLØSE
-  - KLANLØSE SPILLERE (de fleste)
-  - IKKE-ROE MEDLEMMER
+- Det er ditt ansvar å kontakte diplomaten din, den andre spilleren og motpartens diplomat/klanleder hvis noen speider eller angriper deg i en gruve.
 
-- Beskyttede klanløse spillere: Alle spillere på eller under 100k might er beskyttet og skal ikke angripes fritt. Interaksjoner med klanløse spillere bør først være å lære om dem og deres mål i spillet, etterfulgt av oppfordring til å bli med i en klan. Frem dyrking i spillet og spill for kongeriket fremfor personlig belønning.
+### 7. KOMPENSASJONSGUIDE
 
-Fredløs-status
+Se k273tb.xyz for kompensasjonskalkulator. Hvert ulovlig angrep eller speiding har en basekostnad på 1 million sølv. Eventuelle ekstra tap, skader eller stjålne ressurser legges til denne basekostnaden.
 
-Myndigheten til å erklære en borger eller en klan fredløs, eller å oppheve en eksisterende fredløs-status, ligger utelukkende hos følgende myndigheter i Kongeriket:
+- RSS: beløp likt mengden som er stjålet
+- Gull: 1 Gull = 3 000 Sølv eller gullgruver likt det som er stjålet + 10% (etter offerets beslutning)
+- Tar: 1 Tar = 1 000 Sølv
+- Gullbarer = ingen kompensasjon
+- Ulovlig stengt portal: 1M sølv (+1M for selve det ulovlige angrepet)
+- Skade beregnes etter følgende formel: Skade på tapte tropper beregnes etter følgende formel:
 
-- Kongen, øverste beskytter av orden og rettferdighet.
-- Kongens høyre hånd, som fungerer som den direkte representanten for kongelig myndighet.
-- Dronningen, som medinnehaver av den kongelige myndigheten.
-- Hoveddommeren i Kongerikets tribunal, i kraft av sin rolle som rettferdighetens vokter.
+  - Helt = 1.5k
+  - Kaptein = 1k
+  - Spydmenn, Bueskyttere = Troppenivå x 40
+  - Spesialister, Ryttere = Troppenivå x 80
+  - Spioner = Troppenivå x 100
+  - Griffiner = Troppenivå x 800
+  - Katapulter, Murer Murnivå x 200
+  - Monstre III-VII (Monsternivå 2) x 1.3k
+  - Monstre I & II = x 8.64k
+  - Leiesoldatvakt Troppenivå x 120
+  - Leiesoldatmonster = Monsternivå x 3k
 
-Ingen annen aktør i Kongeriket kan, uten et uttrykkelig mandat gitt av en av disse myndighetene, erklære en borger eller en klan fredløs. Enhver erklæring utstedt av en uautorisert aktør er ugyldig.
+#### FORTER
 
-**Den Kongelige Garden**
+- Speiding = 5 millioner sølv
+- Angrep uten å ødelegge = 10 millioner sølv
+- Angrep og ødeleggelse = 50 millioner av hver: Sølv, Jern, Tre, Stein
 
-Den Kongelige Garden består av mange klaner og har spillere på ulike nivåer som medlemmer. RG-oppgavene vil fortsette sine normale oppgaver som skatteinnkreving og håndheving for Palasset. De vil også fungere som en elitehær og en patrulje- og forsvarsenhet for kongeriket/territoriet. De er spydspissen for kongeriket og er her for å hjelpe klaner som har problemer med spillere og fredløse.
+### 8. UTLAGTE
 
-### 7. Clash of Thrones (CoT)
+Hvis enkeltpersoner eller klaner ikke er villige til å følge ROE, angriper klanbygninger eller nekter å betale kompensasjon for ROE-brudd, vil de få utlagt status. Nåværende utlagte finnes i chatten: K273#OUTLAWS.
 
-- Under eventet kan du speide og angripe byer under følgende betingelser:
-- Ingen klanfort-angrep: Angrep på en annen klans forter eller bygninger er strengt forbudt.
+### 9. ROLLER INNENFOR PALASSET
 
-Ressurshåndtering
+- Kongen er ansvarlig for å styre Kongeriket, men hele palass-systemet er en samarbeidsinnsats.
+- Kongen, Dronningen og Kongens høyre hånd har tilgang til kongerikets skattkammer for å slå på kongeriksbonuser.
+- CENTURION - Sjef for den Kongelige Garden.
+- ARCHON - Leder for domstolen/Hoveddommer.
+- CHANCELLOR - Leder for rådet av klaner.
+- TREASURER - Håndtering av skatteinnkreving.
+- QUESTOR - Håndterer kommunikasjon og gruver.
+- LEGATE - Leder for diplomati.
+- TRIBUNE - Representerer stemmen til alle spillere og klaner.
 
-Hold ressursene lave under eventet for å unngå tyveri; send tropper til forter om nødvendig. Praktiser No Value City (NVC).
+### 10. BRUDD
 
-"Fair Play"
-- 50 %-regelen gjelder.
-- Hvis du blir angrepet, uansett deres might, har du lov til å angripe hvem som helst tilbake. Det betyr at hvis en spiller med 1,000,000 might angriper en spiller med 50,000,000 might, har 50,000,000-might-spilleren full rett til å angripe tilbake hvis de ønsker.
+Alle kontroversielle saker bør først forsøkes løst mellom spillerne selv. Hvis de ikke kan løse det, er neste steg å involvere klanens diplomat. Hvis diplomatene ikke kan finne en felles løsning, tar de saken til domstolene. Beslutningene til domstoler og dommere er ikke til forhandling.
 
-### 8. Konfliktløsningsprosess
+K273#CLAIMS.
 
-Når ROE brytes, bør følgende trinn tas:
+### 11. SKATTER
 
-- Kontakt den andre spilleren for å forsøke å løse saken. Hvis ingen løsning innen 24 timer, eskaler til din klan-diplomat.
-- Hvis ingen løsning oppnås mellom klan-diplomater, kan de bringe saken inn for domstolen ved å poste den i #K273/CLAIMS. Kun klanledere eller diplomater har lov til å poste krav i denne chatten.
-- Dommerne vil avgjøre skyldig part (om noen) og en akseptabel kompensasjon.
-- Hvis den skyldige parten (eller deres klan) nekter å kompensere, vil Archon eller hoveddommer avgjøre om spilleren eller klanen skal erklæres fredløs, og Den Kongelige Garden settes i beredskap.
+Fra nå av, ingen forhåndsvarsel før innsamling av ingot-raid. Hvis ingotene er for høye, vil RG speide og deretter samle inn.
 
-### 9. Kongerikets chatter å bli med i
+- Hver klan bør utnevne en offiser som Skatteansvarlig for å sjekke alles ingoter daglig og minne dem som har for mange.
+- RG har mye å gjøre før åpning, så jeg håper det ikke trengs flere innsamlingstokt.
 
-- #K273/ROE
-- #K273/CLAIMS
-- #K273/OUTLAWS
-- ~#K273/CPTHUNDERDOME
-- ~#K273tbxyz
-- ~#K273/ACADEMY
+Maksimale gullingoter per by
+
+- By 1-9 2000 ingoter
+- By 10-19 3000 ingoter
+- By 20-24 10000 ingoter
+- By 25-29 35000 ingoter
+- By 30-34 60000 ingoter
+- By 35-39 70000 ingoter
+- By 40+ 90000 ingoter
+
+### VIKTIGE CHATS Å BLI MED I
+
+- K273#ROE
+- K273#OUTLAWS
+- K273#CLAIMS
 - K273 TB Library
+- k273tb

@@ -1,176 +1,158 @@
-Kral Arihelm'in emriyle, aşağıdaki ROE krallık için geçerlidir:
+Kral Spunky'nin emriyle aşağıdaki ROE, Krallık 273 genelinde derhal yürürlüğe girer ve HER oyuncu kurallara uymak zorundadır, şu kişiler hariç:
 
-### Genel K273 Oyuncu Anlaşması
+- KANUN DIŞILAR
+- KLANSIZ OYUNCULAR
+- ROE'YE UYMAYAN KLANLAR
 
-1. K273 Krallığı, Kral Arcadia döneminde oluşturulan IKFPA anlaşmasını takip eder ve her üyenin buna uymasını bekler; özellikle krallık açıldıktan sonra.
-1. ROE derhal yürürlüğe girer ve değiştirilebilir.
-1. Her değişiklik, farklı zaman dilimlerinin uyum sağlaması için 24 saatlik bir tampon süreye sahiptir.
-1. Karşılaştığınız herkese saygı gösterin.
-1. Irkçı, nefret dolu, aşağılayıcı veya tehdit edici dile karşı sıfır tolerans politikası vardır.
-1. İhlaller Kral/Kraliçe veya Kralın Sağ Eli’ne bildirilebilir.
-1. Kendilerine olumsuz bir unvan ve/veya kanun kaçağı statüsü verilebilir.
-1. Tehditler çok ciddiye alınır; zorbalık da öyle, çünkü TOTAL BATTLE Davranış Kuralları'na aykırıdır. Krallık sohbeti herkesin kendini hoş karşılanmış hissetmesi gereken bir yerdir.
-1. Krallık her zaman barışçıl kabul edilir.
+Klanınızın ROE'yi takip ettiğini göstermek için klan açıklamanızda "We follow K273 ROE" yazmalıdır.
 
-### Krallıklar Arası Adil Oyun Anlaşması (IKFPA) kuralları
+### 1. Genel bildiri K273 Oyuncu Anlaşması
 
-Bunlar K273 açıldığında farklı krallıklar arasında yapılan genel anlaşmalardır. Katı kurallar değildir ancak krallıklar tarafından uygulanması teşvik edilir.
+- Krallık K273, Kral Arcadia'nın yönetimi sırasında oluşturulan IKFPA anlaşmasını takip eder ve özellikle krallık açıldıktan sonra her üyenin buna uymasını bekler.
+- ROE derhal yürürlüğe girer ve değiştirilebilir.
+- Her değişiklik için 24 saatlik bir tampon süre vardır; böylece diğerleri farklı zaman dilimlerine göre uyum sağlayabilir.
+- Lütfen temas ettiğiniz herkese saygı gösterin.
+- Irkçı, nefret dolu, aşağılayıcı veya tehdit edici dile karşı sıfır tolerans politikası vardır.
+- İhlaller Kral/Kraliçe veya Kralın Sağ Eli'ne bildirilebilir.
+- Negatif bir unvan ve/veya kanun dışı statüsü verilebilir.
+- Tehditler çok ciddiye alınır; zorbalık da öyledir. Bunlar TOTAL BATTLE Davranış Kuralları'na aykırıdır ve krallık sohbeti herkesin kendini hoş karşılanmış hissetmesi gereken bir yerdir.
+
+### Inter-Kingdom Fair Play Agreement (IKFPA) kuralları
+
+Bunlar K273 açıldığında farklı krallıklar arasındaki genel anlaşmalardır. Katı kurallar değildir ancak krallıkların bunlara uyması teşvik edilir.
 
 1. Nefret söylemi yok.
-1. Klan binalarına, anıt portallara veya 100K gücün altındaki oyunculara saldırı yok.
-1. Tüm RSS kareleri PvP etkinlikleri dışında saldırılara karşı korunur. PvP etkinlikleri: CoT, KvK, War Tools, Gold / Silver Rush, War Games, Lava Trials (özellikle Ruthless Slaughter'ı içermez).
-1. Diğer krallıklardaki kalelere saldırı, krallık ROE'sine göre derhal kanun kaçağı statüsü getirir.
-1. İhlaller için tazminat 48 saat içinde uzlaşılır (IKFPA herhangi bir tek kurum tarafından uygulanmaz).
+1. Klan binalarına, anıt portallara veya 100K güç altındaki oyunculara saldırı yok.
+1. TÜM RSS kareleri PvP etkinlikleri dışında saldırılara karşı korunur. PvP etkinlikleri: CoT, KvK, War Tools, Gold / Silver Rush, War Games, Lava Trials (Ruthless Slaughter özel olarak dahil DEĞİLDİR).
+1. Diğer krallıkların kalelerine saldırı, krallık ROE'sine göre derhal kanun dışı statüsü ilan eder.
+1. İhlaller için tazminat <48 saat içinde uzlaşılır (IKFPA herhangi bir tek kurum tarafından uygulanmaz).
 
-### Krallık Yetkilileri - Saray
+### 2. BARIŞ ZAMANI
 
-- Saray, K273 içinde ve diğer krallıklarla onur, bütünlük ve barışı korumaktan sorumludur.
-- Kral, K273 vatandaşlarını temsil etmek ve saraya başkanlık etmek üzere seçilir.
-- Kraliçe ve Kralın Sağ Eli, krallığın işlerini koordine etmekten sorumludur ve kralın yokluğunda onun adına konuşabilir.
-- Kral, Kraliçe ve Kralın Sağ Eli, krallık oyuncuları adına hazinenin yönetiminden sorumludur.
-- Kraliçe ve Kralın Sağ Eli farklı klanlardan olmalıdır.
+- ROE şehirleri ve portallara saldırılar CoT ve planlı CP değişimleri dışında yasaktır.
+- 100k altındaki oyuncular ROE kapsamında korunur (ROE'ye uysun ya da uymasın).
+- ROE'ye uymayan ve 100k üstü güce sahip oyuncular ve klanlar herhangi bir zamanda saldırılabilir.
+- Kanun dışılar herhangi bir zamanda, güç sınırı olmadan saldırılabilir.
+- Keşif bir saldırganlık biçimidir ve barış zamanında yasa dışıdır.
 
-### Klan Liderlerinin Yükümlülükleri
+### 3. DİPLOMATLAR
 
-Tüm klan liderleri, lider olarak yükümlülüklerini yerine getirmelidir:
+Klanlar, klan açıklamasında en az bir diplomatı belirtmelidir. Diplomatlar aktif bir klan lideri veya üst olmalıdır. Diplomatlar krallık nezdinde klanlarını temsil eder, sorunların çözümüne yardım eder ve ilk başvuru noktanız olmalıdır.
 
-- ROE'ye (Angajman Kuralları) saygı duymak.
-- Üyelerinin ROE'ye uymasını sağlamak.
-- Krallığın büyümesi ve birliği için üyelerini eğitmek.
-- Bu taahhütleri yerine getirmeyen bir lider kanun kaçağı ilan edilir. >=D
-- Liderler krallığın örneği ve standardıdır; eylemleri tüm üyeler için yolu belirler.
+### 4. KLAN LİDERLERİNİN YÜKÜMLÜLÜKLERİ
 
-### 1. BARIŞ ZAMANI
+Tonu belirleyin ve klanın itibarını koruyun, olumlu bir ortam oluşturun. Üyelere öğretin, mentorluk yapın ve hedefleri ve güncellemeleri iletin veya bunu Üstlere devredin.
 
-- CoT ve planlı CP değişimleri dışında şehirlere saldırılar yasaktır.
-- Klan binalarına saldırılar yasaktır.
-- Barış zamanı portalları: CoT dışında dokunmak yok. Bu, düşmanca olduğu kanıtlanmadıkça hiçbir yerde portallara saldırı yapılmaması anlamına gelir. Düşmanca portallar; klan binalarına, üyelere ve tüm oyun kaynaklarına (mevsimsel etkinlik kaynakları dahil) saldırıları içerir. Klan faaliyetleri için klan bölgelerindeki portallara saldırmak, düşmanca olmadıkça izinli değildir.
-- CoT portal kuralları: Kısıtlama yok.
-- Keşif saldırganlık biçimidir ve barış zamanında yasadışıdır.
-- Saldırıya uğrarsanız, güçlerine bakılmaksızın istediğiniz zaman karşı saldırı yapabilirsiniz. Yani 1.000.000 güce sahip bir oyuncu 50.000.000 güce sahip bir oyuncuya saldırırsa, 50.000.000 güce sahip oyuncu isterse karşı saldırı yapma hakkına sahiptir.
+### 5. CLASH FOR THE THRONE (COT)
 
-### 2. KLANLAR VE DİPLOMATLAR
+CoT sırasında aşağıdaki koşullar altında şehirleri keşfedebilir ve saldırabilirsiniz:
 
-- Klanlar, krallık tarafından hizmet görmek ve ROE tarafından korunmak için "K273 ROE'ye uyuyoruz" ifadesini belirtmelidir.
-- Klanlar, anlaşmazlık çözümüne yardımcı olabilecek en az bir diplomatı klan açıklamasının üst kısmında belirtmelidir. Diplomatlar aktif bir lider veya üst rütbeli olmalıdır.
+#### ŞEHİRLER
 
-### 3. Genel Kurallar
+Top 50 COT sıralamasında olmadıkça, gücünüzün/sağlamlığınızın YARISINDAN az güce sahip bir oyuncunun şehrine saldırı veya keşif yapamazsınız. Top 50'deyseniz güç sınırı yoktur ve birbirinize serbestçe saldırabilirsiniz.
 
-- Klan bölgesindeki tüm kaynak binaları o klana aittir. Buna mevsimsel etkinlik kaynakları da dahildir.
-- Oyuncu tarafından oluşturulan kaynaklar, iki taraf arasında paylaşım anlaşması yoksa, onları oluşturan kişiye aittir.
-- Nadir kriptolar, onları açan kişiye aittir.
-- WS ve DM'ler:
+#### KLAN YÜRÜYÜŞLERİ
 
-  - a. Kayıt sistemi yoktur. Tüm vahşi kaynak binaları (DM/WS dahil) ilk gelen alır (FCFS).
-  - c. Vahşi kaynaklarda keşif/ saldırıya uğrarsanız talepte bulunamazsınız, ancak
+Şehirlere saldırmak için takviye kullanamazsınız. Düşmanca portallara saldırmak için takviye kullanabilirsiniz. Saldırı kanıtı olarak savaş raporu gereklidir.
 
-    - Kaynağı kaybederseniz.
-    - Keşif/saldırıya uğrayıp sonra tekrar saldırıya uğrarsanız. (2x kuralı)
+#### PORTALLAR
 
-  - d. Bir maden için sizi keşfeden veya saldıran biri varsa, diplomatınıza, diğer oyuncuya ve karşı tarafın diplomatı/klan liderine mesaj atmak sizin sorumluluğunuzdur.
+Etkinlik portalları CoT sırasında bile hiçbir zaman vurulamaz. Diğer tüm vahşi portallar ve klan sınırı içindeki portallar güç sınırı olmadan saldırılabilir.
 
-### 4. SARAY TAZMİNAT REHBERİ
+#### KLAN KALELERİ
 
-Tazminat hesaplayıcısı için lütfen k273tb.xyz'e bakın.
+Klan kalelerine/binalarına saldırmak yasaktır. Bunu yapmak cezaya yol açar ve kanun dışı statüsüne neden olabilir.
 
-- Her yasa dışı saldırı veya keşif, 1 milyon gümüş taban maliyet taşır. Ek kayıplar, hasarlar veya çalınan kaynaklar bu taban maliyete eklenir.
-- RSS: çalınan miktara eşit miktar
-- Altın: 1 Altın = 3.000 Gümüş veya çalınanın + %10'u kadar altın madenleri (kurbanın kararıyla)
-- Katran: 1 Katran = 1.000 Gümüş
+### 6. CANAVARLAR VE KRİPTLER
+
+- Tüm canavarlar, arenalar, kaleler ve kriptler konumdan bağımsız olarak önce gelen önce alır, anahtar gerektiren Nadir Kriptler hariç. Siz açmadıysanız almayın.
+- MADENLER/KAYNAKLAR (RSS) - Oyuncu tarafından oluşturulan kaynaklar, mimar planlarıyla kareyi oluşturan kişiye aittir. Maden sahibi, klan üyesi veya RG, uyarı olmadan saldırıp geri alma hakkına sahiptir.
+
+- Tüm vahşi ve oyun tarafından oluşturulan kaynaklar önce gelen önce alır.
+- Diğer klanların bölgesinde madencilik yok; aksi halde uzaklaştırılırsınız.
+
+#### WS ve DM
+
+- Kayıt sistemi yok, önce gelen önce alır.
+- Vahşi kaynaklarda keşfedilir/saldırıya uğrarsanız şu durumlar dışında hak iddia edilemez:
+
+  - Kaynağı kaybedersiniz.
+  - Keşfedilir/saldırıya uğrar ve ardından tekrar saldırıya uğrarsınız. (2x kuralı)
+
+- Bir maden içinde sizi keşfeden veya saldıran biri varsa, diplomatınıza, diğer oyuncuya ve karşı diplomat/klan liderine mesaj atmak sizin sorumluluğunuzdur.
+
+### 7. TAZMİNAT REHBERİ
+
+Tazminat hesaplayıcısı için k273tb.xyz adresine bakın. Her yasa dışı saldırı veya keşif için temel maliyet 1 milyon gümüştür. Ek kayıplar, hasarlar veya çalınan kaynaklar bu temel maliyete eklenir.
+
+- RSS: çalınan miktara eşit
+- Altın: 1 Altın = 3.000 Gümüş veya çalınana eşit altın madenleri + %10 (mağdurun kararıyla)
+- Katran: 1 Tar = 1.000 Gümüş
 - Altın külçeler = tazminat yok
-- Yasa dışı kapatılan portal: 1M gümüş (+ yasa dışı saldırının kendisi için +1M)
-- Hasar şu formüle göre hesaplanır: Kayıp askerlerin hasarı aşağıdaki formüle göre hesaplanır:
+- Yasa dışı kapatılan portal: 1M gümüş (+1M yasa dışı saldırının kendisi için)
+- Hasar şu formüle göre hesaplanır: Kayıp birliklerin hasarı şu formüle göre hesaplanır:
 
   - Kahraman = 1.5k
   - Kaptan = 1k
-  - Mızrakçılar, Okçular = Asker Seviyesi x 40
-  - Uzmanlar, Biniciler = Asker Seviyesi x 80
-  - Casuslar = Asker Seviyesi x 100
-  - Griffins = Asker Seviyesi x 800
-  - Katapultlar, Duvarlar = Duvar Seviyesi x 200
-  - Canavarlar III-VII (Canavar Seviyesi - 2) x 1.3k
+  - Mızrakçılar, Okçular = Birlik Seviyesi x 40
+  - Uzmanlar, Biniciler = Birlik Seviyesi x 80
+  - Casuslar = Birlik Seviyesi x 100
+  - Grifonlar = Birlik Seviyesi x 800
+  - Mancınıklar, Duvarlar Duvar Seviyesi x 200
+  - Canavarlar III-VII (Canavar Seviyesi 2) x 1.3k
   - Canavarlar I & II = x 8.64k
-  - Paralı Muhafız Askerleri = Asker Seviyesi x 120
+  - Paralı Muhafız Birlik Seviyesi x 120
   - Paralı Canavar = Canavar Seviyesi x 3k
 
-- - KALELER -
+#### KALELER
 
-  - Keşif = 5 milyon gümüş
-  - Yok etmeden saldırı = 10 milyon gümüş
-  - Saldırı ve yok etme = Her birinden 20 milyon: Gümüş, Demir, Odun, Taş
+- Keşif = 5 milyon gümüş
+- Yıkmadan saldırı = 10 milyon gümüş
+- Saldırı ve yıkım = Her biri 50 milyon: Gümüş, Demir, Odun, Taş
 
-- - BAŞKENTLER -
+### 8. KANUN DIŞILAR
 
-  - Keşif = 5 milyon gümüş
-  - Yok etmeden saldırı = 10 milyon gümüş
-  - Saldırı ve yok etme = Her birinden 50 milyon: Gümüş, Demir, Odun, Taş
+ROE'ye uymayan, klan binalarına saldıran veya ROE ihlalleri için tazminat ödemeyi reddeden kişi veya klanlar kanun dışı statüsü alır. Mevcut kanun dışılar şu sohbette bulunur: K273#OUTLAWS.
 
-### 5. VERGİLER
+### 9. SARAY İÇİNDEKİ ROLLER
 
-- 3 günden fazla birikmiş külçesi olan şehirler, oyuncu ve klan lideri uyarıldıktan 24 saat sonra Kraliyet Muhafızları tarafından saldırıya uğrayabilir. Altın külçeler kişisel olarak sizin için sıfır değere sahiptir; ancak Kral ve Saray bunları tüm krallık için bonusları açmakta kullanabilir. Altın külçelerimiz varsa, K273'ün yararına kullanılacaktır.
-- Şehir başına maksimum altın külçe sayısı:
+- Kral, Krallığı yönetmekten sorumludur ancak Saray sisteminin tamamı ortak bir çabadır.
+- Kral, Kraliçe ve Kralın Sağ Eli, krallık bonuslarını açmak için krallık hazinesine erişebilir.
+- CENTURION - Kraliyet Muhafızlarının Başkanı.
+- ARCHON - Mahkeme Başkanı/Baş Yargıç.
+- CHANCELLOR - Klanlar konseyinin başı.
+- TREASURER - Vergi tahsilatının yönetimi.
+- QUESTOR - İletişim ve madenleri yönetir.
+- LEGATE - Diplomasi Başkanı.
+- TRIBUNE - Tüm oyuncular ve klanlar adına bir sesi temsil eder.
 
-  - Şehir 1-9: 2000 Külçe
-  - Şehir 10-19: 3000 Külçe
-  - Şehir 20-24: 10000 Külçe
-  - Şehir 25-29: 35000 Külçe
-  - Şehir 30-34: 60000 Külçe
-  - Şehir 35-39: 70000 Külçe
-  - Şehir 40+: 90000 Külçe
+### 10. İHLALLER
 
-### 6. Saygıdeğer Krallığın Üyeleri
+Tüm tartışmalı konular önce oyuncular arasında çözülmeye çalışılmalıdır. Çözülemezse bir sonraki adım klan Diplomatını dahil etmektir. Diplomatlar ortak bir çözüm bulamazsa konu Mahkemelere taşınır. Mahkemelerin ve Yargıçların kararları tartışmaya açık değildir.
 
-- Her oyuncu ROE tarafından korunmak için bu kurallara uymalıdır. Korunmayan oyuncular:
+K273#CLAIMS.
 
-  - KANUN KAÇAKLARI
-  - KLANSIZ OYUNCULAR (çoğu)
-  - ROE ÜYESİ OLMAYANLAR
+### 11. VERGİLER
 
-- Korunan klansız oyuncular: 100k güce kadar (dahil) tüm oyuncular korunur ve serbestçe saldırılmamalıdır. Klansız oyuncularla etkileşimler, önce onların hedeflerini öğrenmek, ardından bir klana katılmaları için teşvik etmek şeklinde olmalıdır. Oyunda büyümeyi teşvik edin ve kişisel ödül yerine krallık için oynayın.
+Bundan sonra külçe toplama baskını öncesinde önceden bildirim yok. Külçeler çok yüksekse RG önce keşif yapar, ardından toplar.
 
-Kanun kaçağı statüsü
+- Her klan, herkesin külçelerini günlük kontrol etmek ve fazla olanlara hatırlatmak için kendi klanında bir Vergi Görevlisi atamalıdır.
+- RG'nin açılış öncesi çok işi var, umarım daha fazla toplama baskını gerekmez.
 
-Bir vatandaşın veya klanın kanun kaçağı ilan edilmesi ya da mevcut statünün kaldırılması yetkisi yalnızca Krallığın aşağıdaki makamlarına aittir:
+Şehir başına maksimum altın külçe
 
-- Kral, düzen ve adaletin en üst koruyucusu.
-- Kralın Sağ Eli, kraliyet otoritesinin doğrudan temsilcisi olarak.
-- Kraliçe, kraliyet otoritesinin ortak sahibi olarak.
-- Krallık Mahkemesi Baş Yargıcı, adaletin koruyucusu rolüyle.
+- Şehir 1-9 2000 külçe
+- Şehir 10-19 3000 külçe
+- Şehir 20-24 10000 külçe
+- Şehir 25-29 35000 külçe
+- Şehir 30-34 60000 külçe
+- Şehir 35-39 70000 külçe
+- Şehir 40+ 90000 külçe
 
-Krallığın başka hiçbir aktörü, bu yetkilerden birinin açık yetkisi olmadan bir vatandaşı veya klanı kanun kaçağı ilan edemez. Yetkisiz bir aktör tarafından yapılan her türlü ilan geçersiz ve hükümsüzdür.
+### KATILINMASI GEREKEN ÖNEMLİ CHATLER
 
-**Kraliyet Muhafızları**
-
-Kraliyet Muhafızları birçok klandan oluşur ve üyeleri farklı seviyelerde oyunculardır. KM görevleri, Saray için vergi toplama ve uygulama gibi normal görevlerini sürdürür. Ayrıca elit bir ordu ve krallık/territoryal devriye ve savunma birimi olarak hareket ederler. Krallığın mızrağın ucu olup, oyuncular ve kanun kaçaklarıyla ilgili sorun yaşayan klanlara yardım etmek için buradadırlar.
-
-### 7. Thrones Çatışması (CoT)
-
-- Etkinlik sırasında aşağıdaki koşullarda şehirleri keşfedebilir ve saldırabilirsiniz:
-- Klan Kalesi Saldırısı Yok: Başka bir klanın kalelerine veya binalarına saldırmak kesinlikle yasaktır.
-
-Kaynak Yönetimi
-
-Etkinlik sırasında hırsızlıktan kaçınmak için kaynakları düşük tutun; gerekirse birlikleri kalelere gönderin. No Value City (NVC) uygulayın.
-
-"Adil Oyun"
-- %50 kuralı geçerlidir.
-- Saldırıya uğrarsanız, güçlerine bakılmaksızın karşılık verebilirsiniz. Yani 1.000.000 güce sahip bir oyuncu 50.000.000 güce sahip bir oyuncuya saldırırsa, 50.000.000 güce sahip oyuncu isterse karşılık verme hakkına sahiptir.
-
-### 8. Uyuşmazlık Çözüm Süreci
-
-ROE ihlal edildiğinde aşağıdaki adımlar izlenmelidir:
-
-- Diğer oyuncuyla iletişime geçin ve çözmeye çalışın. 24 saat içinde çözüm olmazsa klan diplomatınıza bildirin.
-- Klan diplomatları arasında çözüm sağlanamazsa, konuyu #K273/CLAIMS kanalında paylaşarak Mahkemeye taşıyabilirler. Yalnızca klan liderleri veya diplomatlar bu sohbette talep paylaşabilir.
-- Hakimler, suçlu tarafı (varsa) ve kabul edilebilir tazminat miktarını belirler.
-- Suçlu taraf (veya klanı) tazminat ödemeyi reddederse, Archon veya Baş Yargıç oyuncu veya klanın kanun kaçağı ilan edilip edilmeyeceğine karar verir ve Kraliyet Muhafızları hazır hale getirilir.
-
-### 9. Katılınacak Krallık Sohbetleri
-
-- #K273/ROE
-- #K273/CLAIMS
-- #K273/OUTLAWS
-- ~#K273/CPTHUNDERDOME
-- ~#K273tbxyz
-- ~#K273/ACADEMY
+- K273#ROE
+- K273#OUTLAWS
+- K273#CLAIMS
 - K273 TB Library
+- k273tb

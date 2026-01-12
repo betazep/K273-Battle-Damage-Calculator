@@ -1,85 +1,96 @@
-Z rozkazu Króla Arihelma następujące ROE obowiązuje w królestwie:
+Na rozkaz Króla Spunky poniższe ROE wchodzi w życie natychmiast w całym Królestwie 273 i KAŻDY gracz musi przestrzegać zasad, z wyjątkiem:
 
-### Ogólna umowa graczy K273
+- BANICI
+- GRACZE BEZ KLANU
+- KLANy NIEPRZESTRZEGAJĄCE ROE
 
-1. Królestwo K273 przestrzega porozumienia IKFPA ustanowionego podczas panowania Króla Arcadii i oczekuje, że każdy członek będzie go przestrzegał, szczególnie po otwarciu królestwa.
-1. ROE obowiązuje natychmiast i może być zmieniane.
-1. Każda zmiana będzie mieć 24-godzinny okres buforowy, aby inni mogli się dostosować w różnych strefach czasowych.
-1. Prosimy szanować wszystkich, z którymi się kontaktujesz.
-1. Obowiązuje polityka zerowej tolerancji wobec języka rasistowskiego, nienawistnego, obraźliwego lub groźnego.
-1. Naruszenia można zgłaszać Królowi/Królowej lub Ręce Króla.
-1. Mogą otrzymać negatywny tytuł i/lub status wyjętego spod prawa.
-1. Groźby są traktowane bardzo poważnie, podobnie jak nękanie, ponieważ są sprzeczne z zasadami Kodeksu Postępowania TOTAL BATTLE. Czat królestwa to miejsce, w którym wszyscy mają czuć się mile widziani.
-1. Królestwo jest uznawane za pokojowe w każdym czasie.
+Aby pokazać, że klan przestrzega ROE, opis klanu musi zawierać „We follow K273 ROE”.
 
-### Zasady Porozumienia o Uczciwej Grze Między Królestwami (IKFPA)
+### 1. Ogólne oświadczenie Porozumienie graczy K273
 
-To ogólne porozumienia między różnymi królestwami na czas otwarcia K273. Nie są to twarde zasady, ale królestwa zachęcają do ich przestrzegania.
+- Królestwo K273 przestrzega porozumienia IKFPA ustanowionego za panowania Króla Arcadii i oczekuje, że każdy członek będzie się do niego stosował, szczególnie po otwarciu królestwa.
+- ROE obowiązuje natychmiast i może być zmieniane.
+- Każda zmiana będzie miała 24‑godzinny bufor, aby inni mogli dostosować się w różnych strefach czasowych.
+- Prosimy o szacunek wobec wszystkich, z którymi masz kontakt.
+- Obowiązuje polityka zerowej tolerancji wobec rasistowskiego, nienawistnego, obraźliwego lub groźnego języka.
+- Naruszenia mogą być zgłaszane Królowi/Królowej lub Prawej Ręce Króla.
+- Mogą zostać nadane negatywne tytuły i/lub status banity.
+- Groźby są traktowane bardzo poważnie, podobnie jak nękanie, ponieważ są sprzeczne z zasadami Kodeksu Postępowania TOTAL BATTLE, a czat królestwa ma być miejscem, w którym każdy czuje się mile widziany.
 
-1. Zakaz mowy nienawiści.
-1. Zakaz ataków na budynki klanowe, portale pamięci lub graczy poniżej 100K potęgi.
-1. Wszystkie pola RSS są chronione przed atakami z wyjątkiem wydarzeń PvP. Wydarzenia PvP to: CoT, KvK, War Tools, Gold / Silver Rush, War Games, Lava Trials (nie obejmuje konkretnie Ruthless Slaughter).
-1. Ataki na forty w innych królestwach skutkują natychmiastowym statusem wyjętego spod prawa zgodnie z ROE królestwa.
-1. Rekompensata za naruszenia ustalana w ciągu 48 godzin (IKFPA nie jest egzekwowane przez żadną pojedynczą instytucję).
+### Zasady Inter-Kingdom Fair Play Agreement (IKFPA)
 
-### Urzędnicy królestwa - Pałac
+Są to ogólne porozumienia między różnymi królestwami na czas otwarcia K273. Nie są to twarde zasady, ale królestwa są zachęcane do ich przestrzegania.
 
-- Pałac odpowiada za utrzymanie honoru, integralności i pokoju w K273 oraz z innymi królestwami.
-- Król jest wybierany, aby reprezentować obywateli K273 i przewodniczyć pałacowi.
-- Królowa i Ręka Króla odpowiadają za koordynowanie spraw królestwa i mogą przemawiać w imieniu Króla podczas jego nieobecności.
-- Król, Królowa i Ręka Króla odpowiadają za zarządzanie skarbcem w imieniu graczy królestwa.
-- Królowa i Ręka Króla muszą pochodzić z różnych klanów.
+1. Brak mowy nienawiści.
+1. Brak ataków na budynki klanu, portale pamiątkowe lub graczy poniżej 100K potęgi.
+1. WSZYSTKIE pola RSS są chronione przed atakami, z wyjątkiem wydarzeń PvP. Wydarzenia PvP to: CoT, KvK, War Tools, Gold / Silver Rush, War Games, Lava Trials (NIE obejmuje konkretnie Ruthless Slaughter).
+1. Ataki na forty innych królestw skutkują natychmiastowym statusem banity zgodnie z ROE królestwa.
+1. Odszkodowanie za naruszenia uzgodnione w <48 godz. (IKFPA nie jest egzekwowane przez żadną pojedynczą instancję).
 
-### Obowiązki liderów klanów
+### 2. CZAS POKOJU
 
-Wszyscy liderzy klanów muszą wypełniać swoje obowiązki jako liderzy:
+- Ataki na miasta i portale ROE są zabronione z wyjątkiem CoT i zaplanowanych wymian CP.
+- Gracze poniżej 100k są chronieni przez ROE (niezależnie od tego, czy przestrzegają ROE).
+- Gracze i klany, które nie przestrzegają ROE i mają powyżej 100k potęgi, mogą być atakowani w dowolnym momencie.
+- Banici mogą być atakowani w dowolnym momencie, bez limitu potęgi.
+- Skautowanie jest formą agresji i jest nielegalne w czasie pokoju.
 
-- Szanuj ROE (Rules of Engagement).
-- Zapewnij, że ich członkowie respektują i przestrzegają ROE.
-- Edukować swoich członków, aby wspierać rozwój i jedność królestwa.
-- Lider, który nie wywiąże się z tych zobowiązań, zostanie ogłoszony Wyjętym spod prawa. >=D
-- Liderzy są przykładem i standardem królestwa, a ich działania wyznaczają drogę dla wszystkich członków.
+### 3. DYPlomaci
 
-### 1. CZAS POKOJU
+Klan musi wskazać co najmniej jednego dyplomatę w opisie klanu. Dyplomaci muszą być aktywnym liderem klanu lub przełożonym. Dyplomaci mówią w imieniu klanu wobec królestwa, pomagają rozwiązywać problemy i powinni być pierwszym kontaktem.
 
-- Ataki na miasta są zabronione, z wyjątkiem CoT i zaplanowanych wymian CP.
-- Ataki na budynki klanowe są zabronione.
-- Portale w czasie pokoju: żadnego dotykania ani boop boops, chyba że CoT. Oznacza to brak ataków na portale gdziekolwiek, chyba że są udowodnione jako wrogie. Wrogie portale obejmują ataki na budynki klanu, członków oraz wszystkie zasoby gry (w tym zasoby wydarzeń sezonowych). Atakowanie portali na terytoriach klanu w ramach aktywności klanowych nie jest dozwolone, chyba że są wrogie.
-- Zasady portali CoT: brak ograniczeń.
-- Zwiad jest formą agresji i jest nielegalny w czasie pokoju.
-- Jeśli zostaniesz zaatakowany, niezależnie od ich potęgi, masz prawo atakować każdego z powrotem w dowolnym momencie. Oznacza to, że jeśli gracz o potędze 1,000,000 atakuje gracza o potędze 50,000,000, gracz o potędze 50,000,000 ma pełne prawo do odwetu, jeśli zechce.
+### 4. OBOWIĄZKI LIDERÓW KLANU
 
-### 2. KLANI I DYPLOMACI
+Nadajcie ton i chrońcie reputację klanu, twórzcie pozytywne środowisko. Uczcie, mentorujcie i komunikujcie cele oraz aktualizacje członkom lub delegujcie to przełożonym.
 
-- Klany powinny podać "We abide by K273 ROE", aby były obsługiwane przez królestwo i chronione przez ROE.
-- Klany muszą wskazać co najmniej jednego dyplomatę na początku opisu klanu, który może pomóc w rozwiązywaniu sporów. Dyplomaci muszą być aktywnym liderem lub przełożonym.
+### 5. CLASH FOR THE THRONE (COT)
 
-### 3. Zasady ogólne
+Podczas COT możesz szpiegować i atakować miasta na następujących warunkach:
 
-- Wszystkie budynki zasobów na terytorium klanu należą do tego klanu. Obejmuje to zasoby wydarzeń sezonowych.
-- Zasoby stworzone przez graczy należą do osoby, która je stworzyła, chyba że uzgodniono ich współdzielenie między dwiema stronami.
-- Rzadkie krypty należą do osoby, która je odblokowała.
-- WS i DMs:
+#### MIASTA
 
-  - a. Nie ma systemu rejestracji. Wszystkie dzikie budynki zasobów (w tym DM/WS) są na zasadzie kto pierwszy, ten lepszy (FCFS).
-  - c. Roszczenia nie mogą być zgłaszane, jeśli zostaniesz zwiadowany/zaatakowany na dzikich zasobach, chyba że
+Nie możesz atakować ani szpiegować miasta gracza, który ma mniej niż POŁOWĘ twojej potęgi/mocy, chyba że jesteś w top 50 rankingu COT. Jeśli jesteś w top 50, nie ma limitu potęgi i możecie się wzajemnie atakować.
 
-    - Stracisz zasób.
-    - Zostaniesz zwiadowany/zaatakowany, a następnie zaatakowany ponownie. (zasada 2x)
+#### MARSZE KLANU
 
-  - d. Twoim obowiązkiem jest wysłanie wiadomości do swojego dyplomaty, drugiego gracza oraz dyplomaty/lidera klanu przeciwnika, jeśli ktoś zwiaduje lub atakuje cię w kopalni.
+Nie możesz używać wzmocnień do atakowania miast. Możesz używać wzmocnień do atakowania wrogich portali. Wymagany raport bitewny jako dowód ataku.
 
-### 4. PRZEWODNIK KOMPENSACJI PAŁACU
+#### PORTALE
 
-Prosimy zobaczyć k273tb.xyz, aby skorzystać z kalkulatora rekompensaty.
+Portale wydarzeń nie mogą być atakowane w żadnym momencie nawet podczas COT. Wszystkie pozostałe dzikie portale i portale w granicach klanu mogą być atakowane bez limitu potęgi.
 
-- Każdy nielegalny atak lub zwiad wiąże się z bazowym kosztem 1 miliona srebra. Wszelkie dodatkowe straty, szkody lub skradzione zasoby są dodawane do tego kosztu bazowego.
+#### FORTY KLANU
+
+Zabronione jest atakowanie fortów/budynków klanu. Wiąże się to z karami i może skutkować statusem banity.
+
+### 6. POTWORY I KRYPTY
+
+- Wszystkie potwory, areny, cytadele i krypty są na zasadzie kto pierwszy, ten lepszy, niezależnie od lokalizacji, z wyjątkiem Rzadkich Krypt wymagających klucza do otwarcia. Jeśli ich nie odblokowałeś, nie zabieraj.
+- KOPALNIE/ZASOBY (RSS) - Zasoby tworzone przez graczy należą do osoby, która utworzyła pole przy użyciu planów architekta. Właściciel kopalni, członek jego klanu lub RG ma prawo zaatakować i odzyskać bez ostrzeżenia.
+
+- Wszystkie dzikie i generowane przez grę zasoby są na zasadzie kto pierwszy, ten lepszy.
+- Zakaz wydobycia na terytorium innych klanów, w przeciwnym razie zostaniesz usunięty.
+
+#### WS i DMs
+
+- Brak systemu rejestracji, kto pierwszy, ten lepszy.
+- Roszczenia nie mogą być zgłaszane, jeśli jesteś skautowany/atakowany na dzikich zasobach, chyba że:
+
+  - Stracisz zasób.
+  - Zostaniesz skautowany/atakowany, a następnie zaatakowany ponownie. (zasada 2x)
+
+- To twoja odpowiedzialność, aby powiadomić dyplomatę, drugiego gracza oraz dyplomatę/lidera przeciwnego klanu, jeśli ktoś cię szpieguje lub atakuje w kopalni.
+
+### 7. PRZEWODNIK KOMPENSACJI
+
+Zobacz k273tb.xyz, aby skorzystać z kalkulatora kompensacji. Każdy nielegalny atak lub skautowanie ma koszt bazowy 1 milion srebra. Wszelkie dodatkowe straty, szkody lub skradzione zasoby są dodawane do tego kosztu bazowego.
+
 - RSS: kwota równa skradzionej ilości
-- Złoto: 1 Złoto = 3,000 Srebro lub kopalnie złota równe skradzionemu + 10% (decyzją ofiary)
-- Smoła: 1 Smoła = 1,000 Srebro
-- Sztabki złota = brak rekompensaty
+- Złoto: 1 Złoto = 3 000 Srebra lub kopalnie złota równe skradzionemu + 10% (decyzja ofiary)
+- Tar: 1 Tar = 1 000 Srebra
+- Sztabki złota = brak kompensacji
 - Nielegalnie zamknięty portal: 1M srebra (+1M za sam nielegalny atak)
-- Obrażenia są obliczane według następującej formuły: Straty wojsk są obliczane według następującej formuły:
+- Obrażenia są obliczane według następującej formuły: Obrażenia utraconych wojsk obliczane są według następującej formuły:
 
   - Bohater = 1.5k
   - Kapitan = 1k
@@ -88,89 +99,60 @@ Prosimy zobaczyć k273tb.xyz, aby skorzystać z kalkulatora rekompensaty.
   - Szpiedzy = Poziom wojsk x 100
   - Gryfy = Poziom wojsk x 800
   - Katapulty, Mury Poziom murów x 200
-  - Potwory III-VII (Poziom potwora - 2) x 1.3k
+  - Potwory III-VII (Poziom potwora 2) x 1.3k
   - Potwory I & II = x 8.64k
-  - Straż najemna Poziom wojsk x 120
-  - Potwór najemny = Poziom potwora x 3k
+  - Straż Najemna Poziom wojsk x 120
+  - Potwór Najemny = Poziom potwora x 3k
 
-- - FORTY -
+#### FORTY
 
-  - Zwiad = 5 milionów srebra
-  - Atak bez zniszczenia = 10 milionów srebra
-  - Atak i zniszczenie = 20 milionów każdego: Srebro, Żelazo, Drewno, Kamień
+- Skautowanie = 5 milionów srebra
+- Atak bez zniszczenia = 10 milionów srebra
+- Atak i zniszczenie = 50 milionów każdego: Srebro, Żelazo, Drewno, Kamień
 
-- - STOLICE -
+### 8. BANICI
 
-  - Zwiad = 5 milionów srebra
-  - Atak bez zniszczenia = 10 milionów srebra
-  - Atak i zniszczenie = 50 milionów każdego: Srebro, Żelazo, Drewno, Kamień
+Jeśli osoby lub klany nie chcą przestrzegać ROE, atakują budynki klanu lub odmawiają zapłaty kompensacji za naruszenia ROE, otrzymają status banity. Aktualnych banitów można znaleźć na czacie: K273#OUTLAWS.
 
-### 5. PODATKI
+### 9. ROLE W PAŁACU
 
-- Miasta z ponad 3 dniami zgromadzonych sztabek mogą zostać zaatakowane przez członka Gwardii Królewskiej 24 godziny po ostrzeżeniu gracza i lidera klanu. Złote sztabki nie mają dla ciebie osobistej wartości, ale Król i Pałac mogą ich użyć do włączenia bonusów dla całego królestwa. Jeśli mamy sztabki złota, zostaną użyte dla dobra K273.
-- Maksymalna liczba złotych sztabek na miasto:
+- Król odpowiada za rządzenie Królestwem, ale cały system Pałacu jest wspólnym wysiłkiem.
+- Król, Królowa i Prawa Ręka Króla mają dostęp do skarbca królestwa, aby włączać bonusy królestwa.
+- CENTURION - Szef Królewskiej Gwardii.
+- ARCHON - Szef Sądu/Naczelny Sędzia.
+- CHANCELLOR - Szef rady klanów.
+- TREASURER - Zarządzanie poborem podatków.
+- QUESTOR - Zarządza komunikacją i kopalniami.
+- LEGATE - Szef dyplomacji.
+- TRIBUNE - Reprezentuje głos wszystkich graczy i klanów.
 
-  - Miasto 1-9: 2000 sztabek
-  - Miasto 10-19: 3000 sztabek
-  - Miasto 20-24: 10000 sztabek
-  - Miasto 25-29: 35000 sztabek
-  - Miasto 30-34: 60000 sztabek
-  - Miasto 35-39: 70000 sztabek
-  - Miasto 40+: 90000 sztabek
+### 10. NARUSZENIA
 
-### 6. Członkowie Szacownego Królestwa
+Wszystkie kontrowersyjne kwestie należy najpierw próbować rozwiązać między samymi graczami. Jeśli nie mogą rozwiązać, następnym krokiem jest zaangażowanie dyplomaty klanu. Jeśli dyplomaci nie mogą znaleźć wspólnego rozwiązania, sprawa trafia do sądów. Decyzje sądów i sędziów nie podlegają negocjacjom.
 
-- Każdy gracz musi przestrzegać tych zasad, aby być chronionym przez ROE. Gracze niechronieni to:
+K273#CLAIMS.
 
-  - WYJĘCI SPOD PRAWA
-  - GRACZE BEZ KLANU (większość)
-  - NIE-UCZESTNICY ROE
+### 11. PODATKI
 
-- Chronieni gracze bez klanu: Wszyscy gracze o potędze 100k lub mniejszej są chronieni i nie powinni być swobodnie atakowani. Interakcje z graczami bez klanu powinny najpierw służyć poznaniu ich i ich celów w grze, a następnie zachęceniu do dołączenia do klanu. Wspieraj rozwój w grze i graj dla królestwa zamiast dla osobistej nagrody.
+Od teraz bez wcześniejszego ostrzeżenia przed rajdem zbierania sztabek. Jeśli sztabki są zbyt wysokie, RG przeprowadzi zwiad, a następnie zbierze.
 
-Status wyjętego spod prawa
+- Każdy klan powinien wyznaczyć oficera jako Oficera Podatkowego w swoim klanie, aby codziennie sprawdzał sztabki wszystkich i przypominał tym, którzy mają ich za dużo.
+- RG ma dużo do zrobienia przed otwarciem, więc mam nadzieję, że nie będą potrzebne kolejne rajdy zbierania.
 
-Uprawnienie do ogłoszenia obywatela lub klanu wyjętym spod prawa lub cofnięcia istniejącego statusu wyjętego spod prawa spoczywa wyłącznie w rękach następujących władz Królestwa:
+Maksymalna liczba sztabek złota na miasto
 
-- Król, najwyższy strażnik porządku i sprawiedliwości.
-- Ręka Króla, działająca jako bezpośredni przedstawiciel władzy królewskiej.
-- Królowa, jako współposiadaczka władzy królewskiej.
-- Naczelny Sędzia Trybunału Królestwa, z tytułu swojej roli strażnika sprawiedliwości.
+- Miasto 1-9 2000 sztabek
+- Miasto 10-19 3000 sztabek
+- Miasto 20-24 10000 sztabek
+- Miasto 25-29 35000 sztabek
+- Miasto 30-34 60000 sztabek
+- Miasto 35-39 70000 sztabek
+- Miasto 40+ 90000 sztabek
 
-Żaden inny organ Królestwa nie może, bez wyraźnego mandatu udzielonego przez jedną z tych władz, ogłosić obywatela lub klanu wyjętym spod prawa. Każde oświadczenie wydane przez nieupoważniony podmiot będzie nieważne i bezskuteczne.
+### WAŻNE CZATY DO DOŁĄCZENIA
 
-**Gwardia Królewska**
-
-Gwardia Królewska składa się z wielu klanów i ma członków o różnych poziomach. Obowiązki RG będą kontynuować swoje normalne zadania, takie jak pobór podatków i egzekwowanie zasad dla Pałacu. Będą również działać jako elitarna armia oraz jednostka patrolowa i obronna królestwa/terytorium. Są grotem włóczni królestwa i są tutaj, aby pomagać klanom mającym problemy z graczami i wyjętymi spod prawa.
-
-### 7. Clash of Thrones CoT
-
-- Podczas CoT możesz zwiadować i atakować miasta na następujących warunkach:
-- Zakaz ataków na forty klanowe: atakowanie fortów lub budynków innego klanu jest surowo zabronione.
-
-Zarządzanie zasobami
-
-Utrzymuj zasoby na niskim poziomie podczas wydarzenia, aby uniknąć kradzieży; w razie potrzeby wysyłaj wojska do fortów. Praktykuj No Value City (NVC).
-
-"Fair Play"
-- Obowiązuje zasada 50%.
-- Jeśli zostaniesz zaatakowany, niezależnie od ich potęgi, masz prawo zaatakować kogokolwiek z powrotem. Oznacza to, że jeśli gracz o potędze 1,000,000 atakuje gracza o potędze 50,000,000, gracz o potędze 50,000,000 ma pełne prawo do odwetu, jeśli zechce.
-
-### 8. Proces rozwiązywania konfliktów
-
-Gdy ROE zostanie naruszone, należy podjąć następujące kroki:
-
-- Skontaktuj się z drugim graczem, aby spróbować rozwiązać sprawę. Jeśli brak rozwiązania w ciągu 24 godzin, przekaż sprawę swojemu dyplomacie klanowemu.
-- Jeśli nie osiągnięto rozwiązania między dyplomatami klanowymi, mogą wnieść sprawę przed Sąd, publikując ją w #K273/CLAIMS. Tylko liderzy klanu lub dyplomaci mogą publikować roszczenia w tym czacie.
-- Sędziowie rozstrzygną, aby określić stronę winną (jeśli taka istnieje) i akceptowalną kwotę rekompensaty.
-- Jeśli strona winna (lub jej klan) odmówi rekompensaty, Archon lub Sędzia Naczelny zdecyduje, czy gracz lub klan powinien zostać uznany za wyjętego spod prawa, a Gwardia Królewska zostanie aktywowana w gotowości.
-
-### 9. Czaty Królestwa do dołączenia
-
-- #K273/ROE
-- #K273/CLAIMS
-- #K273/OUTLAWS
-- ~#K273/CPTHUNDERDOME
-- ~#K273tbxyz
-- ~#K273/ACADEMY
+- K273#ROE
+- K273#OUTLAWS
+- K273#CLAIMS
 - K273 TB Library
+- k273tb
