@@ -1,79 +1,90 @@
-By order of King Arihelm, the following ROE is in effect for the kingdom:
+By order of King Spunky the following ROE takes immediate effect across Kingdom 273 and EVERY player must abide by the rules, except:
 
-### General K273 Player Agreement
+- OUTLAWS
+- CLANLESS PLAYERS
+- NON ROE FOLLOWING CLANS
 
-1. Kingdom K273 follows the IKFPA agreement established during the reign of King Arcadia and expects every member to comply accordingly, especially after kingdom open.
-1. The ROE is effective immediately and may be amended.
-1. Each amendment will have a 24-hour buffer so others may adapt via various time zones.
-1. Please respect all who you come into contact with.
-1. There is a zero-tolerance policy against racist, hateful, derogatory, or threatening language.
-1. Violations may be reported to the King/Queen or the Hand of the King.
-1. They may be assigned a negative title and/or outlaw status.
-1. Threats are taken very seriously, as is bullying, as they are against the TOTAL BATTLE Code of Conduct rules. Kingdom chat is a place for all to feel welcome.
-1. The kingdom is considered peaceful at all times.
+To show your clan follows ROE your clan description must state "We follow K273 ROE".
+
+### 1. General statement K273 Player Agreement
+
+- Kingdom K273 follows the IKFPA agreement established during the reign of King Arcadia and expects every member to comply accordingly, especially after Kingdom open.
+- The ROE is effective immediately and may be amended.
+- Each amendment will have a 24-hour buffer so others may adapt via various time zones.
+- Please respect all who you come into contact with.
+- There is a zero-tolerance policy against racist, hateful, derogatory, or threatening language.
+- Violations may be reported to the King/Queen or the Hand of the King.
+- They may be assigned a negative title and/or outlaw status.
+- Threats are taken very seriously, as is bullying, as they are against the TOTAL BATTLE Code of Conduct rules and Kingdom chat is a place for all to feel welcome.
 
 ### Inter-Kingdom Fair Play Agreement (IKFPA) rules
 
-These are general agreements between different kingdoms for when K273 opens. They are not hard rules but are encouraged by kingdoms to uphold.
+These are general agreements between different Kingdoms for when K273 opens. They are not hard rules but are encouraged by Kingdoms to uphold.
 
 1. No hate speech.
 1. No attacks on clan buildings, memorial portals, or players under 100K might.
-1. All RSS tiles are protected from attacks except during PvP events. PvP events are: CoT, KvK, War Tools, Gold / Silver Rush, War Games, Lava Trials (does NOT include Ruthless Slaughter specifically).
+1. ALL RSS tiles are protected from attacks except during PvP events. PvP events are: CoT, KvK, War Tools, Gold / Silver Rush, War Games, Lava Trials (does NOT include Ruthless Slaughter specifically).
 1. Fort attacks on other kingdoms declared immediate outlaw status per kingdom ROE.
-1. Compensation for violations agreed upon within 48 hours (IKFPA is not enforced by any single entity).
+1. Compensation for violations agreed upon <48 hrs (IKFPA is not enforced by any single entity).
 
-### Kingdom Officials - The Palace
+### 2. PEACETIME
 
-- The Palace is responsible for maintaining honor, integrity, and peace within K273 and with other kingdoms.
-- The King is elected to represent the citizens of K273 and preside over the palace.
-- The Queen and the King's Hand are responsible for coordinating the affairs of the kingdom and may speak on behalf of the King in his absence.
-- The King, Queen, and King's Hand are responsible for the management of the treasury on behalf of the kingdom's players.
-- The Queen and the King's Hand must be from different clans.
-
-### Obligations of Clan Leaders
-
-All clan leaders must fulfill their obligations as leaders:
-
-- To respect the ROE (Rules of Engagement).
-- To ensure that their members respect and follow the ROE.
-- To educate their members in order to support the growth and unity of the kingdom.
-- A leader who fails in these commitments shall be declared an Outlaw. >=D
-- Leaders are the example and standard of the kingdom, and their actions set the path for all members to follow.
-
-### 1. PEACETIME
-
-- Attacks on cities are forbidden except during CoT and planned CP exchanges.
-- Attacks on clan buildings are prohibited.
-- Peacetime Portals: No touchy or boop boops unless CoT. This means no attacking any portals anywhere unless proven hostile. Hostile portals include attacks on clan’s buildings, members, and all game resources (including seasonal event resources). Attacking portals in clan territories for clan activities is not allowed unless hostile.
-- CoT Portal Rules: No restrictions.
+- Attacks on ROE cities and portals are forbidden except during CoT and planned CP exchanges.
+- Players under 100k are protected under ROE (whether they follow ROE or not).
+- Players and clans that do not follow ROE and over 100k might can be attacked at anytime.
+- Outlaws can be attacked at anytime, no might limit.
 - Scouting is a form of aggression and is illegal during peacetime.
-- If you are attacked, regardless of their might, you are allowed to attack anyone back at any time. Meaning, if a 1,000,000 might player attacks a 50,000,000 might player, the 50,000,000 might player has full rights to attack back if they choose.
 
-### 2. CLANS & DIPLOMATS
+### 3. DIPLOMATS
 
-- Clans should state "We abide by K273 ROE" in order to be served by the kingdom and protected by ROE.
-- Clans must identify at least one diplomat at the top of their clan description who can assist with dispute resolution. Diplomats must be an active leader or superior.
+Clans must identify at least one diplomat in their clan description. Diplomats must be an active clan leader or superior. Diplomats speak for their clan to the kingdom, help resolve problems and should be your first line of call.
 
-### 3. General Rules
+### 4. OBLIGATION OF CLAN LEADERS
 
-- All resource buildings within the clan territory belong to that clan. This includes seasonal event resources.
-- Player created resources belong to the individual who created them unless agreed to share between two parties.
-- Rare crypts belong to the individual who unlocked them.
-- WS and DMs:
+Set the tone and protect the clan's reputation, foster a positive environment. Teach and mentor and communicate goals and updates to members, or delegate this to Superiors.
 
-  - a. There is no registration system. All wild resource buildings (including DM/WS) are first come, first serve (FCFS).
-  - c. Claims cannot be made if you are scouted/attacked in wild resources unless
+### 5. CLASH FOR THE THRONE (COT)
 
-    - You lose the resource.
-    - You are scouted/attacked and then attacked again. (2x rule)
+During COT, you can scout and attack cities under the following conditions:
 
-  - d. It is your responsibility to message your diplomat, the other player, and the opposing diplomat/clan leader if someone is scouting you or attacking you in a mine.
+#### CITIES
 
-### 4. PALACE COMPENSATION GUIDE
+You cannot attack or scout a player's city with less than HALF your power/might unless in the top 50 COT rankings. If in top 50 no might limit and can attack each other freely.
 
-Please see k273tb.xyz for compensation calculator.
+#### CLAN MARCHES
 
-- Every illegal attack or scouting carries a base cost of 1 million silver. Any additional losses, damages, or stolen resources are added on top of this base cost.
+You cannot use reinforcements to attack cities. You can use reinforcements to attack hostile portals. Battle report required as proof of attack.
+
+#### PORTALS
+
+Event portals can not be hit at any time even during COT. All other wild portals and portals within the clan border can be attacked with no might limit.
+
+#### CLAN FORTS
+
+It's prohibited to attack clan forts/buildings. Doing so carries penalties and may result in Outlaw status.
+
+### 6. MONSTERS & CRYPTS
+
+- All monsters, arenas, citadels, and crypts are first come, first serve regardless of its location, except Rare Crypts which require a key to open. If you did not unlock it then do not take it.
+- MINES/RESOURCES (RSS) TILES - Player created resources are owned by the person that created the tile using architect Blueprints. The owner of the mine, member of their clan or the RG has the right to attack and reclaim without warning.
+
+- All wild resource and game generated resources are first come first served.
+- No mining in other clans territory or you will be removed.
+
+#### WS and DMs
+
+- There is no registration system, first come, first served.
+- Claims cannot be made if you are scouted/attacked in wild resources unless:
+
+  - You lose the resource.
+  - You are scouted/attacked and then attacked again. (2x rule)
+
+- It is your responsibility to message your diplomat, the other player, and the opposing diplomat/clan leader if someone is scouting you or attacking you in a mine.
+
+### 7. COMPENSATION GUIDE
+
+Please see k273tb.xyz for compensation calculator. Every illegal attack or scouting carries a base cost of 1 million silver. Any additional losses, damages, or stolen resources are added on top of this base cost.
+
 - RSS: amount equal to the amount stolen
 - Gold: 1 Gold = 3,000 Silver or gold mines equal to stolen + 10% (by decision of the victim)
 - Tar: 1 Tar = 1,000 Silver
@@ -88,89 +99,60 @@ Please see k273tb.xyz for compensation calculator.
   - Spies = Troops Level x 100
   - Griffins = Troops Level x 800
   - Catapults, Walls Walls Level x 200
-  - Monsters III-VII (Monster Level - 2) x 1.3k
+  - Monsters III-VII (Monster Level 2) x 1.3k
   - Monsters I & II = x 8.64k
   - Mercenary Guard Troops Level x 120
   - Mercenary Monster = Monster Level x 3k
 
-- - FORTS -
+#### FORTS
 
-  - Scouting = 5 million silver
-  - Attacking without destroying = 10 million silver
-  - Attacking and destroying = 20 million of each Silver, Iron, Wood, Stone
+- Scouting = 5 million silver
+- Attacking without destroying = 10 million silver
+- Attacking and destroying = 50 million of each Silver, Iron, Wood, Stone
 
-- - CAPITALS -
+### 8. OUTLAWS
 
-  - Scouting = 5 million silver
-  - Attacking without destroying = 10 million silver
-  - Attacking and destroying = 50 million of each Silver, Iron, Wood, Stone
+If individuals or clans are unwilling to comply with ROE, who attack clan buildings, or refuse to pay compensation for ROE violations will receive outlaw status. Current outlaws can be found on the chat: K273#OUTLAWS.
 
-### 5. TAXES
+### 9. ROLES WITHIN THE PALACE
 
-- Cities with over 3 days of accrued ingots may be attacked by a member of the Royal Guard 24 hours after warning the player and clan leader. Gold ingots have zero value to you personally, but the King and Palace can use them to turn on bonuses for the whole kingdom. If we have the gold bars, they will be used for the benefit of K273.
-- Maximum gold ingots per city:
+- The King is responsible for governing the Kingdom, but the entire Palace system is a collaborative effort.
+- The King, Queen and Hand of the King have access to the kingdom's treasury to turn on Kingdom bonuses.
+- CENTURION - Head of the Royal Guard.
+- ARCHON - Head of the Court/Chief Judge.
+- CHANCELLOR - Head of the council of clans.
+- TREASURER - Managing tax collections.
+- QUESTOR - Manages communications and mines.
+- LEGATE - Head of Diplomacy.
+- TRIBUNE - Represents a voice for all players and clans.
 
-  - City 1-9: 2000 Ingots
-  - City 10-19: 3000 Ingots
-  - City 20-24: 10000 Ingots
-  - City 25-29: 35000 Ingots
-  - City 30-34: 60000 Ingots
-  - City 35-39: 70000 Ingots
-  - City 40+: 90000 Ingots
+### 10. VIOLATIONS
 
-### 6. Members of the Esteemed Kingdom
+All controversial issues should be attempted to be resolved first among the Players themselves. If they cannot resolve it, then the next step is to involve the clan Diplomat. If the Diplomats cannot find a common solution, then they turn to the Courts. The decisions of the Courts and Judges are not negotiable.
 
-- Every player must abide by these rules to be protected by ROE. Players not protected are:
+K273#CLAIMS.
 
-  - OUTLAWS
-  - CLANLESS PLAYERS (most)
-  - NON-ROE MEMBERS
+### 11. TAXES
 
-- Protected clanless players: All players at or below 100k might are protected and are not to be freely attacked. Interactions with clanless players should first be to learn about them and their goals in the game, followed by encouragement to join a clan. Foster growth in the game and play for the kingdom versus personal reward.
+From now, no more advance notice before ingot collection raid. If ingots are too high, RG will scout and then collect.
 
-Outlaw status
+- Every clan should appoint an officer as Tax Officer within their clans to check everyone's ingots daily and remind any who have too many.
+- RG have a lot to do before opening so I hope no more collection raids are needed.
 
-The authority to declare a citizen or a clan an Outlaw, or to revoke an existing outlaw status, rests exclusively with the following powers of the Kingdom:
+Maximum gold ingots per city
 
-- The King, supreme guardian of order and justice.
-- The Hand of the King, acting as the direct representative of royal authority.
-- The Queen, as co-holder of the royal authority.
-- The Chief Judge of the Kingdom's Tribunal, by virtue of his role as guardian of justice.
+- City 1-9 2000 ingots
+- City 10-19 3000 ingots
+- City 20-24 10000 ingots
+- City 25-29 35000 ingots
+- City 30-34 60000 ingots
+- City 35-39 70000 ingots
+- City 40+ 90000 ingots
 
-No other actor of the Kingdom may, without an explicit mandate granted by one of these authorities, declare a citizen or a clan outlaw. Any declaration issued by an unauthorized actor shall be null and void.
+### IMPORTANT CHATS TO JOIN
 
-**Royal Guard**
-
-The Royal Guard is composed of many clans and has various levels of players as members. The RG duties will continue its normal duties like tax collection and enforcement for the Palace. They will also act as an elite army and kingdom/territorial patrol and defense unit. They are the tip of the spear for the kingdom and are here to assist clans having trouble with players and outlaws.
-
-### 7. Clash of Thrones CoT
-
-- During, you can scout and attack cities under the following conditions:
-- No Clan Fort Attacks: Attacking another clan's forts or buildings is strictly forbidden.
-
-Resource Management
-
-Keep resources low during the event to avoid theft; send troops to forts if needed. Practice No Value City (NVC).
-
-"Fair Play"
-- The 50% rule applies.
-- If you are attacked, regardless of their might, you are allowed to attack anyone back. Meaning, if a 1,000,000 might player attacks a 50,000,000 might player, the 50,000,000 might player has full rights to attack back if they choose.
-
-### 8. Conflict Resolution Process
-
-When the ROE is violated, the following steps should be taken:
-
-- Contact the other player to attempt to resolve. If no resolution within 24 hours, elevate to your clan diplomat.
-- If no resolution is reached between clan diplomats, they may bring the issue before the Court by posting it in #K273/CLAIMS. Only clan leaders or diplomats are allowed to post claims in this chat.
-- The judges will adjudicate to define the guilty party (if any) and an acceptable amount of compensation.
-- If the guilty party (or their clan) refuses to compensate, the Archon or Head Judge will determine whether the player or clan should be declared an Outlaw and the Royal Guard will be activated on stand-by.
-
-### 9. Kingdom Chats to Join
-
-- #K273/ROE
-- #K273/CLAIMS
-- #K273/OUTLAWS
-- ~#K273/CPTHUNDERDOME
-- ~#K273tbxyz
-- ~#K273/ACADEMY
+- K273#ROE
+- K273#OUTLAWS
+- K273#CLAIMS
 - K273 TB Library
+- k273tb

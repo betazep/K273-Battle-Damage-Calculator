@@ -1206,8 +1206,18 @@ textarea {
 
 .roe-list h3,
 .roe-content h3 {
-    margin: 0 0 6px;
+    margin: 16px 0 6px;
     color: var(--text);
+}
+
+.roe-content h2 {
+    margin: 18px 0 8px;
+    color: var(--text);
+}
+
+.roe-content h2:first-child,
+.roe-content h3:first-child {
+    margin-top: 0;
 }
 
 .roe-intro,
