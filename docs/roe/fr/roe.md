@@ -29,11 +29,12 @@ Il s'agit d'accords généraux entre différents royaumes pour l'ouverture de K2
 
 ### 2. TEMPS DE PAIX
 
-- Les attaques contre les villes et portails ROE sont interdites sauf pendant CoT et les échanges CP planifiés.
-- Les joueurs en dessous de 100k sont protégés par le ROE (qu'ils suivent le ROE ou non).
+- Les attaques contre les villes et portails ROE sont interdites sauf pendant CoT ou des échanges CP planifiés.
+- Les joueurs sous 100k sont protégés par le ROE (qu'ils suivent le ROE ou non).
 - Les joueurs et clans qui ne suivent pas le ROE et ont plus de 100k de puissance peuvent être attaqués à tout moment.
 - Les hors-la-loi peuvent être attaqués à tout moment, sans limite de puissance.
-- L'espionnage est une forme d'agression et est illégal en temps de paix.
+- Si vous êtes frappé illégalement pendant le temps de paix, vous ou un membre du clan pouvez riposter une fois en représailles sans limite de puissance. (pas de compensation si riposte)
+- L'espionnage est une forme d'agression et est contraire au ROE pendant le temps de paix.
 
 ### 3. DIPLOMATES
 

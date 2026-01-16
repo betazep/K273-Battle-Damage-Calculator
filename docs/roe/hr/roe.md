@@ -29,11 +29,12 @@ To su opći dogovori između različitih kraljevstava za vrijeme kada se K273 ot
 
 ### 2. MIR
 
-- Napadi na ROE gradove i portale zabranjeni su osim tijekom CoT-a i planiranih CP razmjena.
-- Igrači ispod 100k su zaštićeni pod ROE (prate ROE ili ne).
-- Igrači i klanovi koji ne prate ROE i iznad 100k moći mogu biti napadnuti u bilo kojem trenutku.
+- Napadi na ROE gradove i portale su zabranjeni osim tijekom CoT-a ili planiranih CP razmjena.
+- Igrači ispod 100k su zaštićeni ROE-om (prate ROE ili ne).
+- Igrači i klanovi koji ne prate ROE i imaju preko 100k moći mogu biti napadnuti u bilo kojem trenutku.
 - Odlutali mogu biti napadnuti u bilo kojem trenutku, bez ograničenja moći.
-- Izviđanje je oblik agresije i nezakonito je tijekom mira.
+- Ako ste ilegalno pogođeni tijekom mira, vi ili član klana možete uzvratiti jednom kao odmazdu bez ograničenja moći. (bez kompenzacije za uzvratni udar)
+- Izviđanje je oblik agresije i protiv ROE-a tijekom mira.
 
 ### 3. DIPLOMATI
 

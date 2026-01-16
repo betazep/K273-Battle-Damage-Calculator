@@ -29,11 +29,12 @@ Dies sind allgemeine Abkommen zwischen verschiedenen Königreichen für die Zeit
 
 ### 2. FRIEDENSZEIT
 
-- Angriffe auf ROE-Städte und Portale sind verboten, außer während CoT und geplanten CP-Austauschen.
-- Spieler unter 100k sind unter ROE geschützt (egal ob sie ROE befolgen oder nicht).
-- Spieler und Clans, die ROE nicht befolgen und über 100k Macht haben, dürfen jederzeit angegriffen werden.
-- Geächtete dürfen jederzeit angegriffen werden, ohne Machtlimit.
-- Spähen ist eine Form der Aggression und während der Friedenszeit illegal.
+- Angriffe auf ROE-Städte und Portale sind verboten außer während CoT oder geplanten CP-Austauschen.
+- Spieler unter 100k sind durch ROE geschützt (ob sie ROE befolgen oder nicht).
+- Spieler und Clans, die ROE nicht befolgen und über 100k Macht haben, können jederzeit angegriffen werden.
+- Geächtete können jederzeit angegriffen werden, ohne Machtlimit.
+- Wenn ihr in der Friedenszeit illegal getroffen werdet, könnt ihr oder ein Clanmitglied einmalig zurückschlagen als Vergeltung, ohne Machtlimit. (keine Entschädigung bei Vergeltungsschlag)
+- Spähen ist eine Form der Aggression und verstößt gegen ROE während der Friedenszeit.
 
 ### 3. DIPLOMATEN
 

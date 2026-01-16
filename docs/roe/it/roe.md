@@ -29,11 +29,12 @@ Si tratta di accordi generali tra diversi regni per quando K273 apre. Non sono r
 
 ### 2. TEMPO DI PACE
 
-- Gli attacchi alle città e ai portali ROE sono vietati eccetto durante CoT e scambi CP pianificati.
+- Gli attacchi a città e portali ROE sono vietati eccetto durante CoT o scambi CP pianificati.
 - I giocatori sotto i 100k sono protetti dal ROE (seguano o meno il ROE).
-- I giocatori e clan che non seguono il ROE e sopra i 100k di potere possono essere attaccati in qualsiasi momento.
+- I giocatori e i clan che non seguono il ROE e sopra i 100k di potere possono essere attaccati in qualsiasi momento.
 - I fuorilegge possono essere attaccati in qualsiasi momento, senza limite di potere.
-- Lo scouting è una forma di aggressione ed è illegale durante il tempo di pace.
+- Se vieni colpito illegalmente durante il tempo di pace, tu o un membro del clan potete colpire una volta come rappresaglia senza limite di potere. (nessuna compensazione se colpo di rappresaglia)
+- Lo scouting è una forma di aggressione ed è contro il ROE durante il tempo di pace.
 
 ### 3. DIPLOMATI
 

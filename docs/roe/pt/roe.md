@@ -29,11 +29,12 @@ São acordos gerais entre diferentes Reinos para quando K273 abrir. Não são re
 
 ### 2. TEMPO DE PAZ
 
-- Ataques a cidades e portais ROE são proibidos exceto durante CoT e trocas CP planejadas.
+- Ataques a cidades e portais ROE são proibidos exceto durante CoT ou trocas CP planejadas.
 - Jogadores abaixo de 100k são protegidos pelo ROE (sigam ou não o ROE).
 - Jogadores e clãs que não seguem o ROE e acima de 100k de poder podem ser atacados a qualquer momento.
 - Foras-da-lei podem ser atacados a qualquer momento, sem limite de poder.
-- Scout é uma forma de agressão e é ilegal durante o tempo de paz.
+- Se você for atingido ilegalmente durante o tempo de paz, você ou um membro do clã pode revidar uma vez como retaliação sem limite de poder. (sem compensação se houver retaliação)
+- Scout é uma forma de agressão e é contra o ROE durante o tempo de paz.
 
 ### 3. DIPLOMATAS
 

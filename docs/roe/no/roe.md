@@ -29,11 +29,12 @@ Dette er generelle avtaler mellom ulike kongeriker for når K273 åpner. De er i
 
 ### 2. FREDSTID
 
-- Angrep på ROE-byer og portaler er forbudt unntatt under CoT og planlagte CP-utvekslinger.
-- Spillere under 100k er beskyttet under ROE (uansett om de følger ROE eller ikke).
+- Angrep på ROE-byer og portaler er forbudt unntatt under CoT eller planlagte CP-utvekslinger.
+- Spillere under 100k er beskyttet av ROE (uansett om de følger ROE eller ikke).
 - Spillere og klaner som ikke følger ROE og over 100k might kan angripes når som helst.
-- Utlagte kan angripes når som helst, ingen might-grense.
-- Speiding er en form for aggresjon og er ulovlig i fredstid.
+- Utlagte kan angripes når som helst, uten might-grense.
+- Hvis du blir truffet ulovlig i fredstid kan du eller et klanmedlem slå tilbake én gang som gjengjeldelse uten might-grense. (ingen kompensasjon ved gjengjeldelsesslag)
+- Speiding er en form for aggresjon og er i strid med ROE i fredstid.
 
 ### 3. DIPLOMATER
 

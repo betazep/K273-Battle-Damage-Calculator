@@ -29,11 +29,12 @@ Estos son acuerdos generales entre diferentes reinos para cuando K273 abre. No s
 
 ### 2. TIEMPO DE PAZ
 
-- Los ataques a ciudades y portales ROE están prohibidos excepto durante CoT y cambios CP planificados.
-- Los jugadores con menos de 100k están protegidos bajo ROE (sigan o no ROE).
+- Los ataques a ciudades y portales ROE están prohibidos excepto durante CoT o intercambios CP planificados.
+- Los jugadores bajo 100k están protegidos por ROE (sigan o no ROE).
 - Los jugadores y clanes que no siguen ROE y tienen más de 100k de poder pueden ser atacados en cualquier momento.
 - Los forajidos pueden ser atacados en cualquier momento, sin límite de poder.
-- El espionaje es una forma de agresión y es ilegal durante el tiempo de paz.
+- Si te golpean ilegalmente durante el tiempo de paz, tú o un miembro del clan pueden responder una vez como represalia sin límite de poder. (sin compensación si es golpe de represalia)
+- El espionaje es una forma de agresión y está en contra del ROE durante el tiempo de paz.
 
 ### 3. DIPLOMÁTICOS
 

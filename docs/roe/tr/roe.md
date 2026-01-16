@@ -29,11 +29,12 @@ Bunlar K273 açıldığında farklı krallıklar arasındaki genel anlaşmalard�
 
 ### 2. BARIŞ ZAMANI
 
-- ROE şehirleri ve portallara saldırılar CoT ve planlı CP değişimleri dışında yasaktır.
+- ROE şehirleri ve portallara saldırılar CoT veya planlı CP değişimleri dışında yasaktır.
 - 100k altındaki oyuncular ROE kapsamında korunur (ROE'ye uysun ya da uymasın).
 - ROE'ye uymayan ve 100k üstü güce sahip oyuncular ve klanlar herhangi bir zamanda saldırılabilir.
 - Kanun dışılar herhangi bir zamanda, güç sınırı olmadan saldırılabilir.
-- Keşif bir saldırganlık biçimidir ve barış zamanında yasa dışıdır.
+- Barış zamanında yasa dışı şekilde vurulursanız, siz veya bir klan üyesi misilleme olarak bir kez vurabilirsiniz, güç sınırı yoktur. (misilleme vuruşunda tazminat yok)
+- Keşif bir saldırganlık biçimidir ve barış zamanında ROE'ye aykırıdır.
 
 ### 3. DİPLOMATLAR
 

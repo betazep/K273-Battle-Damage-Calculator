@@ -29,11 +29,12 @@ Detta är generella överenskommelser mellan olika kungariken när K273 öppnar.
 
 ### 2. FREDSTID
 
-- Attacker på ROE‑städer och portaler är förbjudna utom under CoT och planerade CP‑utbyten.
-- Spelare under 100k är skyddade under ROE (oavsett om de följer ROE eller inte).
-- Spelare och klaner som inte följer ROE och över 100k styrka kan attackeras när som helst.
+- Attacker på ROE‑städer och portaler är förbjudna utom under CoT eller planerade CP‑utbyten.
+- Spelare under 100k är skyddade av ROE (oavsett om de följer ROE eller inte).
+- Spelare och klaner som inte följer ROE och har över 100k styrka kan attackeras när som helst.
 - Fredlösa kan attackeras när som helst, utan styrkegräns.
-- Spejning är en form av aggression och är olaglig under fredstid.
+- Om du blir olagligt träffad under fredstid kan du eller en klanmedlem slå tillbaka en gång som vedergällning utan styrkegräns. (ingen kompensation vid vedergällningsslag)
+- Spejning är en form av aggression och är i strid med ROE under fredstid.
 
 ### 3. DIPLOMATER
 

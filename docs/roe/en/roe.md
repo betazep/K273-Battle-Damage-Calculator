@@ -29,11 +29,12 @@ These are general agreements between different Kingdoms for when K273 opens. The
 
 ### 2. PEACETIME
 
-- Attacks on ROE cities and portals are forbidden except during CoT and planned CP exchanges.
+- Attacks on ROE cities and portals are forbidden except during CoT or planned CP exchanges.
 - Players under 100k are protected under ROE (whether they follow ROE or not).
 - Players and clans that do not follow ROE and over 100k might can be attacked at anytime.
 - Outlaws can be attacked at anytime, no might limit.
-- Scouting is a form of aggression and is illegal during peacetime.
+- If you're hit illegally during peace time you or a clan member can hit them back once as retaliation no might limit. (no compensation if retaliation hit)
+- Scouting is a form of aggression and is against ROE during peace time.
 
 ### 3. DIPLOMATS
 

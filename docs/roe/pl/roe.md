@@ -29,11 +29,12 @@ Są to ogólne porozumienia między różnymi królestwami na czas otwarcia K273
 
 ### 2. CZAS POKOJU
 
-- Ataki na miasta i portale ROE są zabronione z wyjątkiem CoT i zaplanowanych wymian CP.
+- Ataki na miasta i portale ROE są zabronione z wyjątkiem CoT lub planowanych wymian CP.
 - Gracze poniżej 100k są chronieni przez ROE (niezależnie od tego, czy przestrzegają ROE).
-- Gracze i klany, które nie przestrzegają ROE i mają powyżej 100k potęgi, mogą być atakowani w dowolnym momencie.
-- Banici mogą być atakowani w dowolnym momencie, bez limitu potęgi.
-- Skautowanie jest formą agresji i jest nielegalne w czasie pokoju.
+- Gracze i klany, które nie przestrzegają ROE i mają powyżej 100k potęgi, mogą być atakowani w każdej chwili.
+- Banici mogą być atakowani w każdej chwili, bez limitu potęgi.
+- Jeśli zostaniesz nielegalnie zaatakowany w czasie pokoju, ty lub członek klanu możecie uderzyć raz w ramach odwetu bez limitu potęgi. (brak kompensacji za odwet)
+- Skautowanie jest formą agresji i jest sprzeczne z ROE w czasie pokoju.
 
 ### 3. DYPlomaci
 

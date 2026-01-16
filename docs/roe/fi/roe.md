@@ -29,11 +29,12 @@ Nämä ovat yleisiä sopimuksia eri kuningaskuntien välillä K273:n avautuessa.
 
 ### 2. RAUHANAIKA
 
-- Hyökkäykset ROE‑kaupunkeihin ja portteihin ovat kiellettyjä paitsi CoT:n aikana ja suunnitelluissa CP‑vaihdoissa.
+- Hyökkäykset ROE‑kaupunkeihin ja portteihin ovat kiellettyjä paitsi CoT:n aikana tai suunnitelluissa CP‑vaihdoissa.
 - Alle 100k pelaajat ovat ROE‑suojattuja (noudattavat ROE:ta tai eivät).
 - Pelaajat ja klaanit, jotka eivät noudata ROE:ta ja ovat yli 100k mightia, voidaan hyökätä milloin tahansa.
 - Lainulkopuolisia voidaan hyökätä milloin tahansa, ilman might‑rajaa.
-- Tiedustelu on aggressio ja on laiton rauhan aikana.
+- Jos sinua isketään laittomasti rauhan aikana, sinä tai klaanijäsen voi iskeä takaisin kerran kostona ilman might‑rajaa. (ei korvausta vastaiskusta)
+- Tiedustelu on aggressiota ja on ROE:n vastaista rauhan aikana.
 
 ### 3. DIPLOMAATIT
 

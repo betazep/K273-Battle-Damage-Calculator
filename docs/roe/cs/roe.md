@@ -29,11 +29,12 @@ Jsou to obecné dohody mezi různými královstvími pro dobu, kdy K273 otevře.
 
 ### 2. MÍR
 
-- Útoky na ROE města a portály jsou zakázány kromě CoT a plánovaných výměn CP.
+- Útoky na ROE města a portály jsou zakázány kromě CoT nebo plánovaných výměn CP.
 - Hráči pod 100k jsou chráněni ROE (ať ROE dodržují nebo ne).
 - Hráči a klany, které ROE nedodržují a mají nad 100k síly, mohou být napadeni kdykoliv.
 - Psanci mohou být napadeni kdykoliv, bez limitu síly.
-- Skautování je forma agrese a během míru je nelegální.
+- Pokud jste během míru nelegálně zasaženi, vy nebo člen klanu můžete jednou oplatit jako odvetu bez limitu síly. (bez kompenzace při odvetném úderu)
+- Skautování je forma agrese a je proti ROE během míru.
 
 ### 3. DIPLOMATÉ
 
