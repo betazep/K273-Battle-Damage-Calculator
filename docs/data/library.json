@@ -78,6 +78,27 @@
       "file": "book5.md"
     },
     {
+      "id": "book42",
+      "categoryId": "events",
+      "title": "TRADE ROUTES (MERCENARY EXCHANGES)",
+      "authorId": "badder",
+      "file": "book42.md"
+    },
+    {
+      "id": "book41",
+      "categoryId": "pvp",
+      "title": "IKFPA AGREEMENT",
+      "authorId": "badder",
+      "file": "book41.md"
+    },
+    {
+      "id": "book40",
+      "categoryId": "pvp",
+      "title": "OPEN KINGDOM",
+      "authorId": "badder",
+      "file": "book40.md"
+    },
+    {
       "id": "book9",
       "categoryId": "pvp",
       "title": "POINTERS FOR KINGDOM OPENING",

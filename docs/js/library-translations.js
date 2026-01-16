@@ -126,6 +126,15 @@
             },
             "book39": {
                 "title": "SANKARIHIRVIÖT"
+            },
+            "book40": {
+                "title": "AVOIN KUNINGASKUNTA"
+            },
+            "book41": {
+                "title": "IKFPA-SOPIMUS"
+            },
+            "book42": {
+                "title": "KAUPPAREITIT (PALKKA-ARMEIJAN VAIHDOT)"
             }
         }
     },
@@ -255,6 +264,15 @@
             },
             "book39": {
                 "title": "HEROIC MONSTERS"
+            },
+            "book40": {
+                "title": "ÅPENT KONGERIGE"
+            },
+            "book41": {
+                "title": "IKFPA-AVTALE"
+            },
+            "book42": {
+                "title": "HANDELSRUTER (LEIESOLDATUTVEKSLINGER)"
             }
         }
     },
@@ -384,6 +402,15 @@
             },
             "book39": {
                 "title": "HEROIC MONSTERS"
+            },
+            "book40": {
+                "title": "OFFENES KÖNIGREICH"
+            },
+            "book41": {
+                "title": "IKFPA-VEREINBARUNG"
+            },
+            "book42": {
+                "title": "HANDELSRUTEN (SÖLDNERAUSTAUSCH)"
             }
         }
     },
@@ -513,6 +540,15 @@
             },
             "book39": {
                 "title": "MONSTRUOS HEROICOS"
+            },
+            "book40": {
+                "title": "REINO ABIERTO"
+            },
+            "book41": {
+                "title": "ACUERDO IKFPA"
+            },
+            "book42": {
+                "title": "RUTAS COMERCIALES (INTERCAMBIOS DE MERCENARIOS)"
             }
         }
     },
@@ -642,6 +678,15 @@
             },
             "book39": {
                 "title": "MONSTRES HÉROÏQUES"
+            },
+            "book40": {
+                "title": "ROYAUME OUVERT"
+            },
+            "book41": {
+                "title": "ACCORD IKFPA"
+            },
+            "book42": {
+                "title": "ROUTES COMMERCIALES (ÉCHANGES DE MERCENAIRES)"
             }
         }
     },
@@ -771,6 +816,15 @@
             },
             "book39": {
                 "title": "MOSTRI EROICI"
+            },
+            "book40": {
+                "title": "REGNO APERTO"
+            },
+            "book41": {
+                "title": "ACCORDO IKFPA"
+            },
+            "book42": {
+                "title": "ROTTE COMMERCIALI (SCAMBI DI MERCENARI)"
             }
         }
     },
@@ -900,6 +954,15 @@
             },
             "book39": {
                 "title": "MONSTROS HEROICOS"
+            },
+            "book40": {
+                "title": "REINO ABERTO"
+            },
+            "book41": {
+                "title": "ACORDO IKFPA"
+            },
+            "book42": {
+                "title": "ROTAS COMERCIAIS (TROCAS DE MERCENÁRIOS)"
             }
         }
     },
@@ -1029,6 +1092,15 @@
             },
             "book39": {
                 "title": "POTWORY HEROICZNE"
+            },
+            "book40": {
+                "title": "OTWARTE KRÓLESTWO"
+            },
+            "book41": {
+                "title": "POROZUMIENIE IKFPA"
+            },
+            "book42": {
+                "title": "SZLAKI HANDLOWE (WYMIANY NAJEMNIKÓW)"
             }
         }
     },
@@ -1158,6 +1230,15 @@
             },
             "book39": {
                 "title": "ГЕРОИЧЕСКИЕ МОНСТРЫ"
+            },
+            "book40": {
+                "title": "ОТКРЫТОЕ КОРОЛЕВСТВО"
+            },
+            "book41": {
+                "title": "СОГЛАШЕНИЕ IKFPA"
+            },
+            "book42": {
+                "title": "ТОРГОВЫЕ ПУТИ (ОБМЕНЫ НАЁМНИКОВ)"
             }
         }
     },
@@ -1287,6 +1368,15 @@
             },
             "book39": {
                 "title": "HEROISKA MONSTER"
+            },
+            "book40": {
+                "title": "ÖPPET KUNGARIK"
+            },
+            "book41": {
+                "title": "IKFPA-AVTAL"
+            },
+            "book42": {
+                "title": "HANDELSRUTTER (LEGOSOLDATUTBYTEN)"
             }
         }
     },
@@ -1416,6 +1506,15 @@
             },
             "book39": {
                 "title": "ГЕРОИЧНИ ЧУДОВИЩА"
+            },
+            "book40": {
+                "title": "ОТВОРЕНО КРАЛСТВО"
+            },
+            "book41": {
+                "title": "СПОРАЗУМЕНИЕ IKFPA"
+            },
+            "book42": {
+                "title": "ТЪРГОВСКИ МАРШРУТИ (ОБМЕНИ НА НАЕМНИЦИ)"
             }
         }
     },
@@ -1545,6 +1644,15 @@
             },
             "book39": {
                 "title": "KAHRAMANİK CANAVARLAR"
+            },
+            "book40": {
+                "title": "AÇIK KRALLIK"
+            },
+            "book41": {
+                "title": "IKFPA ANLAŞMASI"
+            },
+            "book42": {
+                "title": "TİCARET YOLLARI (PARALI ASKER TAKASLARI)"
             }
         }
     },
@@ -1674,6 +1782,15 @@
             },
             "book39": {
                 "title": "HEROJSKA ČUDOVIŠTA"
+            },
+            "book40": {
+                "title": "OTVORENO KRALJEVSTVO"
+            },
+            "book41": {
+                "title": "IKFPA SPORAZUM"
+            },
+            "book42": {
+                "title": "TRGOVAČKE RUTE (RAZMJENE PLAĆENIKA)"
             }
         }
     },
@@ -1803,6 +1920,15 @@
             },
             "book39": {
                 "title": "HEROICKÁ MONSTRA"
+            },
+            "book40": {
+                "title": "OTEVŘENÉ KRÁLOVSTVÍ"
+            },
+            "book41": {
+                "title": "DOHODA IKFPA"
+            },
+            "book42": {
+                "title": "OBCHODNÍ TRASY (VÝMĚNY ŽOLDNÉŘŮ)"
             }
         }
     }
