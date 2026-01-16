@@ -242,8 +242,8 @@ a {
 }
 
 .page-nav--bottom {
-    margin-top: 26px;
-    margin-bottom: 0;
+    margin-top: 18px;
+    margin-bottom: 14px;
 }
 
 .panel__head {
@@ -1305,13 +1305,15 @@ textarea {
 
 .footer {
     text-align: center;
-    padding: 18px 12px 26px;
+    padding: 24px 12px 32px;
     color: var(--muted);
     font-size: 14px;
+    background: rgba(13, 24, 39, 0.88);
+    border-top: 1px solid var(--stroke);
 }
 
 .footer p {
-    margin: 0 0 8px;
+    margin: 0 0 12px;
 }
 
 .footer-actions {
@@ -1319,7 +1321,7 @@ textarea {
     justify-content: center;
     gap: 12px;
     flex-wrap: wrap;
-    padding: 8px 0 0;
+    padding: 4px 0 0;
 }
 
 .collapsible {
