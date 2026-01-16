@@ -6,7 +6,7 @@ const docsDir = path.join(root, "docs");
 const version =
     process.argv[2] || new Date().toISOString().replace(/[-:.TZ]/g, "");
 
-const htmlFiles = ["index.html", "library.html", "calculator.html", "palace.html"];
+const htmlFiles = ["index.html", "library.html", "calculator.html", "palace.html", "analytics.html"];
 
 const replaceVersion = (content) =>
     content

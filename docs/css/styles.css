@@ -604,6 +604,21 @@ input:focus, textarea:focus {
     display: block;
 }
 
+.btn-analytics {
+    display: inline-flex;
+    flex-direction: column;
+    gap: 2px;
+    line-height: 1.1;
+    text-align: center;
+    margin-top: 4px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+.btn-analytics__line {
+    display: block;
+}
+
 .btn:hover {
     transform: translateY(-1px);
 }
@@ -1302,6 +1317,8 @@ textarea {
 .footer-actions {
     display: flex;
     justify-content: center;
+    gap: 12px;
+    flex-wrap: wrap;
     padding: 8px 0 0;
 }
 

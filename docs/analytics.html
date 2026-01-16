@@ -4,11 +4,11 @@
     <!-- 100% privacy-first analytics -->
     <script data-collect-dnt="true" data-allow-params="lang" async src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
     <script>
-      window.APP_VERSION = "20260112133840856";
+      window.APP_VERSION = "20260116145302130";
     </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title data-i18n="index.title">TotalBattle Kingdom 273</title>
+    <title>K273 | Website Analytics</title>
     <link rel="icon" href="images/favicon.ico" sizes="any">
     <link rel="icon" href="images/favicon-32.png" type="image/png" sizes="32x32">
     <link rel="icon" href="images/favicon-16.png" type="image/png" sizes="16x16">
@@ -40,8 +40,9 @@
             </div>
         </div>
         <div class="hero__content">
-            <h1 data-i18n="index.hero.title">TotalBattle Kingdom 273</h1>
-            <p class="lede" data-i18n="index.hero.lede">Quick access to our calculators and resources.</p>
+            <p class="eyebrow">K273 | Website Analytics</p>
+            <h1>Analytics</h1>
+            <p class="lede">We use SimpleAnalytics for privacy.</p>
             <div class="reset-clock" aria-live="polite">
                 <p class="reset-clock__line">
                     <span class="reset-clock__label" data-i18n="reset.label">Daily Reset</span>
@@ -55,50 +56,14 @@
 
     <main class="page">
         <section class="panel">
-            <div class="panel__head">
-                <div>
-                    <p class="eyebrow" data-i18n="index.info.eyebrow">Information</p>
-                </div>
+            <div id="chart" data-hostname="k273tb.xyz" style="aspect-ratio: 2/1">
+                <p style="margin: 0">Loading chart...</p>
             </div>
-            <div class="card-grid">
-                <div class="card">
-                    <div class="card__title">
-                        <h3 data-i18n="index.palace.card.title">Palace Roles & ROE</h3>
-                    </div>
-                    <p class="small" data-i18n="index.palace.card.body">Check the latest palace assignments and the rules of engagement agreed by the kingdom.</p>
-                    <div class="actions">
-                        <a class="btn primary btn-wide" href="palace.html" data-i18n="index.palace.card.button">Open Palace Page</a>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card__title">
-                        <h3 data-i18n="index.library.card.title">Library of Knowledge</h3>
-                    </div>
-                    <p class="small" data-i18n="index.library.card.body">All the best knowledge you need to know.</p>
-                    <div class="actions">
-                        <a class="btn primary btn-wide" href="library.html" data-i18n="index.library.card.button">Open Library</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="panel">
-            <div class="panel__head">
-                <div>
-                    <p class="eyebrow" data-i18n="index.tools.eyebrow">TOOLS</p>
-                </div>
-            </div>
-            <div class="card-grid">
-                <div class="card">
-                    <div class="card__title">
-                        <h3 data-i18n="index.calc.card.title">Illegal Attack Damage Cost Calculator</h3>
-                    </div>
-                    <p class="small" data-i18n="index.calc.card.body">Enter losses and copy the formatted message back to TotalBattle chat.</p>
-                    <div class="actions">
-                        <a class="btn primary btn-wide" href="calculator.html" data-i18n="index.calc.card.button">Open Calculator</a>
-                    </div>
-                </div>
-            </div>
+            <script
+              async
+              data-chart-selectors="#chart"
+              src="https://scripts.simpleanalyticscdn.com/embed.js"
+            ></script>
         </section>
     </main>
 
@@ -109,14 +74,14 @@
                 <span class="btn-coffee__line" data-i18n="support.button.line1">☕ Buy me a coffee!</span>
                 <span class="btn-coffee__line" data-i18n="support.button.line2">(or a beer - heh)</span>
             </a>
-            <a class="btn ghost btn-nav btn-analytics" href="analytics.html">
+            <a class="btn ghost btn-nav btn-analytics" href="analytics.html" aria-current="page">
                 <span class="btn-analytics__line">SIMPLE</span>
                 <span class="btn-analytics__line">ANALYTICS</span>
             </a>
         </div>
     </footer>
     <script src="js/i18n.js?v=20260116145302130"></script>
-    <script src="js/lang.js"></script>
-    <script src="js/reset-clock.js"></script>
+    <script src="js/lang.js?v=20260116145302130"></script>
+    <script src="js/reset-clock.js?v=20260116145302130"></script>
 </body>
 </html>
