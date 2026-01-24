@@ -171,11 +171,11 @@ When the ROE is violated, the following steps should be taken:
 
 ### 9. Kingdom Chats to Join
 
-#K273/ROE
-SPAM ZONE
-#K273/CLAIMS
-#K273/OUTLAWS
-~#K273/CPTHUNDERDOME
-~#K273/ACADEMY
-K273 TB Library
-k273tb
+- #K273/ROE
+- SPAM ZONE
+- #K273/CLAIMS
+- #K273/OUTLAWS
+- ~#K273/CPTHUNDERDOME
+- ~#K273/ACADEMY
+- K273 TB Library
+- k273tb
