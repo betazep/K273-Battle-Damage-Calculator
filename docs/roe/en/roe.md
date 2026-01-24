@@ -67,12 +67,16 @@ All clan leaders must fulfill their obligations as leaders:
 - Player created resources belong to the individual who created them unless agreed to share between two parties.
 - Rare crypts belong to the individual who unlocked them.
 - WS and DMs:
-  - a. There is no registration system.
-  - b. All wild resource buildings (including DM/WS) are first come, first serve (FCFS).
-  - c. Claims cannot be made if you are scouted/attacked in wild resources unless:
-    - You lose the resource.
-    - You are scouted/attacked and then attacked again. (2x rule)
-  - d. It is your responsibility to message your diplomat, the other player, and the opposing diplomat/clan leader if someone is scouting you or attacking you in a mine.
+  a. There is no registration system.
+
+  b. All wild resource buildings (including DM/WS) are first come, first serve (FCFS).
+
+  c. Claims cannot be made if you are scouted/attacked in wild resources unless:
+
+  - You lose the resource.
+  - You are scouted/attacked and then attacked again. (2x rule)
+
+  d. It is your responsibility to message your diplomat, the other player, and the opposing diplomat/clan leader if someone is scouting you or attacking you in a mine.
 
 ### 4. PALACE COMPENSATION GUIDE
 
