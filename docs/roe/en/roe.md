@@ -67,11 +67,12 @@ All clan leaders must fulfill their obligations as leaders:
 - Player created resources belong to the individual who created them unless agreed to share between two parties.
 - Rare crypts belong to the individual who unlocked them.
 - WS and DMs:
-  a. There is no registration system. All wild resource buildings (including DM/WS) are first come, first serve (FCFS).
-  c. Claims cannot be made if you are scouted/attacked in wild resources unless
-      You lose the resource.
-      You are scouted/attacked and then attacked again. (2x rule)
-  d. It is your responsibility to message your diplomat, the other player, and the opposing diplomat/clan leader if someone is scouting you or attacking you in a mine.
+  - a. There is no registration system.
+  - b. All wild resource buildings (including DM/WS) are first come, first serve (FCFS).
+  - c. Claims cannot be made if you are scouted/attacked in wild resources unless:
+    - You lose the resource.
+    - You are scouted/attacked and then attacked again. (2x rule)
+  - d. It is your responsibility to message your diplomat, the other player, and the opposing diplomat/clan leader if someone is scouting you or attacking you in a mine.
 
 ### 4. PALACE COMPENSATION GUIDE
 
@@ -80,34 +81,53 @@ Please see k273tb . xyz for compensation calculator
 Every illegal attack or scouting carries a base cost of 1 million silver. Any additional losses, damages, or stolen resources are added on top of this base cost.
 
 RSS: amount equal to the amount stolen
+
 Gold: 1 Gold = 3,000 Silver or gold mines equal to stolen + 10% (by decision of the victim)
+
 Tar: 1 Tar = 1,000 Silver
+
 Gold Bars = no compensation
 
 Illegally closed portal: 1M silver (+1M for illegal attack itself)
+
 Damage is calculated according to the following formula: Damage of lost troops are calculated according to the following formula:
+
 Hero= 1.5k
+
 Captain= 1k
+
 Spearmen, Archers = Troops Level x 40
+
 Specialists, Riders = Troops Level x 80
+
 Spies= Troops Level x 100
+
 Griffins= Troops Level x 800
+
 Catapults, Walls Walls Level x 200
+
 Monsters III-VII (Monster Level - 2) x1.3k
+
 Monsters I & ll=x 8.64k
+
 Mercenary Guard Troops Level x120
+
 Mercenary Monster = Monster Level x 3k
 
 ### FORTS
 
 Scouting = 5 million silver
+
 Attacking without destroying = 10 million silver
+
 Attacking and destroying = 20 million of each Silver, Iron, Wood, Stone
 
 ### CAPITALS
 
 Scouting = 5 million silver
+
 Attacking without destroying = 10 million silver
+
 Attacking and destroying = 50 million of each Silver, Iron, Wood, Stone
 
 ### 5. TAXES
@@ -171,11 +191,17 @@ When the ROE is violated, the following steps should be taken:
 
 ### 9. Kingdom Chats to Join
 
-- #K273/ROE
-- SPAM ZONE
-- #K273/CLAIMS
-- #K273/OUTLAWS
-- ~#K273/CPTHUNDERDOME
-- ~#K273/ACADEMY
-- K273 TB Library
-- k273tb
+#K273/ROE
+SPAM ZONE
+
+#K273/CLAIMS
+
+#K273/OUTLAWS
+
+~#K273/CPTHUNDERDOME
+
+~#K273/ACADEMY
+
+K273 TB Library
+
+k273tb
