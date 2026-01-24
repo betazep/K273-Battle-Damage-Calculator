@@ -114,13 +114,13 @@ Attacking and destroying = 50 million of each Silver, Iron, Wood, Stone
 
 Cities with over 3 days of accrued ingots may be attacked by a member of the Royal Guard without notice. You may be scouted first and then taxes collected. Send taxes in everyday you log on and off as a good practice. Gold ingots have zero value to you personally, but the King and Palace can use them to turn on bonuses for the whole kingdom. If we have the gold bars, they will be used for the benefit of K273.
 Maximum gold ingots per city:
-City 1-9: 2000 Ingots
-City 10-19: 3000 Ingots
-City 20-24: 10000 Ingots
-City 25-29: 35000 Ingots
-City 30-34: 60000 Ingots
-City 35-39: 70000 Ingots
-City 40+: 90000 Ingots
+- City 1-9: 2000 Ingots
+- City 10-19: 3000 Ingots
+- City 20-24: 10000 Ingots
+- City 25-29: 35000 Ingots
+- City 30-34: 60000 Ingots
+- City 35-39: 70000 Ingots
+- City 40+: 90000 Ingots
 
 ### 6. Members of the Esteemed Kingdom
 
