@@ -10,6 +10,7 @@ const htmlFiles = ["index.html", "library.html", "calculator.html", "palace.html
 
 const replaceVersion = (content) =>
     content
+        .replace(/window\.APP_VERSION\s*=\s*"[^"]*"/g, `window.APP_VERSION = "${version}"`)
         .replace(/(\.(?:css|js))\?v=[^"']+/g, `$1?v=${version}`)
         .replace(/__CACHE_BUST__/g, version);
 
