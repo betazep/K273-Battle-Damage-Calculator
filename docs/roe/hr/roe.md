@@ -1,159 +1,211 @@
-Po nalogu kralja Spunkyja sljedeći ROE stupa na snagu odmah u cijelom Kraljevstvu 273 i SVI igrači moraju se pridržavati pravila, osim:
+Po naredbi kralja Arihelma, sljedeći ROE vrijedi u kraljevstvu:
 
-- ODLUTALI
-- IGRAČI BEZ KLANA
-- KLANOVI KOJI NE PRATE ROE
+Dobrodošli u K273, Total Battle Legends!
+Ovaj poslužitelj je dom tisućama igrača iz cijelog svijeta, a ono što ga čini sjajnim nisu samo bitke, već ljudi iza njih.
+Podržite svoje suigrače, poštujte jedni druge, pomozite novim igračima pronaći svoje mjesto i uživajte u igri zajedno.
 
-Kako bi vaš klan pokazao da slijedi ROE, opis klana mora sadržavati "We follow K273 ROE".
+Našim veteranima: poštovanje što držite liniju.
+Našim novim igračima: opremite se - sada ste dio nečeg ogromnog.
+Tisuće se ovdje bore, ali samo hrabri ostavljaju trag.
+Stojte čvrsto, borite se pametno i neka vaše ime odjekuje poslužiteljem. Hvala što ste ovdje.
 
-### 1. Opća izjava Sporazum igrača K273
+### Opći sporazum igrača K273
 
-- Kraljevstvo K273 slijedi IKFPA sporazum uspostavljen tijekom vladavine kralja Arcadije i očekuje da se svaki član toga pridržava, posebno nakon otvaranja kraljevstva.
-- ROE vrijedi odmah i može se mijenjati.
-- Svaka izmjena ima 24-satni buffer kako bi se drugi mogli prilagoditi kroz različite vremenske zone.
-- Molimo poštujte sve s kojima dolazite u kontakt.
-- Postoji politika nulte tolerancije na rasistički, mrzilački, uvredljiv ili prijeteći jezik.
-- Prekršaji se mogu prijaviti Kralju/Kraljici ili Kraljevoj desnoj ruci.
-- Mogu im se dodijeliti negativna titula i/ili status odlutalog.
-- Prijetnje se shvaćaju vrlo ozbiljno, kao i nasilničko ponašanje, jer su protiv pravila TOTAL BATTLE kodeksa ponašanja, a chat kraljevstva je mjesto gdje se svi trebaju osjećati dobrodošlo.
+1. Kraljevstvo K273 slijedi IKFPA sporazum uspostavljen tijekom vladavine kralja Arcadije i očekuje da se svaki član tome pridržava, posebno nakon otvaranja kraljevstva.
+2. ROE vrijedi odmah i može se mijenjati.
+3. Svaka izmjena imat će 24-satni buffer kako bi se drugi mogli prilagoditi kroz različite vremenske zone.
+4. Molimo poštujte sve s kojima dolazite u kontakt.
+5. Postoji politika nulte tolerancije prema rasističkom, mrzilačkom, omalovažavajućem ili prijetećem jeziku.
+6. Kršenja se mogu prijaviti Kralju/Kraljici ili Kraljevoj ruci.
+7. Mogu im se dodijeliti negativna titula i/ili status odmetnika.
+8. Prijetnje se shvaćaju vrlo ozbiljno, kao i nasilje, jer su protiv pravila TOTAL BATTLE Kodeksa ponašanja. Chat kraljevstva je mjesto gdje se svi trebaju osjećati dobrodošlo.
 
 ### Pravila Inter-Kingdom Fair Play Agreement (IKFPA)
 
-To su opći dogovori između različitih kraljevstava za vrijeme kada se K273 otvara. To nisu stroga pravila, ali se kraljevstva potiču da ih poštuju.
+Ovo su opći sporazumi između različitih kraljevstava kada se K273 otvara... to nisu čvrsta pravila, ali se kraljevstva potiču da ih poštuju.
 
-1. Bez govora mržnje.
-1. Bez napada na zgrade klana, memorijalne portale ili igrače ispod 100K moći.
-1. SVI RSS pločice zaštićene su od napada osim tijekom PvP događaja. PvP događaji su: CoT, KvK, War Tools, Gold / Silver Rush, War Games, Lava Trials (NE uključuje posebno Ruthless Slaughter).
-1. Napadi na fortove drugih kraljevstava proglašavaju trenutni status odlutalog prema ROE-u kraljevstva.
-1. Kompenzacija za kršenja dogovorena unutar <48 sati (IKFPA ne provodi nijedna pojedinačna instanca).
+1. Bez govora mržnje
+2. Bez napada na zgrade klanova, memorijalne portale ili igrače ispod 100K moći
+3. SVE RSS pločice su zaštićene od napada osim tijekom PvP događaja. PvP događaji su: CoT, KvK, War Tools, Gold / Silver Rush, War Games, Lava Trials, (NE uključuje posebno Ruthless Slaughter).
+4. Napadi na utvrde u drugim kraljevstvima znače trenutačan status odmetnika prema ROE-u kraljevstva
+5. Kompenzacija za kršenja dogovorena u <48 sati (IKFPA ne provodi nijedna jedinstvena entiteta)
 
-### 2. MIR
+### Kraljevski dužnosnici - Palača
 
-- Napadi na ROE gradove i portale su zabranjeni osim tijekom CoT-a ili planiranih CP razmjena.
-- Igrači ispod 100k su zaštićeni ROE-om (prate ROE ili ne).
-- Igrači i klanovi koji ne prate ROE i imaju preko 100k moći mogu biti napadnuti u bilo kojem trenutku.
-- Odlutali mogu biti napadnuti u bilo kojem trenutku, bez ograničenja moći.
-- Ako ste ilegalno pogođeni tijekom mira, vi ili član klana možete uzvratiti jednom kao odmazdu bez ograničenja moći. (bez kompenzacije za uzvratni udar)
-- Izviđanje je oblik agresije i protiv ROE-a tijekom mira.
+- Palača je odgovorna za održavanje časti, integriteta i mira unutar K273 i s drugim kraljevstvima.
+- Kralj je izabran da predstavlja građane K273 i predsjeda palačom.
+- Kraljica i Kraljeva ruka odgovorni su za koordinaciju poslova kraljevstva i mogu govoriti u ime Kralja u njegovoj odsutnosti.
+- Kralj, Kraljica i Kraljeva ruka odgovorni su za upravljanje riznicom u ime igrača kraljevstva.
+- Kraljica i Kraljeva ruka moraju biti iz različitih klanova
 
-### 3. DIPLOMATI
+### Obveze vođa klanova
 
-Klanovi moraju navesti barem jednog diplomata u opisu klana. Diplomati moraju biti aktivni vođe klana ili nadređeni. Diplomati govore u ime klana prema kraljevstvu, pomažu rješavanju problema i trebali bi biti vaša prva kontakt točka.
+Svi vođe klanova moraju ispunjavati svoje obveze kao vođe:
 
-### 4. OBVEZA VOĐA KLANOVA
+- Poštovati ROE (Rules of Engagement).
+- Osigurati da njihovi članovi poštuju i slijede ROE.
+- Obrazovati svoje članove kako bi podržali rast i jedinstvo kraljevstva.
+- Vođa koji ne ispuni ove obveze bit će proglašen odmetnikom. >=D
+- Vođe su primjer i standard kraljevstva, a njihove akcije postavljaju put kojim će svi članovi slijediti.
 
-Postavite ton i zaštitite ugled klana, njegujte pozitivno okruženje. Učite, mentorirajte i komunicirajte ciljeve i ažuriranja članovima ili delegirajte to Nadređenima.
+### 1. MIRNO VRIJEME
 
-### 5. CLASH FOR THE THRONE (COT)
+- Napadi na gradove su zabranjeni osim tijekom CoT i planiranih CP razmjena.
+- Napadi na zgrade klanova su zabranjeni.
+- Portali se ne smiju napadati tijekom mirnog vremena. Neprijateljski portali mogu se napadati u bilo kojem trenutku bez obzira na lokaciju. Neprijateljski portali uključuju napade na zgrade klanova, članove i sve resurse igre (uključujući resurse sezonskih događaja). Napadanje portala u klanovskim teritorijima za klanske aktivnosti nije dopušteno osim ako su neprijateljski. Kraljevstvo je otvoreno, budite oprezni i ne ostavljajte portale otvorene cijelo vrijeme.
+- Izviđanje je oblik agresije i ilegalno je tijekom mirnog vremena.
+- Ako ste napadnuti. Bez obzira na njihovu moć, imate pravo napasti bilo koga natrag u bilo koje vrijeme. To znači da ako igrač s 1,000,000 moći napadne igrača s 50,000,000 moći, igrač s 50,000,000 moći ima puno pravo uzvratiti ako želi.
 
-Tijekom COT-a možete izviđati i napadati gradove pod sljedećim uvjetima:
+### 2. KLANOVI I DIPLOMATI
 
-#### GRADOVI
+- Klanovi bi trebali navesti "We abide by K273 ROE" kako bi bili služeni od kraljevstva i zaštićeni ROE-om.
+- Klanovi moraju navesti barem jednog diplomata na vrhu opisa klana koji može pomoći u rješavanju sporova. Diplomati moraju biti aktivni vođa ili superior.
 
-Ne možete napasti ili izviđati grad igrača s manje od POLOVINE vaše moći/mighta, osim ako ste u top 50 COT poretka. Ako ste u top 50, nema ograničenja moći i možete se slobodno napadati.
+### 3. Opća pravila
 
-#### KLANOVSKI MARŠEVI
+- Sve zgrade resursa unutar teritorija klana pripadaju tom klanu. To uključuje sezonske resurse događaja.
+- Resursi koje su stvorili igrači pripadaju pojedincu koji ih je stvorio, osim ako nije dogovoreno dijeljenje između dvije strane.
+- Rijetke kripte pripadaju pojedincu koji ih je otključao.
+- WS i DMs:
+  a. Ne postoji sustav registracije.
 
-Ne možete koristiti pojačanja za napad na gradove. Možete koristiti pojačanja za napad na neprijateljske portale. Bojni izvještaj potreban kao dokaz napada.
+  b. Sve divlje zgrade resursa (uključujući DM/WS) su first come, first serve (FCFS).
 
-#### PORTALI
-
-Portali događaja ne mogu biti napadnuti ni u jednom trenutku, čak ni tijekom COT-a. Svi ostali divlji portali i portali unutar granice klana mogu se napadati bez ograničenja moći.
-
-#### KLANOVSKI FORTOVI
-
-Zabranjeno je napadati klanovske fortove/zgrade. To nosi kazne i može rezultirati statusom odlutalog.
-
-### 6. ČUDOVIŠTA I KRIPTE
-
-- Sva čudovišta, arene, citadele i kripte su "tko prvi, njegovo" bez obzira na lokaciju, osim Rijetkih kripti koje zahtijevaju ključ za otvaranje. Ako niste otključali, ne uzimajte.
-- MINE/RESURSI (RSS) - Resursi koje su stvorili igrači pripadaju osobi koja je stvorila pločicu koristeći arhitektonske nacrte. Vlasnik mine, član njegova klana ili RG ima pravo napasti i preuzeti bez upozorenja.
-
-- Svi divlji resursi i resursi generirani igrom su "tko prvi, njegovo".
-- Nema rudarenja na teritoriju drugih klanova ili ćete biti uklonjeni.
-
-#### WS i DMs
-
-- Nema sustava registracije, tko prvi, njegovo.
-- Zahtjevi se ne mogu postavljati ako ste izviđani/napadnuti na divljim resursima osim ako:
+  c. Zahtjevi se ne mogu postavljati ako ste izviđeni/napadnuti u divljim resursima osim ako:
 
   - Izgubite resurs.
-  - Budete izviđani/napadnuti i zatim ponovno napadnuti. (2x pravilo)
+  - Budete izviđeni/napadnuti i zatim ponovno napadnuti. (pravilo 2x)
 
-- Vaša je odgovornost obavijestiti svog diplomata, drugog igrača i suprotnog diplomata/vođu klana ako vas netko izviđa ili napada u rudniku.
+  d. Vaša je odgovornost poručiti svom diplomatu, drugom igraču i diplomatu/vođi suparničkog klana ako vas netko izviđa ili napada u rudniku.
 
-### 7. VODIČ ZA KOMPENZACIJU
+### 4. VODIČ ZA KOMPENZACIJU PALAČE
 
-Molimo pogledajte k273tb.xyz za kalkulator kompenzacije. Svaki nezakoniti napad ili izviđanje nosi osnovni trošak od 1 milijun srebra. Svi dodatni gubici, štete ili ukradeni resursi dodaju se tom osnovnom trošku.
+Molimo pogledajte k273tb . xyz za kalkulator kompenzacije
 
-- RSS: iznos jednak ukradenom iznosu
-- Zlato: 1 zlato = 3.000 srebra ili zlatne mine jednake ukradenom + 10% (prema odluci žrtve)
-- Katran: 1 Tar = 1.000 srebra
-- Zlatne poluge = nema kompenzacije
-- Nezakonito zatvoren portal: 1M srebra (+1M za sam nezakoniti napad)
-- Šteta se izračunava prema sljedećoj formuli: Šteta izgubljenih trupa izračunava se prema sljedećoj formuli:
+Svaki ilegalni napad ili izviđanje nosi osnovni trošak od 1 milijun srebra. Svaki dodatni gubitak, šteta ili ukradeni resursi dodaju se na ovaj osnovni trošak.
 
-  - Heroj = 1.5k
-  - Kapetan = 1k
-  - Kopljanici, Strijelci = Razina trupa x 40
-  - Specijalisti, Jahači = Razina trupa x 80
-  - Špijuni = Razina trupa x 100
-  - Grifoni = Razina trupa x 800
-  - Katapulti, Zidovi Razina zidova x 200
-  - Čudovišta III-VII (Razina čudovišta 2) x 1.3k
-  - Čudovišta I & II = x 8.64k
-  - Plaćeni čuvari Razina trupa x 120
-  - Plaćeno čudovište = Razina čudovišta x 3k
+RSS: iznos jednak ukradenom iznosu
 
-#### FORTOVI
+Zlato: 1 Zlato = 3,000 Srebra ili zlatne mine jednake ukradenom + 10% (po odluci žrtve)
 
-- Izviđanje = 5 milijuna srebra
-- Napad bez uništenja = 10 milijuna srebra
-- Napad i uništenje = 50 milijuna svakog: Srebro, Željezo, Drvo, Kamen
+Tar: 1 Tar = 1,000 Srebra
 
-### 8. ODLUTALI
+Zlatne poluge = bez kompenzacije
 
-Ako pojedinci ili klanovi nisu voljni poštovati ROE, napadaju klanovske zgrade ili odbijaju platiti kompenzaciju za ROE kršenja, dobit će status odlutalog. Trenutni odlutali mogu se naći u chatu: K273#OUTLAWS.
+Nezakonito zatvoren portal: 1M srebra (+1M za sam ilegalni napad)
 
-### 9. ULOGE UNUTAR DVORCA
+Šteta se izračunava prema sljedećoj formuli: Šteta izgubljenih trupa izračunava se prema sljedećoj formuli:
 
-- Kralj je odgovoran za upravljanje Kraljevstvom, ali cijeli sustav Dvorca je zajednički napor.
-- Kralj, Kraljica i Kraljeva desna ruka imaju pristup kraljevskoj riznici kako bi uključili bonuse kraljevstva.
-- CENTURION - Glava Kraljevske garde.
-- ARCHON - Glava Suda/Glavni sudac.
-- CHANCELLOR - Glava vijeća klanova.
-- TREASURER - Upravljanje prikupljanjem poreza.
-- QUESTOR - Upravljanje komunikacijama i rudnicima.
-- LEGATE - Glava diplomacije.
-- TRIBUNE - Predstavlja glas svih igrača i klanova.
+Heroj= 1.5k
 
-### 10. KRŠENJA
+Kapetan= 1k
 
-Sva kontroverzna pitanja trebala bi se prvo pokušati riješiti među samim igračima. Ako ih ne mogu riješiti, sljedeći korak je uključiti diplomata klana. Ako diplomati ne mogu pronaći zajedničko rješenje, obraćaju se Sudu. Odluke Suda i sudaca nisu predmet pregovora.
+Kopljanici, Strijelci = Razina trupa x 40
 
-K273#CLAIMS.
+Specijalisti, Jahači = Razina trupa x 80
 
-### 11. POREZI
+Špijuni= Razina trupa x 100
 
-Od sada nema više najave prije racije prikupljanja poluga. Ako su poluge previsoke, RG će izviđati, a zatim prikupiti.
+Grifoni= Razina trupa x 800
 
-- Svaki klan treba imenovati časnika kao Poreznog časnika u svom klanu kako bi dnevno provjeravao poluge svih i podsjetio one koji ih imaju previše.
-- RG ima puno posla prije otvaranja pa se nadam da više neće biti potrebne racije prikupljanja.
+Katapulti, Zidovi Razina zidova x 200
 
-Maksimalne zlatne poluge po gradu
+Monstra III-VII (Razina monstera - 2) x1.3k
 
-- Grad 1-9 2000 poluga
-- Grad 10-19 3000 poluga
-- Grad 20-24 10000 poluga
-- Grad 25-29 35000 poluga
-- Grad 30-34 60000 poluga
-- Grad 35-39 70000 poluga
-- Grad 40+ 90000 poluga
+Monstra I & ll=x 8.64k
 
-### VAŽNI CHATOVI ZA PRIDRUŽIVANJE
+Najamnička straža Razina trupa x120
 
-- K273#ROE
-- K273#OUTLAWS
-- K273#CLAIMS
-- K273 TB Library
-- k273tb
+Najamničko čudovište = Razina čudovišta x 3k
+
+### UTVRDE
+
+Izviđanje = 5 milijuna srebra
+
+Napad bez uništenja = 10 milijuna srebra
+
+Napad i uništenje = 20 milijuna od svakog: Srebro, Željezo, Drvo, Kamen
+
+### GLAVNI GRADOVI
+
+Izviđanje = 5 milijuna srebra
+
+Napad bez uništenja = 10 milijuna srebra
+
+Napad i uništenje = 50 milijuna od svakog: Srebro, Željezo, Drvo, Kamen
+
+### 5. POREZI
+
+Gradovi s više od 3 dana akumuliranih ingota mogu biti napadnuti od strane člana Kraljevske garde bez najave. Možete prvo biti izviđeni, a zatim se skupljaju porezi. Šaljite poreze svaki dan kada se prijavljujete i odjavljujete kao dobra praksa. Zlatni ingoti nemaju osobnu vrijednost za vas, ali Kralj i Palača mogu ih koristiti za uključivanje bonusa za cijelo kraljevstvo. Ako imamo zlatne poluge, koristit će se za dobrobit K273.
+Maksimalni zlatni ingoti po gradu:
+- Grad 1-9: 2000 Ingota
+- Grad 10-19: 3000 Ingota
+- Grad 20-24: 10000 Ingota
+- Grad 25-29: 35000 Ingota
+- Grad 30-34: 60000 Ingota
+- Grad 35-39: 70000 Ingota
+- Grad 40+: 90000 Ingota
+
+### 6. Članovi uglednog kraljevstva
+
+Svaki igrač mora poštovati ova pravila kako bi bio zaštićen ROE-om.
+
+Igrači koji nisu zaštićeni su:
+ODMETNICI
+IGRAČI BEZ KLANA (većina)
+NE-ROE ČLANOVI
+
+Zaštićeni igrači bez klana
+Svi igrači s 100k moći ili manje su zaštićeni i ne smiju biti slobodno napadani. Interakcije s igračima bez klana trebaju prvo biti da saznate o njima i njihovim ciljevima u igri. Zatim ih potaknite da se pridruže klanu. Potaknite rast u igri i igrajte za kraljevstvo umjesto za osobnu nagradu.
+
+### Status odmetnika
+
+Ovlast proglasiti građanina ili klan odmetnikom ili opozvati postojeći status odmetnika pripada isključivo sljedećim vlastima Kraljevstva:
+Kralj, vrhovni čuvar reda i pravde.
+Kraljeva ruka, koja djeluje kao izravni predstavnik kraljevske vlasti.
+Kraljica, kao supodnositelj kraljevske vlasti.
+Glavni sudac Tribunala Kraljevstva, po svojoj ulozi čuvara pravde.
+Nijedan drugi akter Kraljevstva ne može, bez izričitog mandata koji dodijeli jedna od ovih vlasti, proglasiti građanina ili klan odmetnikom. Svaka objava izdana od neovlaštenog aktera je ništavna i nevažeća.
+
+### Kraljevska garda
+
+Kraljevska garda sastoji se od mnogih klanova i ima članove različitih razina. Dužnosti RG će nastaviti njihove normalne dužnosti poput prikupljanja poreza i provođenja pravila za Palaču. Također će djelovati kao elitna vojska i jedinica kraljevske/teritorijalne patrole i obrane. Oni su vrh koplja kraljevstva i ovdje su kako bi pomogli klanovima koji imaju problema s igračima i odmetnicima.
+
+### 7. Clash of Thrones CoT
+
+Tijekom, možete izviđati i napadati gradove pod sljedećim uvjetima:
+
+Nema napada na klanske utvrde: Napadanje utvrda ili zgrada drugog klana strogo je zabranjeno.
+
+Upravljanje resursima:
+Držite resurse nisko tijekom događaja kako biste izbjegli krađu; šaljite trupe u utvrde po potrebi. Prakticirajte No Value City (NVC)
+
+"Fair Play":
+- CoT pravila portala: Nema ograničenja
+- Primjenjuje se pravilo 50%.
+- Ako ste napadnuti. Bez obzira na njihovu moć, imate pravo napasti bilo koga natrag. To znači da ako igrač s 1,000,000 moći napadne igrača s 50,000,000 moći, igrač s 50,000,000 moći ima puno pravo uzvratiti ako želi.
+
+### 8. Proces rješavanja sukoba
+
+Kada je ROE prekršen, treba poduzeti sljedeće korake:
+ - Kontaktirajte drugog igrača kako biste pokušali riješiti. Ako nema rješenja u roku od 24 sata, eskalirajte svom klanskom diplomatu.
+ - Ako se ne postigne rješenje između klanskih diplomata, mogu iznijeti slučaj Sudu objavom u #K273/CLAIMS. Samo vođe klanova ili diplomati smiju objavljivati zahtjeve u ovom chatu.
+ - Sudci će presuditi krivca (ako ga ima) i prihvatljiv iznos kompenzacije.
+ - Ako krivac (ili njegov klan) odbije kompenzirati, Arhont ili Glavni sudac će odlučiti treba li igrača ili klan proglasiti odmetnikom i Kraljevska garda će biti aktivirana u stanju pripravnosti.
+
+### 9. Kraljevski chatovi kojima se treba pridružiti
+
+#K273/ROE
+SPAM ZONE
+
+#K273/CLAIMS
+
+#K273/OUTLAWS
+
+~#K273/CPTHUNDERDOME
+
+~#K273/ACADEMY
+
+K273 TB Library
+
+k273tb

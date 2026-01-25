@@ -1,159 +1,211 @@
-Na příkaz krále Spunkyho vstupuje následující ROE okamžitě v platnost v celém Království 273 a KAŽDÝ hráč musí dodržovat pravidla, kromě:
+Z rozkazu krále Arihelma platí pro království následující ROE:
 
-- PSANCŮ
-- HRÁČŮ BEZ KLANU
-- KLANŮ, KTERÉ ROE NEDODRŽUJÍ
+Vítejte v K273, Total Battle Legends!
+Tento server je domovem tisíců hráčů z celého světa a to, co ho dělá skvělým, nejsou jen bitvy, ale lidé za nimi.
+Podporujte své spoluhráče, respektujte se navzájem, pomáhejte novým hráčům najít jejich cestu a užívejte si hru společně.
 
-Aby váš klan prokázal, že dodržuje ROE, musí popis klanu obsahovat „We follow K273 ROE“.
+Našim veteránům: respekt za držení linie.
+Našim nováčkům: vybavte se - nyní jste součástí něčeho obrovského.
+Tisíce zde bojují, ale jen odvážní zanechají stopu.
+Stůjte pevně, bojujte chytře a ať vaše jméno zní napříč serverem. Děkujeme, že jste tady.
 
-### 1. Obecné prohlášení Dohoda hráčů K273
+### Obecná dohoda hráčů K273
 
-- Království K273 dodržuje dohodu IKFPA, která byla ustanovena během vlády krále Arcadie, a očekává, že každý člen ji bude dodržovat, zejména po otevření království.
-- ROE je účinné okamžitě a může být upraveno.
-- Každá změna bude mít 24hodinový buffer, aby se ostatní mohli přizpůsobit v různých časových pásmech.
-- Prosím, respektujte všechny, s nimiž přijdete do kontaktu.
-- Existuje politika nulové tolerance vůči rasistickému, nenávistnému, hanlivému nebo výhružnému jazyku.
-- Porušení lze hlásit Králi/Královně nebo Králově pravé ruce.
-- Může jim být přidělen negativní titul a/nebo status psance.
-- Hrozby jsou brány velmi vážně, stejně jako šikana, protože jsou proti pravidlům Kodexu chování TOTAL BATTLE a chat království je místo, kde se mají všichni cítit vítáni.
+1. Království K273 dodržuje dohodu IKFPA uzavřenou během vlády krále Arcadie a očekává, že ji bude každý člen dodržovat, zejména po otevření království.
+2. ROE je účinné okamžitě a může být změněno.
+3. Každá změna bude mít 24hodinový buffer, aby se ostatní mohli přizpůsobit v různých časových pásmech.
+4. Prosím respektujte všechny, se kterými přijdete do kontaktu.
+5. Platí nulová tolerance vůči rasistickému, nenávistnému, urážlivému nebo výhružnému jazyku.
+6. Porušení mohou být hlášena králi/královně nebo Pravé ruce krále.
+7. Může jim být udělen negativní titul a/nebo status vyvržence.
+8. Výhrůžky se berou velmi vážně, stejně jako šikana, protože jsou proti pravidlům Kodexu chování TOTAL BATTLE. Královský chat je místo, kde by se měli všichni cítit vítáni.
 
-### Pravidla Inter-Kingdom Fair Play Agreement (IKFPA)
+### Pravidla dohody o férové hře mezi královstvími (IKFPA)
 
-Jsou to obecné dohody mezi různými královstvími pro dobu, kdy K273 otevře. Nejsou to tvrdá pravidla, ale království jsou vyzývána, aby je dodržovala.
+Jsou to obecné dohody mezi různými královstvími pro dobu, kdy se K273 otevře... nejsou to tvrdá pravidla, ale království jsou vyzývána, aby je dodržovala.
 
-1. Žádná nenávistná řeč.
-1. Žádné útoky na budovy klanu, pamětní portály nebo hráče pod 100K síly.
-1. VŠECHNY RSS dlaždice jsou chráněny před útoky kromě během PvP událostí. PvP události jsou: CoT, KvK, War Tools, Gold / Silver Rush, War Games, Lava Trials (NEZAHRNUJE konkrétně Ruthless Slaughter).
-1. Útoky na pevnosti jiných království vyhlašují okamžitý status psance podle ROE království.
-1. Kompenzace za porušení dohodnuta do <48 hodin (IKFPA není vynucována žádnou jedinou entitou).
+1. Žádná nenávistná řeč
+2. Žádné útoky na klanové budovy, pamětní portály nebo hráče pod 100K síly
+3. VŠECHNY RSS dlaždice jsou chráněny před útoky kromě PvP událostí. PvP události jsou: CoT, KvK, War Tools, Gold / Silver Rush, War Games, Lava Trials, (NEZAHRNUJE konkrétně Ruthless Slaughter).
+4. Útoky na pevnosti v jiných královstvích znamenají okamžitý status vyvržence podle ROE daného království
+5. Kompenzace za porušení dohodnuta do <48 hodin (IKFPA nevymáhá žádná jednotlivá entita)
 
-### 2. MÍR
+### Královští úředníci - Palác
 
-- Útoky na ROE města a portály jsou zakázány kromě CoT nebo plánovaných výměn CP.
-- Hráči pod 100k jsou chráněni ROE (ať ROE dodržují nebo ne).
-- Hráči a klany, které ROE nedodržují a mají nad 100k síly, mohou být napadeni kdykoliv.
-- Psanci mohou být napadeni kdykoliv, bez limitu síly.
-- Pokud jste během míru nelegálně zasaženi, vy nebo člen klanu můžete jednou oplatit jako odvetu bez limitu síly. (bez kompenzace při odvetném úderu)
-- Skautování je forma agrese a je proti ROE během míru.
+- Palác odpovídá za udržování cti, integrity a míru v K273 a s ostatními královstvími.
+- Král je zvolen, aby zastupoval občany K273 a předsedal paláci.
+- Královna a Pravá ruka krále jsou odpovědné za koordinaci záležitostí království a mohou mluvit jménem krále v jeho nepřítomnosti.
+- Král, královna a Pravá ruka krále jsou odpovědní za správu pokladny jménem hráčů království.
+- Královna a Pravá ruka krále musí být z různých klanů
 
-### 3. DIPLOMATÉ
+### Povinnosti vůdců klanů
 
-Klan musí v popisu uvést alespoň jednoho diplomata. Diplomati musí být aktivní vůdce klanu nebo nadřízený. Diplomati mluví za svůj klan vůči království, pomáhají řešit problémy a měli by být vaším prvním kontaktem.
+Všichni vůdci klanů musí plnit své povinnosti jako vůdci:
 
-### 4. POVINNOSTI VŮDCŮ KLANU
+- Respektovat ROE (Rules of Engagement).
+- Zajistit, aby jejich členové respektovali a dodržovali ROE.
+- Vzdělávat své členy, aby podpořili růst a jednotu království.
+- Vůdce, který nesplní tyto závazky, bude prohlášen za vyvržence. >=D
+- Vůdci jsou příkladem a standardem království a jejich činy určují cestu, kterou budou všichni členové následovat.
 
-Určete tón a chraňte reputaci klanu, podporujte pozitivní prostředí. Učte, mentorujte a komunikujte cíle a aktualizace členům, nebo to delegujte na Nadřízené.
+### 1. MÍROVÉ OBDOBÍ
 
-### 5. CLASH FOR THE THRONE (COT)
+- Útoky na města jsou zakázány kromě CoT a plánovaných CP výměn.
+- Útoky na klanové budovy jsou zakázány.
+- Portály nesmí být během míru napadány. V nepřátelské portály lze útočit kdykoli bez ohledu na umístění. Nepřátelské portály zahrnují útoky na klanové budovy, členy a všechny herní zdroje (včetně sezónních eventových zdrojů). Útočit na portály v klanových územích pro klanové aktivity není povoleno, pokud nejsou nepřátelské. Království je otevřené, buďte opatrní a nenechávejte portály otevřené po celou dobu.
+- Průzkum je forma agrese a je během míru nelegální.
+- Pokud jste napadeni. Bez ohledu na jejich sílu máte právo kdykoli zaútočit zpět na kohokoli. To znamená, že pokud hráč se silou 1,000,000 napadne hráče se silou 50,000,000, hráč se silou 50,000,000 má plné právo zaútočit zpět, pokud se rozhodne.
 
-Během COT můžete skautovat a útočit na města za následujících podmínek:
+### 2. KLANy A DIPLOMATÉ
 
-#### MĚSTA
+- Klan by měl uvádět "We abide by K273 ROE", aby byl obsluhován královstvím a chráněn ROE.
+- Klan musí uvést alespoň jednoho diplomata na začátku popisu klanu, který může pomoci s řešením sporů. Diplomat musí být aktivní vůdce nebo superior.
 
-Nemůžete útočit ani skautovat město hráče s menší než POLOVINOU vaší síly/mighta, pokud nejste v top 50 žebříčku COT. Pokud jste v top 50, není limit síly a můžete se vzájemně napadat.
+### 3. Obecná pravidla
 
-#### KLANOVÉ POCHODY
+- Všechny zdrojové budovy na území klanu patří tomuto klanu. To zahrnuje sezónní eventové zdroje.
+- Zdroje vytvořené hráči patří jednotlivci, který je vytvořil, pokud není dohodnuto sdílení mezi dvěma stranami.
+- Vzácné krypty patří jednotlivci, který je odemkl.
+- WS a DM:
+  a. Neexistuje registrační systém.
 
-Nemůžete používat posily k útoku na města. Posily můžete použít k útoku na nepřátelské portály. Vyžaduje se bojová zpráva jako důkaz útoku.
+  b. Všechny divoké zdrojové budovy (včetně DM/WS) jsou first come, first serve (FCFS).
 
-#### PORTÁLY
-
-Event portály nelze zasáhnout kdykoliv, ani během COT. Všechny ostatní divoké portály a portály uvnitř hranic klanu mohou být napadány bez limitu síly.
-
-#### KLANOVÉ FORTY
-
-Je zakázáno útočit na klanové forty/budovy. To nese tresty a může vést ke statusu psance.
-
-### 6. MONSTRA A KRYPTY
-
-- Všechna monstra, arény, citadely a krypty jsou „kdo dřív přijde, ten dřív mele“ bez ohledu na lokaci, s výjimkou Vzácných krypt, které vyžadují klíč k otevření. Pokud jste je neodemkli, neberte je.
-- DOLY/RESURSY (RSS) - Hráčem vytvořené zdroje patří osobě, která vytvořila políčko pomocí architektonických plánů. Vlastník dolu, člen jeho klanu nebo RG má právo bez varování zaútočit a získat zpět.
-
-- Všechny divoké a herní zdroje jsou „kdo dřív přijde, ten dřív mele“.
-- Žádné těžení na území jiných klanů, jinak budete odstraněni.
-
-#### WS a DM
-
-- Neexistuje registrační systém, kdo dřív přijde, ten dřív mele.
-- Nároky nelze uplatnit, pokud jste skautováni/napadeni na divokých zdrojích, ledaže:
+  c. Nároky nelze uplatnit, pokud jste průzkumováni/napadeni ve volných zdrojích, ledaže:
 
   - Ztratíte zdroj.
-  - Budete skautováni/napadeni a poté znovu napadeni. (pravidlo 2x)
+  - Jste průzkumováni/napadeni a poté znovu napadeni. (pravidlo 2x)
 
-- Je vaší odpovědností informovat svého diplomata, druhého hráče a protistranného diplomata/klanstýho vůdce, pokud vás někdo skautuje nebo napadá v dole.
+  d. Je vaší odpovědností napsat vašemu diplomatovi, druhému hráči a diplomatovi/vedoucímu nepřátelského klanu, pokud vás někdo průzkumuje nebo napadá v dole.
 
-### 7. PRŮVODCE KOMPENZACÍ
+### 4. PRŮVODCE KOMPENZACÍ PALÁCE
 
-Podívejte se na k273tb.xyz pro kalkulačku kompenzací. Každý nelegální útok nebo skaut má základní cenu 1 milion stříbra. Jakékoliv další ztráty, škody nebo ukradené zdroje se přidávají k této základní ceně.
+Pro kalkulačku kompenzací viz k273tb . xyz
 
-- RSS: množství rovné ukradenému množství
-- Zlato: 1 Zlato = 3 000 Stříbra nebo zlaté doly rovné ukradenému + 10 % (dle rozhodnutí oběti)
-- Tar: 1 Tar = 1 000 Stříbra
-- Zlaté pruty = žádná kompenzace
-- Nelegálně uzavřený portál: 1M stříbra (+1M za samotný nelegální útok)
-- Poškození se počítá dle následujícího vzorce: Poškození ztracených jednotek se počítá dle následujícího vzorce:
+Každý nelegální útok nebo průzkum nese základní cenu 1 milion stříbra. Jakékoli další ztráty, škody nebo ukradené zdroje se přičítají k této základní ceně.
 
-  - Hrdina = 1.5k
-  - Kapitán = 1k
-  - Kopiníci, Lučištníci = Úroveň jednotek x 40
-  - Specialisté, Jezdci = Úroveň jednotek x 80
-  - Špioni = Úroveň jednotek x 100
-  - Grifoni = Úroveň jednotek x 800
-  - Katapulty, Zdi Úroveň zdí x 200
-  - Monstra III-VII (Úroveň monstra 2) x 1.3k
-  - Monstra I & II = x 8.64k
-  - Žoldnéřská stráž Úroveň jednotek x 120
-  - Žoldnéřské monstrum = Úroveň monstra x 3k
+RSS: množství rovné odcizenému množství
 
-#### FORTY
+Zlato: 1 zlato = 3 000 stříbra nebo zlaté doly rovné odcizenému + 10 % (dle rozhodnutí oběti)
 
-- Skautování = 5 milionů stříbra
-- Útok bez zničení = 10 milionů stříbra
-- Útok a zničení = 50 milionů každého: Stříbro, Železo, Dřevo, Kámen
+Tar: 1 tar = 1 000 stříbra
 
-### 8. PSANCI
+Zlaté pruty = bez kompenzace
 
-Pokud jednotlivci nebo klany nejsou ochotni dodržovat ROE, útočí na klanové budovy nebo odmítají platit kompenzace za porušení ROE, obdrží status psance. Aktuální psance najdete v chatu: K273#OUTLAWS.
+Nelegálně uzavřený portál: 1M stříbra (+1M za samotný nelegální útok)
 
-### 9. ROLE V PALÁCI
+Poškození se počítá podle následujícího vzorce: Poškození ztracených jednotek se počítá podle následujícího vzorce:
 
-- Král je zodpovědný za řízení království, ale celý systém Paláce je společným úsilím.
-- Král, Královna a Králova pravá ruka mají přístup k pokladnici království pro zapnutí bonusů království.
-- CENTURION - Vedoucí Královské gardy.
-- ARCHON - Vedoucí Soudu/Nejvyšší soudce.
-- CHANCELLOR - Vedoucí rady klanů.
-- TREASURER - Správa výběru daní.
-- QUESTOR - Spravuje komunikaci a doly.
-- LEGATE - Vedoucí diplomacie.
-- TRIBUNE - Zastupuje hlas všech hráčů a klanů.
+Hrdina= 1.5k
 
-### 10. PORUŠENÍ
+Kapitán= 1k
 
-Všechny sporné otázky by měly být nejprve řešeny mezi samotnými hráči. Pokud se jim to nepodaří, dalším krokem je zapojit diplomata klanu. Pokud diplomati nenajdou společné řešení, obracejí se na soudy. Rozhodnutí soudů a soudců nejsou předmětem vyjednávání.
+Kopijníci, Lukostřelci = Úroveň jednotek x 40
 
-K273#CLAIMS.
+Specialisté, Jezdci = Úroveň jednotek x 80
 
-### 11. DANĚ
+Špioni= Úroveň jednotek x 100
 
-Odteď žádné předběžné upozornění před nájezdem na sběr ingotů. Pokud jsou ingoty příliš vysoké, RG provede průzkum a poté je vybere.
+Grifoni= Úroveň jednotek x 800
 
-- Každý klan by měl jmenovat důstojníka jako Daňového důstojníka v rámci svého klanu, aby denně kontroloval ingoty všech a připomínal těm, kteří jich mají příliš mnoho.
-- RG má hodně práce před otevřením, takže doufám, že další nájezdy na sběr nebudou potřeba.
+Katapulty, Zdi Úroveň zdí x 200
 
-Maximální počet zlatých ingotů na město
+Monstra III-VII (Úroveň monstra - 2) x1.3k
 
-- Město 1-9 2000 ingotů
-- Město 10-19 3000 ingotů
-- Město 20-24 10000 ingotů
-- Město 25-29 35000 ingotů
-- Město 30-34 60000 ingotů
-- Město 35-39 70000 ingotů
-- Město 40+ 90000 ingotů
+Monstra I & II = x 8.64k
 
-### DŮLEŽITÉ CHATY PRO PŘIPOJENÍ
+Žoldnéřská stráž Úroveň jednotek x120
 
-- K273#ROE
-- K273#OUTLAWS
-- K273#CLAIMS
-- K273 TB Library
-- k273tb
+Žoldnéřské monstrum = Úroveň monstra x 3k
+
+### PEVNOSTI
+
+Průzkum = 5 milionů stříbra
+
+Útok bez zničení = 10 milionů stříbra
+
+Útok a zničení = 20 milionů od každého: Stříbro, Železo, Dřevo, Kámen
+
+### KAPITÁLY
+
+Průzkum = 5 milionů stříbra
+
+Útok bez zničení = 10 milionů stříbra
+
+Útok a zničení = 50 milionů od každého: Stříbro, Železo, Dřevo, Kámen
+
+### 5. DANĚ
+
+Města s více než 3 dny nashromážděných ingotů mohou být napadena členem Královské gardy bez upozornění. Nejprve můžete být průzkumováni a poté mohou být vybrány daně. Posílejte daně každý den, když se přihlašujete a odhlašujete, jako dobrá praxe. Zlaté ingoty pro vás osobně nemají žádnou hodnotu, ale Král a Palác je mohou použít k aktivaci bonusů pro celé království. Pokud máme zlaté pruty, budou použity ve prospěch K273.
+Maximální zlaté ingoty na město:
+- Město 1-9: 2000 ingotů
+- Město 10-19: 3000 ingotů
+- Město 20-24: 10000 ingotů
+- Město 25-29: 35000 ingotů
+- Město 30-34: 60000 ingotů
+- Město 35-39: 70000 ingotů
+- Město 40+: 90000 ingotů
+
+### 6. Členové váženého království
+
+Každý hráč musí dodržovat tato pravidla, aby byl chráněn ROE.
+
+Hráči, kteří nejsou chráněni, jsou:
+VYVRŽENCI
+HRÁČI BEZ KLANU (většina)
+NE-ROE ČLENOVÉ
+
+Chránění hráči bez klanu
+Všichni hráči s 100k síly nebo méně jsou chráněni a nemají být volně napadáni. Interakce s hráči bez klanu by měly nejprve sloužit k tomu, abyste se dozvěděli o nich a jejich cílech ve hře. Poté je povzbuzujte, aby se připojili ke klanu. Podporujte růst ve hře a hrajte za království, nikoli za osobní odměnu.
+
+### Status vyvržence
+
+Pravomoc prohlásit občana nebo klan za vyvržence, nebo zrušit stávající status vyvržence, náleží výhradně následujícím mocnostem Království:
+Král, nejvyšší strážce pořádku a spravedlnosti.
+Pravá ruka krále, jednající jako přímý zástupce královské autority.
+Královna, jako spoludržitelka královské autority.
+Vrchní soudce Tribunálu Království, z titulu své role strážce spravedlnosti.
+Žádný jiný aktér Království nemůže bez výslovného mandátu uděleného jednou z těchto autorit prohlásit občana nebo klan za vyvržence. Jakékoli prohlášení vydané neoprávněným aktérem je neplatné a bez právní moci.
+
+### Královská garda
+
+Královská garda se skládá z mnoha klanů a má členy různých úrovní hráčů. Povinnosti RG budou pokračovat v jejich běžných úkolech, jako je výběr daní a vynucování práva pro Palác. Budou také působit jako elitní armáda a jednotka královské/teritoriální hlídky a obrany. Jsou hrotem kopí království a jsou zde, aby pomohli klanům, které mají problémy s hráči a vyvrženci.
+
+### 7. Clash of Thrones CoT
+
+Během něj můžete průzkumovat a útočit na města za následujících podmínek:
+
+Žádné útoky na klanové pevnosti: Útok na pevnosti nebo budovy jiného klanu je přísně zakázán.
+
+Správa zdrojů:
+Udržujte zdroje nízké během události, abyste předešli krádežím; v případě potřeby posílejte jednotky do pevností. Procvičujte No Value City (NVC)
+
+"Férová hra":
+- Pravidla portálů CoT: Bez omezení
+- Platí pravidlo 50 %.
+- Pokud jste napadeni. Bez ohledu na jejich sílu máte právo zaútočit zpět na kohokoli. To znamená, že pokud hráč se silou 1,000,000 napadne hráče se silou 50,000,000, hráč se silou 50,000,000 má plné právo zaútočit zpět, pokud se rozhodne.
+
+### 8. Proces řešení konfliktů
+
+Když je ROE porušeno, je třeba podniknout následující kroky:
+ - Kontaktujte druhého hráče a pokuste se to vyřešit. Pokud do 24 hodin nedojde k řešení, eskalujte na svého klanového diplomata.
+ - Pokud nedojde k řešení mezi diplomaty klanů, mohou případ předložit soudu tím, že jej zveřejní v #K273/CLAIMS. Pouze vůdci klanů nebo diplomaté mohou v tomto chatu podávat nároky.
+ - Soudci rozhodnou o viníkovi (pokud nějaký je) a přijatelné výši kompenzace.
+ - Pokud viník (nebo jeho klan) odmítne kompenzovat, Archon nebo Vrchní soudce rozhodne, zda má být hráč nebo klan prohlášen za vyvržence a Královská garda bude aktivována v pohotovosti.
+
+### 9. Královské chaty, ke kterým se připojit
+
+#K273/ROE
+SPAM ZONE
+
+#K273/CLAIMS
+
+#K273/OUTLAWS
+
+~#K273/CPTHUNDERDOME
+
+~#K273/ACADEMY
+
+K273 TB Library
+
+k273tb

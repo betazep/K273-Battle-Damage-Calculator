@@ -1,159 +1,211 @@
-På order av Kung Spunky träder följande ROE i kraft omedelbart i hela Kungarike 273 och ALLA spelare måste följa reglerna, förutom:
+På order av kung Arihelm gäller följande ROE för riket:
 
-- FREDLÖSA
-- KLANSLOSA SPELARE
-- KLANS SOM INTE FÖLJER ROE
+Välkommen till K273, Total Battle Legends!
+Den här servern är hem för tusentals spelare från hela världen, och det som gör den stor är inte bara striderna utan människorna bakom dem.
+Stöd dina lagkamrater, respektera varandra, hjälp nya spelare att hitta sin plats och njut av spelet tillsammans.
 
-För att visa att din klan följer ROE måste klanbeskrivningen ange "We follow K273 ROE".
+Till våra veteraner: respekt för att ni håller linjen.
+Till våra nykomlingar: rusta er - ni är nu en del av något enormt.
+Tusentals slåss här, men bara de djärva gör avtryck.
+Stå starka, kämpa smart och låt ditt namn eka över servern. Tack för att du är här.
 
-### 1. Allmänt uttalande K273 spelaravtal
+### Allmänt K273 spelaravtal
 
-- Kungarike K273 följer IKFPA‑avtalet som upprättades under Kung Arcadias regeringstid och förväntar att varje medlem följer det, särskilt efter rikets öppning.
-- ROE gäller omedelbart och kan ändras.
-- Varje ändring har en 24‑timmars buffert så att andra kan anpassa sig i olika tidszoner.
-- Respektera alla du kommer i kontakt med.
-- Nolltolerans mot rasistiskt, hatfullt, nedsättande eller hotfullt språk.
-- Överträdelser kan rapporteras till Kungen/Drottningen eller Kungens högra hand.
-- De kan tilldelas en negativ titel och/eller fredlös status.
-- Hot tas på största allvar, liksom mobbning, då de strider mot TOTAL BATTLEs uppförandekod och rikets chat ska vara en plats där alla känner sig välkomna.
+1. Kungarike K273 följer IKFPA-avtalet som upprättades under kung Arcadias regeringstid och förväntar att varje medlem följer det, särskilt efter att riket öppnar.
+2. ROE gäller omedelbart och kan ändras.
+3. Varje ändring kommer att ha en 24-timmars buffert så att andra kan anpassa sig via olika tidszoner.
+4. Respektera alla du kommer i kontakt med.
+5. Det råder nolltolerans mot rasistiskt, hatfullt, nedsättande eller hotfullt språk.
+6. Överträdelser kan rapporteras till Kungen/Drottningen eller Kungens hand.
+7. De kan tilldelas en negativ titel och/eller fredlös status.
+8. Hot tas på största allvar, liksom mobbning, eftersom de strider mot TOTAL BATTLEs uppförandekod. Rikets chatt är en plats där alla ska känna sig välkomna.
 
 ### Inter-Kingdom Fair Play Agreement (IKFPA) regler
 
-Detta är generella överenskommelser mellan olika kungariken när K273 öppnar. De är inga hårda regler men kungariken uppmuntras att följa dem.
+Detta är allmänna överenskommelser mellan olika riken när K273 öppnar... de är inte hårda regler men riken uppmuntras att följa dem.
 
-1. Inget hatprat.
-1. Inga attacker på klanbyggnader, minnesportaler eller spelare under 100K styrka.
-1. ALLA RSS‑rutor är skyddade från attacker utom under PvP‑event. PvP‑event är: CoT, KvK, War Tools, Gold / Silver Rush, War Games, Lava Trials (inkluderar INTE specifikt Ruthless Slaughter).
-1. Fortattacker på andra kungariken ger omedelbart fredlös status enligt rikets ROE.
-1. Kompensation för överträdelser överenskommes inom <48 timmar (IKFPA upprätthålls inte av någon enskild part).
+1. Ingen hatretorik
+2. Inga attacker på klanbyggnader, minnesportaler eller spelare under 100K styrka
+3. ALLA RSS-rutor är skyddade från attacker utom under PvP-evenemang. PvP-evenemang är: CoT, KvK, War Tools, Gold / Silver Rush, War Games, Lava Trials, (inkluderar INTE Ruthless Slaughter specifikt).
+4. Fortattacker mot andra riken innebär omedelbar fredlös status enligt rikets ROE
+5. Kompensation för överträdelser överenskoms <48 timmar (IKFPA upprätthålls inte av en enskild enhet)
 
-### 2. FREDSTID
+### Rikets tjänstemän - Palatset
 
-- Attacker på ROE‑städer och portaler är förbjudna utom under CoT eller planerade CP‑utbyten.
-- Spelare under 100k är skyddade av ROE (oavsett om de följer ROE eller inte).
-- Spelare och klaner som inte följer ROE och har över 100k styrka kan attackeras när som helst.
-- Fredlösa kan attackeras när som helst, utan styrkegräns.
-- Om du blir olagligt träffad under fredstid kan du eller en klanmedlem slå tillbaka en gång som vedergällning utan styrkegräns. (ingen kompensation vid vedergällningsslag)
-- Spejning är en form av aggression och är i strid med ROE under fredstid.
+- Palatset ansvarar för att upprätthålla heder, integritet och fred inom K273 och med andra riken.
+- Kungen väljs för att representera medborgarna i K273 och leda palatset.
+- Drottningen och Kungens hand ansvarar för att samordna rikets angelägenheter och kan tala för Kungen i hans frånvaro.
+- Kungen, Drottningen och Kungens hand ansvarar för förvaltningen av skattkammaren på rikets spelares vägnar.
+- Drottningen och Kungens hand måste vara från olika klaner
 
-### 3. DIPLOMATER
+### Skyldigheter för klanledare
 
-Klaner måste identifiera minst en diplomat i sin klanbeskrivning. Diplomater måste vara en aktiv klanledare eller överordnad. Diplomater talar för sin klan till riket, hjälper till att lösa problem och bör vara din första kontaktpunkt.
+Alla klanledare måste uppfylla sina skyldigheter som ledare:
 
-### 4. SKYLDIGHET FÖR KLANLEDARE
+- Respektera ROE (Rules of Engagement).
+- Säkerställa att deras medlemmar respekterar och följer ROE.
+- Utbilda sina medlemmar för att stödja rikets tillväxt och enhet.
+- En ledare som misslyckas med dessa åtaganden ska förklaras fredlös. >=D
+- Ledare är rikets exempel och standard, och deras handlingar visar vägen som alla medlemmar ska följa.
 
-Sätt tonen och skydda klanens rykte, skapa en positiv miljö. Lär ut, mentorera och kommunicera mål och uppdateringar till medlemmar, eller delegera detta till Överordnade.
+### 1. FREDSTID
 
-### 5. CLASH FOR THE THRONE (COT)
+- Attacker på städer är förbjudna utom under CoT och planerade CP-utbyten.
+- Attacker på klanbyggnader är förbjudna.
+- Portaler får inte attackeras under fredstid. Fientliga portaler kan attackeras när som helst oavsett plats. Fientliga portaler inkluderar attacker på klanbyggnader, medlemmar och alla spelresurser (inklusive säsongsresurser från event). Att attackera portaler i klanterritorier för klanaktiviteter är inte tillåtet om de inte är fientliga. Riket är öppet, var försiktig med att lämna dina portaler öppna hela tiden.
+- Spejning är en form av aggression och är olaglig under fredstid.
+- Om du blir attackerad. Oavsett deras styrka har du rätt att attackera vem som helst tillbaka när som helst. Det betyder att om en spelare med 1,000,000 styrka attackerar en spelare med 50,000,000 styrka, har spelaren med 50,000,000 styrka full rätt att slå tillbaka om de vill.
 
-Under CoT kan du speja och attackera städer under följande villkor:
+### 2. KLANER OCH DIPLOMATER
 
-#### STÄDER
+- Klaner ska ange "We abide by K273 ROE" för att bli betjänade av riket och skyddade av ROE.
+- Klaner måste identifiera minst en diplomat högst upp i klanbeskrivningen som kan hjälpa till med konfliktlösning. Diplomater måste vara en aktiv ledare eller superior.
 
-Du får inte attackera eller speja en spelares stad som har mindre än HÄLFTEN av din styrka/might om du inte är i topp 50 i CoT‑rankningen. Om du är i topp 50 finns ingen styrkegräns och ni kan attackera varandra fritt.
+### 3. Allmänna regler
 
-#### KLANMARSCHER
+- Alla resursbyggnader inom klanens territorium tillhör den klanen. Detta inkluderar säsongsresurser från event.
+- Resurser skapade av spelare tillhör individen som skapade dem om inte delning avtalas mellan två parter.
+- Sällsynta kryptor tillhör individen som låste upp dem.
+- WS och DMs:
+  a. Det finns inget registreringssystem.
 
-Du får inte använda förstärkningar för att attackera städer. Du kan använda förstärkningar för att attackera fientliga portaler. Stridsrapport krävs som bevis på attack.
+  b. Alla vilda resursbyggnader (inklusive DM/WS) är first come, first serve (FCFS).
 
-#### PORTALER
-
-Eventportaler får inte träffas vid något tillfälle ens under CoT. Alla andra vilda portaler och portaler inom klangränsen kan attackeras utan styrkegräns.
-
-#### KLANFORT
-
-Det är förbjudet att attackera klanfort/byggnader. Att göra det medför straff och kan resultera i fredlös status.
-
-### 6. MONSTER & KRYPTOR
-
-- Alla monster, arenor, citadeller och kryptor är först till kvarn oavsett plats, utom Sällsynta kryptor som kräver nyckel för att öppnas. Om du inte låste upp den, ta den inte.
-- GRUVOR/RESURSER (RSS) - Spelarskapade resurser tillhör personen som skapade rutan med arkitekt‑ritningar. Ägaren av gruvan, en medlem av deras klan eller RG har rätt att attackera och återta utan varning.
-
-- Alla vilda resurser och spelgenererade resurser är först till kvarn.
-- Ingen brytning i andra klaners territorium annars blir du borttagen.
-
-#### WS och DM
-
-- Inget registreringssystem, först till kvarn.
-- Anspråk kan inte göras om du blir spejad/attackerad i vilda resurser om inte:
+  c. Anspråk kan inte göras om du blir spejad/attackerad i vilda resurser om inte:
 
   - Du förlorar resursen.
-  - Du blir spejad/attackerad och sedan attackerad igen. (2x‑regel)
+  - Du blir spejad/attackerad och sedan attackerad igen. (2x regel)
 
-- Det är ditt ansvar att meddela din diplomat, den andra spelaren och motståndarens diplomat/klanledare om någon spejar eller attackerar dig i en gruva.
+  d. Det är ditt ansvar att kontakta din diplomat, den andra spelaren och motståndarklanens diplomat/klanledare om någon spejar eller attackerar dig i en gruva.
 
-### 7. KOMPENSATIONSGUIDE
+### 4. PALATSETS KOMPENSATIONSGUIDE
 
-Se k273tb.xyz för kompensationskalkylator. Varje olaglig attack eller spejning har en grundkostnad på 1 miljon silver. Eventuella ytterligare förluster, skador eller stulna resurser läggs till denna grundkostnad.
+Se k273tb . xyz för kompensationskalkylatorn
 
-- RSS: belopp lika med det stulna beloppet
-- Guld: 1 Guld = 3 000 Silver eller guldgruvor lika med det stulna + 10% (enligt offrets beslut)
-- Tar: 1 Tar = 1 000 Silver
-- Guldtackor = ingen kompensation
-- Olagligt stängd portal: 1M silver (+1M för själva den olagliga attacken)
-- Skada beräknas enligt följande formel: Skada av förlorade trupper beräknas enligt följande formel:
+Varje olaglig attack eller spejning medför en basavgift på 1 miljon silver. Eventuella ytterligare förluster, skador eller stulna resurser läggs till denna basavgift.
 
-  - Hjälte = 1.5k
-  - Kapten = 1k
-  - Spjutmän, Bågskyttar = Truppnivå x 40
-  - Specialister, Ryttare = Truppnivå x 80
-  - Spioner = Truppnivå x 100
-  - Griffiner = Truppnivå x 800
-  - Katapulter, Murar Murnivå x 200
-  - Monster III-VII (Monsternivå 2) x 1.3k
-  - Monster I & II = x 8.64k
-  - Legosoldatvakt Truppnivå x 120
-  - Legosoldatmonster = Monsternivå x 3k
+RSS: mängd lika med den stulna mängden
 
-#### FORT
+Guld: 1 Guld = 3,000 Silver eller guldgruvor lika med det stulna + 10% (enligt offrets beslut)
 
-- Spejning = 5 miljoner silver
-- Attack utan att förstöra = 10 miljoner silver
-- Attack och förstörelse = 50 miljoner av varje: Silver, Järn, Trä, Sten
+Tar: 1 Tar = 1,000 Silver
 
-### 8. FREDLÖSA
+Guldtackor = ingen kompensation
 
-Om individer eller klaner inte är villiga att följa ROE, attackerar klanbyggnader eller vägrar betala kompensation för ROE‑brott, kommer de att få fredlös status. Nuvarande fredlösa finns i chatten: K273#OUTLAWS.
+Olagligt stängt portal: 1M silver (+1M för själva den olagliga attacken)
 
-### 9. ROLLER INOM PALATSET
+Skada beräknas enligt följande formel: Skada på förlorade trupper beräknas enligt följande formel:
 
-- Kungen ansvarar för att styra riket, men hela palatssystemet är en gemensam insats.
-- Kungen, Drottningen och Kungens högra hand har tillgång till rikets skattkammare för att aktivera riksbonusar.
-- CENTURION - Chef för den Kungliga Gardet.
-- ARCHON - Chef för Domstolen/Högsta domare.
-- CHANCELLOR - Chef för klanernas råd.
-- TREASURER - Hantering av skatteinsamlings.
-- QUESTOR - Hanterar kommunikation och gruvor.
-- LEGATE - Chef för diplomati.
-- TRIBUNE - Representerar en röst för alla spelare och klaner.
+Hjälte= 1.5k
 
-### 10. ÖVERTRÄDELSER
+Kapten= 1k
 
-Alla kontroversiella frågor bör först försöka lösas mellan spelarna själva. Om de inte kan lösa, är nästa steg att involvera klandiplomaten. Om diplomaterna inte kan hitta en gemensam lösning, vänder de sig till domstolarna. Domstolarnas och domarnas beslut är inte förhandlingsbara.
+Spjutmän, Bågskyttar = Truppnivå x 40
 
-K273#CLAIMS.
+Specialister, Ryttare = Truppnivå x 80
 
-### 11. SKATTER
+Spioner= Truppnivå x 100
 
-Från och med nu, ingen förvarning före ingot‑insamlingsraid. Om ingots är för höga kommer RG att speja och sedan samla in.
+Griffar= Truppnivå x 800
 
-- Varje klan bör utse en officer som Skatteansvarig inom sin klan för att dagligen kontrollera allas ingots och påminna dem som har för många.
-- RG har mycket att göra före öppningen, så jag hoppas att inga fler insamlingsraider behövs.
+Katapulter, Murar Murnivå x 200
 
-Maximala guldingots per stad
+Monster III-VII (Monsternivå - 2) x1.3k
 
-- Stad 1-9 2000 ingots
-- Stad 10-19 3000 ingots
-- Stad 20-24 10000 ingots
-- Stad 25-29 35000 ingots
-- Stad 30-34 60000 ingots
-- Stad 35-39 70000 ingots
-- Stad 40+ 90000 ingots
+Monster I & ll=x 8.64k
 
-### VIKTIGA CHATS ATT GÅ MED I
+Legosoldatvakt Truppnivå x120
 
-- K273#ROE
-- K273#OUTLAWS
-- K273#CLAIMS
-- K273 TB Library
-- k273tb
+Legosoldatsmonster = Monsternivå x 3k
+
+### FORT
+
+Spejning = 5 miljoner silver
+
+Attack utan förstörelse = 10 miljoner silver
+
+Attack och förstörelse = 20 miljoner av varje: Silver, Järn, Trä, Sten
+
+### HUVUDSTÄDER
+
+Spejning = 5 miljoner silver
+
+Attack utan förstörelse = 10 miljoner silver
+
+Attack och förstörelse = 50 miljoner av varje: Silver, Järn, Trä, Sten
+
+### 5. SKATTER
+
+Städer med mer än 3 dagar av ackumulerade ingots kan attackeras av en medlem av den Kungliga gardet utan förvarning. Du kan först bli spejad och sedan samlas skatter in. Skicka skatter varje dag när du loggar in och ut som en god praxis. Guldingots har inget personligt värde för dig, men Kungen och Palatset kan använda dem för att aktivera bonusar för hela riket. Om vi har guldtackor kommer de att användas till fördel för K273.
+Maximala guldingots per stad:
+- Stad 1-9: 2000 Ingots
+- Stad 10-19: 3000 Ingots
+- Stad 20-24: 10000 Ingots
+- Stad 25-29: 35000 Ingots
+- Stad 30-34: 60000 Ingots
+- Stad 35-39: 70000 Ingots
+- Stad 40+: 90000 Ingots
+
+### 6. Medlemmar av det ansedda riket
+
+Varje spelare måste följa dessa regler för att vara skyddad av ROE.
+
+Spelare som inte skyddas är:
+FREDLÖSA
+KLANSLOSA SPELARE (de flesta)
+ICKE-ROE MEDLEMMAR
+
+Skyddade klanlösa spelare
+Alla spelare med 100k styrka eller mindre är skyddade och ska inte fritt attackeras. Interaktioner med klanlösa spelare bör först vara att lära känna dem och deras mål i spelet. Därefter uppmuntra dem att gå med i en klan. Främja tillväxt i spelet och spela för riket istället för personlig belöning.
+
+### Fredlös status
+
+Befogenheten att förklara en medborgare eller en klan fredlös, eller att återkalla en befintlig fredlös status, tillhör uteslutande följande makter i riket:
+Kungen, högsta väktare av ordning och rättvisa.
+Kungens hand, som agerar som direkt representant för kunglig auktoritet.
+Drottningen, som medinnehavare av kunglig auktoritet.
+Chefsdomaren för rikets tribunal, i kraft av sin roll som rättvisans väktare.
+Ingen annan aktör i riket får, utan ett uttryckligt mandat från en av dessa myndigheter, förklara en medborgare eller en klan fredlös. Varje deklaration utfärdad av en obehörig aktör är ogiltig och utan verkan.
+
+### Kungliga gardet
+
+Kungliga gardet består av många klaner och har medlemmar på olika nivåer. RG:s uppgifter kommer att fortsätta deras normala uppgifter som skatteinsamling och verkställighet för Palatset. De kommer också att fungera som en elitarmé och en enhet för rikets/territoriell patrull och försvar. De är spjutspetsen för riket och är här för att hjälpa klaner som har problem med spelare och fredlösa.
+
+### 7. Clash of Thrones CoT
+
+Under kan du speja och attackera städer under följande villkor:
+
+Inga klanfortattacker: Att attackera en annan klans fort eller byggnader är strängt förbjudet.
+
+Resurshantering:
+Håll resurserna låga under eventet för att undvika stöld; skicka trupper till forten vid behov. Öva No Value City (NVC)
+
+"Fair Play":
+- CoT portalregler: Inga begränsningar
+- 50%-regeln gäller.
+- Om du blir attackerad. Oavsett deras styrka har du rätt att attackera vem som helst tillbaka. Det betyder att om en spelare med 1,000,000 styrka attackerar en spelare med 50,000,000 styrka, har spelaren med 50,000,000 styrka full rätt att slå tillbaka om de vill.
+
+### 8. Konfliktlösningsprocess
+
+När ROE bryts ska följande steg tas:
+ - Kontakta den andra spelaren för att försöka lösa. Om ingen lösning inom 24 timmar, eskalera till din klan-diplomat.
+ - Om ingen lösning nås mellan klan-diplomater kan de ta ärendet till domstolen genom att posta det i #K273/CLAIMS. Endast klanledare eller diplomater får posta krav i denna chat.
+ - Domarna avgör den skyldiga parten (om någon) och ett acceptabelt kompensationsbelopp.
+ - Om den skyldiga parten (eller deras klan) vägrar att kompensera, kommer Archon eller Chefsdomaren att avgöra om spelaren eller klanen ska förklaras fredlös och Kungliga gardet aktiveras i beredskap.
+
+### 9. Rikets chattar att gå med i
+
+#K273/ROE
+SPAM ZONE
+
+#K273/CLAIMS
+
+#K273/OUTLAWS
+
+~#K273/CPTHUNDERDOME
+
+~#K273/ACADEMY
+
+K273 TB Library
+
+k273tb
