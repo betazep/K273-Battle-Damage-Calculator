@@ -196,6 +196,7 @@ Wenn die ROE verletzt wird, sollten folgende Schritte unternommen werden:
 ### 9. Königreichs-Chats, denen man beitreten sollte
 
 #K273/ROE
+
 SPAM ZONE
 
 #K273/CLAIMS

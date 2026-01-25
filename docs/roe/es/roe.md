@@ -196,6 +196,7 @@ Cuando se viola el ROE, se deben seguir los siguientes pasos:
 ### 9. Chats del reino para unirse
 
 #K273/ROE
+
 SPAM ZONE
 
 #K273/CLAIMS

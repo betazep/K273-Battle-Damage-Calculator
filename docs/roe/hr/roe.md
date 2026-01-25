@@ -196,6 +196,7 @@ Kada je ROE prekršen, treba poduzeti sljedeće korake:
 ### 9. Kraljevski chatovi kojima se treba pridružiti
 
 #K273/ROE
+
 SPAM ZONE
 
 #K273/CLAIMS

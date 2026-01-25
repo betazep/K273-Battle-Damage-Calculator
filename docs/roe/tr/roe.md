@@ -196,6 +196,7 @@ ROE ihlal edildiğinde, aşağıdaki adımlar izlenmelidir:
 ### 9. Katılınacak Krallık Sohbetleri
 
 #K273/ROE
+
 SPAM ZONE
 
 #K273/CLAIMS

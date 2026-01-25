@@ -196,6 +196,7 @@ Kun ROE rikotaan, seuraavat vaiheet tulee tehdä:
 ### 9. Kuningaskunnan chatit, joihin liittyä
 
 #K273/ROE
+
 SPAM ZONE
 
 #K273/CLAIMS

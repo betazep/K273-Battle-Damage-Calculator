@@ -196,6 +196,7 @@ Když je ROE porušeno, je třeba podniknout následující kroky:
 ### 9. Královské chaty, ke kterým se připojit
 
 #K273/ROE
+
 SPAM ZONE
 
 #K273/CLAIMS

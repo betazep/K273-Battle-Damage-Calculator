@@ -196,6 +196,7 @@ Gdy ROE zostanie naruszone, należy podjąć następujące kroki:
 ### 9. Czaty królestwa do dołączenia
 
 #K273/ROE
+
 SPAM ZONE
 
 #K273/CLAIMS
