@@ -717,7 +717,11 @@
             resources.food || "0",
             resources.lumber || "0",
             resources.stone || "0",
-            resources.iron || "0"
+            resources.iron || "0",
+            resourcesWithTax.food || "0",
+            resourcesWithTax.lumber || "0",
+            resourcesWithTax.stone || "0",
+            resourcesWithTax.iron || "0"
         );
 
         const summaryField = document.getElementById("summary-text");
@@ -759,27 +763,18 @@
             formatValueLine(formatInteger(totalLoss), getLabel("calc.output.totalSilverLoss"), tabMetrics),
             bar,
             getLabel("calc.output.resourceLoss"),
-            formatValueLine(formatInteger(totalWithTax), getLabel("calc.output.totalWithTax"), tabMetrics),
-            formatValueLine(
-                resourcesWithTax.food || "0",
-                `${getLabel("calc.output.food")} ${getLabel("calc.output.withTaxSuffix")}`,
-                tabMetrics
-            ),
-            formatValueLine(
-                resourcesWithTax.lumber || "0",
-                `${getLabel("calc.output.lumber")} ${getLabel("calc.output.withTaxSuffix")}`,
-                tabMetrics
-            ),
-            formatValueLine(
-                resourcesWithTax.stone || "0",
-                `${getLabel("calc.output.stone")} ${getLabel("calc.output.withTaxSuffix")}`,
-                tabMetrics
-            ),
-            formatValueLine(
-                resourcesWithTax.iron || "0",
-                `${getLabel("calc.output.iron")} ${getLabel("calc.output.withTaxSuffix")}`,
-                tabMetrics
-            ),
+            formatValueLine(formatInteger(totalLoss), getLabel("calc.output.silver"), tabMetrics),
+            formatValueLine(resources.food || "0", getLabel("calc.output.food"), tabMetrics),
+            formatValueLine(resources.lumber || "0", getLabel("calc.output.lumber"), tabMetrics),
+            formatValueLine(resources.stone || "0", getLabel("calc.output.stone"), tabMetrics),
+            formatValueLine(resources.iron || "0", getLabel("calc.output.iron"), tabMetrics),
+            bar,
+            getLabel("calc.output.withCaravanTax"),
+            formatValueLine(formatInteger(totalWithTax), getLabel("calc.output.silver"), tabMetrics),
+            formatValueLine(resourcesWithTax.food || "0", getLabel("calc.output.food"), tabMetrics),
+            formatValueLine(resourcesWithTax.lumber || "0", getLabel("calc.output.lumber"), tabMetrics),
+            formatValueLine(resourcesWithTax.stone || "0", getLabel("calc.output.stone"), tabMetrics),
+            formatValueLine(resourcesWithTax.iron || "0", getLabel("calc.output.iron"), tabMetrics),
             bar,
             getLabel("calc.output.taxNote")
         );
