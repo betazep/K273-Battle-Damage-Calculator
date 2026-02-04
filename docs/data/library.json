@@ -85,6 +85,13 @@
       "file": "book42.md"
     },
     {
+      "id": "book44",
+      "categoryId": "events",
+      "title": "OPEN KINGDOM TOURNAMENTS: DARK OMENS",
+      "authorId": "damocles",
+      "file": "book44.md"
+    },
+    {
       "id": "book41",
       "categoryId": "pvp",
       "title": "IKFPA AGREEMENT",
@@ -293,6 +300,13 @@
       "title": "VIEW AND ACTIVATE BONUSES",
       "authorId": "heisenberg",
       "file": "book11.md"
+    },
+    {
+      "id": "book43",
+      "categoryId": "misc",
+      "title": "MEMORIAL PORTALS",
+      "authorId": "badder",
+      "file": "book43.md"
     }
   ]
 }

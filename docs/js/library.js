@@ -9,6 +9,9 @@ const authors = {
     badder: {
         label: "[LTZ] Badder"
     },
+    damocles: {
+        label: "[LTZ] Damocles"
+    },
     lord_fuzzy: {
         label: "[DQD] LORD FUZZY"
     },
