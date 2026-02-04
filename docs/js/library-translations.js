@@ -135,6 +135,12 @@
             },
             "book42": {
                 "title": "KAUPPAREITIT (PALKKA-ARMEIJAN VAIHDOT)"
+            },
+            "book43": {
+                "title": "MUISTOPORTAALIT"
+            },
+            "book44": {
+                "title": "AVOIMEN KUNINGASKUNNAN TURNAUKSET: DARK OMENS"
             }
         }
     },
@@ -273,6 +279,12 @@
             },
             "book42": {
                 "title": "HANDELSRUTER (LEIESOLDATUTVEKSLINGER)"
+            },
+            "book43": {
+                "title": "MINNEPORTALER"
+            },
+            "book44": {
+                "title": "TURNERINGER I ÅPENT KONGERIKKE: DARK OMENS"
             }
         }
     },
@@ -411,6 +423,12 @@
             },
             "book42": {
                 "title": "HANDELSRUTEN (SÖLDNERAUSTAUSCH)"
+            },
+            "book43": {
+                "title": "GEDENKPORTALE"
+            },
+            "book44": {
+                "title": "TURNIERE DES OFFENEN KÖNIGREICHS: DARK OMENS"
             }
         }
     },
@@ -549,6 +567,12 @@
             },
             "book42": {
                 "title": "RUTAS COMERCIALES (INTERCAMBIOS DE MERCENARIOS)"
+            },
+            "book43": {
+                "title": "PORTALES CONMEMORATIVOS"
+            },
+            "book44": {
+                "title": "TORNEOS DE REINO ABIERTO: DARK OMENS"
             }
         }
     },
@@ -687,6 +711,12 @@
             },
             "book42": {
                 "title": "ROUTES COMMERCIALES (ÉCHANGES DE MERCENAIRES)"
+            },
+            "book43": {
+                "title": "PORTAILS MÉMORIAUX"
+            },
+            "book44": {
+                "title": "TOURNOIS DU ROYAUME OUVERT : DARK OMENS"
             }
         }
     },
@@ -825,6 +855,12 @@
             },
             "book42": {
                 "title": "ROTTE COMMERCIALI (SCAMBI DI MERCENARI)"
+            },
+            "book43": {
+                "title": "PORTALI COMMEMORATIVI"
+            },
+            "book44": {
+                "title": "TORNEI DEL REGNO APERTO: DARK OMENS"
             }
         }
     },
@@ -963,6 +999,12 @@
             },
             "book42": {
                 "title": "ROTAS COMERCIAIS (TROCAS DE MERCENÁRIOS)"
+            },
+            "book43": {
+                "title": "PORTAIS MEMORIAIS"
+            },
+            "book44": {
+                "title": "TORNEIOS DO REINO ABERTO: DARK OMENS"
             }
         }
     },
@@ -1101,6 +1143,12 @@
             },
             "book42": {
                 "title": "SZLAKI HANDLOWE (WYMIANY NAJEMNIKÓW)"
+            },
+            "book43": {
+                "title": "PORTALE PAMIĘCI"
+            },
+            "book44": {
+                "title": "TURNIEJE OTWARTEGO KRÓLESTWA: DARK OMENS"
             }
         }
     },
@@ -1239,6 +1287,12 @@
             },
             "book42": {
                 "title": "ТОРГОВЫЕ ПУТИ (ОБМЕНЫ НАЁМНИКОВ)"
+            },
+            "book43": {
+                "title": "МЕМОРИАЛЬНЫЕ ПОРТАЛЫ"
+            },
+            "book44": {
+                "title": "ТУРНИРЫ ОТКРЫТОГО КОРОЛЕВСТВА: DARK OMENS"
             }
         }
     },
@@ -1377,6 +1431,12 @@
             },
             "book42": {
                 "title": "HANDELSRUTTER (LEGOSOLDATUTBYTEN)"
+            },
+            "book43": {
+                "title": "MINNESPORTALER"
+            },
+            "book44": {
+                "title": "TURNERINGAR I ÖPPET KUNGARIK: DARK OMENS"
             }
         }
     },
@@ -1515,6 +1575,12 @@
             },
             "book42": {
                 "title": "ТЪРГОВСКИ МАРШРУТИ (ОБМЕНИ НА НАЕМНИЦИ)"
+            },
+            "book43": {
+                "title": "МЕМОРИАЛНИ ПОРТАЛИ"
+            },
+            "book44": {
+                "title": "ТУРНИРИ НА ОТВОРЕНОТО КРАЛСТВО: DARK OMENS"
             }
         }
     },
@@ -1653,6 +1719,12 @@
             },
             "book42": {
                 "title": "TİCARET YOLLARI (PARALI ASKER TAKASLARI)"
+            },
+            "book43": {
+                "title": "ANMA PORTALLARI"
+            },
+            "book44": {
+                "title": "AÇIK KRALLIK TURNVALARI: DARK OMENS"
             }
         }
     },
@@ -1791,6 +1863,12 @@
             },
             "book42": {
                 "title": "TRGOVAČKE RUTE (RAZMJENE PLAĆENIKA)"
+            },
+            "book43": {
+                "title": "MEMORIJALNI PORTALI"
+            },
+            "book44": {
+                "title": "TURNIRI OTVORENOG KRALJEVSTVA: DARK OMENS"
             }
         }
     },
@@ -1929,6 +2007,12 @@
             },
             "book42": {
                 "title": "OBCHODNÍ TRASY (VÝMĚNY ŽOLDNÉŘŮ)"
+            },
+            "book43": {
+                "title": "PAMĚTNÍ PORTÁLY"
+            },
+            "book44": {
+                "title": "TURNÁJE OTEVŘENÉHO KRÁLOVSTVÍ: DARK OMENS"
             }
         }
     }
