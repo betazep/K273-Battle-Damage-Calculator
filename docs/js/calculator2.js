@@ -180,6 +180,57 @@
         return acc;
     }, {});
 
+    const applyCustomRetrainCosts = (id, levels) => {
+        if (!defaultRetrainCosts[id]) return;
+        Object.entries(levels).forEach(([lvl, value]) => {
+            defaultRetrainCosts[id][lvl] = value;
+        });
+    };
+
+    applyCustomRetrainCosts("spearmen", {
+        "1": 300,
+        "2": 500,
+        "3": 700,
+        "4": 900,
+        "5": 1100,
+        "6": 1300,
+        "7": 1500,
+        "8": 1700,
+        "9": 1900
+    });
+
+    applyCustomRetrainCosts("archers", {
+        "1": 300,
+        "2": 500,
+        "3": 700,
+        "4": 900,
+        "5": 1100,
+        "6": 1300,
+        "7": 1500,
+        "8": 1700,
+        "9": 1900
+    });
+
+    applyCustomRetrainCosts("riders", {
+        "1": 600,
+        "2": 1000,
+        "3": 1400,
+        "4": 1800,
+        "5": 2200,
+        "6": 2600,
+        "7": 3000,
+        "8": 3400,
+        "9": 3800
+    });
+
+    applyCustomRetrainCosts("griffins", {
+        "5": 22000,
+        "6": 26000,
+        "7": 30000,
+        "8": 34000,
+        "9": 38000
+    });
+
     if (defaultRetrainCosts.griffins) {
         ["1", "2", "3", "4"].forEach((lvl) => {
             defaultRetrainCosts.griffins[lvl] = 0;
@@ -621,7 +672,7 @@
                 input.dataset.noPlus = "true";
                 if (!allowedLevels.has(lvl)) {
                     input.disabled = true;
-                    input.value = "0";
+                    input.value = "";
                     input.placeholder = "N/A";
                 }
                 input.setAttribute("aria-label", `${getLabel(labelKey)} ${formatLevelLabel(lvl)} revive cost`);
@@ -672,11 +723,11 @@
                 const numericLvl = Number(lvl);
                 if (!allowedLevels.has(lvl)) {
                     input.disabled = true;
-                    input.value = "0";
+                    input.value = "";
                     input.placeholder = "N/A";
                 } else if (id === "griffins" && Number.isFinite(numericLvl) && numericLvl < 5) {
                     input.disabled = true;
-                    input.value = "0";
+                    input.value = "";
                     input.placeholder = "N/A";
                 }
                 input.setAttribute("aria-label", `${getLabel(labelKey)} ${formatLevelLabel(lvl)} train cost`);
@@ -1315,7 +1366,13 @@
             retrainColumns.forEach((lvl) => {
                 const input = retrainCostInputs.get(`${id}-lvl${lvl}`);
                 if (input) {
-                    input.value = defaultRetrainCosts[id]?.[lvl] ?? 0;
+                    const defaultValue = defaultRetrainCosts[id]?.[lvl] ?? 0;
+                    if (input.disabled) {
+                        input.value = "";
+                        input.placeholder = "N/A";
+                    } else {
+                        input.value = defaultValue;
+                    }
                 }
             });
         });
