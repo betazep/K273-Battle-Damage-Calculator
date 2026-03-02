@@ -1,0 +1,1349 @@
+(() => {
+    const defaultBaseCosts = {
+        scoutingEvents: 1000000,
+        attackEvents: 1000000,
+        portal: 1000000,
+        hero: 1500,
+        captain: 1000,
+        spearmen: 40,
+        archers: 40,
+        riders: 80,
+        specialists: 80,
+        spies: 100,
+        griffins: 800,
+        specialistRanged: 80,
+        specialistMounted: 80,
+        specialistFlying: 80,
+        catapults: 200,
+        mercGuard: 80,
+        werregal: 1600,
+        greenDragon: 5600,
+        gold: 3000,
+        tar: 1000,
+        fortScout: 5000000,
+        fortAttack: 10000000,
+        fortDestroy: 20000000,
+        capScout: 5000000,
+        capAttack: 10000000,
+        capDestroy: 50000000
+    };
+
+    const metadataBaseOrder = [
+        { id: "scoutingEvents", labelKey: "calc.base.scoutingEvents" },
+        { id: "attackEvents", labelKey: "calc.base.attackEvents" },
+        { id: "portal", labelKey: "calc.base.portal" },
+        { id: "hero", labelKey: "calc.base.hero" },
+        { id: "captain", labelKey: "calc.base.captain" },
+        { id: "gold", labelKey: "calc.base.gold" },
+        { id: "tar", labelKey: "calc.base.tar" },
+        { id: "fortScout", labelKey: "calc.base.fortScout" },
+        { id: "fortAttack", labelKey: "calc.base.fortAttack" },
+        { id: "fortDestroy", labelKey: "calc.base.fortDestroy" },
+        { id: "capScout", labelKey: "calc.base.capScout" },
+        { id: "capAttack", labelKey: "calc.base.capAttack" },
+        { id: "capDestroy", labelKey: "calc.base.capDestroy" }
+    ];
+
+    const reviveBaseOrder = [
+        { id: "spearmen", labelKey: "calc.base.spearmen" },
+        { id: "archers", labelKey: "calc.base.archers" },
+        { id: "riders", labelKey: "calc.base.riders" },
+        { id: "griffins", labelKey: "calc.base.griffins" },
+        { id: "specialists", labelKey: "calc.base.specialists" },
+        { id: "spies", labelKey: "calc.base.spies" },
+        { id: "specialistRanged", labelKey: "calc.base.specialistRanged" },
+        { id: "specialistMounted", labelKey: "calc.base.specialistMounted" },
+        { id: "specialistFlying", labelKey: "calc.base.specialistFlying" },
+        { id: "catapults", labelKey: "calc.base.catapults" },
+        { id: "mercGuard", labelKey: "calc.base.mercGuard" },
+        { id: "werregal", labelKey: "calc.base.werregal" },
+        { id: "greenDragon", labelKey: "calc.base.greenDragon" }
+    ];
+
+    const baseCostOrder = [...metadataBaseOrder, ...reviveBaseOrder];
+
+    const retrainCategories = [
+        { id: "spearmen", labelKey: "calc.base.spearmen" },
+        { id: "archers", labelKey: "calc.base.archers" },
+        { id: "riders", labelKey: "calc.base.riders" },
+        { id: "griffins", labelKey: "calc.base.griffins" },
+        { id: "specialists", labelKey: "calc.base.specialists" },
+        { id: "spies", labelKey: "calc.base.spies" },
+        { id: "specialistRanged", labelKey: "calc.base.specialistRanged" },
+        { id: "specialistMounted", labelKey: "calc.base.specialistMounted" },
+        { id: "specialistFlying", labelKey: "calc.base.specialistFlying" },
+        { id: "catapults", labelKey: "calc.base.catapults" },
+        { id: "dragons", labelKey: "calc.base.dragons" },
+        { id: "elementals", labelKey: "calc.base.elementals" },
+        { id: "giants", labelKey: "calc.base.giants" },
+        { id: "beasts", labelKey: "calc.base.beasts" },
+        { id: "mercGuard", labelKey: "calc.base.mercGuard" },
+        { id: "werregal", labelKey: "calc.base.werregal" },
+        { id: "greenDragon", labelKey: "calc.base.greenDragon" }
+    ];
+
+    const standardLevels = ["1", "2", "3", "4", "5", "6", "7"];
+    const extendedLevels = [...standardLevels, "8", "9"];
+    const retrainColumns = [...standardLevels, "8", "9"];
+    const advancedLevels = ["3", "4", "5", "6", "7", "8", "9"];
+    const specialistAdvancedLevels = ["5", "6", "7", "8", "9"];
+    const flyingGuardLevels = ["5", "6", "7", "8", "9"];
+
+    const getLevelsForCategory = (id) => {
+        if (id === "spearmen" || id === "archers" || id === "riders") return extendedLevels;
+        if (id === "griffins") return flyingGuardLevels;
+        if (id === "specialists" || id === "spies") return extendedLevels;
+        if (id === "specialistRanged" || id === "specialistMounted" || id === "specialistFlying") {
+            return specialistAdvancedLevels;
+        }
+        if (id === "catapults") return extendedLevels;
+        if (id === "dragons" || id === "elementals" || id === "giants" || id === "beasts") {
+            return advancedLevels;
+        }
+        if (id === "mercGuard" || id === "werregal" || id === "greenDragon") return extendedLevels;
+        return standardLevels;
+    };
+
+    const retrainLevelMultipliers = {
+        "1": 1,
+        "2": 2,
+        "3": 3,
+        "4": 4,
+        "5": 5,
+        "6": 6,
+        "7": 7,
+        "8": 8,
+        "9": 9
+    };
+
+    const makeDefaultRetrain = (base, levels) => {
+        const costs = {};
+        levels.forEach((lvl) => {
+            const mult = retrainLevelMultipliers[lvl] ?? 1;
+            costs[lvl] = base * mult;
+        });
+        return costs;
+    };
+
+    const defaultRetrainCosts = retrainCategories.reduce((acc, { id }) => {
+        acc[id] = makeDefaultRetrain(100, getLevelsForCategory(id));
+        return acc;
+    }, {});
+
+    if (defaultRetrainCosts.griffins) {
+        ["1", "2", "3", "4"].forEach((lvl) => {
+            defaultRetrainCosts.griffins[lvl] = 0;
+        });
+    }
+
+    const reviveLevelCategories = [
+        { id: "dragons", labelKey: "calc.base.dragons" },
+        { id: "elementals", labelKey: "calc.base.elementals" },
+        { id: "giants", labelKey: "calc.base.giants" },
+        { id: "beasts", labelKey: "calc.base.beasts" }
+    ];
+
+    const defaultReviveLevelCosts = reviveLevelCategories.reduce((acc, { id }) => {
+        acc[id] = makeDefaultRetrain(200, getLevelsForCategory(id));
+        return acc;
+    }, {});
+
+    const clanBaseOrder = [
+        { id: "fortScout", labelKey: "calc.base.fortScout" },
+        { id: "fortAttack", labelKey: "calc.base.fortAttack" },
+        { id: "fortDestroy", labelKey: "calc.base.fortDestroy" },
+        { id: "capScout", labelKey: "calc.base.capScout" },
+        { id: "capAttack", labelKey: "calc.base.capAttack" },
+        { id: "capDestroy", labelKey: "calc.base.capDestroy" }
+    ];
+
+    const clanCategories = [
+        { id: "fortScout", labelKey: "calc.output.fortScout" },
+        { id: "fortAttack", labelKey: "calc.output.fortAttackHit" },
+        { id: "fortDestroy", labelKey: "calc.output.fortAttackDestroy" },
+        { id: "capScout", labelKey: "calc.output.capScout" },
+        { id: "capAttack", labelKey: "calc.output.capAttackHit" },
+        { id: "capDestroy", labelKey: "calc.output.capAttackDestroy" }
+    ];
+
+    const flatCategories = [
+        { id: "scoutingEvents", labelKey: "calc.base.scoutingEvents" },
+        { id: "attackEvents", labelKey: "calc.base.attackEvents" },
+        { id: "portal", labelKey: "calc.base.portal" },
+        { id: "hero", labelKey: "calc.base.hero" },
+        { id: "captain", labelKey: "calc.base.captain" },
+        { id: "gold", labelKey: "calc.base.gold" },
+        { id: "tar", labelKey: "calc.base.tar" }
+    ];
+
+    const tierSections = [
+        {
+            id: "guardsmen",
+            containerId: "tier-guardsmen",
+            categories: [
+                { id: "spearmen", labelKey: "calc.base.spearmen", reviveMode: "base" },
+                { id: "archers", labelKey: "calc.base.archers", reviveMode: "base" },
+                { id: "riders", labelKey: "calc.base.riders", reviveMode: "base" },
+                { id: "griffins", labelKey: "calc.base.griffins", reviveMode: "base" }
+            ]
+        },
+        {
+            id: "specialists",
+            containerId: "tier-specialists",
+            categories: [
+                { id: "specialists", labelKey: "calc.base.specialists", reviveMode: "base" },
+                { id: "spies", labelKey: "calc.base.spies", reviveMode: "base" },
+                { id: "specialistRanged", labelKey: "calc.base.specialistRanged", reviveMode: "base" },
+                { id: "specialistMounted", labelKey: "calc.base.specialistMounted", reviveMode: "base" },
+                { id: "specialistFlying", labelKey: "calc.base.specialistFlying", reviveMode: "base" }
+            ]
+        },
+        {
+            id: "engineer",
+            containerId: "tier-engineer",
+            categories: [{ id: "catapults", labelKey: "calc.base.catapults", reviveMode: "base" }]
+        },
+        {
+            id: "monsters",
+            containerId: "tier-monsters",
+            categories: [
+                { id: "dragons", labelKey: "calc.base.dragons", reviveMode: "level" },
+                { id: "elementals", labelKey: "calc.base.elementals", reviveMode: "level" },
+                { id: "giants", labelKey: "calc.base.giants", reviveMode: "level" },
+                { id: "beasts", labelKey: "calc.base.beasts", reviveMode: "level" }
+            ]
+        },
+        {
+            id: "mercenaries",
+            containerId: "tier-mercenaries",
+            categories: [
+                { id: "mercGuard", labelKey: "calc.base.mercGuard", reviveMode: "base" },
+                { id: "werregal", labelKey: "calc.base.werregal", reviveMode: "base" },
+                { id: "greenDragon", labelKey: "calc.base.greenDragon", reviveMode: "base" }
+            ]
+        }
+    ];
+
+    const tierCategories = tierSections.flatMap((section) =>
+        section.categories.map((category) => ({
+            ...category,
+            levels: getLevelsForCategory(category.id),
+            sectionId: section.id
+        }))
+    );
+
+    const baseCostInputs = new Map();
+    const retrainCostInputs = new Map();
+    const reviveLevelInputs = new Map();
+    const basePills = new Map();
+    const trainPills = new Map();
+    const revivePills = new Map();
+    const dynamicLabels = [];
+    const dynamicFormulas = [];
+    let baseCostsCollapsed = true;
+    let clanCollapsed = true;
+
+    const labelOverrides = {
+        "calc.base.spearmen": "Melee",
+        "calc.base.archers": "Ranged",
+        "calc.base.riders": "Mounted",
+        "calc.base.griffins": "Flying",
+        "calc.base.specialists": "Melee",
+        "calc.base.spies": "Scout",
+        "calc.base.captain": "Captains",
+        "calc.base.portal": "Portal (additional)",
+        "calc.base.mercGuard": "Guardsmen",
+        "calc.base.werregal": "Werregal",
+        "calc.base.greenDragon": "Green Dragon",
+        "calc.base.specialistRanged": "Ranged",
+        "calc.base.specialistMounted": "Mounted",
+        "calc.base.specialistFlying": "Flying",
+        "calc.base.dragons": "Dragons",
+        "calc.base.elementals": "Elementals",
+        "calc.base.giants": "Giants",
+        "calc.base.beasts": "Beasts",
+        "calc.base.catapults": "Engineer Corps",
+        "calc.output.spearmen": "Melee",
+        "calc.output.archers": "Ranged",
+        "calc.output.riders": "Mounted",
+        "calc.output.griffins": "Flying",
+        "calc.output.specialists": "Melee",
+        "calc.output.spies": "Scout",
+        "calc.output.spiesTotal": "Scout",
+        "calc.output.mercGuard": "Guardsmen",
+        "calc.output.werregal": "Werregal",
+        "calc.output.greenDragon": "Green Dragon",
+        "calc.output.specialistRanged": "Ranged",
+        "calc.output.specialistMounted": "Mounted",
+        "calc.output.specialistFlying": "Flying",
+        "calc.output.dragons": "Dragons",
+        "calc.output.elementals": "Elementals",
+        "calc.output.giants": "Giants",
+        "calc.output.beasts": "Beasts",
+        "calc.output.catapults": "Engineer Corps"
+    };
+
+    const isNumericLevel = (lvl) => /^\d+$/.test(`${lvl}`);
+    const formatLevelLabel = (lvl) => (isNumericLevel(lvl) ? `L${lvl}` : `${lvl}`);
+
+    const getLabel = (key) => {
+        const override = labelOverrides[key];
+        if (override) return override;
+        return window.I18N ? I18N.t(key) : key;
+    };
+
+    const registerLabel = (el, key, level = null) => {
+        el.dataset.i18nKey = key;
+        if (level !== null) {
+            el.dataset.level = level;
+        }
+        dynamicLabels.push(el);
+    };
+
+    const registerFormula = (el, key) => {
+        el.dataset.i18nKey = key;
+        dynamicFormulas.push(el);
+    };
+
+    const updateDynamicLabels = () => {
+        dynamicLabels.forEach((el) => {
+            const key = el.dataset.i18nKey;
+            if (!key) return;
+            if (el.dataset.level) {
+                el.textContent = `L${el.dataset.level} ${getLabel(key)}`;
+                return;
+            }
+            el.textContent = getLabel(key);
+        });
+        dynamicFormulas.forEach((el) => {
+            const key = el.dataset.i18nKey;
+            if (!key) return;
+            el.textContent = getLabel(key);
+        });
+        refreshBasePills();
+    };
+
+    const formatInteger = (value) => {
+        const num = Number(value);
+        if (!Number.isFinite(num)) return "0";
+        const rounded = Math.round(num);
+        const sign = rounded < 0 ? "-" : "";
+        const digits = Math.abs(rounded).toString();
+        const withCommas = digits.replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+        return sign + withCommas;
+    };
+
+    const getTextMeasureContext = (referenceEl) => {
+        if (!referenceEl) return null;
+        if (!getTextMeasureContext.ctx) {
+            const canvas = document.createElement("canvas");
+            getTextMeasureContext.ctx = canvas.getContext("2d");
+        }
+        const ctx = getTextMeasureContext.ctx;
+        const style = window.getComputedStyle(referenceEl);
+        if (style && style.font) {
+            ctx.font = style.font;
+        }
+        return { ctx, style };
+    };
+
+    const getTabMetrics = (referenceEl, values) => {
+        const context = getTextMeasureContext(referenceEl);
+        if (!context || !context.ctx) {
+            return { ctx: null, tabWidth: 1, targetStop: 1 };
+        }
+        const { ctx, style } = context;
+        const tabSizeRaw = style?.tabSize;
+        const tabSize = Number.isFinite(Number(tabSizeRaw)) ? Number(tabSizeRaw) : 8;
+        const spaceWidth = ctx.measureText(" ").width || 1;
+        const tabWidth = spaceWidth * tabSize;
+        const maxWidth = values.reduce((max, value) => {
+            const width = ctx.measureText(value).width;
+            return Math.max(max, width);
+        }, 0);
+        const targetStop = Math.ceil((maxWidth + 1) / tabWidth) * tabWidth;
+        return { ctx, tabWidth, targetStop };
+    };
+
+    const formatValueLine = (value, label, metrics) => {
+        const { ctx, tabWidth, targetStop } = metrics;
+        if (!ctx || !tabWidth || !targetStop) {
+            return `${value}\t${label}`;
+        }
+        const valueWidth = ctx.measureText(value).width;
+        const tabs = Math.max(1, Math.ceil((targetStop - valueWidth) / tabWidth));
+        return `${value}${"\t".repeat(tabs)}${label}`;
+    };
+
+    const parseNonNegative = (value) => {
+        const cleaned = `${value ?? ""}`.replace(/,/g, "");
+        const num = Number(cleaned);
+        if (!Number.isFinite(num) || num < 0) return 0;
+        return num;
+    };
+
+    let activePopover = null;
+    let activeInfoPopover = null;
+
+    const enhanceNumberInputs = () => {
+        const inputs = document.querySelectorAll("input[type='number']");
+        inputs.forEach((input) => {
+            if (input.disabled || input.dataset.noPlus === "true" || input.closest(".input-plus")) {
+                return;
+            }
+            const wrapper = document.createElement("div");
+            wrapper.className = "input-plus";
+            input.parentNode.insertBefore(wrapper, input);
+            wrapper.appendChild(input);
+
+            const button = document.createElement("button");
+            button.type = "button";
+            button.className = "input-plus__btn";
+            button.setAttribute("aria-label", getLabel("calc.input.addAria"));
+            button.textContent = "+";
+
+            const popover = document.createElement("div");
+            popover.className = "input-plus__popover";
+            popover.setAttribute("aria-hidden", "true");
+
+            const addField = document.createElement("input");
+            addField.type = "number";
+            addField.min = "0";
+            addField.inputMode = "numeric";
+            addField.placeholder = getLabel("calc.input.addPlaceholder");
+            addField.className = "input-plus__field";
+
+            const actions = document.createElement("div");
+            actions.className = "input-plus__actions";
+
+            const addButton = document.createElement("button");
+            addButton.type = "button";
+            addButton.className = "btn ghost btn-small";
+            addButton.textContent = getLabel("calc.input.addLabel");
+
+            actions.appendChild(addButton);
+            popover.append(addField, actions);
+            wrapper.append(button, popover);
+
+            const closePopover = () => {
+                popover.classList.remove("is-open");
+                popover.setAttribute("aria-hidden", "true");
+                addField.value = "";
+                if (activePopover && activePopover.popover === popover) {
+                    activePopover = null;
+                }
+            };
+
+            const openPopover = () => {
+                if (activePopover && activePopover.popover !== popover) {
+                    activePopover.close();
+                }
+                popover.classList.add("is-open");
+                popover.setAttribute("aria-hidden", "false");
+                addField.focus();
+                addField.select();
+                activePopover = { popover, close: closePopover };
+            };
+
+            const submitAddition = () => {
+                const addValue = parseNonNegative(addField.value);
+                if (addValue <= 0) {
+                    closePopover();
+                    return;
+                }
+                const currentValue = parseNonNegative(input.value);
+                input.value = currentValue + addValue;
+                input.dispatchEvent(new Event("input", { bubbles: true }));
+                closePopover();
+            };
+
+            button.addEventListener("click", (event) => {
+                event.stopPropagation();
+                if (popover.classList.contains("is-open")) {
+                    closePopover();
+                } else {
+                    openPopover();
+                }
+            });
+
+            addButton.addEventListener("click", (event) => {
+                event.preventDefault();
+                submitAddition();
+            });
+
+            addField.addEventListener("keydown", (event) => {
+                if (event.key === "Enter") {
+                    event.preventDefault();
+                    submitAddition();
+                } else if (event.key === "Escape") {
+                    event.preventDefault();
+                    closePopover();
+                }
+            });
+
+        });
+
+        if (!enhanceNumberInputs.bound) {
+            document.addEventListener("click", (event) => {
+                if (!activePopover) return;
+                if (!activePopover.popover.parentElement.contains(event.target)) {
+                    activePopover.close();
+                }
+            });
+            enhanceNumberInputs.bound = true;
+        }
+    };
+
+    const bindInfoPopovers = () => {
+        if (bindInfoPopovers.bound) return;
+        document.addEventListener("click", (event) => {
+            if (!activeInfoPopover) return;
+            if (!activeInfoPopover.popover.parentElement.contains(event.target)) {
+                activeInfoPopover.close();
+            }
+        });
+        bindInfoPopovers.bound = true;
+    };
+
+    const renderBaseCostGroup = (containerId, order) => {
+        const container = document.getElementById(containerId);
+        if (!container) return;
+        order.forEach(({ id, labelKey }) => {
+            const field = document.createElement("div");
+            field.className = "field";
+
+            const labelEl = document.createElement("label");
+            labelEl.htmlFor = `base-${id}`;
+            labelEl.textContent = getLabel(labelKey);
+            registerLabel(labelEl, labelKey);
+
+            const input = document.createElement("input");
+            input.type = "number";
+            input.min = "0";
+            input.id = `base-${id}`;
+            input.value = defaultBaseCosts[id];
+            input.inputMode = "numeric";
+            input.dataset.noPlus = "true";
+
+            baseCostInputs.set(id, input);
+
+            field.appendChild(labelEl);
+            field.appendChild(input);
+            container.appendChild(field);
+        });
+    };
+
+    const renderReviveLevelCosts = () => {
+        const container = document.getElementById("revive-level-costs");
+        if (!container) return;
+
+        const header = document.createElement("div");
+        header.className = "retrain-grid__row retrain-grid__head";
+        const headerLabel = document.createElement("span");
+        headerLabel.className = "retrain-grid__label";
+        headerLabel.textContent = "Unit";
+        header.appendChild(headerLabel);
+        retrainColumns.forEach((lvl) => {
+            const cell = document.createElement("span");
+            cell.textContent = formatLevelLabel(lvl);
+            header.appendChild(cell);
+        });
+        container.appendChild(header);
+
+        reviveLevelCategories.forEach(({ id, labelKey }) => {
+            const row = document.createElement("div");
+            row.className = "retrain-grid__row";
+            const allowedLevels = new Set(getLevelsForCategory(id));
+
+            const label = document.createElement("span");
+            label.className = "retrain-grid__label";
+            label.textContent = getLabel(labelKey);
+            registerLabel(label, labelKey);
+            row.appendChild(label);
+
+            retrainColumns.forEach((lvl) => {
+                const input = document.createElement("input");
+                input.type = "number";
+                input.min = "0";
+                input.id = `revive-${id}-lvl${lvl}`;
+                input.value = defaultReviveLevelCosts[id]?.[lvl] ?? 0;
+                input.inputMode = "numeric";
+                input.dataset.noPlus = "true";
+                if (!allowedLevels.has(lvl)) {
+                    input.disabled = true;
+                    input.value = "0";
+                    input.placeholder = "N/A";
+                }
+                input.setAttribute("aria-label", `${getLabel(labelKey)} ${formatLevelLabel(lvl)} revive cost`);
+                reviveLevelInputs.set(`${id}-lvl${lvl}`, input);
+                row.appendChild(input);
+            });
+
+            container.appendChild(row);
+        });
+    };
+
+    const renderRetrainCosts = () => {
+        const container = document.getElementById("base-costs-retrain");
+        if (!container) return;
+
+        const header = document.createElement("div");
+        header.className = "retrain-grid__row retrain-grid__head";
+        const headerLabel = document.createElement("span");
+        headerLabel.className = "retrain-grid__label";
+        headerLabel.textContent = "Troop";
+        header.appendChild(headerLabel);
+        retrainColumns.forEach((lvl) => {
+            const cell = document.createElement("span");
+            cell.textContent = formatLevelLabel(lvl);
+            header.appendChild(cell);
+        });
+        container.appendChild(header);
+
+        retrainCategories.forEach(({ id, labelKey }) => {
+            const row = document.createElement("div");
+            row.className = "retrain-grid__row";
+            const allowedLevels = new Set(getLevelsForCategory(id));
+
+            const label = document.createElement("span");
+            label.className = "retrain-grid__label";
+            label.textContent = getLabel(labelKey);
+            registerLabel(label, labelKey);
+            row.appendChild(label);
+
+            retrainColumns.forEach((lvl) => {
+                const input = document.createElement("input");
+                input.type = "number";
+                input.min = "0";
+                input.id = `retrain-${id}-lvl${lvl}`;
+                input.value = defaultRetrainCosts[id]?.[lvl] ?? 0;
+                input.inputMode = "numeric";
+                input.dataset.noPlus = "true";
+                const numericLvl = Number(lvl);
+                if (!allowedLevels.has(lvl)) {
+                    input.disabled = true;
+                    input.value = "0";
+                    input.placeholder = "N/A";
+                } else if (id === "griffins" && Number.isFinite(numericLvl) && numericLvl < 5) {
+                    input.disabled = true;
+                    input.value = "0";
+                    input.placeholder = "N/A";
+                }
+                input.setAttribute("aria-label", `${getLabel(labelKey)} ${formatLevelLabel(lvl)} train cost`);
+                retrainCostInputs.set(`${id}-lvl${lvl}`, input);
+                row.appendChild(input);
+            });
+
+            container.appendChild(row);
+        });
+    };
+
+    const renderBaseCosts = () => {
+        renderBaseCostGroup("base-costs-meta", metadataBaseOrder);
+        renderBaseCostGroup("base-costs-revive", reviveBaseOrder);
+        renderReviveLevelCosts();
+        renderRetrainCosts();
+    };
+
+    const renderClanBaseCosts = () => {
+        const container = document.getElementById("clan-base-costs");
+        clanBaseOrder.forEach(({ id, labelKey }) => {
+            const field = document.createElement("div");
+            field.className = "field";
+
+            const labelEl = document.createElement("label");
+            labelEl.htmlFor = `clan-base-${id}`;
+            labelEl.textContent = getLabel(labelKey);
+            registerLabel(labelEl, labelKey);
+
+            const input = document.createElement("input");
+            input.type = "number";
+            input.min = "0";
+            input.id = `clan-base-${id}`;
+            input.value = defaultBaseCosts[id];
+            input.inputMode = "numeric";
+            input.dataset.noPlus = "true";
+
+            baseCostInputs.set(id, input);
+
+            field.appendChild(labelEl);
+            field.appendChild(input);
+            container.appendChild(field);
+        });
+    };
+
+    const makeBasePill = (id, label) => {
+        const pill = document.createElement("span");
+        pill.className = "pill";
+        pill.dataset.baseId = id;
+        const pillLabel = label || getLabel("calculator.base.pill");
+        pill.dataset.pillLabel = pillLabel;
+        pill.textContent = `${pillLabel}: ${defaultBaseCosts[id]}`;
+        basePills.set(id, pill);
+        return pill;
+    };
+
+    const makeStaticPill = (label) => {
+        const pill = document.createElement("span");
+        pill.className = "pill";
+        pill.textContent = label;
+        return pill;
+    };
+
+    const refreshBasePills = () => {
+        basePills.forEach((pill, id) => {
+            const pillLabel = pill.dataset.pillLabel || getLabel("calculator.base.pill");
+            pill.textContent = `${pillLabel}: ${formatInteger(getBase(id))}`;
+        });
+    };
+
+    const refreshTrainPills = () => {
+        trainPills.forEach((pill, key) => {
+            const input = retrainCostInputs.get(key);
+            if (input?.disabled) {
+                pill.textContent = "T:N/A";
+                return;
+            }
+            const value = input ? formatInteger(parseNonNegative(input.value)) : "0";
+            pill.textContent = `T:${value}`;
+        });
+    };
+
+    const refreshRevivePills = () => {
+        revivePills.forEach((pill, key) => {
+            const input = reviveLevelInputs.get(key);
+            if (input?.disabled) {
+                pill.textContent = "R:N/A";
+                return;
+            }
+            const value = input ? formatInteger(parseNonNegative(input.value)) : "0";
+            pill.textContent = `R:${value}`;
+        });
+    };
+
+    const renderFlatLosses = () => {
+        const container = document.getElementById("flat-losses");
+        flatCategories.forEach(({ id, labelKey }) => {
+            const card = document.createElement("div");
+            card.className = "card";
+
+            const title = document.createElement("div");
+            title.className = "card__title";
+            const h3 = document.createElement("h3");
+            h3.textContent = getLabel(labelKey);
+            registerLabel(h3, labelKey);
+            title.append(h3);
+
+            const meta = document.createElement("div");
+            meta.className = "card__meta";
+            const pill = makeBasePill(id, getLabel("calculator.base.pill"));
+            const formula = document.createElement("span");
+            formula.className = "formula";
+            formula.textContent = getLabel("calculator.formula.baseCount");
+            registerFormula(formula, "calculator.formula.baseCount");
+            meta.append(pill, formula);
+
+            const field = document.createElement("div");
+            field.className = "field";
+            const labelEl = document.createElement("label");
+            labelEl.htmlFor = `count-${id}`;
+            labelEl.textContent = getLabel("calculator.label.count");
+            registerLabel(labelEl, "calculator.label.count");
+            const input = document.createElement("input");
+            input.type = "number";
+            input.min = "0";
+            input.id = `count-${id}`;
+            input.placeholder = "0";
+            input.inputMode = "numeric";
+            field.append(labelEl, input);
+
+            card.append(title, meta, field);
+            container.appendChild(card);
+        });
+    };
+
+    const renderClanLosses = () => {
+        const container = document.getElementById("clan-losses");
+        clanCategories.forEach(({ id, labelKey }) => {
+            const card = document.createElement("div");
+            card.className = "card";
+
+            const title = document.createElement("div");
+            title.className = "card__title";
+            const h3 = document.createElement("h3");
+            h3.textContent = getLabel(labelKey);
+            registerLabel(h3, labelKey);
+            title.append(h3);
+
+            const meta = document.createElement("div");
+            meta.className = "card__meta";
+            const pill = makeBasePill(id, getLabel("calculator.base.pill"));
+            const formula = document.createElement("span");
+            formula.className = "formula";
+            formula.textContent = getLabel("calculator.formula.baseCount");
+            registerFormula(formula, "calculator.formula.baseCount");
+            meta.append(pill, formula);
+
+            const field = document.createElement("div");
+            field.className = "field";
+            const labelEl = document.createElement("label");
+            labelEl.htmlFor = `clan-count-${id}`;
+            labelEl.textContent = getLabel("calculator.label.count");
+            registerLabel(labelEl, "calculator.label.count");
+            const input = document.createElement("input");
+            input.type = "number";
+            input.min = "0";
+            input.id = `clan-count-${id}`;
+            input.placeholder = "0";
+            input.inputMode = "numeric";
+            field.append(labelEl, input);
+
+            card.append(title, meta, field);
+            container.appendChild(card);
+        });
+    };
+
+    const renderTierLosses = () => {
+        tierSections.forEach((section) => {
+            const container = document.getElementById(section.containerId);
+            if (!container) return;
+
+            section.categories.forEach(({ id, labelKey, reviveMode }) => {
+                const levels = getLevelsForCategory(id);
+                const card = document.createElement("div");
+                card.className = "card";
+
+                const title = document.createElement("div");
+                title.className = "card__title";
+                const h3 = document.createElement("h3");
+                h3.textContent = getLabel(labelKey);
+                registerLabel(h3, labelKey);
+                title.append(h3);
+
+                if (id === "mercGuard") {
+                    const infoWrap = document.createElement("span");
+                    infoWrap.className = "info-wrap";
+
+                    const infoBtn = document.createElement("button");
+                    infoBtn.type = "button";
+                    infoBtn.className = "info-btn";
+                    infoBtn.textContent = "i";
+                    infoBtn.setAttribute("aria-label", "Mercenary examples");
+
+                    const popover = document.createElement("div");
+                    popover.className = "info-popover";
+                    popover.setAttribute("aria-hidden", "true");
+
+                    const popTitle = document.createElement("p");
+                    popTitle.className = "info-popover__title";
+                    popTitle.textContent = "Examples";
+
+                    const list = document.createElement("ul");
+                    list.className = "info-list";
+                    ["Epic Monster Hunter", "Nezha Warrior"].forEach((label) => {
+                        const item = document.createElement("li");
+                        item.textContent = label;
+                        list.appendChild(item);
+                    });
+
+                    popover.append(popTitle, list);
+                    infoWrap.append(infoBtn, popover);
+                    title.append(infoWrap);
+
+                    const close = () => {
+                        popover.classList.remove("is-open");
+                        popover.setAttribute("aria-hidden", "true");
+                        if (activeInfoPopover && activeInfoPopover.popover === popover) {
+                            activeInfoPopover = null;
+                        }
+                    };
+
+                    const open = () => {
+                        if (activeInfoPopover && activeInfoPopover.popover !== popover) {
+                            activeInfoPopover.close();
+                        }
+                        popover.classList.add("is-open");
+                        popover.setAttribute("aria-hidden", "false");
+                        activeInfoPopover = { popover, close };
+                    };
+
+                    infoBtn.addEventListener("click", (event) => {
+                        event.stopPropagation();
+                        if (popover.classList.contains("is-open")) {
+                            close();
+                        } else {
+                            open();
+                        }
+                    });
+
+                    bindInfoPopovers();
+                }
+
+                const meta = document.createElement("div");
+                meta.className = "card__meta";
+                const formula = document.createElement("span");
+                formula.className = "formula";
+                formula.textContent = "Count × (75% Revive + 25% Train Lvl)";
+
+                if (reviveMode === "level") {
+                    if (section.id !== "monsters") {
+                        meta.append(makeStaticPill("Revive: Lvl"), formula);
+                    } else {
+                        meta.append(formula);
+                    }
+                } else {
+                    meta.append(makeBasePill(id, "Revive"), formula);
+                }
+
+                const levelsWrap = document.createElement("div");
+                levelsWrap.className = "level-grid";
+                if (id === "catapults") {
+                    levelsWrap.classList.add("level-grid--two");
+                }
+
+                levels.forEach((lvl) => {
+                    const field = document.createElement("div");
+                    field.className = "field";
+                    const head = document.createElement("div");
+                    head.className = "field__head";
+
+                    const labelEl = document.createElement("label");
+                    labelEl.htmlFor = `count-${id}-lvl${lvl}`;
+                    labelEl.textContent = formatLevelLabel(lvl);
+
+                    const pillWrap = document.createElement("div");
+                    pillWrap.className = "field__pills";
+
+                    if (reviveMode === "level") {
+                        const revivePill = document.createElement("span");
+                        revivePill.className = "pill pill--tiny";
+                        revivePill.textContent = "R:0";
+                        revivePills.set(`${id}-lvl${lvl}`, revivePill);
+                        pillWrap.appendChild(revivePill);
+                    }
+
+                    const trainPill = document.createElement("span");
+                    trainPill.className = "pill pill--tiny";
+                    trainPill.textContent = "T:0";
+                    trainPills.set(`${id}-lvl${lvl}`, trainPill);
+                    pillWrap.appendChild(trainPill);
+
+                    head.append(labelEl, pillWrap);
+
+                    const input = document.createElement("input");
+                    input.type = "number";
+                    input.min = "0";
+                    input.id = `count-${id}-lvl${lvl}`;
+                    input.placeholder = "0";
+                    input.inputMode = "numeric";
+                    field.append(head, input);
+                    levelsWrap.appendChild(field);
+                });
+
+                card.append(title, meta, levelsWrap);
+                container.appendChild(card);
+            });
+        });
+    };
+
+    const getBase = (id) => {
+        const input = baseCostInputs.get(id);
+        return input ? parseNonNegative(input.value) : 0;
+    };
+
+    const sumFlat = () => {
+        const totals = {};
+        flatCategories.forEach(({ id }) => {
+            const base = getBase(id);
+            const count = parseNonNegative(document.getElementById(`count-${id}`)?.value);
+            totals[id] = Math.round(base * count);
+        });
+        return totals;
+    };
+
+    const sumTiered = () => {
+        const totals = {};
+        const reviveShare = 0.75;
+        const retrainShare = 0.25;
+        tierCategories.forEach(({ id, levels, reviveMode }) => {
+            const base = getBase(id);
+            let subtotal = 0;
+            levels.forEach((lvl) => {
+                const count = parseNonNegative(document.getElementById(`count-${id}-lvl${lvl}`)?.value);
+                const retrainCost = parseNonNegative(retrainCostInputs.get(`${id}-lvl${lvl}`)?.value);
+                const reviveCost =
+                    reviveMode === "level"
+                        ? parseNonNegative(reviveLevelInputs.get(`${id}-lvl${lvl}`)?.value)
+                        : base;
+                subtotal += count * (reviveCost * reviveShare + retrainCost * retrainShare);
+            });
+            totals[id] = Math.round(subtotal);
+        });
+        return totals;
+    };
+
+    const sumClan = () => {
+        const includeClan = document.getElementById("include-clan")?.checked;
+        const totals = {};
+        let silver = 0;
+        if (!includeClan) {
+            clanCategories.forEach(({ id }) => (totals[id] = 0));
+            return { totals, silver };
+        }
+        clanCategories.forEach(({ id }) => {
+            const base = getBase(id);
+            const count = parseNonNegative(document.getElementById(`clan-count-${id}`)?.value);
+            const subtotal = Math.round(base * count);
+            totals[id] = subtotal;
+            silver += subtotal;
+        });
+        return { totals, silver };
+    };
+
+    const calculate = () => {
+        const includeClan = document.getElementById("include-clan")?.checked;
+        const flatTotals = sumFlat();
+        const tierTotals = sumTiered();
+        const clanTotals = sumClan();
+        const directSilver = parseNonNegative(document.getElementById("direct-silver")?.value);
+
+        const tierTotalSum = tierCategories.reduce((sum, { id }) => sum + (tierTotals[id] || 0), 0);
+        const silverSubtotal =
+            flatTotals.scoutingEvents +
+            flatTotals.attackEvents +
+            flatTotals.portal +
+            flatTotals.hero +
+            flatTotals.captain +
+            tierTotalSum +
+            flatTotals.gold +
+            flatTotals.tar +
+            clanTotals.silver;
+
+        const mercsTotal = tierTotals.mercGuard + tierTotals.werregal + tierTotals.greenDragon;
+        const heroCaptainsTotal = flatTotals.hero + flatTotals.captain;
+
+        const totalLoss = silverSubtotal + directSilver;
+        const totalWithTax = Math.round(totalLoss / 0.8);
+
+        const resourcesRaw = {
+            food: document.getElementById("res-food")?.value.trim() || "0",
+            lumber: document.getElementById("res-lumber")?.value.trim() || "0",
+            stone: document.getElementById("res-stone")?.value.trim() || "0",
+            iron: document.getElementById("res-iron")?.value.trim() || "0"
+        };
+        const resourcesNumeric = {
+            food: parseNonNegative(resourcesRaw.food),
+            lumber: parseNonNegative(resourcesRaw.lumber),
+            stone: parseNonNegative(resourcesRaw.stone),
+            iron: parseNonNegative(resourcesRaw.iron)
+        };
+        const resources = {
+            food: formatInteger(resourcesNumeric.food),
+            lumber: formatInteger(resourcesNumeric.lumber),
+            stone: formatInteger(resourcesNumeric.stone),
+            iron: formatInteger(resourcesNumeric.iron)
+        };
+        const resourcesWithTax = {
+            food: formatInteger(Math.round(resourcesNumeric.food / 0.8)),
+            lumber: formatInteger(Math.round(resourcesNumeric.lumber / 0.8)),
+            stone: formatInteger(Math.round(resourcesNumeric.stone / 0.8)),
+            iron: formatInteger(Math.round(resourcesNumeric.iron / 0.8))
+        };
+
+        document.getElementById("silver-subtotal").textContent = formatInteger(silverSubtotal);
+        document.getElementById("total-loss").textContent = formatInteger(totalLoss);
+
+        const dividerLength = 33;
+        const barLength = dividerLength - 10;
+        const bar = "=".repeat(barLength);
+        const divider = "-".repeat(dividerLength);
+        const lines = [bar];
+
+        const valuesForAlignment = [];
+        if (includeClan) {
+            valuesForAlignment.push(
+                formatInteger(clanTotals.totals.fortScout || 0),
+                formatInteger(clanTotals.totals.fortAttack || 0),
+                formatInteger(clanTotals.totals.fortDestroy || 0),
+                formatInteger(clanTotals.totals.capScout || 0),
+                formatInteger(clanTotals.totals.capDestroy || 0)
+            );
+        }
+        valuesForAlignment.push(
+            formatInteger(flatTotals.scoutingEvents),
+            formatInteger(flatTotals.attackEvents),
+            formatInteger(flatTotals.portal),
+            formatInteger(heroCaptainsTotal),
+            formatInteger(tierTotals.spearmen),
+            formatInteger(tierTotals.archers),
+            formatInteger(tierTotals.riders),
+            formatInteger(tierTotals.griffins),
+            formatInteger(tierTotals.specialists),
+            formatInteger(tierTotals.spies),
+            formatInteger(tierTotals.specialistRanged),
+            formatInteger(tierTotals.specialistMounted),
+            formatInteger(tierTotals.specialistFlying),
+            formatInteger(tierTotals.catapults),
+            formatInteger(tierTotals.dragons),
+            formatInteger(tierTotals.elementals),
+            formatInteger(tierTotals.giants),
+            formatInteger(tierTotals.beasts),
+            formatInteger(tierTotals.werregal),
+            formatInteger(tierTotals.greenDragon),
+            formatInteger(mercsTotal),
+            formatInteger(flatTotals.gold),
+            formatInteger(flatTotals.tar),
+            formatInteger(directSilver),
+            formatInteger(totalLoss),
+            formatInteger(totalWithTax),
+            resources.food || "0",
+            resources.lumber || "0",
+            resources.stone || "0",
+            resources.iron || "0",
+            resourcesWithTax.food || "0",
+            resourcesWithTax.lumber || "0",
+            resourcesWithTax.stone || "0",
+            resourcesWithTax.iron || "0"
+        );
+
+        const summaryField = document.getElementById("summary-text");
+        const tabMetrics = getTabMetrics(summaryField, valuesForAlignment);
+
+        if (includeClan) {
+            lines.push(
+                getLabel("calc.output.clanBuildings"),
+                formatValueLine(formatInteger(clanTotals.totals.fortScout || 0), getLabel("calc.output.fortScout"), tabMetrics),
+                formatValueLine(formatInteger(clanTotals.totals.fortAttack || 0), getLabel("calc.output.fortAttackHit"), tabMetrics),
+                formatValueLine(formatInteger(clanTotals.totals.fortDestroy || 0), getLabel("calc.output.fortAttackDestroy"), tabMetrics),
+                formatValueLine(formatInteger(clanTotals.totals.capScout || 0), getLabel("calc.output.capScout"), tabMetrics),
+                formatValueLine(formatInteger(clanTotals.totals.capDestroy || 0), getLabel("calc.output.capAttackDestroy"), tabMetrics),
+                divider
+            );
+        }
+
+        lines.push(
+            getLabel("calc.output.armyLoss"),
+            formatValueLine(formatInteger(flatTotals.scoutingEvents), getLabel("calc.output.scoutEvents"), tabMetrics),
+            formatValueLine(formatInteger(flatTotals.attackEvents), getLabel("calc.output.attackEvents"), tabMetrics),
+            formatValueLine(formatInteger(flatTotals.portal), getLabel("calc.output.portalClosed"), tabMetrics),
+            formatValueLine(formatInteger(heroCaptainsTotal), getLabel("calc.output.heroCaptains"), tabMetrics),
+            divider,
+            "Guardsmen",
+            formatValueLine(formatInteger(tierTotals.spearmen), getLabel("calc.output.spearmen"), tabMetrics),
+            formatValueLine(formatInteger(tierTotals.archers), getLabel("calc.output.archers"), tabMetrics),
+            formatValueLine(formatInteger(tierTotals.riders), getLabel("calc.output.riders"), tabMetrics),
+            formatValueLine(formatInteger(tierTotals.griffins), getLabel("calc.output.griffins"), tabMetrics),
+            divider,
+            "Specialists",
+            formatValueLine(formatInteger(tierTotals.specialists), getLabel("calc.output.specialists"), tabMetrics),
+            formatValueLine(formatInteger(tierTotals.spies), getLabel("calc.output.spiesTotal"), tabMetrics),
+            formatValueLine(formatInteger(tierTotals.specialistRanged), getLabel("calc.output.specialistRanged"), tabMetrics),
+            formatValueLine(formatInteger(tierTotals.specialistMounted), getLabel("calc.output.specialistMounted"), tabMetrics),
+            formatValueLine(formatInteger(tierTotals.specialistFlying), getLabel("calc.output.specialistFlying"), tabMetrics),
+            divider,
+            "Engineer Corps",
+            formatValueLine(formatInteger(tierTotals.catapults), getLabel("calc.output.catapults"), tabMetrics),
+            divider,
+            "Monsters",
+            formatValueLine(formatInteger(tierTotals.dragons), getLabel("calc.output.dragons"), tabMetrics),
+            formatValueLine(formatInteger(tierTotals.elementals), getLabel("calc.output.elementals"), tabMetrics),
+            formatValueLine(formatInteger(tierTotals.giants), getLabel("calc.output.giants"), tabMetrics),
+            formatValueLine(formatInteger(tierTotals.beasts), getLabel("calc.output.beasts"), tabMetrics),
+            formatValueLine(formatInteger(tierTotals.werregal), getLabel("calc.output.werregal"), tabMetrics),
+            formatValueLine(formatInteger(tierTotals.greenDragon), getLabel("calc.output.greenDragon"), tabMetrics),
+            formatValueLine(formatInteger(mercsTotal), getLabel("calc.output.mercenaries"), tabMetrics),
+            divider,
+            getLabel("calc.output.additionalLoss"),
+            formatValueLine(formatInteger(flatTotals.gold), getLabel("calc.output.goldTotal"), tabMetrics),
+            formatValueLine(formatInteger(flatTotals.tar), getLabel("calc.output.tarTotal"), tabMetrics),
+            formatValueLine(formatInteger(directSilver), getLabel("calc.output.directSilver"), tabMetrics),
+            divider,
+            formatValueLine(formatInteger(totalLoss), getLabel("calc.output.totalSilverLoss"), tabMetrics),
+            bar,
+            getLabel("calc.output.resourceLoss"),
+            formatValueLine(formatInteger(totalLoss), getLabel("calc.output.silver"), tabMetrics),
+            formatValueLine(resources.food || "0", getLabel("calc.output.food"), tabMetrics),
+            formatValueLine(resources.lumber || "0", getLabel("calc.output.lumber"), tabMetrics),
+            formatValueLine(resources.stone || "0", getLabel("calc.output.stone"), tabMetrics),
+            formatValueLine(resources.iron || "0", getLabel("calc.output.iron"), tabMetrics),
+            bar,
+            getLabel("calc.output.withCaravanTax"),
+            formatValueLine(formatInteger(totalWithTax), getLabel("calc.output.silver"), tabMetrics),
+            formatValueLine(resourcesWithTax.food || "0", getLabel("calc.output.food"), tabMetrics),
+            formatValueLine(resourcesWithTax.lumber || "0", getLabel("calc.output.lumber"), tabMetrics),
+            formatValueLine(resourcesWithTax.stone || "0", getLabel("calc.output.stone"), tabMetrics),
+            formatValueLine(resourcesWithTax.iron || "0", getLabel("calc.output.iron"), tabMetrics),
+            bar,
+            getLabel("calc.output.taxNote")
+        );
+
+        document.getElementById("summary-text").value = lines.join("\n");
+        refreshBasePills();
+        refreshTrainPills();
+        refreshRevivePills();
+    };
+
+    const setBaseCostsCollapsed = (collapsed) => {
+        baseCostsCollapsed = collapsed;
+        const wrap = document.getElementById("base-costs-wrap");
+        const toggle = document.getElementById("toggle-base-costs");
+        if (!wrap || !toggle) return;
+
+        if (collapsed) {
+            wrap.classList.add("is-collapsed");
+            wrap.style.maxHeight = "0px";
+            wrap.setAttribute("aria-hidden", "true");
+            toggle.textContent = getLabel("common.show");
+            toggle.setAttribute("aria-expanded", "false");
+        } else {
+            wrap.classList.remove("is-collapsed");
+            wrap.style.maxHeight = `${wrap.scrollHeight}px`;
+            wrap.setAttribute("aria-hidden", "false");
+            toggle.textContent = getLabel("common.hide");
+            toggle.setAttribute("aria-expanded", "true");
+        }
+    };
+
+    const copySummary = async () => {
+        const textarea = document.getElementById("summary-text");
+        const text = textarea.value;
+        if (!text) return;
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+            try {
+                await navigator.clipboard.writeText(text);
+                textarea.setSelectionRange(0, text.length);
+                return;
+            } catch (err) {
+                // Fallback below
+            }
+        }
+        textarea.focus();
+        textarea.select();
+        document.execCommand("copy");
+    };
+
+    const setClanCollapsed = (collapsed) => {
+        clanCollapsed = collapsed;
+        const wrap = document.getElementById("clan-wrap");
+        const toggle = document.getElementById("toggle-clan");
+        if (!wrap || !toggle) return;
+
+        if (collapsed) {
+            wrap.classList.add("is-collapsed");
+            wrap.style.maxHeight = "0px";
+            wrap.setAttribute("aria-hidden", "true");
+            toggle.textContent = getLabel("common.show");
+            toggle.setAttribute("aria-expanded", "false");
+        } else {
+            wrap.classList.remove("is-collapsed");
+            wrap.style.maxHeight = `${wrap.scrollHeight}px`;
+            wrap.setAttribute("aria-hidden", "false");
+            toggle.textContent = getLabel("common.hide");
+            toggle.setAttribute("aria-expanded", "true");
+        }
+    };
+
+    const resetInputs = () => {
+        baseCostOrder.forEach(({ id }) => {
+            const input = baseCostInputs.get(id);
+            if (input) input.value = defaultBaseCosts[id];
+        });
+
+        retrainCategories.forEach(({ id }) => {
+            retrainColumns.forEach((lvl) => {
+                const input = retrainCostInputs.get(`${id}-lvl${lvl}`);
+                if (input) {
+                    input.value = defaultRetrainCosts[id]?.[lvl] ?? 0;
+                }
+            });
+        });
+
+        reviveLevelCategories.forEach(({ id }) => {
+            retrainColumns.forEach((lvl) => {
+                const input = reviveLevelInputs.get(`${id}-lvl${lvl}`);
+                if (input) {
+                    input.value = defaultReviveLevelCosts[id]?.[lvl] ?? 0;
+                }
+            });
+        });
+
+        flatCategories.forEach(({ id }) => {
+            const input = document.getElementById(`count-${id}`);
+            if (input) input.value = "";
+        });
+
+        tierCategories.forEach(({ id, levels }) => {
+            levels.forEach((lvl) => {
+                const input = document.getElementById(`count-${id}-lvl${lvl}`);
+                if (input) input.value = "";
+            });
+        });
+
+        clanCategories.forEach(({ id }) => {
+            const baseInput = baseCostInputs.get(id);
+            if (baseInput) baseInput.value = defaultBaseCosts[id];
+            const countInput = document.getElementById(`clan-count-${id}`);
+            if (countInput) countInput.value = "";
+        });
+
+        document.getElementById("direct-silver").value = "";
+        document.getElementById("res-food").value = "";
+        document.getElementById("res-lumber").value = "";
+        document.getElementById("res-stone").value = "";
+        document.getElementById("res-iron").value = "";
+
+        calculate();
+    };
+
+    const bindEvents = () => {
+        document.getElementById("calculate-btn").addEventListener("click", calculate);
+        document.getElementById("copy-btn").addEventListener("click", copySummary);
+        document.getElementById("reset-btn").addEventListener("click", resetInputs);
+        document.getElementById("toggle-base-costs").addEventListener("click", () => {
+            setBaseCostsCollapsed(!baseCostsCollapsed);
+        });
+        document.getElementById("toggle-clan").addEventListener("click", () => {
+            setClanCollapsed(!clanCollapsed);
+        });
+
+        document.addEventListener("input", (event) => {
+            const target = event.target;
+            if (target.tagName === "INPUT") {
+                calculate();
+            }
+        });
+    };
+
+    const refreshInputPlusLabels = () => {
+        document.querySelectorAll(".input-plus").forEach((wrapper) => {
+            const button = wrapper.querySelector(".input-plus__btn");
+            const field = wrapper.querySelector(".input-plus__field");
+            const addButton = wrapper.querySelector(".input-plus__actions .btn");
+            if (button) button.setAttribute("aria-label", getLabel("calc.input.addAria"));
+            if (field) field.placeholder = getLabel("calc.input.addPlaceholder");
+            if (addButton) addButton.textContent = getLabel("calc.input.addLabel");
+        });
+    };
+
+    document.addEventListener("DOMContentLoaded", () => {
+        renderBaseCosts();
+        renderFlatLosses();
+        renderTierLosses();
+        renderClanLosses();
+        enhanceNumberInputs();
+        bindEvents();
+        setBaseCostsCollapsed(true);
+        setClanCollapsed(true);
+        updateDynamicLabels();
+        refreshInputPlusLabels();
+        calculate();
+
+        document.addEventListener("tb-language-change", () => {
+            updateDynamicLabels();
+            refreshInputPlusLabels();
+            setBaseCostsCollapsed(baseCostsCollapsed);
+            setClanCollapsed(clanCollapsed);
+            calculate();
+        });
+    });
+})();

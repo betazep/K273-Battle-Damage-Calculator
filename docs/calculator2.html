@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- 100% privacy-first analytics -->
+    <script data-collect-dnt="true" data-allow-params="lang" async src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
+    <script>
+      window.APP_VERSION = "20260302060917193";
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-i18n="calculator.title">TotalBattle Damage Calculator</title>
+    <link rel="icon" href="images/favicon.ico" sizes="any">
+    <link rel="icon" href="images/favicon-32.png" type="image/png" sizes="32x32">
+    <link rel="icon" href="images/favicon-16.png" type="image/png" sizes="16x16">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="stylesheet" href="css/styles.css?v=20260302060917193">
+</head>
+<body class="calculator2">
+    <header class="hero">
+        <div class="page-lang">
+            <div class="lang-control">
+                <label for="site-language" data-i18n="site.languageLabel">Language</label>
+                <select class="lang-select" id="site-language">
+                    <option value="en" selected>English</option>
+                    <option value="de">Deutsch</option>
+                    <option value="es">Español</option>
+                    <option value="fr">Français</option>
+                    <option value="it">Italiano</option>
+                    <option value="no">Norsk</option>
+                    <option value="pl">Polski</option>
+                    <option value="pt">Português</option>
+                    <option value="ru">Русский</option>
+                    <option value="fi">Suomi</option>
+                    <option value="sv">Svenska</option>
+                    <option value="bg">Български</option>
+                    <option value="tr">Türkçe</option>
+                    <option value="hr">Hrvatski</option>
+                    <option value="cs">Čeština</option>
+                </select>
+            </div>
+        </div>
+        <div class="hero__content">
+            <p class="eyebrow" data-i18n="calculator.hero.eyebrow">K273 | Illegal Attack Calculator</p>
+            <h1 data-i18n="calculator.hero.title">TotalBattle Damage</h1>
+            <p class="lede" data-i18n="calculator.hero.lede">Enter losses and generate a copy-ready summary for ROE messages.</p>
+            <div class="reset-clock" aria-live="polite">
+                <p class="reset-clock__line">
+                    <span class="reset-clock__label" data-i18n="reset.label">Daily Reset</span>
+                    <span class="reset-clock__sep">:</span>
+                    <span id="reset-time">--:--</span>
+                    <span class="reset-clock__suffix" data-i18n="reset.local">(Local time)</span>
+                </p>
+            </div>
+        </div>
+    </header>
+
+    <main class="page">
+        <nav class="page-nav" aria-label="Primary">
+            <a class="btn ghost btn-nav" href="index.html" data-i18n="nav.home">Home</a>
+            <a class="btn ghost btn-nav" href="palace.html" data-i18n="nav.palace">Palace</a>
+            <a class="btn ghost btn-nav" href="library.html" data-i18n="nav.library">Library</a>
+            <a class="btn ghost btn-nav is-active" href="calculator.html" aria-current="page" data-i18n="nav.calculator">Calculator</a>
+        </nav>
+        <section class="panel">
+            <div class="panel__head">
+                <div>
+                    <p class="eyebrow" data-i18n="calculator.base.eyebrow">Base costs</p>
+                    <h2 data-i18n="calculator.base.title">Defaults</h2>
+                    <p class="small" data-i18n="calculator.base.sub">Adjust only if rules change. Values are saved for this session only. (Contact Zee for permanent changes to defaults)</p>
+                </div>
+                <button id="toggle-base-costs" class="btn ghost btn-small" type="button" data-i18n="common.hide">Hide</button>
+            </div>
+            <div id="base-costs-wrap" class="collapsible">
+                <div class="base-group">
+                    <h3 class="base-group__title">Metadata</h3>
+                    <div id="base-costs-meta" class="base-grid"></div>
+                </div>
+                <div class="base-group">
+                    <h3 class="base-group__title">Army Revives</h3>
+                    <div id="base-costs-revive" class="base-grid"></div>
+                    <div class="base-subgroup">
+                        <h4 class="base-subgroup__title">Advanced Revive (Level)</h4>
+                        <div id="revive-level-costs" class="retrain-grid"></div>
+                    </div>
+                </div>
+                <div class="base-group">
+                    <h3 class="base-group__title">Army Retrain</h3>
+                    <div id="base-costs-retrain" class="retrain-grid"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="panel">
+            <div class="panel__head">
+                <div>
+                    <p class="eyebrow" data-i18n="calculator.clan.eyebrow">Clan buildings</p>
+                    <h2 data-i18n="calculator.clan.title">Optional losses</h2>
+                    <p class="small" data-i18n="calculator.clan.sub">Include only when forts/capitals are hit. Defaults are editable.</p>
+                </div>
+                <div class="toggle-wrap">
+                    <span class="small" data-i18n="calculator.clan.include">Include in Report</span>
+                    <label class="switch">
+                        <input type="checkbox" id="include-clan">
+                        <span class="slider"></span>
+                    </label>
+                    <button id="toggle-clan" class="btn ghost btn-small" type="button" data-i18n="common.show">Show</button>
+                </div>
+            </div>
+            <div id="clan-wrap" class="collapsible is-collapsed">
+                <div class="card-grid" id="clan-losses"></div>
+            </div>
+        </section>
+
+        <section class="panel">
+            <div class="panel__head">
+                <div>
+                    <p class="eyebrow" data-i18n="calculator.armyFlat.eyebrow">Army losses</p>
+                    <h2 data-i18n="calculator.armyFlat.title">Flat cost entries</h2>
+                    <p class="small" data-i18n="calculator.armyFlat.sub">Enter basic counts for flat cost units lost.</p>
+                </div>
+            </div>
+            <div id="flat-losses" class="card-grid"></div>
+        </section>
+
+        <section class="panel">
+            <div class="panel__head">
+                <div>
+                    <p class="eyebrow">Guardsmen</p>
+                    <h2>Guardsmen</h2>
+                    <p class="small">Units lost from the Guardsmen section. (like archers, spearmen, and riders)</p>
+                </div>
+            </div>
+            <div id="tier-guardsmen" class="card-grid"></div>
+        </section>
+
+        <section class="panel">
+            <div class="panel__head">
+                <div>
+                    <p class="eyebrow">Specialists</p>
+                    <h2>Specialists</h2>
+                    <p class="small">Units lost from the Specialists section. (like swordsmen and scouts)</p>
+                </div>
+            </div>
+            <div id="tier-specialists" class="card-grid"></div>
+        </section>
+
+        <section class="panel">
+            <div class="panel__head">
+                <div>
+                    <p class="eyebrow">Engineer Corps</p>
+                    <h2>Engineer Corps</h2>
+                    <p class="small">Units lost from the Engineer Corps section. (like Catapults)</p>
+                </div>
+            </div>
+            <div id="tier-engineer" class="card-grid card-grid--quarter"></div>
+        </section>
+
+        <section class="panel">
+            <div class="panel__head">
+                <div>
+                    <p class="eyebrow">Monsters</p>
+                    <h2>Monsters</h2>
+                    <p class="small">Units lost from the Monsters section.</p>
+                </div>
+            </div>
+            <div id="tier-monsters" class="card-grid"></div>
+        </section>
+
+        <section class="panel">
+            <div class="panel__head">
+                <div>
+                    <p class="eyebrow">Mercenaries</p>
+                    <h2>Mercenaries</h2>
+                    <p class="small">Add by mercenary type.</p>
+                </div>
+            </div>
+            <div id="tier-mercenaries" class="card-grid card-grid--quarter"></div>
+        </section>
+
+        <section class="panel">
+            <div class="panel__head">
+                <div>
+                    <p class="eyebrow" data-i18n="calculator.summary.eyebrow">Summary</p>
+                    <h2 data-i18n="calculator.summary.title">Totals & copy block</h2>
+                    <p class="small" data-i18n="calculator.summary.sub">Add in any Direct Silver lost as well as any resources.</p>
+                </div>
+            </div>
+
+            <div class="summary-grid">
+                <div class="summary-left">
+                    <div class="summary-inputs">
+                        <div class="field">
+                            <label for="direct-silver" data-i18n="calculator.directSilver">Direct Silver</label>
+                            <input type="number" id="direct-silver" min="0" placeholder="0" inputmode="numeric">
+                        </div>
+                    <div class="resource-grid">
+                        <div class="field">
+                            <label for="res-food" data-i18n="calculator.food">Food</label>
+                            <input type="number" id="res-food" placeholder="0" inputmode="numeric">
+                        </div>
+                        <div class="field">
+                            <label for="res-lumber" data-i18n="calculator.lumber">Lumber</label>
+                            <input type="number" id="res-lumber" placeholder="0" inputmode="numeric">
+                        </div>
+                        <div class="field">
+                            <label for="res-stone" data-i18n="calculator.stone">Stone</label>
+                            <input type="number" id="res-stone" placeholder="0" inputmode="numeric">
+                        </div>
+                        <div class="field">
+                            <label for="res-iron" data-i18n="calculator.iron">Iron</label>
+                            <input type="number" id="res-iron" placeholder="0" inputmode="numeric">
+                        </div>
+                    </div>
+                    </div>
+
+                    <div class="summary-totals">
+                        <div class="totals">
+                            <div>
+                                <p class="label" data-i18n="calculator.silverSubtotal">Silver subtotal</p>
+                                <p class="value" id="silver-subtotal">0</p>
+                            </div>
+                            <div>
+                                <p class="label" data-i18n="calculator.totalLoss">Total loss (with Direct Silver)</p>
+                                <p class="value" id="total-loss">0</p>
+                            </div>
+                        </div>
+                        <div class="actions actions--below">
+                            <button id="calculate-btn" class="btn primary" type="button" data-i18n="calculator.calculate">Calculate</button>
+                            <button id="reset-btn" class="btn ghost" type="button" data-i18n="calculator.reset">Reset inputs</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="summary-output">
+                    <label for="summary-text" data-i18n="calculator.copyLabel">Copy-ready message</label>
+                    <textarea id="summary-text" readonly></textarea>
+                    <button id="copy-btn" class="btn secondary" type="button" data-i18n="calculator.copyButton">Copy summary</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <nav class="page-nav page-nav--bottom" aria-label="Primary">
+        <a class="btn ghost btn-nav" href="index.html" data-i18n="nav.home">Home</a>
+        <a class="btn ghost btn-nav" href="palace.html" data-i18n="nav.palace">Palace</a>
+        <a class="btn ghost btn-nav" href="library.html" data-i18n="nav.library">Library</a>
+        <a class="btn ghost btn-nav is-active" href="calculator.html" aria-current="page" data-i18n="nav.calculator">Calculator</a>
+    </nav>
+
+    <footer class="footer">
+        <p data-i18n="site.footer">Built for K273 by Zee</p>
+        <div class="footer-actions">
+            <a class="btn ghost btn-nav btn-coffee" href="https://buymeacoffee.com/ease.zee" target="_blank" rel="noopener">
+                <span class="btn-coffee__line" data-i18n="support.button.line1">☕ Buy me a coffee!</span>
+                <span class="btn-coffee__line" data-i18n="support.button.line2">(or a beer - heh)</span>
+            </a>
+            <a class="btn ghost btn-nav btn-analytics" href="analytics.html">
+                <span class="btn-analytics__line">SIMPLE</span>
+                <span class="btn-analytics__line">ANALYTICS</span>
+            </a>
+        </div>
+    </footer>
+
+    <script src="js/i18n.js?v=20260302060917193"></script>
+    <script src="js/lang.js"></script>
+    <script src="js/calculator2.js?v=20260302060917193"></script>
+    <script src="js/reset-clock.js"></script>
+</body>
+</html>

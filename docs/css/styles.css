@@ -321,10 +321,89 @@ a {
     gap: 12px;
 }
 
+.base-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 16px;
+}
+
+.base-group:last-child {
+    margin-bottom: 0;
+}
+
+.base-group__title {
+    font-size: 12px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin: 0;
+}
+
+.base-subgroup {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.base-subgroup__title {
+    font-size: 11px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin: 0;
+}
+
+.retrain-grid {
+    display: grid;
+    gap: 8px;
+    overflow-x: auto;
+}
+
+.retrain-grid__row {
+    display: grid;
+    grid-template-columns: minmax(140px, 1.2fr) repeat(9, minmax(32px, 1fr));
+    gap: 8px;
+    align-items: center;
+    min-width: 500px;
+}
+
+.retrain-grid__head {
+    font-size: 12px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--muted);
+}
+
+.retrain-grid__head span {
+    text-align: center;
+}
+
+.retrain-grid__head .retrain-grid__label {
+    text-align: left;
+}
+
+.retrain-grid__label {
+    font-size: 14px;
+    color: var(--text);
+}
+
+.retrain-grid input {
+    padding: 8px;
+    font-size: 13px;
+}
+
 .card-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
     gap: 14px;
+}
+
+@media (min-width: 1100px) {
+    .calculator2 .card-grid--quarter {
+        grid-template-columns: repeat(4, minmax(260px, 1fr));
+    }
 }
 
 .card {
@@ -363,6 +442,11 @@ a {
     font-size: 12px;
 }
 
+.pill--tiny {
+    padding: 2px 6px;
+    font-size: 10px;
+}
+
 .formula {
     font-size: 12px;
     color: var(--muted);
@@ -374,10 +458,88 @@ a {
     gap: 8px;
 }
 
+.level-grid--two {
+    grid-template-columns: repeat(2, minmax(90px, 1fr));
+}
+
 .field {
     display: flex;
     flex-direction: column;
     gap: 6px;
+}
+
+.field__head {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 6px;
+    align-items: flex-start;
+}
+
+.field__pills {
+    display: flex;
+    gap: 4px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.calculator2 .info-wrap {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+}
+
+.calculator2 .info-btn {
+    width: 18px;
+    height: 18px;
+    border-radius: 999px;
+    border: 1px solid var(--stroke);
+    background: var(--panel);
+    color: var(--accent);
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.calculator2 .info-popover {
+    position: absolute;
+    top: 22px;
+    right: 0;
+    min-width: 180px;
+    background: var(--panel-soft);
+    border: 1px solid var(--stroke);
+    border-radius: 10px;
+    padding: 8px 10px;
+    font-size: 12px;
+    color: var(--text);
+    box-shadow: 0 12px 22px rgba(0, 0, 0, 0.3);
+    display: none;
+    z-index: 10;
+}
+
+.calculator2 .info-popover.is-open {
+    display: block;
+}
+
+.calculator2 .info-popover__title {
+    font-size: 11px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin: 0 0 6px 0;
+}
+
+.calculator2 .info-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    gap: 4px;
 }
 
 label {
