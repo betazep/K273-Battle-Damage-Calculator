@@ -84,6 +84,20 @@
 
     const baseCostOrder = [...metadataBaseOrder, ...reviveBaseOrder];
 
+    const defaultVictimReduction = {
+        "1": 50,
+        "2": 50,
+        "3": 50,
+        "4": 50,
+        "5": 50,
+        "6": 50,
+        "7": 60,
+        "8": 70,
+        "9": 80
+    };
+
+    const defaultVictimLevel = "G6";
+
     const retrainCategories = [
         { id: "spearmen", labelKey: "calc.base.spearmen" },
         { id: "archers", labelKey: "calc.base.archers" },
@@ -334,6 +348,7 @@
     );
 
     const baseCostInputs = new Map();
+    const victimReductionInputs = new Map();
     const retrainCostInputs = new Map();
     const reviveLevelInputs = new Map();
     const basePills = new Map();
@@ -634,6 +649,33 @@
         });
     };
 
+    const renderVictimReduction = () => {
+        const container = document.getElementById("victim-reduction");
+        if (!container) return;
+        for (let lvl = 1; lvl <= 9; lvl += 1) {
+            const field = document.createElement("div");
+            field.className = "field";
+
+            const labelEl = document.createElement("label");
+            labelEl.htmlFor = `victim-reduction-g${lvl}`;
+            labelEl.textContent = `G${lvl}`;
+
+            const input = document.createElement("input");
+            input.type = "number";
+            input.min = "0";
+            input.max = "100";
+            input.id = `victim-reduction-g${lvl}`;
+            input.value = defaultVictimReduction[`${lvl}`] ?? 0;
+            input.inputMode = "numeric";
+            input.dataset.noPlus = "true";
+
+            victimReductionInputs.set(`${lvl}`, input);
+
+            field.append(labelEl, input);
+            container.appendChild(field);
+        }
+    };
+
     const renderReviveLevelCosts = (containerId) => {
         const container = document.getElementById(containerId);
         if (!container) return;
@@ -741,6 +783,7 @@
 
     const renderBaseCosts = () => {
         renderBaseCostGroup("base-costs-meta", metadataBaseOrder);
+        renderVictimReduction();
         renderBaseCostGroup("revive-guardsmen", reviveGroups.guardsmen);
         renderBaseCostGroup("revive-specialists", reviveGroups.specialists);
         renderBaseCostGroup("revive-engineer", reviveGroups.engineer);
@@ -992,9 +1035,9 @@
                 const formula = document.createElement("span");
                 formula.className = "formula";
                 if (section.id === "mercenaries") {
-                    formula.textContent = "Count × (75% Revive + 25% Lost-Cost Lvl)";
+                    formula.textContent = "Count × (75% Revive + 25% Lost-Cost × Victim Lvl)";
                 } else {
-                    formula.textContent = "Count × (75% Revive + 25% Train Lvl)";
+                    formula.textContent = "Count × (75% Revive + 25% Train × Victim Lvl)";
                 }
 
                 if (reviveMode === "level") {
@@ -1064,6 +1107,15 @@
         return input ? parseNonNegative(input.value) : 0;
     };
 
+    const getVictimReductionPct = () => {
+        const select = document.getElementById("victim-level");
+        const value = select?.value || defaultVictimLevel;
+        const level = value.replace(/^G/i, "");
+        const input = victimReductionInputs.get(level);
+        const raw = input ? parseNonNegative(input.value) : 0;
+        return Math.min(Math.max(raw, 0), 100);
+    };
+
     const sumFlat = () => {
         const totals = {};
         flatCategories.forEach(({ id }) => {
@@ -1074,16 +1126,17 @@
         return totals;
     };
 
-    const sumTiered = () => {
+    const sumTiered = (reductionPct) => {
         const totals = {};
         const reviveShare = 0.75;
         const retrainShare = 0.25;
+        const reductionMultiplier = 1 - reductionPct / 100;
         tierCategories.forEach(({ id, levels, reviveMode }) => {
             const base = getBase(id);
             let subtotal = 0;
             levels.forEach((lvl) => {
                 const count = parseNonNegative(document.getElementById(`count-${id}-lvl${lvl}`)?.value);
-                const retrainCost = parseNonNegative(retrainCostInputs.get(`${id}-lvl${lvl}`)?.value);
+                const retrainCost = parseNonNegative(retrainCostInputs.get(`${id}-lvl${lvl}`)?.value) * reductionMultiplier;
                 const reviveCost =
                     reviveMode === "level"
                         ? parseNonNegative(reviveLevelInputs.get(`${id}-lvl${lvl}`)?.value)
@@ -1116,7 +1169,7 @@
     const calculate = () => {
         const includeClan = document.getElementById("include-clan")?.checked;
         const flatTotals = sumFlat();
-        const tierTotals = sumTiered();
+        const tierTotals = sumTiered(getVictimReductionPct());
         const clanTotals = sumClan();
         const directSilver = parseNonNegative(document.getElementById("direct-silver")?.value);
 
@@ -1362,6 +1415,11 @@
             if (input) input.value = defaultBaseCosts[id];
         });
 
+        victimReductionInputs.forEach((input, level) => {
+            const value = defaultVictimReduction[level] ?? 0;
+            input.value = value;
+        });
+
         retrainCategories.forEach(({ id }) => {
             retrainColumns.forEach((lvl) => {
                 const input = retrainCostInputs.get(`${id}-lvl${lvl}`);
@@ -1410,6 +1468,8 @@
         document.getElementById("res-lumber").value = "";
         document.getElementById("res-stone").value = "";
         document.getElementById("res-iron").value = "";
+        const victimLevel = document.getElementById("victim-level");
+        if (victimLevel) victimLevel.value = defaultVictimLevel;
 
         calculate();
     };
@@ -1428,6 +1488,12 @@
         document.addEventListener("input", (event) => {
             const target = event.target;
             if (target.tagName === "INPUT") {
+                calculate();
+            }
+        });
+        document.addEventListener("change", (event) => {
+            const target = event.target;
+            if (target.tagName === "SELECT") {
                 calculate();
             }
         });
