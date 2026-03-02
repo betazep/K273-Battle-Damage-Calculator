@@ -60,6 +60,28 @@
         { id: "greenDragon", labelKey: "calc.base.greenDragon" }
     ];
 
+    const reviveGroups = {
+        guardsmen: [
+            { id: "spearmen", labelKey: "calc.base.spearmen" },
+            { id: "archers", labelKey: "calc.base.archers" },
+            { id: "riders", labelKey: "calc.base.riders" },
+            { id: "griffins", labelKey: "calc.base.griffins" }
+        ],
+        specialists: [
+            { id: "specialists", labelKey: "calc.base.specialists" },
+            { id: "spies", labelKey: "calc.base.spies" },
+            { id: "specialistRanged", labelKey: "calc.base.specialistRanged" },
+            { id: "specialistMounted", labelKey: "calc.base.specialistMounted" },
+            { id: "specialistFlying", labelKey: "calc.base.specialistFlying" }
+        ],
+        engineer: [{ id: "catapults", labelKey: "calc.base.catapults" }],
+        mercenaries: [
+            { id: "mercGuard", labelKey: "calc.base.mercGuard" },
+            { id: "werregal", labelKey: "calc.base.werregal" },
+            { id: "greenDragon", labelKey: "calc.base.greenDragon" }
+        ]
+    };
+
     const baseCostOrder = [...metadataBaseOrder, ...reviveBaseOrder];
 
     const retrainCategories = [
@@ -81,6 +103,34 @@
         { id: "werregal", labelKey: "calc.base.werregal" },
         { id: "greenDragon", labelKey: "calc.base.greenDragon" }
     ];
+
+    const trainGroups = {
+        guardsmen: [
+            { id: "spearmen", labelKey: "calc.base.spearmen" },
+            { id: "archers", labelKey: "calc.base.archers" },
+            { id: "riders", labelKey: "calc.base.riders" },
+            { id: "griffins", labelKey: "calc.base.griffins" }
+        ],
+        specialists: [
+            { id: "specialists", labelKey: "calc.base.specialists" },
+            { id: "spies", labelKey: "calc.base.spies" },
+            { id: "specialistRanged", labelKey: "calc.base.specialistRanged" },
+            { id: "specialistMounted", labelKey: "calc.base.specialistMounted" },
+            { id: "specialistFlying", labelKey: "calc.base.specialistFlying" }
+        ],
+        engineer: [{ id: "catapults", labelKey: "calc.base.catapults" }],
+        monsters: [
+            { id: "dragons", labelKey: "calc.base.dragons" },
+            { id: "elementals", labelKey: "calc.base.elementals" },
+            { id: "giants", labelKey: "calc.base.giants" },
+            { id: "beasts", labelKey: "calc.base.beasts" }
+        ],
+        mercenaries: [
+            { id: "mercGuard", labelKey: "calc.base.mercGuard" },
+            { id: "werregal", labelKey: "calc.base.werregal" },
+            { id: "greenDragon", labelKey: "calc.base.greenDragon" }
+        ]
+    };
 
     const standardLevels = ["1", "2", "3", "4", "5", "6", "7"];
     const extendedLevels = [...standardLevels, "8", "9"];
@@ -533,15 +583,15 @@
         });
     };
 
-    const renderReviveLevelCosts = () => {
-        const container = document.getElementById("revive-level-costs");
+    const renderReviveLevelCosts = (containerId) => {
+        const container = document.getElementById(containerId);
         if (!container) return;
 
         const header = document.createElement("div");
         header.className = "retrain-grid__row retrain-grid__head";
         const headerLabel = document.createElement("span");
         headerLabel.className = "retrain-grid__label";
-        headerLabel.textContent = "Unit";
+        headerLabel.textContent = "";
         header.appendChild(headerLabel);
         retrainColumns.forEach((lvl) => {
             const cell = document.createElement("span");
@@ -583,15 +633,15 @@
         });
     };
 
-    const renderRetrainCosts = () => {
-        const container = document.getElementById("base-costs-retrain");
+    const renderTrainCosts = (containerId, categories) => {
+        const container = document.getElementById(containerId);
         if (!container) return;
 
         const header = document.createElement("div");
         header.className = "retrain-grid__row retrain-grid__head";
         const headerLabel = document.createElement("span");
         headerLabel.className = "retrain-grid__label";
-        headerLabel.textContent = "Troop";
+        headerLabel.textContent = "";
         header.appendChild(headerLabel);
         retrainColumns.forEach((lvl) => {
             const cell = document.createElement("span");
@@ -600,7 +650,7 @@
         });
         container.appendChild(header);
 
-        retrainCategories.forEach(({ id, labelKey }) => {
+        categories.forEach(({ id, labelKey }) => {
             const row = document.createElement("div");
             row.className = "retrain-grid__row";
             const allowedLevels = new Set(getLevelsForCategory(id));
@@ -640,9 +690,16 @@
 
     const renderBaseCosts = () => {
         renderBaseCostGroup("base-costs-meta", metadataBaseOrder);
-        renderBaseCostGroup("base-costs-revive", reviveBaseOrder);
-        renderReviveLevelCosts();
-        renderRetrainCosts();
+        renderBaseCostGroup("revive-guardsmen", reviveGroups.guardsmen);
+        renderBaseCostGroup("revive-specialists", reviveGroups.specialists);
+        renderBaseCostGroup("revive-engineer", reviveGroups.engineer);
+        renderBaseCostGroup("revive-mercenaries", reviveGroups.mercenaries);
+        renderReviveLevelCosts("revive-monsters");
+        renderTrainCosts("train-guardsmen", trainGroups.guardsmen);
+        renderTrainCosts("train-specialists", trainGroups.specialists);
+        renderTrainCosts("train-engineer", trainGroups.engineer);
+        renderTrainCosts("train-monsters", trainGroups.monsters);
+        renderTrainCosts("train-mercenaries", trainGroups.mercenaries);
     };
 
     const renderClanBaseCosts = () => {
@@ -701,11 +758,11 @@
         trainPills.forEach((pill, key) => {
             const input = retrainCostInputs.get(key);
             if (input?.disabled) {
-                pill.textContent = "T:N/A";
+                pill.textContent = pill.dataset.pillPrefix === "LC" ? "LC:N/A" : "T:N/A";
                 return;
             }
             const value = input ? formatInteger(parseNonNegative(input.value)) : "0";
-            pill.textContent = `T:${value}`;
+            pill.textContent = pill.dataset.pillPrefix === "LC" ? `LC:${value}` : `T:${value}`;
         });
     };
 
@@ -883,7 +940,11 @@
                 meta.className = "card__meta";
                 const formula = document.createElement("span");
                 formula.className = "formula";
-                formula.textContent = "Count × (75% Revive + 25% Train Lvl)";
+                if (section.id === "mercenaries") {
+                    formula.textContent = "Count × (75% Revive + 25% Lost-Cost Lvl)";
+                } else {
+                    formula.textContent = "Count × (75% Revive + 25% Train Lvl)";
+                }
 
                 if (reviveMode === "level") {
                     if (section.id !== "monsters") {
@@ -924,7 +985,8 @@
 
                     const trainPill = document.createElement("span");
                     trainPill.className = "pill pill--tiny";
-                    trainPill.textContent = "T:0";
+                    trainPill.dataset.pillPrefix = section.id === "mercenaries" ? "LC" : "T";
+                    trainPill.textContent = section.id === "mercenaries" ? "LC:0" : "T:0";
                     trainPills.set(`${id}-lvl${lvl}`, trainPill);
                     pillWrap.appendChild(trainPill);
 
