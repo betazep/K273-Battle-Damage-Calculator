@@ -1,212 +1,114 @@
-Per ordine del Re Arihelm, il seguente ROE è in vigore per il regno:
+Per ordine del Re Pchelovod, il seguente ROE è in vigore per il regno.
 
-Benvenuti a K273, Total Battle Legends!
-Questo server è la casa di migliaia di giocatori da tutto il mondo, e ciò che lo rende grande non sono solo le battaglie, ma le persone dietro di esse.
-Sostenete i vostri compagni di squadra, rispettatevi a vicenda, aiutate i nuovi giocatori a trovare il loro posto e godetevi il gioco insieme.
+## Accordo generale dei giocatori K273
 
-Ai nostri veterani: rispetto per aver mantenuto la linea.
-Ai nostri nuovi arrivati: equipaggiatevi - ora fate parte di qualcosa di enorme.
-Migliaia combattono qui, ma solo i coraggiosi lasciano il segno.
-State saldi, combattete con intelligenza e che il vostro nome riecheggi in tutto il server. Grazie per essere qui.
-
-### Accordo generale dei giocatori K273
-
-1. Il Regno K273 segue l'accordo IKFPA stabilito durante il regno del Re Arcadia e si aspetta che ogni membro lo rispetti, soprattutto dopo l'apertura del regno.
+1. Il Regno K273 segue l'accordo IKFPA stabilito durante il regno del Re Arcadia e si aspetta che ogni membro lo rispetti, soprattutto dopo l'apertura del Regno.
 2. Il ROE è effettivo immediatamente e può essere modificato.
-3. Ogni modifica avrà un buffer di 24 ore in modo che gli altri possano adattarsi attraverso diversi fusi orari.
-4. Per favore rispettate tutti con cui entrate in contatto.
-5. C'è una politica di tolleranza zero contro linguaggio razzista, odioso, dispregiativo o minaccioso.
+3. Ogni emendamento avrà un margine di 24 ore affinché gli altri possano adattarsi nei vari fusi orari.
+4. Per favore, rispettate tutti con cui entrate in contatto.
+5. C'è una politica di tolleranza zero contro linguaggio razzista, d'odio, denigratorio o minaccioso.
 6. Le violazioni possono essere segnalate al Re/Regina o alla Mano del Re.
 7. Possono essere assegnati un titolo negativo e/o lo status di fuorilegge.
-8. Le minacce sono prese molto seriamente, così come il bullismo, perché sono contro le regole del Codice di Condotta TOTAL BATTLE. La chat del regno è un luogo in cui tutti devono sentirsi benvenuti.
+8. Le minacce sono prese molto sul serio, così come il bullismo, poiché sono contro le regole del Codice di Condotta di TOTAL BATTLE. La chat del Regno è un luogo in cui tutti devono sentirsi benvenuti.
 
-### Regole dell'Inter-Kingdom Fair Play Agreement (IKFPA)
+## Funzionari del Regno - Il Palazzo
 
-Questi sono accordi generali tra diversi regni per quando K273 apre... non sono regole rigide ma i regni sono incoraggiati a rispettarle.
-
-1. Nessun discorso di odio
-2. Nessun attacco a edifici di clan, portali commemorativi o giocatori sotto 100K di potenza
-3. TUTTE le tessere RSS sono protette dagli attacchi eccetto durante eventi PvP. Gli eventi PvP sono: CoT, KvK, War Tools, Gold / Silver Rush, War Games, Lava Trials, (NON include specificamente Ruthless Slaughter).
-4. Gli attacchi ai forti di altri regni dichiarano immediatamente lo status di fuorilegge secondo il ROE del regno
-5. Compensazione per violazioni concordata entro <48 ore (IKFPA non è applicato da alcuna singola entità)
-
-### Funzionari del Regno - Il Palazzo
-
-- Il Palazzo è responsabile del mantenimento dell'onore, dell'integrità e della pace dentro K273 e con gli altri regni.
+- Il Palazzo è responsabile di mantenere onore, integrità e pace all'interno di K273 e con altri regni.
 - Il Re è eletto per rappresentare i cittadini di K273 e presiedere il palazzo.
 - La Regina e la Mano del Re sono responsabili di coordinare gli affari del regno e possono parlare a nome del Re in sua assenza.
 - Il Re, la Regina e la Mano del Re sono responsabili della gestione del tesoro per conto dei giocatori del regno.
-- La Regina e la Mano del Re devono essere di clan diversi
 
-### Obblighi dei leader di clan
+## Obblighi dei Leader di Clan
 
-Tutti i leader di clan devono adempiere ai loro obblighi come leader:
+Tutti i leader di clan devono adempiere ai propri obblighi come leader:
 
 - Rispettare il ROE (Rules of Engagement).
 - Assicurare che i loro membri rispettino e seguano il ROE.
-- Educare i loro membri per supportare la crescita e l'unità del regno.
-- Un leader che non rispetta questi impegni sarà dichiarato Fuorilegge. >=D
-- I leader sono l'esempio e lo standard del regno e le loro azioni indicano la strada per tutti i membri.
+- Educare i propri membri per sostenere la crescita e l'unità del regno.
+- Un leader che non rispetta questi impegni sarà dichiarato Fuorilegge.
+- I leader sono l'esempio e lo standard del regno, e le loro azioni tracciano la strada che tutti i membri devono seguire.
 
-### 1. TEMPO DI PACE
+=========================
 
-- Gli attacchi alle città sono vietati eccetto durante CoT e scambi CP pianificati.
-- Gli attacchi agli edifici di clan sono proibiti.
-- I portali non possono essere attaccati durante il tempo di pace. I portali ostili possono essere attaccati in qualsiasi momento indipendentemente dalla posizione. I portali ostili includono attacchi a edifici di clan, membri e tutte le risorse di gioco (incluse le risorse degli eventi stagionali). Attaccare portali in territori di clan per attività di clan non è consentito a meno che siano ostili. Il regno è aperto, fate attenzione a lasciare i vostri portali aperti in ogni momento.
+## 1. TEMPO DI PACE
+
+- Gli attacchi alle città sono proibiti, tranne durante CoT e gli scambi CP pianificati.
+- Gli attacchi agli edifici del clan sono proibiti.
+- I portali non possono essere attaccati durante il tempo di pace. I portali ostili possono essere attaccati in qualsiasi momento indipendentemente dalla posizione. I portali ostili includono attacchi agli edifici del clan, ai membri e a tutte le risorse di gioco (incluse le risorse degli eventi stagionali). Attaccare portali nei territori dei clan per attività del clan non è consentito a meno che siano ostili. Il regno è aperto, fate attenzione a lasciare i vostri portali aperti in ogni momento.
 - Lo scouting è una forma di aggressione ed è illegale durante il tempo di pace.
-- Se vieni attaccato. Indipendentemente dalla loro potenza, puoi attaccare chiunque in qualsiasi momento. Ciò significa che se un giocatore con 1,000,000 di potenza attacca un giocatore con 50,000,000 di potenza, il giocatore con 50,000,000 di potenza ha pieno diritto di contrattaccare se lo desidera.
+- Se vieni attaccato. Indipendentemente dalla loro potenza, puoi attaccare chiunque in qualsiasi momento. Significa che se un giocatore da 1.000.000 di potenza attacca un giocatore da 50.000.000 di potenza, il giocatore da 50.000.000 ha pieno diritto di contrattaccare se lo desidera.
 
-### 2. CLAN E DIPLOMATICI
+## 2. CLAN E DIPLOMATI
 
-- I clan dovrebbero indicare "We abide by K273 ROE" per essere serviti dal regno e protetti dal ROE.
-- I clan devono identificare almeno un diplomatico all'inizio della descrizione del clan che possa assistere nella risoluzione delle controversie. I diplomatici devono essere un leader attivo o superiore.
+- I clan devono dichiarare “We abide by K273 ROE” (o simile) per essere serviti dal regno e protetti dal ROE.
+- I clan devono identificare almeno un diplomatico nella parte superiore della descrizione del clan che possa aiutare nella risoluzione delle dispute. I diplomatici devono essere un leader attivo o superiore.
 
-### 3. Regole generali
+## 3. Regole Generali
 
 - Tutti gli edifici di risorse all'interno del territorio del clan appartengono a quel clan. Questo include le risorse degli eventi stagionali.
-- Le risorse create dai giocatori appartengono all'individuo che le ha create, a meno che non sia concordata una condivisione tra due parti.
+- Le risorse create dal giocatore appartengono all'individuo che le ha create, a meno che non si concordi di condividere tra due parti.
 - Le cripte rare appartengono all'individuo che le ha sbloccate.
-- WS e DMs:
-  a. Non esiste un sistema di registrazione.
 
-  b. Tutti gli edifici di risorse selvaggi (inclusi DM/WS) sono first come, first serve (FCFS).
+WS e DMs
 
-  c. Le rivendicazioni non possono essere fatte se vieni scoutato/attaccato in risorse selvagge a meno che:
+- Non esiste un sistema di registrazione.
+- Tutti gli edifici di risorse selvatiche (inclusi DM/WS) sono in ordine di arrivo (FCFS).
+- Non si possono avanzare reclami se sei scoutato/attaccato nelle risorse selvatiche a meno che:
+1. Tu perda la risorsa.
+2. Tu venga scoutato/attaccato e poi attaccato di nuovo. (regola 2x)
+- È tua responsabilità contattare il tuo diplomatico, l'altro giocatore e il diplomatico/leader del clan avversario se qualcuno ti scauta o ti attacca in una miniera.
 
-  - Perdi la risorsa.
-  - Vieni scoutato/attaccato e poi attaccato di nuovo. (regola 2x)
+## 4. GUIDA ALLA COMPENSAZIONE DEL PALAZZO
 
-  d. È tua responsabilità messaggiare il tuo diplomatico, l'altro giocatore e il diplomatico/capo clan avversario se qualcuno ti scouta o ti attacca in una miniera.
+Consulta il sito k273tb . xyz per la calcolatrice ufficiale di compensazione.
 
-### 4. GUIDA ALLA COMPENSAZIONE DEL PALAZZO
+## 5. TASSE
 
-Consulta k273tb . xyz per il calcolatore di compensazione
+Non esiste la riscossione delle tasse della Guardia Reale. I clan dovrebbero nominare qualcuno per ricordare ai giocatori di inviare tutte le barre d'oro come tasse. Inviare le tasse ogni giorno quando accedi e quando esci è una buona pratica. Le barre d'oro non hanno valore per te personalmente.
 
-Ogni attacco illegale o scouting comporta un costo base di 1 milione d'argento. Qualsiasi perdita aggiuntiva, danno o risorsa rubata viene aggiunta a questo costo base.
-
-RSS: quantità pari alla quantità rubata
-
-Oro: 1 Oro = 3,000 Argento o miniere d'oro pari al rubato + 10% (a decisione della vittima)
-
-Tar: 1 Tar = 1,000 Argento
-
-Lingotti d'oro = nessuna compensazione
-
-Portale chiuso illegalmente: 1M argento (+1M per l'attacco illegale stesso)
-
-Il danno è calcolato secondo la seguente formula: Il danno delle truppe perse è calcolato secondo la seguente formula:
-
-Eroe= 1.5k
-
-Capitano= 1k
-
-Lancieri, Arcieri = Livello truppe x 40
-
-Specialisti, Cavalieri = Livello truppe x 80
-
-Spie= Livello truppe x 100
-
-Grifoni= Livello truppe x 800
-
-Catapulte, Mura Livello mura x 200
-
-Mostri III-VII (Livello mostro - 2) x1.3k
-
-Mostri I & ll=x 8.64k
-
-Guardia mercenaria Livello truppe x120
-
-Mostro mercenario = Livello mostro x 3k
-
-### FORTI
-
-Scouting = 5 milioni d'argento
-
-Attacco senza distruzione = 10 milioni d'argento
-
-Attacco e distruzione = 20 milioni di ciascuno: Argento, Ferro, Legno, Pietra
-
-### CAPITALI
-
-Scouting = 5 milioni d'argento
-
-Attacco senza distruzione = 10 milioni d'argento
-
-Attacco e distruzione = 50 milioni di ciascuno: Argento, Ferro, Legno, Pietra
-
-### 5. TASSE
-
-Le città con oltre 3 giorni di lingotti accumulati possono essere attaccate da un membro della Guardia Reale senza preavviso. Potresti essere scoutato prima e poi le tasse vengono raccolte. Invia le tasse ogni giorno quando accedi ed esci come buona pratica. I lingotti d'oro non hanno valore personale per te, ma il Re e il Palazzo possono usarli per attivare bonus per l'intero regno. Se abbiamo le barre d'oro, verranno utilizzate a beneficio di K273.
-Massimi lingotti d'oro per città:
-- Città 1-9: 2000 Lingotti
-- Città 10-19: 3000 Lingotti
-- Città 20-24: 10000 Lingotti
-- Città 25-29: 35000 Lingotti
-- Città 30-34: 60000 Lingotti
-- Città 35-39: 70000 Lingotti
-- Città 40+: 90000 Lingotti
-
-### 6. Membri del Regno Stimato
+## 6. Membri del Regno Stimato
 
 Ogni giocatore deve rispettare queste regole per essere protetto dal ROE.
 
 I giocatori non protetti sono:
-FUORILEGGE
-GIOCATORI SENZA CLAN (la maggior parte)
-MEMBRI NON-ROE
+- FUORILEGGE
+- GIOCATORI SENZA CLAN (sopra 100k)
+- MEMBRI NON-ROE
 
 Giocatori senza clan protetti
-Tutti i giocatori con 100k di potenza o meno sono protetti e non devono essere attaccati liberamente. Le interazioni con giocatori senza clan dovrebbero prima servire a conoscere loro e i loro obiettivi nel gioco. Poi incoraggiateli a unirsi a un clan. Favorisci la crescita nel gioco e gioca per il regno invece che per ricompense personali.
 
-### Stato di fuorilegge
+Tutti i giocatori con 100k di potenza o meno sono protetti e non devono essere attaccati liberamente.
 
-L'autorità di dichiarare un cittadino o un clan Fuorilegge, o revocare uno status di Fuorilegge esistente, spetta esclusivamente ai seguenti poteri del Regno:
-Il Re, supremo guardiano dell'ordine e della giustizia.
-La Mano del Re, che agisce come rappresentante diretto dell'autorità reale.
-La Regina, come co-titolare dell'autorità reale.
-Il Capo Giudice del Tribunale del Regno, in virtù del suo ruolo di guardiano della giustizia.
-Nessun altro attore del Regno può, senza un mandato esplicito concesso da una di queste autorità, dichiarare un cittadino o un clan fuorilegge. Qualsiasi dichiarazione emessa da un attore non autorizzato sarà nulla e priva di effetto.
+Le interazioni con i giocatori senza clan dovrebbero prima essere per conoscerli e i loro obiettivi nel gioco. Poi, incoraggiarli a unirsi a un clan. Favorire la crescita nel gioco e giocare per il regno invece che per ricompensa personale.
 
-### Guardia Reale
+## 7. Clash of Thrones CoT
 
-La Guardia Reale è composta da molti clan e ha membri di vari livelli. I doveri della RG continueranno le loro normali mansioni come la raccolta delle tasse e l'applicazione per il Palazzo. Agiranno anche come un esercito d'élite e un'unità di pattuglia e difesa del regno/territorio. Sono la punta di lancia del regno e sono qui per assistere i clan che hanno problemi con giocatori e fuorilegge.
-
-### 7. Clash of Thrones CoT
-
-Durante, puoi esplorare e attaccare città alle seguenti condizioni:
-
-Nessun attacco a forti di clan: Attaccare forti o edifici di un altro clan è strettamente proibito.
-
-Gestione delle risorse:
-Mantieni le risorse basse durante l'evento per evitare furti; invia truppe ai forti se necessario. Pratica No Value City (NVC)
-
-"Gioco leale":
-- Regole portali CoT: Nessuna restrizione
+Nessun attacco ai forti di clan: attaccare i forti o gli edifici di un altro clan è severamente vietato.
+---
+Durante, puoi scautare e attaccare città alle seguenti condizioni:
+"Fair Play":
+- Regole dei portali CoT: nessuna restrizione
 - Si applica la regola del 50%.
-- Se vieni attaccato. Indipendentemente dalla loro potenza, hai il diritto di attaccare chiunque. Ciò significa che se un giocatore con 1,000,000 di potenza attacca un giocatore con 50,000,000 di potenza, il giocatore con 50,000,000 di potenza ha pieno diritto di contrattaccare se lo desidera.
+- Se vieni attaccato. Indipendentemente dalla loro potenza, puoi attaccare chiunque. Significa che se un giocatore da 1.000.000 di potenza attacca un giocatore da 50.000.000 di potenza, il giocatore da 50.000.000 ha pieno diritto di contrattaccare se lo desidera.
+---
+Gestione delle risorse:
+Mantieni le risorse basse durante l'evento per evitare furti; invia truppe ai forti se necessario. Pratica No Value City (NVC) o usa uno scudo.
 
-### 8. Processo di risoluzione dei conflitti
+## 8. Processo di Risoluzione dei Conflitti
 
 Quando il ROE viene violato, devono essere seguiti i seguenti passaggi:
- - Contatta l'altro giocatore per cercare di risolvere. Se non c'è soluzione entro 24 ore, fai escalation al tuo diplomatico di clan.
- - Se non si raggiunge una soluzione tra i diplomatici di clan, possono portare la questione alla Corte pubblicandola in #K273/CLAIMS. Solo i leader di clan o i diplomatici possono pubblicare reclami in questa chat.
- - I giudici stabiliranno la parte colpevole (se presente) e un importo accettabile di compensazione.
- - Se la parte colpevole (o il suo clan) si rifiuta di compensare, l'Archon o il Capo Giudice determinerà se il giocatore o il clan deve essere dichiarato Fuorilegge e la Guardia Reale sarà attivata in standby.
+- Contatta l'altro giocatore per cercare di risolvere. Se non c'è risoluzione entro 24 ore, passa al tuo diplomatico di clan.
+- Se non si raggiunge una risoluzione tra i diplomatici di clan, possono portare la questione davanti al Tribunale pubblicandola in #K273/CLAIMS. Solo i leader di clan o i diplomatici sono autorizzati a pubblicare reclami in questa chat.
+- I giudici decideranno per definire la parte colpevole (se presente) e un importo accettabile di compensazione.
+- Se la parte colpevole (o il suo clan) si rifiuta di compensare, l'Archon o il Capo Giudice determinerà se il giocatore o il clan deve essere dichiarato Fuorilegge e la Guardia Reale sarà attivata in stand-by.
 
-### 9. Chat del regno a cui unirsi
+## 9. Chat del Regno a cui Unirsi
 
-#K273/ROE
-
-SPAM ZONE
-
-#K273/CLAIMS
-
-#K273/OUTLAWS
-
-~#K273/CPTHUNDERDOME
-
-~#K273/ACADEMY
-
-K273 TB Library
-
-k273tb
+- 273 ROE
+- #K273/CLAIMS
+- #K273/OUTLAWS
+- SPAM ZONE
+- ~#K273/CPTHUNDERDOME
+- ~#K273/ACADEMY
+- K273 TB Library
+- k273tb
