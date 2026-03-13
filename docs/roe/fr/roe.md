@@ -28,7 +28,7 @@ Tous les chefs de clan doivent remplir leurs obligations en tant que dirigeants 
 - Un chef qui manque à ces engagements sera déclaré hors-la-loi.
 - Les chefs sont l'exemple et la norme du royaume, et leurs actions montrent la voie à suivre pour tous les membres.
 
-## ============ RULES ============
+## ============ RÈGLES ============
 
 ## 1. TEMPS DE PAIX
 

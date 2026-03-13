@@ -28,7 +28,7 @@ Alle Clanführer müssen ihre Pflichten als Anführer erfüllen:
 - Ein Anführer, der diese Verpflichtungen nicht erfüllt, wird zum Outlaw erklärt.
 - Anführer sind das Beispiel und der Maßstab des Königreichs, und ihre Handlungen weisen den Weg, dem alle Mitglieder folgen.
 
-## ============ RULES ============
+## ============ REGELN ============
 
 ## 1. FRIEDENSZEIT
 

@@ -28,7 +28,7 @@ Alle klanledere må oppfylle sine forpliktelser som ledere:
 - En leder som ikke oppfyller disse forpliktelsene, skal erklæres fredløs.
 - Ledere er eksempelet og standarden i kongeriket, og deres handlinger viser veien som alle medlemmer skal følge.
 
-## ============ RULES ============
+## ============ REGLER ============
 
 ## 1. FREDSTID
 

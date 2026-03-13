@@ -28,7 +28,7 @@ Svi vođe klanova moraju ispuniti svoje obveze kao vođe:
 - Vođa koji ne ispuni te obveze bit će proglašen odmetnikom.
 - Vođe su primjer i standard kraljevstva, a njihove radnje postavljaju put kojim svi članovi trebaju slijediti.
 
-## ============ RULES ============
+## ============ PRAVILA ============
 
 ## 1. MIRNO VRIJEME
 

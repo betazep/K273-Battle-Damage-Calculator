@@ -28,7 +28,7 @@ Todos los líderes de clan deben cumplir sus obligaciones como líderes:
 - Un líder que incumpla estos compromisos será declarado Proscrito.
 - Los líderes son el ejemplo y el estándar del reino, y sus acciones marcan el camino para que todos los miembros lo sigan.
 
-## ============ RULES ============
+## ============ REGLAS ============
 
 ## 1. TIEMPO DE PAZ
 

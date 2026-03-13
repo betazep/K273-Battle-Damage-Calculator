@@ -28,7 +28,7 @@ Tutti i leader di clan devono adempiere ai propri obblighi come leader:
 - Un leader che non rispetta questi impegni sarà dichiarato Fuorilegge.
 - I leader sono l'esempio e lo standard del regno, e le loro azioni tracciano la strada che tutti i membri devono seguire.
 
-## ============ RULES ============
+## ============ REGOLE ============
 
 ## 1. TEMPO DI PACE
 

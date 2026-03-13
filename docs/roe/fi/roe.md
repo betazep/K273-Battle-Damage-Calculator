@@ -28,7 +28,7 @@ Kaikkien klaanijohtajien on täytettävä velvollisuutensa johtajina:
 - Johtaja, joka ei täytä näitä sitoumuksia, julistetaan lainsuojattomaksi.
 - Johtajat ovat kuningaskunnan esimerkki ja standardi, ja heidän toimintansa näyttävät polun, jota kaikkien jäsenten tulee seurata.
 
-## ============ RULES ============
+## ============ SÄÄNNÖT ============
 
 ## 1. RAUHANAIKA
 

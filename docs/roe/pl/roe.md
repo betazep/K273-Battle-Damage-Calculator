@@ -28,7 +28,7 @@ Wszyscy liderzy klanów muszą wypełniać swoje obowiązki jako liderzy:
 - Lider, który nie spełnia tych zobowiązań, zostanie uznany za Wyjętego spod prawa.
 - Liderzy są przykładem i standardem królestwa, a ich działania wyznaczają drogę wszystkim członkom.
 
-## ============ RULES ============
+## ============ ZASADY ============
 
 ## 1. CZAS POKOJU
 

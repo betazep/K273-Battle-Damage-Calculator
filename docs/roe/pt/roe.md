@@ -28,7 +28,7 @@ Todos os líderes de clã devem cumprir suas obrigações como líderes:
 - Um líder que falhar nesses compromissos será declarado Fora-da-lei.
 - Os líderes são o exemplo e o padrão do reino, e suas ações definem o caminho para todos os membros.
 
-## ============ RULES ============
+## ============ REGRAS ============
 
 ## 1. TEMPO DE PAZ
 

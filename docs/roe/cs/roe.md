@@ -28,7 +28,7 @@ Všichni vůdci klanů musí plnit své povinnosti jako vůdci:
 - Vůdce, který nesplní tyto závazky, bude prohlášen za psance.
 - Vůdci jsou příkladem a standardem království a jejich činy určují cestu, kterou by měli všichni členové následovat.
 
-## ============ RULES ============
+## ============ PRAVIDLA ============
 
 ## 1. MÍR
 

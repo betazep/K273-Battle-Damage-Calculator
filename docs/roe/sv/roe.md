@@ -28,7 +28,7 @@ Alla klanledare måste uppfylla sina skyldigheter som ledare:
 - En ledare som inte uppfyller dessa åtaganden ska förklaras fredlös.
 - Ledare är rikets exempel och standard, och deras handlingar visar vägen för alla medlemmar.
 
-## ============ RULES ============
+## ============ REGLER ============
 
 ## 1. FREDSTID
 

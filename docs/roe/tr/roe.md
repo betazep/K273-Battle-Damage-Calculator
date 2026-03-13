@@ -28,7 +28,7 @@ Tüm klan liderleri lider olarak yükümlülüklerini yerine getirmelidir:
 - Bu taahhütleri yerine getirmeyen bir lider kanun kaçağı ilan edilir.
 - Liderler krallığın örneği ve standardıdır; eylemleri tüm üyelerin izlemesi gereken yolu belirler.
 
-## ============ RULES ============
+## ============ KURALLAR ============
 
 ## 1. BARIŞ ZAMANI
 
