@@ -28,13 +28,13 @@ Všichni vůdci klanů musí plnit své povinnosti jako vůdci:
 - Vůdce, který nesplní tyto závazky, bude prohlášen za psance.
 - Vůdci jsou příkladem a standardem království a jejich činy určují cestu, kterou by měli všichni členové následovat.
 
-=========================
+## ============ RULES ============
 
 ## 1. MÍR
 
 - Útoky na města jsou zakázány, kromě CoT a plánovaných CP výměn.
-- Útoky na klanové budovy jsou zakázány.
-- Portály nesmí být napadány během míru. Nepřátelské portály mohou být napadány kdykoli bez ohledu na lokaci. Nepřátelské portály zahrnují útoky na klanové budovy, členy a všechny herní zdroje (včetně zdrojů sezónních událostí). Útok na portály v klanových teritoriích pro klanové aktivity není povolen, pokud nejsou nepřátelské. Království je otevřené, buďte opatrní při ponechání portálů otevřených po celou dobu.
+- Útoky na klanové budovy jsou VŽDY zakázány.
+- Portály nesmí být napadány během míru. Království je otevřené, buďte opatrní při ponechání portálů otevřených po celou dobu.
 - Skauting je forma agrese a je během míru nelegální.
 - Pokud jste napadeni. Bez ohledu na jejich sílu můžete kdykoli zaútočit zpět. To znamená, že pokud hráč s 1 000 000 síly napadne hráče s 50 000 000 síly, hráč s 50 000 000 má plné právo se bránit, pokud chce.
 
@@ -43,28 +43,41 @@ Všichni vůdci klanů musí plnit své povinnosti jako vůdci:
 - Klan by měl uvádět "We abide by K273 ROE" (nebo podobně), aby byl obsluhován královstvím a chráněn ROE.
 - Klan musí identifikovat alespoň jednoho diplomata na začátku popisu klanu, který může pomoci při řešení sporů. Diplomaté musí být aktivní vůdce nebo vyšší.
 
-## 3. Obecná pravidla
+## 3. RSS
 
-- Všechny budovy zdrojů v území klanu patří tomuto klanu. To zahrnuje i zdroje sezónních událostí.
+- Všechny budovy zdrojů v území klanu patří tomuto klanu. To zahrnuje i zdroje sezónních událostí. Můžete útočit, abyste odstranili lidi ze zdrojů v území klanu.
 - Zdroje vytvořené hráčem patří tomu, kdo je vytvořil, pokud není dohodnuto sdílení mezi dvěma stranami.
 - Vzácné krypty patří tomu, kdo je odemkl.
 
-WS a DMs
+--
 
-- Neexistuje žádný registrační systém.
-- Všechny divoké zdrojové budovy (včetně DM/WS) jsou na principu první přišel, první bere (FCFS).
-- Nároky nelze uplatnit, pokud jste skautováni/napadeni ve volných zdrojích, ledaže:
+WS a DMs:
+
+- a. Neexistuje žádný registrační systém.
+- b. Všechny divoké zdrojové budovy, včetně DM/WS, jsou na principu první přišel, první bere (FCFS). To znamená, že musíte nechat obsazené divoké zdroje na pokoji.
+- c. Závodní podmínky: Nároky nelze uplatnit, pokud jste skautováni/napadeni ve volných zdrojích, ledaže:
 1. Ztratíte zdroj.
 2. Budete skautováni/napadeni a poté napadeni znovu. (pravidlo 2x)
-- Je vaší odpovědností informovat svého diplomata, druhého hráče a diplomata/vůdce protivníkového klanu, pokud vás někdo skautuje nebo napadá v dole.
+- d. Je vaší odpovědností informovat svého diplomata, druhého hráče a diplomata/vůdce protivníkového klanu, pokud vás někdo skautuje nebo napadá ve volných RSS.
 
-## 4. PRŮVODCE KOMPENZACÍ PALÁCE
-
-Podívejte se na web k273tb . xyz pro oficiální kalkulačku kompenzací.
-
-## 5. DANĚ
+## 4. DANĚ
 
 Neexistuje žádný výběr daní Královskou stráží. Klan by měl jmenovat někoho, kdo bude hráčům připomínat, aby posílali všechny zlaté cihly jako daně. Posílání daní každý den při přihlášení a odhlášení je dobrá praxe. Zlaté cihly pro vás osobně nemají žádnou hodnotu.
+
+## 5. Clash of Thrones CoT
+
+- Toto je jediný turnaj hráč proti hráči.
+- Žádné útoky na klanové pevnosti: Útočení na pevnosti nebo budovy jiného klanu je vždy přísně zakázáno.
+---
+Během CoT můžete skautovat a útočit za následujících podmínek:
+- Pravidla portálů: portály v době míru - žádné útoky.
+- Pravidla měst: Platí pravidlo 50 %. Nechránění hráči s polovinou vaší síly nebo více se účastní CoT.
+- Pokud jste napadeni. Bez ohledu na jejich sílu můžete zaútočit zpět. To znamená, že pokud hráč s 1 Milion síly napadne hráče s 50 Milionů síly, hráč s 50 Milionů má plné právo se bránit, pokud chce.
+---
+Doporučené řízení ztrát:
+- Procvičujte No Value City (NVC) - nebo použijte štít, pokud se neúčastníte.
+- Udržujte zdroje nízko během události, abyste předešli ztrátám; v případě potřeby pošlete jednotky do pevností.
+- Připomínka: jsme otevřené království a portály mohou být stále napadány těmi mimo naše království. Dávejte pozor na své portály!
 
 ## 6. Členové váženého království
 
@@ -81,20 +94,7 @@ Všichni hráči s 100k síly nebo méně jsou chráněni a neměli by být voln
 
 Interakce s hráči bez klanu by měly nejprve sloužit k jejich poznání a jejich cílů ve hře. Poté je povzbuzujte, aby vstoupili do klanu. Podporujte růst ve hře a hrajte pro království místo osobní odměny.
 
-## 7. Clash of Thrones CoT
-
-Žádné útoky na klanové pevnosti: Útočení na pevnosti nebo budovy jiného klanu je přísně zakázáno.
----
-Během můžete skautovat a útočit na města za následujících podmínek:
-"Fair Play":
-- CoT pravidla portálů: Žádná omezení
-- Platí pravidlo 50 %.
-- Pokud jste napadeni. Bez ohledu na jejich sílu můžete zaútočit zpět. To znamená, že pokud hráč s 1 000 000 síly napadne hráče s 50 000 000 síly, hráč s 50 000 000 má plné právo se bránit, pokud chce.
----
-Správa zdrojů:
-Udržujte zdroje nízko během události, abyste předešli krádežím; v případě potřeby pošlete jednotky do pevností. Procvičujte No Value City (NVC) nebo použijte štít.
-
-## 8. Proces řešení konfliktů
+## 7. Proces řešení konfliktů
 
 Když je ROE porušeno, je třeba podniknout následující kroky:
 - Kontaktujte druhého hráče a pokuste se situaci vyřešit. Pokud se do 24 hodin nedosáhne řešení, eskalujte na svého klanového diplomata.
@@ -102,11 +102,15 @@ Když je ROE porušeno, je třeba podniknout následující kroky:
 - Soudci rozhodnou o vině (pokud nějaká je) a přijatelném množství kompenzace.
 - Pokud viník (nebo jeho klan) odmítne kompenzovat, Archon nebo Hlavní soudce rozhodne, zda má být hráč nebo klan prohlášen za psance, a Královská stráž bude aktivována v pohotovosti.
 
+## 8. PRŮVODCE KOMPENZACÍ PALÁCE
+
+Podívejte se na web k273tb . xyz pro oficiální kalkulačku kompenzací.
+
 ## 9. Královské chaty k připojení
 
 - 273 ROE
 - #K273/CLAIMS
-- #K273/OUTLAWS
+- 273 OUTLAWS
 - SPAM ZONE
 - ~#K273/CPTHUNDERDOME
 - ~#K273/ACADEMY

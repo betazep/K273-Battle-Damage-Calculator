@@ -28,13 +28,13 @@ Tüm klan liderleri lider olarak yükümlülüklerini yerine getirmelidir:
 - Bu taahhütleri yerine getirmeyen bir lider kanun kaçağı ilan edilir.
 - Liderler krallığın örneği ve standardıdır; eylemleri tüm üyelerin izlemesi gereken yolu belirler.
 
-=========================
+## ============ RULES ============
 
 ## 1. BARIŞ ZAMANI
 
 - Şehirlere saldırılar CoT ve planlı CP değişimleri dışında yasaktır.
-- Klan binalarına saldırılar yasaktır.
-- Barış zamanında portallar saldırılamaz. Düşmanca portallar konumdan bağımsız olarak her zaman saldırılabilir. Düşmanca portallar; klan binalarına, üyelere ve tüm oyun kaynaklarına (mevsimsel etkinlik kaynakları dahil) saldırıları içerir. Klan faaliyetleri için klan bölgelerindeki portallara saldırmak, düşmanca olmadıkça izin verilmez. Krallık açıktır, portallarınızı her zaman açık bırakırken dikkatli olun.
+- Klan binalarına saldırılar HER ZAMAN yasaktır.
+- Barış zamanında portallar saldırılamaz. Krallık açıktır, portallarınızı her zaman açık bırakırken dikkatli olun.
 - Keşif bir saldırı biçimidir ve barış zamanında yasadışıdır.
 - Eğer saldırıya uğrarsanız. Güçleri ne olursa olsun, istediğiniz zaman karşı saldırı yapabilirsiniz. Yani 1.000.000 güce sahip bir oyuncu 50.000.000 güce sahip bir oyuncuya saldırırsa, 50.000.000 güce sahip oyuncu isterse karşılık verme hakkına sahiptir.
 
@@ -43,28 +43,41 @@ Tüm klan liderleri lider olarak yükümlülüklerini yerine getirmelidir:
 - Klanlar, krallık tarafından hizmet almak ve ROE tarafından korunmak için "We abide by K273 ROE" (veya benzeri) belirtmelidir.
 - Klanlar, anlaşmazlıkların çözümüne yardımcı olabilecek en az bir diplomatı klan açıklamasının en üstünde belirtmelidir. Diplomatlar aktif bir lider veya daha üst düzey olmalıdır.
 
-## 3. Genel Kurallar
+## 3. RSS
 
-- Klan bölgesi içindeki tüm kaynak binaları o klana aittir. Buna mevsimsel etkinlik kaynakları da dahildir.
+- Klan bölgesi içindeki tüm kaynak binaları o klana aittir. Buna mevsimsel etkinlik kaynakları da dahildir. Klan bölgesindeki kaynaklardan kişileri kaldırmak için saldırabilirsiniz.
 - Oyuncu tarafından oluşturulan kaynaklar, iki taraf arasında paylaşım konusunda anlaşılmadıkça, oluşturan kişiye aittir.
 - Nadir kriptler onları açan kişiye aittir.
 
-WS ve DMs
+--
 
-- Kayıt sistemi yoktur.
-- Tüm vahşi kaynak binaları (DM/WS dahil) ilk gelene ilk hizmet (FCFS) esasına göre yapılır.
-- Vahşi kaynaklarda keşfedilir/saldırılırsanız, şu durumlar dışında hak iddia edilemez:
+WS ve DMs:
+
+- a. Kayıt sistemi yoktur.
+- b. DM/WS dahil tüm vahşi kaynak binaları ilk gelene ilk hizmet (FCFS) esasına göre yapılır. Bu, dolu vahşi kaynakları rahat bırakmanız gerektiği anlamına gelir.
+- c. Yarış koşulları: Vahşi kaynaklarda keşfedilir/saldırılırsanız, şu durumlar dışında hak iddia edilemez:
 1. Kaynağı kaybedersiniz.
 2. Keşfedilir/saldırılır ve ardından tekrar saldırıya uğrarsınız. (2x kuralı)
-- Bir maden içinde birisi sizi keşfediyor veya saldırıyorsa, kendi diplomatınıza, diğer oyuncuya ve karşı tarafın diplomatı/klan liderine mesaj atmak sizin sorumluluğunuzdadır.
+- d. Birisi sizi vahşi RSS'de keşfediyor veya saldırıyorsa, kendi diplomatınıza, diğer oyuncuya ve karşı tarafın diplomatı/klan liderine mesaj atmak sizin sorumluluğunuzdadır.
 
-## 4. SARAY TAZMİNAT REHBERİ
-
-Resmi tazminat hesaplayıcısı için k273tb . xyz sitesine bakın.
-
-## 5. VERGİLER
+## 4. VERGİLER
 
 Kraliyet Muhafızları tarafından vergi tahsilatı yoktur. Klanlar, oyunculara tüm altın külçelerini vergi olarak göndermelerini hatırlatacak birini belirlemelidir. Her gün giriş ve çıkışta vergi göndermek iyi bir uygulamadır. Altın külçelerin kişisel olarak size bir değeri yoktur.
+
+## 5. Clash of Thrones CoT
+
+- Bu, oyuncu ile oyuncu arasındaki tek turnuvadır.
+- Klan Kalesi Saldırıları Yok: Başka bir klanın kalelerine veya binalarına saldırmak her zaman kesinlikle yasaktır.
+---
+CoT sırasında aşağıdaki koşullarda keşfedip saldırabilirsiniz:
+- Portal Kuralları: barış zamanı portalları - saldırı yok.
+- Şehir Kuralları: %50 kuralı geçerlidir. Kalkanı olmayan ve gücünüzün yarısı veya daha fazlasına sahip oyuncular CoT'ye katılmaktadır.
+- Eğer saldırıya uğrarsanız. Güçleri ne olursa olsun, karşılık verebilirsiniz. Yani 1 Milyon güce sahip bir oyuncu 50 Milyon güce sahip bir oyuncuya saldırırsa, 50 Milyon güce sahip oyuncu isterse karşılık verme hakkına sahiptir.
+---
+Önerilen kayıp yönetimi:
+- No Value City (NVC) uygulayın - veya katılmıyorsanız kalkan kullanın.
+- Etkinlik sırasında kaynakları düşük tutun, kayıpları önlemek için; gerekirse birlikleri kalelere gönderin.
+- Hatırlatma: açık bir krallığız ve portallar hâlâ krallığımız dışından saldırılabilir. Portallarınıza dikkat edin!
 
 ## 6. Saygın Krallığın Üyeleri
 
@@ -81,20 +94,7 @@ Korunan klansız oyuncular
 
 Klansız oyuncularla etkileşimler, önce onları ve oyundaki hedeflerini öğrenmek için olmalıdır. Ardından bir klana katılmaları teşvik edilmelidir. Oyunda büyümeyi destekleyin ve kişisel ödül yerine krallık için oynayın.
 
-## 7. Clash of Thrones CoT
-
-Klan Kalesi Saldırıları Yok: Başka bir klanın kalelerine veya binalarına saldırmak kesinlikle yasaktır.
----
-Süre boyunca, aşağıdaki koşullarda şehirleri keşfedip saldırabilirsiniz:
-"Fair Play":
-- CoT Portal Kuralları: Kısıtlama yok
-- %50 kuralı geçerlidir.
-- Eğer saldırıya uğrarsanız. Güçleri ne olursa olsun, karşılık verebilirsiniz. Yani 1.000.000 güce sahip bir oyuncu 50.000.000 güce sahip bir oyuncuya saldırırsa, 50.000.000 güce sahip oyuncu isterse karşılık verme hakkına sahiptir.
----
-Kaynak Yönetimi:
-Etkinlik sırasında kaynakları düşük tutun, hırsızlığı önlemek için; gerekirse birlikleri kalelere gönderin. No Value City (NVC) uygulayın veya kalkan kullanın.
-
-## 8. Çatışma Çözüm Süreci
+## 7. Çatışma Çözüm Süreci
 
 ROE ihlal edildiğinde, aşağıdaki adımlar izlenmelidir:
 - Diğer oyuncuyla iletişime geçerek çözmeye çalışın. 24 saat içinde çözüm yoksa, klan diplomatınıza yükseltin.
@@ -102,11 +102,15 @@ ROE ihlal edildiğinde, aşağıdaki adımlar izlenmelidir:
 - Hakimler, suçlu tarafı (varsa) ve kabul edilebilir bir tazminat miktarını belirleyecektir.
 - Suçlu taraf (veya klanı) tazminat ödemeyi reddederse, Archon veya Baş Hakim oyuncu veya klanın kanun kaçağı ilan edilip edilmeyeceğini belirleyecek ve Kraliyet Muhafızları hazır beklemeye alınacaktır.
 
+## 8. SARAY TAZMİNAT REHBERİ
+
+Resmi tazminat hesaplayıcısı için k273tb . xyz sitesine bakın.
+
 ## 9. Katılınacak Krallık Sohbetleri
 
 - 273 ROE
 - #K273/CLAIMS
-- #K273/OUTLAWS
+- 273 OUTLAWS
 - SPAM ZONE
 - ~#K273/CPTHUNDERDOME
 - ~#K273/ACADEMY

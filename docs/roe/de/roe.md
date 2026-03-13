@@ -28,13 +28,13 @@ Alle Clanführer müssen ihre Pflichten als Anführer erfüllen:
 - Ein Anführer, der diese Verpflichtungen nicht erfüllt, wird zum Outlaw erklärt.
 - Anführer sind das Beispiel und der Maßstab des Königreichs, und ihre Handlungen weisen den Weg, dem alle Mitglieder folgen.
 
-=========================
+## ============ RULES ============
 
 ## 1. FRIEDENSZEIT
 
 - Angriffe auf Städte sind verboten, außer während CoT und geplanten CP-Austauschen.
-- Angriffe auf Clan-Gebäude sind verboten.
-- Portale dürfen in Friedenszeiten nicht angegriffen werden. Feindliche Portale dürfen jederzeit unabhängig vom Standort angegriffen werden. Feindliche Portale umfassen Angriffe auf Clan-Gebäude, Mitglieder und alle Spielressourcen (einschließlich saisonaler Eventressourcen). Das Angreifen von Portalen in Clan-Gebieten für Clan-Aktivitäten ist nicht erlaubt, es sei denn, sie sind feindlich. Das Königreich ist geöffnet, seid vorsichtig, wenn ihr eure Portale jederzeit offen lasst.
+- Angriffe auf Clan-Gebäude sind IMMER verboten.
+- Portale dürfen in Friedenszeiten nicht angegriffen werden. Das Königreich ist geöffnet, seid vorsichtig, wenn ihr eure Portale jederzeit offen lasst.
 - Spionieren ist eine Form der Aggression und ist in Friedenszeiten illegal.
 - Wenn ihr angegriffen werdet. Unabhängig von ihrer Macht dürft ihr jederzeit zurückschlagen. Das bedeutet: Wenn ein Spieler mit 1.000.000 Macht einen Spieler mit 50.000.000 Macht angreift, hat der Spieler mit 50.000.000 das volle Recht, zurückzuschlagen, wenn er möchte.
 
@@ -43,28 +43,41 @@ Alle Clanführer müssen ihre Pflichten als Anführer erfüllen:
 - Clans müssen „We abide by K273 ROE“ (oder ähnlich) angeben, um vom Königreich bedient und durch die ROE geschützt zu werden.
 - Clans müssen mindestens einen Diplomaten ganz oben in ihrer Clanbeschreibung benennen, der bei der Streitbeilegung helfen kann. Diplomaten müssen ein aktiver Anführer oder höher sein.
 
-## 3. Allgemeine Regeln
+## 3. RSS
 
-- Alle Ressourcen-Gebäude innerhalb des Clangebiets gehören diesem Clan. Dazu gehören auch saisonale Eventressourcen.
+- Alle Ressourcen-Gebäude innerhalb des Clangebiets gehören diesem Clan. Dazu gehören auch saisonale Eventressourcen. Ihr dürft angreifen, um Personen von Ressourcen im Clangebiet zu entfernen.
 - Spielererstellte Ressourcen gehören der Person, die sie erstellt hat, sofern keine Vereinbarung zur Aufteilung zwischen zwei Parteien besteht.
 - Seltene Krypten gehören der Person, die sie freigeschaltet hat.
 
-WS und DMs
+--
 
-- Es gibt kein Registrierungssystem.
-- Alle wilden Ressourcen-Gebäude (einschließlich DM/WS) sind nach dem Prinzip „wer zuerst kommt, mahlt zuerst“ (FCFS).
-- Ansprüche können nicht geltend gemacht werden, wenn ihr bei wilden Ressourcen ausgespäht/angegriffen werdet, außer wenn:
+WS und DMs:
+
+- a. Es gibt kein Registrierungssystem.
+- b. Alle wilden Ressourcen-Gebäude, einschließlich DM/WS, sind nach dem Prinzip „wer zuerst kommt, mahlt zuerst“ (FCFS). Das bedeutet, dass ihr besetzte wilde Ressourcen in Ruhe lassen müsst.
+- c. Wettlaufsituationen: Ansprüche können nicht geltend gemacht werden, wenn ihr bei wilden Ressourcen ausgespäht/angegriffen werdet, außer wenn:
 1. Ihr die Ressource verliert.
 2. Ihr ausgespäht/angegriffen und dann erneut angegriffen werdet. (2x-Regel)
-- Es liegt in eurer Verantwortung, euren Diplomaten, den anderen Spieler und den gegnerischen Diplomaten/Clanführer zu informieren, wenn euch jemand in einer Mine ausspäht oder angreift.
+- d. Es liegt in eurer Verantwortung, euren Diplomaten, den anderen Spieler und den gegnerischen Diplomaten/Clanführer zu informieren, wenn euch jemand in wilden RSS ausspäht oder angreift.
 
-## 4. ENTSCHÄDIGUNGSLEITFADEN DES PALASTS
-
-Siehe die Website k273tb . xyz für den offiziellen Entschädigungsrechner.
-
-## 5. STEUERN
+## 4. STEUERN
 
 Es gibt keine Steuererhebung durch die Königliche Garde. Clans sollten jemanden benennen, der die Spieler daran erinnert, alle Goldbarren als Steuern zu senden. Steuern jeden Tag beim Ein- und Ausloggen zu senden, ist eine gute Praxis. Goldbarren haben für dich persönlich keinen Wert.
+
+## 5. Clash of Thrones CoT
+
+- Dies ist das einzige Spieler-gegen-Spieler-Turnier.
+- Keine Clan-Fort-Angriffe: Das Angreifen der Forts oder Gebäude eines anderen Clans ist immer strengstens verboten.
+---
+Während CoT könnt ihr unter folgenden Bedingungen ausspähen und angreifen:
+- Portalregeln: Friedenszeit-Portale - keine Angriffe.
+- Stadtregeln: Die 50%-Regel gilt. Ungeschirmte Spieler mit der Hälfte eurer Macht oder mehr nehmen am CoT teil.
+- Wenn ihr angegriffen werdet. Unabhängig von ihrer Macht dürft ihr zurückschlagen. Das bedeutet: Wenn ein Spieler mit 1 Million Macht einen Spieler mit 50 Millionen Macht angreift, hat der Spieler mit 50 Millionen das volle Recht, zurückzuschlagen, wenn er möchte.
+---
+Empfohlenes Verlustmanagement:
+- Praktiziert No Value City (NVC) - oder nutzt einen Schild, wenn ihr nicht teilnehmt.
+- Haltet die Ressourcen während des Events niedrig, um Verluste zu vermeiden; schickt bei Bedarf Truppen zu den Forts.
+- Erinnerung: Wir sind ein offenes Königreich, und Portale können weiterhin von außerhalb unseres Königreichs angegriffen werden. Passt auf eure Portale auf!
 
 ## 6. Mitglieder des Geehrten Königreichs
 
@@ -81,20 +94,7 @@ Alle Spieler mit 100k Macht oder weniger sind geschützt und dürfen nicht frei 
 
 Interaktionen mit clanlosen Spielern sollten zunächst dazu dienen, sie und ihre Ziele im Spiel kennenzulernen. Danach sie ermutigen, einem Clan beizutreten. Fördert das Wachstum im Spiel und spielt für das Königreich statt für persönliche Belohnung.
 
-## 7. Clash of Thrones CoT
-
-Keine Clan-Fort-Angriffe: Das Angreifen der Forts oder Gebäude eines anderen Clans ist strengstens verboten.
----
-Währenddessen könnt ihr unter folgenden Bedingungen Städte ausspähen und angreifen:
-"Fair Play":
-- CoT-Portalregeln: Keine Einschränkungen
-- Die 50%-Regel gilt.
-- Wenn ihr angegriffen werdet. Unabhängig von ihrer Macht dürft ihr zurückschlagen. Das bedeutet: Wenn ein Spieler mit 1.000.000 Macht einen Spieler mit 50.000.000 Macht angreift, hat der Spieler mit 50.000.000 das volle Recht, zurückzuschlagen, wenn er möchte.
----
-Ressourcenmanagement:
-Haltet die Ressourcen während des Events niedrig, um Diebstahl zu vermeiden; schickt bei Bedarf Truppen zu den Forts. Praktiziert No Value City (NVC) oder benutzt einen Schild.
-
-## 8. Konfliktlösungsprozess
+## 7. Konfliktlösungsprozess
 
 Wenn die ROE verletzt wird, sind folgende Schritte zu unternehmen:
 - Kontaktiert den anderen Spieler, um eine Lösung zu erreichen. Wenn innerhalb von 24 Stunden keine Lösung erfolgt, eskaliert an euren Clan-Diplomaten.
@@ -102,11 +102,15 @@ Wenn die ROE verletzt wird, sind folgende Schritte zu unternehmen:
 - Die Richter entscheiden über die schuldige Partei (falls vorhanden) und einen angemessenen Entschädigungsbetrag.
 - Wenn die schuldige Partei (oder ihr Clan) sich weigert zu entschädigen, entscheidet der Archon oder der Oberste Richter, ob der Spieler oder Clan zum Outlaw erklärt werden soll, und die Königliche Garde wird in Bereitschaft versetzt.
 
+## 8. ENTSCHÄDIGUNGSLEITFADEN DES PALASTS
+
+Siehe die Website k273tb . xyz für den offiziellen Entschädigungsrechner.
+
 ## 9. Königreich-Chats zum Beitreten
 
 - 273 ROE
 - #K273/CLAIMS
-- #K273/OUTLAWS
+- 273 OUTLAWS
 - SPAM ZONE
 - ~#K273/CPTHUNDERDOME
 - ~#K273/ACADEMY

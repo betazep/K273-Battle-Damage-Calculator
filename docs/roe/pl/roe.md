@@ -28,13 +28,13 @@ Wszyscy liderzy klanów muszą wypełniać swoje obowiązki jako liderzy:
 - Lider, który nie spełnia tych zobowiązań, zostanie uznany za Wyjętego spod prawa.
 - Liderzy są przykładem i standardem królestwa, a ich działania wyznaczają drogę wszystkim członkom.
 
-=========================
+## ============ RULES ============
 
 ## 1. CZAS POKOJU
 
 - Ataki na miasta są zabronione, z wyjątkiem CoT i zaplanowanych wymian CP.
-- Ataki na budynki klanu są zabronione.
-- Portale nie mogą być atakowane w czasie pokoju. Wrogie portale mogą być atakowane w dowolnym czasie niezależnie od lokalizacji. Wrogie portale obejmują ataki na budynki klanu, członków i wszystkie zasoby gry (w tym zasoby wydarzeń sezonowych). Atakowanie portali na terytoriach klanów w ramach aktywności klanowych nie jest dozwolone, chyba że są wrogie. Królestwo jest otwarte, zachowaj ostrożność, pozostawiając portale otwarte przez cały czas.
+- Ataki na budynki klanu są ZAWSZE zabronione.
+- Portale nie mogą być atakowane w czasie pokoju. Królestwo jest otwarte, zachowaj ostrożność, pozostawiając portale otwarte przez cały czas.
 - Zwiad jest formą agresji i jest nielegalny w czasie pokoju.
 - Jeśli zostaniesz zaatakowany. Niezależnie od ich mocy, możesz zaatakować kogokolwiek w dowolnym momencie. Oznacza to, że jeśli gracz o mocy 1 000 000 atakuje gracza o mocy 50 000 000, gracz o mocy 50 000 000 ma pełne prawo do odwetu, jeśli chce.
 
@@ -43,28 +43,41 @@ Wszyscy liderzy klanów muszą wypełniać swoje obowiązki jako liderzy:
 - Klan powinien zadeklarować "We abide by K273 ROE" (lub podobnie), aby być obsługiwanym przez królestwo i chronionym przez ROE.
 - Klan musi wskazać co najmniej jednego dyplomatę na górze opisu klanu, który może pomóc w rozwiązywaniu sporów. Dyplomaci muszą być aktywnym liderem lub przełożonym.
 
-## 3. Zasady ogólne
+## 3. RSS
 
-- Wszystkie budynki zasobów na terytorium klanu należą do tego klanu. Dotyczy to również zasobów wydarzeń sezonowych.
+- Wszystkie budynki zasobów na terytorium klanu należą do tego klanu. Dotyczy to również zasobów wydarzeń sezonowych. Możesz atakować, aby usuwać ludzi z zasobów na terytorium klanu.
 - Zasoby stworzone przez gracza należą do osoby, która je stworzyła, chyba że uzgodniono dzielenie między dwie strony.
 - Rzadkie krypty należą do osoby, która je odblokowała.
 
-WS i DMs
+--
 
-- Nie ma systemu rejestracji.
-- Wszystkie dzikie budynki zasobów (w tym DM/WS) obowiązują zasady pierwszeństwa (FCFS).
-- Roszczenia nie mogą być zgłaszane, jeśli jesteś zwiadowany/atakowany w dzikich zasobach, chyba że:
+WS i DMs:
+
+- a. Nie ma systemu rejestracji.
+- b. Wszystkie dzikie budynki zasobów, w tym DM/WS, obowiązują zasady pierwszeństwa (FCFS). Oznacza to, że musisz zostawić zajęte dzikie zasoby w spokoju.
+- c. Warunki wyścigu: Roszczenia nie mogą być zgłaszane, jeśli jesteś zwiadowany/atakowany w dzikich zasobach, chyba że:
 1. Stracisz zasób.
 2. Zostaniesz zwiadowany/atakowany, a następnie zaatakowany ponownie. (zasada 2x)
-- Twoim obowiązkiem jest powiadomić swojego dyplomatę, drugiego gracza oraz dyplomatę/lidera przeciwnego klanu, jeśli ktoś cię zwiaduje lub atakuje w kopalni.
+- d. Twoim obowiązkiem jest powiadomić swojego dyplomatę, drugiego gracza oraz dyplomatę/lidera przeciwnego klanu, jeśli ktoś cię zwiaduje lub atakuje w dzikich RSS.
 
-## 4. PRZEWODNIK KOMPENSACJI PAŁACU
-
-Zobacz stronę k273tb . xyz, aby uzyskać oficjalny kalkulator rekompensat.
-
-## 5. PODATKI
+## 4. PODATKI
 
 Nie ma królewskiej zbiórki podatków przez Gwardię Królewską. Klany powinny wyznaczyć kogoś, kto będzie przypominał graczom o wysyłaniu wszystkich sztabek złota jako podatków. Wysyłanie podatków każdego dnia przy logowaniu i wylogowaniu to dobra praktyka. Sztabki złota nie mają dla ciebie żadnej wartości osobistej.
+
+## 5. Clash of Thrones CoT
+
+- To jedyny turniej gracz kontra gracz.
+- Brak ataków na forty klanów: Atakowanie fortów lub budynków innego klanu jest zawsze surowo zabronione.
+---
+Podczas CoT możesz zwiadować i atakować na następujących warunkach:
+- Zasady portali: portale czasu pokoju - brak ataków.
+- Zasady miast: obowiązuje zasada 50%. Nieosłonięci gracze z połową twojej mocy lub więcej uczestniczą w CoT.
+- Jeśli zostaniesz zaatakowany. Niezależnie od ich mocy, możesz zaatakować kogokolwiek. Oznacza to, że jeśli gracz o mocy 1 Milion atakuje gracza o mocy 50 Milionów, gracz o mocy 50 Milionów ma pełne prawo do odwetu, jeśli chce.
+---
+Zalecane zarządzanie stratami:
+- Stosuj No Value City (NVC) - lub użyj tarczy, jeśli nie bierzesz udziału.
+- Utrzymuj niski poziom zasobów podczas wydarzenia, aby uniknąć strat; wysyłaj wojska do fortów, jeśli to konieczne.
+- Przypomnienie: jesteśmy otwartym królestwem, a portale nadal mogą być atakowane przez osoby spoza naszego królestwa. Pilnuj swoich portali!
 
 ## 6. Członkowie Szanowanego Królestwa
 
@@ -81,20 +94,7 @@ Wszyscy gracze o mocy 100k lub mniej są chronieni i nie powinni być swobodnie 
 
 Interakcje z graczami bez klanu powinny najpierw służyć poznaniu ich i ich celów w grze. Następnie zachęcić ich do dołączenia do klanu. Wspieraj rozwój w grze i graj dla królestwa zamiast dla osobistej nagrody.
 
-## 7. Clash of Thrones CoT
-
-Brak ataków na forty klanów: Atakowanie fortów lub budynków innego klanu jest surowo zabronione.
----
-Podczas możesz zwiadować i atakować miasta na następujących warunkach:
-"Fair Play":
-- Zasady portali CoT: Brak ograniczeń
-- Obowiązuje zasada 50%.
-- Jeśli zostaniesz zaatakowany. Niezależnie od ich mocy, możesz zaatakować kogokolwiek. Oznacza to, że jeśli gracz o mocy 1 000 000 atakuje gracza o mocy 50 000 000, gracz o mocy 50 000 000 ma pełne prawo do odwetu, jeśli chce.
----
-Zarządzanie zasobami:
-Utrzymuj niski poziom zasobów podczas wydarzenia, aby uniknąć kradzieży; wysyłaj wojska do fortów, jeśli to konieczne. Stosuj No Value City (NVC) lub użyj tarczy.
-
-## 8. Proces rozwiązywania konfliktów
+## 7. Proces rozwiązywania konfliktów
 
 Gdy ROE zostanie naruszone, należy podjąć następujące kroki:
 - Skontaktuj się z drugim graczem, aby spróbować rozwiązać sprawę. Jeśli w ciągu 24 godzin nie ma rozwiązania, przekaż sprawę swojemu dyplomacie klanu.
@@ -102,11 +102,15 @@ Gdy ROE zostanie naruszone, należy podjąć następujące kroki:
 - Sędziowie rozstrzygną, kto jest winny (jeśli ktoś) i określą akceptowalną wysokość rekompensaty.
 - Jeśli winna strona (lub jej klan) odmówi rekompensaty, Archon lub Główny Sędzia zdecyduje, czy gracz lub klan powinien zostać uznany za Wyjętego spod prawa, a Gwardia Królewska zostanie postawiona w stan gotowości.
 
+## 8. PRZEWODNIK KOMPENSACJI PAŁACU
+
+Zobacz stronę k273tb . xyz, aby uzyskać oficjalny kalkulator rekompensat.
+
 ## 9. Czaty Królestwa do dołączenia
 
 - 273 ROE
 - #K273/CLAIMS
-- #K273/OUTLAWS
+- 273 OUTLAWS
 - SPAM ZONE
 - ~#K273/CPTHUNDERDOME
 - ~#K273/ACADEMY

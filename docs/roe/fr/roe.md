@@ -28,13 +28,13 @@ Tous les chefs de clan doivent remplir leurs obligations en tant que dirigeants 
 - Un chef qui manque à ces engagements sera déclaré hors-la-loi.
 - Les chefs sont l'exemple et la norme du royaume, et leurs actions montrent la voie à suivre pour tous les membres.
 
-=========================
+## ============ RULES ============
 
 ## 1. TEMPS DE PAIX
 
 - Les attaques de villes sont interdites, sauf pendant CoT et les échanges CP planifiés.
-- Les attaques sur les bâtiments de clan sont interdites.
-- Les portails ne peuvent pas être attaqués en temps de paix. Les portails hostiles peuvent être attaqués à tout moment, quel que soit l'endroit. Les portails hostiles incluent les attaques sur les bâtiments de clan, les membres et toutes les ressources du jeu (y compris les ressources d'événements saisonniers). Attaquer des portails sur des territoires de clan pour des activités de clan n'est pas autorisé sauf s'ils sont hostiles. Le royaume est ouvert, faites attention à laisser vos portails ouverts en permanence.
+- Les attaques sur les bâtiments de clan sont TOUJOURS interdites.
+- Les portails ne peuvent pas être attaqués en temps de paix. Le royaume est ouvert, faites attention à laisser vos portails ouverts en permanence.
 - L'espionnage est une forme d'agression et est illégal en temps de paix.
 - Si vous êtes attaqué. Quel que soit votre puissance, vous êtes autorisé à riposter à tout moment. Cela signifie que si un joueur de 1 000 000 de puissance attaque un joueur de 50 000 000 de puissance, le joueur de 50 000 000 a tout à fait le droit de riposter s'il le souhaite.
 
@@ -43,28 +43,41 @@ Tous les chefs de clan doivent remplir leurs obligations en tant que dirigeants 
 - Les clans doivent indiquer « We abide by K273 ROE » (ou similaire) pour être servis par le royaume et protégés par le ROE.
 - Les clans doivent identifier au moins un diplomate en haut de leur description de clan qui peut aider à résoudre les conflits. Les diplomates doivent être un chef actif ou supérieur.
 
-## 3. Règles Générales
+## 3. RSS
 
-- Tous les bâtiments de ressources à l'intérieur du territoire du clan appartiennent à ce clan. Cela inclut les ressources d'événements saisonniers.
+- Tous les bâtiments de ressources à l'intérieur du territoire du clan appartiennent à ce clan. Cela inclut les ressources d'événements saisonniers. Vous pouvez attaquer pour retirer des personnes des ressources dans le territoire du clan.
 - Les ressources créées par un joueur appartiennent à la personne qui les a créées, sauf accord de partage entre deux parties.
 - Les cryptes rares appartiennent à la personne qui les a débloquées.
 
-WS et DMs
+--
 
-- Il n'y a pas de système d'enregistrement.
-- Tous les bâtiments de ressources sauvages (y compris DM/WS) sont premier arrivé, premier servi (FCFS).
-- Les réclamations ne peuvent pas être faites si vous êtes scouté/attaqué dans des ressources sauvages à moins que :
+WS et DMs :
+
+- a. Il n'y a pas de système d'enregistrement.
+- b. Tous les bâtiments de ressources sauvages, y compris DM/WS, sont premier arrivé, premier servi (FCFS). Cela signifie que vous devez laisser tranquilles les ressources sauvages occupées.
+- c. Conditions de course : Les réclamations ne peuvent pas être faites si vous êtes scouté/attaqué dans des ressources sauvages à moins que :
 1. Vous perdiez la ressource.
 2. Vous soyez scouté/attaqué puis attaqué de nouveau. (règle 2x)
-- Il est de votre responsabilité de contacter votre diplomate, l'autre joueur et le diplomate/chef de clan adverse si quelqu'un vous scoute ou vous attaque dans une mine.
+- d. Il est de votre responsabilité de contacter votre diplomate, l'autre joueur et le diplomate/chef de clan adverse si quelqu'un vous scoute ou vous attaque dans des RSS sauvages.
 
-## 4. GUIDE DE COMPENSATION DU PALAIS
-
-Voir le site k273tb . xyz pour la calculatrice officielle de compensation.
-
-## 5. IMPÔTS
+## 4. IMPÔTS
 
 Il n'y a pas de collecte d'impôts par la Garde Royale. Les clans doivent désigner quelqu'un pour rappeler aux joueurs d'envoyer toutes les barres d'or comme impôts. Envoyer les impôts chaque jour à la connexion et à la déconnexion est une bonne pratique. Les barres d'or n'ont aucune valeur pour vous personnellement.
+
+## 5. Clash of Thrones CoT
+
+- C'est le seul tournoi joueur contre joueur.
+- Aucune attaque de fort de clan : attaquer les forts ou les bâtiments d'un autre clan est toujours strictement interdit.
+---
+Pendant CoT, vous pouvez scouter et attaquer dans les conditions suivantes :
+- Règles des portails : portails en temps de paix - aucune attaque.
+- Règles des villes : la règle des 50 % s'applique. Les joueurs sans bouclier avec la moitié de votre puissance ou plus participent au CoT.
+- Si vous êtes attaqué. Quel que soit votre puissance, vous êtes autorisé à riposter. Cela signifie que si un joueur de 1 Million de puissance attaque un joueur de 50 Millions de puissance, le joueur de 50 Millions a tout à fait le droit de riposter s'il le souhaite.
+---
+Gestion des pertes recommandée :
+- Pratiquez le No Value City (NVC) - ou utilisez un bouclier si vous ne participez pas.
+- Gardez les ressources basses pendant l'événement pour éviter les pertes ; envoyez des troupes vers les forts si nécessaire.
+- Rappel : nous sommes un royaume ouvert, et les portails peuvent encore être attaqués par ceux qui sont en dehors de notre royaume. Surveillez vos portails !
 
 ## 6. Membres du Royaume Estimé
 
@@ -81,20 +94,7 @@ Tous les joueurs à 100k de puissance ou moins sont protégés et ne doivent pas
 
 Les interactions avec les joueurs sans clan doivent d'abord viser à apprendre qui ils sont et leurs objectifs dans le jeu. Ensuite, les encourager à rejoindre un clan. Favorisez la croissance dans le jeu et jouez pour le royaume plutôt que pour la récompense personnelle.
 
-## 7. Clash of Thrones CoT
-
-Aucune attaque de fort de clan : attaquer les forts ou les bâtiments d'un autre clan est strictement interdit.
----
-Pendant, vous pouvez scouter et attaquer des villes dans les conditions suivantes :
-"Fair Play" :
-- Règles des portails CoT : aucune restriction
-- La règle des 50 % s'applique.
-- Si vous êtes attaqué. Quel que soit votre puissance, vous êtes autorisé à riposter. Cela signifie que si un joueur de 1 000 000 de puissance attaque un joueur de 50 000 000 de puissance, le joueur de 50 000 000 a tout à fait le droit de riposter s'il le souhaite.
----
-Gestion des ressources :
-Gardez les ressources basses pendant l'événement pour éviter le vol ; envoyez des troupes vers les forts si nécessaire. Pratiquez le No Value City (NVC) ou utilisez un bouclier.
-
-## 8. Processus de Résolution des Conflits
+## 7. Processus de Résolution des Conflits
 
 Quand le ROE est violé, les étapes suivantes doivent être suivies :
 - Contactez l'autre joueur pour tenter de résoudre. En l'absence de résolution sous 24 heures, remontez à votre diplomate de clan.
@@ -102,11 +102,15 @@ Quand le ROE est violé, les étapes suivantes doivent être suivies :
 - Les juges statueront pour définir la partie coupable (le cas échéant) et un montant acceptable de compensation.
 - Si la partie coupable (ou son clan) refuse de compenser, l'Archon ou le Juge en chef déterminera si le joueur ou le clan doit être déclaré hors-la-loi et la Garde Royale sera activée en stand-by.
 
+## 8. GUIDE DE COMPENSATION DU PALAIS
+
+Voir le site k273tb . xyz pour la calculatrice officielle de compensation.
+
 ## 9. Chats du Royaume à Rejoindre
 
 - 273 ROE
 - #K273/CLAIMS
-- #K273/OUTLAWS
+- 273 OUTLAWS
 - SPAM ZONE
 - ~#K273/CPTHUNDERDOME
 - ~#K273/ACADEMY

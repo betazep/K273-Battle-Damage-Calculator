@@ -28,13 +28,13 @@ Kaikkien klaanijohtajien on täytettävä velvollisuutensa johtajina:
 - Johtaja, joka ei täytä näitä sitoumuksia, julistetaan lainsuojattomaksi.
 - Johtajat ovat kuningaskunnan esimerkki ja standardi, ja heidän toimintansa näyttävät polun, jota kaikkien jäsenten tulee seurata.
 
-=========================
+## ============ RULES ============
 
 ## 1. RAUHANAIKA
 
 - Hyökkäykset kaupunkeihin ovat kiellettyjä, paitsi CoT:n aikana ja suunnitelluissa CP-vaihdossa.
-- Hyökkäykset klaanirakennuksiin ovat kiellettyjä.
-- Portteja ei saa hyökätä rauhanaikana. Vihamielisiä portteja saa hyökätä milloin tahansa sijainnista riippumatta. Vihamieliset portit sisältävät hyökkäykset klaanirakennuksiin, jäseniin ja kaikkiin pelin resursseihin (mukaan lukien kausitapahtumien resurssit). Porttien hyökkääminen klaanialueilla klaanin toiminnan vuoksi ei ole sallittua, elleivät ne ole vihamielisiä. Kuningaskunta on avoin, ole varovainen jättäessäsi porttisi auki koko ajan.
+- Hyökkäykset klaanirakennuksiin ovat AINA kiellettyjä.
+- Portteja ei saa hyökätä rauhanaikana. Kuningaskunta on avoin, ole varovainen jättäessäsi porttisi auki koko ajan.
 - Tiedustelu on aggressiivinen teko ja on laitonta rauhanaikana.
 - Jos sinua hyökätään. Riippumatta heidän voimastaan, sinulla on oikeus hyökätä takaisin milloin tahansa. Tämä tarkoittaa, että jos 1 000 000 voiman pelaaja hyökkää 50 000 000 voiman pelaajan kimppuun, 50 000 000 voiman pelaajalla on täysi oikeus hyökätä takaisin, jos hän haluaa.
 
@@ -43,28 +43,41 @@ Kaikkien klaanijohtajien on täytettävä velvollisuutensa johtajina:
 - Klaanien tulee ilmoittaa "We abide by K273 ROE" (tai vastaavaa) tullakseen palvelluksi kuningaskunnan toimesta ja saadakseen ROE-suojan.
 - Klaanien on nimettävä vähintään yksi diplomaatti klaanin kuvauksen alkuun, joka voi auttaa riitojen ratkaisemisessa. Diplomatit on oltava aktiivinen johtaja tai ylempi.
 
-## 3. Yleiset säännöt
+## 3. RSS
 
-- Kaikki resurssirakennukset klaanin alueella kuuluvat tälle klaanille. Tämä sisältää kausitapahtumien resurssit.
+- Kaikki resurssirakennukset klaanin alueella kuuluvat tälle klaanille. Tämä sisältää kausitapahtumien resurssit. Voit hyökätä poistaaksesi ihmisiä resursseista klaanin alueella.
 - Pelaajan luomat resurssit kuuluvat henkilölle, joka ne loi, ellei kahden osapuolen välillä sovita jakamisesta.
 - Harvinaiset kryptat kuuluvat henkilölle, joka ne avasi.
 
-WS ja DMs
+--
 
-- Rekisteröintijärjestelmää ei ole.
-- Kaikki villit resurssirakennukset (mukaan lukien DM/WS) ovat ensimmäinen tulee, ensimmäinen saa (FCFS).
-- Vaatimuksia ei voida tehdä, jos sinut tiedustellaan/hyökätään villissä resurssissa, ellei:
+WS ja DMs:
+
+- a. Rekisteröintijärjestelmää ei ole.
+- b. Kaikki villit resurssirakennukset, mukaan lukien DM/WS, ovat ensimmäinen tulee, ensimmäinen saa (FCFS). Tämä tarkoittaa, että sinun tulee jättää varatut villit resurssit rauhaan.
+- c. Kilpajuoksutilanteet: Vaatimuksia ei voida tehdä, jos sinut tiedustellaan/hyökätään villissä resurssissa, ellei:
 1. Menetät resurssin.
 2. Sinut tiedustellaan/hyökätään ja sitten hyökätään uudelleen. (2x-sääntö)
-- On sinun vastuullasi viestiä omalle diplomaatillesi, toiselle pelaajalle ja vastapuolen diplomaatille/klaaninjohtajalle, jos joku tiedustelee sinua tai hyökkää kaivoksessa.
+- d. On sinun vastuullasi viestiä omalle diplomaatillesi, toiselle pelaajalle ja vastapuolen diplomaatille/klaaninjohtajalle, jos joku tiedustelee sinua tai hyökkää sinua villissä RSS:ssä.
 
-## 4. PALATSIN KORVAUSOPAS
-
-Katso virallinen korvauslaskuri sivustolta k273tb . xyz.
-
-## 5. VEROT
+## 4. VEROT
 
 Kuninkaallisen Vartioston veronkeruuta ei ole. Klaanien tulisi nimetä joku muistuttamaan pelaajia lähettämään kaikki kultaharkot veroina. Verojen lähettäminen joka päivä sisään- ja uloskirjautuessa on hyvä käytäntö. Kultaharkoilla ei ole sinulle henkilökohtaista arvoa.
+
+## 5. Clash of Thrones CoT
+
+- Tämä on ainoa pelaaja vastaan pelaaja -turnaus.
+- Ei klaanilinnojen hyökkäyksiä: Toisen klaanin linnojen tai rakennusten hyökkääminen on aina ehdottomasti kielletty.
+---
+CoT:n aikana voit tiedustella ja hyökätä seuraavin ehdoin:
+- Portaalisäännöt: rauhanaika-portaalit - ei hyökkäyksiä.
+- Kaupunkisäännöt: 50 % -sääntö pätee. Kilvettömät pelaajat, joiden voima on vähintään puolet sinun voimastasi, osallistuvat CoT:hen.
+- Jos sinua hyökätään. Riippumatta heidän voimastaan, sinulla on oikeus hyökätä takaisin. Tämä tarkoittaa, että jos 1 Miljoonan voiman pelaaja hyökkää 50 Miljoonan voiman pelaajan kimppuun, 50 Miljoonan voiman pelaajalla on täysi oikeus hyökätä takaisin, jos hän haluaa.
+---
+Suositeltu tappioiden hallinta:
+- Harjoittele No Value City (NVC) - tai käytä kilpeä, jos et osallistu.
+- Pidä resurssit matalina tapahtuman aikana tappioiden välttämiseksi; lähetä joukkoja linnoihin tarvittaessa.
+- Muistutus: olemme avoin kuningaskunta, ja portteja voivat edelleen hyökätä kuningaskuntamme ulkopuoliset. Seuraa porttejasi!
 
 ## 6. Arvostetun kuningaskunnan jäsenet
 
@@ -81,20 +94,7 @@ Kaikki 100k voimaa tai vähemmän omaavat pelaajat ovat suojattuja eikä heitä 
 
 Klaanittomiin pelaajiin suhtautumisen tulisi ensin olla heidän ja heidän tavoitteidensa oppimista pelissä. Sen jälkeen kannustetaan heitä liittymään klaaniin. Edistä kasvua pelissä ja pelaa kuningaskunnan puolesta henkilökohtaisen palkkion sijaan.
 
-## 7. Clash of Thrones CoT
-
-Ei klaanilinnojen hyökkäyksiä: Toisen klaanin linnojen tai rakennusten hyökkääminen on ehdottomasti kielletty.
----
-Tapahtuman aikana voit tiedustella ja hyökätä kaupunkeihin seuraavin ehdoin:
-"Fair Play":
-- CoT-portaalisäännöt: Ei rajoituksia
-- 50 % -sääntö pätee.
-- Jos sinua hyökätään. Riippumatta heidän voimastaan, sinulla on oikeus hyökätä takaisin. Tämä tarkoittaa, että jos 1 000 000 voiman pelaaja hyökkää 50 000 000 voiman pelaajan kimppuun, 50 000 000 voiman pelaajalla on täysi oikeus hyökätä takaisin, jos hän haluaa.
----
-Resurssien hallinta:
-Pidä resurssit matalina tapahtuman aikana varkauden välttämiseksi; lähetä joukkoja linnoihin tarvittaessa. Harjoittele No Value City (NVC) tai käytä kilpeä.
-
-## 8. Konfliktien ratkaisuprosessi
+## 7. Konfliktien ratkaisuprosessi
 
 Kun ROE rikotaan, seuraavat vaiheet tulee tehdä:
 - Ota yhteyttä toiseen pelaajaan ratkaistaksesi tilanteen. Jos ratkaisua ei ole 24 tunnin sisällä, nosta asia klaanisi diplomaatille.
@@ -102,11 +102,15 @@ Kun ROE rikotaan, seuraavat vaiheet tulee tehdä:
 - Tuomarit ratkaisevat syyllisen osapuolen (jos sellainen on) ja hyväksyttävän korvaussumman.
 - Jos syyllinen osapuoli (tai heidän klaaninsa) kieltäytyy korvaamasta, Archon tai Ylipäätuomari päättää, pitäisikö pelaaja tai klaani julistaa lainsuojattomaksi, ja Kuninkaallinen Vartio aktivoidaan valmiustilaan.
 
+## 8. PALATSIN KORVAUSOPAS
+
+Katso virallinen korvauslaskuri sivustolta k273tb . xyz.
+
 ## 9. Kuningaskunnan chatit, joihin liittyä
 
 - 273 ROE
 - #K273/CLAIMS
-- #K273/OUTLAWS
+- 273 OUTLAWS
 - SPAM ZONE
 - ~#K273/CPTHUNDERDOME
 - ~#K273/ACADEMY

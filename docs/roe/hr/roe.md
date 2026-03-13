@@ -28,13 +28,13 @@ Svi vođe klanova moraju ispuniti svoje obveze kao vođe:
 - Vođa koji ne ispuni te obveze bit će proglašen odmetnikom.
 - Vođe su primjer i standard kraljevstva, a njihove radnje postavljaju put kojim svi članovi trebaju slijediti.
 
-=========================
+## ============ RULES ============
 
 ## 1. MIRNO VRIJEME
 
 - Napadi na gradove su zabranjeni, osim tijekom CoT i planiranih CP razmjena.
-- Napadi na zgrade klana su zabranjeni.
-- Portali se ne smiju napadati tijekom mirnog vremena. Neprijateljski portali mogu se napadati u bilo koje vrijeme bez obzira na lokaciju. Neprijateljski portali uključuju napade na zgrade klana, članove i sve resurse u igri (uključujući resurse sezonskih događaja). Napadanje portala u teritorijima klana za aktivnosti klana nije dopušteno osim ako su neprijateljski. Kraljevstvo je otvoreno, budite oprezni ostavljajući svoje portale otvorenima u svakom trenutku.
+- Napadi na zgrade klana su UVIJEK zabranjeni.
+- Portali se ne smiju napadati tijekom mirnog vremena. Kraljevstvo je otvoreno, budite oprezni ostavljajući svoje portale otvorenima u svakom trenutku.
 - Izviđanje je oblik agresije i nezakonito je tijekom mirnog vremena.
 - Ako ste napadnuti. Bez obzira na njihovu moć, možete uzvratiti bilo kome u bilo koje vrijeme. To znači, ako igrač sa 1.000.000 moći napadne igrača s 50.000.000 moći, igrač s 50.000.000 ima puno pravo uzvratiti ako želi.
 
@@ -43,28 +43,41 @@ Svi vođe klanova moraju ispuniti svoje obveze kao vođe:
 - Klanovi moraju navesti "We abide by K273 ROE" (ili slično) kako bi bili opsluživani od kraljevstva i zaštićeni ROE-om.
 - Klanovi moraju identificirati najmanje jednog diplomata na vrhu opisa klana koji može pomoći u rješavanju sporova. Diplomati moraju biti aktivni vođa ili viši.
 
-## 3. Opća pravila
+## 3. RSS
 
-- Sve zgrade resursa unutar teritorija klana pripadaju tom klanu. To uključuje resurse sezonskih događaja.
+- Sve zgrade resursa unutar teritorija klana pripadaju tom klanu. To uključuje resurse sezonskih događaja. Možete napasti kako biste uklonili ljude s resursa na teritoriju klana.
 - Resursi koje je stvorio igrač pripadaju osobi koja ih je stvorila, osim ako nije dogovoreno dijeljenje između dvije strane.
 - Rijetke kripte pripadaju osobi koja ih je otključala.
 
-WS i DMs
+--
 
-- Ne postoji sustav registracije.
-- Sve divlje zgrade resursa (uključujući DM/WS) su prvi došao, prvi poslužen (FCFS).
-- Potraživanja se ne mogu podnijeti ako ste izviđani/napadnuti u divljim resursima, osim ako:
+WS i DMs:
+
+- a. Ne postoji sustav registracije.
+- b. Sve divlje zgrade resursa, uključujući DM/WS, su prvi došao, prvi poslužen (FCFS). To znači da morate ostaviti zauzete divlje resurse na miru.
+- c. Uvjeti utrke: Potraživanja se ne mogu podnijeti ako ste izviđani/napadnuti u divljim resursima, osim ako:
 1. Izgubite resurs.
 2. Budete izviđani/napadnuti i zatim ponovno napadnuti. (2x pravilo)
-- Vaša je odgovornost obavijestiti svog diplomata, drugog igrača i protivničkog diplomata/vođu klana ako vas netko izviđa ili napada u rudniku.
+- d. Vaša je odgovornost obavijestiti svog diplomata, drugog igrača i protivničkog diplomata/vođu klana ako vas netko izviđa ili napada u divljem RSS-u.
 
-## 4. VODIČ ZA KOMPENZACIJE DVORA
-
-Pogledajte web stranicu k273tb . xyz za službeni kalkulator kompenzacija.
-
-## 5. POREZI
+## 4. POREZI
 
 Ne postoji Kraljevska garda za prikupljanje poreza. Klanovi trebaju imenovati nekoga da podsjeća igrače da šalju sve zlatne poluge kao porez. Slanje poreza svaki dan pri prijavi i odjavi je dobra praksa. Zlatne poluge nemaju osobnu vrijednost za vas.
+
+## 5. Clash of Thrones CoT
+
+- Ovo je jedini turnir igrač protiv igrača.
+- Bez napada na klanovske fortove: Napadanje fortova ili zgrada drugog klana je uvijek strogo zabranjeno.
+---
+Tijekom CoT-a možete izviđati i napadati pod sljedećim uvjetima:
+- Pravila portala: portali u mirno vrijeme - bez napada.
+- Pravila gradova: primjenjuje se pravilo 50%. Nezaštićeni igrači s polovinom vaše moći ili više sudjeluju u CoT-u.
+- Ako ste napadnuti. Bez obzira na njihovu moć, možete uzvratiti. To znači, ako igrač s 1 Milijun moći napadne igrača s 50 Milijuna moći, igrač s 50 Milijuna ima puno pravo uzvratiti ako želi.
+---
+Preporučeno upravljanje gubicima:
+- Prakticirajte No Value City (NVC) - ili koristite štit ako ne sudjelujete.
+- Držite resurse niskima tijekom događaja kako biste izbjegli gubitke; pošaljite trupe u fortove ako je potrebno.
+- Podsjetnik: mi smo otvoreno kraljevstvo, a portali i dalje mogu biti napadnuti od onih izvan našeg kraljevstva. Pazite na svoje portale!
 
 ## 6. Članovi cijenjenog kraljevstva
 
@@ -81,20 +94,7 @@ Svi igrači s 100k moći ili manje su zaštićeni i ne smiju biti slobodno napad
 
 Interakcije s igračima bez klana trebaju prvo biti usmjerene na upoznavanje njih i njihovih ciljeva u igri. Zatim ih potaknite da se pridruže klanu. Potaknite rast u igri i igrajte za kraljevstvo umjesto osobne nagrade.
 
-## 7. Clash of Thrones CoT
-
-Bez napada na klanovske fortove: Napadanje fortova ili zgrada drugog klana strogo je zabranjeno.
----
-Tijekom možete izviđati i napadati gradove pod sljedećim uvjetima:
-"Fair Play":
-- CoT pravila portala: Bez ograničenja
-- Primjenjuje se pravilo 50%.
-- Ako ste napadnuti. Bez obzira na njihovu moć, možete uzvratiti. To znači, ako igrač s 1.000.000 moći napadne igrača s 50.000.000 moći, igrač s 50.000.000 ima puno pravo uzvratiti ako želi.
----
-Upravljanje resursima:
-Držite resurse niskima tijekom događaja kako biste izbjegli krađu; pošaljite trupe u fortove ako je potrebno. Prakticirajte No Value City (NVC) ili koristite štit.
-
-## 8. Proces rješavanja sukoba
+## 7. Proces rješavanja sukoba
 
 Kada se ROE prekrši, treba poduzeti sljedeće korake:
 - Kontaktirajte drugog igrača kako biste pokušali riješiti. Ako nema rješenja u roku od 24 sata, eskalirajte svom klanskom diplomatu.
@@ -102,11 +102,15 @@ Kada se ROE prekrši, treba poduzeti sljedeće korake:
 - Suci će presuditi kako bi definirali krivca (ako postoji) i prihvatljiv iznos kompenzacije.
 - Ako krivac (ili njegov klan) odbije kompenzirati, Arhon ili Glavni sudac odlučit će treba li igrač ili klan biti proglašen odmetnikom i Kraljevska garda će biti aktivirana u pripravnosti.
 
+## 8. VODIČ ZA KOMPENZACIJE DVORA
+
+Pogledajte web stranicu k273tb . xyz za službeni kalkulator kompenzacija.
+
 ## 9. Kraljevski chatovi za pridruživanje
 
 - 273 ROE
 - #K273/CLAIMS
-- #K273/OUTLAWS
+- 273 OUTLAWS
 - SPAM ZONE
 - ~#K273/CPTHUNDERDOME
 - ~#K273/ACADEMY

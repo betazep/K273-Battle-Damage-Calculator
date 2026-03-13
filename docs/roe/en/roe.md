@@ -28,13 +28,13 @@ All clan leaders must fulfill their obligations as leaders:
 - A leader who fails in these commitments shall be declared an Outlaw.
 - Leaders are the example and standard of the kingdom, and their actions set the path for all members to follow.
 
-=========================
+## ============ RULES ============
 
 ## 1. PEACETIME
 
 - Attacks on cities are forbidden except during CoT and planned CP exchanges.
-- Attacks on clan buildings are prohibited.
-- Portals may not be attacked during peacetime. Hostile portals may be attacked at any time regardless of location. Hostile portals include attack’s on clan’s buildings, members, and all game resources (including seasonal event resources). Attacking portals in clan territories for clan activities is not allowed unless hostile. The kingdom is open, be careful leaving your portals open at all times.
+- Attacks on clan buildings are ALWAYS prohibited.
+- Portals may not be attacked during peacetime. The kingdom is open, be careful leaving your portals open at all times.
 - Scouting is a form of aggression and is illegal during peacetime.
 - If you are attacked. Regardless of their might, you are allowed to attack anyone back at any time. Meaning, if a 1,000,000 might player attacks a 50,000,000 might player. The 50,000,000 might player has full rights to attack back if they choose.
 
@@ -43,27 +43,41 @@ All clan leaders must fulfill their obligations as leaders:
 - Clans must state “We abide by K273 ROE” (or similar) in order to be served by the kingdom and protected by ROE.
 - Clans must identify at least one diplomat at the top of their clan description who can assist with dispute resolution. Diplomats must be an active leader or superior.
 
-## 3. General Rules
+## 3. RSS
 
-- All resource buildings within the clan territory belong to that clan. This includes seasonal event resources.
+- All resource buildings within the clan territory belong to that clan. This includes seasonal event resources. You may attack to remove people from resources in clan territory.
 - Player created resources belong to the individual who created them unless agreed to share between two parties.
 - Rare crypts belong to the individual who unlocked them.
-WS and DMs
 
-- There is no registration system.
-- All wild resource buildings (including DM/WS) are first come, first serve (FCFS).
-- Claims cannot be made if you are scouted/attacked in wild resources unless:
-1. You lose the resource.
-2. You are scouted/attacked and then attacked again. (2x rule)
-- It is your responsibility to message your diplomat, the other player, and the opposing diplomat/clan leader if someone is scouting you or attacking you in a mine.
+--
 
-## 4. PALACE COMPENSATION GUIDE
+WS and DMs:
 
-See the k273tb . xyz website for the official compensation calculator.
+- a. There is no registration system.
+- b. All wild resource buildings, to include DM/WS, are first come first serve (FCFS). This means you must leave occupied, wild resources alone.
+- c. Race conditions: Claims cannot be made if you are scouted/attacked in wild resources unless:
+  - You lose the resource.
+  - You are scouted/attacked and then attacked again. (2x rule)
+- d. It is your responsibility to message your diplomat, the other player, and the opposing diplomat/clan leader if someone is scouting you or attacking you in wild RSS.
 
-## 5. TAXES
+## 4. TAXES
 
 There is no Royal Guard Tax Collection. Clans should appoint someone to remind players to send all gold bars as taxes. Sending taxes everyday you log on and off as a good practice. Gold ingots have zero value to you personally.
+
+## 5. Clash of Thrones CoT
+
+- This is the only player versus player tournament.
+- No Clan Fort Attacks: Attacking another clan's forts or buildings is always strictly forbidden.
+---
+During CoT, you can scout and attack under the following conditions:
+- Portal Rules: Peacetime portals - no attacks.
+- City Rules: The 50% rule applies. Unshielded players half your might or above are participating in CoT.
+- If you are attacked. Regardless of their might, you are allowed to attack anyone back. Meaning, if a 1 Million might player attacks a 50 Million might player. The 50 Million might player has full rights to attack back if they choose.
+---
+Recommeneded Loss Management:
+- Practice No Value City (NVC) - or use a shield if you are not participating.
+- Keep resources low during the event to avoid loss; send troops to forts if needed.
+- Reminder we are an open kingdom, and portals still may be attacked by those outside our kingdom. Watch your portals!
 
 ## 6. Members of the Esteemed Kingdom
 
@@ -80,20 +94,7 @@ All players at or below 100k might are protected and are not to be freely attack
 
 Interactions with clanless players should first be to learn about them and their goals in the game. Followed by encouragement to join a clan. Foster growth in the game and play for the kingdom versus personal reward.
 
-## 7. Clash of Thrones CoT
-
-No Clan Fort Attacks: Attacking another clan's forts or buildings is strictly forbidden.
----
-During, you can scout and attack cities under the following conditions:
-"Fair Play":
-- CoT Portal Rules: No restrictions
-- The 50% rule applies.
-- If you are attacked. Regardless of their might, you are allowed to attack anyone back. Meaning, if a 1,000,000 might player attacks a 50,000,000 might player. The 50,000,000 might player has full rights to attack back if they choose.
----
-Resource Management:
-Keep resources low during the event to avoid theft; send troops to forts if needed. Practice No Value City (NVC) or use a shield.
-
-## 8. Conflict Resolution Process
+## 7. Conflict Resolution Process
 
 When the ROE is violated, the following steps should be taken:
 - Contact the other player to attempt to resolve. If no resolution within 24 hours, elevate to your clan diplomat.
@@ -101,11 +102,15 @@ When the ROE is violated, the following steps should be taken:
 - The judges will adjudicate to define the guilty party (if any) and an acceptable amount of compensation.
 - If the guilty party (or their clan) refuses to compensate, the Archon or Head Judge will determine whether the player or clan should be declared an Outlaw and the Royal Guard will be activated on stand-by.
 
+## 8. PALACE COMPENSATION GUIDE
+
+See the k273tb . xyz website for the official compensation calculator.
+
 ## 9. Kingdom Chats to Join
 
 - 273 ROE
 - #K273/CLAIMS
-- #K273/OUTLAWS
+- 273 OUTLAWS
 - SPAM ZONE
 - ~#K273/CPTHUNDERDOME
 - ~#K273/ACADEMY

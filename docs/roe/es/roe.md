@@ -28,13 +28,13 @@ Todos los líderes de clan deben cumplir sus obligaciones como líderes:
 - Un líder que incumpla estos compromisos será declarado Proscrito.
 - Los líderes son el ejemplo y el estándar del reino, y sus acciones marcan el camino para que todos los miembros lo sigan.
 
-=========================
+## ============ RULES ============
 
 ## 1. TIEMPO DE PAZ
 
 - Los ataques a ciudades están prohibidos, excepto durante CoT y los intercambios de CP planificados.
-- Los ataques a edificios del clan están prohibidos.
-- Los portales no pueden ser atacados durante el tiempo de paz. Los portales hostiles pueden ser atacados en cualquier momento sin importar la ubicación. Los portales hostiles incluyen ataques a edificios del clan, miembros y todos los recursos del juego (incluidos los recursos de eventos estacionales). Atacar portales en territorios de clan para actividades del clan no está permitido a menos que sean hostiles. El reino está abierto, tengan cuidado al dejar sus portales abiertos en todo momento.
+- Los ataques a edificios del clan están SIEMPRE prohibidos.
+- Los portales no pueden ser atacados durante el tiempo de paz. El reino está abierto, tengan cuidado al dejar sus portales abiertos en todo momento.
 - Explorar es una forma de agresión y es ilegal durante el tiempo de paz.
 - Si te atacan. Independientemente de su poder, puedes atacar de vuelta a cualquiera en cualquier momento. Es decir, si un jugador de 1.000.000 de poder ataca a un jugador de 50.000.000 de poder, el jugador de 50.000.000 tiene pleno derecho a contraatacar si lo desea.
 
@@ -43,28 +43,41 @@ Todos los líderes de clan deben cumplir sus obligaciones como líderes:
 - Los clanes deben declarar “We abide by K273 ROE” (o similar) para ser atendidos por el reino y protegidos por el ROE.
 - Los clanes deben identificar al menos un diplomata en la parte superior de la descripción del clan que pueda ayudar con la resolución de disputas. Los diplomatas deben ser un líder activo o superior.
 
-## 3. Reglas Generales
+## 3. RSS
 
-- Todos los edificios de recursos dentro del territorio del clan pertenecen a ese clan. Esto incluye recursos de eventos estacionales.
+- Todos los edificios de recursos dentro del territorio del clan pertenecen a ese clan. Esto incluye recursos de eventos estacionales. Puedes atacar para sacar a personas de recursos dentro del territorio del clan.
 - Los recursos creados por el jugador pertenecen al individuo que los creó, a menos que se acuerde compartir entre dos partes.
 - Las criptas raras pertenecen al individuo que las desbloqueó.
 
-WS y DMs
+--
 
-- No hay sistema de registro.
-- Todos los edificios de recursos salvajes (incluyendo DM/WS) son por orden de llegada (FCFS).
-- No se pueden hacer reclamaciones si eres explorado/atacado en recursos salvajes a menos que:
+WS y DMs:
+
+- a. No hay sistema de registro.
+- b. Todos los edificios de recursos salvajes, incluidos DM/WS, son por orden de llegada (FCFS). Esto significa que debes dejar en paz los recursos salvajes ocupados.
+- c. Condiciones de carrera: No se pueden hacer reclamaciones si eres explorado/atacado en recursos salvajes a menos que:
 1. Pierdas el recurso.
 2. Seas explorado/atacado y luego atacado de nuevo. (regla 2x)
-- Es tu responsabilidad avisar a tu diplomata, al otro jugador y al diplomata/líder del clan contrario si alguien te explora o te ataca en una mina.
+- d. Es tu responsabilidad avisar a tu diplomata, al otro jugador y al diplomata/líder del clan contrario si alguien te explora o te ataca en RSS salvajes.
 
-## 4. GUÍA DE COMPENSACIÓN DEL PALACIO
-
-Consulta el sitio k273tb . xyz para la calculadora oficial de compensación.
-
-## 5. IMPUESTOS
+## 4. IMPUESTOS
 
 No hay Recaudación de Impuestos de la Guardia Real. Los clanes deben designar a alguien para recordar a los jugadores que envíen todas las barras de oro como impuestos. Enviar impuestos cada día al entrar y salir es una buena práctica. Las barras de oro no tienen valor para ti personalmente.
+
+## 5. Clash of Thrones CoT
+
+- Este es el único torneo jugador contra jugador.
+- Sin Ataques a Fortalezas de Clan: Atacar los fuertes o edificios de otro clan está siempre estrictamente prohibido.
+---
+Durante CoT, puedes explorar y atacar bajo las siguientes condiciones:
+- Reglas de Portales: Portales en tiempo de paz - sin ataques.
+- Reglas de Ciudades: Se aplica la regla del 50%. Los jugadores sin escudo con la mitad de tu poder o más están participando en CoT.
+- Si te atacan. Independientemente de su poder, puedes atacar de vuelta a cualquiera. Es decir, si un jugador de 1 Millón de poder ataca a un jugador de 50 Millones de poder, el jugador de 50 Millones tiene pleno derecho a contraatacar si lo desea.
+---
+Gestión de pérdidas recomendada:
+- Practica No Value City (NVC) - o usa un escudo si no estás participando.
+- Mantén los recursos bajos durante el evento para evitar pérdidas; envía tropas a fuertes si es necesario.
+- Recordatorio: somos un reino abierto, y los portales aún pueden ser atacados por quienes están fuera de nuestro reino. ¡Vigila tus portales!
 
 ## 6. Miembros del Reino Estimado
 
@@ -81,20 +94,7 @@ Todos los jugadores con 100k de poder o menos están protegidos y no deben ser a
 
 Las interacciones con jugadores sin clan deben comenzar por conocerlos y sus objetivos en el juego. Después, animarlos a unirse a un clan. Fomenten el crecimiento en el juego y jueguen por el reino en lugar de por recompensa personal.
 
-## 7. Clash of Thrones CoT
-
-Sin Ataques a Fortalezas de Clan: Atacar los fuertes o edificios de otro clan está estrictamente prohibido.
----
-Durante, puedes explorar y atacar ciudades bajo las siguientes condiciones:
-"Juego limpio":
-- Reglas de Portales de CoT: Sin restricciones
-- Se aplica la regla del 50%.
-- Si te atacan. Independientemente de su poder, puedes atacar de vuelta a cualquiera. Es decir, si un jugador de 1.000.000 de poder ataca a un jugador de 50.000.000 de poder, el jugador de 50.000.000 tiene pleno derecho a contraatacar si lo desea.
----
-Gestión de Recursos:
-Mantén los recursos bajos durante el evento para evitar el robo; envía tropas a fuertes si es necesario. Practica No Value City (NVC) o usa un escudo.
-
-## 8. Proceso de Resolución de Conflictos
+## 7. Proceso de Resolución de Conflictos
 
 Cuando se viola el ROE, se deben seguir los siguientes pasos:
 - Contacta al otro jugador para intentar resolver. Si no hay resolución en 24 horas, eleva el caso a tu diplomata de clan.
@@ -102,11 +102,15 @@ Cuando se viola el ROE, se deben seguir los siguientes pasos:
 - Los jueces dictaminarán para definir la parte culpable (si la hay) y una cantidad aceptable de compensación.
 - Si la parte culpable (o su clan) se niega a compensar, el Archon o el Juez Principal determinará si el jugador o clan debe ser declarado Proscrito y la Guardia Real será activada en espera.
 
+## 8. GUÍA DE COMPENSACIÓN DEL PALACIO
+
+Consulta el sitio k273tb . xyz para la calculadora oficial de compensación.
+
 ## 9. Chats del Reino para Unirse
 
 - 273 ROE
 - #K273/CLAIMS
-- #K273/OUTLAWS
+- 273 OUTLAWS
 - SPAM ZONE
 - ~#K273/CPTHUNDERDOME
 - ~#K273/ACADEMY

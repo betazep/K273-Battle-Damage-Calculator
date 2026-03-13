@@ -28,13 +28,13 @@ Alle klanledere må oppfylle sine forpliktelser som ledere:
 - En leder som ikke oppfyller disse forpliktelsene, skal erklæres fredløs.
 - Ledere er eksempelet og standarden i kongeriket, og deres handlinger viser veien som alle medlemmer skal følge.
 
-=========================
+## ============ RULES ============
 
 ## 1. FREDSTID
 
 - Angrep på byer er forbudt, bortsett fra under CoT og planlagte CP-utvekslinger.
-- Angrep på klanbygninger er forbudt.
-- Portaler kan ikke angripes i fredstid. Fiendtlige portaler kan angripes når som helst uansett plassering. Fiendtlige portaler inkluderer angrep på klanbygninger, medlemmer og alle spillressurser (inkludert sesongbaserte eventressurser). Å angripe portaler i klanterritorium for klanaktiviteter er ikke tillatt med mindre de er fiendtlige. Kongeriket er åpent, vær forsiktig med å la portalene dine stå åpne til enhver tid.
+- Angrep på klanbygninger er ALLTID forbudt.
+- Portaler kan ikke angripes i fredstid. Kongeriket er åpent, vær forsiktig med å la portalene dine stå åpne til enhver tid.
 - Speiding er en form for aggresjon og er ulovlig i fredstid.
 - Hvis du blir angrepet. Uansett deres styrke, kan du angripe hvem som helst tilbake når som helst. Det betyr at hvis en spiller med 1 000 000 styrke angriper en spiller med 50 000 000 styrke, har spilleren med 50 000 000 full rett til å slå tilbake hvis de ønsker.
 
@@ -43,28 +43,41 @@ Alle klanledere må oppfylle sine forpliktelser som ledere:
 - Klaner må oppgi "We abide by K273 ROE" (eller lignende) for å bli betjent av kongeriket og beskyttet av ROE.
 - Klaner må identifisere minst én diplomat øverst i klanbeskrivelsen som kan bistå med konfliktløsning. Diplomater må være en aktiv leder eller overordnet.
 
-## 3. Generelle regler
+## 3. RSS
 
-- Alle ressursbygninger innenfor klanens territorium tilhører den klanen. Dette inkluderer sesongbaserte eventressurser.
+- Alle ressursbygninger innenfor klanens territorium tilhører den klanen. Dette inkluderer sesongbaserte eventressurser. Du kan angripe for å fjerne folk fra ressurser i klanens territorium.
 - Spillerskapte ressurser tilhører personen som skapte dem, med mindre det er avtalt å dele mellom to parter.
 - Sjeldne krypter tilhører personen som låste dem opp.
 
-WS og DMs
+--
 
-- Det finnes ingen registreringsordning.
-- Alle ville ressursbygninger (inkludert DM/WS) er førstemann til mølla (FCFS).
-- Krav kan ikke fremmes hvis du blir speidet/angrepet i ville ressurser med mindre:
+WS og DMs:
+
+- a. Det finnes ingen registreringsordning.
+- b. Alle ville ressursbygninger, inkludert DM/WS, er førstemann til mølla (FCFS). Dette betyr at du må la okkuperte ville ressurser være i fred.
+- c. Kappløpssituasjoner: Krav kan ikke fremmes hvis du blir speidet/angrepet i ville ressurser med mindre:
 1. Du mister ressursen.
 2. Du blir speidet/angrepet og deretter angrepet igjen. (2x-regel)
-- Det er ditt ansvar å kontakte din diplomat, den andre spilleren og motstanderens diplomat/klanleder hvis noen speider deg eller angriper deg i en gruve.
+- d. Det er ditt ansvar å kontakte din diplomat, den andre spilleren og motstanderens diplomat/klanleder hvis noen speider deg eller angriper deg i vill RSS.
 
-## 4. PALASSETS KOMPENSASJONSGUIDE
-
-Se nettstedet k273tb . xyz for den offisielle kompensasjonskalkulatoren.
-
-## 5. SKATTER
+## 4. SKATTER
 
 Det er ingen Kongelig Vakt skatteinnkreving. Klaner bør utpeke noen til å minne spillere om å sende alle gullbarrer som skatt. Å sende skatt hver dag når du logger inn og ut er god praksis. Gullbarrer har ingen verdi for deg personlig.
+
+## 5. Clash of Thrones CoT
+
+- Dette er den eneste spiller mot spiller-turneringen.
+- Ingen klanfort-angrep: Å angripe en annen klans fort eller bygninger er alltid strengt forbudt.
+---
+Under CoT kan du speide og angripe under følgende betingelser:
+- Portalregler: Fredstid-portaler - ingen angrep.
+- Byregler: 50%-regelen gjelder. Usjoldede spillere med halvparten av din styrke eller mer deltar i CoT.
+- Hvis du blir angrepet. Uansett deres styrke, kan du angripe hvem som helst tilbake. Det betyr at hvis en spiller med 1 Million styrke angriper en spiller med 50 Millioner styrke, har spilleren med 50 Millioner full rett til å slå tilbake hvis de ønsker.
+---
+Anbefalt tapsstyring:
+- Praktiser No Value City (NVC) - eller bruk skjold hvis du ikke deltar.
+- Hold ressursene lave under arrangementet for å unngå tap; send tropper til fort hvis nødvendig.
+- Påminnelse: Vi er et åpent kongerike, og portaler kan fortsatt bli angrepet av de utenfor vårt kongerike. Følg med på portalene dine!
 
 ## 6. Medlemmer av det ansette kongeriket
 
@@ -81,20 +94,7 @@ Alle spillere med 100k styrke eller mindre er beskyttet og skal ikke fritt angri
 
 Interaksjoner med klanløse spillere bør først handle om å bli kjent med dem og deres mål i spillet. Deretter oppmuntre dem til å bli med i en klan. Fremme vekst i spillet og spill for kongeriket fremfor personlig belønning.
 
-## 7. Clash of Thrones CoT
-
-Ingen klanfort-angrep: Å angripe en annen klans fort eller bygninger er strengt forbudt.
----
-Under kan du speide og angripe byer under følgende betingelser:
-"Fair Play":
-- CoT-portalregler: Ingen restriksjoner
-- 50%-regelen gjelder.
-- Hvis du blir angrepet. Uansett deres styrke, kan du angripe hvem som helst tilbake. Det betyr at hvis en spiller med 1 000 000 styrke angriper en spiller med 50 000 000 styrke, har spilleren med 50 000 000 full rett til å slå tilbake hvis de ønsker.
----
-Ressursforvaltning:
-Hold ressursene lave under arrangementet for å unngå tyveri; send tropper til fort hvis nødvendig. Praktiser No Value City (NVC) eller bruk skjold.
-
-## 8. Konfliktløsningsprosess
+## 7. Konfliktløsningsprosess
 
 Når ROE brytes, skal følgende trinn tas:
 - Kontakt den andre spilleren for å forsøke å løse. Hvis ingen løsning innen 24 timer, eskaler til din klan-diplomat.
@@ -102,11 +102,15 @@ Når ROE brytes, skal følgende trinn tas:
 - Dommerne vil avgjøre den skyldige parten (hvis noen) og et akseptabelt kompensasjonsbeløp.
 - Hvis den skyldige parten (eller deres klan) nekter å kompensere, vil Archon eller Hoveddommer avgjøre om spilleren eller klanen skal erklæres fredløs og den Kongelige Vakt vil bli aktivert i beredskap.
 
+## 8. PALASSETS KOMPENSASJONSGUIDE
+
+Se nettstedet k273tb . xyz for den offisielle kompensasjonskalkulatoren.
+
 ## 9. Kongerikets chatter å bli med i
 
 - 273 ROE
 - #K273/CLAIMS
-- #K273/OUTLAWS
+- 273 OUTLAWS
 - SPAM ZONE
 - ~#K273/CPTHUNDERDOME
 - ~#K273/ACADEMY
