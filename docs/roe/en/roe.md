@@ -32,11 +32,10 @@ All clan leaders must fulfill their obligations as leaders:
 
 ## 1. PEACETIME
 
-- Attacks on cities are forbidden except during CoT and planned CP exchanges.
-- Attacks on clan buildings are ALWAYS prohibited.
-- Portals may not be attacked during peacetime. The kingdom is open, be careful leaving your portals open at all times.
-- Scouting is a form of aggression and is illegal during peacetime.
-- If you are attacked. Regardless of their might, you are allowed to attack anyone back at any time. Meaning, if a 1,000,000 might player attacks a 50,000,000 might player. The 50,000,000 might player has full rights to attack back if they choose.
+- The kingdom is at peace except during 2 days of Clash of Thrones (CoT).
+- Scouting & Attacks on clan buildings are ALWAYS forbidden.
+- Scouting & Attacks on cities and portals are forbidden except for planned CP exchanges or if hostile. (Warning: The kingdom is open, carefully monitor your portals at all times.)
+- If you are scouted or attacked from a city or portal, you or a clan representative (your champion) is allowed to attack back 1:1 on the offending portal or city. You are allowed to use a clan march for the attack. You may instead choose the diplomatic route as defined in the Conflict Resolution Process. You cannot both attack and receive compensation.
 
 ## 2. CLANS & DIPLOMATS
 
@@ -64,15 +63,14 @@ WS and DMs:
 
 There is no Royal Guard Tax Collection. Clans should appoint someone to remind players to send all gold bars as taxes. Sending taxes everyday you log on and off as a good practice. Gold ingots have zero value to you personally.
 
-## 5. Clash of Thrones CoT
+## 5. Clash of Thrones CoT (Clash for the Throne)
 
-- This is the only player versus player tournament.
-- No Clan Fort Attacks: Attacking another clan's forts or buildings is always strictly forbidden.
----
-During CoT, you can scout and attack under the following conditions:
-- Portal Rules: Peacetime portals - no attacks.
-- City Rules: The 50% rule applies. Unshielded players half your might or above are participating in CoT.
-- If you are attacked. Regardless of their might, you are allowed to attack anyone back. Meaning, if a 1 Million might player attacks a 50 Million might player. The 50 Million might player has full rights to attack back if they choose.
+- This is the only in-Kingdom player versus player tournament. The first two days are PvP. The third day is for voting only.
+- Scouting & Attacks on clan buildings are ALWAYS forbidden.
+- Scouting & Attacks on memorial portals are forbidden. Scouting & Attacks on all other portals are allowed. No 50% might rule.
+- Scouting & Attacks on cities are allowed: The 50% rule applies. Unshielded players half your might or above are participating in CoT.
+- If you are attacked from a city, you may attack the city back 1:1 regardless of might. Clan marches or using a champion for this attack is forbidden.
+- If you are scouted from a city, you may scout back 1:1. You must follow the 50% might rule to attack back.
 ---
 Recommeneded Loss Management:
 - Practice No Value City (NVC) - or use a shield if you are not participating.
@@ -110,7 +108,7 @@ See the k273tb . xyz website for the official compensation calculator.
 
 - 273 ROE
 - #K273/CLAIMS
-- 273 OUTLAWS
+- 273 Outlaws
 - SPAM ZONE
 - ~#K273/CPTHUNDERDOME
 - ~#K273/ACADEMY

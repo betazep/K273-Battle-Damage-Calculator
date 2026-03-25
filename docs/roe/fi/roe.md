@@ -32,11 +32,10 @@ Kaikkien klaanijohtajien on täytettävä velvollisuutensa johtajina:
 
 ## 1. RAUHANAIKA
 
-- Hyökkäykset kaupunkeihin ovat kiellettyjä, paitsi CoT:n aikana ja suunnitelluissa CP-vaihdossa.
-- Hyökkäykset klaanirakennuksiin ovat AINA kiellettyjä.
-- Portteja ei saa hyökätä rauhanaikana. Kuningaskunta on avoin, ole varovainen jättäessäsi porttisi auki koko ajan.
-- Tiedustelu on aggressiivinen teko ja on laitonta rauhanaikana.
-- Jos sinua hyökätään. Riippumatta heidän voimastaan, sinulla on oikeus hyökätä takaisin milloin tahansa. Tämä tarkoittaa, että jos 1 000 000 voiman pelaaja hyökkää 50 000 000 voiman pelaajan kimppuun, 50 000 000 voiman pelaajalla on täysi oikeus hyökätä takaisin, jos hän haluaa.
+- Kuningaskunta on rauhassa lukuun ottamatta 2 päivää Clash of Thrones (CoT).
+- Tiedustelu ja hyökkäykset klaanirakennuksiin ovat AINA kiellettyjä.
+- Tiedustelu ja hyökkäykset kaupunkeihin ja portteihin ovat kiellettyjä, paitsi suunnitelluissa CP-vaihdoissa tai jos ne ovat vihamielisiä. (Varoitus: kuningaskunta on avoin, seuraa porttejasi tarkasti koko ajan.)
+- Jos sinut tiedustellaan tai sinua hyökätään kaupungista tai portista, sinä tai klaanin edustaja (championisi) voit hyökätä 1:1 takaisin kyseiseen porttiin tai kaupunkiin. Klaanihyökkäysmarssi on sallittu. Voit myös valita diplomaattisen reitin, kuten konfliktien ratkaisuprosessissa on määritelty. Et voi sekä hyökätä että vastaanottaa korvausta.
 
 ## 2. KLAANIT JA DIPLOMAATIT
 
@@ -56,23 +55,22 @@ WS ja DMs:
 - a. Rekisteröintijärjestelmää ei ole.
 - b. Kaikki villit resurssirakennukset, mukaan lukien DM/WS, ovat ensimmäinen tulee, ensimmäinen saa (FCFS). Tämä tarkoittaa, että sinun tulee jättää varatut villit resurssit rauhaan.
 - c. Kilpajuoksutilanteet: Vaatimuksia ei voida tehdä, jos sinut tiedustellaan/hyökätään villissä resurssissa, ellei:
-1. Menetät resurssin.
-2. Sinut tiedustellaan/hyökätään ja sitten hyökätään uudelleen. (2x-sääntö)
+  - Menetät resurssin.
+  - Sinut tiedustellaan/hyökätään ja sitten hyökätään uudelleen. (2x-sääntö)
 - d. On sinun vastuullasi viestiä omalle diplomaatillesi, toiselle pelaajalle ja vastapuolen diplomaatille/klaaninjohtajalle, jos joku tiedustelee sinua tai hyökkää sinua villissä RSS:ssä.
 
 ## 4. VEROT
 
 Kuninkaallisen Vartioston veronkeruuta ei ole. Klaanien tulisi nimetä joku muistuttamaan pelaajia lähettämään kaikki kultaharkot veroina. Verojen lähettäminen joka päivä sisään- ja uloskirjautuessa on hyvä käytäntö. Kultaharkoilla ei ole sinulle henkilökohtaista arvoa.
 
-## 5. Clash of Thrones CoT
+## 5. Clash of Thrones CoT (Taistelu Tronista)
 
-- Tämä on ainoa pelaaja vastaan pelaaja -turnaus.
-- Ei klaanilinnojen hyökkäyksiä: Toisen klaanin linnojen tai rakennusten hyökkääminen on aina ehdottomasti kielletty.
----
-CoT:n aikana voit tiedustella ja hyökätä seuraavin ehdoin:
-- Portaalisäännöt: rauhanaika-portaalit - ei hyökkäyksiä.
-- Kaupunkisäännöt: 50 % -sääntö pätee. Kilvettömät pelaajat, joiden voima on vähintään puolet sinun voimastasi, osallistuvat CoT:hen.
-- Jos sinua hyökätään. Riippumatta heidän voimastaan, sinulla on oikeus hyökätä takaisin. Tämä tarkoittaa, että jos 1 Miljoonan voiman pelaaja hyökkää 50 Miljoonan voiman pelaajan kimppuun, 50 Miljoonan voiman pelaajalla on täysi oikeus hyökätä takaisin, jos hän haluaa.
+- Tämä on ainoa pelaaja vastaan pelaaja -turnaus kuningaskunnan sisällä. Kaksi ensimmäistä päivää ovat PvP. Kolmas päivä on vain äänestystä varten.
+- Tiedustelu ja hyökkäykset klaanirakennuksiin ovat AINA kiellettyjä.
+- Tiedustelu ja hyökkäykset muistoportteihin ovat kiellettyjä. Tiedustelu ja hyökkäykset kaikkiin muihin portteihin ovat sallittuja. Ei 50 % -voimasääntöä.
+- Tiedustelu ja hyökkäykset kaupunkeihin ovat sallittuja: 50 % -sääntö pätee. Kilvettömät pelaajat, joiden voima on vähintään puolet sinun voimastasi, osallistuvat CoT:hen.
+- Jos sinua hyökätään kaupungista, voit hyökätä kaupunkiin takaisin 1:1 riippumatta voimasta. Klaanihyökkäysmarssit tai championin käyttö tähän hyökkäykseen on kielletty.
+- Jos sinua tiedustellaan kaupungista, voit tiedustella takaisin 1:1. Sinun on noudatettava 50 % -voimasääntöä, jotta voit hyökätä takaisin.
 ---
 Suositeltu tappioiden hallinta:
 - Harjoittele No Value City (NVC) - tai käytä kilpeä, jos et osallistu.
@@ -110,7 +108,7 @@ Katso virallinen korvauslaskuri sivustolta k273tb . xyz.
 
 - 273 ROE
 - #K273/CLAIMS
-- 273 OUTLAWS
+- 273 Outlaws
 - SPAM ZONE
 - ~#K273/CPTHUNDERDOME
 - ~#K273/ACADEMY

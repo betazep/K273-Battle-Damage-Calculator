@@ -32,11 +32,10 @@ Všichni vůdci klanů musí plnit své povinnosti jako vůdci:
 
 ## 1. MÍR
 
-- Útoky na města jsou zakázány, kromě CoT a plánovaných CP výměn.
-- Útoky na klanové budovy jsou VŽDY zakázány.
-- Portály nesmí být napadány během míru. Království je otevřené, buďte opatrní při ponechání portálů otevřených po celou dobu.
-- Skauting je forma agrese a je během míru nelegální.
-- Pokud jste napadeni. Bez ohledu na jejich sílu můžete kdykoli zaútočit zpět. To znamená, že pokud hráč s 1 000 000 síly napadne hráče s 50 000 000 síly, hráč s 50 000 000 má plné právo se bránit, pokud chce.
+- Království je v míru, kromě 2 dnů Clash of Thrones (CoT).
+- Skauting a útoky na klanové budovy jsou VŽDY zakázány.
+- Skauting a útoky na města a portály jsou zakázány, kromě plánovaných CP výměn nebo pokud jsou nepřátelské. (Varování: království je otevřené, pečlivě sledujte své portály po celou dobu.)
+- Pokud jste skautováni nebo napadeni z města nebo portálu, vy nebo zástupce klanu (váš šampion) můžete 1:1 zaútočit zpět na provinilé město nebo portál. Pro útok můžete použít klanový pochod. Můžete také zvolit diplomatickou cestu, jak je definována v Procesu řešení konfliktů. Nemůžete zároveň útočit a dostat kompenzaci.
 
 ## 2. KLANY A DIPLOMATÉ
 
@@ -56,23 +55,22 @@ WS a DMs:
 - a. Neexistuje žádný registrační systém.
 - b. Všechny divoké zdrojové budovy, včetně DM/WS, jsou na principu první přišel, první bere (FCFS). To znamená, že musíte nechat obsazené divoké zdroje na pokoji.
 - c. Závodní podmínky: Nároky nelze uplatnit, pokud jste skautováni/napadeni ve volných zdrojích, ledaže:
-1. Ztratíte zdroj.
-2. Budete skautováni/napadeni a poté napadeni znovu. (pravidlo 2x)
+  - Ztratíte zdroj.
+  - Budete skautováni/napadeni a poté napadeni znovu. (pravidlo 2x)
 - d. Je vaší odpovědností informovat svého diplomata, druhého hráče a diplomata/vůdce protivníkového klanu, pokud vás někdo skautuje nebo napadá ve volných RSS.
 
 ## 4. DANĚ
 
 Neexistuje žádný výběr daní Královskou stráží. Klan by měl jmenovat někoho, kdo bude hráčům připomínat, aby posílali všechny zlaté cihly jako daně. Posílání daní každý den při přihlášení a odhlášení je dobrá praxe. Zlaté cihly pro vás osobně nemají žádnou hodnotu.
 
-## 5. Clash of Thrones CoT
+## 5. Clash of Thrones CoT (Střet o Trůn)
 
-- Toto je jediný turnaj hráč proti hráči.
-- Žádné útoky na klanové pevnosti: Útočení na pevnosti nebo budovy jiného klanu je vždy přísně zakázáno.
----
-Během CoT můžete skautovat a útočit za následujících podmínek:
-- Pravidla portálů: portály v době míru - žádné útoky.
-- Pravidla měst: Platí pravidlo 50 %. Nechránění hráči s polovinou vaší síly nebo více se účastní CoT.
-- Pokud jste napadeni. Bez ohledu na jejich sílu můžete zaútočit zpět. To znamená, že pokud hráč s 1 Milion síly napadne hráče s 50 Milionů síly, hráč s 50 Milionů má plné právo se bránit, pokud chce.
+- Toto je jediný turnaj hráč proti hráči v království. První dva dny jsou PvP. Třetí den je pouze pro hlasování.
+- Skauting a útoky na klanové budovy jsou VŽDY zakázány.
+- Skauting a útoky na pamětní portály jsou zakázány. Skauting a útoky na všechny ostatní portály jsou povoleny. Žádné pravidlo 50 % síly.
+- Skauting a útoky na města jsou povoleny: Platí pravidlo 50 %. Nechránění hráči s polovinou vaší síly nebo více se účastní CoT.
+- Pokud jste napadeni z města, můžete město 1:1 napadnout zpět bez ohledu na sílu. Klanové pochody nebo použití šampiona pro tento útok jsou zakázány.
+- Pokud jste skautováni z města, můžete skautovat zpět 1:1. Musíte dodržet pravidlo 50 % síly, abyste mohli zpět útočit.
 ---
 Doporučené řízení ztrát:
 - Procvičujte No Value City (NVC) - nebo použijte štít, pokud se neúčastníte.
@@ -110,7 +108,7 @@ Podívejte se na web k273tb . xyz pro oficiální kalkulačku kompenzací.
 
 - 273 ROE
 - #K273/CLAIMS
-- 273 OUTLAWS
+- 273 Outlaws
 - SPAM ZONE
 - ~#K273/CPTHUNDERDOME
 - ~#K273/ACADEMY

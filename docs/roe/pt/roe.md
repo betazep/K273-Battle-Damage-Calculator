@@ -32,11 +32,10 @@ Todos os líderes de clã devem cumprir suas obrigações como líderes:
 
 ## 1. TEMPO DE PAZ
 
-- Ataques a cidades são proibidos, exceto durante CoT e trocas CP planejadas.
-- Ataques a prédios de clã são SEMPRE proibidos.
-- Portais não podem ser atacados durante o tempo de paz. O reino está aberto, tenham cuidado ao deixar seus portais abertos o tempo todo.
-- Espionagem é uma forma de agressão e é ilegal durante o tempo de paz.
-- Se você for atacado. Independentemente do poder, você pode atacar qualquer um de volta a qualquer momento. Ou seja, se um jogador de 1.000.000 de poder ataca um jogador de 50.000.000 de poder, o jogador de 50.000.000 tem total direito de revidar se quiser.
+- O reino está em paz, exceto durante 2 dias de Clash of Thrones (CoT).
+- Espionagem e ataques a prédios de clã são SEMPRE proibidos.
+- Espionagem e ataques a cidades e portais são proibidos, exceto em trocas CP planejadas ou se forem hostis. (Aviso: o reino é aberto, monitore seus portais cuidadosamente o tempo todo.)
+- Se você for explorado ou atacado a partir de uma cidade ou portal, você ou um representante do clã (seu campeão) pode revidar 1:1 no portal ou cidade ofensora. É permitido usar uma marcha de clã para o ataque. Você pode, em vez disso, escolher a via diplomática conforme definido no Processo de Resolução de Conflitos. Você não pode atacar e receber compensação.
 
 ## 2. CLÃS E DIPLOMATAS
 
@@ -56,23 +55,22 @@ WS e DMs:
 - a. Não há sistema de registro.
 - b. Todos os prédios de recursos selvagens, incluindo DM/WS, são por ordem de chegada (FCFS). Isso significa que você deve deixar recursos selvagens ocupados em paz.
 - c. Condições de corrida: Reivindicações não podem ser feitas se você for explorado/atacado em recursos selvagens a menos que:
-1. Você perca o recurso.
-2. Você seja explorado/atacado e depois atacado novamente. (regra 2x)
+  - Você perca o recurso.
+  - Você seja explorado/atacado e depois atacado novamente. (regra 2x)
 - d. É sua responsabilidade informar seu diplomata, o outro jogador e o diplomata/líder de clã oponente se alguém estiver explorando ou atacando você em RSS selvagens.
 
 ## 4. IMPOSTOS
 
 Não há Coleta de Impostos da Guarda Real. Os clãs devem designar alguém para lembrar os jogadores de enviar todas as barras de ouro como impostos. Enviar impostos todos os dias ao entrar e sair é uma boa prática. Barras de ouro não têm valor para você pessoalmente.
 
-## 5. Clash of Thrones CoT
+## 5. Clash of Thrones CoT (Clash pelo Trono)
 
-- Este é o único torneio jogador versus jogador.
-- Sem Ataques a Fortes de Clã: Atacar os fortes ou prédios de outro clã é sempre estritamente proibido.
----
-Durante o CoT, você pode explorar e atacar sob as seguintes condições:
-- Regras de Portais: Portais em tempo de paz - sem ataques.
-- Regras de Cidades: A regra dos 50% se aplica. Jogadores sem escudo com metade do seu poder ou mais estão participando do CoT.
-- Se você for atacado. Independentemente do poder, você pode atacar qualquer um de volta. Ou seja, se um jogador de 1 Milhão de poder ataca um jogador de 50 Milhões de poder, o jogador de 50 Milhões tem total direito de revidar se quiser.
+- Este é o único torneio jogador contra jogador dentro do reino. Os dois primeiros dias são PvP. O terceiro dia é apenas para votação.
+- Espionagem e ataques a prédios de clã são SEMPRE proibidos.
+- Espionagem e ataques a portais memoriais são proibidos. Espionagem e ataques a todos os outros portais são permitidos. Sem regra de 50% de poder.
+- Espionagem e ataques a cidades são permitidos: a regra dos 50% se aplica. Jogadores sem escudo com metade do seu poder ou mais estão participando do CoT.
+- Se você for atacado a partir de uma cidade, pode atacar a cidade de volta 1:1 independentemente do poder. Marchas de clã ou usar um campeão para este ataque é proibido.
+- Se você for explorado a partir de uma cidade, pode explorar de volta 1:1. Você deve seguir a regra de 50% de poder para atacar de volta.
 ---
 Gerenciamento de perdas recomendado:
 - Pratique No Value City (NVC) - ou use um escudo se não estiver participando.
@@ -110,7 +108,7 @@ Consulte o site k273tb . xyz para a calculadora oficial de compensação.
 
 - 273 ROE
 - #K273/CLAIMS
-- 273 OUTLAWS
+- 273 Outlaws
 - SPAM ZONE
 - ~#K273/CPTHUNDERDOME
 - ~#K273/ACADEMY

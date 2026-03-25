@@ -32,11 +32,10 @@ Alla klanledare måste uppfylla sina skyldigheter som ledare:
 
 ## 1. FREDSTID
 
-- Angrepp på städer är förbjudna, förutom under CoT och planerade CP-utbyten.
-- Angrepp på klanbyggnader är ALLTID förbjudna.
-- Portaler får inte angripas under fredstid. Riket är öppet, var försiktig med att lämna dina portaler öppna hela tiden.
-- Spaning är en form av aggression och är olaglig under fredstid.
-- Om du blir attackerad. Oavsett deras styrka får du angripa tillbaka när som helst. Det betyder att om en spelare med 1 000 000 styrka attackerar en spelare med 50 000 000 styrka, har spelaren med 50 000 000 full rätt att slå tillbaka om de vill.
+- Riket är i fred utom under 2 dagar av Clash of Thrones (CoT).
+- Spaning och attacker på klanbyggnader är ALLTID förbjudna.
+- Spaning och attacker på städer och portaler är förbjudna, förutom vid planerade CP-utbyten eller om de är fientliga. (Varning: riket är öppet, övervaka dina portaler noggrant hela tiden.)
+- Om du blir spanad eller attackerad från en stad eller portal får du eller en klanrepresentant (din champion) attackera tillbaka 1:1 på den felande portalen eller staden. Du får använda en klanmarsch för attacken. Du kan istället välja den diplomatiska vägen som definieras i Konfliktlösningsprocessen. Du kan inte både attackera och ta emot kompensation.
 
 ## 2. KLANER OCH DIPLOMATER
 
@@ -56,23 +55,22 @@ WS och DMs:
 - a. Det finns inget registreringssystem.
 - b. Alla vilda resursbyggnader, inklusive DM/WS, är först till kvarn (FCFS). Det betyder att du måste lämna ockuperade vilda resurser i fred.
 - c. Kapplöpsvillkor: Anspråk kan inte göras om du blir spanad/attackerad i vilda resurser om inte:
-1. Du förlorar resursen.
-2. Du blir spanad/attackerad och sedan attackerad igen. (2x-regeln)
+  - Du förlorar resursen.
+  - Du blir spanad/attackerad och sedan attackerad igen. (2x-regeln)
 - d. Det är ditt ansvar att meddela din diplomat, den andra spelaren och motståndarens diplomat/klanledare om någon spanar på dig eller attackerar dig i vilda RSS.
 
 ## 4. SKATTER
 
 Det finns ingen skatteuppbörd från Kungliga Gardet. Klaner bör utse någon som påminner spelare att skicka alla guldtackor som skatt. Att skicka skatt varje dag när du loggar in och ut är god praxis. Guldtackor har inget personligt värde för dig.
 
-## 5. Clash of Thrones CoT
+## 5. Clash of Thrones CoT (Strid om Tronen)
 
-- Detta är den enda spelare-mot-spelare-turneringen.
-- Inga klanfort-attacker: Att attackera en annan klans fort eller byggnader är alltid strikt förbjudet.
----
-Under CoT kan du spana och attackera under följande villkor:
-- Portalregler: fredstid-portaler - inga attacker.
-- Stadregler: 50%-regeln gäller. Osköldade spelare med hälften av din styrka eller mer deltar i CoT.
-- Om du blir attackerad. Oavsett deras styrka får du angripa tillbaka. Det betyder att om en spelare med 1 Miljon styrka attackerar en spelare med 50 Miljoner styrka, har spelaren med 50 Miljoner full rätt att slå tillbaka om de vill.
+- Detta är den enda spelare-mot-spelare-turneringen i riket. De första två dagarna är PvP. Den tredje dagen är bara för röstning.
+- Spaning och attacker på klanbyggnader är ALLTID förbjudna.
+- Spaning och attacker på minnesportaler är förbjudna. Spaning och attacker på alla andra portaler är tillåtna. Ingen 50%-styrkregel.
+- Spaning och attacker på städer är tillåtna: 50%-regeln gäller. Osköldade spelare med hälften av din styrka eller mer deltar i CoT.
+- Om du blir attackerad från en stad får du attackera staden tillbaka 1:1 oavsett styrka. Klanmarscher eller att använda en champion för denna attack är förbjudet.
+- Om du blir spanad från en stad får du spana tillbaka 1:1. Du måste följa 50%-styrkregeln för att attackera tillbaka.
 ---
 Rekommenderad förlusthantering:
 - Praktisera No Value City (NVC) - eller använd en sköld om du inte deltar.
@@ -110,7 +108,7 @@ Se webbplatsen k273tb . xyz för den officiella kompensationskalkylatorn.
 
 - 273 ROE
 - #K273/CLAIMS
-- 273 OUTLAWS
+- 273 Outlaws
 - SPAM ZONE
 - ~#K273/CPTHUNDERDOME
 - ~#K273/ACADEMY

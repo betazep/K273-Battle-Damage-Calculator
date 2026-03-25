@@ -32,11 +32,10 @@ Svi vođe klanova moraju ispuniti svoje obveze kao vođe:
 
 ## 1. MIRNO VRIJEME
 
-- Napadi na gradove su zabranjeni, osim tijekom CoT i planiranih CP razmjena.
-- Napadi na zgrade klana su UVIJEK zabranjeni.
-- Portali se ne smiju napadati tijekom mirnog vremena. Kraljevstvo je otvoreno, budite oprezni ostavljajući svoje portale otvorenima u svakom trenutku.
-- Izviđanje je oblik agresije i nezakonito je tijekom mirnog vremena.
-- Ako ste napadnuti. Bez obzira na njihovu moć, možete uzvratiti bilo kome u bilo koje vrijeme. To znači, ako igrač sa 1.000.000 moći napadne igrača s 50.000.000 moći, igrač s 50.000.000 ima puno pravo uzvratiti ako želi.
+- Kraljevstvo je u miru osim tijekom 2 dana Clash of Thrones (CoT).
+- Izviđanje i napadi na zgrade klana su UVIJEK zabranjeni.
+- Izviđanje i napadi na gradove i portale su zabranjeni, osim za planirane CP razmjene ili ako su neprijateljski. (Upozorenje: Kraljevstvo je otvoreno, pažljivo pratite svoje portale u svakom trenutku.)
+- Ako ste izviđani ili napadnuti iz grada ili portala, vi ili predstavnik klana (vaš šampion) možete uzvratiti 1:1 na sporni portal ili grad. Dopušteno je koristiti klanovski marš za napad. Umjesto toga možete odabrati diplomatski put definiran u Procesu rješavanja sukoba. Ne možete i napasti i dobiti kompenzaciju.
 
 ## 2. KLANOVI I DIPLOMATI
 
@@ -56,23 +55,22 @@ WS i DMs:
 - a. Ne postoji sustav registracije.
 - b. Sve divlje zgrade resursa, uključujući DM/WS, su prvi došao, prvi poslužen (FCFS). To znači da morate ostaviti zauzete divlje resurse na miru.
 - c. Uvjeti utrke: Potraživanja se ne mogu podnijeti ako ste izviđani/napadnuti u divljim resursima, osim ako:
-1. Izgubite resurs.
-2. Budete izviđani/napadnuti i zatim ponovno napadnuti. (2x pravilo)
+  - Izgubite resurs.
+  - Budete izviđani/napadnuti i zatim ponovno napadnuti. (2x pravilo)
 - d. Vaša je odgovornost obavijestiti svog diplomata, drugog igrača i protivničkog diplomata/vođu klana ako vas netko izviđa ili napada u divljem RSS-u.
 
 ## 4. POREZI
 
 Ne postoji Kraljevska garda za prikupljanje poreza. Klanovi trebaju imenovati nekoga da podsjeća igrače da šalju sve zlatne poluge kao porez. Slanje poreza svaki dan pri prijavi i odjavi je dobra praksa. Zlatne poluge nemaju osobnu vrijednost za vas.
 
-## 5. Clash of Thrones CoT
+## 5. Clash of Thrones CoT (Sukob za Prijestolje)
 
-- Ovo je jedini turnir igrač protiv igrača.
-- Bez napada na klanovske fortove: Napadanje fortova ili zgrada drugog klana je uvijek strogo zabranjeno.
----
-Tijekom CoT-a možete izviđati i napadati pod sljedećim uvjetima:
-- Pravila portala: portali u mirno vrijeme - bez napada.
-- Pravila gradova: primjenjuje se pravilo 50%. Nezaštićeni igrači s polovinom vaše moći ili više sudjeluju u CoT-u.
-- Ako ste napadnuti. Bez obzira na njihovu moć, možete uzvratiti. To znači, ako igrač s 1 Milijun moći napadne igrača s 50 Milijuna moći, igrač s 50 Milijuna ima puno pravo uzvratiti ako želi.
+- Ovo je jedini turnir igrač protiv igrača u kraljevstvu. Prva dva dana su PvP. Treći dan je samo za glasanje.
+- Izviđanje i napadi na zgrade klana su UVIJEK zabranjeni.
+- Izviđanje i napadi na memorijalne portale su zabranjeni. Izviđanje i napadi na sve ostale portale su dopušteni. Nema pravila 50% moći.
+- Izviđanje i napadi na gradove su dopušteni: primjenjuje se pravilo 50%. Nezaštićeni igrači s polovinom vaše moći ili više sudjeluju u CoT-u.
+- Ako ste napadnuti iz grada, možete napasti grad natrag 1:1 bez obzira na moć. Klanovski marševi ili korištenje šampiona za ovaj napad su zabranjeni.
+- Ako ste izviđani iz grada, možete izviđati natrag 1:1. Morate slijediti pravilo 50% moći kako biste napali natrag.
 ---
 Preporučeno upravljanje gubicima:
 - Prakticirajte No Value City (NVC) - ili koristite štit ako ne sudjelujete.
@@ -110,7 +108,7 @@ Pogledajte web stranicu k273tb . xyz za službeni kalkulator kompenzacija.
 
 - 273 ROE
 - #K273/CLAIMS
-- 273 OUTLAWS
+- 273 Outlaws
 - SPAM ZONE
 - ~#K273/CPTHUNDERDOME
 - ~#K273/ACADEMY

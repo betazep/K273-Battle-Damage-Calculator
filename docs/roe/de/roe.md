@@ -32,11 +32,10 @@ Alle Clanführer müssen ihre Pflichten als Anführer erfüllen:
 
 ## 1. FRIEDENSZEIT
 
-- Angriffe auf Städte sind verboten, außer während CoT und geplanten CP-Austauschen.
-- Angriffe auf Clan-Gebäude sind IMMER verboten.
-- Portale dürfen in Friedenszeiten nicht angegriffen werden. Das Königreich ist geöffnet, seid vorsichtig, wenn ihr eure Portale jederzeit offen lasst.
-- Spionieren ist eine Form der Aggression und ist in Friedenszeiten illegal.
-- Wenn ihr angegriffen werdet. Unabhängig von ihrer Macht dürft ihr jederzeit zurückschlagen. Das bedeutet: Wenn ein Spieler mit 1.000.000 Macht einen Spieler mit 50.000.000 Macht angreift, hat der Spieler mit 50.000.000 das volle Recht, zurückzuschlagen, wenn er möchte.
+- Das Königreich ist in Frieden, außer während 2 Tagen Clash of Thrones (CoT).
+- Spähen und Angriffe auf Clan-Gebäude sind IMMER verboten.
+- Spähen und Angriffe auf Städte und Portale sind verboten, außer für geplante CP-Austausche oder wenn sie feindlich sind. (Warnung: Das Königreich ist offen, überwacht eure Portale jederzeit aufmerksam.)
+- Wenn ihr von einer Stadt oder einem Portal ausgespäht oder angegriffen werdet, dürft ihr oder ein Clanvertreter (euer Champion) 1:1 auf das betreffende Portal oder die Stadt zurückschlagen. Ihr dürft für den Angriff eine Clan-Marsch verwenden. Ihr könnt stattdessen den diplomatischen Weg wählen, wie im Konfliktlösungsprozess definiert. Ihr könnt nicht sowohl angreifen als auch Entschädigung erhalten.
 
 ## 2. CLANS & DIPLOMATEN
 
@@ -56,23 +55,22 @@ WS und DMs:
 - a. Es gibt kein Registrierungssystem.
 - b. Alle wilden Ressourcen-Gebäude, einschließlich DM/WS, sind nach dem Prinzip „wer zuerst kommt, mahlt zuerst“ (FCFS). Das bedeutet, dass ihr besetzte wilde Ressourcen in Ruhe lassen müsst.
 - c. Wettlaufsituationen: Ansprüche können nicht geltend gemacht werden, wenn ihr bei wilden Ressourcen ausgespäht/angegriffen werdet, außer wenn:
-1. Ihr die Ressource verliert.
-2. Ihr ausgespäht/angegriffen und dann erneut angegriffen werdet. (2x-Regel)
+  - Ihr die Ressource verliert.
+  - Ihr ausgespäht/angegriffen und dann erneut angegriffen werdet. (2x-Regel)
 - d. Es liegt in eurer Verantwortung, euren Diplomaten, den anderen Spieler und den gegnerischen Diplomaten/Clanführer zu informieren, wenn euch jemand in wilden RSS ausspäht oder angreift.
 
 ## 4. STEUERN
 
 Es gibt keine Steuererhebung durch die Königliche Garde. Clans sollten jemanden benennen, der die Spieler daran erinnert, alle Goldbarren als Steuern zu senden. Steuern jeden Tag beim Ein- und Ausloggen zu senden, ist eine gute Praxis. Goldbarren haben für dich persönlich keinen Wert.
 
-## 5. Clash of Thrones CoT
+## 5. Clash of Thrones CoT (Kampf um den Thron)
 
-- Dies ist das einzige Spieler-gegen-Spieler-Turnier.
-- Keine Clan-Fort-Angriffe: Das Angreifen der Forts oder Gebäude eines anderen Clans ist immer strengstens verboten.
----
-Während CoT könnt ihr unter folgenden Bedingungen ausspähen und angreifen:
-- Portalregeln: Friedenszeit-Portale - keine Angriffe.
-- Stadtregeln: Die 50%-Regel gilt. Ungeschirmte Spieler mit der Hälfte eurer Macht oder mehr nehmen am CoT teil.
-- Wenn ihr angegriffen werdet. Unabhängig von ihrer Macht dürft ihr zurückschlagen. Das bedeutet: Wenn ein Spieler mit 1 Million Macht einen Spieler mit 50 Millionen Macht angreift, hat der Spieler mit 50 Millionen das volle Recht, zurückzuschlagen, wenn er möchte.
+- Dies ist das einzige Spieler-gegen-Spieler-Turnier im Königreich. Die ersten zwei Tage sind PvP. Der dritte Tag ist nur fürs Wählen.
+- Spähen und Angriffe auf Clan-Gebäude sind IMMER verboten.
+- Spähen und Angriffe auf Gedenkportale sind verboten. Spähen und Angriffe auf alle anderen Portale sind erlaubt. Keine 50%-Macht-Regel.
+- Spähen und Angriffe auf Städte sind erlaubt: Die 50%-Regel gilt. Ungeschirmte Spieler mit der Hälfte eurer Macht oder mehr nehmen am CoT teil.
+- Wenn ihr von einer Stadt angegriffen werdet, dürft ihr die Stadt 1:1 unabhängig von der Macht zurückangreifen. Clan-Märsche oder die Verwendung eines Champions für diesen Angriff sind verboten.
+- Wenn ihr von einer Stadt ausgespäht werdet, dürft ihr 1:1 zurückspähen. Ihr müsst die 50%-Macht-Regel befolgen, um zurück anzugreifen.
 ---
 Empfohlenes Verlustmanagement:
 - Praktiziert No Value City (NVC) - oder nutzt einen Schild, wenn ihr nicht teilnehmt.
@@ -110,7 +108,7 @@ Siehe die Website k273tb . xyz für den offiziellen Entschädigungsrechner.
 
 - 273 ROE
 - #K273/CLAIMS
-- 273 OUTLAWS
+- 273 Outlaws
 - SPAM ZONE
 - ~#K273/CPTHUNDERDOME
 - ~#K273/ACADEMY

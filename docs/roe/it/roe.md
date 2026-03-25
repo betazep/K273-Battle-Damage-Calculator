@@ -32,11 +32,10 @@ Tutti i leader di clan devono adempiere ai propri obblighi come leader:
 
 ## 1. TEMPO DI PACE
 
-- Gli attacchi alle città sono proibiti, tranne durante CoT e gli scambi CP pianificati.
-- Gli attacchi agli edifici del clan sono SEMPRE proibiti.
-- I portali non possono essere attaccati durante il tempo di pace. Il regno è aperto, fate attenzione a lasciare i vostri portali aperti in ogni momento.
-- Lo scouting è una forma di aggressione ed è illegale durante il tempo di pace.
-- Se vieni attaccato. Indipendentemente dalla loro potenza, puoi attaccare chiunque in qualsiasi momento. Significa che se un giocatore da 1.000.000 di potenza attacca un giocatore da 50.000.000 di potenza, il giocatore da 50.000.000 ha pieno diritto di contrattaccare se lo desidera.
+- Il regno è in pace tranne che durante 2 giorni di Clash of Thrones (CoT).
+- Lo scouting e gli attacchi agli edifici del clan sono SEMPRE proibiti.
+- Lo scouting e gli attacchi a città e portali sono proibiti, tranne per scambi CP pianificati o se ostili. (Avviso: il regno è aperto, controlla attentamente i tuoi portali in ogni momento.)
+- Se vieni scoutato o attaccato da una città o un portale, tu o un rappresentante del clan (il tuo campione) potete attaccare 1:1 il portale o la città offensivi. È consentito usare una marcia di clan per l'attacco. Puoi invece scegliere la via diplomatica come definita nel Processo di Risoluzione dei Conflitti. Non puoi sia attaccare sia ricevere compensazione.
 
 ## 2. CLAN E DIPLOMATI
 
@@ -56,23 +55,22 @@ WS e DMs:
 - a. Non esiste un sistema di registrazione.
 - b. Tutti gli edifici di risorse selvatiche, inclusi DM/WS, sono in ordine di arrivo (FCFS). Ciò significa che devi lasciare in pace le risorse selvatiche occupate.
 - c. Condizioni di gara: Non si possono avanzare reclami se sei scoutato/attaccato nelle risorse selvatiche a meno che:
-1. Tu perda la risorsa.
-2. Tu venga scoutato/attaccato e poi attaccato di nuovo. (regola 2x)
+  - Tu perda la risorsa.
+  - Tu venga scoutato/attaccato e poi attaccato di nuovo. (regola 2x)
 - d. È tua responsabilità contattare il tuo diplomatico, l'altro giocatore e il diplomatico/leader del clan avversario se qualcuno ti scauta o ti attacca in RSS selvaggi.
 
 ## 4. TASSE
 
 Non esiste la riscossione delle tasse della Guardia Reale. I clan dovrebbero nominare qualcuno per ricordare ai giocatori di inviare tutte le barre d'oro come tasse. Inviare le tasse ogni giorno quando accedi e quando esci è una buona pratica. Le barre d'oro non hanno valore per te personalmente.
 
-## 5. Clash of Thrones CoT
+## 5. Clash of Thrones CoT (Scontro per il Trono)
 
-- Questo è l'unico torneo giocatore contro giocatore.
-- Nessun attacco ai forti di clan: attaccare i forti o gli edifici di un altro clan è sempre severamente vietato.
----
-Durante CoT, puoi scautare e attaccare alle seguenti condizioni:
-- Regole dei portali: portali in tempo di pace - nessun attacco.
-- Regole delle città: si applica la regola del 50%. I giocatori senza scudo con metà della tua potenza o più stanno partecipando al CoT.
-- Se vieni attaccato. Indipendentemente dalla loro potenza, puoi attaccare chiunque. Significa che se un giocatore da 1 Milione di potenza attacca un giocatore da 50 Milioni di potenza, il giocatore da 50 Milioni ha pieno diritto di contrattaccare se lo desidera.
+- Questo è l'unico torneo giocatore contro giocatore all'interno del regno. I primi due giorni sono PvP. Il terzo giorno è solo per votare.
+- Lo scouting e gli attacchi agli edifici del clan sono SEMPRE proibiti.
+- Lo scouting e gli attacchi ai portali memoriali sono proibiti. Lo scouting e gli attacchi a tutti gli altri portali sono consentiti. Nessuna regola del 50% di potenza.
+- Lo scouting e gli attacchi alle città sono consentiti: si applica la regola del 50%. I giocatori senza scudo con metà della tua potenza o più stanno partecipando al CoT.
+- Se vieni attaccato da una città, puoi attaccare la città di ritorno 1:1 indipendentemente dalla potenza. Le marce di clan o l'uso di un campione per questo attacco sono vietati.
+- Se vieni scoutato da una città, puoi scautare di ritorno 1:1. Devi seguire la regola del 50% di potenza per attaccare di ritorno.
 ---
 Gestione delle perdite consigliata:
 - Pratica No Value City (NVC) - o usa uno scudo se non stai partecipando.
@@ -110,7 +108,7 @@ Consulta il sito k273tb . xyz per la calcolatrice ufficiale di compensazione.
 
 - 273 ROE
 - #K273/CLAIMS
-- 273 OUTLAWS
+- 273 Outlaws
 - SPAM ZONE
 - ~#K273/CPTHUNDERDOME
 - ~#K273/ACADEMY

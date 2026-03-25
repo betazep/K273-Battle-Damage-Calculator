@@ -32,11 +32,10 @@ Alle klanledere må oppfylle sine forpliktelser som ledere:
 
 ## 1. FREDSTID
 
-- Angrep på byer er forbudt, bortsett fra under CoT og planlagte CP-utvekslinger.
-- Angrep på klanbygninger er ALLTID forbudt.
-- Portaler kan ikke angripes i fredstid. Kongeriket er åpent, vær forsiktig med å la portalene dine stå åpne til enhver tid.
-- Speiding er en form for aggresjon og er ulovlig i fredstid.
-- Hvis du blir angrepet. Uansett deres styrke, kan du angripe hvem som helst tilbake når som helst. Det betyr at hvis en spiller med 1 000 000 styrke angriper en spiller med 50 000 000 styrke, har spilleren med 50 000 000 full rett til å slå tilbake hvis de ønsker.
+- Kongeriket er i fred bortsett fra i 2 dager med Clash of Thrones (CoT).
+- Speiding og angrep på klanbygninger er ALLTID forbudt.
+- Speiding og angrep på byer og portaler er forbudt, bortsett fra planlagte CP-utvekslinger eller hvis de er fiendtlige. (Advarsel: Kongeriket er åpent, overvåk portalene dine nøye til enhver tid.)
+- Hvis du blir speidet eller angrepet fra en by eller portal, kan du eller en klanrepresentant (din champion) angripe tilbake 1:1 på den skyldige portalen eller byen. Du har lov til å bruke en klanmarsj for angrepet. Du kan i stedet velge den diplomatiske ruten som er definert i Konfliktløsningsprosessen. Du kan ikke både angripe og motta kompensasjon.
 
 ## 2. KLANER OG DIPLOMATER
 
@@ -56,23 +55,22 @@ WS og DMs:
 - a. Det finnes ingen registreringsordning.
 - b. Alle ville ressursbygninger, inkludert DM/WS, er førstemann til mølla (FCFS). Dette betyr at du må la okkuperte ville ressurser være i fred.
 - c. Kappløpssituasjoner: Krav kan ikke fremmes hvis du blir speidet/angrepet i ville ressurser med mindre:
-1. Du mister ressursen.
-2. Du blir speidet/angrepet og deretter angrepet igjen. (2x-regel)
+  - Du mister ressursen.
+  - Du blir speidet/angrepet og deretter angrepet igjen. (2x-regel)
 - d. Det er ditt ansvar å kontakte din diplomat, den andre spilleren og motstanderens diplomat/klanleder hvis noen speider deg eller angriper deg i vill RSS.
 
 ## 4. SKATTER
 
 Det er ingen Kongelig Vakt skatteinnkreving. Klaner bør utpeke noen til å minne spillere om å sende alle gullbarrer som skatt. Å sende skatt hver dag når du logger inn og ut er god praksis. Gullbarrer har ingen verdi for deg personlig.
 
-## 5. Clash of Thrones CoT
+## 5. Clash of Thrones CoT (Kamp om Tronen)
 
-- Dette er den eneste spiller mot spiller-turneringen.
-- Ingen klanfort-angrep: Å angripe en annen klans fort eller bygninger er alltid strengt forbudt.
----
-Under CoT kan du speide og angripe under følgende betingelser:
-- Portalregler: Fredstid-portaler - ingen angrep.
-- Byregler: 50%-regelen gjelder. Usjoldede spillere med halvparten av din styrke eller mer deltar i CoT.
-- Hvis du blir angrepet. Uansett deres styrke, kan du angripe hvem som helst tilbake. Det betyr at hvis en spiller med 1 Million styrke angriper en spiller med 50 Millioner styrke, har spilleren med 50 Millioner full rett til å slå tilbake hvis de ønsker.
+- Dette er den eneste spiller mot spiller-turneringen i kongeriket. De første to dagene er PvP. Den tredje dagen er kun for avstemning.
+- Speiding og angrep på klanbygninger er ALLTID forbudt.
+- Speiding og angrep på minneportaler er forbudt. Speiding og angrep på alle andre portaler er tillatt. Ingen 50%-styrkeregel.
+- Speiding og angrep på byer er tillatt: 50%-regelen gjelder. Usjoldede spillere med halvparten av din styrke eller mer deltar i CoT.
+- Hvis du blir angrepet fra en by, kan du angripe byen tilbake 1:1 uansett styrke. Klanmarsjer eller bruk av champion for dette angrepet er forbudt.
+- Hvis du blir speidet fra en by, kan du speide tilbake 1:1. Du må følge 50%-styrkeregelen for å angripe tilbake.
 ---
 Anbefalt tapsstyring:
 - Praktiser No Value City (NVC) - eller bruk skjold hvis du ikke deltar.
@@ -110,7 +108,7 @@ Se nettstedet k273tb . xyz for den offisielle kompensasjonskalkulatoren.
 
 - 273 ROE
 - #K273/CLAIMS
-- 273 OUTLAWS
+- 273 Outlaws
 - SPAM ZONE
 - ~#K273/CPTHUNDERDOME
 - ~#K273/ACADEMY

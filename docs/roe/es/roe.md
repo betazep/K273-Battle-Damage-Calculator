@@ -32,11 +32,10 @@ Todos los líderes de clan deben cumplir sus obligaciones como líderes:
 
 ## 1. TIEMPO DE PAZ
 
-- Los ataques a ciudades están prohibidos, excepto durante CoT y los intercambios de CP planificados.
-- Los ataques a edificios del clan están SIEMPRE prohibidos.
-- Los portales no pueden ser atacados durante el tiempo de paz. El reino está abierto, tengan cuidado al dejar sus portales abiertos en todo momento.
-- Explorar es una forma de agresión y es ilegal durante el tiempo de paz.
-- Si te atacan. Independientemente de su poder, puedes atacar de vuelta a cualquiera en cualquier momento. Es decir, si un jugador de 1.000.000 de poder ataca a un jugador de 50.000.000 de poder, el jugador de 50.000.000 tiene pleno derecho a contraatacar si lo desea.
+- El reino está en paz excepto durante 2 días de Clash of Thrones (CoT).
+- La exploración y los ataques a edificios del clan están SIEMPRE prohibidos.
+- La exploración y los ataques a ciudades y portales están prohibidos, excepto para intercambios de CP planificados o si son hostiles. (Advertencia: el reino está abierto, monitorea tus portales cuidadosamente en todo momento.)
+- Si eres explorado o atacado desde una ciudad o portal, tú o un representante del clan (tu campeón) pueden atacar de vuelta 1:1 el portal o la ciudad ofensora. Se permite usar una marcha de clan para el ataque. En su lugar, puedes elegir la vía diplomática definida en el Proceso de Resolución de Conflictos. No puedes atacar y recibir compensación a la vez.
 
 ## 2. CLANES Y DIPLOMATAS
 
@@ -56,23 +55,22 @@ WS y DMs:
 - a. No hay sistema de registro.
 - b. Todos los edificios de recursos salvajes, incluidos DM/WS, son por orden de llegada (FCFS). Esto significa que debes dejar en paz los recursos salvajes ocupados.
 - c. Condiciones de carrera: No se pueden hacer reclamaciones si eres explorado/atacado en recursos salvajes a menos que:
-1. Pierdas el recurso.
-2. Seas explorado/atacado y luego atacado de nuevo. (regla 2x)
+  - Pierdas el recurso.
+  - Seas explorado/atacado y luego atacado de nuevo. (regla 2x)
 - d. Es tu responsabilidad avisar a tu diplomata, al otro jugador y al diplomata/líder del clan contrario si alguien te explora o te ataca en RSS salvajes.
 
 ## 4. IMPUESTOS
 
 No hay Recaudación de Impuestos de la Guardia Real. Los clanes deben designar a alguien para recordar a los jugadores que envíen todas las barras de oro como impuestos. Enviar impuestos cada día al entrar y salir es una buena práctica. Las barras de oro no tienen valor para ti personalmente.
 
-## 5. Clash of Thrones CoT
+## 5. Clash of Thrones CoT (Clash por el Trono)
 
-- Este es el único torneo jugador contra jugador.
-- Sin Ataques a Fortalezas de Clan: Atacar los fuertes o edificios de otro clan está siempre estrictamente prohibido.
----
-Durante CoT, puedes explorar y atacar bajo las siguientes condiciones:
-- Reglas de Portales: Portales en tiempo de paz - sin ataques.
-- Reglas de Ciudades: Se aplica la regla del 50%. Los jugadores sin escudo con la mitad de tu poder o más están participando en CoT.
-- Si te atacan. Independientemente de su poder, puedes atacar de vuelta a cualquiera. Es decir, si un jugador de 1 Millón de poder ataca a un jugador de 50 Millones de poder, el jugador de 50 Millones tiene pleno derecho a contraatacar si lo desea.
+- Este es el único torneo jugador contra jugador dentro del reino. Los dos primeros días son PvP. El tercer día es solo para votación.
+- La exploración y los ataques a edificios del clan están SIEMPRE prohibidos.
+- La exploración y los ataques a portales memoriales están prohibidos. La exploración y los ataques a todos los demás portales están permitidos. Sin regla del 50% de poder.
+- La exploración y los ataques a ciudades están permitidos: se aplica la regla del 50%. Los jugadores sin escudo con la mitad de tu poder o más están participando en CoT.
+- Si eres atacado desde una ciudad, puedes atacar la ciudad de vuelta 1:1 sin importar el poder. Las marchas de clan o usar un campeón para este ataque está prohibido.
+- Si eres explorado desde una ciudad, puedes explorar de vuelta 1:1. Debes seguir la regla del 50% de poder para atacar de vuelta.
 ---
 Gestión de pérdidas recomendada:
 - Practica No Value City (NVC) - o usa un escudo si no estás participando.
@@ -110,7 +108,7 @@ Consulta el sitio k273tb . xyz para la calculadora oficial de compensación.
 
 - 273 ROE
 - #K273/CLAIMS
-- 273 OUTLAWS
+- 273 Outlaws
 - SPAM ZONE
 - ~#K273/CPTHUNDERDOME
 - ~#K273/ACADEMY

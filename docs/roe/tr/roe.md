@@ -32,11 +32,10 @@ Tüm klan liderleri lider olarak yükümlülüklerini yerine getirmelidir:
 
 ## 1. BARIŞ ZAMANI
 
-- Şehirlere saldırılar CoT ve planlı CP değişimleri dışında yasaktır.
-- Klan binalarına saldırılar HER ZAMAN yasaktır.
-- Barış zamanında portallar saldırılamaz. Krallık açıktır, portallarınızı her zaman açık bırakırken dikkatli olun.
-- Keşif bir saldırı biçimidir ve barış zamanında yasadışıdır.
-- Eğer saldırıya uğrarsanız. Güçleri ne olursa olsun, istediğiniz zaman karşı saldırı yapabilirsiniz. Yani 1.000.000 güce sahip bir oyuncu 50.000.000 güce sahip bir oyuncuya saldırırsa, 50.000.000 güce sahip oyuncu isterse karşılık verme hakkına sahiptir.
+- Krallık, Clash of Thrones (CoT) etkinliğinin 2 günü dışında barıştadır.
+- Keşif ve klan binalarına saldırılar HER ZAMAN yasaktır.
+- Şehir ve portal keşfi ve saldırıları, planlı CP değişimleri veya düşmanca olması dışında yasaktır. (Uyarı: Krallık açıktır, portallarınızı her zaman dikkatle izleyin.)
+- Bir şehir veya portaldan keşfedilir ya da saldırıya uğrarsanız, siz veya bir klan temsilcisi (championınız) suçlu portalı veya şehri 1:1 oranında geri saldırabilirsiniz. Saldırı için bir klan yürüyüşü kullanabilirsiniz. Bunun yerine, Çatışma Çözüm Sürecinde tanımlanan diplomatik yolu seçebilirsiniz. Hem saldırıp hem de tazminat alamazsınız.
 
 ## 2. KLANLAR VE DİPLOMATLAR
 
@@ -56,23 +55,22 @@ WS ve DMs:
 - a. Kayıt sistemi yoktur.
 - b. DM/WS dahil tüm vahşi kaynak binaları ilk gelene ilk hizmet (FCFS) esasına göre yapılır. Bu, dolu vahşi kaynakları rahat bırakmanız gerektiği anlamına gelir.
 - c. Yarış koşulları: Vahşi kaynaklarda keşfedilir/saldırılırsanız, şu durumlar dışında hak iddia edilemez:
-1. Kaynağı kaybedersiniz.
-2. Keşfedilir/saldırılır ve ardından tekrar saldırıya uğrarsınız. (2x kuralı)
+  - Kaynağı kaybedersiniz.
+  - Keşfedilir/saldırılır ve ardından tekrar saldırıya uğrarsınız. (2x kuralı)
 - d. Birisi sizi vahşi RSS'de keşfediyor veya saldırıyorsa, kendi diplomatınıza, diğer oyuncuya ve karşı tarafın diplomatı/klan liderine mesaj atmak sizin sorumluluğunuzdadır.
 
 ## 4. VERGİLER
 
 Kraliyet Muhafızları tarafından vergi tahsilatı yoktur. Klanlar, oyunculara tüm altın külçelerini vergi olarak göndermelerini hatırlatacak birini belirlemelidir. Her gün giriş ve çıkışta vergi göndermek iyi bir uygulamadır. Altın külçelerin kişisel olarak size bir değeri yoktur.
 
-## 5. Clash of Thrones CoT
+## 5. Clash of Thrones CoT (Taht için Çatışma)
 
-- Bu, oyuncu ile oyuncu arasındaki tek turnuvadır.
-- Klan Kalesi Saldırıları Yok: Başka bir klanın kalelerine veya binalarına saldırmak her zaman kesinlikle yasaktır.
----
-CoT sırasında aşağıdaki koşullarda keşfedip saldırabilirsiniz:
-- Portal Kuralları: barış zamanı portalları - saldırı yok.
-- Şehir Kuralları: %50 kuralı geçerlidir. Kalkanı olmayan ve gücünüzün yarısı veya daha fazlasına sahip oyuncular CoT'ye katılmaktadır.
-- Eğer saldırıya uğrarsanız. Güçleri ne olursa olsun, karşılık verebilirsiniz. Yani 1 Milyon güce sahip bir oyuncu 50 Milyon güce sahip bir oyuncuya saldırırsa, 50 Milyon güce sahip oyuncu isterse karşılık verme hakkına sahiptir.
+- Bu, krallık içindeki tek oyuncu ile oyuncu turnuvasıdır. İlk iki gün PvP'dir. Üçüncü gün sadece oylama içindir.
+- Keşif ve klan binalarına saldırılar HER ZAMAN yasaktır.
+- Anıtsal portallara keşif ve saldırılar yasaktır. Diğer tüm portallara keşif ve saldırılar serbesttir. %50 güç kuralı yoktur.
+- Şehir keşif ve saldırıları serbesttir: %50 kuralı geçerlidir. Kalkanı olmayan ve gücünüzün yarısı veya daha fazlasına sahip oyuncular CoT'ye katılmaktadır.
+- Bir şehirden saldırıya uğrarsanız, güce bakılmaksızın şehre 1:1 karşı saldırı yapabilirsiniz. Bu saldırıda klan yürüyüşleri veya champion kullanımı yasaktır.
+- Bir şehirden keşfedilirseniz, 1:1 karşı keşif yapabilirsiniz. Karşı saldırı için %50 güç kuralını uygulamalısınız.
 ---
 Önerilen kayıp yönetimi:
 - No Value City (NVC) uygulayın - veya katılmıyorsanız kalkan kullanın.
@@ -110,7 +108,7 @@ Resmi tazminat hesaplayıcısı için k273tb . xyz sitesine bakın.
 
 - 273 ROE
 - #K273/CLAIMS
-- 273 OUTLAWS
+- 273 Outlaws
 - SPAM ZONE
 - ~#K273/CPTHUNDERDOME
 - ~#K273/ACADEMY

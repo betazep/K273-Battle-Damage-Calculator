@@ -32,11 +32,10 @@ Tous les chefs de clan doivent remplir leurs obligations en tant que dirigeants 
 
 ## 1. TEMPS DE PAIX
 
-- Les attaques de villes sont interdites, sauf pendant CoT et les échanges CP planifiés.
-- Les attaques sur les bâtiments de clan sont TOUJOURS interdites.
-- Les portails ne peuvent pas être attaqués en temps de paix. Le royaume est ouvert, faites attention à laisser vos portails ouverts en permanence.
-- L'espionnage est une forme d'agression et est illégal en temps de paix.
-- Si vous êtes attaqué. Quel que soit votre puissance, vous êtes autorisé à riposter à tout moment. Cela signifie que si un joueur de 1 000 000 de puissance attaque un joueur de 50 000 000 de puissance, le joueur de 50 000 000 a tout à fait le droit de riposter s'il le souhaite.
+- Le royaume est en paix sauf pendant 2 jours de Clash of Thrones (CoT).
+- L'espionnage et les attaques sur les bâtiments de clan sont TOUJOURS interdits.
+- L'espionnage et les attaques sur les villes et les portails sont interdits, sauf pour des échanges CP planifiés ou s'ils sont hostiles. (Avertissement : le royaume est ouvert, surveillez vos portails attentivement à tout moment.)
+- Si vous êtes scouté ou attaqué depuis une ville ou un portail, vous ou un représentant de clan (votre champion) pouvez riposter 1:1 sur le portail ou la ville fautifs. Vous êtes autorisé à utiliser une marche de clan pour l'attaque. Vous pouvez choisir la voie diplomatique telle que définie dans le Processus de Résolution des Conflits. Vous ne pouvez pas attaquer et recevoir une compensation.
 
 ## 2. CLANS ET DIPLOMATES
 
@@ -56,23 +55,22 @@ WS et DMs :
 - a. Il n'y a pas de système d'enregistrement.
 - b. Tous les bâtiments de ressources sauvages, y compris DM/WS, sont premier arrivé, premier servi (FCFS). Cela signifie que vous devez laisser tranquilles les ressources sauvages occupées.
 - c. Conditions de course : Les réclamations ne peuvent pas être faites si vous êtes scouté/attaqué dans des ressources sauvages à moins que :
-1. Vous perdiez la ressource.
-2. Vous soyez scouté/attaqué puis attaqué de nouveau. (règle 2x)
+  - Vous perdiez la ressource.
+  - Vous soyez scouté/attaqué puis attaqué de nouveau. (règle 2x)
 - d. Il est de votre responsabilité de contacter votre diplomate, l'autre joueur et le diplomate/chef de clan adverse si quelqu'un vous scoute ou vous attaque dans des RSS sauvages.
 
 ## 4. IMPÔTS
 
 Il n'y a pas de collecte d'impôts par la Garde Royale. Les clans doivent désigner quelqu'un pour rappeler aux joueurs d'envoyer toutes les barres d'or comme impôts. Envoyer les impôts chaque jour à la connexion et à la déconnexion est une bonne pratique. Les barres d'or n'ont aucune valeur pour vous personnellement.
 
-## 5. Clash of Thrones CoT
+## 5. Clash of Thrones CoT (Clash pour le Trône)
 
-- C'est le seul tournoi joueur contre joueur.
-- Aucune attaque de fort de clan : attaquer les forts ou les bâtiments d'un autre clan est toujours strictement interdit.
----
-Pendant CoT, vous pouvez scouter et attaquer dans les conditions suivantes :
-- Règles des portails : portails en temps de paix - aucune attaque.
-- Règles des villes : la règle des 50 % s'applique. Les joueurs sans bouclier avec la moitié de votre puissance ou plus participent au CoT.
-- Si vous êtes attaqué. Quel que soit votre puissance, vous êtes autorisé à riposter. Cela signifie que si un joueur de 1 Million de puissance attaque un joueur de 50 Millions de puissance, le joueur de 50 Millions a tout à fait le droit de riposter s'il le souhaite.
+- C'est le seul tournoi joueur contre joueur au sein du royaume. Les deux premiers jours sont PvP. Le troisième jour est réservé au vote.
+- L'espionnage et les attaques sur les bâtiments de clan sont TOUJOURS interdits.
+- L'espionnage et les attaques sur les portails mémoriaux sont interdits. L'espionnage et les attaques sur tous les autres portails sont autorisés. Pas de règle des 50 % de puissance.
+- L'espionnage et les attaques sur les villes sont autorisés : la règle des 50 % s'applique. Les joueurs sans bouclier avec la moitié de votre puissance ou plus participent au CoT.
+- Si vous êtes attaqué depuis une ville, vous pouvez attaquer la ville en retour 1:1 quelle que soit la puissance. Les marches de clan ou l'utilisation d'un champion pour cette attaque sont interdites.
+- Si vous êtes scouté depuis une ville, vous pouvez scouter en retour 1:1. Vous devez respecter la règle des 50 % de puissance pour attaquer en retour.
 ---
 Gestion des pertes recommandée :
 - Pratiquez le No Value City (NVC) - ou utilisez un bouclier si vous ne participez pas.
@@ -110,7 +108,7 @@ Voir le site k273tb . xyz pour la calculatrice officielle de compensation.
 
 - 273 ROE
 - #K273/CLAIMS
-- 273 OUTLAWS
+- 273 Outlaws
 - SPAM ZONE
 - ~#K273/CPTHUNDERDOME
 - ~#K273/ACADEMY

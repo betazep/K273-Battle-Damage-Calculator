@@ -32,11 +32,10 @@ Wszyscy liderzy klanów muszą wypełniać swoje obowiązki jako liderzy:
 
 ## 1. CZAS POKOJU
 
-- Ataki na miasta są zabronione, z wyjątkiem CoT i zaplanowanych wymian CP.
-- Ataki na budynki klanu są ZAWSZE zabronione.
-- Portale nie mogą być atakowane w czasie pokoju. Królestwo jest otwarte, zachowaj ostrożność, pozostawiając portale otwarte przez cały czas.
-- Zwiad jest formą agresji i jest nielegalny w czasie pokoju.
-- Jeśli zostaniesz zaatakowany. Niezależnie od ich mocy, możesz zaatakować kogokolwiek w dowolnym momencie. Oznacza to, że jeśli gracz o mocy 1 000 000 atakuje gracza o mocy 50 000 000, gracz o mocy 50 000 000 ma pełne prawo do odwetu, jeśli chce.
+- Królestwo jest w pokoju, z wyjątkiem 2 dni Clash of Thrones (CoT).
+- Zwiad i ataki na budynki klanu są ZAWSZE zabronione.
+- Zwiad i ataki na miasta oraz portale są zabronione, z wyjątkiem zaplanowanych wymian CP lub jeśli są wrogie. (Ostrzeżenie: królestwo jest otwarte, uważnie monitoruj swoje portale przez cały czas.)
+- Jeśli zostaniesz zwiadowany lub zaatakowany z miasta lub portalu, ty lub reprezentant klanu (twój czempion) możesz odpowiedzieć 1:1 na portal lub miasto sprawcy. Możesz użyć marszu klanowego do ataku. Możesz też wybrać drogę dyplomatyczną określoną w Procesie rozwiązywania konfliktów. Nie możesz jednocześnie atakować i otrzymać rekompensaty.
 
 ## 2. KLANI I DYPLOMACI
 
@@ -56,23 +55,22 @@ WS i DMs:
 - a. Nie ma systemu rejestracji.
 - b. Wszystkie dzikie budynki zasobów, w tym DM/WS, obowiązują zasady pierwszeństwa (FCFS). Oznacza to, że musisz zostawić zajęte dzikie zasoby w spokoju.
 - c. Warunki wyścigu: Roszczenia nie mogą być zgłaszane, jeśli jesteś zwiadowany/atakowany w dzikich zasobach, chyba że:
-1. Stracisz zasób.
-2. Zostaniesz zwiadowany/atakowany, a następnie zaatakowany ponownie. (zasada 2x)
+  - Stracisz zasób.
+  - Zostaniesz zwiadowany/atakowany, a następnie zaatakowany ponownie. (zasada 2x)
 - d. Twoim obowiązkiem jest powiadomić swojego dyplomatę, drugiego gracza oraz dyplomatę/lidera przeciwnego klanu, jeśli ktoś cię zwiaduje lub atakuje w dzikich RSS.
 
 ## 4. PODATKI
 
 Nie ma królewskiej zbiórki podatków przez Gwardię Królewską. Klany powinny wyznaczyć kogoś, kto będzie przypominał graczom o wysyłaniu wszystkich sztabek złota jako podatków. Wysyłanie podatków każdego dnia przy logowaniu i wylogowaniu to dobra praktyka. Sztabki złota nie mają dla ciebie żadnej wartości osobistej.
 
-## 5. Clash of Thrones CoT
+## 5. Clash of Thrones CoT (Starcie o Tron)
 
-- To jedyny turniej gracz kontra gracz.
-- Brak ataków na forty klanów: Atakowanie fortów lub budynków innego klanu jest zawsze surowo zabronione.
----
-Podczas CoT możesz zwiadować i atakować na następujących warunkach:
-- Zasady portali: portale czasu pokoju - brak ataków.
-- Zasady miast: obowiązuje zasada 50%. Nieosłonięci gracze z połową twojej mocy lub więcej uczestniczą w CoT.
-- Jeśli zostaniesz zaatakowany. Niezależnie od ich mocy, możesz zaatakować kogokolwiek. Oznacza to, że jeśli gracz o mocy 1 Milion atakuje gracza o mocy 50 Milionów, gracz o mocy 50 Milionów ma pełne prawo do odwetu, jeśli chce.
+- To jedyny turniej gracz kontra gracz w królestwie. Pierwsze dwa dni to PvP. Trzeci dzień jest tylko do głosowania.
+- Zwiad i ataki na budynki klanu są ZAWSZE zabronione.
+- Zwiad i ataki na portale memorialne są zabronione. Zwiad i ataki na wszystkie pozostałe portale są dozwolone. Bez zasady 50% mocy.
+- Zwiad i ataki na miasta są dozwolone: obowiązuje zasada 50%. Nieosłonięci gracze z połową twojej mocy lub więcej uczestniczą w CoT.
+- Jeśli zostaniesz zaatakowany z miasta, możesz zaatakować miasto z powrotem 1:1 niezależnie od mocy. Marsze klanowe lub użycie czempiona do tego ataku są zabronione.
+- Jeśli zostaniesz zwiadowany z miasta, możesz zwiadować z powrotem 1:1. Aby zaatakować z powrotem, musisz przestrzegać zasady 50% mocy.
 ---
 Zalecane zarządzanie stratami:
 - Stosuj No Value City (NVC) - lub użyj tarczy, jeśli nie bierzesz udziału.
@@ -110,7 +108,7 @@ Zobacz stronę k273tb . xyz, aby uzyskać oficjalny kalkulator rekompensat.
 
 - 273 ROE
 - #K273/CLAIMS
-- 273 OUTLAWS
+- 273 Outlaws
 - SPAM ZONE
 - ~#K273/CPTHUNDERDOME
 - ~#K273/ACADEMY
