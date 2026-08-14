@@ -67,7 +67,7 @@ Nie ma królewskiej zbiórki podatków przez Gwardię Królewską. Klany powinny
 
 - To jedyny turniej gracz kontra gracz w królestwie. Pierwsze dwa dni to PvP. Trzeci dzień jest tylko do głosowania.
 - Zwiad i ataki na budynki klanu są ZAWSZE zabronione.
-- Zwiad i ataki na portale memorialne są zabronione. Zwiad i ataki na wszystkie pozostałe portale są dozwolone. Bez zasady 50% mocy.
+- Zwiad i ataki na wszystkie portale są zabronione. Ostrzeżenie: inne królestwa nie będą tego respektować.
 - Zwiad i ataki na miasta są dozwolone: obowiązuje zasada 50%. Nieosłonięci gracze z połową twojej mocy lub więcej uczestniczą w CoT.
 - Jeśli zostaniesz zaatakowany z miasta, możesz zaatakować miasto z powrotem 1:1 niezależnie od mocy. Marsze klanowe lub użycie czempiona do tego ataku są zabronione.
 - Jeśli zostaniesz zwiadowany z miasta, możesz zwiadować z powrotem 1:1. Aby zaatakować z powrotem, musisz przestrzegać zasady 50% mocy.
@@ -114,3 +114,7 @@ Zobacz stronę k273tb . xyz, aby uzyskać oficjalny kalkulator rekompensat.
 - ~#K273/ACADEMY
 - K273 TB Library
 - k273tb
+
+## AKTUALNE IKFPA
+
+)IKFPA<<>>Agreement(

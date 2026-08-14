@@ -67,7 +67,7 @@ No hay Recaudación de Impuestos de la Guardia Real. Los clanes deben designar a
 
 - Este es el único torneo jugador contra jugador dentro del reino. Los dos primeros días son PvP. El tercer día es solo para votación.
 - La exploración y los ataques a edificios del clan están SIEMPRE prohibidos.
-- La exploración y los ataques a portales memoriales están prohibidos. La exploración y los ataques a todos los demás portales están permitidos. Sin regla del 50% de poder.
+- La exploración y los ataques a todos los portales están prohibidos. Advertencia: otros reinos no respetarán esto.
 - La exploración y los ataques a ciudades están permitidos: se aplica la regla del 50%. Los jugadores sin escudo con la mitad de tu poder o más están participando en CoT.
 - Si eres atacado desde una ciudad, puedes atacar la ciudad de vuelta 1:1 sin importar el poder. Las marchas de clan o usar un campeón para este ataque está prohibido.
 - Si eres explorado desde una ciudad, puedes explorar de vuelta 1:1. Debes seguir la regla del 50% de poder para atacar de vuelta.
@@ -114,3 +114,7 @@ Consulta el sitio k273tb . xyz para la calculadora oficial de compensación.
 - ~#K273/ACADEMY
 - K273 TB Library
 - k273tb
+
+## IKFPA ACTUAL
+
+)IKFPA<<>>Agreement(

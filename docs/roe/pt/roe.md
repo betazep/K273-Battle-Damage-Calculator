@@ -67,7 +67,7 @@ Não há Coleta de Impostos da Guarda Real. Os clãs devem designar alguém para
 
 - Este é o único torneio jogador contra jogador dentro do reino. Os dois primeiros dias são PvP. O terceiro dia é apenas para votação.
 - Espionagem e ataques a prédios de clã são SEMPRE proibidos.
-- Espionagem e ataques a portais memoriais são proibidos. Espionagem e ataques a todos os outros portais são permitidos. Sem regra de 50% de poder.
+- Espionagem e ataques a todos os portais são proibidos. Aviso: outros reinos não honrarão isto.
 - Espionagem e ataques a cidades são permitidos: a regra dos 50% se aplica. Jogadores sem escudo com metade do seu poder ou mais estão participando do CoT.
 - Se você for atacado a partir de uma cidade, pode atacar a cidade de volta 1:1 independentemente do poder. Marchas de clã ou usar um campeão para este ataque é proibido.
 - Se você for explorado a partir de uma cidade, pode explorar de volta 1:1. Você deve seguir a regra de 50% de poder para atacar de volta.
@@ -114,3 +114,7 @@ Consulte o site k273tb . xyz para a calculadora oficial de compensação.
 - ~#K273/ACADEMY
 - K273 TB Library
 - k273tb
+
+## IKFPA ATUAL
+
+)IKFPA<<>>Agreement(

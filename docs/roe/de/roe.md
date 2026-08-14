@@ -67,7 +67,7 @@ Es gibt keine Steuererhebung durch die Königliche Garde. Clans sollten jemanden
 
 - Dies ist das einzige Spieler-gegen-Spieler-Turnier im Königreich. Die ersten zwei Tage sind PvP. Der dritte Tag ist nur fürs Wählen.
 - Spähen und Angriffe auf Clan-Gebäude sind IMMER verboten.
-- Spähen und Angriffe auf Gedenkportale sind verboten. Spähen und Angriffe auf alle anderen Portale sind erlaubt. Keine 50%-Macht-Regel.
+- Spähen und Angriffe auf alle Portale sind verboten. Warnung: Andere Königreiche werden dies nicht beachten.
 - Spähen und Angriffe auf Städte sind erlaubt: Die 50%-Regel gilt. Ungeschirmte Spieler mit der Hälfte eurer Macht oder mehr nehmen am CoT teil.
 - Wenn ihr von einer Stadt angegriffen werdet, dürft ihr die Stadt 1:1 unabhängig von der Macht zurückangreifen. Clan-Märsche oder die Verwendung eines Champions für diesen Angriff sind verboten.
 - Wenn ihr von einer Stadt ausgespäht werdet, dürft ihr 1:1 zurückspähen. Ihr müsst die 50%-Macht-Regel befolgen, um zurück anzugreifen.
@@ -114,3 +114,7 @@ Siehe die Website k273tb . xyz für den offiziellen Entschädigungsrechner.
 - ~#K273/ACADEMY
 - K273 TB Library
 - k273tb
+
+## AKTUELLES IKFPA
+
+)IKFPA<<>>Agreement(

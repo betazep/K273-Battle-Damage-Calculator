@@ -67,7 +67,7 @@ Kuninkaallisen Vartioston veronkeruuta ei ole. Klaanien tulisi nimetä joku muis
 
 - Tämä on ainoa pelaaja vastaan pelaaja -turnaus kuningaskunnan sisällä. Kaksi ensimmäistä päivää ovat PvP. Kolmas päivä on vain äänestystä varten.
 - Tiedustelu ja hyökkäykset klaanirakennuksiin ovat AINA kiellettyjä.
-- Tiedustelu ja hyökkäykset muistoportteihin ovat kiellettyjä. Tiedustelu ja hyökkäykset kaikkiin muihin portteihin ovat sallittuja. Ei 50 % -voimasääntöä.
+- Tiedustelu ja hyökkäykset kaikkiin portteihin ovat kiellettyjä. Varoitus: muut kuningaskunnat eivät noudata tätä.
 - Tiedustelu ja hyökkäykset kaupunkeihin ovat sallittuja: 50 % -sääntö pätee. Kilvettömät pelaajat, joiden voima on vähintään puolet sinun voimastasi, osallistuvat CoT:hen.
 - Jos sinua hyökätään kaupungista, voit hyökätä kaupunkiin takaisin 1:1 riippumatta voimasta. Klaanihyökkäysmarssit tai championin käyttö tähän hyökkäykseen on kielletty.
 - Jos sinua tiedustellaan kaupungista, voit tiedustella takaisin 1:1. Sinun on noudatettava 50 % -voimasääntöä, jotta voit hyökätä takaisin.
@@ -114,3 +114,7 @@ Katso virallinen korvauslaskuri sivustolta k273tb . xyz.
 - ~#K273/ACADEMY
 - K273 TB Library
 - k273tb
+
+## NYKYINEN IKFPA
+
+)IKFPA<<>>Agreement(

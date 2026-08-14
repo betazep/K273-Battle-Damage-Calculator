@@ -67,7 +67,7 @@ Il n'y a pas de collecte d'impôts par la Garde Royale. Les clans doivent désig
 
 - C'est le seul tournoi joueur contre joueur au sein du royaume. Les deux premiers jours sont PvP. Le troisième jour est réservé au vote.
 - L'espionnage et les attaques sur les bâtiments de clan sont TOUJOURS interdits.
-- L'espionnage et les attaques sur les portails mémoriaux sont interdits. L'espionnage et les attaques sur tous les autres portails sont autorisés. Pas de règle des 50 % de puissance.
+- L'espionnage et les attaques sur tous les portails sont interdits. Avertissement : les autres royaumes ne respecteront pas cela.
 - L'espionnage et les attaques sur les villes sont autorisés : la règle des 50 % s'applique. Les joueurs sans bouclier avec la moitié de votre puissance ou plus participent au CoT.
 - Si vous êtes attaqué depuis une ville, vous pouvez attaquer la ville en retour 1:1 quelle que soit la puissance. Les marches de clan ou l'utilisation d'un champion pour cette attaque sont interdites.
 - Si vous êtes scouté depuis une ville, vous pouvez scouter en retour 1:1. Vous devez respecter la règle des 50 % de puissance pour attaquer en retour.
@@ -114,3 +114,7 @@ Voir le site k273tb . xyz pour la calculatrice officielle de compensation.
 - ~#K273/ACADEMY
 - K273 TB Library
 - k273tb
+
+## IKFPA ACTUEL
+
+)IKFPA<<>>Agreement(

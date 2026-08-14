@@ -67,7 +67,7 @@ Neexistuje žádný výběr daní Královskou stráží. Klan by měl jmenovat n
 
 - Toto je jediný turnaj hráč proti hráči v království. První dva dny jsou PvP. Třetí den je pouze pro hlasování.
 - Skauting a útoky na klanové budovy jsou VŽDY zakázány.
-- Skauting a útoky na pamětní portály jsou zakázány. Skauting a útoky na všechny ostatní portály jsou povoleny. Žádné pravidlo 50 % síly.
+- Skauting a útoky na všechny portály jsou zakázány. Varování: ostatní království to nebudou respektovat.
 - Skauting a útoky na města jsou povoleny: Platí pravidlo 50 %. Nechránění hráči s polovinou vaší síly nebo více se účastní CoT.
 - Pokud jste napadeni z města, můžete město 1:1 napadnout zpět bez ohledu na sílu. Klanové pochody nebo použití šampiona pro tento útok jsou zakázány.
 - Pokud jste skautováni z města, můžete skautovat zpět 1:1. Musíte dodržet pravidlo 50 % síly, abyste mohli zpět útočit.
@@ -114,3 +114,7 @@ Podívejte se na web k273tb . xyz pro oficiální kalkulačku kompenzací.
 - ~#K273/ACADEMY
 - K273 TB Library
 - k273tb
+
+## AKTUÁLNÍ IKFPA
+
+)IKFPA<<>>Agreement(

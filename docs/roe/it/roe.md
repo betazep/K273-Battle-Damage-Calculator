@@ -67,7 +67,7 @@ Non esiste la riscossione delle tasse della Guardia Reale. I clan dovrebbero nom
 
 - Questo è l'unico torneo giocatore contro giocatore all'interno del regno. I primi due giorni sono PvP. Il terzo giorno è solo per votare.
 - Lo scouting e gli attacchi agli edifici del clan sono SEMPRE proibiti.
-- Lo scouting e gli attacchi ai portali memoriali sono proibiti. Lo scouting e gli attacchi a tutti gli altri portali sono consentiti. Nessuna regola del 50% di potenza.
+- Lo scouting e gli attacchi a tutti i portali sono proibiti. Avviso: gli altri regni non rispetteranno questa regola.
 - Lo scouting e gli attacchi alle città sono consentiti: si applica la regola del 50%. I giocatori senza scudo con metà della tua potenza o più stanno partecipando al CoT.
 - Se vieni attaccato da una città, puoi attaccare la città di ritorno 1:1 indipendentemente dalla potenza. Le marce di clan o l'uso di un campione per questo attacco sono vietati.
 - Se vieni scoutato da una città, puoi scautare di ritorno 1:1. Devi seguire la regola del 50% di potenza per attaccare di ritorno.
@@ -114,3 +114,7 @@ Consulta il sito k273tb . xyz per la calcolatrice ufficiale di compensazione.
 - ~#K273/ACADEMY
 - K273 TB Library
 - k273tb
+
+## IKFPA ATTUALE
+
+)IKFPA<<>>Agreement(

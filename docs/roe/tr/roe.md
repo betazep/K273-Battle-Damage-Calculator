@@ -67,7 +67,7 @@ Kraliyet Muhafızları tarafından vergi tahsilatı yoktur. Klanlar, oyunculara 
 
 - Bu, krallık içindeki tek oyuncu ile oyuncu turnuvasıdır. İlk iki gün PvP'dir. Üçüncü gün sadece oylama içindir.
 - Keşif ve klan binalarına saldırılar HER ZAMAN yasaktır.
-- Anıtsal portallara keşif ve saldırılar yasaktır. Diğer tüm portallara keşif ve saldırılar serbesttir. %50 güç kuralı yoktur.
+- Tüm portallara keşif ve saldırılar yasaktır. Uyarı: diğer krallıklar buna uymayacaktır.
 - Şehir keşif ve saldırıları serbesttir: %50 kuralı geçerlidir. Kalkanı olmayan ve gücünüzün yarısı veya daha fazlasına sahip oyuncular CoT'ye katılmaktadır.
 - Bir şehirden saldırıya uğrarsanız, güce bakılmaksızın şehre 1:1 karşı saldırı yapabilirsiniz. Bu saldırıda klan yürüyüşleri veya champion kullanımı yasaktır.
 - Bir şehirden keşfedilirseniz, 1:1 karşı keşif yapabilirsiniz. Karşı saldırı için %50 güç kuralını uygulamalısınız.
@@ -114,3 +114,7 @@ Resmi tazminat hesaplayıcısı için k273tb . xyz sitesine bakın.
 - ~#K273/ACADEMY
 - K273 TB Library
 - k273tb
+
+## GÜNCEL IKFPA
+
+)IKFPA<<>>Agreement(

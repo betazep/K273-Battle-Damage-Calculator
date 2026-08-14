@@ -67,7 +67,7 @@ Ne postoji Kraljevska garda za prikupljanje poreza. Klanovi trebaju imenovati ne
 
 - Ovo je jedini turnir igrač protiv igrača u kraljevstvu. Prva dva dana su PvP. Treći dan je samo za glasanje.
 - Izviđanje i napadi na zgrade klana su UVIJEK zabranjeni.
-- Izviđanje i napadi na memorijalne portale su zabranjeni. Izviđanje i napadi na sve ostale portale su dopušteni. Nema pravila 50% moći.
+- Izviđanje i napadi na sve portale su zabranjeni. Upozorenje: druga kraljevstva to neće poštovati.
 - Izviđanje i napadi na gradove su dopušteni: primjenjuje se pravilo 50%. Nezaštićeni igrači s polovinom vaše moći ili više sudjeluju u CoT-u.
 - Ako ste napadnuti iz grada, možete napasti grad natrag 1:1 bez obzira na moć. Klanovski marševi ili korištenje šampiona za ovaj napad su zabranjeni.
 - Ako ste izviđani iz grada, možete izviđati natrag 1:1. Morate slijediti pravilo 50% moći kako biste napali natrag.
@@ -114,3 +114,7 @@ Pogledajte web stranicu k273tb . xyz za službeni kalkulator kompenzacija.
 - ~#K273/ACADEMY
 - K273 TB Library
 - k273tb
+
+## TRENUTNI IKFPA
+
+)IKFPA<<>>Agreement(

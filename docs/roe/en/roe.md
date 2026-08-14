@@ -67,7 +67,7 @@ There is no Royal Guard Tax Collection. Clans should appoint someone to remind p
 
 - This is the only in-Kingdom player versus player tournament. The first two days are PvP. The third day is for voting only.
 - Scouting & Attacks on clan buildings are ALWAYS forbidden.
-- Scouting & Attacks on memorial portals are forbidden. Scouting & Attacks on all other portals are allowed. No 50% might rule.
+- Scouting & Attacks on all portals are forbidden. Warning other kingdoms will not honor this.
 - Scouting & Attacks on cities are allowed: The 50% rule applies. Unshielded players half your might or above are participating in CoT.
 - If you are attacked from a city, you may attack the city back 1:1 regardless of might. Clan marches or using a champion for this attack is forbidden.
 - If you are scouted from a city, you may scout back 1:1. You must follow the 50% might rule to attack back.
@@ -114,3 +114,7 @@ See the k273tb . xyz website for the official compensation calculator.
 - ~#K273/ACADEMY
 - K273 TB Library
 - k273tb
+
+## CURRENT IKFPA
+
+)IKFPA<<>>Agreement(

@@ -67,7 +67,7 @@ Det er ingen Kongelig Vakt skatteinnkreving. Klaner bør utpeke noen til å minn
 
 - Dette er den eneste spiller mot spiller-turneringen i kongeriket. De første to dagene er PvP. Den tredje dagen er kun for avstemning.
 - Speiding og angrep på klanbygninger er ALLTID forbudt.
-- Speiding og angrep på minneportaler er forbudt. Speiding og angrep på alle andre portaler er tillatt. Ingen 50%-styrkeregel.
+- Speiding og angrep på alle portaler er forbudt. Advarsel: andre kongeriker vil ikke respektere dette.
 - Speiding og angrep på byer er tillatt: 50%-regelen gjelder. Usjoldede spillere med halvparten av din styrke eller mer deltar i CoT.
 - Hvis du blir angrepet fra en by, kan du angripe byen tilbake 1:1 uansett styrke. Klanmarsjer eller bruk av champion for dette angrepet er forbudt.
 - Hvis du blir speidet fra en by, kan du speide tilbake 1:1. Du må følge 50%-styrkeregelen for å angripe tilbake.
@@ -114,3 +114,7 @@ Se nettstedet k273tb . xyz for den offisielle kompensasjonskalkulatoren.
 - ~#K273/ACADEMY
 - K273 TB Library
 - k273tb
+
+## GJELDENDE IKFPA
+
+)IKFPA<<>>Agreement(
