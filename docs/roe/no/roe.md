@@ -2,7 +2,7 @@ Etter ordre fra kong Pchelovod gjelder følgende ROE for kongeriket.
 
 ## Generell K273-spilleravtale
 
-1. Kongeriket K273 følger IKFPA-avtalen etablert under kong Arcadias regjeringstid og forventer at alle medlemmer følger den, spesielt etter at kongeriket åpner.
+1. Kongeriket K273 følger IKFPA-avtalen.
 2. ROE gjelder umiddelbart og kan endres.
 3. Hver endring vil ha en 24-timers buffer slik at andre kan tilpasse seg i ulike tidssoner.
 4. Vennligst respekter alle du kommer i kontakt med.
@@ -34,15 +34,15 @@ Alle klanledere må oppfylle sine forpliktelser som ledere:
 
 - Kongeriket er i fred bortsett fra i 2 dager med Clash of Thrones (CoT).
 - Speiding og angrep på klanbygninger er ALLTID forbudt.
+- Bevisst speiding og angrep på RSS er ALLTID forbudt.
 - Speiding og angrep på byer og portaler er forbudt, bortsett fra planlagte CP-utvekslinger eller hvis de er fiendtlige. (Advarsel: Kongeriket er åpent, overvåk portalene dine nøye til enhver tid.)
 - Hvis du blir speidet eller angrepet fra en by eller portal, kan du eller en klanrepresentant (din champion) angripe tilbake 1:1 på den skyldige portalen eller byen. Du har lov til å bruke en klanmarsj for angrepet. Du kan i stedet velge den diplomatiske ruten som er definert i Konfliktløsningsprosessen. Du kan ikke både angripe og motta kompensasjon.
-
 ## 2. KLANER OG DIPLOMATER
 
 - Klaner må oppgi "We abide by K273 ROE" (eller lignende) for å bli betjent av kongeriket og beskyttet av ROE.
 - Klaner må identifisere minst én diplomat øverst i klanbeskrivelsen som kan bistå med konfliktløsning. Diplomater må være en aktiv leder eller overordnet.
 
-## 3. RSS
+## 3. RSS og krypter
 
 - Alle ressursbygninger innenfor klanens territorium tilhører den klanen. Dette inkluderer sesongbaserte eventressurser. Du kan angripe for å fjerne folk fra ressurser i klanens territorium.
 - Spillerskapte ressurser tilhører personen som skapte dem, med mindre det er avtalt å dele mellom to parter.
@@ -67,7 +67,8 @@ Det er ingen Kongelig Vakt skatteinnkreving. Klaner bør utpeke noen til å minn
 
 - Dette er den eneste spiller mot spiller-turneringen i kongeriket. De første to dagene er PvP. Den tredje dagen er kun for avstemning.
 - Speiding og angrep på klanbygninger er ALLTID forbudt.
-- Speiding og angrep på alle portaler er forbudt. Advarsel: andre kongeriker vil ikke respektere dette.
+- Bevisst speiding og angrep på RSS er ALLTID forbudt.
+- Speiding og angrep på alle portaler er forbudt. (Advarsel: andre kongeriker vil ikke respektere dette.)
 - Speiding og angrep på byer er tillatt: 50%-regelen gjelder. Usjoldede spillere med halvparten av din styrke eller mer deltar i CoT.
 - Hvis du blir angrepet fra en by, kan du angripe byen tilbake 1:1 uansett styrke. Klanmarsjer eller bruk av champion for dette angrepet er forbudt.
 - Hvis du blir speidet fra en by, kan du speide tilbake 1:1. Du må følge 50%-styrkeregelen for å angripe tilbake.
@@ -106,14 +107,13 @@ Se nettstedet k273tb . xyz for den offisielle kompensasjonskalkulatoren.
 
 ## 9. Kongerikets chatter å bli med i
 
-- 273 ROE
-- #K273/CLAIMS
-- 273 Outlaws
-- SPAM ZONE
-- ~#K273/CPTHUNDERDOME
-- ~#K273/ACADEMY
-- K273 TB Library
-- k273tb
+273 ROE
+
+273 Claims
+
+273 Outlaws
+
+273 Website
 
 ## GJELDENDE IKFPA
 

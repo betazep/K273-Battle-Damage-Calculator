@@ -2,7 +2,7 @@ Po naredbi kralja Pchelovoda, sljedeći ROE vrijedi u kraljevstvu.
 
 ## Opći sporazum igrača K273
 
-1. Kraljevstvo K273 slijedi IKFPA sporazum uspostavljen tijekom vladavine kralja Arcadije i očekuje da ga svaki član poštuje, posebno nakon otvaranja kraljevstva.
+1. Kraljevstvo K273 slijedi IKFPA sporazum.
 2. ROE vrijedi odmah i može se mijenjati.
 3. Svaka izmjena imat će 24-satni buffer kako bi se drugi mogli prilagoditi različitim vremenskim zonama.
 4. Molimo poštujte sve s kojima dolazite u kontakt.
@@ -34,15 +34,15 @@ Svi vođe klanova moraju ispuniti svoje obveze kao vođe:
 
 - Kraljevstvo je u miru osim tijekom 2 dana Clash of Thrones (CoT).
 - Izviđanje i napadi na zgrade klana su UVIJEK zabranjeni.
+- Namjerno izviđanje i napadanje RSS-a su UVIJEK zabranjeni.
 - Izviđanje i napadi na gradove i portale su zabranjeni, osim za planirane CP razmjene ili ako su neprijateljski. (Upozorenje: Kraljevstvo je otvoreno, pažljivo pratite svoje portale u svakom trenutku.)
 - Ako ste izviđani ili napadnuti iz grada ili portala, vi ili predstavnik klana (vaš šampion) možete uzvratiti 1:1 na sporni portal ili grad. Dopušteno je koristiti klanovski marš za napad. Umjesto toga možete odabrati diplomatski put definiran u Procesu rješavanja sukoba. Ne možete i napasti i dobiti kompenzaciju.
-
 ## 2. KLANOVI I DIPLOMATI
 
 - Klanovi moraju navesti "We abide by K273 ROE" (ili slično) kako bi bili opsluživani od kraljevstva i zaštićeni ROE-om.
 - Klanovi moraju identificirati najmanje jednog diplomata na vrhu opisa klana koji može pomoći u rješavanju sporova. Diplomati moraju biti aktivni vođa ili viši.
 
-## 3. RSS
+## 3. RSS i kripte
 
 - Sve zgrade resursa unutar teritorija klana pripadaju tom klanu. To uključuje resurse sezonskih događaja. Možete napasti kako biste uklonili ljude s resursa na teritoriju klana.
 - Resursi koje je stvorio igrač pripadaju osobi koja ih je stvorila, osim ako nije dogovoreno dijeljenje između dvije strane.
@@ -67,7 +67,8 @@ Ne postoji Kraljevska garda za prikupljanje poreza. Klanovi trebaju imenovati ne
 
 - Ovo je jedini turnir igrač protiv igrača u kraljevstvu. Prva dva dana su PvP. Treći dan je samo za glasanje.
 - Izviđanje i napadi na zgrade klana su UVIJEK zabranjeni.
-- Izviđanje i napadi na sve portale su zabranjeni. Upozorenje: druga kraljevstva to neće poštovati.
+- Namjerno izviđanje i napadanje RSS-a su UVIJEK zabranjeni.
+- Izviđanje i napadi na sve portale su zabranjeni. (Upozorenje: druga kraljevstva to neće poštovati.)
 - Izviđanje i napadi na gradove su dopušteni: primjenjuje se pravilo 50%. Nezaštićeni igrači s polovinom vaše moći ili više sudjeluju u CoT-u.
 - Ako ste napadnuti iz grada, možete napasti grad natrag 1:1 bez obzira na moć. Klanovski marševi ili korištenje šampiona za ovaj napad su zabranjeni.
 - Ako ste izviđani iz grada, možete izviđati natrag 1:1. Morate slijediti pravilo 50% moći kako biste napali natrag.
@@ -106,14 +107,13 @@ Pogledajte web stranicu k273tb . xyz za službeni kalkulator kompenzacija.
 
 ## 9. Kraljevski chatovi za pridruživanje
 
-- 273 ROE
-- #K273/CLAIMS
-- 273 Outlaws
-- SPAM ZONE
-- ~#K273/CPTHUNDERDOME
-- ~#K273/ACADEMY
-- K273 TB Library
-- k273tb
+273 ROE
+
+273 Claims
+
+273 Outlaws
+
+273 Website
 
 ## TRENUTNI IKFPA
 

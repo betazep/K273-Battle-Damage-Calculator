@@ -2,7 +2,7 @@ Z rozkazu krále Pchelovoda platí pro království následující ROE.
 
 ## Obecná hráčská dohoda K273
 
-1. Království K273 dodržuje dohodu IKFPA uzavřenou během vlády krále Arcadie a očekává, že ji každý člen bude dodržovat, zejména po otevření království.
+1. Království K273 dodržuje dohodu IKFPA.
 2. ROE je účinné okamžitě a může být změněno.
 3. Každá změna bude mít 24hodinový buffer, aby se ostatní mohli přizpůsobit v různých časových zónách.
 4. Prosím respektujte všechny, se kterými přijdete do kontaktu.
@@ -34,15 +34,15 @@ Všichni vůdci klanů musí plnit své povinnosti jako vůdci:
 
 - Království je v míru, kromě 2 dnů Clash of Thrones (CoT).
 - Skauting a útoky na klanové budovy jsou VŽDY zakázány.
+- Úmyslný skauting a útoky na RSS jsou VŽDY zakázány.
 - Skauting a útoky na města a portály jsou zakázány, kromě plánovaných CP výměn nebo pokud jsou nepřátelské. (Varování: království je otevřené, pečlivě sledujte své portály po celou dobu.)
 - Pokud jste skautováni nebo napadeni z města nebo portálu, vy nebo zástupce klanu (váš šampion) můžete 1:1 zaútočit zpět na provinilé město nebo portál. Pro útok můžete použít klanový pochod. Můžete také zvolit diplomatickou cestu, jak je definována v Procesu řešení konfliktů. Nemůžete zároveň útočit a dostat kompenzaci.
-
 ## 2. KLANY A DIPLOMATÉ
 
 - Klan by měl uvádět "We abide by K273 ROE" (nebo podobně), aby byl obsluhován královstvím a chráněn ROE.
 - Klan musí identifikovat alespoň jednoho diplomata na začátku popisu klanu, který může pomoci při řešení sporů. Diplomaté musí být aktivní vůdce nebo vyšší.
 
-## 3. RSS
+## 3. RSS a krypty
 
 - Všechny budovy zdrojů v území klanu patří tomuto klanu. To zahrnuje i zdroje sezónních událostí. Můžete útočit, abyste odstranili lidi ze zdrojů v území klanu.
 - Zdroje vytvořené hráčem patří tomu, kdo je vytvořil, pokud není dohodnuto sdílení mezi dvěma stranami.
@@ -67,7 +67,8 @@ Neexistuje žádný výběr daní Královskou stráží. Klan by měl jmenovat n
 
 - Toto je jediný turnaj hráč proti hráči v království. První dva dny jsou PvP. Třetí den je pouze pro hlasování.
 - Skauting a útoky na klanové budovy jsou VŽDY zakázány.
-- Skauting a útoky na všechny portály jsou zakázány. Varování: ostatní království to nebudou respektovat.
+- Úmyslný skauting a útoky na RSS jsou VŽDY zakázány.
+- Skauting a útoky na všechny portály jsou zakázány. (Varování: ostatní království to nebudou respektovat.)
 - Skauting a útoky na města jsou povoleny: Platí pravidlo 50 %. Nechránění hráči s polovinou vaší síly nebo více se účastní CoT.
 - Pokud jste napadeni z města, můžete město 1:1 napadnout zpět bez ohledu na sílu. Klanové pochody nebo použití šampiona pro tento útok jsou zakázány.
 - Pokud jste skautováni z města, můžete skautovat zpět 1:1. Musíte dodržet pravidlo 50 % síly, abyste mohli zpět útočit.
@@ -106,14 +107,13 @@ Podívejte se na web k273tb . xyz pro oficiální kalkulačku kompenzací.
 
 ## 9. Královské chaty k připojení
 
-- 273 ROE
-- #K273/CLAIMS
-- 273 Outlaws
-- SPAM ZONE
-- ~#K273/CPTHUNDERDOME
-- ~#K273/ACADEMY
-- K273 TB Library
-- k273tb
+273 ROE
+
+273 Claims
+
+273 Outlaws
+
+273 Website
 
 ## AKTUÁLNÍ IKFPA
 

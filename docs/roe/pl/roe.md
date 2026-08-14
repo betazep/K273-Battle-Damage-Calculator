@@ -2,7 +2,7 @@ Na rozkaz króla Pchelovoda obowiązuje następujące ROE w królestwie.
 
 ## Ogólna umowa graczy K273
 
-1. Królestwo K273 przestrzega porozumienia IKFPA ustanowionego podczas panowania króla Arcadii i oczekuje, że każdy członek będzie go przestrzegał, zwłaszcza po otwarciu królestwa.
+1. Królestwo K273 przestrzega porozumienia IKFPA.
 2. ROE obowiązuje natychmiast i może być zmienione.
 3. Każda poprawka będzie miała 24-godzinny bufor, aby inni mogli dostosować się w różnych strefach czasowych.
 4. Prosimy o szacunek dla wszystkich, z którymi masz kontakt.
@@ -34,15 +34,15 @@ Wszyscy liderzy klanów muszą wypełniać swoje obowiązki jako liderzy:
 
 - Królestwo jest w pokoju, z wyjątkiem 2 dni Clash of Thrones (CoT).
 - Zwiad i ataki na budynki klanu są ZAWSZE zabronione.
+- Celowy zwiad i atakowanie RSS są ZAWSZE zabronione.
 - Zwiad i ataki na miasta oraz portale są zabronione, z wyjątkiem zaplanowanych wymian CP lub jeśli są wrogie. (Ostrzeżenie: królestwo jest otwarte, uważnie monitoruj swoje portale przez cały czas.)
 - Jeśli zostaniesz zwiadowany lub zaatakowany z miasta lub portalu, ty lub reprezentant klanu (twój czempion) możesz odpowiedzieć 1:1 na portal lub miasto sprawcy. Możesz użyć marszu klanowego do ataku. Możesz też wybrać drogę dyplomatyczną określoną w Procesie rozwiązywania konfliktów. Nie możesz jednocześnie atakować i otrzymać rekompensaty.
-
 ## 2. KLANI I DYPLOMACI
 
 - Klan powinien zadeklarować "We abide by K273 ROE" (lub podobnie), aby być obsługiwanym przez królestwo i chronionym przez ROE.
 - Klan musi wskazać co najmniej jednego dyplomatę na górze opisu klanu, który może pomóc w rozwiązywaniu sporów. Dyplomaci muszą być aktywnym liderem lub przełożonym.
 
-## 3. RSS
+## 3. RSS i krypty
 
 - Wszystkie budynki zasobów na terytorium klanu należą do tego klanu. Dotyczy to również zasobów wydarzeń sezonowych. Możesz atakować, aby usuwać ludzi z zasobów na terytorium klanu.
 - Zasoby stworzone przez gracza należą do osoby, która je stworzyła, chyba że uzgodniono dzielenie między dwie strony.
@@ -67,7 +67,8 @@ Nie ma królewskiej zbiórki podatków przez Gwardię Królewską. Klany powinny
 
 - To jedyny turniej gracz kontra gracz w królestwie. Pierwsze dwa dni to PvP. Trzeci dzień jest tylko do głosowania.
 - Zwiad i ataki na budynki klanu są ZAWSZE zabronione.
-- Zwiad i ataki na wszystkie portale są zabronione. Ostrzeżenie: inne królestwa nie będą tego respektować.
+- Celowy zwiad i atakowanie RSS są ZAWSZE zabronione.
+- Zwiad i ataki na wszystkie portale są zabronione. (Ostrzeżenie: inne królestwa nie będą tego respektować.)
 - Zwiad i ataki na miasta są dozwolone: obowiązuje zasada 50%. Nieosłonięci gracze z połową twojej mocy lub więcej uczestniczą w CoT.
 - Jeśli zostaniesz zaatakowany z miasta, możesz zaatakować miasto z powrotem 1:1 niezależnie od mocy. Marsze klanowe lub użycie czempiona do tego ataku są zabronione.
 - Jeśli zostaniesz zwiadowany z miasta, możesz zwiadować z powrotem 1:1. Aby zaatakować z powrotem, musisz przestrzegać zasady 50% mocy.
@@ -106,14 +107,13 @@ Zobacz stronę k273tb . xyz, aby uzyskać oficjalny kalkulator rekompensat.
 
 ## 9. Czaty Królestwa do dołączenia
 
-- 273 ROE
-- #K273/CLAIMS
-- 273 Outlaws
-- SPAM ZONE
-- ~#K273/CPTHUNDERDOME
-- ~#K273/ACADEMY
-- K273 TB Library
-- k273tb
+273 ROE
+
+273 Claims
+
+273 Outlaws
+
+273 Website
 
 ## AKTUALNE IKFPA
 

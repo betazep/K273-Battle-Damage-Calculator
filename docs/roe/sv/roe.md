@@ -2,7 +2,7 @@ På order av kung Pchelovod gäller följande ROE för riket.
 
 ## Allmänt K273-spelaravtal
 
-1. Riket K273 följer IKFPA-avtalet som etablerades under kung Arcadias styre och förväntar sig att varje medlem följer det, särskilt efter att riket öppnar.
+1. Riket K273 följer IKFPA-avtalet.
 2. ROE gäller omedelbart och kan ändras.
 3. Varje ändring har en 24-timmars buffert så att andra kan anpassa sig i olika tidszoner.
 4. Vänligen respektera alla du kommer i kontakt med.
@@ -34,15 +34,15 @@ Alla klanledare måste uppfylla sina skyldigheter som ledare:
 
 - Riket är i fred utom under 2 dagar av Clash of Thrones (CoT).
 - Spaning och attacker på klanbyggnader är ALLTID förbjudna.
+- Avsiktlig spaning och attack på RSS är ALLTID förbjudet.
 - Spaning och attacker på städer och portaler är förbjudna, förutom vid planerade CP-utbyten eller om de är fientliga. (Varning: riket är öppet, övervaka dina portaler noggrant hela tiden.)
 - Om du blir spanad eller attackerad från en stad eller portal får du eller en klanrepresentant (din champion) attackera tillbaka 1:1 på den felande portalen eller staden. Du får använda en klanmarsch för attacken. Du kan istället välja den diplomatiska vägen som definieras i Konfliktlösningsprocessen. Du kan inte både attackera och ta emot kompensation.
-
 ## 2. KLANER OCH DIPLOMATER
 
 - Klaner måste ange "We abide by K273 ROE" (eller liknande) för att bli betjänade av riket och skyddade av ROE.
 - Klaner måste identifiera minst en diplomat högst upp i sin klanbeskrivning som kan hjälpa till med konfliktlösning. Diplomater måste vara en aktiv ledare eller överordnad.
 
-## 3. RSS
+## 3. RSS och kryptor
 
 - Alla resursbyggnader inom klanens territorium tillhör den klanen. Detta inkluderar säsongsevenemangsresurser. Du kan attackera för att ta bort personer från resurser inom klanens territorium.
 - Spelarskapade resurser tillhör den som skapade dem, om inte delning mellan två parter har avtalats.
@@ -67,7 +67,8 @@ Det finns ingen skatteuppbörd från Kungliga Gardet. Klaner bör utse någon so
 
 - Detta är den enda spelare-mot-spelare-turneringen i riket. De första två dagarna är PvP. Den tredje dagen är bara för röstning.
 - Spaning och attacker på klanbyggnader är ALLTID förbjudna.
-- Spaning och attacker på alla portaler är förbjudna. Varning: andra riken kommer inte att respektera detta.
+- Avsiktlig spaning och attack på RSS är ALLTID förbjudet.
+- Spaning och attacker på alla portaler är förbjudna. (Varning: andra riken kommer inte att respektera detta.)
 - Spaning och attacker på städer är tillåtna: 50%-regeln gäller. Osköldade spelare med hälften av din styrka eller mer deltar i CoT.
 - Om du blir attackerad från en stad får du attackera staden tillbaka 1:1 oavsett styrka. Klanmarscher eller att använda en champion för denna attack är förbjudet.
 - Om du blir spanad från en stad får du spana tillbaka 1:1. Du måste följa 50%-styrkregeln för att attackera tillbaka.
@@ -106,14 +107,13 @@ Se webbplatsen k273tb . xyz för den officiella kompensationskalkylatorn.
 
 ## 9. Rikets chattar att gå med i
 
-- 273 ROE
-- #K273/CLAIMS
-- 273 Outlaws
-- SPAM ZONE
-- ~#K273/CPTHUNDERDOME
-- ~#K273/ACADEMY
-- K273 TB Library
-- k273tb
+273 ROE
+
+273 Claims
+
+273 Outlaws
+
+273 Website
 
 ## AKTUELLT IKFPA
 

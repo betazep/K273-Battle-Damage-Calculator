@@ -2,7 +2,7 @@ Auf Befehl von König Pchelovod gilt die folgende ROE für das Königreich.
 
 ## Allgemeine K273-Spielervereinbarung
 
-1. Das Königreich K273 folgt dem IKFPA-Abkommen, das während der Herrschaft von König Arcadia geschlossen wurde, und erwartet die Einhaltung durch jedes Mitglied, insbesondere nach der Öffnung des Königreichs.
+1. Das Königreich K273 folgt dem IKFPA-Abkommen.
 2. Die ROE gilt sofort und kann geändert werden.
 3. Jede Änderung hat eine 24-Stunden-Pufferzeit, damit sich andere in verschiedenen Zeitzonen anpassen können.
 4. Bitte respektiert alle, mit denen ihr in Kontakt kommt.
@@ -34,15 +34,15 @@ Alle Clanführer müssen ihre Pflichten als Anführer erfüllen:
 
 - Das Königreich ist in Frieden, außer während 2 Tagen Clash of Thrones (CoT).
 - Spähen und Angriffe auf Clan-Gebäude sind IMMER verboten.
+- Absichtliches Spähen und Angreifen von RSS ist IMMER verboten.
 - Spähen und Angriffe auf Städte und Portale sind verboten, außer für geplante CP-Austausche oder wenn sie feindlich sind. (Warnung: Das Königreich ist offen, überwacht eure Portale jederzeit aufmerksam.)
 - Wenn ihr von einer Stadt oder einem Portal ausgespäht oder angegriffen werdet, dürft ihr oder ein Clanvertreter (euer Champion) 1:1 auf das betreffende Portal oder die Stadt zurückschlagen. Ihr dürft für den Angriff eine Clan-Marsch verwenden. Ihr könnt stattdessen den diplomatischen Weg wählen, wie im Konfliktlösungsprozess definiert. Ihr könnt nicht sowohl angreifen als auch Entschädigung erhalten.
-
 ## 2. CLANS & DIPLOMATEN
 
 - Clans müssen „We abide by K273 ROE“ (oder ähnlich) angeben, um vom Königreich bedient und durch die ROE geschützt zu werden.
 - Clans müssen mindestens einen Diplomaten ganz oben in ihrer Clanbeschreibung benennen, der bei der Streitbeilegung helfen kann. Diplomaten müssen ein aktiver Anführer oder höher sein.
 
-## 3. RSS
+## 3. RSS & Krypten
 
 - Alle Ressourcen-Gebäude innerhalb des Clangebiets gehören diesem Clan. Dazu gehören auch saisonale Eventressourcen. Ihr dürft angreifen, um Personen von Ressourcen im Clangebiet zu entfernen.
 - Spielererstellte Ressourcen gehören der Person, die sie erstellt hat, sofern keine Vereinbarung zur Aufteilung zwischen zwei Parteien besteht.
@@ -67,7 +67,8 @@ Es gibt keine Steuererhebung durch die Königliche Garde. Clans sollten jemanden
 
 - Dies ist das einzige Spieler-gegen-Spieler-Turnier im Königreich. Die ersten zwei Tage sind PvP. Der dritte Tag ist nur fürs Wählen.
 - Spähen und Angriffe auf Clan-Gebäude sind IMMER verboten.
-- Spähen und Angriffe auf alle Portale sind verboten. Warnung: Andere Königreiche werden dies nicht beachten.
+- Absichtliches Spähen und Angreifen von RSS ist IMMER verboten.
+- Spähen und Angriffe auf alle Portale sind verboten. (Warnung: Andere Königreiche werden dies nicht beachten.)
 - Spähen und Angriffe auf Städte sind erlaubt: Die 50%-Regel gilt. Ungeschirmte Spieler mit der Hälfte eurer Macht oder mehr nehmen am CoT teil.
 - Wenn ihr von einer Stadt angegriffen werdet, dürft ihr die Stadt 1:1 unabhängig von der Macht zurückangreifen. Clan-Märsche oder die Verwendung eines Champions für diesen Angriff sind verboten.
 - Wenn ihr von einer Stadt ausgespäht werdet, dürft ihr 1:1 zurückspähen. Ihr müsst die 50%-Macht-Regel befolgen, um zurück anzugreifen.
@@ -106,14 +107,13 @@ Siehe die Website k273tb . xyz für den offiziellen Entschädigungsrechner.
 
 ## 9. Königreich-Chats zum Beitreten
 
-- 273 ROE
-- #K273/CLAIMS
-- 273 Outlaws
-- SPAM ZONE
-- ~#K273/CPTHUNDERDOME
-- ~#K273/ACADEMY
-- K273 TB Library
-- k273tb
+273 ROE
+
+273 Claims
+
+273 Outlaws
+
+273 Website
 
 ## AKTUELLES IKFPA
 

@@ -2,7 +2,7 @@ Kuningas Pchelovodin määräyksestä seuraava ROE on voimassa kuningaskunnassa.
 
 ## Yleinen K273-pelaajasopimus
 
-1. Kuningaskunta K273 noudattaa IKFPA-sopimusta, joka on tehty kuningas Arcadian hallituskaudella, ja odottaa jokaisen jäsenen noudattavan sitä, erityisesti kuningaskunnan avautumisen jälkeen.
+1. Kuningaskunta K273 noudattaa IKFPA-sopimusta.
 2. ROE on voimassa välittömästi ja sitä voidaan muuttaa.
 3. Jokaisella muutoksella on 24 tunnin puskuri, jotta muut voivat sopeutua eri aikavyöhykkeillä.
 4. Ole hyvä ja kunnioita kaikkia, joiden kanssa olet tekemisissä.
@@ -34,15 +34,15 @@ Kaikkien klaanijohtajien on täytettävä velvollisuutensa johtajina:
 
 - Kuningaskunta on rauhassa lukuun ottamatta 2 päivää Clash of Thrones (CoT).
 - Tiedustelu ja hyökkäykset klaanirakennuksiin ovat AINA kiellettyjä.
+- Tarkoituksellinen RSS-kohteiden tiedustelu ja hyökkääminen on AINA kiellettyä.
 - Tiedustelu ja hyökkäykset kaupunkeihin ja portteihin ovat kiellettyjä, paitsi suunnitelluissa CP-vaihdoissa tai jos ne ovat vihamielisiä. (Varoitus: kuningaskunta on avoin, seuraa porttejasi tarkasti koko ajan.)
 - Jos sinut tiedustellaan tai sinua hyökätään kaupungista tai portista, sinä tai klaanin edustaja (championisi) voit hyökätä 1:1 takaisin kyseiseen porttiin tai kaupunkiin. Klaanihyökkäysmarssi on sallittu. Voit myös valita diplomaattisen reitin, kuten konfliktien ratkaisuprosessissa on määritelty. Et voi sekä hyökätä että vastaanottaa korvausta.
-
 ## 2. KLAANIT JA DIPLOMAATIT
 
 - Klaanien tulee ilmoittaa "We abide by K273 ROE" (tai vastaavaa) tullakseen palvelluksi kuningaskunnan toimesta ja saadakseen ROE-suojan.
 - Klaanien on nimettävä vähintään yksi diplomaatti klaanin kuvauksen alkuun, joka voi auttaa riitojen ratkaisemisessa. Diplomatit on oltava aktiivinen johtaja tai ylempi.
 
-## 3. RSS
+## 3. RSS & Kryptat
 
 - Kaikki resurssirakennukset klaanin alueella kuuluvat tälle klaanille. Tämä sisältää kausitapahtumien resurssit. Voit hyökätä poistaaksesi ihmisiä resursseista klaanin alueella.
 - Pelaajan luomat resurssit kuuluvat henkilölle, joka ne loi, ellei kahden osapuolen välillä sovita jakamisesta.
@@ -67,7 +67,8 @@ Kuninkaallisen Vartioston veronkeruuta ei ole. Klaanien tulisi nimetä joku muis
 
 - Tämä on ainoa pelaaja vastaan pelaaja -turnaus kuningaskunnan sisällä. Kaksi ensimmäistä päivää ovat PvP. Kolmas päivä on vain äänestystä varten.
 - Tiedustelu ja hyökkäykset klaanirakennuksiin ovat AINA kiellettyjä.
-- Tiedustelu ja hyökkäykset kaikkiin portteihin ovat kiellettyjä. Varoitus: muut kuningaskunnat eivät noudata tätä.
+- Tarkoituksellinen RSS-kohteiden tiedustelu ja hyökkääminen on AINA kiellettyä.
+- Tiedustelu ja hyökkäykset kaikkiin portteihin ovat kiellettyjä. (Varoitus: muut kuningaskunnat eivät noudata tätä.)
 - Tiedustelu ja hyökkäykset kaupunkeihin ovat sallittuja: 50 % -sääntö pätee. Kilvettömät pelaajat, joiden voima on vähintään puolet sinun voimastasi, osallistuvat CoT:hen.
 - Jos sinua hyökätään kaupungista, voit hyökätä kaupunkiin takaisin 1:1 riippumatta voimasta. Klaanihyökkäysmarssit tai championin käyttö tähän hyökkäykseen on kielletty.
 - Jos sinua tiedustellaan kaupungista, voit tiedustella takaisin 1:1. Sinun on noudatettava 50 % -voimasääntöä, jotta voit hyökätä takaisin.
@@ -106,14 +107,13 @@ Katso virallinen korvauslaskuri sivustolta k273tb . xyz.
 
 ## 9. Kuningaskunnan chatit, joihin liittyä
 
-- 273 ROE
-- #K273/CLAIMS
-- 273 Outlaws
-- SPAM ZONE
-- ~#K273/CPTHUNDERDOME
-- ~#K273/ACADEMY
-- K273 TB Library
-- k273tb
+273 ROE
+
+273 Claims
+
+273 Outlaws
+
+273 Website
 
 ## NYKYINEN IKFPA
 

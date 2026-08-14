@@ -2,7 +2,7 @@ Kral Pchelovod'un emriyle aşağıdaki ROE krallık için yürürlüktedir.
 
 ## Genel K273 Oyuncu Anlaşması
 
-1. K273 Krallığı, Kral Arcadia döneminde oluşturulan IKFPA anlaşmasını takip eder ve her üyenin buna uymasını bekler, özellikle krallık açıldıktan sonra.
+1. K273 Krallığı IKFPA anlaşmasını takip eder.
 2. ROE derhal geçerlidir ve değiştirilebilir.
 3. Her değişiklik, farklı zaman dilimlerinde diğerlerinin uyum sağlaması için 24 saatlik bir tampon sürece sahip olacaktır.
 4. Lütfen iletişim kurduğunuz herkese saygı gösterin.
@@ -34,15 +34,15 @@ Tüm klan liderleri lider olarak yükümlülüklerini yerine getirmelidir:
 
 - Krallık, Clash of Thrones (CoT) etkinliğinin 2 günü dışında barıştadır.
 - Keşif ve klan binalarına saldırılar HER ZAMAN yasaktır.
+- RSS üzerinde kasıtlı keşif ve saldırı HER ZAMAN yasaktır.
 - Şehir ve portal keşfi ve saldırıları, planlı CP değişimleri veya düşmanca olması dışında yasaktır. (Uyarı: Krallık açıktır, portallarınızı her zaman dikkatle izleyin.)
 - Bir şehir veya portaldan keşfedilir ya da saldırıya uğrarsanız, siz veya bir klan temsilcisi (championınız) suçlu portalı veya şehri 1:1 oranında geri saldırabilirsiniz. Saldırı için bir klan yürüyüşü kullanabilirsiniz. Bunun yerine, Çatışma Çözüm Sürecinde tanımlanan diplomatik yolu seçebilirsiniz. Hem saldırıp hem de tazminat alamazsınız.
-
 ## 2. KLANLAR VE DİPLOMATLAR
 
 - Klanlar, krallık tarafından hizmet almak ve ROE tarafından korunmak için "We abide by K273 ROE" (veya benzeri) belirtmelidir.
 - Klanlar, anlaşmazlıkların çözümüne yardımcı olabilecek en az bir diplomatı klan açıklamasının en üstünde belirtmelidir. Diplomatlar aktif bir lider veya daha üst düzey olmalıdır.
 
-## 3. RSS
+## 3. RSS ve mahzenler
 
 - Klan bölgesi içindeki tüm kaynak binaları o klana aittir. Buna mevsimsel etkinlik kaynakları da dahildir. Klan bölgesindeki kaynaklardan kişileri kaldırmak için saldırabilirsiniz.
 - Oyuncu tarafından oluşturulan kaynaklar, iki taraf arasında paylaşım konusunda anlaşılmadıkça, oluşturan kişiye aittir.
@@ -67,7 +67,8 @@ Kraliyet Muhafızları tarafından vergi tahsilatı yoktur. Klanlar, oyunculara 
 
 - Bu, krallık içindeki tek oyuncu ile oyuncu turnuvasıdır. İlk iki gün PvP'dir. Üçüncü gün sadece oylama içindir.
 - Keşif ve klan binalarına saldırılar HER ZAMAN yasaktır.
-- Tüm portallara keşif ve saldırılar yasaktır. Uyarı: diğer krallıklar buna uymayacaktır.
+- RSS üzerinde kasıtlı keşif ve saldırı HER ZAMAN yasaktır.
+- Tüm portallara keşif ve saldırılar yasaktır. (Uyarı: diğer krallıklar buna uymayacaktır.)
 - Şehir keşif ve saldırıları serbesttir: %50 kuralı geçerlidir. Kalkanı olmayan ve gücünüzün yarısı veya daha fazlasına sahip oyuncular CoT'ye katılmaktadır.
 - Bir şehirden saldırıya uğrarsanız, güce bakılmaksızın şehre 1:1 karşı saldırı yapabilirsiniz. Bu saldırıda klan yürüyüşleri veya champion kullanımı yasaktır.
 - Bir şehirden keşfedilirseniz, 1:1 karşı keşif yapabilirsiniz. Karşı saldırı için %50 güç kuralını uygulamalısınız.
@@ -106,14 +107,13 @@ Resmi tazminat hesaplayıcısı için k273tb . xyz sitesine bakın.
 
 ## 9. Katılınacak Krallık Sohbetleri
 
-- 273 ROE
-- #K273/CLAIMS
-- 273 Outlaws
-- SPAM ZONE
-- ~#K273/CPTHUNDERDOME
-- ~#K273/ACADEMY
-- K273 TB Library
-- k273tb
+273 ROE
+
+273 Claims
+
+273 Outlaws
+
+273 Website
 
 ## GÜNCEL IKFPA
 

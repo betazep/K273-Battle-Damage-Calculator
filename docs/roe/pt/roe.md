@@ -2,7 +2,7 @@ Por ordem do Rei Pchelovod, o seguinte ROE está em vigor no reino.
 
 ## Acordo geral de jogadores K273
 
-1. O Reino K273 segue o acordo IKFPA estabelecido durante o reinado do Rei Arcadia e espera que cada membro cumpra, especialmente após a abertura do Reino.
+1. O Reino K273 segue o acordo IKFPA.
 2. O ROE é efetivo imediatamente e pode ser alterado.
 3. Cada emenda terá um prazo de 24 horas para que outros possam se adaptar em diferentes fusos horários.
 4. Por favor, respeitem todos com quem entrem em contato.
@@ -34,15 +34,15 @@ Todos os líderes de clã devem cumprir suas obrigações como líderes:
 
 - O reino está em paz, exceto durante 2 dias de Clash of Thrones (CoT).
 - Espionagem e ataques a prédios de clã são SEMPRE proibidos.
+- Espionagem e ataques intencionais a RSS são SEMPRE proibidos.
 - Espionagem e ataques a cidades e portais são proibidos, exceto em trocas CP planejadas ou se forem hostis. (Aviso: o reino é aberto, monitore seus portais cuidadosamente o tempo todo.)
 - Se você for explorado ou atacado a partir de uma cidade ou portal, você ou um representante do clã (seu campeão) pode revidar 1:1 no portal ou cidade ofensora. É permitido usar uma marcha de clã para o ataque. Você pode, em vez disso, escolher a via diplomática conforme definido no Processo de Resolução de Conflitos. Você não pode atacar e receber compensação.
-
 ## 2. CLÃS E DIPLOMATAS
 
 - Os clãs devem declarar “We abide by K273 ROE” (ou similar) para serem atendidos pelo reino e protegidos pelo ROE.
 - Os clãs devem identificar pelo menos um diplomata no topo da descrição do clã que possa ajudar na resolução de disputas. Diplomatas devem ser um líder ativo ou superior.
 
-## 3. RSS
+## 3. RSS e criptas
 
 - Todos os prédios de recursos dentro do território do clã pertencem a esse clã. Isso inclui recursos de eventos sazonais. Você pode atacar para remover pessoas de recursos no território do clã.
 - Recursos criados pelo jogador pertencem ao indivíduo que os criou, a menos que haja acordo de compartilhamento entre duas partes.
@@ -67,7 +67,8 @@ Não há Coleta de Impostos da Guarda Real. Os clãs devem designar alguém para
 
 - Este é o único torneio jogador contra jogador dentro do reino. Os dois primeiros dias são PvP. O terceiro dia é apenas para votação.
 - Espionagem e ataques a prédios de clã são SEMPRE proibidos.
-- Espionagem e ataques a todos os portais são proibidos. Aviso: outros reinos não honrarão isto.
+- Espionagem e ataques intencionais a RSS são SEMPRE proibidos.
+- Espionagem e ataques a todos os portais são proibidos. (Aviso: outros reinos não honrarão isto.)
 - Espionagem e ataques a cidades são permitidos: a regra dos 50% se aplica. Jogadores sem escudo com metade do seu poder ou mais estão participando do CoT.
 - Se você for atacado a partir de uma cidade, pode atacar a cidade de volta 1:1 independentemente do poder. Marchas de clã ou usar um campeão para este ataque é proibido.
 - Se você for explorado a partir de uma cidade, pode explorar de volta 1:1. Você deve seguir a regra de 50% de poder para atacar de volta.
@@ -106,14 +107,13 @@ Consulte o site k273tb . xyz para a calculadora oficial de compensação.
 
 ## 9. Chats do Reino para Entrar
 
-- 273 ROE
-- #K273/CLAIMS
-- 273 Outlaws
-- SPAM ZONE
-- ~#K273/CPTHUNDERDOME
-- ~#K273/ACADEMY
-- K273 TB Library
-- k273tb
+273 ROE
+
+273 Claims
+
+273 Outlaws
+
+273 Website
 
 ## IKFPA ATUAL
 

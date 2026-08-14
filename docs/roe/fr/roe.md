@@ -2,7 +2,7 @@ Par ordre du roi Pchelovod, le ROE suivant est en vigueur pour le royaume.
 
 ## Accord général des joueurs K273
 
-1. Le royaume K273 suit l'accord IKFPA établi sous le règne du roi Arcadia et attend de chaque membre qu'il s'y conforme, surtout après l'ouverture du royaume.
+1. Le royaume K273 suit l'accord IKFPA.
 2. Le ROE est effectif immédiatement et peut être modifié.
 3. Chaque amendement aura un délai de 24 heures afin que chacun puisse s'adapter selon les fuseaux horaires.
 4. Merci de respecter toutes les personnes avec lesquelles vous entrez en contact.
@@ -34,15 +34,15 @@ Tous les chefs de clan doivent remplir leurs obligations en tant que dirigeants 
 
 - Le royaume est en paix sauf pendant 2 jours de Clash of Thrones (CoT).
 - L'espionnage et les attaques sur les bâtiments de clan sont TOUJOURS interdits.
+- L'espionnage et l'attaque intentionnels des RSS sont TOUJOURS interdits.
 - L'espionnage et les attaques sur les villes et les portails sont interdits, sauf pour des échanges CP planifiés ou s'ils sont hostiles. (Avertissement : le royaume est ouvert, surveillez vos portails attentivement à tout moment.)
 - Si vous êtes scouté ou attaqué depuis une ville ou un portail, vous ou un représentant de clan (votre champion) pouvez riposter 1:1 sur le portail ou la ville fautifs. Vous êtes autorisé à utiliser une marche de clan pour l'attaque. Vous pouvez choisir la voie diplomatique telle que définie dans le Processus de Résolution des Conflits. Vous ne pouvez pas attaquer et recevoir une compensation.
-
 ## 2. CLANS ET DIPLOMATES
 
 - Les clans doivent indiquer « We abide by K273 ROE » (ou similaire) pour être servis par le royaume et protégés par le ROE.
 - Les clans doivent identifier au moins un diplomate en haut de leur description de clan qui peut aider à résoudre les conflits. Les diplomates doivent être un chef actif ou supérieur.
 
-## 3. RSS
+## 3. RSS et cryptes
 
 - Tous les bâtiments de ressources à l'intérieur du territoire du clan appartiennent à ce clan. Cela inclut les ressources d'événements saisonniers. Vous pouvez attaquer pour retirer des personnes des ressources dans le territoire du clan.
 - Les ressources créées par un joueur appartiennent à la personne qui les a créées, sauf accord de partage entre deux parties.
@@ -67,7 +67,8 @@ Il n'y a pas de collecte d'impôts par la Garde Royale. Les clans doivent désig
 
 - C'est le seul tournoi joueur contre joueur au sein du royaume. Les deux premiers jours sont PvP. Le troisième jour est réservé au vote.
 - L'espionnage et les attaques sur les bâtiments de clan sont TOUJOURS interdits.
-- L'espionnage et les attaques sur tous les portails sont interdits. Avertissement : les autres royaumes ne respecteront pas cela.
+- L'espionnage et l'attaque intentionnels des RSS sont TOUJOURS interdits.
+- L'espionnage et les attaques sur tous les portails sont interdits. (Avertissement : les autres royaumes ne respecteront pas cela.)
 - L'espionnage et les attaques sur les villes sont autorisés : la règle des 50 % s'applique. Les joueurs sans bouclier avec la moitié de votre puissance ou plus participent au CoT.
 - Si vous êtes attaqué depuis une ville, vous pouvez attaquer la ville en retour 1:1 quelle que soit la puissance. Les marches de clan ou l'utilisation d'un champion pour cette attaque sont interdites.
 - Si vous êtes scouté depuis une ville, vous pouvez scouter en retour 1:1. Vous devez respecter la règle des 50 % de puissance pour attaquer en retour.
@@ -106,14 +107,13 @@ Voir le site k273tb . xyz pour la calculatrice officielle de compensation.
 
 ## 9. Chats du Royaume à Rejoindre
 
-- 273 ROE
-- #K273/CLAIMS
-- 273 Outlaws
-- SPAM ZONE
-- ~#K273/CPTHUNDERDOME
-- ~#K273/ACADEMY
-- K273 TB Library
-- k273tb
+273 ROE
+
+273 Claims
+
+273 Outlaws
+
+273 Website
 
 ## IKFPA ACTUEL
 

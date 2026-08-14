@@ -2,7 +2,7 @@ By order of King Pchelovod, the following ROE is in effect for the kingdom.
 
 ## General K273 Player Agreement
 
-1. Kingdom K273 follows the IKFPA agreement established during the reign of King Arcadia and expects every member to comply accordingly, especially after Kingdom open.
+1. Kingdom K273 follows the IKFPA agreement.
 2. The ROE is effective immediately and may be amended.
 3. Each amendment will have a 24-hour buffer so others may adapt via various time zones.
 4. Please respect all who you come into contact with.
@@ -34,6 +34,7 @@ All clan leaders must fulfill their obligations as leaders:
 
 - The kingdom is at peace except during 2 days of Clash of Thrones (CoT).
 - Scouting & Attacks on clan buildings are ALWAYS forbidden.
+- Purposfully scouting and attacking RSS is ALWAYS forbidden.
 - Scouting & Attacks on cities and portals are forbidden except for planned CP exchanges or if hostile. (Warning: The kingdom is open, carefully monitor your portals at all times.)
 - If you are scouted or attacked from a city or portal, you or a clan representative (your champion) is allowed to attack back 1:1 on the offending portal or city. You are allowed to use a clan march for the attack. You may instead choose the diplomatic route as defined in the Conflict Resolution Process. You cannot both attack and receive compensation.
 
@@ -42,7 +43,7 @@ All clan leaders must fulfill their obligations as leaders:
 - Clans must state “We abide by K273 ROE” (or similar) in order to be served by the kingdom and protected by ROE.
 - Clans must identify at least one diplomat at the top of their clan description who can assist with dispute resolution. Diplomats must be an active leader or superior.
 
-## 3. RSS
+## 3. RSS & Crypts
 
 - All resource buildings within the clan territory belong to that clan. This includes seasonal event resources. You may attack to remove people from resources in clan territory.
 - Player created resources belong to the individual who created them unless agreed to share between two parties.
@@ -67,10 +68,12 @@ There is no Royal Guard Tax Collection. Clans should appoint someone to remind p
 
 - This is the only in-Kingdom player versus player tournament. The first two days are PvP. The third day is for voting only.
 - Scouting & Attacks on clan buildings are ALWAYS forbidden.
-- Scouting & Attacks on all portals are forbidden. Warning other kingdoms will not honor this.
+- Purposeful Scouting & Attacking RSS are ALWAYS forbidden.
+- Scouting & Attacks on all portals are forbidden. (Warning other kingdoms will not honor this.)
 - Scouting & Attacks on cities are allowed: The 50% rule applies. Unshielded players half your might or above are participating in CoT.
 - If you are attacked from a city, you may attack the city back 1:1 regardless of might. Clan marches or using a champion for this attack is forbidden.
 - If you are scouted from a city, you may scout back 1:1. You must follow the 50% might rule to attack back.
+
 ---
 Recommeneded Loss Management:
 - Practice No Value City (NVC) - or use a shield if you are not participating.
@@ -106,14 +109,13 @@ See the k273tb . xyz website for the official compensation calculator.
 
 ## 9. Kingdom Chats to Join
 
-- 273 ROE
-- #K273/CLAIMS
-- 273 Outlaws
-- SPAM ZONE
-- ~#K273/CPTHUNDERDOME
-- ~#K273/ACADEMY
-- K273 TB Library
-- k273tb
+273 ROE
+
+273 Claims
+
+273 Outlaws
+
+273 Website
 
 ## CURRENT IKFPA
 

@@ -2,7 +2,7 @@ Per ordine del Re Pchelovod, il seguente ROE è in vigore per il regno.
 
 ## Accordo generale dei giocatori K273
 
-1. Il Regno K273 segue l'accordo IKFPA stabilito durante il regno del Re Arcadia e si aspetta che ogni membro lo rispetti, soprattutto dopo l'apertura del Regno.
+1. Il Regno K273 segue l'accordo IKFPA.
 2. Il ROE è effettivo immediatamente e può essere modificato.
 3. Ogni emendamento avrà un margine di 24 ore affinché gli altri possano adattarsi nei vari fusi orari.
 4. Per favore, rispettate tutti con cui entrate in contatto.
@@ -34,15 +34,15 @@ Tutti i leader di clan devono adempiere ai propri obblighi come leader:
 
 - Il regno è in pace tranne che durante 2 giorni di Clash of Thrones (CoT).
 - Lo scouting e gli attacchi agli edifici del clan sono SEMPRE proibiti.
+- Lo scouting e gli attacchi intenzionali alle RSS sono SEMPRE proibiti.
 - Lo scouting e gli attacchi a città e portali sono proibiti, tranne per scambi CP pianificati o se ostili. (Avviso: il regno è aperto, controlla attentamente i tuoi portali in ogni momento.)
 - Se vieni scoutato o attaccato da una città o un portale, tu o un rappresentante del clan (il tuo campione) potete attaccare 1:1 il portale o la città offensivi. È consentito usare una marcia di clan per l'attacco. Puoi invece scegliere la via diplomatica come definita nel Processo di Risoluzione dei Conflitti. Non puoi sia attaccare sia ricevere compensazione.
-
 ## 2. CLAN E DIPLOMATI
 
 - I clan devono dichiarare “We abide by K273 ROE” (o simile) per essere serviti dal regno e protetti dal ROE.
 - I clan devono identificare almeno un diplomatico nella parte superiore della descrizione del clan che possa aiutare nella risoluzione delle dispute. I diplomatici devono essere un leader attivo o superiore.
 
-## 3. RSS
+## 3. RSS e cripte
 
 - Tutti gli edifici di risorse all'interno del territorio del clan appartengono a quel clan. Questo include le risorse degli eventi stagionali. Puoi attaccare per rimuovere persone dalle risorse nel territorio del clan.
 - Le risorse create dal giocatore appartengono all'individuo che le ha create, a meno che non si concordi di condividere tra due parti.
@@ -67,7 +67,8 @@ Non esiste la riscossione delle tasse della Guardia Reale. I clan dovrebbero nom
 
 - Questo è l'unico torneo giocatore contro giocatore all'interno del regno. I primi due giorni sono PvP. Il terzo giorno è solo per votare.
 - Lo scouting e gli attacchi agli edifici del clan sono SEMPRE proibiti.
-- Lo scouting e gli attacchi a tutti i portali sono proibiti. Avviso: gli altri regni non rispetteranno questa regola.
+- Lo scouting e gli attacchi intenzionali alle RSS sono SEMPRE proibiti.
+- Lo scouting e gli attacchi a tutti i portali sono proibiti. (Avviso: gli altri regni non rispetteranno questa regola.)
 - Lo scouting e gli attacchi alle città sono consentiti: si applica la regola del 50%. I giocatori senza scudo con metà della tua potenza o più stanno partecipando al CoT.
 - Se vieni attaccato da una città, puoi attaccare la città di ritorno 1:1 indipendentemente dalla potenza. Le marce di clan o l'uso di un campione per questo attacco sono vietati.
 - Se vieni scoutato da una città, puoi scautare di ritorno 1:1. Devi seguire la regola del 50% di potenza per attaccare di ritorno.
@@ -106,14 +107,13 @@ Consulta il sito k273tb . xyz per la calcolatrice ufficiale di compensazione.
 
 ## 9. Chat del Regno a cui Unirsi
 
-- 273 ROE
-- #K273/CLAIMS
-- 273 Outlaws
-- SPAM ZONE
-- ~#K273/CPTHUNDERDOME
-- ~#K273/ACADEMY
-- K273 TB Library
-- k273tb
+273 ROE
+
+273 Claims
+
+273 Outlaws
+
+273 Website
 
 ## IKFPA ATTUALE
 
