@@ -36,7 +36,7 @@ Alla klanledare måste uppfylla sina skyldigheter som ledare:
 - Spaning och attacker på klanbyggnader är ALLTID förbjudna.
 - Avsiktlig spaning och attack på RSS är ALLTID förbjudet.
 - Spaning och attacker på städer och portaler är förbjudna, förutom vid planerade CP-utbyten eller om de är fientliga. (Varning: riket är öppet, övervaka dina portaler noggrant hela tiden.)
-- Om du blir spanad eller attackerad från en stad eller portal får du eller en klanrepresentant (din champion) attackera tillbaka 1:1 på den felande portalen eller staden. Du får använda en klanmarsch för attacken. Du kan istället välja den diplomatiska vägen som definieras i Konfliktlösningsprocessen. Du kan inte både attackera och ta emot kompensation.
+- Om du blir spanad eller attackerad från en stad eller portal får du eller en klanrepresentant (din champion) attackera tillbaka 1:1 på den felande portalen eller staden. Klanmarscher är förbjudna. Du kan istället välja den diplomatiska vägen som definieras i Konfliktlösningsprocessen. Du kan inte både attackera och ta emot kompensation.
 ## 2. KLANER OCH DIPLOMATER
 
 - Klaner måste ange "We abide by K273 ROE" (eller liknande) för att bli betjänade av riket och skyddade av ROE.
@@ -69,7 +69,7 @@ Det finns ingen skatteuppbörd från Kungliga Gardet. Klaner bör utse någon so
 - Spaning och attacker på klanbyggnader är ALLTID förbjudna.
 - Avsiktlig spaning och attack på RSS är ALLTID förbjudet.
 - Spaning och attacker på alla portaler är förbjudna. (Varning: andra riken kommer inte att respektera detta.)
-- Spaning och attacker på städer är tillåtna: 50%-regeln gäller. Osköldade spelare med hälften av din styrka eller mer deltar i CoT.
+- Spaning och attacker på städer är tillåtna: 50%-regeln gäller. Osköldade spelare med hälften av din styrka eller mer deltar i CoT. Klanmarscher är förbjudna.
 - Om du blir attackerad från en stad får du attackera staden tillbaka 1:1 oavsett styrka. Klanmarscher eller att använda en champion för denna attack är förbjudet.
 - Om du blir spanad från en stad får du spana tillbaka 1:1. Du måste följa 50%-styrkregeln för att attackera tillbaka.
 ---

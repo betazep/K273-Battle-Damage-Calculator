@@ -36,7 +36,7 @@ Alle klanledere må oppfylle sine forpliktelser som ledere:
 - Speiding og angrep på klanbygninger er ALLTID forbudt.
 - Bevisst speiding og angrep på RSS er ALLTID forbudt.
 - Speiding og angrep på byer og portaler er forbudt, bortsett fra planlagte CP-utvekslinger eller hvis de er fiendtlige. (Advarsel: Kongeriket er åpent, overvåk portalene dine nøye til enhver tid.)
-- Hvis du blir speidet eller angrepet fra en by eller portal, kan du eller en klanrepresentant (din champion) angripe tilbake 1:1 på den skyldige portalen eller byen. Du har lov til å bruke en klanmarsj for angrepet. Du kan i stedet velge den diplomatiske ruten som er definert i Konfliktløsningsprosessen. Du kan ikke både angripe og motta kompensasjon.
+- Hvis du blir speidet eller angrepet fra en by eller portal, kan du eller en klanrepresentant (din champion) angripe tilbake 1:1 på den skyldige portalen eller byen. Klanmarsjer er forbudt. Du kan i stedet velge den diplomatiske ruten som er definert i Konfliktløsningsprosessen. Du kan ikke både angripe og motta kompensasjon.
 ## 2. KLANER OG DIPLOMATER
 
 - Klaner må oppgi "We abide by K273 ROE" (eller lignende) for å bli betjent av kongeriket og beskyttet av ROE.
@@ -69,7 +69,7 @@ Det er ingen Kongelig Vakt skatteinnkreving. Klaner bør utpeke noen til å minn
 - Speiding og angrep på klanbygninger er ALLTID forbudt.
 - Bevisst speiding og angrep på RSS er ALLTID forbudt.
 - Speiding og angrep på alle portaler er forbudt. (Advarsel: andre kongeriker vil ikke respektere dette.)
-- Speiding og angrep på byer er tillatt: 50%-regelen gjelder. Usjoldede spillere med halvparten av din styrke eller mer deltar i CoT.
+- Speiding og angrep på byer er tillatt: 50%-regelen gjelder. Usjoldede spillere med halvparten av din styrke eller mer deltar i CoT. Klanmarsjer er forbudt.
 - Hvis du blir angrepet fra en by, kan du angripe byen tilbake 1:1 uansett styrke. Klanmarsjer eller bruk av champion for dette angrepet er forbudt.
 - Hvis du blir speidet fra en by, kan du speide tilbake 1:1. Du må følge 50%-styrkeregelen for å angripe tilbake.
 ---

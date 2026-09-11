@@ -36,7 +36,7 @@ Todos os líderes de clã devem cumprir suas obrigações como líderes:
 - Espionagem e ataques a prédios de clã são SEMPRE proibidos.
 - Espionagem e ataques intencionais a RSS são SEMPRE proibidos.
 - Espionagem e ataques a cidades e portais são proibidos, exceto em trocas CP planejadas ou se forem hostis. (Aviso: o reino é aberto, monitore seus portais cuidadosamente o tempo todo.)
-- Se você for explorado ou atacado a partir de uma cidade ou portal, você ou um representante do clã (seu campeão) pode revidar 1:1 no portal ou cidade ofensora. É permitido usar uma marcha de clã para o ataque. Você pode, em vez disso, escolher a via diplomática conforme definido no Processo de Resolução de Conflitos. Você não pode atacar e receber compensação.
+- Se você for explorado ou atacado a partir de uma cidade ou portal, você ou um representante do clã (seu campeão) pode revidar 1:1 no portal ou cidade ofensora. Marchas de clã são proibidas. Você pode, em vez disso, escolher a via diplomática conforme definido no Processo de Resolução de Conflitos. Você não pode atacar e receber compensação.
 ## 2. CLÃS E DIPLOMATAS
 
 - Os clãs devem declarar “We abide by K273 ROE” (ou similar) para serem atendidos pelo reino e protegidos pelo ROE.
@@ -69,7 +69,7 @@ Não há Coleta de Impostos da Guarda Real. Os clãs devem designar alguém para
 - Espionagem e ataques a prédios de clã são SEMPRE proibidos.
 - Espionagem e ataques intencionais a RSS são SEMPRE proibidos.
 - Espionagem e ataques a todos os portais são proibidos. (Aviso: outros reinos não honrarão isto.)
-- Espionagem e ataques a cidades são permitidos: a regra dos 50% se aplica. Jogadores sem escudo com metade do seu poder ou mais estão participando do CoT.
+- Espionagem e ataques a cidades são permitidos: a regra dos 50% se aplica. Jogadores sem escudo com metade do seu poder ou mais estão participando do CoT. Marchas de clã são proibidas.
 - Se você for atacado a partir de uma cidade, pode atacar a cidade de volta 1:1 independentemente do poder. Marchas de clã ou usar um campeão para este ataque é proibido.
 - Se você for explorado a partir de uma cidade, pode explorar de volta 1:1. Você deve seguir a regra de 50% de poder para atacar de volta.
 ---

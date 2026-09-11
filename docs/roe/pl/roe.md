@@ -36,7 +36,7 @@ Wszyscy liderzy klanów muszą wypełniać swoje obowiązki jako liderzy:
 - Zwiad i ataki na budynki klanu są ZAWSZE zabronione.
 - Celowy zwiad i atakowanie RSS są ZAWSZE zabronione.
 - Zwiad i ataki na miasta oraz portale są zabronione, z wyjątkiem zaplanowanych wymian CP lub jeśli są wrogie. (Ostrzeżenie: królestwo jest otwarte, uważnie monitoruj swoje portale przez cały czas.)
-- Jeśli zostaniesz zwiadowany lub zaatakowany z miasta lub portalu, ty lub reprezentant klanu (twój czempion) możesz odpowiedzieć 1:1 na portal lub miasto sprawcy. Możesz użyć marszu klanowego do ataku. Możesz też wybrać drogę dyplomatyczną określoną w Procesie rozwiązywania konfliktów. Nie możesz jednocześnie atakować i otrzymać rekompensaty.
+- Jeśli zostaniesz zwiadowany lub zaatakowany z miasta lub portalu, ty lub reprezentant klanu (twój czempion) możesz odpowiedzieć 1:1 na portal lub miasto sprawcy. Marsze klanowe są zabronione. Możesz też wybrać drogę dyplomatyczną określoną w Procesie rozwiązywania konfliktów. Nie możesz jednocześnie atakować i otrzymać rekompensaty.
 ## 2. KLANI I DYPLOMACI
 
 - Klan powinien zadeklarować "We abide by K273 ROE" (lub podobnie), aby być obsługiwanym przez królestwo i chronionym przez ROE.
@@ -69,7 +69,7 @@ Nie ma królewskiej zbiórki podatków przez Gwardię Królewską. Klany powinny
 - Zwiad i ataki na budynki klanu są ZAWSZE zabronione.
 - Celowy zwiad i atakowanie RSS są ZAWSZE zabronione.
 - Zwiad i ataki na wszystkie portale są zabronione. (Ostrzeżenie: inne królestwa nie będą tego respektować.)
-- Zwiad i ataki na miasta są dozwolone: obowiązuje zasada 50%. Nieosłonięci gracze z połową twojej mocy lub więcej uczestniczą w CoT.
+- Zwiad i ataki na miasta są dozwolone: obowiązuje zasada 50%. Nieosłonięci gracze z połową twojej mocy lub więcej uczestniczą w CoT. Marsze klanowe są zabronione.
 - Jeśli zostaniesz zaatakowany z miasta, możesz zaatakować miasto z powrotem 1:1 niezależnie od mocy. Marsze klanowe lub użycie czempiona do tego ataku są zabronione.
 - Jeśli zostaniesz zwiadowany z miasta, możesz zwiadować z powrotem 1:1. Aby zaatakować z powrotem, musisz przestrzegać zasady 50% mocy.
 ---

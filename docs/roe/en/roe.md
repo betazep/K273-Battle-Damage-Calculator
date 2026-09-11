@@ -36,7 +36,7 @@ All clan leaders must fulfill their obligations as leaders:
 - Scouting & Attacks on clan buildings are ALWAYS forbidden.
 - Purposfully scouting and attacking RSS is ALWAYS forbidden.
 - Scouting & Attacks on cities and portals are forbidden except for planned CP exchanges or if hostile. (Warning: The kingdom is open, carefully monitor your portals at all times.)
-- If you are scouted or attacked from a city or portal, you or a clan representative (your champion) is allowed to attack back 1:1 on the offending portal or city. You are allowed to use a clan march for the attack. You may instead choose the diplomatic route as defined in the Conflict Resolution Process. You cannot both attack and receive compensation.
+- If you are scouted or attacked from a city or portal, you or a clan representative (your champion) is allowed to attack back 1:1 on the offending portal or city. Clan Marches are forbidden. You may instead choose the diplomatic route as defined in the Conflict Resolution Process. You cannot both attack and receive compensation.
 
 ## 2. CLANS & DIPLOMATS
 
@@ -70,7 +70,7 @@ There is no Royal Guard Tax Collection. Clans should appoint someone to remind p
 - Scouting & Attacks on clan buildings are ALWAYS forbidden.
 - Purposeful Scouting & Attacking RSS are ALWAYS forbidden.
 - Scouting & Attacks on all portals are forbidden. (Warning other kingdoms will not honor this.)
-- Scouting & Attacks on cities are allowed: The 50% rule applies. Unshielded players half your might or above are participating in CoT.
+- Scouting & Attacks on cities are allowed: The 50% rule applies. Unshielded players half your might or above are participating in CoT. Clan Marches are forbidden.
 - If you are attacked from a city, you may attack the city back 1:1 regardless of might. Clan marches or using a champion for this attack is forbidden.
 - If you are scouted from a city, you may scout back 1:1. You must follow the 50% might rule to attack back.
 

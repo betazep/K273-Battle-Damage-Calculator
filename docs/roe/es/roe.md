@@ -36,7 +36,7 @@ Todos los líderes de clan deben cumplir sus obligaciones como líderes:
 - La exploración y los ataques a edificios del clan están SIEMPRE prohibidos.
 - La exploración y el ataque intencional de RSS están SIEMPRE prohibidos.
 - La exploración y los ataques a ciudades y portales están prohibidos, excepto para intercambios de CP planificados o si son hostiles. (Advertencia: el reino está abierto, monitorea tus portales cuidadosamente en todo momento.)
-- Si eres explorado o atacado desde una ciudad o portal, tú o un representante del clan (tu campeón) pueden atacar de vuelta 1:1 el portal o la ciudad ofensora. Se permite usar una marcha de clan para el ataque. En su lugar, puedes elegir la vía diplomática definida en el Proceso de Resolución de Conflictos. No puedes atacar y recibir compensación a la vez.
+- Si eres explorado o atacado desde una ciudad o portal, tú o un representante del clan (tu campeón) pueden atacar de vuelta 1:1 el portal o la ciudad ofensora. Las marchas de clan están prohibidas. En su lugar, puedes elegir la vía diplomática definida en el Proceso de Resolución de Conflictos. No puedes atacar y recibir compensación a la vez.
 ## 2. CLANES Y DIPLOMATAS
 
 - Los clanes deben declarar “We abide by K273 ROE” (o similar) para ser atendidos por el reino y protegidos por el ROE.
@@ -69,7 +69,7 @@ No hay Recaudación de Impuestos de la Guardia Real. Los clanes deben designar a
 - La exploración y los ataques a edificios del clan están SIEMPRE prohibidos.
 - La exploración y el ataque intencional de RSS están SIEMPRE prohibidos.
 - La exploración y los ataques a todos los portales están prohibidos. (Advertencia: otros reinos no respetarán esto.)
-- La exploración y los ataques a ciudades están permitidos: se aplica la regla del 50%. Los jugadores sin escudo con la mitad de tu poder o más están participando en CoT.
+- La exploración y los ataques a ciudades están permitidos: se aplica la regla del 50%. Los jugadores sin escudo con la mitad de tu poder o más están participando en CoT. Las marchas de clan están prohibidas.
 - Si eres atacado desde una ciudad, puedes atacar la ciudad de vuelta 1:1 sin importar el poder. Las marchas de clan o usar un campeón para este ataque está prohibido.
 - Si eres explorado desde una ciudad, puedes explorar de vuelta 1:1. Debes seguir la regla del 50% de poder para atacar de vuelta.
 ---

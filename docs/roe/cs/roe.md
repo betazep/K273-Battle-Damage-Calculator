@@ -36,7 +36,7 @@ Všichni vůdci klanů musí plnit své povinnosti jako vůdci:
 - Skauting a útoky na klanové budovy jsou VŽDY zakázány.
 - Úmyslný skauting a útoky na RSS jsou VŽDY zakázány.
 - Skauting a útoky na města a portály jsou zakázány, kromě plánovaných CP výměn nebo pokud jsou nepřátelské. (Varování: království je otevřené, pečlivě sledujte své portály po celou dobu.)
-- Pokud jste skautováni nebo napadeni z města nebo portálu, vy nebo zástupce klanu (váš šampion) můžete 1:1 zaútočit zpět na provinilé město nebo portál. Pro útok můžete použít klanový pochod. Můžete také zvolit diplomatickou cestu, jak je definována v Procesu řešení konfliktů. Nemůžete zároveň útočit a dostat kompenzaci.
+- Pokud jste skautováni nebo napadeni z města nebo portálu, vy nebo zástupce klanu (váš šampion) můžete 1:1 zaútočit zpět na provinilé město nebo portál. Klanové pochody jsou zakázány. Můžete také zvolit diplomatickou cestu, jak je definována v Procesu řešení konfliktů. Nemůžete zároveň útočit a dostat kompenzaci.
 ## 2. KLANY A DIPLOMATÉ
 
 - Klan by měl uvádět "We abide by K273 ROE" (nebo podobně), aby byl obsluhován královstvím a chráněn ROE.
@@ -69,7 +69,7 @@ Neexistuje žádný výběr daní Královskou stráží. Klan by měl jmenovat n
 - Skauting a útoky na klanové budovy jsou VŽDY zakázány.
 - Úmyslný skauting a útoky na RSS jsou VŽDY zakázány.
 - Skauting a útoky na všechny portály jsou zakázány. (Varování: ostatní království to nebudou respektovat.)
-- Skauting a útoky na města jsou povoleny: Platí pravidlo 50 %. Nechránění hráči s polovinou vaší síly nebo více se účastní CoT.
+- Skauting a útoky na města jsou povoleny: Platí pravidlo 50 %. Nechránění hráči s polovinou vaší síly nebo více se účastní CoT. Klanové pochody jsou zakázány.
 - Pokud jste napadeni z města, můžete město 1:1 napadnout zpět bez ohledu na sílu. Klanové pochody nebo použití šampiona pro tento útok jsou zakázány.
 - Pokud jste skautováni z města, můžete skautovat zpět 1:1. Musíte dodržet pravidlo 50 % síly, abyste mohli zpět útočit.
 ---

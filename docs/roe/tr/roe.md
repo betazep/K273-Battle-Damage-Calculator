@@ -36,7 +36,7 @@ Tüm klan liderleri lider olarak yükümlülüklerini yerine getirmelidir:
 - Keşif ve klan binalarına saldırılar HER ZAMAN yasaktır.
 - RSS üzerinde kasıtlı keşif ve saldırı HER ZAMAN yasaktır.
 - Şehir ve portal keşfi ve saldırıları, planlı CP değişimleri veya düşmanca olması dışında yasaktır. (Uyarı: Krallık açıktır, portallarınızı her zaman dikkatle izleyin.)
-- Bir şehir veya portaldan keşfedilir ya da saldırıya uğrarsanız, siz veya bir klan temsilcisi (championınız) suçlu portalı veya şehri 1:1 oranında geri saldırabilirsiniz. Saldırı için bir klan yürüyüşü kullanabilirsiniz. Bunun yerine, Çatışma Çözüm Sürecinde tanımlanan diplomatik yolu seçebilirsiniz. Hem saldırıp hem de tazminat alamazsınız.
+- Bir şehir veya portaldan keşfedilir ya da saldırıya uğrarsanız, siz veya bir klan temsilcisi (championınız) suçlu portalı veya şehri 1:1 oranında geri saldırabilirsiniz. Klan yürüyüşleri yasaktır. Bunun yerine, Çatışma Çözüm Sürecinde tanımlanan diplomatik yolu seçebilirsiniz. Hem saldırıp hem de tazminat alamazsınız.
 ## 2. KLANLAR VE DİPLOMATLAR
 
 - Klanlar, krallık tarafından hizmet almak ve ROE tarafından korunmak için "We abide by K273 ROE" (veya benzeri) belirtmelidir.
@@ -69,7 +69,7 @@ Kraliyet Muhafızları tarafından vergi tahsilatı yoktur. Klanlar, oyunculara 
 - Keşif ve klan binalarına saldırılar HER ZAMAN yasaktır.
 - RSS üzerinde kasıtlı keşif ve saldırı HER ZAMAN yasaktır.
 - Tüm portallara keşif ve saldırılar yasaktır. (Uyarı: diğer krallıklar buna uymayacaktır.)
-- Şehir keşif ve saldırıları serbesttir: %50 kuralı geçerlidir. Kalkanı olmayan ve gücünüzün yarısı veya daha fazlasına sahip oyuncular CoT'ye katılmaktadır.
+- Şehir keşif ve saldırıları serbesttir: %50 kuralı geçerlidir. Kalkanı olmayan ve gücünüzün yarısı veya daha fazlasına sahip oyuncular CoT'ye katılmaktadır. Klan yürüyüşleri yasaktır.
 - Bir şehirden saldırıya uğrarsanız, güce bakılmaksızın şehre 1:1 karşı saldırı yapabilirsiniz. Bu saldırıda klan yürüyüşleri veya champion kullanımı yasaktır.
 - Bir şehirden keşfedilirseniz, 1:1 karşı keşif yapabilirsiniz. Karşı saldırı için %50 güç kuralını uygulamalısınız.
 ---

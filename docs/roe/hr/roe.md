@@ -36,7 +36,7 @@ Svi vođe klanova moraju ispuniti svoje obveze kao vođe:
 - Izviđanje i napadi na zgrade klana su UVIJEK zabranjeni.
 - Namjerno izviđanje i napadanje RSS-a su UVIJEK zabranjeni.
 - Izviđanje i napadi na gradove i portale su zabranjeni, osim za planirane CP razmjene ili ako su neprijateljski. (Upozorenje: Kraljevstvo je otvoreno, pažljivo pratite svoje portale u svakom trenutku.)
-- Ako ste izviđani ili napadnuti iz grada ili portala, vi ili predstavnik klana (vaš šampion) možete uzvratiti 1:1 na sporni portal ili grad. Dopušteno je koristiti klanovski marš za napad. Umjesto toga možete odabrati diplomatski put definiran u Procesu rješavanja sukoba. Ne možete i napasti i dobiti kompenzaciju.
+- Ako ste izviđani ili napadnuti iz grada ili portala, vi ili predstavnik klana (vaš šampion) možete uzvratiti 1:1 na sporni portal ili grad. Klanovski marševi su zabranjeni. Umjesto toga možete odabrati diplomatski put definiran u Procesu rješavanja sukoba. Ne možete i napasti i dobiti kompenzaciju.
 ## 2. KLANOVI I DIPLOMATI
 
 - Klanovi moraju navesti "We abide by K273 ROE" (ili slično) kako bi bili opsluživani od kraljevstva i zaštićeni ROE-om.
@@ -69,7 +69,7 @@ Ne postoji Kraljevska garda za prikupljanje poreza. Klanovi trebaju imenovati ne
 - Izviđanje i napadi na zgrade klana su UVIJEK zabranjeni.
 - Namjerno izviđanje i napadanje RSS-a su UVIJEK zabranjeni.
 - Izviđanje i napadi na sve portale su zabranjeni. (Upozorenje: druga kraljevstva to neće poštovati.)
-- Izviđanje i napadi na gradove su dopušteni: primjenjuje se pravilo 50%. Nezaštićeni igrači s polovinom vaše moći ili više sudjeluju u CoT-u.
+- Izviđanje i napadi na gradove su dopušteni: primjenjuje se pravilo 50%. Nezaštićeni igrači s polovinom vaše moći ili više sudjeluju u CoT-u. Klanovski marševi su zabranjeni.
 - Ako ste napadnuti iz grada, možete napasti grad natrag 1:1 bez obzira na moć. Klanovski marševi ili korištenje šampiona za ovaj napad su zabranjeni.
 - Ako ste izviđani iz grada, možete izviđati natrag 1:1. Morate slijediti pravilo 50% moći kako biste napali natrag.
 ---

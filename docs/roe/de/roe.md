@@ -36,7 +36,7 @@ Alle Clanführer müssen ihre Pflichten als Anführer erfüllen:
 - Spähen und Angriffe auf Clan-Gebäude sind IMMER verboten.
 - Absichtliches Spähen und Angreifen von RSS ist IMMER verboten.
 - Spähen und Angriffe auf Städte und Portale sind verboten, außer für geplante CP-Austausche oder wenn sie feindlich sind. (Warnung: Das Königreich ist offen, überwacht eure Portale jederzeit aufmerksam.)
-- Wenn ihr von einer Stadt oder einem Portal ausgespäht oder angegriffen werdet, dürft ihr oder ein Clanvertreter (euer Champion) 1:1 auf das betreffende Portal oder die Stadt zurückschlagen. Ihr dürft für den Angriff eine Clan-Marsch verwenden. Ihr könnt stattdessen den diplomatischen Weg wählen, wie im Konfliktlösungsprozess definiert. Ihr könnt nicht sowohl angreifen als auch Entschädigung erhalten.
+- Wenn ihr von einer Stadt oder einem Portal ausgespäht oder angegriffen werdet, dürft ihr oder ein Clanvertreter (euer Champion) 1:1 auf das betreffende Portal oder die Stadt zurückschlagen. Clan-Märsche sind verboten. Ihr könnt stattdessen den diplomatischen Weg wählen, wie im Konfliktlösungsprozess definiert. Ihr könnt nicht sowohl angreifen als auch Entschädigung erhalten.
 ## 2. CLANS & DIPLOMATEN
 
 - Clans müssen „We abide by K273 ROE“ (oder ähnlich) angeben, um vom Königreich bedient und durch die ROE geschützt zu werden.
@@ -69,7 +69,7 @@ Es gibt keine Steuererhebung durch die Königliche Garde. Clans sollten jemanden
 - Spähen und Angriffe auf Clan-Gebäude sind IMMER verboten.
 - Absichtliches Spähen und Angreifen von RSS ist IMMER verboten.
 - Spähen und Angriffe auf alle Portale sind verboten. (Warnung: Andere Königreiche werden dies nicht beachten.)
-- Spähen und Angriffe auf Städte sind erlaubt: Die 50%-Regel gilt. Ungeschirmte Spieler mit der Hälfte eurer Macht oder mehr nehmen am CoT teil.
+- Spähen und Angriffe auf Städte sind erlaubt: Die 50%-Regel gilt. Ungeschirmte Spieler mit der Hälfte eurer Macht oder mehr nehmen am CoT teil. Clan-Märsche sind verboten.
 - Wenn ihr von einer Stadt angegriffen werdet, dürft ihr die Stadt 1:1 unabhängig von der Macht zurückangreifen. Clan-Märsche oder die Verwendung eines Champions für diesen Angriff sind verboten.
 - Wenn ihr von einer Stadt ausgespäht werdet, dürft ihr 1:1 zurückspähen. Ihr müsst die 50%-Macht-Regel befolgen, um zurück anzugreifen.
 ---

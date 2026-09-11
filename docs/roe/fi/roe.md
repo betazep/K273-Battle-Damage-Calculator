@@ -36,7 +36,7 @@ Kaikkien klaanijohtajien on täytettävä velvollisuutensa johtajina:
 - Tiedustelu ja hyökkäykset klaanirakennuksiin ovat AINA kiellettyjä.
 - Tarkoituksellinen RSS-kohteiden tiedustelu ja hyökkääminen on AINA kiellettyä.
 - Tiedustelu ja hyökkäykset kaupunkeihin ja portteihin ovat kiellettyjä, paitsi suunnitelluissa CP-vaihdoissa tai jos ne ovat vihamielisiä. (Varoitus: kuningaskunta on avoin, seuraa porttejasi tarkasti koko ajan.)
-- Jos sinut tiedustellaan tai sinua hyökätään kaupungista tai portista, sinä tai klaanin edustaja (championisi) voit hyökätä 1:1 takaisin kyseiseen porttiin tai kaupunkiin. Klaanihyökkäysmarssi on sallittu. Voit myös valita diplomaattisen reitin, kuten konfliktien ratkaisuprosessissa on määritelty. Et voi sekä hyökätä että vastaanottaa korvausta.
+- Jos sinut tiedustellaan tai sinua hyökätään kaupungista tai portista, sinä tai klaanin edustaja (championisi) voit hyökätä 1:1 takaisin kyseiseen porttiin tai kaupunkiin. Klaanihyökkäysmarssit ovat kiellettyjä. Voit myös valita diplomaattisen reitin, kuten konfliktien ratkaisuprosessissa on määritelty. Et voi sekä hyökätä että vastaanottaa korvausta.
 ## 2. KLAANIT JA DIPLOMAATIT
 
 - Klaanien tulee ilmoittaa "We abide by K273 ROE" (tai vastaavaa) tullakseen palvelluksi kuningaskunnan toimesta ja saadakseen ROE-suojan.
@@ -69,7 +69,7 @@ Kuninkaallisen Vartioston veronkeruuta ei ole. Klaanien tulisi nimetä joku muis
 - Tiedustelu ja hyökkäykset klaanirakennuksiin ovat AINA kiellettyjä.
 - Tarkoituksellinen RSS-kohteiden tiedustelu ja hyökkääminen on AINA kiellettyä.
 - Tiedustelu ja hyökkäykset kaikkiin portteihin ovat kiellettyjä. (Varoitus: muut kuningaskunnat eivät noudata tätä.)
-- Tiedustelu ja hyökkäykset kaupunkeihin ovat sallittuja: 50 % -sääntö pätee. Kilvettömät pelaajat, joiden voima on vähintään puolet sinun voimastasi, osallistuvat CoT:hen.
+- Tiedustelu ja hyökkäykset kaupunkeihin ovat sallittuja: 50 % -sääntö pätee. Kilvettömät pelaajat, joiden voima on vähintään puolet sinun voimastasi, osallistuvat CoT:hen. Klaanihyökkäysmarssit ovat kiellettyjä.
 - Jos sinua hyökätään kaupungista, voit hyökätä kaupunkiin takaisin 1:1 riippumatta voimasta. Klaanihyökkäysmarssit tai championin käyttö tähän hyökkäykseen on kielletty.
 - Jos sinua tiedustellaan kaupungista, voit tiedustella takaisin 1:1. Sinun on noudatettava 50 % -voimasääntöä, jotta voit hyökätä takaisin.
 ---

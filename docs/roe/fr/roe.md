@@ -36,7 +36,7 @@ Tous les chefs de clan doivent remplir leurs obligations en tant que dirigeants 
 - L'espionnage et les attaques sur les bâtiments de clan sont TOUJOURS interdits.
 - L'espionnage et l'attaque intentionnels des RSS sont TOUJOURS interdits.
 - L'espionnage et les attaques sur les villes et les portails sont interdits, sauf pour des échanges CP planifiés ou s'ils sont hostiles. (Avertissement : le royaume est ouvert, surveillez vos portails attentivement à tout moment.)
-- Si vous êtes scouté ou attaqué depuis une ville ou un portail, vous ou un représentant de clan (votre champion) pouvez riposter 1:1 sur le portail ou la ville fautifs. Vous êtes autorisé à utiliser une marche de clan pour l'attaque. Vous pouvez choisir la voie diplomatique telle que définie dans le Processus de Résolution des Conflits. Vous ne pouvez pas attaquer et recevoir une compensation.
+- Si vous êtes scouté ou attaqué depuis une ville ou un portail, vous ou un représentant de clan (votre champion) pouvez riposter 1:1 sur le portail ou la ville fautifs. Les marches de clan sont interdites. Vous pouvez choisir la voie diplomatique telle que définie dans le Processus de Résolution des Conflits. Vous ne pouvez pas attaquer et recevoir une compensation.
 ## 2. CLANS ET DIPLOMATES
 
 - Les clans doivent indiquer « We abide by K273 ROE » (ou similaire) pour être servis par le royaume et protégés par le ROE.
@@ -69,7 +69,7 @@ Il n'y a pas de collecte d'impôts par la Garde Royale. Les clans doivent désig
 - L'espionnage et les attaques sur les bâtiments de clan sont TOUJOURS interdits.
 - L'espionnage et l'attaque intentionnels des RSS sont TOUJOURS interdits.
 - L'espionnage et les attaques sur tous les portails sont interdits. (Avertissement : les autres royaumes ne respecteront pas cela.)
-- L'espionnage et les attaques sur les villes sont autorisés : la règle des 50 % s'applique. Les joueurs sans bouclier avec la moitié de votre puissance ou plus participent au CoT.
+- L'espionnage et les attaques sur les villes sont autorisés : la règle des 50 % s'applique. Les joueurs sans bouclier avec la moitié de votre puissance ou plus participent au CoT. Les marches de clan sont interdites.
 - Si vous êtes attaqué depuis une ville, vous pouvez attaquer la ville en retour 1:1 quelle que soit la puissance. Les marches de clan ou l'utilisation d'un champion pour cette attaque sont interdites.
 - Si vous êtes scouté depuis une ville, vous pouvez scouter en retour 1:1. Vous devez respecter la règle des 50 % de puissance pour attaquer en retour.
 ---
